@@ -1,0 +1,179 @@
+﻿<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+
+
+<head>
+    <title>@ViewBag.Title</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.themesmarket.net/html/linstar/images/favicon.ico">
+
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+
+
+    <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- ######### CSS STYLES ######### -->
+
+    <link rel="stylesheet" href="@Url.Content("~/css/reset.css")" type="text/css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/style.css")" type="text/css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/custom.css")" type="text/css" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="@Url.Content("~/css/font-awesome/css/font-awesome.min.css")">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <!-- simple line icons -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/simpleline-icons/simple-line-icons.css")" media="screen" />
+
+    <!-- et linefont icons -->
+    <link rel="stylesheet" href="@Url.Content("~/css/et-linefont/etlinefont.css")">
+
+    <!-- animations -->
+    <link href="@Url.Content("~/js/animations/css/animations.min.css")" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- responsive devices styles -->
+    <link rel="stylesheet" media="screen" href="@Url.Content("~/css/responsive-leyouts.css")" type="text/css" />
+
+    <!-- shortcodes -->
+    <link rel="stylesheet" media="screen" href="@Url.Content("~/css/shortcodes.css")" type="text/css" />
+
+    <!-- style switcher -->
+    <link rel="stylesheet" media="screen" href="@Url.Content("~/js/style-switcher/color-switcher.css")" />
+
+    <!-- mega menu -->
+    <link href="@Url.Content("~/js/mainmenu/bootstrap.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/js/mainmenu/demo.css")" rel="stylesheet">
+    <link href="@Url.Content("~/js/mainmenu/menu2.css")" rel="stylesheet">
+
+    <!-- MasterSlider -->
+    <link rel="stylesheet" href="@Url.Content("~/js/masterslider/style/masterslider.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/js/masterslider/skins/default/style.css")" />
+
+    <!-- cubeportfolio -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/cubeportfolio/cubeportfolio.min.css")">
+
+    <!-- owl carousel -->
+    <link href="@Url.Content("~/js/carouselowl/owl.transitions.css")" rel="stylesheet">
+    <link href="@Url.Content("~/js/carouselowl/owl.carousel.css")" rel="stylesheet">
+
+    <!-- tabs 2 -->
+    <link href="@Url.Content("~/js/tabs2/tabacc.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/js/tabs2/detached2.css")" rel="stylesheet" />
+
+    <!-- flexslider -->
+    <link rel="stylesheet" href="@Url.Content("~/js/flexslider/flexslider.css")" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/flexslider/skin.css")" />
+    <!-- accordion -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/accordion/style.css")" />
+ 
+    @RenderSection("styles",required:false)
+
+
+</head>
+
+<body>
+
+    <div class="site_wrapper">
+        @{Html.RenderPartial("_header");}
+
+        @RenderBody()
+
+        @{Html.RenderPartial("_footer");}
+        <a href="#" class="scrollup">Scroll</a>
+        <!-- end scroll to top of the page-->
+    </div>
+
+
+    <!-- ######### JS FILES ######### -->
+    <!-- get jQuery used for the theme -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/universal/jquery.js")"></script>
+    <script src="@Url.Content("~/js/style-switcher/styleselector.js")"></script>
+    <script src="@Url.Content("~/js/animations/js/animations.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/mainmenu/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/js/mainmenu/customeUI.js")"></script>
+    <script src="@Url.Content("~/js/masterslider/masterslider.min.js")"></script>
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            var slider = new MasterSlider();
+            // adds Arrows navigation control to the slider.
+            slider.control('arrows');
+            slider.control('bullets');
+
+            slider.setup('masterslider', {
+                width: 1400, // slider standard width
+                height: 680, // slider standard height
+                space: 0,
+                speed: 45,
+                layout: 'fullwidth',
+                loop: true,
+                preload: 0,
+                autoplay: true,
+                view: "parallaxMask"
+            });
+        })(jQuery);
+    </script>
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            var slider = new MasterSlider();
+
+            slider.setup('masterslider2', {
+                width: 1400, // slider standard width
+                height: 580, // slider standard height
+                space: 0,
+                speed: 27,
+                layout: 'fullwidth',
+                loop: true,
+                preload: 0,
+                autoplay: true,
+                view: "basic",
+            });
+        })(jQuery);
+    </script>
+    <script src="@Url.Content("~/js/scrolltotop/totop.js")" type="text/javascript"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/mainmenu/sticky.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/mainmenu/modernizr.custom.75180.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/main.js")"></script>
+    <script src="@Url.Content("~/js/tabs2/index.js")"></script>
+    <script>
+        $('.accordion, .tabs').TabsAccordion({
+            hashWatch: true,
+            pauseMedia: true,
+            responsiveSwitch: 'tablist',
+            saveState: sessionStorage,
+        });
+    </script>
+    <script defer src="@Url.Content("~/js/flexslider/jquery.flexslider.js")"></script>
+    <script defer src="@Url.Content("~/js/flexslider/custom.js")"></script>
+    <script src="@Url.Content("~/js/aninum/jquery.animateNumber.min.js")"></script>
+    <script src="@Url.Content("~/js/carouselowl/owl.carousel.js")"></script>
+
+    <script type="text/javascript" src="@Url.Content("~/js/universal/custom.js")"></script>
+    @RenderSection("script",required:false)
+
+</body>
+
+<!-- Mirrored from themesmarket.net/html/linstar/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Jun 2020 06:55:14 GMT -->
+
+</html>
