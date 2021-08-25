@@ -12,5 +12,15 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View();
         }
+
+        public IActionResult AdmissionProcess()
+        {
+            return View();
+        }
+
+        public IActionResult Achievements()
+        {
+            return View();
+        }
     }
 }

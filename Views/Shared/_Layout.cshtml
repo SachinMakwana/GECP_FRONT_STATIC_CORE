@@ -78,9 +78,6 @@
     <link href="@Url.Content("~/js/tabs2/tabacc.css")" rel="stylesheet" />
     <link href="@Url.Content("~/js/tabs2/detached2.css")" rel="stylesheet" />
 
-    <!-- flexslider -->
-    <link rel="stylesheet" href="@Url.Content("~/js/flexslider/flexslider.css")" type="text/css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/flexslider/skin.css")" />
     <!-- accordion -->
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/accordion/style.css")" />
  
@@ -110,67 +107,19 @@
     <script src="@Url.Content("~/js/animations/js/animations.min.js")" type="text/javascript"></script>
     <script src="@Url.Content("~/js/mainmenu/bootstrap.min.js")"></script>
     <script src="@Url.Content("~/js/mainmenu/customeUI.js")"></script>
-    <script src="@Url.Content("~/js/masterslider/masterslider.min.js")"></script>
-    <script type="text/javascript">
-        (function ($) {
-            "use strict";
-            var slider = new MasterSlider();
-            // adds Arrows navigation control to the slider.
-            slider.control('arrows');
-            slider.control('bullets');
-
-            slider.setup('masterslider', {
-                width: 1400, // slider standard width
-                height: 680, // slider standard height
-                space: 0,
-                speed: 45,
-                layout: 'fullwidth',
-                loop: true,
-                preload: 0,
-                autoplay: true,
-                view: "parallaxMask"
-            });
-        })(jQuery);
-    </script>
-    <script type="text/javascript">
-        (function ($) {
-            "use strict";
-            var slider = new MasterSlider();
-
-            slider.setup('masterslider2', {
-                width: 1400, // slider standard width
-                height: 580, // slider standard height
-                space: 0,
-                speed: 27,
-                layout: 'fullwidth',
-                loop: true,
-                preload: 0,
-                autoplay: true,
-                view: "basic",
-            });
-        })(jQuery);
-    </script>
+    @RenderSection("master_slider", required: false)
     <script src="@Url.Content("~/js/scrolltotop/totop.js")" type="text/javascript"></script>
     <script type="text/javascript" src="@Url.Content("~/js/mainmenu/sticky.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/js/mainmenu/modernizr.custom.75180.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/main.js")"></script>
-    <script src="@Url.Content("~/js/tabs2/index.js")"></script>
-    <script>
-        $('.accordion, .tabs').TabsAccordion({
-            hashWatch: true,
-            pauseMedia: true,
-            responsiveSwitch: 'tablist',
-            saveState: sessionStorage,
-        });
-    </script>
-    <script defer src="@Url.Content("~/js/flexslider/jquery.flexslider.js")"></script>
-    <script defer src="@Url.Content("~/js/flexslider/custom.js")"></script>
+    @RenderSection("tabs", required: false)
+
     <script src="@Url.Content("~/js/aninum/jquery.animateNumber.min.js")"></script>
     <script src="@Url.Content("~/js/carouselowl/owl.carousel.js")"></script>
-
+    @RenderSection("scripts", required: false)
     <script type="text/javascript" src="@Url.Content("~/js/universal/custom.js")"></script>
-    @RenderSection("script",required:false)
+
 
 </body>
 
