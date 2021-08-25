@@ -1,4 +1,7 @@
-﻿<div class="top_section2">
+﻿@{ 
+    string controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+}
+<div class="top_section2">
     <div class="container">
 
 
@@ -64,13 +67,13 @@
                         <ul class="nav navbar-nav">
 
                             <li class="dropdown yamm-fw">
-                                <a href="@Url.Action("Index","Home")" class="dropdown-toggle active">Home</a>
+                                <a href="@Url.Action("Index","Home")" class="dropdown-toggle @( controllerName == "Home" ? "active" : "")">Home</a>
 
 
                             </li>
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Institute</a>
+                                <a href="#" class="dropdown-toggle @( controllerName == "Institute" ? "active" : "")">Institute</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="@Url.Action("AboutUs","Institute")">About Us</a></li>
                                     <li><a href="@Url.Action("CoE","Institute")">Center Of Excellense</a></li>
@@ -79,7 +82,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Academics</a>
+                                <a href="#" class="dropdown-toggle @( controllerName == "Academics" ? "active" : "")">Academics</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="@Url.Action("AcademicCalender","Academics")">Academic Calender</a></li>
 
