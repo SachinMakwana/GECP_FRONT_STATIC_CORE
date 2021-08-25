@@ -494,7 +494,7 @@
                 </li>
                 <!-- end slide -->
 
-               
+
 
             </ul>
         </div>
@@ -505,7 +505,6 @@
 <!-- end parallax section 1 -->
 
 
-<div class="clearfix margin_bottom12"></div>
 
 
 <div class="client_logos animate" data-anim-type="fadeIn" data-anim-delay="100">
@@ -521,3 +520,67 @@
     </div>
 </div>
 <!-- end client logos -->
+
+@section tabs{
+
+    <script src="@Url.Content("~/js/tabs2/index.js")"></script>
+    <script>
+        $('.accordion, .tabs').TabsAccordion({
+            hashWatch: true,
+            pauseMedia: true,
+            responsiveSwitch: 'tablist',
+            saveState: sessionStorage,
+        });
+    </script>
+    <script defer src="@Url.Content("~/js/flexslider/jquery.flexslider.js")"></script>
+    <script defer src="@Url.Content("~/js/flexslider/custom.js")"></script>
+}
+
+@section master_slider{
+    <script src="@Url.Content("~/js/masterslider/masterslider.min.js")"></script>
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            var slider = new MasterSlider();
+            // adds Arrows navigation control to the slider.
+            slider.control('arrows');
+            slider.control('bullets');
+
+            slider.setup('masterslider', {
+                width: 1400, // slider standard width
+                height: 680, // slider standard height
+                space: 0,
+                speed: 45,
+                layout: 'fullwidth',
+                loop: true,
+                preload: 0,
+                autoplay: true,
+                view: "parallaxMask"
+            });
+        })(jQuery);
+    </script>
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            var slider = new MasterSlider();
+
+            slider.setup('masterslider2', {
+                width: 1400, // slider standard width
+                height: 580, // slider standard height
+                space: 0,
+                speed: 27,
+                layout: 'fullwidth',
+                loop: true,
+                preload: 0,
+                autoplay: true,
+                view: "basic",
+            });
+        })(jQuery);
+    </script>
+}
+
+@section styles{
+    <!-- flexslider -->
+    <link rel="stylesheet" href="@Url.Content("~/js/flexslider/flexslider.css")" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/flexslider/skin.css")" />
+}
