@@ -1,5 +1,6 @@
 ﻿@{ 
     string controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+    string actionName = this.ViewContext.RouteData.Values["action"].ToString();
 }
 <div class="top_section2">
     <div class="container">
@@ -75,19 +76,19 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "Institute" ? "active" : "")">Institute</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="@Url.Action("AboutUs","Institute")">About Us</a></li>
-                                    <li><a href="@Url.Action("CoE","Institute")">Center Of Excellense</a></li>
-                                    <li><a href="@Url.Action("NewsLetter","Institute")">Newsletter</a></li>
-                                    <li><a href="@Url.Action("RTI","Institute")">RTI</a></li>
+                                    <li class=" @( actionName=="AboutUs" ? "active" : "")"><a href="@Url.Action("AboutUs","Institute")">About Us</a></li>
+                                    <li class=" @( actionName=="CoE" ? "active" : "")"><a href="@Url.Action("CoE","Institute")">Center Of Excellense</a></li>
+                                    <li class=" @( actionName=="NewsLetter" ? "active" : "")"><a href="@Url.Action("NewsLetter","Institute")">Newsletter</a></li>
+                                    <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("RTI","Institute")">RTI</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "Academics" ? "active" : "")">Academics</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="@Url.Action("AcademicCalender","Academics")">Academic Calender</a></li>
+                                    <li class=" @( actionName=="AcademicCalender" ? "active" : "")"><a href="@Url.Action("AcademicCalender","Academics")">Academic Calender</a></li>
 
-                                    <li><a href="@Url.Action("AdmissionProcess","Academics")">Admission Process</a></li>
-                                    <li><a href="@Url.Action("Achievements","Academics")">Achievements</a></li>
+                                    <li class=" @( actionName=="AdmissionProcess" ? "active" : "")"><a href="@Url.Action("AdmissionProcess","Academics")">Admission Process</a></li>
+                                    <li class=" @( actionName=="Achievements" ? "active" : "")"><a href="@Url.Action("Achievements","Academics")">Achievements</a></li>
 
 
 
