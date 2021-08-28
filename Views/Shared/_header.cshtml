@@ -126,9 +126,9 @@
                             </li>
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Campus Committees</a>
+                                <a href="#" class="dropdown-toggle @( controllerName == "CampusCommitte" ? "active" : "")">Campus Committees</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="womencell.html">Women Cell</a></li>
+                                    <li class="@( actionName == "WomenCell" ? "active" : "")"><a href="@Url.Action("WomenCell","CampusCommitte")">Women Cell</a></li>
                                     <li><a href="ssip.html">SSIP Cell</a></li>
                                     <li><a href="nss.html">National Service Scheme(NSS)</a></li>
                                     <li><a href="antiragging.html">Anti Ragging Cell</a></li>
