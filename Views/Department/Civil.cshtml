@@ -1,7 +1,6 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Civil";
 }
 
 <div class="clearfix"></div>
@@ -187,33 +186,33 @@
 
                     <div class="sl-div two">
 
-                        <div class="cirpimg"><img src="@Url.Content("~/images/Civil/vdp.png")" alt="" style="width:200.6px; height:199.783px"></div>
+                        <div class="cirpimg"><img src="@Url.Content("~/images/Civil/vdp.png")" alt="" class="dept_faculty_pic"></div>
                         <h4 class="roboto">Mr. Vipul Patel<em></em></h4>
                         <h4 class="roboto">HEAD OF DEPARTMENT <em></em></h4>
                         <br />
-                        <a href="cse_faculty.html" class="but_calendar"><i class="fa fa-hand-o-right fa-lg"></i>&nbsp; Read more</a>
+                        
 
                     </div>
                     <!-- end section -->
 
                     <div class="sl-div two">
 
-                        <div class="cirpimg"><img src="@Url.Content("~/images/Civil/vmp_(3)2.jpg")" alt="" style="width:200.6px; height:199.783px"></div>
+                        <div class="cirpimg"><img src="@Url.Content("~/images/Civil/vmp_(3)2.jpg")" alt="" class="dept_faculty_pic"></div>
                         <h4 class="roboto">Dr. Vijendrakumar Patel<em></em></h4>
                         <h4 class="roboto">Assisant Professor <em></em></h4>
                         <br />
-                        <a href="cse_faculty.html" class="but_calendar"><i class="fa fa-hand-o-right fa-lg"></i>&nbsp; Read more</a>
+                        
 
                     </div>
                     <!-- end section -->
 
                     <div class="sl-div two">
 
-                        <div class="cirpimg"><img src="@Url.Content("~/images/Civil/Manjurali.jpg")" alt="" style="width:200.6px; height:199.783px"></div>
+                        <div class="cirpimg"><img src="@Url.Content("~/images/Civil/Manjurali.jpg")" alt="" class="dept_faculty_pic"></div>
                         <h4 class="roboto">Dr. Manjurali Balya <em></em></h4>
                         <h4 class="roboto">Assisant Professor <em></em></h4>
                         <br />
-                        <a href="cse_faculty.html" class="but_calendar"><i class="fa fa-hand-o-right fa-lg"></i>&nbsp; Read more</a>
+                        
 
                     </div>
                     <!-- end section -->
@@ -231,33 +230,7 @@
     </div>
     <!-- end slider section -->
     <!-- end parallax section 10 -->
-    <div class="margin_top2"></div>
-    <div class="works01">
-        <div class="container">
-
-            <div id="filters-container" class="cbp-l-filters-button">
-                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                    All
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".identity" class="cbp-filter-item">
-                    Seminars Hall
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".web-design" class="cbp-filter-item">
-                    Lab
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".graphic" class="cbp-filter-item">
-                    Workshops
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".logos" class="cbp-filter-item">
-                    Department
-                    <div class="cbp-filter-counter"></div>
-                </div>
-            </div>
-
+   
 
             <div id="grid-container" class="cbp-l-grid-fullWidth">
 
@@ -501,4 +474,33 @@
     </div>
 
 
-   
+    @section scripts{
+
+        @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
+        <script src="@Url.Content("~/js/loopslider/jquery.loopslider.js")"></script>
+        <script>
+            $(function () {
+                $('#slider').loopSlider({
+                    autoMove: true,
+                    mouseOnStop: true,
+                    turn: 9000,
+                    motion: 'swing',
+                    delay: 500,
+                    width: 750,
+                    height: 400,
+                    marginLR: 10,
+                    viewSize: 100,
+                    viewOverflow: 'visible',
+                    navPositionBottom: 30,
+                    navibotton: true,
+                    navbtnImage: ''
+                });
+            });
+        </script>
+
+
+    }
+    @section styles{
+        <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
+    }
+
