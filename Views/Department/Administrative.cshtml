@@ -1,7 +1,6 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Administrative";
 }
 
 <div class="clearfix"></div>
@@ -117,7 +116,7 @@
 
             <div class="one_fourth animate" data-anim-type="fadeInLeft" data-anim-delay="100">
 
-                <img src="@Url.Content("~/images/Administrative/VIJAY.png")" alt="" style="width:200.6px; height:199.783px">
+                <img src="@Url.Content("~/images/Administrative/VIJAY.jpg")" alt="" class="dept_faculty_pic">
                 <h5 class="roboto caps"><a href="faculty_tab.html"><strong>Dr. Vijay Soni</strong></a></h5>
                 <p>Assistant Professor</p>
 
@@ -127,7 +126,7 @@
 
             <div class="one_fourth animate" data-anim-type="fadeInRight" data-anim-delay="100">
 
-                <img src="@Url.Content("~/images/Administrative/VIJAY1.png")" alt="" style="width:200.6px; height:199.783px">
+                <img src="@Url.Content("~/images/Administrative/VIJAY1.jpg")" alt="" class="dept_faculty_pic">
                 <h5 class="roboto caps"><a href="faculty_tab.html"><strong>Dr. Vijay Makwana</strong></a></h5>
                 <p>Assistant Professor</p>
 
@@ -137,7 +136,7 @@
 
             <div class="one_fourth last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
-                <img src="@Url.Content("~/images/Administrative/HARSHAD.png")" alt="" style="width:200.6px; height:199.783px">
+                <img src="@Url.Content("~/images/Administrative/HARSHAD.jpg")" alt="" class="dept_faculty_pic">
                 <h5 class="roboto caps"><a href="faculty_tab.html"><strong>Dr. Harshadkumar Bhutadia</strong></a></h5>
                 <p>Assistant Professor</p>
 
@@ -146,7 +145,7 @@
             <!-- end section -->
             <div class="one_fourth last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
-                <img src="@Url.Content("~/images/Administrative/NARESH.png")" alt="" style="width:200.6px; height:199.783px">
+                <img src="@Url.Content("~/images/Administrative/NARESH.png")" alt="" class="dept_faculty_pic">
                 <h5 class="roboto caps"><a href="faculty_tab.html"><strong>Dr. Nareshkumar Chavda</strong></a></h5>
                 <p>Assistant Professor</p>
 
@@ -156,34 +155,7 @@
 
         </div>
     </div>
-    <!-- end parallax section 10 -->
-    <div class="margin_top2"></div>
-    <div class="works01">
-        <div class="container">
-
-            <div id="filters-container" class="cbp-l-filters-button">
-                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                    All
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".identity" class="cbp-filter-item">
-                    Seminars Hall
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".web-design" class="cbp-filter-item">
-                    Lab
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".graphic" class="cbp-filter-item">
-                    Workshops
-                    <div class="cbp-filter-counter"></div>
-                </div>
-                <div data-filter=".logos" class="cbp-filter-item">
-                    Department
-                    <div class="cbp-filter-counter"></div>
-                </div>
-            </div>
-
+    
 
             <div id="grid-container" class="cbp-l-grid-fullWidth">
 
@@ -413,6 +385,36 @@
         </div>
     </div>
     <!-- end works section -->
+    @section scripts{
+
+        @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
+        <script src="@Url.Content("~/js/loopslider/jquery.loopslider.js")"></script>
+        <script>
+            $(function () {
+                $('#slider').loopSlider({
+                    autoMove: true,
+                    mouseOnStop: true,
+                    turn: 9000,
+                    motion: 'swing',
+                    delay: 500,
+                    width: 750,
+                    height: 400,
+                    marginLR: 10,
+                    viewSize: 100,
+                    viewOverflow: 'visible',
+                    navPositionBottom: 30,
+                    navibotton: true,
+                    navbtnImage: ''
+                });
+            });
+        </script>
 
 
-   
+    }
+    @section styles{
+        <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
+    }
+
+
+
+
