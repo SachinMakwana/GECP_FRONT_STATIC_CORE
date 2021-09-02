@@ -7,9 +7,9 @@
     background-position: left 13px !important;
 }
 
-ul.nav>li>a.active {
+/*ul.nav>li>a.active {
     color: #5076bb !important;
-}
+}*/
 
 ul.nav>li>a:hover {
     color: #fff !important;
@@ -523,3 +523,7 @@ table.dataTable thead .sorting_desc_disabled:before {
 }
 
 
+.dept_faculty_pic {
+    width: 200.6px;
+    height: 199.783px;
+}
