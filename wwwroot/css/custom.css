@@ -7,9 +7,9 @@
     background-position: left 13px !important;
 }
 
-ul.nav>li>a.active {
+/*ul.nav>li>a.active {
     color: #5076bb !important;
-}
+}*/
 
 ul.nav>li>a:hover {
     color: #fff !important;
