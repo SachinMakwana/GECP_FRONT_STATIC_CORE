@@ -278,73 +278,7 @@
                 <div class="piechart1 white"><canvas class="loader5"></canvas> <br /> 2016 </div>
             </a>
 
-            <script>
-                    (function($) {
-                        "use strict";
 
-                        $(document).ready(function() {
-                            $('.loader').ClassyLoader4({
-                                percentage: 90,
-                                speed: 30,
-                                fontSize: '50px',
-                                diameter: 90,
-                                lineColor: 'rgba(19,175,235,1)',
-                                remainingLineColor: 'rgba(200,200,200,0.4)',
-                                lineWidth: 9
-                            });
-                        });
-
-                        $(document).ready(function() {
-                            $('.loader2').ClassyLoader4({
-                                percentage: 100,
-                                speed: 30,
-                                fontSize: '50px',
-                                diameter: 90,
-                                lineColor: 'rgba(63,195,95,1)',
-                                remainingLineColor: 'rgba(200,200,200,0.4)',
-                                lineWidth: 9
-                            });
-                        });
-
-                        $(document).ready(function() {
-                            $('.loader3').ClassyLoader4({
-                                percentage: 85,
-                                speed: 30,
-                                fontSize: '50px',
-                                diameter: 90,
-                                lineColor: 'rgba(252,66,66,1)',
-                                remainingLineColor: 'rgba(200,200,200,0.4)',
-                                lineWidth: 9
-                            });
-                        });
-
-                        $(document).ready(function() {
-                            $('.loader4').ClassyLoader4({
-                                percentage: 65,
-                                speed: 30,
-                                fontSize: '50px',
-                                diameter: 90,
-                                lineColor: 'rgba(47,146,238,1)',
-                                remainingLineColor: 'rgba(200,200,200,0.4)',
-                                lineWidth: 9
-                            });
-                        });
-
-                        $(document).ready(function() {
-                            $('.loader5').ClassyLoader4({
-                                percentage: 95,
-                                speed: 30,
-                                fontSize: '50px',
-                                diameter: 90,
-                                lineColor: 'rgba(199,98,203,1)',
-                                remainingLineColor: 'rgba(200,200,200,0.4)',
-                                lineWidth: 9
-                            });
-                        });
-
-
-                    })(jQuery);
-            </script>
 
             <!-- end section -->
 
@@ -715,3 +649,73 @@
     </div>
 </div>
 <!-- end featured section 38 -->
+@section scripts{
+    <script src="@Url.Content("~/js/classyloader/jquery.classyloader.min.js")"></script>
+    <script>
+        (function ($) {
+            "use strict";
+
+            $(document).ready(function () {
+                $('.loader').ClassyLoader4({
+                    percentage: 90,
+                    speed: 30,
+                    fontSize: '50px',
+                    diameter: 90,
+                    lineColor: 'rgba(19,175,235,1)',
+                    remainingLineColor: 'rgba(200,200,200,0.4)',
+                    lineWidth: 9
+                });
+            });
+
+            $(document).ready(function () {
+                $('.loader2').ClassyLoader4({
+                    percentage: 100,
+                    speed: 30,
+                    fontSize: '50px',
+                    diameter: 90,
+                    lineColor: 'rgba(63,195,95,1)',
+                    remainingLineColor: 'rgba(200,200,200,0.4)',
+                    lineWidth: 9
+                });
+            });
+
+            $(document).ready(function () {
+                $('.loader3').ClassyLoader4({
+                    percentage: 85,
+                    speed: 30,
+                    fontSize: '50px',
+                    diameter: 90,
+                    lineColor: 'rgba(252,66,66,1)',
+                    remainingLineColor: 'rgba(200,200,200,0.4)',
+                    lineWidth: 9
+                });
+            });
+
+            $(document).ready(function () {
+                $('.loader4').ClassyLoader4({
+                    percentage: 65,
+                    speed: 30,
+                    fontSize: '50px',
+                    diameter: 90,
+                    lineColor: 'rgba(47,146,238,1)',
+                    remainingLineColor: 'rgba(200,200,200,0.4)',
+                    lineWidth: 9
+                });
+            });
+
+            $(document).ready(function () {
+                $('.loader5').ClassyLoader4({
+                    percentage: 95,
+                    speed: 30,
+                    fontSize: '50px',
+                    diameter: 90,
+                    lineColor: 'rgba(199,98,203,1)',
+                    remainingLineColor: 'rgba(200,200,200,0.4)',
+                    lineWidth: 9
+                });
+            });
+
+
+        })(jQuery);
+    </script>
+}
