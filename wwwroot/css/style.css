@@ -1000,7 +1000,7 @@
 
 .top_section2 .right .tinfo strong {
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -2360,18 +2360,18 @@
     transform: skew(-10deg);
 }
 
-.featured_section19 .text h2 {
-    float: right;
-    color: #5076bb;
-    font-size: 27px;
-    line-height: 38px;
-    font-style: italic;
-    font-family: 'Dancing Script', cursive;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    line-height: 27px;
-    border-bottom: 1px solid #5076bb;
-}
+    .featured_section19 .text h2 {
+        float: right;
+        color: #ffffff;
+        font-size: 27px;
+        line-height: 38px;
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        line-height: 27px;
+        border-bottom: 1px solid #5076bb;
+    }
 
 
 /* featured section 20 */
