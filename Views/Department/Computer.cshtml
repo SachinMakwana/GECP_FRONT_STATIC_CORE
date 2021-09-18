@@ -31,9 +31,9 @@
 
                 <div><img src="@Url.Content("~/images/Department/Computer/comp1.jpg")" alt="" class="rimg"></div>
 
-                <div><img src="@Url.Content("~/images/Department/Computer/comp2.jpeg")" alt="" class="rimg"></div>
+                <div><img src="@Url.Content("~/images/Department/Computer/comp2.jpg")" alt="" class="rimg"></div>
 
-                <div><img src="@Url.Content("~/images/Department/Computer/comp3.jpg")" alt="" class="rimg"></div>
+                <div><img src="@Url.Content("~/images/Department/Computer/comp3.jpeg")" alt="" class="rimg"></div>
 
             </div>
 
@@ -95,7 +95,7 @@
                 <!-- end section -->
 
                 <div class="one_fifth last">
-                    <i class="fa fa-building"></i> <span id="target5">0</span>
+                    <i class="fa fa-building"></i> <span id="target25">0</span>
                     <h4>Labs And Workshops</h4>
                 </div>
                 <!-- end section -->
@@ -145,7 +145,7 @@
     <div class="featured_section3 two">
         <div class="container">
 
-            <div class="onecol_forty"><img src="@Url.Content("~/images/Department/Computer/HoD111.png")" alt="" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
+            <div class="onecol_forty"><img src="@Url.Content("~/images/Department/Computer/HoD.png")" alt="" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
             <div class="onecol_sixty last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
                 <strong class="color3">HOD MESSAGE</strong>
@@ -391,9 +391,80 @@
                 });
             });
         </script>
+        <script>
+            (function ($) {
+                "use strict";
+
+                $('#target21').animateNumber({
+                    number: 120,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+
+                $('#target22').animateNumber({
+                    number: 16,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+
+                $('#target23').animateNumber({
+                    number: 45,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+
+                $('#target24').animateNumber({
+                    number: 50,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+
+                $('#target25').animateNumber({
+                    number: 4,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+            })(jQuery);
+        </script>
 
 
     }
+
     @section styles{
         <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
     }
