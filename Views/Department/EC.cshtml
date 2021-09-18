@@ -95,7 +95,7 @@
                 <!-- end section -->
 
                 <div class="one_fifth last">
-                    <i class="fa fa-building"></i> <span id="target5">0</span>
+                    <i class="fa fa-building"></i> <span id="target25">0</span>
                     <h4>Labs And Workshops</h4>
                 </div>
                 <!-- end section -->
@@ -145,7 +145,7 @@
     <div class="featured_section3 two">
         <div class="container">
 
-            <div class="onecol_forty"><img src="@Url.Content("~/images/Department/EC/site-img16.png")" alt="" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
+            <div class="onecol_forty"><img src="@Url.Content("~/images/Department/EC/HoD.png")" alt="" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
 
             <div class="onecol_sixty last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
@@ -157,17 +157,15 @@
                     The department is committed to teaching students basic concepts and the latest trends through a smart educational process. The Department has excellent lab facilities which are being upgraded from time to time and provide ample opportunities for the students to learn and innovate. Students are also taught critical thinking and problem-solving skills while confidently adapting to the future. In addition to classroom lessons, guide and motivate students to practice the principles learned in the classroom through experiments.
                     <br />
                     I congratulate the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.
-
+                    <br /><br />
+                    -Mr. Sanjaykumar Joshi
                 </p>
-
-                <br /><br /><br />
-
-
             </div>
 
         </div>
     </div>
     <!-- end featured section 3 -->
+    <div class="margin_top4"></div>
 
     <div id="slider-outline">
 
@@ -343,21 +341,70 @@
             (function ($) {
                 "use strict";
 
-                $(document).ready(function () {
-                    $('#target21').animateNumber({
-                        number: 150,
+                $('#target21').animateNumber({
+                    number: 30,
 
-                        numberStep: function (now, tween) {
-                            var floored_number = Math.floor(now),
-                                target = $(tween.elem);
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
 
-                            target.text(floored_number);
-                        }
-                    },
-                        12000
-                    )
-                });
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
 
+                $('#target22').animateNumber({
+                    number: 11,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+
+                $('#target23').animateNumber({
+                    number: 45,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+
+                $('#target24').animateNumber({
+                    number: 15,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
+
+                $('#target25').animateNumber({
+                    number: 7,
+
+                    numberStep: function (now, tween) {
+                        var floored_number = Math.floor(now),
+                            target = $(tween.elem);
+
+                        target.text(floored_number);
+                    }
+                },
+                    5000
+                )
             })(jQuery);
         </script>
 

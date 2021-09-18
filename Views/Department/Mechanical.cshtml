@@ -388,33 +388,102 @@
     </div>
     <!-- end slider section -->
 </div>
-    <!-- end works section -->
-    @section scripts{
+<!-- end works section -->
+@section scripts{
 
-        @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
-        <script src="@Url.Content("~/js/loopslider/jquery.loopslider.js")"></script>
-        <script>
-            $(function () {
-                $('#slider').loopSlider({
-                    autoMove: true,
-                    mouseOnStop: true,
-                    turn: 9000,
-                    motion: 'swing',
-                    delay: 500,
-                    width: 750,
-                    height: 400,
-                    marginLR: 10,
-                    viewSize: 100,
-                    viewOverflow: 'visible',
-                    navPositionBottom: 30,
-                    navibotton: true,
-                    navbtnImage: ''
-                });
+    @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
+    <script src="@Url.Content("~/js/loopslider/jquery.loopslider.js")"></script>
+    <script>
+        $(function () {
+            $('#slider').loopSlider({
+                autoMove: true,
+                mouseOnStop: true,
+                turn: 9000,
+                motion: 'swing',
+                delay: 500,
+                width: 750,
+                height: 400,
+                marginLR: 10,
+                viewSize: 100,
+                viewOverflow: 'visible',
+                navPositionBottom: 30,
+                navibotton: true,
+                navbtnImage: ''
             });
-        </script>
+        });
+    </script>
+    <script>
+        (function ($) {
+            "use strict";
 
+            $('#target21').animateNumber({
+                number: 90,
 
-    }
-    @section styles{
-        <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
-    }
+                numberStep: function (now, tween) {
+                    var floored_number = Math.floor(now),
+                        target = $(tween.elem);
+
+                    target.text(floored_number);
+                }
+            },
+                5000
+            )
+
+            $('#target22').animateNumber({
+                number: 19,
+
+                numberStep: function (now, tween) {
+                    var floored_number = Math.floor(now),
+                        target = $(tween.elem);
+
+                    target.text(floored_number);
+                }
+            },
+                5000
+            )
+
+            $('#target23').animateNumber({
+                number: 45,
+
+                numberStep: function (now, tween) {
+                    var floored_number = Math.floor(now),
+                        target = $(tween.elem);
+
+                    target.text(floored_number);
+                }
+            },
+                5000
+            )
+
+            $('#target24').animateNumber({
+                number: 15,
+
+                numberStep: function (now, tween) {
+                    var floored_number = Math.floor(now),
+                        target = $(tween.elem);
+
+                    target.text(floored_number);
+                }
+            },
+                5000
+            )
+
+            $('#target25').animateNumber({
+                number: 8,
+
+                numberStep: function (now, tween) {
+                    var floored_number = Math.floor(now),
+                        target = $(tween.elem);
+
+                    target.text(floored_number);
+                }
+            },
+                5000
+            )
+        })(jQuery);
+    </script>
+
+}
+@section styles{
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
+}
