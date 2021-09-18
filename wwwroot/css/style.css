@@ -1576,12 +1576,12 @@
     text-align: center;
 }
 
-.featured_section6 .one_fourth i {
-    color: #9eca45;
-    font-size: 40px;
-    margin-bottom: 25px;
-    transition: all 0.3s ease;
-}
+    .featured_section6 .one_fourth i {
+        color: #5076bb;
+        font-size: 40px;
+        margin-bottom: 25px;
+        transition: all 0.3s ease;
+    }
 
 .featured_section6 .one_fourth {
     width: 25%;
