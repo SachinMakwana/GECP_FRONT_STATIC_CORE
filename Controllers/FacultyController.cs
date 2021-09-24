@@ -29,37 +29,38 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Computer()
         {
-            return View();
+            var compData = FacultyData.Where(m => m.Dept_ID == 2).ToList();
+            return View(compData);
         }
 
         public IActionResult Electrical()
         {
-            return View();
+            var elecData = FacultyData.Where(m => m.Dept_ID == 3).ToList();
+            return View(elecData);
         }
 
         public IActionResult Civil()
         {
-            return View();
+            var civilData = FacultyData.Where(m => m.Dept_ID == 4).ToList();
+            return View(civilData);
         }
 
         public IActionResult Mechanical()
         {
-            return View();
-        }
-
-        public IActionResult Library()
-        {
-            return View();
+            var mechData = FacultyData.Where(m => m.Dept_ID == 5).ToList();
+            return View(mechData);
         }
 
         public IActionResult Administration()
         {
-            return View();
+            var adminData = FacultyData.Where(m => m.Dept_ID == 6).ToList();
+            return View(adminData);
         }
 
-        public IActionResult TEQIP()
+        public IActionResult General()
         {
-            return View();
+            var genData = FacultyData.Where(m => m.Dept_ID == 7).ToList();
+            return View(genData);
         }
 
         public IActionResult FacultyInfo(int ID = 0)
