@@ -27,41 +27,44 @@
         {
             if (count % 2 == 0)
             {
-                <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
-                    <div style="width: 278px; height: 180px; float: left;">
-                        <img src="@Url.Content("~/"+data.image)" alt="" />
-                    </div>
-                    @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
-                    <p>@Html.Raw(data.personal_details) </p>
-                    <br />
-                    <div class="clearfix"></div>
-                    @if (data.tabs != null)
-                    {
-                        <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="but_calendar four">Read More</a>
-                    }
+        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+            <div class="faculties_img_div">
+                <img src="@Url.Content("~/"+data.image)" alt="" />
+                @if (data.tabs != null)
+                {
+                    <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+                }
+            </div>
+            @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
+            <p>@Html.Raw(data.personal_details) </p>
+            @*<br />
+        <div class="clearfix"></div>*@
+    
 
-                </div>
+
+        </div>
                 <!-- end section -->
 
                 <div class="clearfix margin_top5"></div>
             }
             else
             {
-                <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="200">
+    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
+        <div class="faculties_img_div">
+            <img src="@Url.Content("~/"+data.image)" alt="" />
+            @if (data.tabs != null)
+            {
+                <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+            }
+        </div>
+        @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
+        <p>@Html.Raw(data.personal_details) </p>
+        @*<br />
+        <div class="clearfix"></div>*@
 
-                    <div style="width: 278px; height: 180px; float: left;">
-                        <img src="@Url.Content("~/"+data.image)" alt="" />
-                    </div>
-                    @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
-                    <p>@Html.Raw(data.personal_details) </p>
-                    <br />
-                    <div class="clearfix"></div>
-                    @if (data.tabs != null)
-                    {
-                        <a href="@Url.Action("FacultyInfo", "Faculty", new { @id = data.ID })" class="but_calendar four">Read More</a>
-                    }
 
-                </div>
+
+    </div>
             }
             count++;
 

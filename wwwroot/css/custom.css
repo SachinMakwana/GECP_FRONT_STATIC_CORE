@@ -525,3 +525,21 @@ table.dataTable thead .sorting_desc_disabled:before {
     width: 200.6px;
     height: 199.783px;
 }
+
+.faculties_img_div {
+    width: 278px;
+    height: 180px;
+    float: left;
+    position:relative;
+}
+
+    .faculties_img_div .faculty_info_link {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        background: #4c99e5e0;
+        font-size: 20px;
+        padding: 7px 10px;
+        color: white;
+    }

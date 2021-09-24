@@ -17,7 +17,7 @@ namespace GECP_Front_End_Static.Controllers
         public FacultyController()
         {
             var webClient = new WebClient();
-            string json = webClient.DownloadString(@"D:\GECP_FRONT_STATIC_CORE\wwwroot\js\FacultyRecords.json");
+            string json = webClient.DownloadString(@"D:\Website\Github-desktop\GECP_FRONT_STATIC_CORE\wwwroot\js\FacultyRecords.json");
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
         }
         public IActionResult Electronics()
@@ -53,13 +53,13 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Administration()
         {
-            var adminData = FacultyData.Where(m => m.Dept_ID == 6).ToList();
+            var adminData = FacultyData.Where(m => m.Dept_ID == 7).ToList();
             return View(adminData);
         }
 
         public IActionResult General()
         {
-            var genData = FacultyData.Where(m => m.Dept_ID == 7).ToList();
+            var genData = FacultyData.Where(m => m.Dept_ID == 6).ToList();
             return View(genData);
         }
 
