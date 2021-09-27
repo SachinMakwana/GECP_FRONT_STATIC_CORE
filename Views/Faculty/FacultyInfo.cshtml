@@ -1,0 +1,43 @@
+﻿@model GECP_Front_End_Static.Models.FacultyDetailsVM
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int head = 0;
+    int value = 0;
+}
+
+<div class="content_fullwidth">
+    <div class="container">
+
+        <ul class="tabs3">
+            @foreach (var item in Model.tabs.Head)
+            {
+                <li><a href="#faculty-@head" target="_self">@item</a></li>
+                head++;
+            }
+        </ul>
+
+        <div class="tabs-content3 two">
+            @foreach (var item in Model.tabs.Values)
+            {
+                <div id="faculty-@value" class="tabs-panel3">
+
+                    @Html.Raw(item)
+
+                </div>
+                value++;
+            }
+            <!-- end tab 1 -->
+
+        </div>
+        <!-- end all tabs -->
+    </div>
+
+</div>
+}
+
+@section scripts{
+    <script src="@Url.Content("~/js/tabs/assets/js/responsive-tabs.min.js")" type="text/javascript"></script>
+}
+@section styles{
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
+}

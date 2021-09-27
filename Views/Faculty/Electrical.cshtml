@@ -1,6 +1,8 @@
-﻿@{
+﻿@model IList<GECP_Front_End_Static.Models.FacultyDetailsVM>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Electrical";
+    int count = 1;
 }
 
 <div class="clearfix"></div>
@@ -10,7 +12,7 @@
     <div class="container">
 
         <h1>
-            Meet Our Team<em>Electronics and Communications, Government Engineering College</em>
+            Meet Our Team<em>Electrical, Government Engineering College</em>
             <div class="line"></div>
         </h1>
 
@@ -21,139 +23,52 @@
 <div class="featured_section30">
     <div class="container">
 
-
-
-        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="200">
-
-            <img src="@Url.Content("~/images/peop-img21.jpg")" alt="" />
-            <h5>Haresh Jethwa <em>Head of Department</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-
-        </div>
-        <!-- end section -->
-
+        @foreach (FacultyDetailsVM data in Model)
+        {
+            if (count % 2 == 0)
+            {
         <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+            <div class="faculties_img_div">
+                <img src="@Url.Content("~/"+data.image)" alt="" />
+                @if (data.tabs != null)
+                {
+                    <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+                }
+            </div>
+            @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
+            <p>@Html.Raw(data.personal_details) </p>
+            @*<br />
+        <div class="clearfix"></div>*@
 
-            <img src="@Url.Content("~/images/peop-img22.jpg")" alt="" />
-            <h5>Dr. SANJAYKUMAR PATEL <em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
 
-        </div>
-        <!-- end section -->
-
-        <div class="clearfix margin_top5"></div>
-
-        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
-
-            <img src="@Url.Content("~/images/peop-img23.jpg")" alt="" />
-            <h5>Shradhha Modi <em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-        </div>
-        <!-- end section -->
-
-        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="500">
-
-            <img src="@Url.Content("~/images/peop-img24.jpg")" alt="" />
-            <h5>Mr. SUNILKUMAR PATEL<em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-        </div>
-        <!-- end section -->
-        <div class="clearfix margin_top5"></div>
-        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="200">
-
-            <img src="@Url.Content("~/images/peop-img21.jpg")" alt="" />
-            <h5>Haresh Jethwa <em>Head of Department</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
 
         </div>
-        <!-- end section -->
+                <!-- end section -->
 
-        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
-
-            <img src="@Url.Content("~/images/peop-img22.jpg")" alt="" />
-            <h5>Dr. SANJAYKUMAR PATEL <em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-
+                <div class="clearfix margin_top5"></div>
+            }
+            else
+            {
+    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
+        <div class="faculties_img_div">
+            <img src="@Url.Content("~/"+data.image)" alt="" />
+            @if (data.tabs != null)
+            {
+                <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+            }
         </div>
-        <!-- end section -->
+        @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
+        <p>@Html.Raw(data.personal_details) </p>
+        @*<br />
+        <div class="clearfix"></div>*@
 
-        <div class="clearfix margin_top5"></div>
 
-        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
 
-            <img src="@Url.Content("~/images/peop-img23.jpg")" alt="" />
-            <h5>Shradhha Modi <em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-        </div>
-        <!-- end section -->
+    </div>
+            }
+            count++;
 
-        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="500">
-
-            <img src="@Url.Content("~/images/peop-img24.jpg")" alt="" />
-            <h5>Mr. SUNILKUMAR PATEL<em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-        </div>
-        <!-- end section -->
-        <div class="clearfix margin_top5"></div>
-        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="200">
-
-            <img src="@Url.Content("~/images/peop-img21.jpg")" alt="" />
-            <h5>Haresh Jethwa <em>Head of Department</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-
-        </div>
-        <!-- end section -->
-
-        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
-
-            <img src="@Url.Content("~/images/peop-img22.jpg")" alt="" />
-            <h5>Dr. SANJAYKUMAR PATEL <em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-
-        </div>
-        <!-- end section -->
-
-        <div class="clearfix margin_top5"></div>
-
-        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
-
-            <img src="@Url.Content("~/images/peop-img23.jpg")" alt="" />
-            <h5>Shradhha Modi <em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-        </div>
-        <!-- end section -->
-
-        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="500">
-
-            <img src="@Url.Content("~/images/peop-img24.jpg")" alt="" />
-            <h5>Mr. SUNILKUMAR PATEL<em>Assistant Professor</em></h5>
-            <p>Qualification:PhD.<br> Experience : 18 Years<br> Area Of Interest : Machine Learning </p>
-            <br />
-            <a href="faculty_tab.html" class="but_calendar four">Read More</a>
-        </div>
-        <!-- end section -->
+        }
 
 
 
