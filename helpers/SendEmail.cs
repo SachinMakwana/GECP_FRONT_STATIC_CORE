@@ -1,0 +1,42 @@
+﻿using MailKit.Net.Smtp;
+using MailKit.Security;
+using MimeKit;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Threading;
+using System.Web;
+
+namespace GECP_Front_End_Static.helpers
+{
+    public static class Email
+    {
+        public static bool SendEmail(string EmailTo, string subject, string Body, string EmailFrom)
+        {
+
+
+            // Plug in your email service here to send an email.
+            var msg = new MimeMessage();
+            msg.From.Add(new MailboxAddress("user", "jspatel19264@gmail.com"));
+            msg.To.Add(new MailboxAddress(EmailTo));
+            //msg.Bcc.Add(new MailboxAddress(template.EmailBcc));
+            msg.Subject = subject;
+            var bodyBuilder = new BodyBuilder();
+            bodyBuilder.HtmlBody = Body;
+            msg.Body = bodyBuilder.ToMessageBody();
+
+
+            using (var smtp = new SmtpClient())
+            {
+                smtp.Connect("smtp.gmail.com", 465, SecureSocketOptions.SslOnConnect);
+                smtp.Authenticate(credentials: new NetworkCredential("Username", "password"));
+                smtp.Send(msg, CancellationToken.None);
+                smtp.Disconnect(true, CancellationToken.None);
+            }
+
+            return true;
+        }
+    }
+}

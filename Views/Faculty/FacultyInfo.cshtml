@@ -5,6 +5,45 @@
     int value = 0;
 }
 
+<div class="margin_top11"></div>
+<div class="featured_section71">
+    <div class="container">
+         
+        <div class="one_third">
+            
+            <img src="@Url.Content("~/"+Model.image)" alt="" />
+            
+        </div>
+
+        <!-- end section -->
+
+        <div class="two_third last">
+
+            <h5 class="roboto">
+                <strong>
+                    @foreach (var item in Model.personal_details)
+                    {
+                        @Html.Raw(item)
+                    }
+                </strong>
+            </h5>
+            @*<p>
+                @foreach (var item in Model.personal_details)
+                {
+                    @Html.Raw(item)
+                }
+            </p>*@
+            <br /><br />
+
+
+
+        </div>
+        <!-- end section -->
+
+    </div>
+</div>
+<!-- end featured section 71 -->
+
 <div class="content_fullwidth">
     <div class="container">
 

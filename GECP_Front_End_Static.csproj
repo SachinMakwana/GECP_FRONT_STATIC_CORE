@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="MailKit">
+      <HintPath>..\GECP\GECP\bin\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="MimeKit">
+      <HintPath>..\GECP\GECP\bin\MimeKit.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\GECP\GECP\bin\Newtonsoft.Json.dll</HintPath>
     </Reference>

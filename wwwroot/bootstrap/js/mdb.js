@@ -2939,11 +2939,7 @@
                 return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
             })(t)
         }
-        /*!
-         * bsCustomFileInput v1.3.2 (https://github.com/Johann-S/bs-custom-file-input)
-         * Copyright 2018 - 2019 Johann-S <johann.servoire@gmail.com>
-         * Licensed under MIT (https://github.com/Johann-S/bs-custom-file-input/blob/master/LICENSE)
-         */
+
         e = void 0, r = function() {
             var t = {
                     CUSTOMFILE: '.custom-file input[type="file"]',
