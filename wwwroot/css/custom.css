@@ -543,3 +543,32 @@ table.dataTable thead .sorting_desc_disabled:before {
         padding: 7px 10px;
         color: white;
     }
+
+
+.women_cell_title {
+    background: #999 url(../images/women_banner.jpg) no-repeat center top;
+    background-position-y: -50px;
+}
+
+.ssip_title {
+    background: #999 url(../images/ssip_banner.jpg) no-repeat center top;
+}
+    .ssip_title h1, .anti_ragging_title h1 {
+        padding: 20px 0 0 0;
+        background-color: #25252575;
+    }
+.text-justify{
+    text-align:justify;
+}
+
+.anti_ragging_title {
+    background: #999 url(../images/anti_ragging_banner.png) no-repeat center top;
+}
+
+.grievance_title {
+    background: #999 url(../images/grievance_banner.jpg) no-repeat center top;
+}
+
+.ee_title {
+    background: #999 url(../images/ee_banner.jpg) no-repeat center top;
+}

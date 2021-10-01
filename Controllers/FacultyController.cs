@@ -7,17 +7,23 @@ using System.Net;
 using System.Threading.Tasks;
 using GECP_Front_End_Static.Models;
 using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
 namespace GECP_Front_End_Static.Controllers
 {
     public class FacultyController : Controller
     {
+        private readonly IWebHostEnvironment _hostingEnvironment;
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
 
-        public FacultyController()
+        public FacultyController(IWebHostEnvironment hostingEnvironment)
         {
+            _hostingEnvironment = hostingEnvironment;
+            string webRootPath = _hostingEnvironment.WebRootPath;
+            string jsonpath = webRootPath + @"\js\FacultyRecords.json";
+
             var webClient = new WebClient();
-            string json = webClient.DownloadString(@"D:\GECP_FRONT_STATIC_CORE\wwwroot\js\FacultyRecords.json");
+            string json = webClient.DownloadString(jsonpath);
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
         }
         public IActionResult Electronics()
