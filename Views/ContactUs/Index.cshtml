@@ -1,0 +1,193 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "ContactUs";
+}
+
+<div class="clearfix"></div>
+
+
+<div class="page_title3">
+    <div class="container">
+
+        <h1>
+             Contact Us <em>Government Engineering College</em>
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="content_fullwidth less2">
+    <div class="container">
+        <div class="one_half">
+
+            <div class="address_info">
+
+                <h4>College <strong>Address</strong></h4>
+                <ul>
+                    <li>
+                        <strong>GOVERNMENT ENGINEERING COLLEGE,AT. KATPUR, PATAN</strong><br />
+                        At & Post. Katpur, Patan, Gujarat-384265<br />
+                        Telephone: 2766291560<br />
+                        @*FAX: +1 0123-4567-8900<br />*@
+                        E-mail: <a href="mailto:principalgecpatan@gmail.com">principalgecpatan@gmail.com</a><br />
+                        @*Website: <a href="index.html">www.yoursitename.com</a>*@
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <h4>College <strong>Location</strong></h4>
+            <iframe class="google-map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.2602485922553!2d72.10120971429814!3d23.80934299244041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c7d0db6c534b3%3A0x34c9aef47a82f519!2sGovernment%20Engineering%20College%2C%20Patan!5e0!3m2!1sen!2sin!4v1592198287103!5m2!1sen!2sin"></iframe>
+            <br />
+            <small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.2602485922553!2d72.10120971429814!3d23.80934299244041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c7d0db6c534b3%3A0x34c9aef47a82f519!2sGovernment%20Engineering%20College%2C%20Patan!5e0!3m2!1sen!2sin!4v1592198287103!5m2!1sen!2sin">View Larger Map</a></small>
+        </div>
+
+        <div class="one_half last">
+
+            <p>Feel free to talk to our online representative at any time you please using our Live Chat system on our website or one of the below instant messaging programs.</p>
+            <br /><br />
+            
+            <div class="cforms">
+
+
+                <div id="form_status"></div>
+
+                <form id="contactform">
+
+                    <label class="label">Name<em>*</em></label>
+                    <label class="input">
+                        <input type="text" name="Name" id="Name" value="" />
+                    </label>
+
+                    <div class="clearfix"></div>
+
+                    <label class="label">Email <em>*</em></label>
+                    <label class="input">
+                        <input type="text" name="Email" id="Email" value="" />
+                    </label>
+
+                    <div class="clearfix"></div>
+
+
+                    <label class="label">Phone <em>*</em></label>
+                    <label class="input">
+                        <input type="text" name="Phone" id="Phone" value="" />
+                    </label>
+
+                    <div class="clearfix"></div>
+
+                    <label class="label">Subject <em>*</em></label>
+                    <label class="textarea">
+                        <textarea rows="5" name="Subject" id="Subject"></textarea>
+                    </label>
+
+                    <div class="clearfix"></div>
+
+                    <label class="label">Message <em>*</em></label>
+                    <label class="textarea">
+                        <textarea rows="5" name="Message" id="Message"></textarea>
+                    </label>
+
+                    <div class="clearfix"></div>
+                    <button type="button" class="button" id="btnsubmit">Send Message</button>
+
+                </form>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div><!-- end content area -->
+
+<div class="clearfix margin_top12"></div>
+
+@section scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha256-+BEKmIvQ6IsL8sHcvidtDrNOdZO3C9LtFPtF2H0dOHI=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+             $("#contactform").validate({
+                rules: {
+                    Phone: {
+                        required: true,
+                        number: true,
+                        minlength: 10,
+                        maxlength: 10
+                    },
+                    Email: {
+                        required: true,
+                        email: true
+                    },
+                    Name: {
+                        required: true
+                    },
+                    Subject: {
+                        required: true
+                    },
+                    Message: {
+                        required: true
+                    }
+                },
+                messages: {
+                    Phone: {
+                        required: "Enter your enrollment number",
+                        number: "Enver valid enrollment number",
+                        minlength: "Enver valid phone number",
+                        maxlength: "Enver valid phone number"
+                    },
+                    Email: {
+                        required: "Enter your email",
+                        email: "Enter valid email",
+                    },
+                    Name: {
+                        required: "Enter your name"
+                    },
+                    Subject: {
+                        required: "Enter subject"
+                    },
+                    Message: {
+                        required: "Enter message"
+                    }
+                }
+            })
+            $('#btnsubmit').click(function (e) {
+                //debugger;
+                //if ($("#dept").val() === '' || $("#dept").val() === null ) {
+                //    $("#deptddlerr").removeClass('hidden')
+                //}
+                //else {
+                //    $("#deptddlerr").addClass('hidden')
+                //}
+                debugger;
+                if ($("#contactform").valid()) {
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("Index","ContactUs")',
+                        data: $("#contactform").serialize(),
+                        success: function (data) {
+                            alert(data)
+                        },
+                        error: function (data) {
+                            alert(data)
+                        }
+                    })
+                    //alert($("#contactform").valid())
+                }
+                //e.preventDefault();
+
+
+
+            });
+        });
+    </script>
+}
+
+
+

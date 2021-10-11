@@ -36,7 +36,6 @@
 
     <link rel="stylesheet" href="@Url.Content("~/css/reset.css")" type="text/css" />
     <link rel="stylesheet" href="@Url.Content("~/css/style.css")" type="text/css" />
-    <link rel="stylesheet" href="@Url.Content("~/css/custom.css")" type="text/css" />
     <!-- font awesome icons -->
     <link rel="stylesheet" href="@Url.Content("~/css/font-awesome/css/font-awesome.min.css")">
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
@@ -80,9 +79,10 @@
 
     <!-- accordion -->
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/accordion/style.css")" />
- 
-    @RenderSection("styles",required:false)
 
+    @RenderSection("styles", required: false)
+
+    <link rel="stylesheet" href="@Url.Content("~/css/custom.css")" type="text/css" />
 
 </head>
 
