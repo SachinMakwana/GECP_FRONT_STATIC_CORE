@@ -40,6 +40,9 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View();
         }
-
+        public IActionResult General()
+        {
+            return View();
+        }
     }
 }

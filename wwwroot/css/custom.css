@@ -547,28 +547,69 @@ table.dataTable thead .sorting_desc_disabled:before {
 
 .women_cell_title {
     background: #999 url(../images/women_banner.jpg) no-repeat center top;
-    background-position-y: -50px;
+    
 }
-
 .ssip_title {
     background: #999 url(../images/ssip_banner.jpg) no-repeat center top;
 }
-    .ssip_title h1, .anti_ragging_title h1 {
+.nss_title {
+    background: #999 url(../images/nss_banner.jpg) no-repeat center top;
+    
+}
+.anti_ragging_title {
+    background: #999 url(../images/anti_ragging_banner.jpg) no-repeat center top;
+    
+}
+.grievance_title {
+    background: #999 url(../images/grievence_banner.jpg) no-repeat center top;
+}
+.placement_title {
+    background: #999 url(../images/placement_banner.jpg) no-repeat center top;
+}
+.placement_title h1, .women_cell_title h1, .nss_title h1, .grievance_title h1, .ssip_title h1, .anti_ragging_title h1 {
         padding: 20px 0 0 0;
         background-color: #25252575;
     }
 .text-justify{
     text-align:justify;
 }
-
-.anti_ragging_title {
-    background: #999 url(../images/anti_ragging_banner.png) no-repeat center top;
+.ec_title {
+    background: #999 url(../images/Title/ec_banner.jpg) no-repeat center top;
 }
-
-.grievance_title {
-    background: #999 url(../images/grievance_banner.jpg) no-repeat center top;
+.cs_title {
+    background: #999 url(../images/Title/cs_banner.jpg) no-repeat center top;
 }
-
 .ee_title {
-    background: #999 url(../images/ee_banner.jpg) no-repeat center top;
+    background: #999 url(../images/Title/ee_banner.jpg) no-repeat center top;
+}
+.ce_title {
+    background: #999 url(../images/Title/ce_banner.jpg) no-repeat center top;
+}
+.me_title {
+    background: #999 url(../images/Title/me_banner.jpg) no-repeat center top;
+}
+.lib_title {
+    background: #999 url(../images/Title/lib_banner.jpg) no-repeat center top;
+}
+.admin_title {
+    background: #999 url(../images/Title/admin_banner.jpg) no-repeat center top;
+}
+.teqip_title {
+    background: #999 url(../images/Title/teqip_banner.jpg) no-repeat center top;
+}
+.general_title {
+    background: #999 url(../images/Title/gen_banner.jpg) no-repeat center top;
+}
+.ec_title h1, .cs_title h1, .ee_title h1, .ce_title h1, .me_title h1, .lib_title h1, .admin_title h1, .teqip_title h1, .general_title h1{
+    padding: 20px 0 0 0;
+    background-color: #25252575;
+}
+.engg_title {
+    background: #999 url(../images/Title/title_banner.jpg) no-repeat center top;
+}
+.coe_title {
+    background: #999 url(../images/Title/coe_banner.jpg) no-repeat center top;
+}
+.gallery_title {
+    background: #999 url(../images/Title/gallery_banner.jpg) no-repeat center top;
 }
