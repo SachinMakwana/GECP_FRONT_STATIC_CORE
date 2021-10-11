@@ -39,6 +39,7 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+@import url('file:///D:\GECP_FRONT_STATIC_CORE\wwwroot\css\style.css');
 
 .site_wrapper {
     width: 100%;
@@ -2016,7 +2017,7 @@
     text-align: center;
 }
 
-.arrowdown_box:after {
+/*.arrowdown_box:after {
     top: 100%;
     left: 50%;
     border: solid transparent;
@@ -2030,7 +2031,7 @@
     border-width: 20px;
     margin-left: -20px;
 }
-
+*/
 
 /* featured section 14 */
 

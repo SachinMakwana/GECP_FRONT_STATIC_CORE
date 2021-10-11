@@ -12,7 +12,14 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View();
         }
-                 
+        public IActionResult Canteen()
+        {
+            return View();
+        }
+        public IActionResult CampusMap()
+        {
+            return View();
+        }
 
     }
 }
