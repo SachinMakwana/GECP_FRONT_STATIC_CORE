@@ -165,17 +165,22 @@
                 //else {
                 //    $("#deptddlerr").addClass('hidden')
                 //}
-                debugger;
+                
                 if ($("#contactform").valid()) {
                     $.ajax({
                         type: "POST",
                         url: '@Url.Action("Index","ContactUs")',
                         data: $("#contactform").serialize(),
+                        
                         success: function (data) {
+                            if (data) {
+                                $("#contactform").reset();
+                                $("#form_status").text('Your response recorded successfully. Please check your inbox/spam folder.')
+                            }
                             alert(data)
                         },
                         error: function (data) {
-                            alert(data)
+                            $("#form_status").text('Internal error. Try again.')
                         }
                     })
                     //alert($("#contactform").valid())

@@ -43,8 +43,8 @@ namespace GECP_Front_End_Static.Controllers
             studntmsg.AppendFormat("Thank you");
             studntmsg.AppendFormat("<br/>GEC Patan");
 
-            var flag = Email.SendEmail(form.Email, form.Subject + " " + form.Name, studntmsg.ToString(), "jspatel19264@gmail.com");
-            var flag1 = Email.SendEmail("jspatel19264@gmail.com", "Contact Request [" + form.Subject + "_" + form.Name + "]", collegemsg.ToString(), form.Email);
+            var flag = Email.SendEmail(form.Email, form.Subject + " " + form.Name, studntmsg.ToString(), "contact@gecpatan.ac.in");
+            var flag1 = Email.SendEmail("contact@gecpatan.ac.in", "Contact Request [" + form.Subject + "_" + form.Name + "]", collegemsg.ToString(), form.Email);
             return Json(true);
         }
     }

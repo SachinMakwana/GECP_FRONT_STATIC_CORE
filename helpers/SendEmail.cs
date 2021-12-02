@@ -31,8 +31,13 @@ namespace GECP_Front_End_Static.helpers
 
             using (var smtp = new SmtpClient())
             {
-                smtp.Connect("smtp.gmail.com", 465, SecureSocketOptions.SslOnConnect);
-                smtp.Authenticate(credentials: new NetworkCredential("gecpatcse.common@gmail.com", "Admin@123"));
+
+                //smtp.Connect("smtp.gmail.com", 465, SecureSocketOptions.SslOnConnect);
+                //smtp.Authenticate(credentials: new NetworkCredential("gecpatcse.common@gmail.com", "Admin@123"));
+
+                //sendinblue
+                smtp.Connect("smtp-relay.sendinblue.com", 587, SecureSocketOptions.None);
+                smtp.Authenticate(credentials: new NetworkCredential("sachingec26@gmail.com", "pTSxOZBV35YEK2C4"));
                 smtp.Send(msg, CancellationToken.None);
                 smtp.Disconnect(true, CancellationToken.None);
             }
