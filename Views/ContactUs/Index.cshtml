@@ -79,7 +79,7 @@
 
                     <label class="label">Subject <em>*</em></label>
                     <label class="textarea">
-                        <textarea rows="5" name="Subject" id="Subject"></textarea>
+                        <textarea rows="1" name="Subject" id="Subject"></textarea>
                     </label>
 
                     <div class="clearfix"></div>
@@ -174,10 +174,10 @@
                         
                         success: function (data) {
                             if (data) {
-                                $("#contactform").reset();
+                                $("#contactform")[0].reset();
                                 $("#form_status").text('Your response recorded successfully. Please check your inbox/spam folder.')
                             }
-                            alert(data)
+                           // alert(data)
                         },
                         error: function (data) {
                             $("#form_status").text('Internal error. Try again.')
