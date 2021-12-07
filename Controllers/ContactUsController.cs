@@ -25,7 +25,7 @@ namespace GECP_Front_End_Static.Controllers
             StringBuilder collegemsg = new StringBuilder();
 
             collegemsg.AppendFormat("Hi...<br/>");
-            collegemsg.AppendFormat("<br/>You have contacted us!<br/> Please check the details");
+            collegemsg.AppendFormat("<br/>Please check the details");
 
             collegemsg.AppendFormat("<table>");
             collegemsg.AppendFormat("<tr><td>Name</td><td>&nbsp;&nbsp;&nbsp;{0}</td>", form.Name);
@@ -43,7 +43,7 @@ namespace GECP_Front_End_Static.Controllers
             studntmsg.AppendFormat("Thank you");
             studntmsg.AppendFormat("<br/>GEC Patan");
 
-            var flag = Email.SendEmail(form.Email, form.Subject + " " + form.Name, studntmsg.ToString(), "contact@gecpatan.ac.in");
+            var flag = Email.SendEmail(form.Email, form.Subject + " " + form.Name, studntmsg.ToString(), "contact@gecpatan.ac.in","no-reply");
             var flag1 = Email.SendEmail("contact@gecpatan.ac.in", "Contact Request [" + form.Subject + "_" + form.Name + "]", collegemsg.ToString(), form.Email);
             return Json(true);
         }

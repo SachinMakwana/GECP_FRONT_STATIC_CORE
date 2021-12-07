@@ -7,22 +7,9 @@
        "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SANJAYKUMAR JOSHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.E.C</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area Of Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EC</span></li></ul></div></div></div>"
      
 },
-   
-   
-   
+     
    {
-        "ID": 102,
-        "Name": "Mr. Yogeshkumar Ganvit",
-        "image": "images/Faculty/EC/yogesh.jpg",
-        "Dept_ID": 1,
-        "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. YOGESHKUMAR GANVIT</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E. Electronics and Communication</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">0 Years</span> </li><li><strong class=\"f-information-box__name b-information-box__name\">Area Of Interest </strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Speech processing,image processing</span></li></ul></div> </div></div>"
-   
-   },
-   
-   
-   
-   {
-        "ID": 103,
+        "ID": 108,
         "Name": "Ms. Roshniben Chaudharit",
         "image": "images/Faculty/EC/roshni.jpg",
         "Dept_ID": 1,
@@ -33,7 +20,7 @@
    
    
    {
-        "ID": 104,
+        "ID": 109,
         "Name": "Mr.Maulikkumar Patel",
         "image": "images/Faculty/EC/dummy.jpg",
         "Dept_ID": 1,
@@ -50,7 +37,7 @@
    
    
    {
-        "ID": 105,
+        "ID": 106,
         "Name": "Mr.Mehulkumar Patel",
         "image": "images/Faculty/EC/mehul.jpg",
         "Dept_ID": 1,
@@ -79,7 +66,7 @@
      
    
    {
-        "ID": 107,
+        "ID": 102,
         "Name": "Mr. Hareshkumar judal",
         "image": "images/Faculty/EC/HLJ.jpg",
         "Dept_ID": 1,
@@ -99,7 +86,7 @@
    
    
    {
-        "ID": 108,
+        "ID": 103,
         "Name": "Mr. Himanshukumar Nayak",
         "image": "images/Faculty/EC/HDN.jpg",
         "Dept_ID": 1,
@@ -110,7 +97,7 @@
    
    
    {
-        "ID": 109,
+        "ID": 105,
         "Name": "Mr.Mihirkumar Patel",
         "image": "images/Faculty/EC/mihir.jpg",
         "Dept_ID": 1,
@@ -134,7 +121,7 @@
    
    
    {
-        "ID": 110,
+        "ID": 104,
         "Name": "Mr. Jayeshkumar Prajapati",
         "image": "images/Faculty/EC/jayesh.jpg",
         "Dept_ID": 1,
@@ -157,7 +144,7 @@
    
    
    {
-        "ID": 111,
+        "ID": 107,
         "Name": "Mr.Shyamkumar Pankhaniya",
         "image": "images/Faculty/EC/shyam.jpg",
         "Dept_ID": 1,
