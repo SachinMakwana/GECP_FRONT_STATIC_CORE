@@ -29,46 +29,51 @@ namespace GECP_Front_End_Static.Controllers
         public IActionResult Electronics()
         {
 
-            var ecData = FacultyData.Where(m => m.Dept_ID == 1).ToList();
+            var ecData = FacultyData.Where(m => m.Dept_ID == 1).OrderBy(m => m.ID).ToList();
             return View(ecData);
         }
 
         public IActionResult Computer()
         {
-            var compData = FacultyData.Where(m => m.Dept_ID == 2).ToList();
+            var compData = FacultyData.Where(m => m.Dept_ID == 2).OrderBy(m => m.ID).ToList();
             return View(compData);
         }
 
         public IActionResult Electrical()
         {
-            var elecData = FacultyData.Where(m => m.Dept_ID == 3).ToList();
+            var elecData = FacultyData.Where(m => m.Dept_ID == 3).OrderBy(m => m.ID).ToList();
             return View(elecData);
         }
 
         public IActionResult Civil()
         {
-            var civilData = FacultyData.Where(m => m.Dept_ID == 4).ToList();
+            var civilData = FacultyData.Where(m => m.Dept_ID == 4).OrderBy(m => m.ID).ToList();
             return View(civilData);
         }
 
         public IActionResult Mechanical()
         {
-            var mechData = FacultyData.Where(m => m.Dept_ID == 5).ToList();
+            var mechData = FacultyData.Where(m => m.Dept_ID == 5).OrderBy(m => m.ID).ToList();
             return View(mechData);
         }
 
         public IActionResult Administration()
         {
-            var adminData = FacultyData.Where(m => m.Dept_ID == 7).ToList();
+            var adminData = FacultyData.Where(m => m.Dept_ID == 7).OrderBy(m => m.ID).ToList();
             return View(adminData);
         }
 
         public IActionResult General()
         {
-            var genData = FacultyData.Where(m => m.Dept_ID == 6).ToList();
+            var genData = FacultyData.Where(m => m.Dept_ID == 6).OrderBy(m=>m.ID).ToList();
             return View(genData);
         }
 
+        public IActionResult Applied()
+        {
+            var genData = FacultyData.Where(m => m.Dept_ID == 8).OrderBy(m => m.ID).ToList();
+            return View(genData);
+        }
         public IActionResult FacultyInfo(int ID = 0)
         {
             FacultyDetailsVM data = FacultyData.Where(m => m.ID == ID).FirstOrDefault();
