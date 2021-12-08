@@ -95,6 +95,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "Department" ? "active" : "")">Departments</a>
                                 <ul class="dropdown-menu" role="menu">
+                                    <li @( controllerName == "Applied" ? "active" : "")><a href="@Url.Action("Applied","Department")">Applied Mechanics</a></li>
                                     <li @( controllerName == "EC" ? "active" : "")><a href="@Url.Action("EC","Department")">Electronics & Communication</a></li>
                                     <li @( controllerName == "Computer" ? "active" : "")><a href="@Url.Action("Computer","Department")">Computer Science & Engineering</a></li>
                                     <li @( controllerName == "Electrical" ? "active" : "")><a href="@Url.Action("Electrical","Department")">Electrical</a></li>
@@ -112,6 +113,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle">Faculty</a>
                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="@Url.Action("Applied","Faculty")">Applied Mechanics</a></li>
                                     <li><a href="@Url.Action("Electronics","Faculty")">Electronics & Communication</a></li>
                                     <li><a href="@Url.Action("Computer","Faculty")">Computer Science & Engineering</a></li>
                                     <li><a href="@Url.Action("Electrical","Faculty")">Electrical</a></li>

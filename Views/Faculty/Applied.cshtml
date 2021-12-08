@@ -1,0 +1,80 @@
+﻿@model IList<GECP_Front_End_Static.Models.FacultyDetailsVM>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Applied Mechanics";
+    int count = 1;
+}
+
+<div class="clearfix"></div>
+
+
+<div class="page_title3 general_title">
+    <div class="container">
+
+        <h1>
+            Meet Our Team<em>Applied Mechanics, Government Engineering College</em>
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>
+
+<div class="margin_top2"></div>
+<div class="featured_section30">
+    <div class="container">
+
+        @foreach (FacultyDetailsVM data in Model)
+        {
+            if (count % 2 == 0)
+            {
+                <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+                    <div class="faculties_img_div">
+                        <img src="@Url.Content("~/"+data.image)" alt="" />
+                        @if (data.tabs != null)
+                        {
+                            <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+                        }
+                    </div>
+                    @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
+                    <p>@Html.Raw(data.personal_details) </p>
+                    @*<br />
+                        <div class="clearfix"></div>*@
+
+
+
+                </div>
+                <!-- end section -->
+
+                <div class="clearfix margin_top5"></div>
+            }
+            else
+            {
+                <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
+                    <div class="faculties_img_div">
+                        <img src="@Url.Content("~/"+data.image)" alt="" />
+                        @if (data.tabs != null)
+                        {
+                            <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+                        }
+                    </div>
+                    @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
+                    <p>@Html.Raw(data.personal_details) </p>
+                    @*<br />
+                        <div class="clearfix"></div>*@
+
+
+
+                </div>
+            }
+            count++;
+
+        }
+
+
+
+    </div>
+</div>
+<!-- end featured section 30 -->
+
+
+<div class="clearfix margin_top2"></div>
