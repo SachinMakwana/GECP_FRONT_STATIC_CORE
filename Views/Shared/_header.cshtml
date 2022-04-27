@@ -69,9 +69,8 @@
 
                             <li class="dropdown yamm-fw">
                                 <a href="@Url.Action("Index","Home")" class="dropdown-toggle @( controllerName == "Home" ? "active" : "")">Home</a>
-
-
                             </li>
+
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "Institute" ? "active" : "")">Institute</a>
@@ -82,6 +81,8 @@
                                     <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("RTI","Institute")">RTI</a></li>
                                 </ul>
                             </li>
+
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "Academics" ? "active" : "")">Academics</a>
                                 <ul class="dropdown-menu" role="menu">
@@ -92,6 +93,8 @@
 
                                 </ul>
                             </li>
+
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "Department" ? "active" : "")">Departments</a>
                                 <ul class="dropdown-menu" role="menu">
@@ -105,9 +108,6 @@
                                     <li @( controllerName == "Administrative" ? "active" : "")><a href="@Url.Action("Administrative","Department")">Administrative Block</a></li>
                                     <li @( controllerName == "TEQIP" ? "active" : "")><a href="@Url.Action("TEQIP","Department")">TEQIP</a></li>
                                     <li @( controllerName == "General" ? "active" : "")><a href="@Url.Action("General","Department")">General</a></li>
-
-
-
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -121,9 +121,6 @@
                                     <li><a href="@Url.Action("Mechanical","Faculty")">Mechanical</a></li>
                                     <li><a href="@Url.Action("Administration","Faculty")">Administrative Block </a></li>
                                     <li><a href="@Url.Action("General","Faculty")">General </a></li>
-
-
-
                                 </ul>
                             </li>
 
@@ -136,10 +133,6 @@
                                     <li class="@( actionName == "AntiRagging" ? "active" : "")"><a href="@Url.Action("AntiRagging","CampusCommittee")">Anti Ragging Cell</a></li>
                                     <li class="@( actionName == "Grievence" ? "active" : "")"><a href="@Url.Action("Grievence","CampusCommittee")">Grievence Cell</a></li>
                                     <li class="@( actionName == "PlacementCell" ? "active" : "")"><a href="@Url.Action("PlacementCell","CampusCommittee")">Placement Cell</a></li>
-
-
-
-
                                 </ul>
                             </li>
 
@@ -150,20 +143,21 @@
                                     <li class="@( actionName == "Gallery" ? "active" : "")"><a href="@Url.Action("Gallery","CampusLife")">Gallery</a></li>
                                     <li class="@( actionName == "Canteen" ? "active" : "")"><a href="@Url.Action("Canteen","CampusLife")">Canteen</a></li>
                                     <li class="@( actionName == "CampusMap" ? "active" : "")"><a href="@Url.Action("CampusMap","CampusLife")">CampusMap</a></li>
-
-
-
-
-
                                 </ul>
                             </li>
 
              
                             <li class="dropdown yamm-fw">
                                 <a href="@Url.Action("Index","ContactUs")" class="dropdown-toggle @( controllerName == "ContactUs" ? "active" : "")">Contact</a>
-
-
                             </li>
+
+
+                            <li class="dropdown yamm-fw">
+                                <a href="@Url.Action("Index","Alumni")" class="dropdown-toggle @( controllerName == "Alumni" ? "active" : "")">Alumni</a>
+                            </li>
+
+
+
                         </ul>
                     </nav>
 
