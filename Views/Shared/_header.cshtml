@@ -135,7 +135,9 @@
                                     <li class="@( actionName == "PlacementCell" ? "active" : "")"><a href="@Url.Action("PlacementCell","CampusCommittee")">Placement Cell</a></li>
                                 </ul>
                             </li>
-
+                            <li class="dropdown yamm-fw">
+                                <a href="@Url.Action("Index","Alumni")" class="dropdown-toggle @( controllerName == "Alumni" ? "active" : "")">Alumni</a>
+                            </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "CampusLife" ? "active" : "") ">Campus Life</a>
                                 <ul class="dropdown-menu" role="menu">
@@ -146,15 +148,13 @@
                                 </ul>
                             </li>
 
-             
+
                             <li class="dropdown yamm-fw">
                                 <a href="@Url.Action("Index","ContactUs")" class="dropdown-toggle @( controllerName == "ContactUs" ? "active" : "")">Contact</a>
                             </li>
 
 
-                            <li class="dropdown yamm-fw">
-                                <a href="@Url.Action("Index","Alumni")" class="dropdown-toggle @( controllerName == "Alumni" ? "active" : "")">Alumni</a>
-                            </li>
+
 
 
 

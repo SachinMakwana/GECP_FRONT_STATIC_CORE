@@ -12,10 +12,10 @@
             Welcome to Government Engineering College,Patan
             <div class="divider_line11belownews"></div>
         </h1>
-         
+
         <div class="one_fourth">
 
-            <img src="images/Home/icon1.jpg" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="100" />
+            <img src="@Url.Content("~/images/Home/icon1.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="100" />
 
             <h4 class="color2">Seven different courses provided</h4>
 
@@ -27,7 +27,7 @@
 
         <div class="one_fourth">
 
-            <img src="images/Home/icon2.jpg" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="200" />
+            <img src="@Url.Content("~/images/Home/icon2.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="200" />
 
             <h4 class="color2">Highly Educated Faculties</h4>
 
@@ -39,7 +39,7 @@
 
         <div class="one_fourth">
 
-            <img src="images/Home/icon3.jpg" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="300" />
+            <img src="@Url.Content("~/images/Home/icon3.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="300" />
 
             <h4 class="color2">Library with books across nation</h4>
 
@@ -51,9 +51,9 @@
 
         <div class="one_fourth last">
 
-            <img src="images/Home/icon4.jpg" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="400" />
+            <img src="@Url.Content("~/images/Home/icon4.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="400" />
 
-            <h4 class="color2">Differnt Committees to help you grow</h4>
+            <h4 class="color2">Different Committees to help you grow</h4>
 
             <br /><br />
             @*<a href="#" class="but_calendar">Read More</a>*@
@@ -70,7 +70,7 @@
 
         <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
 
-            <img src="images/vision.png" alt="" />
+            <img src="@Url.Content("~/images/vision.png")" alt="" />
             <br /><br />
             <h3 class="white">Vision</h3>
 
@@ -83,7 +83,7 @@
 
         <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
-            <img src="images/mission.png" alt="" />
+            <img src="@Url.Content("~/images/mission.png")" alt="" />
             <br /><br />
             <h3 class="white">Mission</h3>
 
@@ -210,7 +210,10 @@
     <div class="clearfix margin_bottom6"></div>
 </div>
 <!-- end parallax section 1 -->
-
+@*<div id="pop1" class="simplePopup col-md-10">
+    <img src="@Url.Content("~/images/Dynamic/logo.png")" alt="" class="rimg" />
+    
+</div>*@
 
 
 
@@ -230,6 +233,15 @@
 }
 
 @section master_slider{
+    <script src="@Url.Content("~/js/modalwindow/jquery.simplePopup.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.show1');
+            $('#pop1').simplePopup();
+
+        });
+    </script>
     <script src="@Url.Content("~/js/masterslider/masterslider.min.js")"></script>
     <script type="text/javascript">
         (function ($) {
@@ -276,4 +288,12 @@
     <!-- flexslider -->
     <link rel="stylesheet" href="@Url.Content("~/js/flexslider/flexslider.css")" type="text/css" media="screen" />
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/flexslider/skin.css")" />
+
+    <!-- modal window -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/modalwindow/style.css")" />
+<style>
+    .text-center{
+        text-align:center !important;
+    }
+</style>
 }

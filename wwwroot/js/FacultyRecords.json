@@ -188,36 +188,6 @@
   },
 
 
-
-  {
-    "ID": 202,
-    "Name": "Dr.Sanjaykumar Patel",
-    "image": "images/Faculty/Computer/spp.jpg",
-    "Dept_ID": 2,
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. SANJAYKUMAR PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"> PhD</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area Of Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Mining,Artificial Intelligence</span></li></ul></div></div></div>"
-
-  },
-
-
-
-  {
-    "ID": 203,
-    "Name": "Mrs. Shraddha Patel",
-    "image": "images/Faculty/Computer/shraddha.jpg",
-    "Dept_ID": 2,
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mrs. SHRADDHA MODI</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__nameQualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech in Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area Of Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Database Management System, Data structure, Data Mining, Design &amp; Analysis of Algorithm, Computer Network, Mobile computing</span></li></ul></div></div></div>",
-    "tabs": {
-      "Head": [ "department", "a survey on approaches of multirelational classification based on relational database", "relational classification using multiple view approach with voting" ],
-      "Values": [
-        "<div id=\"tabs-1340\" aria-labelledby=\"ui-id-2\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Student Section</h4><p>Maintaining details regarding students.</p></div>",
-        "<div id=\"tabs-34651\" aria-labelledby=\"ui-id-3\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">                                         <h4 class=\"f-tabs-vertical__title f-primary-b\">List of paper</h4>                                         <p><span xss=\"removed\">International Journal of Engineering and Advanced Technology (IJEAT)</span></p>                                     </div>",
-        "<div id=\"tabs-34662\" aria-labelledby=\"ui-id-4\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"><h4 class=\"f-tabs-vertical__title f-primary-b\">List of paper</h4><p><span xss=\"removed\">International Journal of Computer Applications (IJCA)</span></p></div>"
-      ]
-    }
-  },
-
-
-
   {
     "ID": 204,
     "Name": "Mr. Pinesh Darji",

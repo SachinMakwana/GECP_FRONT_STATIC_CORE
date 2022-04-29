@@ -546,8 +546,9 @@ table.dataTable thead .sorting_desc_disabled:before {
 
 
 .women_cell_title {
-    background: #999 url(../images/alumni-banner.jpg) repeat center top;
-    
+    background: #999 url(../images/alumni-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
 }
 .ssip_title {
     background: #999 url(../images/ssip_banner.jpg) no-repeat center top;
@@ -612,4 +613,8 @@ table.dataTable thead .sorting_desc_disabled:before {
 }
 .gallery_title {
     background: #999 url(../images/Title/gallery_banner.jpg) no-repeat center top;
+}
+
+.text-center {
+    text-align: center !important;
 }

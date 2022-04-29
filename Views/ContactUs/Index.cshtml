@@ -30,9 +30,7 @@
                         <strong>GOVERNMENT ENGINEERING COLLEGE,AT. KATPUR, PATAN</strong><br />
                         At & Post. Katpur, Patan, Gujarat-384265<br />
                         Telephone: 2766291560<br />
-                        @*FAX: +1 0123-4567-8900<br />*@
                         E-mail: <a href="mailto:principalgecpatan@gmail.com">principalgecpatan@gmail.com</a><br />
-                        @*Website: <a href="index.html">www.yoursitename.com</a>*@
                     </li>
                 </ul>
             </div>
@@ -45,7 +43,7 @@
 
         <div class="one_half last">
 
-            <p>Feel free to talk to our online representative at any time you please using our Live Chat system on our website or one of the below instant messaging programs.</p>
+            <p>Feel free to share your suggestions/problems/grievance.</p>
             <br /><br />
             
             <div class="cforms">
@@ -175,12 +173,13 @@
                         success: function (data) {
                             if (data) {
                                 $("#contactform")[0].reset();
-                                $("#form_status").text('Your response recorded successfully. Please check your inbox/spam folder.')
+                                $("#form_status").text('Your response recorded successfully. Please check your inbox/spam folder.');
                             }
                            // alert(data)
                         },
                         error: function (data) {
-                            $("#form_status").text('Internal error. Try again.')
+                            $("#form_status").text('Internal error. Try again.');
+                                console.log(data);
                         }
                     })
                     //alert($("#contactform").valid())
