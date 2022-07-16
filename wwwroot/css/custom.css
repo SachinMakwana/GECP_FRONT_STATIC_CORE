@@ -546,10 +546,18 @@ table.dataTable thead .sorting_desc_disabled:before {
 
 
 .women_cell_title {
+    background: #999 url(../images/women_banner.jpg) no-repeat;
+}
+.alumni_cell_title {
     background: #999 url(../images/alumni-banner.jpg) no-repeat;
     background-size: cover;
     background-position-y: bottom;
 }
+
+    .alumni_cell_title h1 {
+        background: #00000063;
+        padding: 20px 0;
+    }
 .ssip_title {
     background: #999 url(../images/ssip_banner.jpg) no-repeat center top;
 }
