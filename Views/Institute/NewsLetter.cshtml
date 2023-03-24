@@ -1,3 +1,144 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "News Letter";
+}
+<div class="page_title3 placement_title">
+    <div class="container">
+
+        <h1>
+            <br> News Letters<em>Government Engineering College</em>
+            <div class="line"></div>
+            <br>
+        </h1>
+
+    </div>
+</div>
+<div class="clearfix margin_bottom6"></div>
+<div class="content_fullwidth less">
+    <div class="featured_section121">
+
+        <div id="cd-timeline" class="cd-container">
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
+                <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>OCTOBER TO DECEMBER  2022</h2>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022.pdf")" download="Oct_Dec_22"><img src="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022-01.jpg")" class="rimg" /></a>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022.pdf")" download="Oct_Dec_22" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
+                <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>JULY TO SEPTEMBER  2022</h2>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022.pdf")" download="July_Sept_2022"><img src="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022-01.jpg")" class="rimg" /></a>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022.pdf")" download="July_Sept_2022" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
+                <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>APRIL TO JUNE 2022</h2>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2022.pdf")" download="April_June_2022"><img src="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2022-01.jpg")" class="rimg" /></a>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2022.pdf")" download="April_June_2022" class="btn btn-primary">Read More</a>
+
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
+                <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>JANUARY TO MARCH 2022</h2>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2022.pdf")" download="Jan_Mar_2022"><img src="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2022-01.jpg")" class="rimg" /></a>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2022.pdf")" download="Jan_Mar_2022" class="btn btn-primary">Read More</a>
+
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
+                <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>OCTOBER TO DECEMBER  2021</h2>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021.pdf")" download="Oct_Dec_21"><img src="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021-01.jpg")" class="rimg" /></a>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021.pdf")" download="Oct_Dec_21" class="btn btn-primary">Read More</a>
+
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
+                <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>JULY TO SEPTEMBER  2021</h2>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021.pdf")" download="July_Sept_2021"><img src="~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021-01.jpg" class="rimg" /></a>
+                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021.pdf")" download="July_Sept_2021" class="btn btn-primary">Read More</a>
+
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
+
+        </div>
+
+    </div>
+</div><!-- end content area -->
+
+
+
+<div class="clearfix"></div>
+
+@section scripts{
+    <script>
+        (function ($) {
+            "use strict";
+
+            jQuery(document).ready(function ($) {
+                var $timeline_block = $('.cd-timeline-block');
+
+                //hide timeline blocks which are outside the viewport
+                $timeline_block.each(function () {
+                    if ($(this).offset().top > $(window).scrollTop() + $(window).height() * 0.75) {
+                        $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+                    }
+                });
+
+                //on scolling, show/animate timeline blocks when enter the viewport
+                $(window).on('scroll', function () {
+                    $timeline_block.each(function () {
+                        if ($(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden')) {
+                            $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+                        }
+                    });
+                });
+            });
+
+        })(jQuery);
+    </script>
+}
+
+@section styles{
+    <!-- timeline -->
+    <link rel="stylesheet" href="@Url.Content("~/js/timeline/timeline.css")">
 }
