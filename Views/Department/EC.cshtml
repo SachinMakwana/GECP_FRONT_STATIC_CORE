@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IList<GECP_Front_End_Static.Models.FacultyDetailsVM>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "EC";
 }
@@ -174,8 +175,16 @@
             <div id="sl-view" class="clearfix">
 
                 <div id="sl-wrap">
+                    @foreach(var faculty in Model){
+                     <div class="sl-div two">
 
-
+                        <div class="cirpimg"><img src="@Url.Content("~/"+faculty.image)" alt="" class="dept_faculty_pic"></div>
+                        <h4 class="roboto">@faculty.Name<em></em></h4>
+                       @* <div class="roboto">@Html.Raw(faculty.personal_details) </div>*@
+                       @* <h4 class="roboto">@faculty.<em></em></h4>*@
+                        
+                    </div>
+                    }@*
                     <div class="sl-div two">
 
                         <div class="cirpimg"><img src="@Url.Content("~/images/Department/EC/sdj.jpg")" alt="" class="dept_faculty_pic"></div>
@@ -268,7 +277,7 @@
 
 
                     </div>
-                    <!-- end section -->
+                    <!-- end section -->*@
 
 
                 </div>
