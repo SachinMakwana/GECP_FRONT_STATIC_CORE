@@ -24,6 +24,7 @@ namespace GECP_Front_End_Static.Models
         }
         public int ID { get; set; }
         public string Name { get; set; }
+        public string Designation { get; set; }
         public string image { get; set; }
         public string personal_details { get; set; }
         public int Dept_ID { get; set; }
