@@ -1,16 +1,43 @@
-﻿@{
+﻿@model GECP_Front_End_Static.Models.HomePageModelVM
+@{
     ViewData["Title"] = "Home Page";
 }
 
 @Html.Partial("_slider")
 
-<div class="clearfix margin_top5"></div>
-<div class="featured_section13">
-    <div class="container">
-        <h2 class="color2"><marquee style="line-height:50px"><a href="@Url.Content("~/ImpDocs/Important_Instructions.pdf")" target="_blank">વર્ષ ૨૦૨૪-૨૫ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ</a> |
-        <a href="@Url.Content("~/ImpDocs/ActivityPoster.pdf")" target="_blank">પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા</a></marquee></h2>
+@if (Model.marqueeModelVM.Count() > 0)
+{
+    var count = 0;
+    <div class="clearfix margin_top5"></div>
+    <div class="featured_section13">
+        <div class="container">
+            <h2 class="color2">
+                <marquee style="line-height:50px">
+                    @foreach (var item in Model.marqueeModelVM)
+                    {
+                        if (count > 0)
+                        {
+                            <text>|</text>
+                        }
+                        if (item.IsFile)
+                        {
+                            <a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a>
+
+                        }
+                        else
+                        {
+                            <a href="@Url.Action(item.ActionName,item.ControllerName)"> @item.Title </a>
+                        }
+                        count++;
+                    }
+                    @* <a href="@Url.Content("~/ImpDocs/Important_Instructions.pdf")" target="_blank">વર્ષ ૨૦૨૪-૨૫ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ</a> |
+                <a href="@Url.Content("~/ImpDocs/ActivityPoster.pdf")" target="_blank">પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા</a> |
+                <a href="@Url.Action("Tenders","Institute")"> હોસ્ટેલ મેસ અને કેન્ટીન ટેન્ડર ૨૦૨૪-૨૫  </a>*@
+                </marquee>
+            </h2>
+        </div>
     </div>
-</div>
+}
 <div class="clearfix margin_top5"></div>
 <div class="featured_section13">
     <div class="container">
@@ -183,20 +210,21 @@
 
                 </li>
                 <!-- end slide -->
+                @foreach (var item in Model.testimonialModelVM)
+                {
+                    <li>
 
-                <li>
+                        <img src="@Url.Content("~/images/Home/icon-user-90.png")" alt="" />
+                        <h5>@item.StudentName <em>@item.Department - @item.PassoutYear</em></h5>
 
-                    <img src="@Url.Content("~/images/Home/icon-user-90.png")" alt="" />
-                    <h5>Divyarajsinh Gohil <em>Alumni - CSE</em></h5>
+                        <p>
+                            @item.Testimonial
+                        </p>
 
-                    <p>
-                        I think I had one of the best time spans of my life during my college days. I believed it was the best place for me to develop academically and as a young adult. Besides academic success, some of my fondest memories are the time spent with friends and involvement in various cultural and sport events. Everyone was always so welcoming and friendly. I certainly made some friends for a lifetime.
-                    </p>
-
-                </li>
-                <!-- end slide -->
-
-                <li>
+                    </li>
+                    <!-- end slide -->
+                }
+              @*  <li>
 
                     <img src="@Url.Content("~/images/Home/icon-user-90.png")" alt="" />
                     <h5>Vats Patel <em>Alumni - ME</em></h5>
@@ -206,7 +234,7 @@
                     </p>
 
                 </li>
-                <!-- end slide -->
+                <!-- end slide -->*@
 
 
 

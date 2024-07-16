@@ -1,0 +1,26 @@
+﻿[
+  {
+    "ID": 1,
+    "Title": "વર્ષ ૨૦૨૪-૨૫ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
+    "IsFile": 1,
+    "FileLink": "~/ImpDocs/Important_Instructions.pdf",
+    "ControllerName": "",
+    "ActionName": ""
+  },
+  {
+    "ID": 2,
+    "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
+    "IsFile": 1,
+    "FileLink": "~/ImpDocs/ActivityPoster.pdf",
+    "ControllerName": "",
+    "ActionName": ""
+  },
+  {
+    "ID": 3,
+    "Title": "હોસ્ટેલ મેસ અને કેન્ટીન ટેન્ડર ૨૦૨૪-૨૫",
+    "IsFile": 0,
+    "FileLink": "",
+    "ControllerName": "Institute",
+    "ActionName": "Tenders"
+  }
+]

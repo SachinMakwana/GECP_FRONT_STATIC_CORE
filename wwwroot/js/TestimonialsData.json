@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 1,
+    "StudentName": "Ganpat Parmar",
+    "Department": "CSE",
+    "PassoutYear": "2024",
+    "Testimonial": "My experience at GEC Patan was very different and has led me to explore and learn new things in terms of personal and professional aspects. The faculty here focuses on students' career goals with proper guidance in selecting most suitable specialization based on one's strengths and passion. The various co-curricular activities, built confidence and leadership skills in us. The ambience of the college has always been so positive and encourages to learn."
+  },
+  {
+    "ID": 2,
+    "StudentName": "Het Chauhan",
+    "Department": "CSE",
+    "PassoutYear": "2023",
+    "Testimonial": "I think I had one of the best time spans of my life during my college days. I believed it was the best place for me to develop academically and as a young adult. Besides academic success, some of my fondest memories are the time spent with friends and involvement in various cultural and sport events. Everyone was always so welcoming and friendly. I certainly made some friends for a lifetime."
+  },
+  {
+    "ID": 3,
+    "StudentName": "Ashvi Patel",
+    "Department": "CSE",
+    "PassoutYear": "2024",
+    "Testimonial": "It was a great academic and skilled experience, helped me to choose my career efficiently and allowed me to enhanced my technical skills to meet the requirements of the current technological era."
+  }
+]
