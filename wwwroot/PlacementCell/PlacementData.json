@@ -1,0 +1,186 @@
+﻿[
+  {
+    "BranchID": "01",
+    "BranchName": "Electronics and Communication",
+    "Data": [
+      {
+        "Year": "2022-23",
+        "Passout": 45,
+        "Placed": 5,
+        "AverageCTC": 100000,
+        "HigherStudy": 2,
+        "Business": 8,
+        "PlacementPercentage": 26.66,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2021-22",
+        "Passout": 21,
+        "Placed": 3,
+        "AverageCTC": 50000,
+        "HigherStudy": 5,
+        "Business": 2,
+        "PlacementPercentage": 48,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2020-21",
+        "Passout": 23,
+        "Placed": 12,
+        "AverageCTC": 60000,
+        "HigherStudy": 4,
+        "Business": 1,
+        "PlacementPercentage": 74,
+        "IsDisplay": true
+      }
+    ]
+  },
+
+  {
+    "BranchID": "02",
+    "BranchName": "Computer Science & Engineering",
+    "Data": [
+      {
+        "Year": "2022-23",
+        "Passout": 113,
+        "Placed": 58,
+        "AverageCTC": 28000,
+        "HigherStudy": 20,
+        "Business": 4,
+        "PlacementPercentage": 72,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2021-22",
+        "Passout": 113,
+        "Placed": 58,
+        "AverageCTC": 30000,
+        "HigherStudy": 24,
+        "Business": 5,
+        "PlacementPercentage": 77,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2020-21",
+        "Passout": 109,
+        "Placed": 42,
+        "AverageCTC": 35000,
+        "HigherStudy": 22,
+        "Business": 4,
+        "PlacementPercentage": 62,
+        "IsDisplay": true
+      }
+    ]
+  },
+  
+  {
+    "BranchID": "03",
+    "BranchName": "Electrical Engineering",
+    "Data": [
+      {
+        "Year": "2022-23",
+        "Passout": 51,
+        "Placed": 19,
+        "AverageCTC": 18000,
+        "HigherStudy": 4,
+        "Business": 1,
+        "PlacementPercentage": 47,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2021-22",
+        "Passout": 51,
+        "Placed": 13,
+        "AverageCTC": 17000,
+        "HigherStudy": 0,
+        "Business": 0,
+        "PlacementPercentage": 25,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2020-21",
+        "Passout": 62,
+        "Placed": 24,
+        "AverageCTC": 17000,
+        "HigherStudy": 12,
+        "Business": 0,
+        "PlacementPercentage": 58,
+        "IsDisplay": true
+      }
+    ]
+  },
+
+  {
+    "BranchID": "04",
+    "BranchName": "Civil Engineering",
+    "Data": [
+      {
+        "Year": "2022-23",
+        "Passout": 58,
+        "Placed": 6,
+        "AverageCTC": 14500,
+        "HigherStudy": 20,
+        "Business": 0,
+        "PlacementPercentage": 45,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2021-22",
+        "Passout": 63,
+        "Placed": 5,
+        "AverageCTC": 15000,
+        "HigherStudy": 9,
+        "Business": 3,
+        "PlacementPercentage": 27,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2020-21",
+        "Passout": 58,
+        "Placed": 17,
+        "AverageCTC": 15000,
+        "HigherStudy": 7,
+        "Business": 2,
+        "PlacementPercentage": 45,
+        "IsDisplay": true
+      }
+    ]
+  },
+
+  {
+    "BranchID": "05",
+    "BranchName": "Mechanical Engineering",
+    "Data": [
+      {
+        "Year": "2022-23",
+        "Passout": 113,
+        "Placed": 48,
+        "AverageCTC": 18000,
+        "HigherStudy": 10,
+        "Business": 0,
+        "PlacementPercentage": 51.32,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2021-22",
+        "Passout": 114,
+        "Placed": 22,
+        "AverageCTC": 20000,
+        "HigherStudy": 3,
+        "Business": 0,
+        "PlacementPercentage": 22,
+        "IsDisplay": true
+      },
+      {
+        "Year": "2020-21",
+        "Passout": 92,
+        "Placed": 12,
+        "AverageCTC": 15000,
+        "HigherStudy": 11,
+        "Business": 4,
+        "PlacementPercentage": 29,
+        "IsDisplay": true
+      }
+    ]
+  }
+]

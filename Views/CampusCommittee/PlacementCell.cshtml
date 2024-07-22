@@ -1,6 +1,8 @@
-﻿@{
+﻿@model IList<GECP_Front_End_Static.Models.PlacementDataVM>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Placement Cell";
+    int count = 0;
 }
 
 <div class="clearfix"></div>
@@ -259,101 +261,125 @@
                     <td rowspan="2" style="vertical-align: middle; text-align:center;">Branch</td>
                     <td rowspan="2" style="vertical-align: middle; text-align: center;">Year</td>
                     <td rowspan="2" style="vertical-align: middle; text-align: center;">Passout Students</td>
-                    <td colspan="4" style="vertical-align: middle; text-align: center;">Placement</td>
+                    <td colspan="5" style="vertical-align: middle; text-align: center;">Placement</td>
                 </tr>
                 <tr>
                     <td style="text-align:center;">Placed</td>
+                    <td style="text-align:center;">Average CTC</td>
                     <td style="text-align:center;">Higher Study</td>
                     <td style="text-align:center;">Business</td>
                     <td style="text-align:center;">Placement(%)</td>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td rowspan="2" style="vertical-align: middle;">Civil Engineering</td>
-                    <td style="text-align:right;">2020-21</td>
-                    <td style="text-align:right;">58</td>
-                    <td style="text-align:right;">17</td>
-                    <td style="text-align:right;">7</td>
-                    <td style="text-align:right;">2</td>
-                    <td style="text-align:right;">45</td>
+                @foreach (var item in Model)
+                {
+                    count = 0;
+                    @foreach (var data in item.Data)
+                    {
+                        <tr>
+                            @if (count == 0)
+                            {
+                                <td rowspan="@item.Data.Count()" style="vertical-align: middle;">@item.BranchName</td>
+                            }
+                            <td style="text-align:right;">@data.Year</td>
+                            <td style="text-align:right;">@data.Passout</td>
+                            <td style="text-align:right;">@data.Placed</td>
+                            <td style="text-align:right;">@data.AverageCTC</td>
+                            <td style="text-align:right;">@data.HigherStudy</td>
+                            <td style="text-align:right;">@data.Business</td>
+                            <td style="text-align:right;">@data.PlacementPercentage</td>
+
+                        </tr>
+                        count++;
+                    }
+
+                }
+                @*<tr>
+                <td rowspan="2" style="vertical-align: middle;">Civil Engineering</td>
+                <td style="text-align:right;">2020-21</td>
+                <td style="text-align:right;">58</td>
+                <td style="text-align:right;">17</td>
+                <td style="text-align:right;">7</td>
+                <td style="text-align:right;">2</td>
+                <td style="text-align:right;">45</td>
                 </tr>
                 <tr>
-                    <td style="text-align:right;">2021-22</td>
-                    <td style="text-align:right;">63</td>
-                    <td style="text-align:right;">5</td>
-                    <td style="text-align:right;">9</td>
-                    <td style="text-align:right;">3</td>
-                    <td style="text-align:right;">27</td>
+                <td style="text-align:right;">2021-22</td>
+                <td style="text-align:right;">63</td>
+                <td style="text-align:right;">5</td>
+                <td style="text-align:right;">9</td>
+                <td style="text-align:right;">3</td>
+                <td style="text-align:right;">27</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="vertical-align: middle;">Mechnical Engineering</td>
-                    <td style="text-align:right;">2020-21</td>
-                    <td style="text-align:right;">92</td>
-                    <td style="text-align:right;">12</td>
-                    <td style="text-align:right;">11</td>
-                    <td style="text-align:right;">4</td>
-                    <td style="text-align:right;">29</td>
+                <td rowspan="2" style="vertical-align: middle;">Mechnical Engineering</td>
+                <td style="text-align:right;">2020-21</td>
+                <td style="text-align:right;">92</td>
+                <td style="text-align:right;">12</td>
+                <td style="text-align:right;">11</td>
+                <td style="text-align:right;">4</td>
+                <td style="text-align:right;">29</td>
                 </tr>
                 <tr>
-                    <td style="text-align:right;">2021-22</td>
-                    <td style="text-align:right;">114</td>
-                    <td style="text-align:right;">22</td>
-                    <td style="text-align:right;">3</td>
-                    <td style="text-align:right;">0</td>
-                    <td style="text-align:right;">22</td>
+                <td style="text-align:right;">2021-22</td>
+                <td style="text-align:right;">114</td>
+                <td style="text-align:right;">22</td>
+                <td style="text-align:right;">3</td>
+                <td style="text-align:right;">0</td>
+                <td style="text-align:right;">22</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="vertical-align: middle;">Electrical Engineering</td>
-                    <td style="text-align:right;">2020-21</td>
-                    <td style="text-align:right;">62</td>
-                    <td style="text-align:right;">24</td>
-                    <td style="text-align:right;">12</td>
-                    <td style="text-align:right;">0</td>
-                    <td style="text-align:right;">58</td>
+                <td rowspan="2" style="vertical-align: middle;">Electrical Engineering</td>
+                <td style="text-align:right;">2020-21</td>
+                <td style="text-align:right;">62</td>
+                <td style="text-align:right;">24</td>
+                <td style="text-align:right;">12</td>
+                <td style="text-align:right;">0</td>
+                <td style="text-align:right;">58</td>
                 </tr>
                 <tr>
-                    <td style="text-align:right;">2021-22</td>
-                    <td style="text-align:right;">51</td>
-                    <td style="text-align:right;">13</td>
-                    <td style="text-align:right;">0</td>
-                    <td style="text-align:right;">0</td>
-                    <td style="text-align:right;">25</td>
+                <td style="text-align:right;">2021-22</td>
+                <td style="text-align:right;">51</td>
+                <td style="text-align:right;">13</td>
+                <td style="text-align:right;">0</td>
+                <td style="text-align:right;">0</td>
+                <td style="text-align:right;">25</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="vertical-align: middle;">Computer Science and Engineering</td>
-                    <td style="text-align:right;">2020-21</td>
-                    <td style="text-align:right;">109</td>
-                    <td style="text-align:right;">42</td>
-                    <td style="text-align:right;">22</td>
-                    <td style="text-align:right;">4</td>
-                    <td style="text-align:right;">62</td>
+                <td rowspan="2" style="vertical-align: middle;">Computer Science and Engineering</td>
+                <td style="text-align:right;">2020-21</td>
+                <td style="text-align:right;">109</td>
+                <td style="text-align:right;">42</td>
+                <td style="text-align:right;">22</td>
+                <td style="text-align:right;">4</td>
+                <td style="text-align:right;">62</td>
                 </tr>
                 <tr>
-                    <td style="text-align:right;">2021-22</td>
-                    <td style="text-align:right;">113</td>
-                    <td style="text-align:right;">58</td>
-                    <td style="text-align:right;">24</td>
-                    <td style="text-align:right;">5</td>
-                    <td style="text-align:right;">77</td>
+                <td style="text-align:right;">2021-22</td>
+                <td style="text-align:right;">113</td>
+                <td style="text-align:right;">58</td>
+                <td style="text-align:right;">24</td>
+                <td style="text-align:right;">5</td>
+                <td style="text-align:right;">77</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="vertical-align: middle;">Electronics and Communication</td>
-                    <td style="text-align:right;">2020-21</td>
-                    <td style="text-align:right;">23</td>
-                    <td style="text-align:right;">12</td>
-                    <td style="text-align:right;">4</td>
-                    <td style="text-align:right;">1</td>
-                    <td style="text-align:right;">74</td>
+                <td rowspan="2" style="vertical-align: middle;">Electronics and Communication</td>
+                <td style="text-align:right;">2020-21</td>
+                <td style="text-align:right;">23</td>
+                <td style="text-align:right;">12</td>
+                <td style="text-align:right;">4</td>
+                <td style="text-align:right;">1</td>
+                <td style="text-align:right;">74</td>
                 </tr>
                 <tr>
-                    <td style="text-align:right;">2021-22</td>
-                    <td style="text-align:right;">21</td>
-                    <td style="text-align:right;">3</td>
-                    <td style="text-align:right;">5</td>
-                    <td style="text-align:right;">2</td>
-                    <td style="text-align:right;">48</td>
-                </tr>
+                <td style="text-align:right;">2021-22</td>
+                <td style="text-align:right;">21</td>
+                <td style="text-align:right;">3</td>
+                <td style="text-align:right;">5</td>
+                <td style="text-align:right;">2</td>
+                <td style="text-align:right;">48</td>
+                </tr>*@
             </tbody>
         </table>
     </div>
