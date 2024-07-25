@@ -1,0 +1,34 @@
+[
+  {
+    "ID": 1,
+    "Designation": "TPO",
+    "Name": "Prof. Sohan Prajapti",
+    "Email": "sgp.gec@gmail.com",
+    "Mobile": "9825564580",
+    "Pic": "/images/Faculty/Electrical/SOHAN.jpg"
+  },
+  {
+    "ID": 2,
+    "Designation": "Member",
+    "Name": "Prof. Hardik Trivedi",
+    "Email": "hardik.trivedi@gecpatan.ac.in",
+    "Mobile": "9722335587",
+    "Pic": "/images/Faculty/Computer/dummy.jpg"
+  },
+  {
+    "ID": 3,
+    "Designation": "Member",
+    "Name": "Dr. Narendra Patel",
+    "Email": "narendra.patel@gecpatan.ac.in",
+    "Mobile": "9879328977",
+    "Pic": "/images/Faculty/Computer/dummy.jpg"
+  },
+  {
+    "ID": 4,
+    "Designation": "Member",
+    "Name": "Prof. Haresh Chande",
+    "Email": "haresh.chande@gecpatan.ac.in",
+    "Mobile": "9725179795",
+    "Pic": "/images/Faculty/Computer/Haresh.jpg"
+  }
+]

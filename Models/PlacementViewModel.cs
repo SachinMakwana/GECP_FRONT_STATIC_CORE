@@ -22,8 +22,34 @@ namespace GECP_Front_End_Static.Models
     {
         public string BranchID { get; set; }
         public string BranchName { get; set; }
-        public List<PlaementDataYearWiseVM> Data { get; set; }
+        public IList<PlaementDataYearWiseVM> Data { get; set; }
+
+        public PlacementDataVM()
+        {
+            Data = new List<PlaementDataYearWiseVM>();
+        }
+       
     }
 
+    public class PlacementTeamVM
+    {
+        public int ID { get; set; }
+        public string Designation { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Mobile { get; set; }
+        public string Pic { get; set; }
+    }
 
+    public class PlacementPageData
+    {
+        public IList<PlacementDataVM> PlacementDataVMs { get; set; }
+        public IList<PlacementTeamVM> PlacementTeamVMs { get; set; }
+
+        public PlacementPageData()
+        {
+            PlacementDataVMs = new List<PlacementDataVM>();
+            PlacementTeamVMs = new List<PlacementTeamVM>();
+        }
+    }
 }

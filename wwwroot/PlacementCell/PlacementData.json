@@ -31,7 +31,7 @@
         "HigherStudy": 4,
         "Business": 1,
         "PlacementPercentage": 74,
-        "IsDisplay": true
+        "IsDisplay": false
       }
     ]
   },
@@ -68,7 +68,7 @@
         "HigherStudy": 22,
         "Business": 4,
         "PlacementPercentage": 62,
-        "IsDisplay": true
+        "IsDisplay": false
       }
     ]
   },
@@ -105,7 +105,7 @@
         "HigherStudy": 12,
         "Business": 0,
         "PlacementPercentage": 58,
-        "IsDisplay": true
+        "IsDisplay": false
       }
     ]
   },
@@ -142,7 +142,7 @@
         "HigherStudy": 7,
         "Business": 2,
         "PlacementPercentage": 45,
-        "IsDisplay": true
+        "IsDisplay": false
       }
     ]
   },
@@ -179,7 +179,7 @@
         "HigherStudy": 11,
         "Business": 4,
         "PlacementPercentage": 29,
-        "IsDisplay": true
+        "IsDisplay": false
       }
     ]
   }

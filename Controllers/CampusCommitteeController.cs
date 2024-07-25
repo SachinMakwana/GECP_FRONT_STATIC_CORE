@@ -14,6 +14,7 @@ namespace GECP_Front_End_Static.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<PlacementDataVM> PlacementDataVM = new List<PlacementDataVM>();
+        public List<PlacementTeamVM> PlacementTeamVM = new List<PlacementTeamVM>();
 
         public CampusCommitteeController(IWebHostEnvironment hostingEnvironment)
         {
@@ -24,10 +25,15 @@ namespace GECP_Front_End_Static.Controllers
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             PlacementDataVM = JsonConvert.DeserializeObject<List<PlacementDataVM>>(json);
+
+            jsonpath = webRootPath + @"\PlacementCell\PlacementTeam.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            PlacementTeamVM = JsonConvert.DeserializeObject<List<PlacementTeamVM>>(json);
         }
         public IActionResult WomenCell()
         {
-            return View(); 
+            return View();
         }
         public IActionResult SSIP()
         {
@@ -46,6 +52,12 @@ namespace GECP_Front_End_Static.Controllers
             return View();
         }
         public IActionResult PlacementCell()
+        {
+          
+            return View(PlacementTeamVM);
+        }
+
+        public IActionResult PlacementStatistics()
         {
             return View(PlacementDataVM);
         }

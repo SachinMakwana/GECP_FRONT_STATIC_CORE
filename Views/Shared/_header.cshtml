@@ -125,11 +125,18 @@
                                     <li><a href="@Url.Action("General","Faculty")">General </a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown yamm-fw">
+                            @*<li class="dropdown yamm-fw">
                             <a href="@Url.Action("PlacementCell","CampusCommittee")" class="dropdown-toggle @( actionName == "PlacementCell" ? "active" : "")">Placement</a>
+                            </li>*@
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle @( controllerName == "CampusCommittee" && (actionName == "PlacementCell" || actionName == "PlacementStatistics") ? "active" : "")">Placement</a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li class="@( actionName == "PlacementCell" ? "active" : "")"><a href="@Url.Action("PlacementCell","CampusCommittee")">About Placement Cell</a></li>
+                                    <li class="@( actionName == "PlacementStatistics" ? "active" : "")"><a href="@Url.Action("PlacementStatistics","CampusCommittee")">Placement Statistics</a></li>
+                                </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle @( controllerName == "CampusCommittee" && actionName != "PlacementCell" ? "active" : "")">Campus Committees</a>
+                                <a href="#" class="dropdown-toggle @( controllerName == "CampusCommittee" && (actionName != "PlacementCell" && actionName != "PlacementStatistics") ? "active" : "")">Campus Committees</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li class="@( actionName == "WomenCell" ? "active" : "")"><a href="@Url.Action("WomenCell","CampusCommittee")">Women Cell</a></li>
                                     <li class="@( actionName == "SSIP" ? "active" : "")"><a href="@Url.Action("SSIP","CampusCommittee")">SSIP Cell</a></li>
