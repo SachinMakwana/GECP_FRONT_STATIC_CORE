@@ -1,7 +1,17 @@
 ﻿[
   {
-    "BranchID": "01",
+    "BranchID": 1,
     "BranchName": "Electronics and Communication",
+    "Pie": [
+      {
+        "year": "2022-23",
+        "Percentage": 26.66
+      },
+      {
+        "year": "2021-22",
+        "Percentage": 48
+      }
+    ],
     "Data": [
       {
         "Year": "2022-23",
@@ -37,8 +47,18 @@
   },
 
   {
-    "BranchID": "02",
+    "BranchID": 2,
     "BranchName": "Computer Science & Engineering",
+    "Pie": [
+      {
+        "year": "2022-23",
+        "Percentage": 72
+      },
+      {
+        "year": "2021-22",
+        "Percentage": 77
+      }
+    ],
     "Data": [
       {
         "Year": "2022-23",
@@ -72,10 +92,20 @@
       }
     ]
   },
-  
+
   {
-    "BranchID": "03",
+    "BranchID": 3,
     "BranchName": "Electrical Engineering",
+    "Pie": [
+      {
+        "year": "2022-23",
+        "Percentage": 47
+      },
+      {
+        "year": "2021-22",
+        "Percentage": 25
+      }
+    ],
     "Data": [
       {
         "Year": "2022-23",
@@ -111,8 +141,18 @@
   },
 
   {
-    "BranchID": "04",
+    "BranchID": 4,
     "BranchName": "Civil Engineering",
+    "Pie": [
+      {
+        "year": "2022-23",
+        "Percentage": 45
+      },
+      {
+        "year": "2021-22",
+        "Percentage": 27
+      }
+    ],
     "Data": [
       {
         "Year": "2022-23",
@@ -148,8 +188,18 @@
   },
 
   {
-    "BranchID": "05",
+    "BranchID": 5,
     "BranchName": "Mechanical Engineering",
+    "Pie": [
+      {
+        "year": "2022-23",
+        "Percentage": 51.32
+      },
+      {
+        "year": "2021-22",
+        "Percentage": 22
+      }
+    ],
     "Data": [
       {
         "Year": "2022-23",

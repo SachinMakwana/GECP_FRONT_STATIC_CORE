@@ -53,13 +53,53 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult PlacementCell()
         {
-          
+
             return View(PlacementTeamVM);
         }
 
         public IActionResult PlacementStatistics()
         {
             return View(PlacementDataVM);
+        }
+
+        [HttpPost]
+        public IActionResult GetChartData(int id = 0)
+        {
+            var data = PlacementDataVM.Where(m => m.BranchID == id).FirstOrDefault().Data.Where(m => m.IsDisplay == true).ToList();
+            return Json(data);
+        }
+
+        [HttpPost]
+        public IActionResult GetPieChartData()
+        {
+            List<PlacementPieChart> placementPieCharts = new List<PlacementPieChart>();
+           
+            foreach (var item in PlacementDataVM)
+            {
+                foreach (var pie in item.Pie)
+                {
+                    var placementPieChart = placementPieCharts.Where(m => m.year == pie.year).FirstOrDefault();
+                    
+                    BranchWisePercentage branchWisePercentage = new BranchWisePercentage();
+                    branchWisePercentage.BranchName = item.BranchName;
+                    branchWisePercentage.year = pie.year;
+                    branchWisePercentage.Percentage = pie.Percentage;
+
+                    if(placementPieChart != null)
+                    {
+                        placementPieCharts.Where(m => m.year == pie.year).FirstOrDefault().Data.Add(branchWisePercentage);
+                    }
+                    else
+                    {
+                        placementPieChart = new PlacementPieChart();
+                        placementPieChart.year = pie.year;
+                        placementPieChart.ID = placementPieCharts.LastOrDefault() != null ? placementPieCharts.LastOrDefault().ID + 1 : 1;
+                        placementPieChart.Data.Add(branchWisePercentage);
+                        placementPieCharts.Add(placementPieChart);
+                    }
+                }
+            }
+            return Json(placementPieCharts);
         }
     }
 }

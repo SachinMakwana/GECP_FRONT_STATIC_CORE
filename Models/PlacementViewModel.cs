@@ -20,13 +20,15 @@ namespace GECP_Front_End_Static.Models
 
     public class PlacementDataVM
     {
-        public string BranchID { get; set; }
+        public int BranchID { get; set; }
         public string BranchName { get; set; }
         public IList<PlaementDataYearWiseVM> Data { get; set; }
+        public IList<BranchWisePercentage> Pie { get; set; }
 
         public PlacementDataVM()
         {
             Data = new List<PlaementDataYearWiseVM>();
+            Pie = new List<BranchWisePercentage>();
         }
        
     }
@@ -51,5 +53,25 @@ namespace GECP_Front_End_Static.Models
             PlacementDataVMs = new List<PlacementDataVM>();
             PlacementTeamVMs = new List<PlacementTeamVM>();
         }
+    }
+
+    public class PlacementPieChart
+    {
+        public int ID { get; set; }
+        public string year { get; set; }
+        public IList<BranchWisePercentage> Data { get; set; }
+
+        public PlacementPieChart()
+        {
+            Data=new List<BranchWisePercentage>();
+        }
+    }
+
+    public class BranchWisePercentage
+    {
+        public string year { get; set; }
+        public float Percentage { get; set; }
+
+        public string BranchName { get; set; }
     }
 }

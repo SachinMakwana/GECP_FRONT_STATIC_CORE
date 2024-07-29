@@ -72,11 +72,11 @@
 
         <div class="g1 col-lg-4 col-sm-4">
             <div class="graph-pnl text-center">
-                <h5>CIVIL DEPARTMENT PLACEMENT OF 2020-22</h5>
-                <a id="myBtn" href="#animatedModal" class="popup-trigger" data-target="#popup">
+                <h5>CIVIL DEPARTMENT PLACEMENT  </h5>
+                <a id="chart4" class="popup-trigger">
                     <img src="@Url.Content("~/images/CampusCommittee/Placement/CIVIL1.png")" width="289" height="241">
                     <br>
-                    <span>Click to View Graph</span>
+                    <span onclick="showChart(4,'CIVIL DEPARTMENT')">Click to View Graph</span>
                 </a>
             </div>
 
@@ -86,11 +86,11 @@
 
         <div class="g1 col-lg-4 col-sm-4">
             <div class="graph-pnl text-center">
-                <h5>MECHANICAL DEPARTMENT PLACEMENT OF 2020-22</h5>
-                <a id="myBtn" href="#animatedModal" class="popup-trigger" data-target="#popup1">
+                <h5>MECHANICAL DEPARTMENT PLACEMENT  </h5>
+                <a id="chart5" class="popup-trigger">
                     <img src="@Url.Content("~/images/CampusCommittee/Placement/MECH1.png")" width="289" height="241">
                     <br>
-                    <span>Click to View Graph</span>
+                    <span onclick="showChart(5,'MECHANICAL DEPARTMENT')">Click to View Graph</span>
                 </a>
             </div>
         </div>
@@ -99,11 +99,11 @@
 
         <div class="g1 col-lg-4 col-sm-4">
             <div class="graph-pnl text-center">
-                <h5>Electrical DEPARTMENT PLACEMENT OF 2020-22</h5>
-                <a id="myBtn" href="#animatedModal" class="popup-trigger" data-target="#popup2">
+                <h5>Electrical DEPARTMENT PLACEMENT  </h5>
+                <a id="chart3" href="#animatedModal" class="popup-trigger">
                     <img src="@Url.Content("~/images/CampusCommittee/Placement/EE1.png")" width="289" height="241">
                     <br>
-                    <span>Click to View Graph</span>
+                    <span onclick="showChart(3,'ELECTRICAL DEPARTMENT')">Click to View Graph</span>
                 </a>
             </div>
         </div>
@@ -112,11 +112,11 @@
 
         <div class="g1 col-lg-4 col-sm-4">
             <div class="graph-pnl text-center">
-                <h5>Computer Science DEPARTMENT PLACEMENT OF 2020-22</h5>
-                <a id="myBtn" href="#animatedModal" class="popup-trigger" data-target="#popup3">
+                <h5>Computer Science DEPARTMENT PLACEMENT  </h5>
+                <a id="chart2" href="#animatedModal" class="popup-trigger">
                     <img src="@Url.Content("~/images/CampusCommittee/Placement/CSE2.png")" width="289" height="241">
                     <br>
-                    <span>Click to View Graph</span>
+                    <span onclick="showChart(2,'COMPUTER DEPARTMENT')">Click to View Graph</span>
                 </a>
             </div>
         </div>
@@ -125,11 +125,11 @@
 
         <div class="g1 col-lg-4 col-sm-4">
             <div class="graph-pnl text-center">
-                <h5>Electronics and Communication DEPARTMENT PLACEMENT OF 2020-22</h5>
-                <a id="myBtn" href="#animatedModal" class="popup-trigger" data-target="#popup4">
+                <h5>Electronics and Communication DEPARTMENT PLACEMENT  </h5>
+                <a id="chart1" href="#animatedModal" class="popup-trigger">
                     <img src="@Url.Content("~/images/CampusCommittee/Placement/EC1.png")" width="289" height="241">
                     <br>
-                    <span>Click to View Graph</span>
+                    <span onclick="showChart(1,'Electronics and Communication DEPARTMENT')">Click to View Graph</span>
                 </a>
             </div>
         </div>
@@ -139,34 +139,22 @@
         <div class="g1 col-lg-4 col-sm-4">
             <div class="graph-pnl text-center">
                 <h5>BRANCH-WISE PLACEMENT</h5>
-                <a id="myBtn" href="#animatedModal" class="popup-trigger" data-target="#popup5">
+                <a id="myBtn" href="javascript:void(0)" class="popup-trigger">
                     <img src="@Url.Content("~/images/CampusCommittee/Placement/BR1.png")" width="289" height="241">
                     <br>
-                    <span>Click to View Graph</span>
+                    <span onclick="showPieChart()">Click to View Graph</span>
                 </a>
             </div>
         </div>
 
     </div>
 
-    <!-- FOR BLOCK 1 -->
 
-    <div id="popup" class="popup">
-        <!-- <div class="popup-text"> -->
-        <div id="chartdiv">
-            <div id="chartContainer3" style="width: 100%; height: 300px;display: inline-block;"></div>
-        </div>
-        <div class="details">
-
-            <div id="chartContainer7" style="width: 100%; height: 300px;display: inline-block;"></div>
-
-        </div>
-        <!-- </div> -->
-        <span class="popup-btn-close">&times;</span>
-    </div>
 
     <!-- FOR BLOCK 2 -->
 
+
+    <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup1"></a>
     <div id="popup1" class="popup">
         <!-- <div class="popup-text"> -->
         <div id="chartdiv1">
@@ -180,51 +168,7 @@
         <span class="popup-btn-close">&times;</span>
     </div>
 
-    <!-- FOR BLOCK 3 -->
 
-    <div id="popup2" class="popup">
-        <!-- <div class="popup-text"> -->
-        <div id="chartdiv2">
-            <div id="chartContainer2" style="width: 100%; height: 300px;display: inline-block;"></div>
-        </div>
-        <div class="details">
-            <div id="chartContainer9" style="width: 100%; height: 300px;display: inline-block;"></div>
-        </div>
-        <!-- </div> -->
-        <span class="popup-btn-close">&times;</span>
-    </div>
-
-    <!-- FOR BLOCK 4 -->
-
-    <div id="popup3" class="popup">
-        <!-- <div class="popup-text"> -->
-
-        <div id="chartdiv3">
-            <div id="chartContainer4" style="width: 100%; height: 300px;display: inline-block;"></div>
-        </div>
-        <div class="details">
-            <div id="chartContainer10" style="width: 100%; height: 300px;display: inline-block;"></div>
-        </div>
-        <!-- </div> -->
-        <span class="popup-btn-close">&times;</span>
-    </div>
-
-    <!-- FOR BLOCK 5 -->
-
-    <div id="popup4" class="popup">
-        <!-- <div class="popup-text"> -->
-        <div id="chartdiv4">
-            <div id="chartContainer5" style="width: 100%; height: 300px;display: inline-block;"></div>
-        </div>
-        <div class="details">
-            <div id="chartContainer11" style="width: 100%; height: 300px;display: inline-block;"></div>
-
-        </div>
-        <!-- </div> -->
-        <span class="popup-btn-close">&times;</span>
-    </div>
-
-    <!-- FOR BLOCK 6 -->
 
     <div id="popup5" class="popup">
         <!-- <div class="popup-text"> -->
@@ -296,42 +240,53 @@
 @section scripts{
 
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-    <script>
+    <script type="text/javascript">
+        var CanvasJS = CanvasJS;
+        var chart = new CanvasJS.Chart();
 
-        //popup 2
+        var colorShade1 = {
+            "name": "greenShades",
+            "color": ["#7B5DDA", "#975DDA", "#BF5DDA", "#DA5DCC"]
+        };
 
-        window.onload = function () {
-
-            CanvasJS.addColorSet("greenShades",
-                [//colorSet Array
-
-                    "#7B5DDA",
-                    "#975DDA",
-                    "#BF5DDA",
-                    "#DA5DCC"
-                ]);
-
-            var chart = new CanvasJS.Chart("chartContainer1", {
+        var colorShade2 = {
+            "name": "greenShades",
+            "color": ["#06644D", "#1CB18D", "#44E1BB", "#78FADA"]
+        };
+        function showChart(id, dept) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("GetChartData","CampusCommittee")',
+                data: { 'id': id },
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);
+                    renderChart(colorShade1, "chartContainer1", dept, data[0], chart, CanvasJS);
+                    renderChart(colorShade2, "chartContainer8", dept, data[1], chart, CanvasJS);
+                    $("#lnkPopup").click();
+                }
+            })
+        }
+        function renderChart(colorShades, container, department, data, chart, CanvasJS) {
+            CanvasJS.addColorSet(colorShades.name, colorShades.color);
+            chart = new CanvasJS.Chart(container, {
                 animationEnabled: true,
-                colorSet: "greenShades",
                 theme: "light2", // "light1", "light2", "dark1", "dark2"
                 title: {
-                    text: "MECHANICAL DEPARTMENT PLACEMENT OF 2020-21",
+                    text: department + " FOR YEAR " + data.year,
                     fontSize: 20,
                 },
                 axisY: {
                     title: "No of Students",
-
-
                 },
                 data: [{
                     type: "column",
                     yValueFormatString: "#",
                     dataPoints: [
-                        { label: "Students Passout", y: 92 },
-                        { label: "Students Placed", y: 12 },
-                        { label: "Further Study", y: 11 },
-                        { label: "Business", y: 4 }
+                        { label: "Students Passout", y: data.passout },
+                        { label: "Students Placed", y: data.placed },
+                        { label: "Further Study", y: data.higherStudy },
+                        { label: "Business", y: data.business }
 
                     ]
                 }]
@@ -340,420 +295,47 @@
         }
 
 
-        //popup 8
-
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-                "#06644D",
-                "#1CB18D",
-                "#44E1BB",
-                "#78FADA"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer8", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "MECHANICAL DEPARTMENT PLACEMENT OF 2021-22",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 114 },
-                    { label: "Students Placed", y: 22 },
-                    { label: "Further Study", y: 3 },
-                    { label: "Business", y: 0 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-
-        //popup 3
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#5DCCDA",
-                "#5D97DA",
-                "#BF5DDA",
-                "#DA5DCC"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer2", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "ELECTRICAL DEPARTMENT PLACEMENT OF 2020-21",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 62 },
-                    { label: "Students Placed", y: 24 },
-                    { label: "Further Study", y: 12 },
-                    { label: "Business", y: 0 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-        //popup 9
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#CB0E56",
-                "#F14759",
-                "#D151F7",
-                "#DA5DCC"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer9", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "ELECTRICAL DEPARTMENT PLACEMENT OF 2021-22",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 51 },
-                    { label: "Students Placed", y: 13 },
-                    { label: "Further Study", y: 0 },
-                    { label: "Business", y: 0 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-
-        // popup 1
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#C71585",
-                "#66CDAA",
-                "#663399",
-                "#2E8B57"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer3", {
-            colorSet: "greenShades",
-            animationEnabled: true,
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "CIVIL DEPARTMENT PLACEMENT OF 2020-21",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 58 },
-                    { label: "Students Placed", y: 17 },
-                    { label: "Further Study", y: 7 },
-                    { label: "Business", y: 2 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-
-        // popup 4
-
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#CB0E56",
-                "#F14759",
-                "#D151F7",
-                "#DA5DCC"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer4", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "COMPUTER DEPARTMENT PLACEMENT OF 2020-21",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 109 },
-                    { label: "Students Placed", y: 42 },
-                    { label: "Further Study", y: 22 },
-                    { label: "Business", y: 9 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-        // popup 10
-
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#8518A5",
-                "#7F3CD5",
-                "#159CC8",
-                "#08CED7"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer10", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "COMPUTER DEPARTMENT PLACEMENT OF 2021-22",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 113 },
-                    { label: "Students Placed", y: 58 },
-                    { label: "Further Study", y: 24 },
-                    { label: "Business", y: 5 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-
-        // popup 5
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#05700A",
-                "#9CDA0E",
-                "#E7EC4D",
-                "#ECAA26"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer5", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "ELECTRONICS AND COMMUNICATION DEPARTMENT PLACEMENT OF 2020-21",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 23 },
-                    { label: "Students Placed", y: 12 },
-                    { label: "Further Study", y: 4 },
-                    { label: "Business", y: 1 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-        // popup 11
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#620814",
-                "#CF085C",
-                "#EA05BD",
-                "#9CDA0E"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer11", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "ELECTRONICS AND COMMUNICATION DEPARTMENT PLACEMENT OF 2021-22",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 23 },
-                    { label: "Students Placed", y: 12 },
-                    { label: "Further Study", y: 4 },
-                    { label: "Business", y: 1 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-
-        // popup 6
-
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-
-                "#C71585",
-                "#66CDAA",
-                "#663399",
-                "#2E8B57",
-                "#FF6347"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer6", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "BRANCHWISE PLACEMENT 2020-21",
-                fontSize: 20,
-            },
-            data: [{
-                type: "pie",
-                startAngle: 240,
-                yValueFormatString: "##0.00'%'",
-                indexLabel: "{label} {y}",
-                dataPoints: [
-                    { label: "CSE", y: 62 },
-                    { label: "EC", y: 74 },
-                    { label: "EE", y: 58 },
-                    { label: "ME", y: 29 },
-                    { label: "CIVIL", y: 45 }
-
-
-                ]
-            }]
-        });
-        chart.render();
-
-        // popup 12
-        CanvasJS.addColorSet("greenShades",
-            [//colorSet Array
-                "#11D7B0",
-                "#620814",
-                "#CF085C",
-                "#EA05BD",
-                "#9CDA0E"
-            ]);
-
-        var chart = new CanvasJS.Chart("chartContainer12", {
-            animationEnabled: true,
-            colorSet: "greenShades",
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "BRANCHWISE PLACEMENT 2021-22",
-                fontSize: 20,
-            },
-            data: [{
-                type: "pie",
-                startAngle: 240,
-                yValueFormatString: "##0.00'%'",
-                indexLabel: "{label} {y}",
-                dataPoints: [
-                    { label: "CSE", y: 77 },
-                    { label: "EC", y: 48 },
-                    { label: "EE", y: 25 },
-                    { label: "ME", y: 22 },
-                    { label: "CIVIL", y: 27 }
-
-
-                ]
-            }]
-        });
-        chart.render();
-
-
-        // 7
-        var chart = new CanvasJS.Chart("chartContainer7", {
-            animationEnabled: true,
-            theme: "light2", // "light1", "light2", "dark1", "dark2"
-            title: {
-                text: "CIVIL DEPARTMENT PLACEMENT OF 2021-22",
-                fontSize: 20,
-            },
-            axisY: {
-                title: "No of Students",
-
-
-            },
-            data: [{
-                type: "column",
-                yValueFormatString: "#",
-                dataPoints: [
-                    { label: "Students Passout", y: 63 },
-                    { label: "Students Placed", y: 5 },
-                    { label: "Further Study", y: 9 },
-                    { label: "Business", y: 3 }
-
-                ]
-            }]
-        });
-        chart.render();
-
-        function toggleDataSeries(e) {
-            if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-                e.dataSeries.visible = false;
-            }
-            else {
-                e.dataSeries.visible = true;
-            }
-            chart.render();
+        function showPieChart() {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("GetPieChartData","CampusCommittee")',
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);
+                    renderPieChart(colorShade1, "chartContainer1", data[0].year, data[0].data, chart, CanvasJS);
+                    renderPieChart(colorShade2, "chartContainer8", data[1].year, data[1].data, chart, CanvasJS);
+                    $("#lnkPopup").click();
+                }
+            })
         }
 
+        function renderPieChart(colorShades, container, year, data, chart, CanvasJS) {
+            var pieArray=[];
+            for(var i=0;i<data.length;i++){
+                pieArray.push({
+                    label: data[i].branchName,
+                        y: data[i].percentage
+                });
+
+            }
+            chart = new CanvasJS.Chart(container, {
+                animationEnabled: true,
+                colorSet: "greenShades",
+                theme: "light2", // "light1", "light2", "dark1", "dark2"
+                title: {
+                    text: "BRANCHWISE PLACEMENT "+year,
+                    fontSize: 20,
+                },
+                data: [{
+                    type: "pie",
+                    startAngle: 240,
+                    yValueFormatString: "##0.00'%'",
+                    indexLabel: "{label} {y}",
+                    dataPoints: pieArray
+                }]
+            });
+            chart.render();
+        }
     </script>
 
 
