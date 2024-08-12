@@ -260,7 +260,6 @@
                 data: { 'id': id },
                 dataType: "json",
                 success: function (data) {
-                    console.log(data);
                     renderChart(colorShade1, "chartContainer1", dept, data[0], chart, CanvasJS);
                     renderChart(colorShade2, "chartContainer8", dept, data[1], chart, CanvasJS);
                     $("#lnkPopup").click();
@@ -301,7 +300,6 @@
                 url: '@Url.Action("GetPieChartData","CampusCommittee")',
                 dataType: "json",
                 success: function (data) {
-                    console.log(data);
                     renderPieChart(colorShade1, "chartContainer1", data[0].year, data[0].data, chart, CanvasJS);
                     renderPieChart(colorShade2, "chartContainer8", data[1].year, data[1].data, chart, CanvasJS);
                     $("#lnkPopup").click();
