@@ -1,8 +1,82 @@
-﻿@{
+﻿@model List<GECP_Front_End_Static.Models.AchievementsVM>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Achievements";
 }
+<div class="page_title3 placement_title">
+    <div class="container">
 
-<div class="content_fullwidth">
-    <img src="@Url.Content("~/images/Untitled.jpg")" alt="" />
+        <h1>
+            <br> Achievements<em>Government Engineering College</em>
+            <div class="line"></div>
+            <br>
+        </h1>
+
+    </div>
 </div>
+
+<div class="content_fullwidth less">
+    <div class="featured_section121">
+        <div class="container"><h3 style="text-align: justify;">Student achievement is a key focus in education, with growing accountability on teachers. It measures how much academic content a student learns within a specific timeframe, guided by grade-level learning goals or instructional standards. Effective teaching, aligned with these standards, is crucial for improving student achievement. As teachers are increasingly held accountable, there is a stronger emphasis on strategies that enhance student outcomes. Ultimately, education aims to prepare students for adulthood by equipping them with essential knowledge, skills, and critical thinking abilities.</h3></div>
+        <div id="cd-timeline" class="cd-container">
+            
+            @foreach (var item in Model)
+            {
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-picture bounce-in"> <i class="fa fa-trophy" style="font-size: 35px; margin: 10px 10px;line-height: 50px;"></i> </div>
+                    <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content bounce-in">
+                        <h2 class="text-center">@Html.Raw(item.Title)</h2>
+                        <div class="imgframe3">
+                            <img src="@item.Image" alt="">
+                            <strong style="text-align: justify;">@item.Description</strong>
+                        </div>
+                        <span class="cd-date"><strong>@item.Date</strong></span>
+                    </div>
+                    <!-- cd-timeline-content -->
+                </div>
+                <!-- cd-timeline-block -->
+            }
+        </div>
+
+    </div>
+</div><!-- end content area -->
+
+
+
+<div class="clearfix"></div>
+
+@section scripts{
+    <script>
+        (function ($) {
+            "use strict";
+
+            jQuery(document).ready(function ($) {
+                var $timeline_block = $('.cd-timeline-block');
+
+                //hide timeline blocks which are outside the viewport
+                $timeline_block.each(function () {
+                    if ($(this).offset().top > $(window).scrollTop() + $(window).height() * 0.75) {
+                        $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+                    }
+                });
+
+                //on scolling, show/animate timeline blocks when enter the viewport
+                $(window).on('scroll', function () {
+                    $timeline_block.each(function () {
+                        if ($(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden')) {
+                            $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+                        }
+                    });
+                });
+            });
+
+        })(jQuery);
+    </script>
+}
+
+@section styles{
+    <!-- timeline -->
+    <link rel="stylesheet" href="@Url.Content("~/js/timeline/timeline.css")">
+}

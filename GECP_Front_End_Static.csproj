@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\placementcell\PlacementTeam.json" />
+  </ItemGroup>
+
    <ItemGroup>
     <PackageReference Include="MailKit" Version="2.15.0" />
     <PackageReference Include="MimeKit" Version="2.15.1" />
