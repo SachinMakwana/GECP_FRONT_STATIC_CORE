@@ -32,6 +32,11 @@ namespace GECP_Front_End_Static.Controllers
             return View();
         }
 
+        public IActionResult MoU()
+        {
+            return View();
+        }
+
         public IActionResult RTI()
         {
             return View();
