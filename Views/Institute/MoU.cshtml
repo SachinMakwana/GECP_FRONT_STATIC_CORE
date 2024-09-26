@@ -1,6 +1,8 @@
-﻿@{
+﻿@model IList<GECP_Front_End_Static.Models.MOUModel>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Memorandum of Understanding";
+    int count = 1;
 }
 <style>
     .fabig {
@@ -33,18 +35,33 @@
 
                 <ul>
 
-                    <li class="minheight">
-                        <a href="@Url.Content("~/MOU/Kachhua.pdf")" target="_blank">
-                            <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
-                            Kachchua Solutions Pvt. Ltd.
-                        </a>
-                    </li>
-                    <li class="minheight">
-                        <a href="@Url.Content("~/ImpDocs/EOA_Till_2024_25.pdf")">
-                            <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
-                            Aicte Extension of Approval till 2024-25
-                        </a>
-                    </li>
+                    @*  <li class="minheight">
+                    <a href="@Url.Content("~/MOU/Kachhua.pdf")" target="_blank">
+                    <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                    Kachchua Solutions Pvt. Ltd.
+                    </a>
+                    </li> *@
+                    @foreach (var item in Model)
+                    {
+                        if(count%5==0){
+                        <li class="minheight last">
+                            <a href="@Url.Content(item.File)">
+                                <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                                @item.Title
+                            </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="minheight">
+                                <a href="@Url.Content(item.File)">
+                                    <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                                    @item.Title
+                                </a>
+                            </li>
+                        }
+                        count++;
+                    }
                 </ul>
 
             </div>
