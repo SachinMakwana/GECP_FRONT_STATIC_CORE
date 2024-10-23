@@ -15,7 +15,7 @@ namespace GECP_Front_End_Static.Controllers
 
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<MOUModel> MOUModelVM = new List<MOUModel>();
-       
+        public List<NewsLettersModel> NewsLettersModel = new List<NewsLettersModel>();
 
         public InstituteController(IWebHostEnvironment hostingEnvironment)
         {
@@ -27,6 +27,11 @@ namespace GECP_Front_End_Static.Controllers
             string json = webClient.DownloadString(jsonpath);
             MOUModelVM = JsonConvert.DeserializeObject<List<MOUModel>>(json);
 
+            jsonpath = webRootPath + @"\news\NewsLetters.json";
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            NewsLettersModel = JsonConvert.DeserializeObject<List<NewsLettersModel>>(json);
         }
         public IActionResult AboutUs()
         {
@@ -39,7 +44,7 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult NewsLetter()
         {
-            return View();
+            return View(NewsLettersModel.OrderByDescending(m=>m.ID).ToList());
         }
 
         public IActionResult Tenders()

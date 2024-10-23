@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<GECP_Front_End_Static.Models.NewsLettersModel>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "News Letter";
 }
@@ -13,176 +14,28 @@
 
     </div>
 </div>
-<div class="clearfix margin_bottom6"></div>
+<div class="clearfix"></div>
 <div class="content_fullwidth less">
     <div class="featured_section121">
 
         <div id="cd-timeline" class="cd-container">
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
 
-                <div class="cd-timeline-content">
-                    <h2>APRIL TO JUNE 2024</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2024.pdf")" download="Apr_Jun_2024"><img src="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2024-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2024.pdf")" download="Apr_Jun_2024" class="btn btn-primary">Read More</a>
+            @foreach (var item in Model)
+            {
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
+                    <!-- cd-timeline-img -->
 
+                    <div class="cd-timeline-content">
+                        <h2>@item.Title</h2>
+                        <a href="@Url.Content(item.File)" download="@item.download_name"><img src="@Url.Content(item.Thumb)" class="rimg" /></a>
+                        <a href="@Url.Content(item.File)" download="@item.download_name" class="btn btn-primary">Read More</a>
+
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>JANUARY TO MARCH 2024</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2024.pdf")" download="Jan_Mar_2024"><img src="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2024-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2024.pdf")" download="Jan_Mar_2024" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>OCTOBER TO DECEMBER  2023</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2023.pdf")" download="Oct_Dec_23"><img src="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2023-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2023.pdf")" download="Oct_Dec_23" class="btn btn-primary">Read More</a>
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>JULY TO SEPTEMBER 2023</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2023.pdf")" download="July_Sept_2023"><img src="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2023-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2023.pdf")" download="July_Sept_2023" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>APRIL TO JUNE 2023</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2023.pdf")" download="April_June_2023"><img src="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2023-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2023.pdf")" download="April_June_2023" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>JANUARY TO MARCH 2023</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2023.pdf")" download="Jan_Mar_2023"><img src="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2023-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2023.pdf")" download="Jan_Mar_2023" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>OCTOBER TO DECEMBER  2022</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022.pdf")" download="Oct_Dec_22"><img src="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022.pdf")" download="Oct_Dec_22" class="btn btn-primary">Read More</a>
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>JULY TO SEPTEMBER  2022</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022.pdf")" download="July_Sept_2022"><img src="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022.pdf")" download="July_Sept_2022" class="btn btn-primary">Read More</a>
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>APRIL TO JUNE 2022</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2022.pdf")" download="April_June_2022"><img src="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2022-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP APRIL TO JUNE 2022.pdf")" download="April_June_2022" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>JANUARY TO MARCH 2022</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2022.pdf")" download="Jan_Mar_2022"><img src="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2022-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JANUARY TO MARCH 2022.pdf")" download="Jan_Mar_2022" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>OCTOBER TO DECEMBER  2021</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021.pdf")" download="Oct_Dec_21"><img src="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021-01.jpg")" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021.pdf")" download="Oct_Dec_21" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
-
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"> <i class="fa fa-newspaper-o" style="font-size: 35px; margin: 10px 10px;"></i> </div>
-                <!-- cd-timeline-img -->
-
-                <div class="cd-timeline-content">
-                    <h2>JULY TO SEPTEMBER  2021</h2>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021.pdf")" download="July_Sept_2021"><img src="~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021-01.jpg" class="rimg" /></a>
-                    <a href="@Url.Content("~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021.pdf")" download="July_Sept_2021" class="btn btn-primary">Read More</a>
-
-                </div>
-                <!-- cd-timeline-content -->
-            </div>
-            <!-- cd-timeline-block -->
+                <!-- cd-timeline-block -->
+            }
 
         </div>
 
