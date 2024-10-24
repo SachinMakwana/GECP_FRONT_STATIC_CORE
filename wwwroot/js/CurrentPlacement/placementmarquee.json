@@ -1,0 +1,42 @@
+[
+  {
+    "ID": 1,
+    "Title": " BREVITAZ",
+    "IsFile": 1,
+    "Logo": "/images/CampusCommittee/CurrentPlacement/Brevitazplacement.png",
+    "StudentsHired": 6,
+    "Instalink": "https://www.instagram.com/p/C_M5foZss3q/",
+    "ControllerName": "",
+    "ActionName": ""
+  },
+  {
+    "ID": 2,
+    "Title": "Innvonix TechSolutions",
+    "IsFile": 1,
+    "Logo": "/images/CampusCommittee/CurrentPlacement/innvonix_techsolutionsplacement.jpeg",
+    "StudentsHired": 2,
+    "Instalink": "https://www.instagram.com/p/DAN4-uLTcJJ/",
+    "ControllerName": "",
+    "ActionName": ""
+  },
+  {
+    "ID": 3,
+    "Title": "LANET TEAM Software Solutions",
+    "IsFile": 1,
+    "Logo": "/images/CampusCommittee/CurrentPlacement/lanetteamplacement.jpeg",
+    "StudentsHired": 3,
+    "Instalink": "https://www.instagram.com/p/C_X6_6tTpcy/",
+    "ControllerName": "",
+    "ActionName": ""
+  },
+  {
+    "ID": 4,
+    "Title": "SilverTouch Technologies",
+    "IsFile": 1,
+    "Logo": "/images/CampusCommittee/CurrentPlacement/silvertouchtechplacement.png",
+    "StudentsHired": 2,
+    "Instalink": "https://www.instagram.com/p/DAZvEY1TaM1/",
+    "ControllerName": "",
+    "ActionName": ""
+  }
+]

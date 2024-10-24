@@ -1,0 +1,29 @@
+[
+  {
+    "ID": 1,
+    "Name": "Mr. HARDIK TRIVEDI",
+    "Designation": "Assistant Professor",
+    "Qualification": "M.E.Civil (CASAD)",
+    "image": "images/Faculty/EC/mehul.jpg",
+    "Experience": "10 Years",
+    "Area of Interest": "Structural Analysis & Design"
+  },
+  {
+    "ID": 2,
+    "Name": "Mr. HARDIK TRIVEDI",
+    "Designation": "Assistant Professor",
+    "Qualification": "M.E.Civil (CASAD)",
+    "image": "images/Faculty/EC/mehul.jpg",
+    "Experience": "10 Years",
+    "Area of Interest": "Structural Analysis & Design"
+  },
+  {
+    "ID": 3,
+    "Name": "Mr. HARDIK TRIVEDI",
+    "Designation": "Assistant Professor",
+    "Qualification": "M.E.Civil (CASAD)",
+    "image": "images/Faculty/EC/mehul.jpg",
+    "Experience": "10 Years",
+    "Area of Interest": "Structural Analysis & Design"
+  }
+]

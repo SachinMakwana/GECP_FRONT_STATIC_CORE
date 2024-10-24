@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Aryan Panchal",
+    "department": "CSE",
+    "package": "3.0 to 3.6 LPA",
+    "company": "Silver Touch Technologies",
+    "Pic" :  "/images/StudentsPlaced/AryanPanchal.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jyoti Jha",
+    "department": "CSE",
+    "package": "3.0 to 3.6 LPA",
+    "company": "Silver Touch Technologies",
+    "Pic": "/images/StudentsPlaced/JyotiJha.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rajbha Jadiya",
+    "department": "CSE",
+    "package": "2.4 to 3.4 LPA",
+    "company": "Innvonix Tech Solutions",
+    "Pic": "/images/StudentsPlaced/RajbhaJadiya.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Purvi Patel",
+    "department": "CSE",
+    "package": "2.4 to 3.4 LPA",
+    "company": "Innvonix Tech Solutions",
+    "Pic": "/images/StudentsPlaced/PurviPatel.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Neel Patel",
+    "department": "CSE",
+    "package": "3.6 to 5.04 LPA",
+    "company": "Lanet Software Solutions",
+    "Pic": "/images/StudentsPlaced/NeelPatel.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Harsh Patel",
+    "department": "CSE",
+    "package": "3.6 to 5.04 LPA",
+    "company": "Lanet Software Solutions",
+    "Pic": "/images/StudentsPlaced/HarshPatel.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Vikhnesh Pillai",
+    "department": "CSE",
+    "package": "3.6 to 5.04 LPA",
+    "company": "Lanet Software Solutions",
+    "Pic": "/images/StudentsPlaced/VinkeshPillai.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Kunal Awasthi",
+    "department": "CSE",
+    "package": "3.5 to 4.0 LPA",
+    "company": "Brevitaz",
+    "Pic": "/images/StudentsPlaced/KunalAwasthi.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sakir Shaikh",
+    "department": "CSE",
+    "package": "3.5 to 4.0 LPA",
+    "company": "Brevitaz",
+    "Pic": "/images/StudentsPlaced/SakirShaikh.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jaydeep Kuber",
+    "department": "CSE",
+    "package": "3.5 to 4.0 LPA",
+    "company": "Brevitaz",
+    "Pic": "/images/StudentsPlaced/JaydeepKuber.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mohammad Machhaliya",
+    "department": "CSE",
+    "package": "3.5 to 4.0 LPA",
+    "company": "Brevitaz",
+    "Pic": "/images/StudentsPlaced/Machiliya.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Jinesh Patel",
+    "department": "CSE",
+    "package": "3.5 to 4.0 LPA",
+    "company": "Brevitaz",
+    "Pic": "/images/StudentsPlaced/JenishPatel.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Pranjal Panchal",
+    "department": "CSE",
+    "package": "3.5 to 4.0 LPA",
+    "company": "Brevitaz",
+    "Pic": "/images/StudentsPlaced/PranjalPatel.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Pandya Aayush",
+    "department": "CSE",
+    "package": "3.0 to 4.0 LPA",
+    "company": "Wapnnets System",
+    "Pic": "/images/StudentsPlaced/AayushPandya.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Nitesh Bind",
+    "department": "CSE",
+    "package": "3.6 to 5.0 LPA",
+    "company": "eSparkBiz",
+    "Pic": "/images/StudentsPlaced/NiteshBind.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Ansh Bhavsar",
+    "department": "CSE",
+    "package": "3.6 to 5.0 LPA",
+    "company": "eSparkBiz",
+    "Pic": "/images/StudentsPlaced/AnshBhavsar.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Srushti Jansari",
+    "department": "CSE",
+    "package": "3.6 to 5.0 LPA",
+    "company": "eSparkBiz",
+    "Pic": "/images/StudentsPlaced/ShrushtiJansari.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Rutu Patel",
+    "department": "CSE",
+    "package": "3.6 to 5.0 LPA",
+    "company": "eSparkBiz",
+    "Pic": "/images/StudentsPlaced/RutuPatel.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Anjali Rai",
+    "department": "CSE",
+    "package": "3.6 to 5.0 LPA",
+    "company": "eSparkBiz",
+    "Pic": "/images/StudentsPlaced/AnjaliRai.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Dhruv Patel",
+    "department": "CSE",
+    "package": "4.32 to 4.8 LPA",
+    "company": "TatvaSoft",
+    "Pic": "/images/StudentsPlaced/DhruvPatel.jpg"
+  }
+]

@@ -18,7 +18,7 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<MarqueeModelVM> MarqueeData = new List<MarqueeModelVM>();
         public List<TestimonialModelVM> TestimonialData = new List<TestimonialModelVM>();
-        
+
 
         public HomeController(IWebHostEnvironment hostingEnvironment)
         {
@@ -34,6 +34,7 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(testimonialjsonpath);
             TestimonialData = JsonConvert.DeserializeObject<List<TestimonialModelVM>>(json);
+
         }
 
         public IActionResult Index()

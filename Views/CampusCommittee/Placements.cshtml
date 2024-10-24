@@ -1,0 +1,69 @@
+﻿@model IList<GECP_Front_End_Static.Models.PlacementMarqueeModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Placement Cell";
+   
+}
+
+<div class="clearfix"></div>
+
+
+<div class="page_title3 placement_title">
+    <div class="container">
+
+        <h1>
+            <br> Placement Cell<em>Government Engineering College</em>
+            <div class="line"></div>
+            <br>
+        </h1>
+
+    </div>
+</div>
+<div class="clearfix margin_bottom6"></div>
+
+@if (Model != null)
+{
+        <h1 class="caps text-center">
+            Current Placement
+        </h1>
+        <div class="clearfix margin_top5"></div>
+        <div class="featured_section13">
+            <div class="container">
+                <h2 class="color2">
+                    <marquee style="line-height:100px">
+                        @foreach (var item in Model)
+                        {
+                            if (item.IsFile)
+                            {
+                                // Use a variable to hold the URL and check if it’s valid
+                                var instalink = item.Instalink;
+                                var logo = item.Logo;
+                                var title = item.Title;
+                                var studentsHired = item.StudentsHired;
+
+                                <a href="@Url.Content(instalink)" target="_blank" class="placement-link">
+                                    @if (!string.IsNullOrEmpty(logo))
+                                    {
+                                    <img src="@logo" alt="@title Logo" class="placement-logo" style="width: 100px; height: auto;" />
+                                    }
+                                    <span class="placement-title">@title</span>
+                                    <span class="placement-stats">
+                                        Recruited: @studentsHired Students
+                                    </span>
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action(item.ActionName, item.ControllerName)">
+                                    @item.Title
+                                </a>
+                            }
+                        }
+                        }
+                    </marquee>
+                </h2>
+            </div>
+        </div>
+    
+}
+
