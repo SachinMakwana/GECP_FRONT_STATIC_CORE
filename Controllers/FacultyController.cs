@@ -15,17 +15,25 @@ namespace GECP_Front_End_Static.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
+        public List<FacultyApp_MechModel> FacultyAppMech = new List<FacultyApp_MechModel>();
+
 
         public FacultyController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\js\FacultyRecords.json";
+            string jsonpath2 = webRootPath + @"\FacultyAppliedMechanics\facultyApp_Mech.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
+            string json2 = webClient.DownloadString(jsonpath2);
+            FacultyAppMech = JsonConvert.DeserializeObject<List<FacultyApp_MechModel>>(json2);
+
         }
+
+       
         public IActionResult Electronics()
         {
 
@@ -71,8 +79,8 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Applied()
         {
-            var genData = FacultyData.Where(m => m.Dept_ID == 8).OrderBy(m => m.ID).ToList();
-            return View(genData);
+            //var genData = FacultyAppMech.Where(m => m.ID == 8).OrderBy(m => m.ID).ToList();
+            return View(FacultyAppMech);
         }
         public IActionResult FacultyInfo(int ID = 0)
         {

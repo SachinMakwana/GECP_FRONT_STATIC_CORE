@@ -18,6 +18,7 @@ namespace GECP_Front_End_Static.Models
         public bool IsDisplay { get; set; }
     }
 
+   
     public class PlacementDataVM
     {
         public int BranchID { get; set; }
@@ -25,14 +26,24 @@ namespace GECP_Front_End_Static.Models
         public IList<PlaementDataYearWiseVM> Data { get; set; }
         public IList<BranchWisePercentage> Pie { get; set; }
 
+        
         public PlacementDataVM()
         {
             Data = new List<PlaementDataYearWiseVM>();
             Pie = new List<BranchWisePercentage>();
+            
         }
        
     }
-
+    public class Studentsplaced
+    {
+        public int id { get; set; }
+        public string department { get; set; }
+        public string name { get; set; }
+        public string package { get; set; }
+        public string company { get; set; }
+        public string Pic { get; set; }
+    }
     public class PlacementTeamVM
     {
         public int ID { get; set; }
@@ -48,10 +59,14 @@ namespace GECP_Front_End_Static.Models
         public IList<PlacementDataVM> PlacementDataVMs { get; set; }
         public IList<PlacementTeamVM> PlacementTeamVMs { get; set; }
 
+        public IList<PlacementMarqueeModel> placementMarqueeModel { get; set; }
+        public IList<Studentsplaced> StudentsPlaced { get; set; }
         public PlacementPageData()
         {
             PlacementDataVMs = new List<PlacementDataVM>();
             PlacementTeamVMs = new List<PlacementTeamVM>();
+            placementMarqueeModel = new List<PlacementMarqueeModel>();
+            StudentsPlaced = new List<Studentsplaced>();
         }
     }
 
@@ -73,5 +88,17 @@ namespace GECP_Front_End_Static.Models
         public float Percentage { get; set; }
 
         public string BranchName { get; set; }
+    }
+
+    public class PlacementMarqueeModel
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public bool IsFile { get; set; }
+        public string Logo { get; set; }
+        public int StudentsHired { get; set; }
+        public string Instalink { get; set; }
+        public string ControllerName { get; set; }
+        public string ActionName { get; set; }
     }
 }

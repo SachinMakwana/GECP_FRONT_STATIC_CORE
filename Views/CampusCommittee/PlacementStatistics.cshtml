@@ -1,4 +1,4 @@
-﻿@model IList<GECP_Front_End_Static.Models.PlacementDataVM>
+﻿@model GECP_Front_End_Static.Models.PlacementPageData
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Placement Cell";
@@ -20,12 +20,91 @@
     </div>
 </div>
 <div class="clearfix margin_bottom6"></div>
+
+<div class="featured_section13"> 
+    <h1 class="caps text-center">CURRENT PLACEMENT</h1>
+    <div class="container">
+        <h2 class="color2">
+            <marquee style="line-height:100px">
+                @foreach (var item in Model.placementMarqueeModel)
+                {
+                    if (item.IsFile)
+                    {
+                        // Use a variable to hold the URL and check if it’s valid
+                        var instalink = item.Instalink;
+                        var logo = item.Logo;
+                        var title = item.Title;
+                        var studentsHired = item.StudentsHired;
+
+                        <a href="@Url.Content(instalink)" target="_blank" class="placement-link">
+                            @if (!string.IsNullOrEmpty(logo))
+                            {
+                                <img src="@logo" alt="@title Logo" class="placement-logo" style="width: 100px; height: auto;" />
+                            }
+                            <span class="placement-title">@title</span>
+                            <span class="placement-stats">
+                                Recruited: @studentsHired Students
+                            </span>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action(item.ActionName, item.ControllerName)">
+                            @item.Title
+                        </a>
+                    }
+                }
+            </marquee>
+        </h2>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <h1 class="caps text-center mb-4">
+        STUDENTS PLACED
+    </h1>
+    <div class="clearfix"></div>
+
+    <div class="owl-carousel owl-theme" id="owl-demo">
+        @foreach (var student in Model.StudentsPlaced)
+        {
+            <div class="item">
+                <div class="card border-0 shadow-lg rounded text-center d-flex flex-column justify-content-center align-items-center" style="overflow: hidden; padding: 5px;">
+                    <!-- Circular Image Container -->
+                    <div class="image-container mx-auto mb-3" style="width: 220px; height: 250px; border-radius: 50%; overflow: hidden; border: 3px solid #007bff;">
+                        <img src="@student.Pic" alt="@student.name" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+
+                    <!-- Card Body Content -->
+                    <div class="card-body p-0">
+                        <h4 class="card-title font-weight-bold mb-1 text-center" style="color: #007bff;">@student.name</h4>
+                        <p class="card-text text-muted mb-1 text-center">
+                            <span style="font-weight: 500;">Department:</span> @student.department
+                        </p>
+                        <p class="card-text text-muted mb-1 text-center">
+                            <span style="font-weight: 500;">Package:</span> @student.package
+                        </p>
+                        <p class="card-text text-muted mb-1 text-center">
+                            <span style="font-weight: 500;">Company:</span> @student.company
+                        </p>
+                        <p class="card-text text-muted text-center">
+                            <span style="font-weight: 500;">&#9989; RECRUITED!</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
 <div class="container">
     <h1 class="caps text-center">
         TOP RECRUITERS
     </h1>
     <div class="clearfix"></div>
-    <div class="owl-carousel owl-theme" id="owl-demo">
+    <div class="owl-carousel owl-theme" id="owl-demo2">
         <div class="item"><img src="@Url.Content("~/images/CampusCommittee/Placement/companies/Wishtree Technologies1.png")" alt=""></div>
         <div class="item"><img src="@Url.Content("~/images/CampusCommittee/Placement/companies/Tata Consultancy Services.png")" alt=""></div>
         <div class="item"><img src="@Url.Content("~/images/CampusCommittee/Placement/companies/Shaligram Infotech.png")" alt=""></div>
@@ -55,9 +134,9 @@
         <div class="item"><img src="@Url.Content("~/images/CampusCommittee/Placement/companies/HypeTeq Software Solutions.jpg")" alt=""></div>
         <div class="item"><img src="@Url.Content("~/images/CampusCommittee/Placement/companies/Matrix Comsec.png")" alt=""></div>
         <div class="item"><img src="@Url.Content("~/images/CampusCommittee/Placement/companies/WeblineIndia.png")" alt=""></div>
-
     </div>
 </div>
+
 <div class="clearfix" style="background: #5076bb !important"></div>
 
 <div class="clearfix margin_bottom6"></div>
@@ -205,7 +284,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model)
+                @foreach (var item in Model.PlacementDataVMs)
                 {
                     count = 0;
                     @foreach (var data in item.Data)
@@ -234,6 +313,43 @@
 </div>
 
 <div class="clearfix  margin_bottom6"></div>
+
+<div class="featured_section13">
+    <div class="container">
+        <h2 class="color2">
+            <marquee style="line-height:100px">
+                @foreach (var item in Model.placementMarqueeModel)
+                {
+                    if (item.IsFile)
+                    {
+                        // Use a variable to hold the URL and check if it’s valid
+                        var instalink = item.Instalink;
+                        var logo = item.Logo;
+                        var title = item.Title;
+                        var studentsHired = item.StudentsHired;
+
+                        <a href="@Url.Content(instalink)" target="_blank" class="placement-link">
+                            @if (!string.IsNullOrEmpty(logo))
+                            {
+                                <img src="@logo" alt="@title Logo" class="placement-logo" style="width: 100px; height: auto;" />
+                            }
+                            <span class="placement-title">@title</span>
+                            <span class="placement-stats">
+                                Recruited: @studentsHired Students
+                            </span>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action(item.ActionName, item.ControllerName)">
+                            @item.Title
+                        </a>
+                    }
+                }
+            </marquee>
+        </h2>
+    </div>
+</div>
 
 
 
@@ -334,6 +450,43 @@
             });
             chart.render();
         }
+
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                    items: 4, // Number of visible items set to 4
+                    loop: true, // Loop the carousel
+                    margin: 15, // Space between items
+                    nav: true, // Show navigation arrows
+                    dots: true, // Show dots for navigation
+                    autoplay: true, // Enable auto-play
+                    autoplayTimeout: 3000, // Time between slides
+                    navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+                    responsive: {
+                        0: { items: 1 }, // 1 item for small screens
+                        768: { items: 2 }, // 2 items for medium screens
+                        1000: { items: 3 }, // 3 items for larger screens
+                        1200: { items: 4 }  // 4 items for large desktops
+                    }
+            });
+        });
+        $(document).ready(function () {
+            $("#owl-demo2").owlCarousel({
+                items: 4, // Number of visible items set to 4
+                loop: true, // Loop the carousel
+                margin: 15, // Space between items
+                nav: true, // Show navigation arrows
+                dots: true, // Show dots for navigation
+                autoplay: true, // Enable auto-play
+                autoplayTimeout: 3000, // Time between slides
+                navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+                responsive: {
+                    0: { items: 1 }, // 1 item for small screens
+                    768: { items: 2 }, // 2 items for medium screens
+                    1000: { items: 3 }, // 3 items for larger screens
+                    1200: { items: 4 }  // 4 items for large desktops
+                }
+            });
+        });
     </script>
 
 
@@ -377,18 +530,105 @@
     </script>
 
     <script src="@Url.Content("~/js/carouselowl/owl.carousel.js")"></script>
+    <!-- jQuery (Owl Carousel requires jQuery) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 }
 
 @section styles{
     <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
     <link href="@Url.Content("~/js/carouselowl/owl.transitions.css")" rel="stylesheet">
     <link href="@Url.Content("~/js/carouselowl/owl.carousel.css")" rel="stylesheet">
     <style>
-        #owl-demo .item img {
-            display: block;
-            margin: auto;
-            height: 100px;
+        .owl-carousel .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+                transform: scale(1.05);
+        }
+
+        /* Circular Image Style */
+        .image-container {
+            width: 180px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #007bff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                align-content: center;
+        }
+        /* Reduce the gap between name, department, package, and company */
+
+        .card-body p {
+            margin-bottom: 1px; /* Decreased margin between elements */
+        }
+
+        .card-title {
+            margin-bottom: 1px; /* Decreased margin below the name */
+        }
+
+        /* Custom navigation button styles */
+        .owl-nav .owl-prev, .owl-nav .owl-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #007bff;
+            border-radius: 50%;
+            color: white;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .owl-nav .owl-prev {
+            left: -40px;
+        }
+
+        .owl-nav .owl-next {
+            right: -40px;
+        }
+
+        /* Dot styles */
+        .owl-dots {
+            margin-top: 1px;
+            text-align: center;
+        }
+
+        .owl-dots .owl-dot {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                margin: 5px;
+                border-radius: 50%;
+                background: #ddd;
+                cursor: pointer;
+        }
+
+        .owl-dots .owl-dot.active {
+                    background: #007bff;
         }
     </style>
 }

@@ -1,4 +1,4 @@
-﻿@model IList<GECP_Front_End_Static.Models.FacultyDetailsVM>
+﻿@model IList<GECP_Front_End_Static.Models.FacultyApp_MechModel>
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Applied Mechanics";
@@ -12,9 +12,12 @@
     <div class="container">
 
         <h1>
-            Meet Our Team<em>Applied Mechanics, Government Engineering College</em>
-            <div class="line"></div>
+            Meet Our Team
+            <em>Applied Mechanics, Government Engineering College</em>
         </h1>
+        
+            <div class="line"></div>
+        
 
     </div>
 </div>
@@ -23,50 +26,50 @@
 <div class="featured_section30">
     <div class="container">
 
-        @foreach (FacultyDetailsVM data in Model)
+        @foreach (var item in Model)
         {
             if (count % 2 == 0)
             {
                 <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
                     <div class="faculties_img_div">
-                        <img src="@Url.Content("~/"+data.image)" alt="" />
-                        @if (data.tabs != null)
+                        <img src="@Url.Content("~/"+item.image)" alt="@item.Name" />
+                        @if (item.ID != null)
                         {
-                            <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="@Url.Action("FacultyInfo", "faculty", new { @id = item.ID })" class="four faculty_info_link">
+                                <i class="fas fa-external-link-square-alt"></i>
+                            </a>
                         }
                     </div>
-                    @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
-                    <p>@Html.Raw(data.personal_details) </p>
-                    @*<br />
-                        <div class="clearfix"></div>*@
-
-
-
+                    <h5>@item.Name</h5>
+                    <h6>Designation : @item.Designation </h6>
+                    <h6>Qualification : @item.Qualification</h6>
+                    <h6>Experience : @item.Experience </h6>
+                    <h6>Area of Interest : @item.AreaofInterest</h6>
+                    
                 </div>
-                <!-- end section -->
-
                 <div class="clearfix margin_top5"></div>
             }
             else
             {
                 <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
                     <div class="faculties_img_div">
-                        <img src="@Url.Content("~/"+data.image)" alt="" />
-                        @if (data.tabs != null)
+                        <img src="@Url.Content("~/"+item.image)" alt="@item.Name" />
+                        @if (item.ID != null)
                         {
-                            <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="@Url.Action("FacultyInfo", "faculty", new { @id = item.ID })" class="four faculty_info_link">
+                                <i class="fas fa-external-link-square-alt"></i>
+                            </a>
                         }
                     </div>
-                    @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
-                    <p>@Html.Raw(data.personal_details) </p>
-                    @*<br />
-                        <div class="clearfix"></div>*@
-
-
-
+                    <h5>@item.Name</h5>
+                    <h6>Designation : @item.Designation </h6>
+                    <h6>Qualification : @item.Qualification</h6>
+                    <h6>Experience : @item.Experience</h6>
+                    <h6>Area of Interest : @item.AreaofInterest</h6>
                 </div>
             }
             count++;
+        }
 
         }
 
