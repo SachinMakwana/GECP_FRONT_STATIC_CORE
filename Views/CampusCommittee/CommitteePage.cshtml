@@ -1,0 +1,186 @@
+﻿@model CampusCommittesVM
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.Title;
+    int count = 1;
+}
+
+<div class="clearfix"></div>
+
+
+<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;">
+    <div class="container">
+
+        <h1>
+            @Model.Title <em>Government Engineering College</em>
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+<div class="content_fullwidth">
+    <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
+        <div class="container">
+
+            <h2 class="caps">About</h2>
+
+            <br /><br />
+
+            <div class="one_third">
+
+                <h4 class="color3 margin_bottom2">About @Model.Title</h4>
+                <p class="bigtfont text-justify">@Model.About</p>
+
+            </div>
+            <!-- end section -->
+
+            <div class="one_third">
+
+                <img src="@Url.Content(Model.Measure_Image)" alt="" width="358.6px">
+
+            </div>
+            <!-- end section -->
+
+            <div class="one_third last">
+
+                <h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
+                <p class="bigtfont  text-justify">@Model.Measures</p>
+
+            </div>
+            <!-- end section -->
+
+        </div>
+    </div>
+</div>
+<!-- end featured section 55 -->
+
+<div class="margin_top2"></div>
+@if (Model.SubObjectives.Count() > 0)
+{
+    <div class="featured_section106">
+        <div class="container">
+            <div class="margin_top2"></div>
+            <div class="onecol_sixty animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200">
+
+
+                <img src="@Url.Content(Model.SubObjImg)" alt="" class="img_left rimg" />
+
+            </div><!-- end section -->
+
+            <div class="onecol_forty last">
+
+                <h2 class="roboto thin">Sub-Objectives </h2>
+                <div class="hsmline7"></div>
+
+                <br><br>
+                @foreach (var obj in Model.SubObjectives)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @obj</h4>
+                }
+                <br>
+            </div><!-- end section -->
+            <div class="margin_top2"></div>
+
+
+        </div>
+    </div>
+}
+<div class="featured_section14">
+    <div class="container">
+
+        <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+
+            <img src="@Url.Content("~/images/vision.png")" alt="" />
+            <br /><br />
+            <h3 class="white">Vision</h3>
+
+            <ul class="text-justify">
+                @foreach (var item in Model.Vision)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+            <br /><br />
+
+
+        </div>
+        <!-- end section -->
+
+        <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+
+            <img src="@Url.Content("~/images/mission.png")" alt="" />
+            <br /><br />
+            <h3 class="white">Mission</h3>
+
+            <ul class="text-justify">
+                @foreach (var item in Model.Mission)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+            <br /><br />
+
+
+        </div>
+        <!-- end section -->
+
+    </div>
+</div>
+@if (Model.Members.Count() > 0)
+{
+    <div class="featured_section30">
+        <div class="container">
+            <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: white;">
+                Committee Members
+            </h1>
+            @foreach (var item in Model.Members)
+            {
+                if (count % 2 == 0)
+                {
+                    <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+                        <img src="@Url.Content(item.Image)" alt="">
+                        <h5>@item.Name <em>@item.Position</em></h5>
+                        <p>@item.Email</p>
+                        @*  <br>
+            <a href="#" class="button four">Read More</a> *@
+                    </div>
+
+                    <!-- end section -->
+
+                    <div class="clearfix margin_top5"></div>
+                }
+                else
+                {
+                    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+                        <img src="@Url.Content(item.Image)" alt="">
+                        <h5>@item.Name <em>@item.Position</em></h5>
+                        <p>@item.Email</p>
+                        @*  <br>
+            <a href="#" class="button four">Read More</a> *@
+                    </div>
+
+                    <!-- end section -->
+                }
+                count++;
+            }
+        </div>
+    </div>
+
+}
+<!-- end parallax section 10 -->
+<div class="clearfix margin_bottom6"></div>
+
+<div class="content_fullwidth" style="padding: 0 !important">
+    <img src="@Url.Content(Model.PageFlyer)" alt="" />
+</div>
+<div class="clearfix" style="background: #5076bb !important"></div>
+<div class="featured_section38">
+    <div class="container">
+        @Html.Raw(Model.Tagline)
+    </div>
+</div>

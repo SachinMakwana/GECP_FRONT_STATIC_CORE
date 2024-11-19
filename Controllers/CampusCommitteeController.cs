@@ -15,7 +15,7 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<PlacementDataVM> PlacementDataVM = new List<PlacementDataVM>();
         public List<PlacementTeamVM> PlacementTeamVM = new List<PlacementTeamVM>();
-
+        public List<CampusCommittesVM> CampusCommittesVMs = new List<CampusCommittesVM>();
         public CampusCommitteeController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -30,6 +30,17 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             PlacementTeamVM = JsonConvert.DeserializeObject<List<PlacementTeamVM>>(json);
+
+            jsonpath = webRootPath + @"\CampusCommittes.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            CampusCommittesVMs = JsonConvert.DeserializeObject<List<CampusCommittesVM>>(json);
+        }
+
+        public IActionResult CommitteePage(int id)
+        {
+            var committee = CampusCommittesVMs.Where(m=>m.ID==id).FirstOrDefault();
+            return View(committee);
         }
         public IActionResult WomenCell()
         {

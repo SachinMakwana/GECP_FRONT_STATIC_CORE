@@ -572,6 +572,9 @@ table.dataTable thead .sorting_desc_disabled:before {
 .grievance_title {
     background: #999 url(../images/grievence_banner.jpg) no-repeat center top;
 }
+.rti_title {
+    background: #999 url(../images/CampusCommittee/RTI/rti_banner.jpg) no-repeat center top;
+}
 .placement_title {
     background: #999 url(../images/placement_banner.jpg) no-repeat center top;
 }

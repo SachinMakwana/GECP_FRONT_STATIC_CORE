@@ -81,7 +81,7 @@
                                     <li class=" @( actionName=="Tenders" ? "active" : "")"><a href="@Url.Action("Tenders","Institute")">Tenders</a></li>
                                     <li class=" @( actionName=="ImportantDocuments" ? "active" : "")"><a href="@Url.Action("ImportantDocuments","Institute")">Important Documents</a></li>
                                     <li class=" @( actionName=="MoU" ? "active" : "")"><a href="@Url.Action("MoU","Institute")">MoU</a></li>
-                                    <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("RTI","Institute")">RTI</a></li>
+                                    @* <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=6})">RTI</a></li> *@
                                 </ul>
                             </li>
 
@@ -139,11 +139,12 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "CampusCommittee" && (actionName != "PlacementCell" && actionName != "PlacementStatistics") ? "active" : "")">Campus Committees</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li class="@( actionName == "WomenCell" ? "active" : "")"><a href="@Url.Action("WomenCell","CampusCommittee")">Women Cell</a></li>
-                                    <li class="@( actionName == "SSIP" ? "active" : "")"><a href="@Url.Action("SSIP","CampusCommittee")">SSIP Cell</a></li>
-                                    <li class="@( actionName == "NSS" ? "active" : "")"><a href="@Url.Action("NSS","CampusCommittee")">National Service Scheme(NSS)</a></li>
-                                    <li class="@( actionName == "AntiRagging" ? "active" : "")"><a href="@Url.Action("AntiRagging","CampusCommittee")">Anti Ragging Cell</a></li>
-                                    <li class="@( actionName == "Grievence" ? "active" : "")"><a href="@Url.Action("Grievence","CampusCommittee")">Grievence Cell</a></li>
+                                    <li class="@( actionName == "WomenCell" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=1})">Women Cell</a></li>
+                                    <li class="@( actionName == "SSIP" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=2})">SSIP Cell</a></li>
+                                    <li class="@( actionName == "NSS" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=3})">National Service Scheme(NSS)</a></li>
+                                    <li class="@( actionName == "AntiRagging" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=4})">Anti Ragging Cell</a></li>
+                                    <li class="@( actionName == "Grievence" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=5})">Grievence Cell</a></li>
+                                    <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=6})">RTI</a></li> 
                                     @*<li class="@( actionName == "PlacementCell" ? "active" : "")"><a href="@Url.Action("PlacementCell","CampusCommittee")">Placement Cell</a></li>*@
                                 </ul>
                             </li>
