@@ -14,6 +14,7 @@ namespace GECP_Front_End_Static.Models
         public string Position { get; set; }
         public string Image { get; set; }
         public string Email { get; set; }
+        public string Department { get; set; }
     }
 
     public class CampusCommittesVM

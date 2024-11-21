@@ -47,7 +47,7 @@
             <div class="one_third last">
 
                 <h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
-                <p class="bigtfont  text-justify">@Model.Measures</p>
+                <p class="bigtfont  text-justify"> @Html.Raw(Model.Measures)</p>
 
             </div>
             <!-- end section -->
@@ -131,9 +131,10 @@
 </div>
 @if (Model.Members.Count() > 0)
 {
+    <div class="clearfix margin_bottom6"></div>
     <div class="featured_section30">
         <div class="container">
-            <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: white;">
+            <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
                 Committee Members
             </h1>
             @foreach (var item in Model.Members)
@@ -144,6 +145,7 @@
 
                         <img src="@Url.Content(item.Image)" alt="">
                         <h5>@item.Name <em>@item.Position</em></h5>
+                        <p>@item.Department</p>
                         <p>@item.Email</p>
                         @*  <br>
             <a href="#" class="button four">Read More</a> *@
@@ -159,6 +161,7 @@
 
                         <img src="@Url.Content(item.Image)" alt="">
                         <h5>@item.Name <em>@item.Position</em></h5>
+                        <p>@item.Department</p>
                         <p>@item.Email</p>
                         @*  <br>
             <a href="#" class="button four">Read More</a> *@
@@ -173,7 +176,7 @@
 
 }
 <!-- end parallax section 10 -->
-<div class="clearfix margin_bottom6"></div>
+<div class="clearfix"></div>
 
 <div class="content_fullwidth" style="padding: 0 !important">
     <img src="@Url.Content(Model.PageFlyer)" alt="" />

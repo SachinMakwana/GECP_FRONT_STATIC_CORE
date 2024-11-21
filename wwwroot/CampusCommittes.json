@@ -54,28 +54,40 @@
     "Title": "Student Startup Innovation Program",
     "TitleImage": "../../images/ssip_banner.jpg",
     "TitleImageCSSClass": "ssip_title",
-    "About": "Government of Gujarat has developed a policy for providing assistance to Startups/Innovation. Under this scheme, any individual/group of individuals having innovative idea/concept will be eligible and/ or Universities/ education institutions, Incubation Centre/ PSUs/ R&D Institutions/ Private and other establishments will be eligible as an institution to support and mentor to innovators as approved by Committee.",
-    "Measures": "Startups in an economy's technology sectors is an important indicator of technological performance for several reasons. We at GEC, Patan encourage, identify and support innovators in the Campus, and provide them support.",
+    "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
+    "Measures": "The SSIP Cell at GEC Patan undertakes several measures to promote innovation and entrepreneurship among students:<br/> <ul class=\"text-justify\"> <li>Idea Nurturing: Organizes ideation workshops, hackathons, and innovation challenges to identify and refine creative ideas.</li> <li>Mentorship: Provides industry experts, entrepreneurs, and faculty guidance to support project development.</li> <li>Financial Support: Offers seed funding and grants for prototyping and startup initiatives.</li> <li>Infrastructure Support: Provides access to labs, co-working spaces, and technical resources.</li> <li>Capacity Building: Conducts skill development programs and training sessions on business models, intellectual property rights, and pitching.</li> <li>Industry Collaboration: Establishes partnerships with industries and startups for internships, real-world exposure, and project validation.</li> <li>Outreach Activities: Encourages participation in state and national-level innovation competitions.</li> </ul>",
     "Measure_Image": "~/images/CampusCommittee/SSIP/ssip.jpg",
     "Vision": [
-      "To create an integrated, state-wide, university-based innovation ecosystem to support innovations and ideas of young students and provide a conducive environment for optimum harnessing of their creative pursuit."
+      "To create an ecosystem that fosters innovation, entrepreneurship, and skill development, empowering students to become future-ready innovators and entrepreneurs contributing to sustainable socio-economic growth."
     ],
     "Mission": [
-      "To explore and develop competitiveness, enhancing links between universities, industries and research institutions and contributing to the growth and success of emerging technology businesses."
+      "To encourage a culture of creativity, problem-solving, and innovation among students and faculty.",
+      "To support student-led startups by providing mentorship, funding, and resource access.",
+      "To bridge the gap between academia and industry through collaborations and partnerships.",
+      "To promote skill enhancement through training, workshops, and hands-on project development.",
+      "To empower students with knowledge of intellectual property rights and commercialization strategies.",
+      "To provide a platform for students to showcase their innovations at various levels."
     ],
     "SubObjectives": [
-
+      "Encourage Innovation: Promote a culture of creative thinking and problem-solving among students.",
+      "Support Startups: Facilitate student-led startups by providing mentorship, funding, and resources.",
+      "Bridge Academia and Industry: Connect with industries to ensure practical exposure and project validation.",
+      "Enable Prototyping: Support students in developing prototypes and proof-of-concept models.",
+      "Promote Skill Development: Conduct training sessions to enhance entrepreneurial and technical skills.",
+      "Raise Awareness: Educate students about intellectual property rights and commercialization opportunities.",
+      "Encourage Participation: Motivate students to engage in state, national, and international innovation competitions and exhibitions."
     ],
     "SubObjImg": "",
     "BulletPoints": [],
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/SSIP/ssipcell.jpg",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"> <b> \"</b>The value of an idea lies in the <b>using of it.\"</b> </h1>",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"> <b> \"</b> Innovate, Incubate, <b> Ignite!\"</b> </h1>",
     "Members": [
       {
         "ID": 1,
         "Name": "Dr. H. N. Panchal",
         "Position": "Converner",
+        "Department": "Mechanical Engineering Department",
         "Image": "~/images/Faculty/Mechanical/Hitesh.jpg",
         "Email": "hitesh.panchal@gecpatan.ac.in"
       },
@@ -83,13 +95,15 @@
         "ID": 2,
         "Name": "Prof. H. L. Chaudhari",
         "Position": "Converner",
+        "Department": "Computer Scence & Engineering Department",
         "Image": "~/images/Faculty/Computer/Harshad.jpg",
-        "Email": "hiral.rathod@gecpatan.ac.in"
+        "Email": "harshad.chaudhary@gecpatan.ac.in"
       },
       {
         "ID": 3,
         "Name": "Prof. M. I. Baliya",
         "Position": "Member",
+        "Department": "Civil Engineering Department",
         "Image": "~/images/Faculty/Civil/manjurali.jpg",
         "Email": "manjurali.baliya@gecpatan.ac.in"
       },
@@ -97,6 +111,7 @@
         "ID": 4,
         "Name": "Dr. P. D. Patel",
         "Position": "Member",
+        "Department": "Electrical Engineering Department",
         "Image": "~/images/Faculty/Electrical/PRAVIN.jpg",
         "Email": "pravin.patel@gecpatan.ac.in"
       },
@@ -104,6 +119,7 @@
         "ID": 5,
         "Name": "Dr. M. B. Patel",
         "Position": "Member",
+        "Department": "Electronics & Communication Engineering Department",
         "Image": "~/images/Faculty/Computer/dummy.jpg",
         "Email": "maulik.patel@gecpatan.ac.in"
       },
@@ -111,6 +127,7 @@
         "ID": 6,
         "Name": "Prof. M. J. Vasava",
         "Position": "Member",
+        "Department": "Computer Scence & Engineering Department",
         "Image": "~/images/Faculty/Computer/mehul.jpg",
         "Email": "mehul.vasava@gecpatan.ac.in"
       }
