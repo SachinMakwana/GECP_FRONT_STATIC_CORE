@@ -1,6 +1,7 @@
-﻿@{ 
+﻿@{
     string controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
     string actionName = this.ViewContext.RouteData.Values["action"].ToString();
+    int id = this.ViewContext.RouteData.Values["id"]!=null ? Convert.ToInt32(this.ViewContext.RouteData.Values["id"].ToString()) : 0;
 }
 <div class="top_section2">
     <div class="container">
@@ -73,7 +74,7 @@
 
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle @( controllerName == "Institute" ? "active" : "")">Institute</a>
+                                <a href="#" class="dropdown-toggle @( controllerName == "Institute"||id==6 ? "active" : "")">Institute</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li class=" @( actionName=="AboutUs" ? "active" : "")"><a href="@Url.Action("AboutUs","Institute")">About Us</a></li>
                                     <li class=" @( actionName=="CoE" ? "active" : "")"><a href="@Url.Action("CoE","Institute")">Center Of Excellence</a></li>
@@ -81,7 +82,7 @@
                                     <li class=" @( actionName=="Tenders" ? "active" : "")"><a href="@Url.Action("Tenders","Institute")">Tenders</a></li>
                                     <li class=" @( actionName=="ImportantDocuments" ? "active" : "")"><a href="@Url.Action("ImportantDocuments","Institute")">Important Documents</a></li>
                                     <li class=" @( actionName=="MoU" ? "active" : "")"><a href="@Url.Action("MoU","Institute")">MoU</a></li>
-                                    @* <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=6})">RTI</a></li> *@
+                                    <li class=" @( id==6 ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=6})">RTI</a></li> 
                                 </ul>
                             </li>
 
@@ -101,29 +102,29 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle @( controllerName == "Department" ? "active" : "")">Departments</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li @( controllerName == "Applied" ? "active" : "")><a href="@Url.Action("Applied","Department")">Applied Mechanics</a></li>
-                                    <li @( controllerName == "EC" ? "active" : "")><a href="@Url.Action("EC","Department")">Electronics & Communication</a></li>
-                                    <li @( controllerName == "Computer" ? "active" : "")><a href="@Url.Action("Computer","Department")">Computer Science & Engineering</a></li>
-                                    <li @( controllerName == "Electrical" ? "active" : "")><a href="@Url.Action("Electrical","Department")">Electrical</a></li>
-                                    <li @( controllerName == "Civil" ? "active" : "")><a href="@Url.Action("Civil","Department")">Civil</a></li>
-                                    <li @( controllerName == "Mechanical" ? "active" : "")><a href="@Url.Action("Mechanical","Department")">Mechanical</a></li>
-                                    <li @( controllerName == "Library" ? "active" : "")><a href="@Url.Action("Library","Department")">Library</a></li>
-                                    <li @( controllerName == "Administrative" ? "active" : "")><a href="@Url.Action("Administrative","Department")">Administrative Block</a></li>
-                                    <li @( controllerName == "TEQIP" ? "active" : "")><a href="@Url.Action("TEQIP","Department")">TEQIP</a></li>
-                                    <li @( controllerName == "General" ? "active" : "")><a href="@Url.Action("General","Department")">General</a></li>
+                                    <li class="@( actionName == "Applied" ? "active" : "")"><a href="@Url.Action("Applied", "Department")">Applied Mechanics</a></li>
+                                    <li class="@( actionName == "EC" ? "active" : "")"><a href="@Url.Action("EC", "Department")">Electronics & Communication</a></li>
+                                    <li class="@( actionName == "Computer" ? "active" : "")"><a href="@Url.Action("Computer", "Department")">Computer Science & Engineering</a></li>
+                                    <li class="@( actionName == "Electrical" ? "active" : "")"><a href="@Url.Action("Electrical", "Department")">Electrical</a></li>
+                                    <li class="@( actionName == "Civil" ? "active" : "")"><a href="@Url.Action("Civil", "Department")">Civil</a></li>
+                                    <li class="@( actionName == "Mechanical" ? "active" : "")"><a href="@Url.Action("Mechanical", "Department")">Mechanical</a></li>
+                                    <li class="@( actionName == "Library" ? "active" : "")"><a href="@Url.Action("Library", "Department")">Library</a></li>
+                                    <li class="@( actionName == "Administrative" ? "active" : "")"><a href="@Url.Action("Administrative", "Department")">Administrative Block</a></li>
+                                    <li class="@( actionName == "TEQIP" ? "active" : "")"><a href="@Url.Action("TEQIP", "Department")">TEQIP</a></li>
+                                    <li class="@(actionName == "General" ? "active" : "")"><a href="@Url.Action("General","Department")">General</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Faculty</a>
+                                <a href="#" class="dropdown-toggle">Staff</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="@Url.Action("Applied","Faculty")">Applied Mechanics</a></li>
-                                    <li><a href="@Url.Action("Electronics","Faculty")">Electronics & Communication</a></li>
-                                    <li><a href="@Url.Action("Computer","Faculty")">Computer Science & Engineering</a></li>
-                                    <li><a href="@Url.Action("Electrical","Faculty")">Electrical</a></li>
-                                    <li><a href="@Url.Action("Civil","Faculty")">Civil</a></li>
-                                    <li><a href="@Url.Action("Mechanical","Faculty")">Mechanical</a></li>
-                                    <li><a href="@Url.Action("Administration","Faculty")">Administrative Block </a></li>
-                                    <li><a href="@Url.Action("General","Faculty")">General </a></li>
+                                    <li class="@(actionName == "Applied" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("Applied","Faculty")">Applied Mechanics</a></li>
+                                    <li class="@(actionName == "Electronics" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("Electronics","Faculty")">Electronics & Communication</a></li>
+                                    <li class="@(actionName == "Computer" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("Computer","Faculty")">Computer Science & Engineering</a></li>
+                                    <li class="@(actionName == "Electrical" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("Electrical","Faculty")">Electrical</a></li>
+                                    <li class="@(actionName == "Civil" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("Civil","Faculty")">Civil</a></li>
+                                    <li class="@(actionName == "Mechanical" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("Mechanical","Faculty")">Mechanical</a></li>
+                                    <li class="@(actionName == "Administration" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("Administration","Faculty")">Administrative Block </a></li>
+                                    <li class="@(actionName == "General" && controllerName=="Faculty" ? "active" : "")"><a href="@Url.Action("General","Faculty")">General </a></li>
                                 </ul>
                             </li>
                             @*<li class="dropdown yamm-fw">
@@ -137,14 +138,15 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle @( controllerName == "CampusCommittee" && (actionName != "PlacementCell" && actionName != "PlacementStatistics") ? "active" : "")">Campus Committees</a>
+                                @* <a href="#" class="dropdown-toggle @( controllerName == "CampusCommittee" && (actionName != "PlacementCell" && actionName != "PlacementStatistics") ? "active" : "")">Campus Committees</a> *@
+                                <a href="#" class="dropdown-toggle @( id>0 && id<6 && controllerName == "CampusCommittee"  ? "active" : "")">Campus Committees</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li class="@( actionName == "WomenCell" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=1})">Women Cell</a></li>
-                                    <li class="@( actionName == "SSIP" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=2})">SSIP Cell</a></li>
-                                    <li class="@( actionName == "NSS" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=3})">National Service Scheme(NSS)</a></li>
-                                    <li class="@( actionName == "AntiRagging" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=4})">Anti Ragging Cell</a></li>
-                                    <li class="@( actionName == "Grievence" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=5})">Grievence Cell</a></li>
-                                    <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=6})">RTI</a></li> 
+                                    <li class="@( id==1 ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=1})">Women Cell</a></li>
+                                    <li class="@( id==2 ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=2})">SSIP Cell</a></li>
+                                    <li class="@( id==3 ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=3})">National Service Scheme(NSS)</a></li>
+                                    <li class="@( id==4 ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=4})">Anti Ragging Cell</a></li>
+                                    <li class="@( id==5 ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=5})">Grievence Cell</a></li>
+                                    @* <li class=" @( actionName=="RTI" ? "active" : "")"><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=6})">RTI</a></li>  *@
                                     @*<li class="@( actionName == "PlacementCell" ? "active" : "")"><a href="@Url.Action("PlacementCell","CampusCommittee")">Placement Cell</a></li>*@
                                 </ul>
                             </li>
