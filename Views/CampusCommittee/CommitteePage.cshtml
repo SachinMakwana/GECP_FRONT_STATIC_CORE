@@ -32,22 +32,30 @@
             <div class="one_third">
 
                 <h4 class="color3 margin_bottom2">About @Model.Title</h4>
-                <p class="bigtfont text-justify">@Model.About</p>
+                <p class="bigtfont text-justify overflowCommittes">
+                        @Html.Raw(Model.About)
+                    </p>
+               
+
 
             </div>
             <!-- end section -->
 
             <div class="one_third">
 
-                <img src="@Url.Content(Model.Measure_Image)" alt="" width="358.6px">
+                <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg">
 
             </div>
             <!-- end section -->
 
-            <div class="one_third last">
+            <div class="one_third last ">
 
                 <h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
-                <p class="bigtfont  text-justify"> @Html.Raw(Model.Measures)</p>
+
+                <div class="bigtfont text-justify overflowCommittes">
+                        @Html.Raw(Model.Measures)
+                    </div>
+                
 
             </div>
             <!-- end section -->
@@ -100,7 +108,7 @@
             <ul class="text-justify">
                 @foreach (var item in Model.Vision)
                 {
-                    <li>@item</li>
+                    <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
                 }
             </ul>
             <br /><br />
@@ -118,7 +126,7 @@
             <ul class="text-justify">
                 @foreach (var item in Model.Mission)
                 {
-                    <li>@item</li>
+                    <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
                 }
             </ul>
             <br /><br />
@@ -141,7 +149,7 @@
             {
                 if (count % 2 == 0)
                 {
-                    <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+                    <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300" style="border-left:1px solid rgba(255, 255, 255, 0.1)">
 
                         <img src="@Url.Content(item.Image)" alt="">
                         <h5>@item.Name <em>@item.Position</em></h5>
@@ -173,10 +181,10 @@
             }
         </div>
     </div>
-
+    <div class="clearfix margin_bottom6"></div>
 }
 <!-- end parallax section 10 -->
-<div class="clearfix"></div>
+<div class="clearfix margin_bottom6"></div>
 
 <div class="content_fullwidth" style="padding: 0 !important">
     <img src="@Url.Content(Model.PageFlyer)" alt="" />

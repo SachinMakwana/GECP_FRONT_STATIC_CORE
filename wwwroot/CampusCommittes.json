@@ -4,20 +4,25 @@
     "Title": "Women Development Cell",
     "TitleImage": "../../images/women_banner.jpg",
     "TitleImageCSSClass": "women_cell_title",
-    "About": "The Prime Role of Women Development Cell (WDC) is to provide and maintain a dignified and safe working environment for women employees (including teaching, non-teaching and contractual workers) and students, where they can work, study and explore their potential to the fullest. It includes women Harassment complaint committee and women empowerment program co-ordination committee.",
-    "Measures": "Women Empowerment and Gender Equality are the most important requirements for the upliftment and progress of our nation. In the effort the Cell has both the faculty and students of the College as its members and works with an aim to create a gender sensitized community within campus as well as in the society. It has been organising varied academic, technical, medical, cultural and social events for the upliftment of women and spread the real importance of gender equality in the society.",
+    "About": "A Women Development Cell (WDC) in a Government Engineering College,Patan is an institutional body aimed at addressing gender-related issues and fostering the holistic development of women in the academic and professional environment. Such cells often function under the guidelines provided by University Grants Commission (UGC) in India, or specific state education boards.",
+    "Measures": "The Women Development Cell (WDC) in a Government Engineering College implements several measures to promote the safety, empowerment, and holistic development of women. These measures are designed to create a gender-sensitive and inclusive academic environment while addressing challenges faced by women students and staff. <ul> <li>1. Safety and Security Measures</li> <li>2. Awareness and Sensitization Programs</li> <li>3. Health and Wellness Initiatives</li> <li>4. Empowerment through Education and Training</li> <li>5. Cultural and Social Development Activities</li> </ul>",
     "Measure_Image": "~/images/women.jpg",
     "Vision": [
-      "To make the cell a unique platform for the development of its members, by providing them opportunities to contribute towards the betterment of the society."
+      "To create a gender-inclusive and empowering academic environment that fosters equality, safety, and the holistic development of women, enabling them to thrive as confident professionals and responsible citizens in the field of engineering and technology."
     ],
     "Mission": [
-      "The Women Cell shall strive to create a better and just society by empowering women."
+      "Empowerment Through Education",
+      "Promoting Gender Equality",
+      "Ensuring Safety and Security",
+      "Encouraging Leadership and Innovation",
+      "Health and Well-being"
     ],
     "SubObjectives": [
-      "To create awareness of women's rights and their roles in the society.",
-      "To create social awareness about the problems of women and in particular regarding gender discrimination.",
-      "To provide a forum for women on the campus to share information and resources and exchange of ideas.",
-      "To give information about safety and security measures for female employees and girl students by conducting seminar on safety."
+      "Promoting Gender Equality",
+      "Ensuring Safety and Security",
+      "Empowering Women",
+      "Spreading Awareness",
+      "Holistic Development"
     ],
     "SubObjImg": "~/images/CampusCommittee/WomenCell/quote.jpg",
     "BulletPoints": [],
@@ -29,6 +34,7 @@
         "ID": 1,
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
         "Image": "~/images/Faculty/EC/roshni.jpg",
         "Email": "roshni.chaudhari@gecpatan.ac.in"
       },
@@ -36,6 +42,7 @@
         "ID": 2,
         "Name": "Prof. H. Y. Rathod",
         "Position": "Member",
+        "Department": "Computer Scence & Engineering Department",
         "Image": "~/images/Faculty/Computer/dummy.jpg",
         "Email": "hiral.rathod@gecpatan.ac.in"
       },
@@ -43,6 +50,7 @@
         "ID": 3,
         "Name": "Smt. P. J. Patel",
         "Position": "Member",
+        "Department": "Mechanical Engineering Department",
         "Image": "~/images/Faculty/Computer/dummy.jpg",
         "Email": "priyanka.patel@gecpatan.ac.in"
       }
@@ -56,7 +64,7 @@
     "TitleImageCSSClass": "ssip_title",
     "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
     "Measures": "The SSIP Cell at GEC Patan undertakes several measures to promote innovation and entrepreneurship among students:<br/> <ul class=\"text-justify\"> <li>Idea Nurturing: Organizes ideation workshops, hackathons, and innovation challenges to identify and refine creative ideas.</li> <li>Mentorship: Provides industry experts, entrepreneurs, and faculty guidance to support project development.</li> <li>Financial Support: Offers seed funding and grants for prototyping and startup initiatives.</li> <li>Infrastructure Support: Provides access to labs, co-working spaces, and technical resources.</li> <li>Capacity Building: Conducts skill development programs and training sessions on business models, intellectual property rights, and pitching.</li> <li>Industry Collaboration: Establishes partnerships with industries and startups for internships, real-world exposure, and project validation.</li> <li>Outreach Activities: Encourages participation in state and national-level innovation competitions.</li> </ul>",
-    "Measure_Image": "~/images/CampusCommittee/SSIP/ssip.jpg",
+    "Measure_Image": "~/images/CampusCommittee/SSIP/tree-2987962_1280.jpg",
     "Vision": [
       "To create an ecosystem that fosters innovation, entrepreneurship, and skill development, empowering students to become future-ready innovators and entrepreneurs contributing to sustainable socio-economic growth."
     ],
@@ -77,7 +85,7 @@
       "Raise Awareness: Educate students about intellectual property rights and commercialization opportunities.",
       "Encourage Participation: Motivate students to engage in state, national, and international innovation competitions and exhibitions."
     ],
-    "SubObjImg": "",
+    "SubObjImg": "~/images/CampusCommittee/SSIP/laptop-5000778_1280.png",
     "BulletPoints": [],
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/SSIP/ssipcell.jpg",

@@ -629,3 +629,11 @@ table.dataTable thead .sorting_desc_disabled:before {
 .text-center {
     text-align: center !important;
 }
+
+.overflowCommittes {
+    max-height: 370px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    white-space: normal;
+    padding-right: 10px;
+}
