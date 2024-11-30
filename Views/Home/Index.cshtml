@@ -1,51 +1,50 @@
 ﻿@model GECP_Front_End_Static.Models.HomePageModelVM
 @{
     ViewData["Title"] = "Home Page";
+    int newscount = Model.newsModelVM.Count();
 }
 
-@Html.Partial("_slider")
+@Html.Partial("_slider",Model.masterSliderVM)
 
-@if (Model.marqueeModelVM.Count() > 0)
-{
-    var count = 0;
-    <div class="clearfix margin_top5"></div>
-    <div class="featured_section13">
-        <div class="container">
-            <h2 class="color2">
-                <marquee style="line-height:50px">
-                    @foreach (var item in Model.marqueeModelVM)
-                    {
-                        if (count > 0)
-                        {
-                            <text>|</text>
-                        }
-                        if (item.IsFile)
-                        {
-                            <a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a>
-
-                        }
-                        else
-                        {
-                            <a href="@Url.Action(item.ActionName,item.ControllerName)"> @item.Title </a>
-                        }
-                        count++;
-                    }
-                    @* <a href="@Url.Content("~/ImpDocs/Important_Instructions.pdf")" target="_blank">વર્ષ ૨૦૨૪-૨૫ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ</a> |
-                <a href="@Url.Content("~/ImpDocs/ActivityPoster.pdf")" target="_blank">પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા</a> |
-                <a href="@Url.Action("Tenders","Institute")"> હોસ્ટેલ મેસ અને કેન્ટીન ટેન્ડર ૨૦૨૪-૨૫  </a>*@
-                </marquee>
-            </h2>
-        </div>
-    </div>
-}
 <div class="clearfix margin_top5"></div>
 <div class="featured_section13">
     <div class="container">
-
         <h1 class=" animate" data-anim-type="fadeIn" data-anim-delay="100">
             Welcome to Government Engineering College,Patan
-            <div class="divider_line11belownews"></div>
+            <div class="clearfix margin_top5"></div>
+            @* <div class="divider_line11belownews"></div> *@
         </h1>
+        <div class="one_third">
+           
+
+                <ul class="tabs3">
+                    <li><a href="#tab1">NEWS</a></li>
+                </ul><!-- /# end tab links -->
+
+            <div class="tabs-content3 two" style="min-height:270px;">
+                    <div id="tab3" class="tabs-panel3">
+                    <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:225px;">
+                        <ul class="newssection">
+                            @foreach (var item in Model.marqueeModelVM)
+                            {
+                                if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                                {
+                                    <li><a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">@item.Title</a></li>
+                                }
+                                else
+                                {
+                                    <li><a href="@Url.Action(item.ActionName,item.ControllerName)"> @item.Title </a></li>
+                                }
+                            }
+                        </ul>
+                        </marquee>
+                    </div><!-- end popular posts -->
+                </div>
+
+        </div><!-- end section -->
+        
+        <div class="two_third last">
+       
 
         <div class="one_fourth">
 
@@ -94,11 +93,11 @@
 
         </div>
         <!-- end section -->
-
+        </div>
     </div>
 </div>
 <!-- end featured section 13 -->
-<div class="clearfix margin_top8"></div>
+<div class="clearfix margin_top5"></div>
 <div class="featured_section14">
     <div class="container">
 
@@ -133,7 +132,7 @@
     </div>
 </div>
 <!-- end featured section 14 -->
-<div class="divider_line11dept"></div>
+<div class="clearfix margin_top5"></div>
 <div class="featured_section16">
     <div class="container">
 
@@ -224,14 +223,14 @@
                     </li>
                     <!-- end slide -->
                 }
-              @*  <li>
+                @*  <li>
 
-                    <img src="@Url.Content("~/images/Home/icon-user-90.png")" alt="" />
-                    <h5>Vats Patel <em>Alumni - ME</em></h5>
+                <img src="@Url.Content("~/images/Home/icon-user-90.png")" alt="" />
+                <h5>Vats Patel <em>Alumni - ME</em></h5>
 
-                    <p>
-                        My experience at GEC Patan was very different and has led me to explore and learn new things in terms of personal and professional aspects. The faculty here focuses on students' career goals with proper guidance in selecting most suitable specialization based on one's strengths and passion. The various co-curricular activities, built confidence and leadership skills in us. The ambience of the college has always been so positive and encourages to learn.
-                    </p>
+                <p>
+                My experience at GEC Patan was very different and has led me to explore and learn new things in terms of personal and professional aspects. The faculty here focuses on students' career goals with proper guidance in selecting most suitable specialization based on one's strengths and passion. The various co-curricular activities, built confidence and leadership skills in us. The ambience of the college has always been so positive and encourages to learn.
+                </p>
 
                 </li>
                 <!-- end slide -->*@
@@ -252,7 +251,7 @@
 
 
 
-@section tabs{
+@section tabs {
 
     <script src="@Url.Content("~/js/tabs2/index.js")"></script>
     <script>
@@ -265,16 +264,18 @@
     </script>
     <script defer src="@Url.Content("~/js/flexslider/jquery.flexslider.js")"></script>
     <script defer src="@Url.Content("~/js/flexslider/custom.js")"></script>
+    @* <script type="text/javascript" src="@Url.Content("~/js/tabs/tabwidget/tabwidget.js")"></script> *@
+    <script src="@Url.Content("~/js/tabs/assets/js/responsive-tabs.min.js")" type="text/javascript"></script>
 }
 
-@section master_slider{
+@section master_slider {
     <script src="@Url.Content("~/js/modalwindow/jquery.simplePopup.js")" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function () {
 
             $('.show1');
             $('#pop1').simplePopup();
-
+           
         });
     </script>
     <script src="@Url.Content("~/js/masterslider/masterslider.min.js")"></script>
@@ -319,7 +320,7 @@
     </script>
 }
 
-@section styles{
+@section styles {
     <!-- flexslider -->
     <link rel="stylesheet" href="@Url.Content("~/js/flexslider/flexslider.css")" type="text/css" media="screen" />
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/flexslider/skin.css")" />
@@ -331,4 +332,7 @@
             text-align: center !important;
         }
     </style>
+    @* <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/tabwidget/tabwidget.css")"> *@
+     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
 }
+

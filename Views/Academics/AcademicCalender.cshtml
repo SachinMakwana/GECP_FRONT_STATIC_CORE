@@ -1,7 +1,146 @@
-﻿@@{
+﻿@model List<AcademicCalendersVM>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "AcademicCalender";
+    ViewBag.Title = "Academic Calenders";
+    int count = 1;
 }
-<div class="content_fullwidth">
-    <img src="@Url.Content("~/images/Untitled.jpg")" alt="" />
-</div>
+@if (Model.Count() > 0)
+{
+    <style>
+        .fabig {
+            font-size: 150px;
+            margin: auto;
+            display: block !important;
+        }
+
+        .minheight {
+            min-height: 270px;
+            padding: 20px 15px !important;
+        }
+    </style>
+    <div class="page_title3 placement_title">
+        <div class="container">
+
+            <h1>
+                <br> Tenders<em>Government Engineering College</em>
+                <div class="line"></div>
+                <br>
+            </h1>
+
+        </div>
+    </div>
+    <div class="clearfix margin_bottom6"></div>
+    <div class="content_fullwidth less">
+        <div class="featured_section77 two">
+            <div class="container">
+                <div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
+
+                    <ul>
+                        @foreach (var item in Model)
+                        {
+                            @if (count % 2 != 0)
+                            {
+                                <li class="minheight">
+                                    <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+                                        <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                                        @item.Title
+                                    </a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="minheight last">
+                                    <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+                                        <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                                        @item.Title
+                                    </a>
+                                </li>
+                            }
+                            count++;
+                        }
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+    <div id="popup" class="popup">
+        <h2 id="newsname"></h2>
+        <!-- <div class="popup-text"> -->
+        <div id="pdfreader" style="height:600px">
+        </div>
+        <!-- </div> -->
+        <span class="popup-btn-close">&times;</span>
+    </div>
+
+
+    <div class="clearfix"></div>
+
+    @section scripts {
+    <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+    <script>
+        function loadPdf(path, name) {
+            if (path !== '') {
+                path = path.replace("~", "");
+                if (PDFObject.supportsPDFs) {
+                    PDFObject.embed(path, "#pdfreader");
+                    $("#newsname").text(name);
+                    $("#lnkPopup").click();
+                } else {
+                    window.location.href = path;
+                }
+            }
+        }
+    </script>
+
+
+    <script>
+        function popupOpenClose(popup) {
+
+            /* Add div inside popup for layout if one doesn't exist */
+            if ($(".wrapper", popup).length == 0) {
+                $(popup).wrapInner("<div class='wrapper'></div>");
+            }
+
+            /* Open popup */
+            $(popup).show();
+
+            /* Close popup if user clicks on background */
+            $(popup).click(function (e) {
+                if (e.target == this) {
+                    if ($(popup).is(':visible')) {
+                        $(popup).hide();
+                    }
+                }
+            });
+
+            /* Close popup and remove errors if user clicks on cancel or close buttons */
+            $(popup).find(".popup-btn-close").on("click", function () {
+                if ($(".formElementError").is(':visible')) {
+                    $(".formElementError").remove();
+                }
+                $(popup).hide();
+            });
+        }
+
+        $(document).ready(function () {
+            $(".popup-trigger").on("click", function () {
+                var target = $(this).data('target');
+                popupOpenClose($(target));
+            });
+        });
+    </script>
+    }
+
+    @section styles {
+    <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+    }
+}
+else
+{
+    <div class="content_fullwidth">
+        <img src="@Url.Content("~/images/Untitled.jpg")" alt="" />
+    </div>
+    <div class="clearfix"></div>
+}

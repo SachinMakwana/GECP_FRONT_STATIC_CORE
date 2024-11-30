@@ -1,0 +1,49 @@
+﻿@model IList<NEWSModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "NEWS";
+    int count = 1;
+}
+<div class="clearfix"></div>
+
+
+<div class="page_title3 " style="background: #999 url('') no-repeat center top;">
+    <div class="container">
+
+        <h1>
+            NEWS <em>Government Engineering College</em>
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="content_fullwidth less2">
+    <div class="container">
+
+        <div class="content_halfsite">
+            @foreach (var item in Model)
+            {
+                <div class="blog_post @(count%2==0?"last":"")">
+                    <div class="blog_postcontent">
+                        <div class="image_frame"><a href="#"><img src="@Url.Content(item.BannerImage)" alt=""></a></div>
+                        <h3><a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">@item.Title</a></h3>
+                        <ul class="post_meta_links">
+                            <li><a href="#" class="date">@item.date</a></li>
+                            @* <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
+                            <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li> *@
+                        </ul>
+                        <div class="clearfix"></div>
+                        <div class="margin_top1"></div>
+                        <p>@item.Description.Substring(0, item.Description.Length > 100 ? 100 : item.Description.Length) <a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">read more...</a></p>
+                    </div>
+                </div>
+
+                <!-- /# end post -->
+
+                <div class="clearfix divider_line9"></div>
+                count++;
+            }
+        </div>
+    </div>
+</div>

@@ -637,3 +637,13 @@ table.dataTable thead .sorting_desc_disabled:before {
     white-space: normal;
     padding-right: 10px;
 }
+
+.newssection li {
+    text-align: justify;
+    padding: 3px 0 3px 0;
+    border-bottom: 1px solid #d1cbcb;
+}
+
+.newssection li a:hover{
+    color:red;
+}

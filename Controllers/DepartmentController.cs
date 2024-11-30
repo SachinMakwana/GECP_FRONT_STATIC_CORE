@@ -14,7 +14,7 @@ namespace GECP_Front_End_Static.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
-
+        public List<DepartmentVM>  DepartmentData = new List<DepartmentVM>();
         public DepartmentController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -24,6 +24,20 @@ namespace GECP_Front_End_Static.Controllers
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
+
+            jsonpath = webRootPath + @"\Data\Departments\departments.json";
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            DepartmentData = JsonConvert.DeserializeObject<List<DepartmentVM>>(json);
+            
+        }
+
+        public IActionResult DepartmentDetails(int id=0)
+        {
+            var data = DepartmentData.Where(m => m.ID == id).FirstOrDefault();
+            data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
+            return View(data);
         }
         public IActionResult EC()
         {

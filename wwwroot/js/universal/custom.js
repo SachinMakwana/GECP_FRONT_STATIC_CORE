@@ -171,7 +171,16 @@ $(document).ready(function() {
 	autoHeight : true,
 	pagination:false,
 	transitionStyle:"backSlide"
-  	});
+	});
+
+	$("#newssection").owlCarousel({
+		autoPlay: 18000,
+		stopOnHover: true,
+		navigation: true,
+		paginationSpeed: 1000,
+		goToFirstSpeed: 2000,
+		singleItem: true,
+	});
 	
 	
   var time = 7; // time in seconds

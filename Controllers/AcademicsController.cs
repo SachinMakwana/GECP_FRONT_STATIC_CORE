@@ -15,6 +15,7 @@ namespace GECP_Front_End_Static.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<AchievementsVM> AchievementsVM = new List<AchievementsVM>();
+        public List<AcademicCalendersVM> AcademicCalendersVM = new List<AcademicCalendersVM>();
 
         public AcademicsController(IWebHostEnvironment hostingEnvironment)
         {
@@ -25,10 +26,16 @@ namespace GECP_Front_End_Static.Controllers
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             AchievementsVM = JsonConvert.DeserializeObject<List<AchievementsVM>>(json);
+
+            jsonpath = webRootPath + @"\Data\Academics\AcademicsCalender.json";
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            AcademicCalendersVM = JsonConvert.DeserializeObject<List<AcademicCalendersVM>>(json);
         }
         public IActionResult AcademicCalender()
         {
-            return View();
+            return View(AcademicCalendersVM.Where(m=>m.isShow==true).ToList());
         }
 
         public IActionResult AdmissionProcess()

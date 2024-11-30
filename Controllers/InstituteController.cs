@@ -16,12 +16,16 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<MOUModel> MOUModelVM = new List<MOUModel>();
         public List<NewsLettersModel> NewsLettersModel = new List<NewsLettersModel>();
+        public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
+        public List<TendersVM> TendersVM = new List<TendersVM>();
 
         public InstituteController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\MOU\MPU.json";
+            string newsjsonpatah = webRootPath + @"\NEWS.json";
+            string tendersjsonpatah = webRootPath + @"\Tenders\Tenders.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
@@ -32,6 +36,14 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             NewsLettersModel = JsonConvert.DeserializeObject<List<NewsLettersModel>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(newsjsonpatah);
+            NEWSModelData = JsonConvert.DeserializeObject<List<NEWSModel>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(tendersjsonpatah);
+            TendersVM = JsonConvert.DeserializeObject<List<TendersVM>>(json);
         }
         public IActionResult AboutUs()
         {
@@ -49,7 +61,7 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Tenders()
         {
-            return View();
+            return View(TendersVM.Where(m=>m.isShow==true).ToList());
         }
 
         public IActionResult ImportantDocuments()
@@ -65,6 +77,18 @@ namespace GECP_Front_End_Static.Controllers
         public IActionResult RTI()
         {
             return View();
+        }
+
+        public IActionResult NEWS()
+        {
+            var data = NEWSModelData.Where(m => string.IsNullOrWhiteSpace(m.ActionName) && string.IsNullOrWhiteSpace(m.ControllerName)).ToList();
+            return View(data);
+        }
+
+        public IActionResult NEWSDetail(int id=0)
+        {
+            var data = NEWSModelData.Where(m => m.ID == id).FirstOrDefault();
+            return View(data);
         }
     }
 }

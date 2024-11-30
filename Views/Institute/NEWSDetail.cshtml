@@ -1,0 +1,86 @@
+﻿@model NEWSModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "NEWSDetail";
+}
+<style>
+        .fabig {
+        font-size: 150px;
+
+        margin: auto;
+        display: block !important;
+    }
+
+    .minheight {
+        min-height: 270px;
+        padding: 20px 15px !important;
+    }
+</style>
+<div class="clearfix"></div>
+
+
+<div class="page_title3 " style="background: #999 url('https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_1280.jpg') no-repeat center top;background-size:cover">
+    <div class="container">
+
+        <h1>
+            NEWS <em>Government Engineering College</em>
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="content_fullwidth less2">
+    <div class="container">
+
+        <div class="blog_post">
+            <div class="blog_postcontent">
+                <div class="image_frame">
+                    <a href="#">
+                        @if (Model.BannerImage != null)
+                        {
+                            <img src="@Url.Content(Model.BannerImage)" alt="">
+
+                        }
+                        else
+                        {
+                            <img src="@Url.Content("~/images/Home/slider1.png")" alt="">
+                        }
+                    </a>
+                </div>
+                <h3>@Model.Title</h3>
+                <ul class="post_meta_links">
+                    <li><a href="#" class="date">@Model.date</a></li>
+                    @* <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
+                    <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li> *@
+                </ul>
+                <div class="clearfix"></div>
+                <div class="margin_top1"></div>
+                @if (Model.Images.Count() > 0)
+                {
+                    <div id="owl-demo7" class="owl-carousel">
+                        @foreach (var item in Model.Images)
+                        {
+                            <div class="item"><img class="lazyOwl" src="@Url.Content(item)" alt=""></div>
+                        }
+                    </div>
+                    <div class="clearfix margin_top2"></div>
+                }
+                <text class="text-justify">@Html.Raw(Model.Description)</text>
+                <div class="clearfix"></div>
+                @if (Model.IsFile)
+                {
+                    <div class="clearfix margin_top2"></div>
+                    <li class="minheight">
+                        <a href="@Url.Content(Model.FileLink)">
+                            <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                }
+            </div>
+        </div>
+
+        <!-- /# end post -->
+        @* <div class="clearfix divider_line9"></div> *@
+    </div>
+</div>

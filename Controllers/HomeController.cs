@@ -18,7 +18,8 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<MarqueeModelVM> MarqueeData = new List<MarqueeModelVM>();
         public List<TestimonialModelVM> TestimonialData = new List<TestimonialModelVM>();
-        
+        public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
+        public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
 
         public HomeController(IWebHostEnvironment hostingEnvironment)
         {
@@ -26,6 +27,8 @@ namespace GECP_Front_End_Static.Controllers
             string webRootPath = _hostingEnvironment.WebRootPath;
             string marqueejsonpath = webRootPath + @"\js\MarqueeContent.json";
             string testimonialjsonpath = webRootPath + @"\js\TestimonialsData.json";
+            string newsjsonpatah = webRootPath + @"\NEWS.json";
+            string MSjsonpatah = webRootPath + @"\Data\MasterSlider.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(marqueejsonpath);
@@ -34,6 +37,14 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(testimonialjsonpath);
             TestimonialData = JsonConvert.DeserializeObject<List<TestimonialModelVM>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(newsjsonpatah);
+            NEWSModelData = JsonConvert.DeserializeObject<List<NEWSModel>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(MSjsonpatah);
+            MasterSliderVMData = JsonConvert.DeserializeObject<List<MasterSliderVM>>(json);
         }
 
         public IActionResult Index()
@@ -41,6 +52,8 @@ namespace GECP_Front_End_Static.Controllers
             HomePageModelVM homePageModelVM = new HomePageModelVM();
             homePageModelVM.marqueeModelVM = MarqueeData;
             homePageModelVM.testimonialModelVM = TestimonialData;
+            homePageModelVM.newsModelVM = NEWSModelData;
+            homePageModelVM.masterSliderVM = MasterSliderVMData;
             return View(homePageModelVM);
         }
 

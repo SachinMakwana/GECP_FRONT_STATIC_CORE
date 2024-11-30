@@ -1,44 +1,66 @@
-﻿<!-- Slider
+﻿@model List<MasterSliderVM>
+@{
+    int count = 1;
+}
+
+<!-- Slider
         ======================================= -->
 <!-- masterslider -->
 <div class="slidermar">
     <div class="master-slider ms-skin-default" id="masterslider">
 
-        <div class="ms-slide slide-1" data-delay="9">
+        @foreach (var item in Model)
 
-            <div class="slide-pattern"></div>
+        {
+            <div class="ms-slide slide-@count" data-delay="9">
 
-            <!--<img data-src="images/college.jpg" alt="" />-->
-            <img data-src="@Url.Content("~/images/Home/slider1.png")" alt="" />
+                <div class="slide-pattern"></div>
 
+                <img src="@Url.Content("~/js/masterslider/blank.gif")" data-src="@Url.Content(item.Image)" alt="">
 
+                @if (!string.IsNullOrWhiteSpace(item.H3_text))
 
+                {
+                    <h3 class="ms-layer text1" style="left: 115px; top: 200px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">
+                        @item.H3_text
+                    </h3>
+                }
+                @if (!string.IsNullOrWhiteSpace(item.H4_text))
 
-        </div>
-        <!-- end slide 1 -->
+                {
+                    <h4 class="ms-layer text2 caps" style="left: 115px; top: 255px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="1000" data-ease="easeOutExpo">
+                        @item.H4_text
+                    </h4>
+                }
+                @if (!string.IsNullOrWhiteSpace(item.H5_text))
 
+                {
+                    <h5 class="ms-layer text3" style="left: 115px; top: 340px;" data-type="text" data-effect="bottom(45)" data-duration="2000" data-delay="1500" data-ease="easeOutExpo">
+                        @item.H5_text
 
-        <div class="ms-slide slide-2" data-delay="9">
+                    </h5>
+                }
+                @if (!string.IsNullOrWhiteSpace(item.Anchor1_text))
 
-            <div class="slide-pattern"></div>
+                {
+                    <a href="@Url.Content(item.Anchor1_Link)" class="ms-layer sbut1" style="left: 115px; top: 450px;" data-type="text" data-delay="2000" data-ease="easeOutExpo" data-duration="1200" data-effect="scale(1.5,1.6)">
+                       @item.Anchor1_text
+                    </a>
+                }
+                @if (!string.IsNullOrWhiteSpace(item.Anchor2_text))
 
-            <img data-src="@Url.Content("~/images/Home/slider2.png")" alt="" />
+                {
+                    <a href="@Url.Content(item.Anchor2_Link)" class="ms-layer sbut2" style="left: 300px; top: 450px;" data-type="text" data-delay="2200" data-ease="easeOutExpo" data-duration="1200" data-effect="scale(1.5,1.6)">
+                       @item.Anchor2_text
+                    </a>
+                }
 
-        </div>
-        <!-- end slide 2 -->
+            </div>
 
-
-        <div class="ms-slide slide-3" data-delay="9">
-
-            <div class="slide-pattern"></div>
-
-            <img data-src="@Url.Content("~/images/Home/slider3.png")" alt="" />
-
-
-
-
-        </div>
-        <!-- end slide 3 -->
+            <!-- end slide @count -->
+            count++;
+        }
+        
 
     </div>
 </div>
