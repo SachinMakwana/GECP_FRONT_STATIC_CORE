@@ -18,6 +18,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<NewsLettersModel> NewsLettersModel = new List<NewsLettersModel>();
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<TendersVM> TendersVM = new List<TendersVM>();
+        public List<TendersVM> ImpDocuments = new List<TendersVM>();
 
         public InstituteController(IWebHostEnvironment hostingEnvironment)
         {
@@ -25,7 +26,8 @@ namespace GECP_Front_End_Static.Controllers
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\MOU\MPU.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";
-            string tendersjsonpatah = webRootPath + @"\Tenders\Tenders.json";
+            string tendersjsonpath = webRootPath + @"\Tenders\Tenders.json";
+            string impDocsJsonpath = webRootPath + @"\Data\ImportantDocuments\documentItems.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
@@ -42,8 +44,12 @@ namespace GECP_Front_End_Static.Controllers
             NEWSModelData = JsonConvert.DeserializeObject<List<NEWSModel>>(json);
 
             webClient = new WebClient();
-            json = webClient.DownloadString(tendersjsonpatah);
+            json = webClient.DownloadString(tendersjsonpath);
             TendersVM = JsonConvert.DeserializeObject<List<TendersVM>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(impDocsJsonpath);
+            ImpDocuments = JsonConvert.DeserializeObject<List<TendersVM>>(json);
         }
         public IActionResult AboutUs()
         {
@@ -66,7 +72,7 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult ImportantDocuments()
         {
-            return View();
+            return View(ImpDocuments.Where(m => m.isShow == true).ToList());
         }
 
         public IActionResult MoU()

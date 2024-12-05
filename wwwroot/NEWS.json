@@ -15,7 +15,7 @@
 
   {
     "ID": 2,
-    "Title": "Trainigngપ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
+    "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
     "Description": "<p>The Training and Placement Cell organizes a range of activities to prepare students for career opportunities, including recruitment drives, skill-building workshops, and career guidance programs. Below is a structured outline of the activities:</p> <div class=\"clearfix margin_top3\"></div> <table class=\"table table-bordered text-center\"> <thead> <tr> <th>Sr. No.</th> <th>Activity Name</th> <th>Period</th> <th>Target Students</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>Mega Placement Camp</td> <td>February/March</td> <td>Final-Year Students</td> </tr> <tr> <td>2</td> <td>Placement Drive</td> <td>September</td> <td>Final-Year Students</td> </tr> <tr> <td>3</td> <td>Career Guidance Seminar</td> <td>February</td> <td>Pre-Final Year Students</td> </tr> <tr> <td>4</td> <td>On-Campus Placement</td> <td>July to December</td> <td>Final-Year & Pass-Outs</td> </tr> <tr> <td>5</td> <td>Off-Campus Placement</td> <td>Year-Round</td> <td>Final-Year & Pass-Outs</td> </tr> <tr> <td>6</td> <td>Youth Employment Programme</td> <td>January/February</td> <td>Pre-Final Year Students</td> </tr> <tr> <td>7</td> <td>Finishing School</td> <td>January/February & July/August</td> <td>Final & Pre-Final Year Students</td> </tr> <tr> <td>8</td> <td>Entrepreneurship Awareness Programme</td> <td>January/February</td> <td>Pre-Final Year Students</td> </tr> </tbody> </table>",
     "IsFile": 1,
     "FileLink": "~/ImpDocs/ActivityPoster.pdf",

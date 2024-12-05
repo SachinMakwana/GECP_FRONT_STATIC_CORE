@@ -1,0 +1,43 @@
+﻿@model HeaderVM
+@{
+}
+
+    <div class="container">
+
+        <div class="left">
+
+            <!-- Logo -->
+            <div>
+                <a href="@Url.Action("Index","Home")"> <img src="@Url.Content(Model.logo)" class="rimg" /></a>
+            </div>
+
+        </div>
+        <!-- end left -->
+
+        <div class="right">
+
+            <ul class="tinfo last">
+                <li><i class="fa fa-phone"></i></li>
+                <li>
+                    <em>Call Us</em>
+                    <strong>@Model.ContactNo</strong>
+                </li>
+
+            </ul>
+
+            <ul class="tinfo">
+                <li><i class="fa fa-envelope"></i></li>
+                <li>
+                    <em>Mail Us</em>
+                    <strong><a href="mailto:@Model.ContactEmail">@Model.ContactEmail</a></strong>
+                </li>
+            </ul>
+
+        </div>
+        <!-- end right -->
+
+    </div>
+
+
+
+

@@ -17,4 +17,13 @@
         public string UploadDate { get; set; }
         public bool isShow { get; set; }
     }
+
+    public class IntakeVM
+    {
+        public int EC { get; set; }
+        public int Computer { get; set; }
+        public int Electrical { get; set; }
+        public int Civil { get; set; }
+        public int Mechanical { get; set; }
+    }
 }

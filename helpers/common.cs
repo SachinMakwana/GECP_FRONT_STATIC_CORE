@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using GECP_Front_End_Static.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +9,7 @@ using System.Web;
 
 namespace GECP_Front_End_Static
 {
+    
     public class Settings
     {
         public string _host;
@@ -16,7 +20,7 @@ namespace GECP_Front_End_Static
         public string _alias;
         public Settings(IConfiguration iConfiguration)
         {
-          
+
             var smtpSection = iConfiguration.GetSection("SMTP");
             if (smtpSection != null)
             {
@@ -100,5 +104,7 @@ namespace GECP_Front_End_Static
             return email;
         }
     }
+    
 }
+
 

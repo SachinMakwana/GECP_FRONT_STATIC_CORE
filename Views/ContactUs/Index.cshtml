@@ -1,4 +1,5 @@
-﻿@{
+﻿@model HeaderVM
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "ContactUs";
 }
@@ -29,16 +30,16 @@
                     <li>
                         <strong>GOVERNMENT ENGINEERING COLLEGE,AT. KATPUR, PATAN</strong><br />
                         At & Post. Katpur, Patan, Gujarat-384265<br />
-                        Telephone: 2766291560<br />
-                        E-mail: <a href="mailto:principalgecpatan@gmail.com">principalgecpatan@gmail.com</a><br />
+                        Telephone: @Model.ContactNo<br />
+                        E-mail: <a href="mailto:@Model.ContactEmail">@Model.ContactEmail</a><br />
                     </li>
                 </ul>
             </div>
             <div class="clearfix"></div>
             <h4>College <strong>Location</strong></h4>
             <iframe class="google-map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.2602485922553!2d72.10120971429814!3d23.80934299244041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c7d0db6c534b3%3A0x34c9aef47a82f519!2sGovernment%20Engineering%20College%2C%20Patan!5e0!3m2!1sen!2sin!4v1592198287103!5m2!1sen!2sin"></iframe>
-            <br />
-            <small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.2602485922553!2d72.10120971429814!3d23.80934299244041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c7d0db6c534b3%3A0x34c9aef47a82f519!2sGovernment%20Engineering%20College%2C%20Patan!5e0!3m2!1sen!2sin!4v1592198287103!5m2!1sen!2sin">View Larger Map</a></small>
+           @*  <br />
+            <small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.2602485922553!2d72.10120971429814!3d23.80934299244041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c7d0db6c534b3%3A0x34c9aef47a82f519!2sGovernment%20Engineering%20College%2C%20Patan!5e0!3m2!1sen!2sin!4v1592198287103!5m2!1sen!2sin">View Larger Map</a></small> *@
         </div>
 
         <div class="one_half last">

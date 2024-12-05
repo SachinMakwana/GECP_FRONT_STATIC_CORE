@@ -21,29 +21,25 @@
 <div class="content_fullwidth less2">
     <div class="container">
 
-        <div class="content_halfsite">
-            @foreach (var item in Model)
-            {
-                <div class="blog_post @(count%2==0?"last":"")">
+
+        @foreach (var item in Model)
+        {
+            <div class="content_halfsite @(count%2==0?"last":"")">
+                <div class="blog_post">
                     <div class="blog_postcontent">
                         <div class="image_frame"><a href="#"><img src="@Url.Content(item.BannerImage)" alt=""></a></div>
                         <h3><a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">@item.Title</a></h3>
                         <ul class="post_meta_links">
                             <li><a href="#" class="date">@item.date</a></li>
-                            @* <li class="post_categoty"><i>in:</i> <a href="#">Web tutorials</a></li>
-                            <li class="post_comments"><i>note:</i> <a href="#">18 Comments</a></li> *@
                         </ul>
                         <div class="clearfix"></div>
-                        <div class="margin_top1"></div>
-                        <p>@item.Description.Substring(0, item.Description.Length > 100 ? 100 : item.Description.Length) <a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">read more...</a></p>
                     </div>
                 </div>
 
-                <!-- /# end post -->
+            </div>
 
-                <div class="clearfix divider_line9"></div>
-                count++;
-            }
-        </div>
+            count++;
+
+        }
     </div>
 </div>

@@ -647,3 +647,15 @@ table.dataTable thead .sorting_desc_disabled:before {
 .newssection li a:hover{
     color:red;
 }
+
+
+
+
+
+/*responsive goes here*/
+
+@media only screen and (max-width: 479px) {
+    .client_logos3 .minheight {
+        width: 60%;
+    }
+}

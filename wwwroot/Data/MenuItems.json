@@ -1,0 +1,482 @@
+[
+  {
+    "ID": 1,
+    "MenuText": "Home",
+    "ParentID": null,
+    "ControllerName": "Home",
+    "ActionName": "Index",
+    "position": 1,
+    "isVisible": true,
+    "ChildMenuVMs": []
+  },
+  {
+    "ID": 2,
+    "MenuText": "Institute",
+    "ParentID": null,
+    "ControllerName": "Institute",
+    "ActionName": "",
+    "position": 2,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 23,
+        "MenuText": "About us",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "AboutUs",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 24,
+        "MenuText": "Center of Excellence",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "CoE",
+        "position": 2,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 25,
+        "MenuText": "Newsletter",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "NewsLetter",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 26,
+        "MenuText": "Tenders",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "Tenders",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 27,
+        "MenuText": "Important Documents",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "importantDocuments",
+        "position": 5,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 28,
+        "MenuText": "MoUs",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "MoU",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 76,
+        "MenuText": "RTI",
+        "ParentID": 2,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "dynamicID": 6,
+        "position": 7,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 29,
+        "MenuText": "NEWS",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "NEWS",
+        "position": 8,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "MenuText": "Academics",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "",
+    "ActionName": "",
+    "position": 3,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 31,
+        "MenuText": "Academic Calender",
+        "ParentID": 3,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "AcademicCalender",
+        "position": 1,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 32,
+        "MenuText": "Admission Process",
+        "ParentID": 3,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "AdmissionProcess",
+        "position": 2,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 33,
+        "MenuText": "Achievements",
+        "ParentID": 3,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "Achievements",
+        "position": 3,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "MenuText": "Departments",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "",
+    "ActionName": "",
+    "position": 4,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 41,
+        "MenuText": "Electronics And Communication",
+        "ParentID": 4,
+        "dynamicID": 1,
+        "ControllerName": "Department",
+        "ActionName": "DepartmentDetails",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 42,
+        "MenuText": "Computer Science & Engineering",
+        "ParentID": 4,
+        "dynamicID": 2,
+        "ControllerName": "Department",
+        "ActionName": "DepartmentDetails",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 43,
+        "MenuText": "Electrical Engineering",
+        "ParentID": 4,
+        "dynamicID": 3,
+        "ControllerName": "Department",
+        "ActionName": "DepartmentDetails",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 44,
+        "MenuText": "Civil Engineering",
+        "ParentID": 4,
+        "dynamicID": 4,
+        "ControllerName": "Department",
+        "ActionName": "DepartmentDetails",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 45,
+        "MenuText": "Mechnanical Engineering",
+        "ParentID": 4,
+        "dynamicID": 5,
+        "ControllerName": "Department",
+        "ActionName": "DepartmentDetails",
+        "position": 5,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 46,
+        "MenuText": "General",
+        "ParentID": 4,
+        "dynamicID": 6,
+        "ControllerName": "Department",
+        "ActionName": "DepartmentDetails",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 47,
+        "MenuText": "Library",
+        "ParentID": 4,
+        "dynamicID": null,
+        "ControllerName": "Department",
+        "ActionName": "Library",
+        "position": 7,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 48,
+        "MenuText": "Applied Mechanics",
+        "ParentID": 4,
+        "dynamicID": 8,
+        "ControllerName": "Department",
+        "ActionName": "DepartmentDetails",
+        "position": 8,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
+    "ID": 5,
+    "MenuText": "Staff",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "",
+    "ActionName": "",
+    "position": 5,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 51,
+        "MenuText": "Applied Mechanics",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "Applied",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 52,
+        "MenuText": "Electronics and Communications",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "Electronics",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 53,
+        "MenuText": "Computer Science & Engineering",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "Computer",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 54,
+        "MenuText": "Electrical Engineering",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "Electrical",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 55,
+        "MenuText": "Civil",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "Civil Engineering",
+        "position": 5,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 56,
+        "MenuText": "Mechanical Engineering",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "Mechanical",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 57,
+        "MenuText": "Administration",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "Administration",
+        "position": 7,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 58,
+        "MenuText": "General",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Faculty",
+        "ActionName": "General",
+        "position": 8,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
+    "ID": 6,
+    "MenuText": "Placement",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "",
+    "ActionName": "",
+    "position": 6,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 61,
+        "MenuText": "About Placement Cell",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "PlacementCell",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 62,
+        "MenuText": "Placement Statistics",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "PlacementStatistics",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
+    "ID": 7,
+    "MenuText": "Campus Committees",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "",
+    "ActionName": "",
+    "position": 7,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 71,
+        "MenuText": "Women Development Cell",
+        "ParentID": 7,
+        "dynamicID": 1,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 72,
+        "MenuText": "SSIP",
+        "ParentID": 7,
+        "dynamicID": 2,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 73,
+        "MenuText": "National Service Scheme(NSS)",
+        "ParentID": 7,
+        "dynamicID": 3,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 74,
+        "MenuText": "Anti Ragging Cell",
+        "ParentID": 7,
+        "dynamicID": 4,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 75,
+        "MenuText": "Grievence Cell",
+        "ParentID": 7,
+        "dynamicID": 5,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 5,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+
+      {
+        "ID": 77,
+        "MenuText": "SC/ST Committee",
+        "ParentID": 7,
+        "dynamicID": 7,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
+    "ID": 8,
+    "MenuText": "Alumni",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "Alumni",
+    "ActionName": "Index",
+    "position": 8,
+    "isVisible": true,
+    "ChildMenuVMs": []
+  },
+  {
+    "ID": 9,
+    "MenuText": "Contact",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "ContactUs",
+    "ActionName": "Index",
+    "position": 9,
+    "isVisible": true,
+    "ChildMenuVMs": []
+  }
+]
+ 

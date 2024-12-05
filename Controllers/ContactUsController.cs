@@ -8,14 +8,30 @@ using System.Text;
 using System.Web;
 using Microsoft.AspNetCore.Http;
 using GECP_Front_End_Static.Models;
+using Microsoft.AspNetCore.Hosting;
+using Newtonsoft.Json;
+using System.Net;
 
 namespace GECP_Front_End_Static.Controllers
 {
     public class ContactUsController : Controller
     {
+        private readonly IWebHostEnvironment _hostingEnvironment;
+        private HeaderVM headerVM = new HeaderVM();
+        public ContactUsController(IWebHostEnvironment hostingEnvironment)
+        {
+            _hostingEnvironment = hostingEnvironment;
+            string webRootPath = _hostingEnvironment.WebRootPath;
+            string HeaderJsonpatah = webRootPath + @"\Data\HeaderItems.json";
+
+            var webClient = new WebClient();
+            var json = webClient.DownloadString(HeaderJsonpatah);
+            headerVM = JsonConvert.DeserializeObject<HeaderVM>(json);
+        }
+
         public IActionResult Index()
         {
-            return View();
+            return View(headerVM);
         }
 
         [HttpPost]

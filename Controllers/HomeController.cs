@@ -20,7 +20,8 @@ namespace GECP_Front_End_Static.Controllers
         public List<TestimonialModelVM> TestimonialData = new List<TestimonialModelVM>();
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
-
+        public List<MenuVM> MenuVMs = new List<MenuVM>();
+        private HeaderVM headerVM = new HeaderVM();
         public HomeController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -29,6 +30,8 @@ namespace GECP_Front_End_Static.Controllers
             string testimonialjsonpath = webRootPath + @"\js\TestimonialsData.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";
             string MSjsonpatah = webRootPath + @"\Data\MasterSlider.json";
+            string HeaderJsonpatah = webRootPath + @"\Data\HeaderItems.json";
+            string MenuJsonpatah = webRootPath + @"\Data\MenuItems.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(marqueejsonpath);
@@ -45,6 +48,14 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(MSjsonpatah);
             MasterSliderVMData = JsonConvert.DeserializeObject<List<MasterSliderVM>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(HeaderJsonpatah);
+            headerVM = JsonConvert.DeserializeObject<HeaderVM>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(MenuJsonpatah);
+            MenuVMs = JsonConvert.DeserializeObject<List<MenuVM>>(json);
         }
 
         public IActionResult Index()
@@ -55,6 +66,23 @@ namespace GECP_Front_End_Static.Controllers
             homePageModelVM.newsModelVM = NEWSModelData;
             homePageModelVM.masterSliderVM = MasterSliderVMData;
             return View(homePageModelVM);
+        }
+
+        public PartialViewResult TopMenu()
+        {
+            return PartialView(@"~/Views/Shared/_topHeader.cshtml", headerVM);
+        }
+        public PartialViewResult Menu(string currentController, string currentAction, int? dynamicID)
+        {
+            if (currentController == null || currentAction == null)
+            {
+                currentController = ControllerContext.RouteData.Values["controller"]?.ToString();
+                currentAction = ControllerContext.RouteData.Values["action"]?.ToString();
+            }
+            ViewBag.CurrentController = currentController;
+            ViewBag.CurrentAction = currentAction;
+            ViewBag.DynamicID = dynamicID;
+            return PartialView(@"~/Views/Shared/_header.cshtml", MenuVMs);
         }
 
         public IActionResult Privacy()

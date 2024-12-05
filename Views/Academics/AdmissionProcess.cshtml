@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IntakeVM
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Admission Process";
 }
@@ -44,31 +45,31 @@
         <div class="counters7 animate" data-anim-type="fadeIn" data-anim-delay="300">
 
             <div class="one_fifth">
-                <i class="fa fa-microchip"></i> <span class="target120">30</span>
+                <i class="fa fa-microchip"></i> <span class="target120" id="target120">@Model.EC</span>
                 <h4>EC</h4>
             </div>
             <!-- end section -->
 
             <div class="one_fifth">
-                <i class="fa fa-desktop"></i> <span class="target121">120</span>
+                <i class="fa fa-desktop"></i> <span class="target121" id="target121">@Model.Computer</span>
                 <h4>Computer</h4>
             </div>
             <!-- end section -->
 
             <div class="one_fifth">
-                <i class="fa fa-bolt"></i> <span class="target122">60</span>
+                <i class="fa fa-bolt"></i> <span class="target122" id="target122">@Model.Electrical</span>
                 <h4>Electrical</h4>
             </div>
             <!-- end section -->
 
             <div class="one_fifth">
-                <i class="fas fa-hard-hat"></i> <span class="target123">60</span>
+                <i class="fas fa-hard-hat"></i> <span class="target123" id="target123">@Model.Civil</span>
                 <h4>Civil</h4>
             </div>
             <!-- end section -->
 
             <div class="one_fifth last">
-                <i class="fa fa-wrench"></i> <span class="target124">60</span>
+                <i class="fa fa-wrench"></i> <span class="target124" id="target124">@Model.Mechanical</span>
                 <h4>Mechanical</h4>
             </div>
             <!-- end section -->
@@ -472,8 +473,14 @@
             "use strict";
 
             $(document).ready(function () {
+                var target120 = $("#target120").text();
+                var target121 = $("#target121").text();
+                var target122 = $("#target122").text();
+                var target123 = $("#target123").text();
+                var target124 = $("#target124").text();
+
                 $('.target120').animateNumber({
-                    number: 30,
+                    number: target120,
 
                     numberStep: function (now, tween) {
                         var floored_number = Math.floor(now),
@@ -484,8 +491,9 @@
                 },
                     12000
                 )
+
                 $('.target121').animateNumber({
-                    number: 120,
+                    number: target121,
 
                     numberStep: function (now, tween) {
                         var floored_number = Math.floor(now),
@@ -497,7 +505,7 @@
                     12000
                 )
                 $('.target122').animateNumber({
-                    number: 60,
+                    number: target122,
 
                     numberStep: function (now, tween) {
                         var floored_number = Math.floor(now),
@@ -509,7 +517,7 @@
                     12000
                 )
                 $('.target123').animateNumber({
-                    number: 60,
+                    number: target123,
 
                     numberStep: function (now, tween) {
                         var floored_number = Math.floor(now),
@@ -522,7 +530,7 @@
                 )
 
                 $('.target124').animateNumber({
-                    number: 60,
+                    number: target124,
 
                     numberStep: function (now, tween) {
                         var floored_number = Math.floor(now),

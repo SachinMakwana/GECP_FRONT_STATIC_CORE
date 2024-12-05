@@ -1,7 +1,7 @@
 ﻿@model DepartmentVM
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Computer";
+    ViewBag.Title = Model.Title;
 }
 
 
@@ -55,51 +55,51 @@
 
     </div>
     <!-- end all sections -->
-    @if(Model.showIntake){
-    <div class="margin_top2"> </div>
+    @if (Model.showIntake)
+    {
+        <div class="margin_top2"> </div>
 
-    <div class="parallax_section12">
-        <div class="container">
+        <div class="parallax_section12">
+            <div class="container">
 
-            <div class="counters7 animate" data-anim-type="fadeIn" data-anim-delay="300">
-
-                <div class="one_fourth">
-                    <i class="fa fa-user"></i> <span id="target21">@Model.Intake</span>
-                    <h4>Total Intake</h4>
-                </div>
-                <!-- end section -->
+                <div class="counters7 animate" data-anim-type="fadeIn" data-anim-delay="300">
 
                     <div class="one_fourth">
-                    <i class="fa fa-users"></i> <span id="target22">@Model.FacultyList.Count()</span>
-                    <h4>Faculties Member</h4>
-                </div>
-                <!-- end section -->
+                        <i class="fa fa-user"></i> <span id="target21">@Model.Intake</span>
+                        <h4>Total Intake</h4>
+                    </div>
+                    <!-- end section -->
 
-               @*  <div class="one_fifth">
-                    <i class="fa fa-book"></i> <span id="target23">0</span>
-                    <h4>Total Subjects</h4>
+                    <div class="one_fourth">
+                        <i class="fa fa-users"></i> <span id="target22">@Model.FacultyList.Count()</span>
+                        <h4>Faculties Member</h4>
+                    </div>
+                    <!-- end section -->
+                    @*  <div class="one_fifth">
+                <i class="fa fa-book"></i> <span id="target23">0</span>
+                <h4>Total Subjects</h4>
                 </div> *@
-                <!-- end section -->
+                    <!-- end section -->
 
                     <div class="one_fourth">
-                    <i class="fa fa-paper-plane"></i> <span id="target24">@Model.AnnualPlacementCount</span>
-                    <h4>Annual Placement</h4>
-                </div>
-                <!-- end section -->
+                        <i class="fa fa-paper-plane"></i> <span id="target24">@Model.AnnualPlacementCount</span>
+                        <h4>Annual Placement</h4>
+                    </div>
+                    <!-- end section -->
 
                     <div class="one_fourth last">
-                    <i class="fa fa-building"></i> <span id="target25">@Model.LabWorkshop</span>
-                    <h4>Labs And Workshops</h4>
+                        <i class="fa fa-building"></i> <span id="target25">@Model.LabWorkshop</span>
+                        <h4>Labs And Workshops</h4>
+                    </div>
+                    <!-- end section -->
+
+
                 </div>
-                <!-- end section -->
 
 
             </div>
-
-
         </div>
-    </div>
-    <!-- end parallax section 12 -->
+        <!-- end parallax section 12 -->
     }
     <div class="featured_section14">
         <div class="container">
@@ -162,48 +162,51 @@
     </div>
 
     <!-- end featured section 3 -->
-    @if (Model.FacultyList.Count()>0){
-    <div class="margin_top4"></div>
-    <div id="slider-outline">
+    @if (Model.FacultyList.Count() > 0)
+    {
+        <div class="margin_top4"></div>
+        <div id="slider-outline">
 
-        <div id="slider">
+            <div id="slider">
 
-            <div id="sl-view" class="clearfix">
+                <div id="sl-view" class="clearfix">
 
-                <div id="sl-wrap">
+                    <div id="sl-wrap">
 
-                    @foreach (var faculty in Model.FacultyList)
-                    {
-                        <div class="sl-div two">
+                        @foreach (var faculty in Model.FacultyList)
+                        {
+                            <div class="sl-div two">
 
-                            <div class="cirpimg"><img src="@Url.Content("~/"+faculty.image)" alt="" class="dept_faculty_pic"></div>
-                            <h4 class="roboto">@faculty.Name<em></em></h4>
-                            <h4 class="roboto">@faculty.Designation<em></em></h4>
-                        </div>
-                    }
+                                <div class="cirpimg"><img src="@Url.Content("~/"+faculty.image)" alt="" class="dept_faculty_pic"></div>
+                                <h4 class="roboto">@faculty.Name<em></em></h4>
+                                <h4 class="roboto">@faculty.Designation<em></em></h4>
+                            </div>
+                        }
+                    </div>
+
                 </div>
+
+                <div id="sl-next"><span>&raquo;</span></div>
+                <div id="sl-prev"><span>&laquo;</span></div>
 
             </div>
 
-            <div id="sl-next"><span>&raquo;</span></div>
-            <div id="sl-prev"><span>&laquo;</span></div>
-
         </div>
-
-    </div>
-    <!-- end slider section -->
+        <!-- end slider section -->
     }
 
 
+    @if (!string.IsNullOrWhiteSpace(Model.Tagline))
+    {
 
+        <div class="clearfix margin_top2"></div>
 
-    <div class="clearfix margin_top2"></div>
-
-    <div class="featured_section38">
-        <div class="container">
-            @Html.Raw(Model.Tagline)
+        <div class="featured_section38">
+            <div class="container">
+                @Html.Raw(Model.Tagline)
+            </div>
         </div>
-    </div>
+    }
     @section scripts {
 
         @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@

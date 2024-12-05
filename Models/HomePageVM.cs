@@ -53,4 +53,26 @@ namespace GECP_Front_End_Static.Models
             masterSliderVM = new List<MasterSliderVM>();
         }
     }
+
+    public class MenuVM
+    {
+        public int ID { get; set; }
+        public string MenuText { get; set; }
+        public int? ParentID { get; set; }
+        public string ControllerName { get; set; }
+        public string ActionName { get; set; }
+        public int position { get; set; }
+        public bool isVisible { get; set; } = true;
+        public int? dynamicID { get; set; }
+        public List<MenuVM> ChildMenuVMs { get; set; } = new List<MenuVM>();
+
+    }
+
+    public class HeaderVM
+    {
+        public List<MenuVM> MenuVMs { get; set; } = new List<MenuVM>();
+        public string ContactNo { get; set; }
+        public string ContactEmail { get; set; }
+        public string logo { get; set; }
+    }
 }

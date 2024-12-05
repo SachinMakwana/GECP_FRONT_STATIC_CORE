@@ -89,8 +89,10 @@
 <body>
 
     <div class="site_wrapper">
-        @{Html.RenderPartial("_header");}
-
+        @* @{Html.RenderPartial("_header");} *@
+        <div class="top_section2" id="topHeader"></div><!-- end top navigation links -->
+        <div class="clearfix"></div>
+        <header class="header" id="menuload"></header> <!-- end Navigation Menu -->
         @RenderBody()
 
         @{Html.RenderPartial("_footer");}
@@ -105,6 +107,23 @@
     <script src="https://kit.fontawesome.com/ef9a692198.js"></script>
     <script src="@Url.Content("~/js/font-awesome/ef9a692198.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/js/universal/jquery.js")"></script>
+    <script>
+        $("#menuload").load("@Url.Action("Menu","Home")");
+        $('#topHeader').load("@Url.Action("TopMenu", "Home")");
+        // $(document).ready(function () {
+        //     // Example dynamic data
+        //     var currentController = "@Context.Request.RouteValues["controller"]";
+        //     var currentAction = "@Context.Request.RouteValues["action"]";
+        //     var dynamicID = "@ViewData["id"]";
+
+        //     // If dynamicID is null, set it to 'null' or a default value
+        //     dynamicID = dynamicID ? dynamicID : 'null';
+
+        //     // Load the menu with parameters for currentController, currentAction, and dynamicID
+        //     $("#menuload").load("@Url.Action("Menu", "Home")?currentController=" + currentController + "&currentAction=" + currentAction + "&dynamicID=" + dynamicID);
+        //     $('#topHeader').load("@Url.Action("TopMenu","Home")");
+        // });
+    </script>
     <script src="@Url.Content("~/js/style-switcher/styleselector.js")"></script>
     <script src="@Url.Content("~/js/animations/js/animations.min.js")" type="text/javascript"></script>
     <script src="@Url.Content("~/js/mainmenu/bootstrap.min.js")"></script>

@@ -36,7 +36,7 @@
                 <ul>
                     @foreach (var item in Model)
                     {
-                        @if (count%2!=0)
+                        @if (count%5!=0)
                         {
                             <li class="minheight">
                                 <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">

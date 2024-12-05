@@ -8,7 +8,7 @@
 <div class="clearfix"></div>
 
 
-<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;">
+<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;background-size: cover;">
     <div class="container">
 
         <h1>
@@ -33,9 +33,9 @@
 
                 <h4 class="color3 margin_bottom2">About @Model.Title</h4>
                 <p class="bigtfont text-justify overflowCommittes">
-                        @Html.Raw(Model.About)
-                    </p>
-               
+                    @Html.Raw(Model.About)
+                </p>
+
 
 
             </div>
@@ -53,9 +53,9 @@
                 <h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
 
                 <div class="bigtfont text-justify overflowCommittes">
-                        @Html.Raw(Model.Measures)
-                    </div>
-                
+                    @Html.Raw(Model.Measures)
+                </div>
+
 
             </div>
             <!-- end section -->
@@ -184,14 +184,17 @@
     <div class="clearfix margin_bottom6"></div>
 }
 <!-- end parallax section 10 -->
-<div class="clearfix margin_bottom6"></div>
+@* <div class="clearfix margin_bottom6"></div> *@
 
 <div class="content_fullwidth" style="padding: 0 !important">
-    <img src="@Url.Content(Model.PageFlyer)" alt="" />
+    <img src="@Url.Content(Model.PageFlyer)" class="rimg" alt="" />
 </div>
 <div class="clearfix" style="background: #5076bb !important"></div>
-<div class="featured_section38">
-    <div class="container">
-        @Html.Raw(Model.Tagline)
+@if (!string.IsNullOrWhiteSpace(Model.Tagline))
+{
+    <div class="featured_section38">
+        <div class="container">
+            @Html.Raw(Model.Tagline)
+        </div>
     </div>
-</div>
+}
