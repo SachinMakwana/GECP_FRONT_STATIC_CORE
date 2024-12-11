@@ -22,59 +22,52 @@
 <div class="margin_top2"></div>
 <div class="featured_section30">
     <div class="container">
-
-        @foreach (FacultyDetailsVM data in Model)
+        @foreach (var data in Model)
         {
+            var updatedDetails = System.Text.RegularExpressions.Regex.Replace(
+            data.personal_details,
+            @"\d+ Year[s]?",
+            $"{data.YearsOfExperience} Years"
+            );
+
             if (count % 2 == 0)
             {
-        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
-            <div class="faculties_img_div">
-                <img src="@Url.Content("~/"+data.image)" alt="" />
-                @if (data.tabs != null)
-                {
-                    <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
-                }
-            </div>
-            @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
-            <p>@Html.Raw(data.personal_details) </p>
-            @*<br />
-        <div class="clearfix"></div>*@
-
-
-
-        </div>
-                <!-- end section -->
-
+                <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+                    <div class="faculties_img_div">
+                        <img src="@Url.Content("~/" + data.image)" alt="" />
+                        @if (data.tabs != null)
+                        {
+                            <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link">
+                                <i class="fas fa-external-link-square-alt"></i>
+                            </a>
+                        }
+                    </div>
+                    <p>
+                        @Html.Raw(updatedDetails)
+                    </p>
+                </div>
                 <div class="clearfix margin_top5"></div>
             }
             else
             {
-    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
-        <div class="faculties_img_div">
-            <img src="@Url.Content("~/"+data.image)" alt="" />
-            @if (data.tabs != null)
-            {
-                <a href="@Url.Action("FacultyInfo", "faculty", new { @id = data.ID })" class="four faculty_info_link"><i class="fas fa-external-link-square-alt"></i></a>
-            }
-        </div>
-        @*<h5>@data.Name <em>Assistant Professor</em></h5>*@
-        <p>@Html.Raw(data.personal_details) </p>
-        @*<br />
-        <div class="clearfix"></div>*@
-
-
-
-    </div>
+                <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
+                    <div class="faculties_img_div">
+                        <img src="@Url.Content("~/" + data.image)" alt="" />
+                        @if (data.tabs != null)
+                        {
+                            <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link">
+                                <i class="fas fa-external-link-square-alt"></i>
+                            </a>
+                        }
+                    </div>
+                    <p>
+                        @Html.Raw(updatedDetails)
+                    </p>
+                </div>
             }
             count++;
-
         }
-
-
-
     </div>
 </div>
-<!-- end featured section 30 -->
-
 
 <div class="clearfix margin_top2"></div>
