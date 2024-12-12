@@ -2,7 +2,6 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Electronics and Communications";
-    int count = 1;
 }
 
 <div class="clearfix"></div>
@@ -10,7 +9,8 @@
 <div class="page_title3 ec_title">
     <div class="container">
         <h1>
-            Meet Our Team<em>Electronics and Communications, Government Engineering College</em>
+            Meet Our Team
+            <em>Electronics and Communications, Government Engineering College</em>
             <div class="line"></div>
         </h1>
     </div>
@@ -21,50 +21,66 @@
     <div class="container">
         @foreach (var data in Model)
         {
-            var updatedDetails = System.Text.RegularExpressions.Regex.Replace(
-            data.personal_details,
-            @"\d+ Year[s]?",
-            $"{data.YearsOfExperience} Years"
-            );
-
-            if (count % 2 == 0)
-            {
-                <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
-                    <div class="faculties_img_div">
-                        <img src="@Url.Content("~/" + data.image)" alt="" />
-                        @if (data.tabs != null)
-                        {
-                            <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link">
-                                <i class="fas fa-external-link-square-alt"></i>
-                            </a>
-                        }
-                    </div>
-                    <p>
-                        @Html.Raw(updatedDetails)
-                    </p>
+            <div class="one_half @((Model.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
+                <div class="faculties_img_div" style="margin-bottom: 20px; ">
+                    <img src="@Url.Content("~/" + data.image)" alt="@data.Name"/>
+                    @if (data.tabs != null)
+                    {
+                        <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link">
+                            <i class="fas fa-external-link-square-alt"></i>
+                        </a>
+                    }
                 </div>
+                <div class="b-portfolio_info col-sm-6">
+                    <div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
+                        <a href="#">@data.Name</a>
+                    </div>
+                    <hr>
+                    <div class="b-portfolio_info_description f-portfolio_info_description">
+                        <div class="b-information-box f-information-box f-primary-b">
+                            <ul>
+                                <li>
+                                    <strong class="f-information-box__name b-information-box__name">Designation</strong>
+                                    <i class="b-dotted f-dotted">:</i>
+                                    <span class="f-information_data">@data.Designation</span>
+                                </li>
+                                <li>
+                                    <strong class="f-information-box__name b-information-box__name">Qualification</strong>
+                                    <i class="b-dotted f-dotted">:</i>
+                                    <span class="f-information_data">@data.Qualification</span>
+                                </li>
+                                <li>
+                                    <strong class="f-information-box__name b-information-box__name">Experience</strong>
+                                    <i class="b-dotted f-dotted">:</i>
+                                    <span class="f-information_data">@data.YearsOfExperience</span>
+                                </li>
+                                <li>
+                                    <strong class="f-information-box__name b-information-box__name">Area Of Interest</strong>
+                                    <i class="b-dotted f-dotted">:</i>
+                                    <span class="f-information_data">@data.Area_of_Interest</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @if ((Model.IndexOf(data) + 1) % 2 == 0)
+            {
                 <div class="clearfix margin_top5"></div>
             }
-            else
-            {
-                <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
-                    <div class="faculties_img_div">
-                        <img src="@Url.Content("~/" + data.image)" alt="" />
-                        @if (data.tabs != null)
-                        {
-                            <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link">
-                                <i class="fas fa-external-link-square-alt"></i>
-                            </a>
-                        }
-                    </div>
-                    <p>
-                        @Html.Raw(updatedDetails)
-                    </p>
-                </div>
-            }
-            count++;
         }
     </div>
 </div>
 
+
 <div class="clearfix margin_top2"></div>
+@section styles {
+    <style>
+        .faculties_img_div img {
+            margin-right: 0px;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 15px;
+        }
+    </style>
+}
