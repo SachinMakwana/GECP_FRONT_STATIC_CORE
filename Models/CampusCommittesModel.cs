@@ -34,6 +34,7 @@ namespace GECP_Front_End_Static.Models
         public string BulletPointsImg { get; set; }
         public string PageFlyer { get; set; }
         public string Tagline { get; set; }
+        public string BlogLink { get; set; }
         public List<Member> Members { get; set; }
     }
 }

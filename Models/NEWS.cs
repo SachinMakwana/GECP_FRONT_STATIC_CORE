@@ -7,7 +7,7 @@ namespace GECP_Front_End_Static.Models
         public int ID { get; set; }
         public string Title { get; set; }
         public bool IsFile { get; set; }
-        public string FileLink { get; set; }
+        public List<string> FileLink { get; set; }
         public string BannerImage { get; set; }
         public string date { get; set; }
         public string Thumbnail { get; set; }

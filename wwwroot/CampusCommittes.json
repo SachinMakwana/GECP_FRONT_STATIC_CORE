@@ -1,4 +1,5 @@
 [
+  // Women Cell
   {
     "ID": 1,
     "Title": "Women Development Cell",
@@ -29,6 +30,7 @@
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/WomenCell/wcell.jpg",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"A woman with a voice is, by definition, <b>a strong woman.\"</b></h1>",
+    "BlogLink": "",
     "Members": [
       {
         "ID": 1,
@@ -56,7 +58,7 @@
       }
     ]
   },
-
+  //SSIP
   {
     "ID": 2,
     "Title": "Student Startup Innovation Program",
@@ -90,6 +92,7 @@
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/SSIP/ssipcell.jpg",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"> <b> \"</b> Innovate, Incubate, <b> Ignite!\"</b> </h1>",
+    "BlogLink": "",
     "Members": [
       {
         "ID": 1,
@@ -141,29 +144,39 @@
       }
     ]
   },
-
+  //NSS
   {
     "ID": 3,
     "Title": "National Service Scheme",
     "TitleImage": "../../images/nss_banner.jpg",
     "TitleImageCSSClass": "nss_title",
-    "About": "The National Service Scheme (NSS) is a Central Sector Scheme of Government of India, Ministry of Youth Affairs & Sports. It provides opportunity to the student youth of Technical Institution, Graduate & Post Graduate at colleges and University level of India to take part in various government led community service activities & programmes. The sole aim of the NSS is to provide hands on experience to young students in delivering community service.",
-    "Measures": "The programme aims to inculcate social welfare in students and to provide service to society without bias. NSS volunteers work to ensure that everyone who is needy gets help to enhance their standard of living and lead a life of dignity. In doing so, volunteers learn from people in villages how to lead a good life despite a scarcity of resources. it also provides help in natural and man-made disasters by providing food, clothing and first aid to the disaster victims.",
+    "About": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+    "Measures": "The NSS volunteer is expected to participate in projects prepared by the Programme Officer for community work. The aim of such projects is to bring the NSS volunteer face to face with the realities of life and needs & requirements of the community. Total 50 Volunteers working in NSS GEC PATAN Unit (25 Senior - 25 Junior Volunteer).",
     "Measure_Image": "~/images/nss.png",
     "Vision": [
-      "To build the youth with the mind and spirit to serve the society and work for the social uplift of the down-trodden masses of our nation as a movement."
+      "The vision is to build the youth with the mind and spirit to serve the society and work for the social uplift of the down-trodden masses of our nation as a movement."
     ],
     "Mission": [
-      "Inspire students in service of the people and hence aiming for education through community service and community service through education."
+      "The National Service Scheme has been functioning with the motto “NOT ME BUT YOU” in view of making the youth inspired in service of the people and hence NSS Aims Education through Community Service and Community Service through Education."
     ],
     "SubObjectives": [
-
+      "Understand the community in which they work",
+      "Understand themselves in relation to their community",
+      "Identify the needs and problems of the community and involve them in problem-solving",
+      "Develop among themselves a sense of social and civic responsibility",
+      "Utilize their knowledge in finding practical solutions to individual and community,problems",
+      "Develop competence required for group-living and sharing of responsibilities",
+      "Gain skills in mobilizing community participation",
+      "Acquire leadership qualities and democratic attitudes",
+      "Develop capacity to meet emergencies and natural disasters and",
+      "Practice national integration and social harmony."
     ],
-    "SubObjImg": "",
+    "SubObjImg": "~/images/CampusCommittee/NSS/subobj.jpg",
     "BulletPoints": [],
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/NSS/nsscell.jpg",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“The best way to find yourself is to loose yourself <b>in Service of others.” ...</b></h1>",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Not Me, <b>But You”</b></h1>",
+    "BlogLink": "http://nssgecpatan.blogspot.com/",
     "Members": [
       {
         "ID": 1,
@@ -195,7 +208,7 @@
       }
     ]
   },
-
+  //Anti Ragging
   {
     "ID": 4,
     "Title": "Anti Ragging",
@@ -218,6 +231,7 @@
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/AntiRagging/antiragging.jpg",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Ragging does not break the person or ice, it breaks <b>Career, Family and Lives.” ...</b></h1>",
+    "BlogLink": "",
     "Members": [
       {
         "ID": 1,
@@ -269,13 +283,20 @@
       },
       {
         "ID": 2,
+        "Name": "Prof. V. P. Soni",
+        "Position": "Member",
+        "Image": "~/images/Faculty/General/vps.jpg",
+        "Email": "vijay.soni@gecpatan.ac.in"
+      },
+      {
+        "ID": 3,
         "Name": "Prof. B. P. Patel",
         "Position": "Member",
         "Image": "~/images/Faculty/Computer/dummy.jpg",
         "Email": "bhavesh.patel@gecpatan.ac.in"
       },
       {
-        "ID": 3,
+        "ID": 4,
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Member",
         "Image": "~/images/Faculty/EC/roshni.jpg",
@@ -306,6 +327,7 @@
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/RTI/rti_flyer.jpg",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Fostering Trust Through <b>Transparency.”</b></h1>",
+    "BlogLink": "",
     "Members": [
       {
         "ID": 1,
@@ -345,7 +367,7 @@
       "Establish a robust mechanism for addressing the grievances of SC/ST students promptly and effectively.",
       "Offer psychological and emotional support to help students navigate academic and personal challenges.",
       "Disseminate information about government scholarships, fellowships, and career advancement programs.",
-      "Organize coaching sessions, workshops, and seminars to enhance competitive exam preparedness and employability.",
+      "Organize coaching sessions, workshops, and seminars to enhance competitive exam preparedness and employability."
       //"Ensure adherence to constitutional provisions and government policies for the welfare of SC/ST students.",
       //"Foster a sense of belonging and inclusivity through cultural and academic initiatives aimed at empowering marginalized students."
     ],
@@ -354,34 +376,43 @@
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/scst/flyer.jpg",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Equality, <b>Enabling Excellence.”</b></h1>",
+    "BlogLink": "",
     "Members": [
       {
         "ID": 1,
-        "Name": "Prof. A. B. Dhruv",
+        "Name": "Dr. B. J. Shah",
         "Position": "Chairman",
-        "Image": "~/images/Faculty/Mechanical/anand.jpg",
-        "Email": "anand.dhruv@gecpatan.ac.in"
+        "Image": "~/images/Department/Administrative/principal.jpg",
+        "Email": "principal@gecpatan.ac.in"
       },
       {
         "ID": 2,
-        "Name": "Prof. H. Y. Rathod",
+        "Name": "Dr. V. C. Makwana",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
-        "Email": "hiral.rathod@gecpatan.ac.in"
+        "Image": "~/images/Faculty/General/VCM.jpg",
+        "Email": "vijay.makwana@gecpatan.ac.in"
       },
       {
         "ID": 3,
-        "Name": "Prof. J. P. Patel",
+        "Name": "Prof. M. J. Vasava",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/jay.jpg",
-        "Email": "jay.patel@gecpatan.ac.in"
+        "Image": "~/images/Faculty/Computer/mehul.jpg",
+        //"Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Email": "mehul.vasava@gecpatan.ac.in"
       },
       {
         "ID": 4,
-        "Name": "Prof. D. U. Bavisa",
+        "Name": "Prof. M. M. Patel",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/Divyesh.jpg",
-        "Email": "divyesh.bavisa@gecpatan.ac.in"
+        "Image": "~/images/Faculty/EC/mihir.jpg",
+        "Email": "mihir.patel@gecpatan.ac.in"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Member",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
       }
     ]
   },
@@ -408,6 +439,7 @@
     "BulletPointsImg": "",
     "PageFlyer": "",
     "Tagline": "",
+    "BlogLink": "",
     "Members": [
       {
         "ID": 1,

@@ -2,9 +2,9 @@
   {
     "ID": 1,
     "Title": "Important Campus Committees",
-    "File": "~/ImpDocs/1 to 5 Grievance_anti_ragging_.pdf",
+    "File": "~/ImpDocs/1 to 5 Grievance_anti_ragging_DEC_2024.pdf",
     "isShow": true,
-    "UploadDate": ""
+    "UploadDate": "10/12/2024"
   },
   {
     "ID": 2,
@@ -26,5 +26,12 @@
     "File": "~/ImpDocs/EOA_Till_2024_25.pdf",
     "isShow": true,
     "UploadDate": ""
+  },
+  {
+    "ID": 5,
+    "Title": "GSIRF 2024 Details",
+    "File": "~/ImpDocs/Engineering Summary_2024.pdf",
+    "isShow": true,
+    "UploadDate": "10/12/2024"
   }
 ]

@@ -4,9 +4,8 @@
     ViewBag.Title = "NEWSDetail";
 }
 <style>
-        .fabig {
+    .fabig {
         font-size: 150px;
-
         margin: auto;
         display: block !important;
     }
@@ -70,12 +69,29 @@
                 <div class="clearfix"></div>
                 @if (Model.IsFile)
                 {
+                    int count = 1;
                     <div class="clearfix margin_top2"></div>
-                    <li class="minheight">
-                        <a href="javascript:void(0)" onclick="loadPdf('@Model.FileLink','@Model.Title')">
-                            <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
-                        </a>
-                    </li>
+                    <div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
+                        <ul>
+                            @foreach (var item in Model.FileLink)
+                            {
+                                <li class="minheight @(count%5==0?"last":"")">
+                                    <a href="javascript:void(0)" onclick="loadPdf('@item','@Model.Title')">
+                                        <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                                        @if (item.Split('/').Length - 1 >= 0)
+                                        {
+                                            @item.Split('/')[item.Split('/').Length - 1]
+                                        }
+                                        else
+                                        {
+                                            <text>document @count</text>
+                                        }
+                                    </a>
+                                </li>
+                                count++;
+                            }
+                        </ul>
+                    </div>
                 }
             </div>
         </div>
