@@ -7,41 +7,58 @@
 
 <div class="margin_top11"></div>
 <div class="featured_section71">
-    <div class="container">
-         
-        <div class="one_third">
-            
-            <img src="@Url.Content("~/"+Model.image)" alt="" />
-            
+  
+
+        <div class="margin_top2"></div>
+        <div class="featured_section30">
+        <div class="container">
+             <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="300">
+                  <div class="faculties_img_div" style="margin-bottom: 20px;">
+                       <img src="@Url.Content("~/" + Model.image)" alt="@Model.Name" />
+                            @if (Model.tabs != null)
+                            {
+                                 <a href="@Url.Action("FacultyInfo", "Faculty", new { id = Model.ID })" class="four faculty_info_link">
+                                 <i class="fas fa-external-link-square-alt"></i>
+                                 </a>
+                            }
+                  </div>
+            <div class="b-portfolio_info col-sm-6">
+                <div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
+                    <a href="#">@Model.Name</a>
+                </div>
+                <hr>
+                <div class="b-portfolio_info_description f-portfolio_info_description">
+                    <div class="b-information-box f-information-box f-primary-b">
+                        <ul>
+                            <li>
+                                <strong class="f-information-box__name b-information-box__name">Designation</strong>
+                                <i class="b-dotted f-dotted">:</i>
+                                <span class="f-information_data">@Model.Designation</span>
+                            </li>
+                            <li>
+                                <strong class="f-information-box__name b-information-box__name">Qualification</strong>
+                                <i class="b-dotted f-dotted">:</i>
+                                <span class="f-information_data">@Model.Qualification</span>
+                            </li>
+                            <li>
+                                <strong class="f-information-box__name b-information-box__name">Experience</strong>
+                                <i class="b-dotted f-dotted">:</i>
+                                <span class="f-information_data">@Model.YearsOfExperience</span>
+                            </li>
+                            <li>
+                                <strong class="f-information-box__name b-information-box__name">Area Of Interest</strong>
+                                <i class="b-dotted f-dotted">:</i>
+                                <span class="f-information_data">@Model.Area_of_Interest</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!-- end section -->
-
-        <div class="two_third last">
-
-            <h5 class="roboto">
-                <strong>
-                    @foreach (var item in Model.Area_of_Interest)
-                    {
-                        @Html.Raw(item)
-                    }
-                </strong>
-            </h5>
-            @*<p>
-                @foreach (var item in Model.personal_details)
-                {
-                    @Html.Raw(item)
-                }
-            </p>*@
-            <br /><br />
-
-
-
-        </div>
-        <!-- end section -->
-
     </div>
 </div>
+
+      
 <!-- end featured section 71 -->
 
 <div class="content_fullwidth">
@@ -79,4 +96,12 @@
 }
 @section styles{
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
+        <style>
+            .faculties_img_div img {
+                margin-right: 0px;
+                width: 100%;
+                margin-bottom: 20px;
+                border-radius: 15px;
+            }
+        </style>
 }
