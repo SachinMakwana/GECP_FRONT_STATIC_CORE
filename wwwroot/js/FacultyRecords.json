@@ -266,6 +266,7 @@
     "Name": "Mr. Mitul Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/Computer/mitul.jpg",
+    "Date_of_Joining": "2020-06-06",
     "Dept_ID": 2,
     "Qualification": "M.E.",
     "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
