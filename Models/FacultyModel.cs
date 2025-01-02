@@ -26,7 +26,21 @@ namespace GECP_Front_End_Static.Models
         public string Name { get; set; }
         public string Designation { get; set; }
         public string image { get; set; }
+        public DateTime Date_of_Joining { get; set; }
+        public string Qualification { get; set; }
+        public string Area_of_Interest { get; set; }
+
         public string personal_details { get; set; }
+        public int YearsOfExperience
+        {
+            get
+            {
+                var today = DateTime.Today;
+                int years = today.Year - Date_of_Joining.Year;
+                if (Date_of_Joining > today.AddYears(-years)) years--;
+                return years;
+            }
+        }
         public int Dept_ID { get; set; }
         public Tabs tabs { get; set; }
     }
