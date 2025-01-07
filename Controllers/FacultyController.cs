@@ -88,6 +88,8 @@ namespace GECP_Front_End_Static.Controllers
             var genData = FacultyData.Where(m => m.Dept_ID == 8).OrderBy(m => m.ID).ToList();
             return View(genData);
         }
+
+        [HttpGet]
         public IActionResult FacultyInfo(int ID)
         {
             FacultyDetailsVM data = FacultyData.FirstOrDefault(m => m.ID == ID);

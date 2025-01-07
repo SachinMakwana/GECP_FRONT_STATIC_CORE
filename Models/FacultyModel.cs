@@ -31,6 +31,8 @@ namespace GECP_Front_End_Static.Models
         public string Area_of_Interest { get; set; }
 
         public string personal_details { get; set; }
+
+        public string url { get; set; }
         public int YearsOfExperience
         {
             get

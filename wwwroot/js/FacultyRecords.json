@@ -30,6 +30,7 @@
     "ID": 108,
     "Name": "Mr.Maulikkumar Patel",
     "Designation": "Assistant Professor",
+    "url" :  "/faculty/FacultyInfo/108",
     "image": "images/Faculty/EC/dummy.jpg",
     "Dept_ID": 1,
     "Date_of_Joining": "2017-09-05",

@@ -20,7 +20,29 @@
     "HODMessage": "It is my pleasure and honour to welcome you to the Department of Electronics and Communication Engineering of Government Engineering College, Patan. Electronics & Communication Engineering is a constantly changing and widening branch of the engineering profession having applications in every discipline of engineering. The department is committed to teaching students basic concepts and the latest trends through a smart educational process. The Department has excellent lab facilities which are being upgraded from time to time and provide ample opportunities for the students to learn and innovate. Students are also taught critical thinking and problem-solving skills while confidently adapting to the future. In addition to classroom lessons, guide and motivate students to practice the principles learned in the classroom through experiments. I congratulate the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
     "HODName": "Prof. Sanjaykumar Joshi",
     "HOD_Pic": "~/images/Department/EC/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“It is not enough to wire the world if you ...<b>short-circuit the soul. .” ...</b></h1>"
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“It is not enough to wire the world if you ...<b>short-circuit the soul. .” ...</b></h1>",
+    "PEOs": " ",
+    "PSOs" : " ",
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      }
+    ]
   },
   {
     "ID": 2,
@@ -43,7 +65,29 @@
     "HODMessage": "Greetings! On behalf of the faculty members, staff, and students of the Department of Computer Science and Engineering of Government Engineering College Patan, I welcome you all to the creative world of CSE. Our primary objective of this programme is to develop Computer Engineers with knowledge of software and hardware, responsible for wide range of computer system design and development, built them as dedicated and competent professionals for challenging world of varying requirements of automation. During the course, students are able to mould their career, polish their technical skills and also inculcate team spirit with good oral and written communication. Students are supported technically and financially to participate in competitions, hackathons at state, national and international level platforms. Faculty members are encouraged to acquire higher degree and conduct investigation on research in the interest of the technical community. Faculty members are also supported to conduct workshops, symposium and conferences at national and international levels. They are motivated to adopt innovative teaching methodologies and best practices to make classroom a pursuit of learning. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
     "HODName": "Dr. Harikrishna Jethva",
     "HOD_Pic": "~/images/Department/Computer/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The computer was born to solve problems that <b>did not exist before...\"</b></h1>"
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The computer was born to solve problems that <b>did not exist before...\"</b></h1>",
+    "PEOs": "PEO1 Possess knowledge about core areas related to the field of Computer Engineering. PEO2 Acquire good analytical, design, development, implementation, and testing skills to formulate simple computing solutions to meet customer business objectives.PEO3 Provide requisite skills to pursue entrepreneurship, higher studies, and imbibe a high degree of professionalism in the fields of computing.PEO4 Embrace lifelong learning by introducing principles of public policies, professional environment, and societal context.",
+    "PSOs": "The ability to understand, analyze, design, and develop various computing solutions. The ability to decide career paths as an entrepreneur, competent professional, or pursue higher studies using engineering knowledge and modern programming skills. ",
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      }
+    ]
   },
   {
     "ID": 3,
@@ -62,7 +106,29 @@
     "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Department of Electrical Engineering at Government Engineering College Patan. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. Our primary objective to provide high quality graduate program in electrical engineering so that it prepares students for industry and managerial skills to be highly competent Electrical Engineers. Students are trained in a way that they inculcate research capabilities in different areas of Electrical Engineering to identify, comprehend and solve problems and adapt themselves in a world of constantly evolving technology. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
     "HODName": "Dr. Gunvantbhai Patel",
     "HOD_Pic": "~/images/Department/Electrical/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Have no fear ...<b>electrician is here. .” ...</b></h1>"
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Have no fear ...<b>electrician is here. .” ...</b></h1>",
+    "PEOs": " ",
+    "PSOs": " ",
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      }
+    ]
   },
   {
     "ID": 4,
@@ -81,7 +147,29 @@
     "HODMessage": "“Engineers are the creators of the new world”. We welcome you to be a part of this creative process. The Department of Civil Engineering of Government Engineering College Patan strives for excellence in teaching and learning and professional development. Our department is committed to provide students with a strong, broad based fundamental engineering education and prepare the students for a career in the industry, teaching and national laboratories. We promote innovative practices in the field of Civil Engineering and mentor students for innovative thinking with relevance to entrepreneurship. We also plan to develop entrepreneurial skills in students through summer internships so that they would drive the spirit of growth of our economy and would be able to generate employment opportunities for other qualified and skilled people. Our graduates are exceptionally well prepared for challenging careers, handling major projects and being on the fast track towards new heights in their careers. Come and join us now and build the Nation!",
     "HODName": "Prof. Vipul Patel",
     "HOD_Pic": "~/images/Department/Civil/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“The road to success is always under...<b>construction .” ...</b></h1>"
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“The road to success is always under...<b>construction .” ...</b></h1>",
+    "PEOs": " ",
+    "PSOs": " ",
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      }
+    ]
   },
   {
     "ID": 5,
@@ -104,7 +192,29 @@
     "HODMessage": "Welcome to the Department of Mechanical Engineering at Government Engineering College Patan. The primary focus of our curriculum is to impart technical know-how to students, promote their problem-solving skills and innovation of new technologies. In today’s fast-changing world with ever-growing challenges of limited resources and rapid climate changes, a new generation of Mechanical Engineers nurtured with necessary skills and innovative spirit is needed. Students are encouraged to undertake various research projects. The course contents are periodically updated for introducing new scientific and technological developments. Undergraduate students are encouraged to undertake various research projects and encouraged to spend time in neighbouring industry. Faculty members have excellent academic credentials and are highly regarded. We hope that whether you are a prospective undergraduate or graduate student, or work in the industry, or another university, or a visitor, you will find this website to be informative. Welcome to this world of machines.",
     "HODName": "Prof. Anand Dhruv",
     "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>"
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
+    "PEOs": " ",
+    "PSOs": " ",
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      }
+    ]
   },
   {
     "ID": 6,
@@ -123,7 +233,29 @@
     "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the General Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. The department focuses on the overall development of the student by teaching the subjects related to Mathematics, English, Physics. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
     "HODName": "Prof. VIJAY SONI",
     "HOD_Pic": "~/images/Department/General/HoD.png",
-    "Tagline": null
+    "Tagline": null,
+    "PEOs": " ",
+    "PSOs": " ",
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      }
+    ]
   },
   {
     "ID": 8, //Keept this as 8
@@ -142,6 +274,28 @@
     "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Applied Mechanics Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
     "HODName": "Prof. Paresh Nimodia",
     "HOD_Pic": "~/images/Department/General/HoD.png",
-    "Tagline": null
+    "Tagline": null,
+    "PEOs": " ",
+    "PSOs": " ",
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "",
+        "Lab_Name": "",
+        "Lab_Details": ""
+      }
+    ]
   }
 ]

@@ -146,6 +146,9 @@
     </div>
     <!-- end featured section 14 -->
 
+    <div class="clearfix"></div>
+
+
     <div class="featured_section3 two">
         <div class="container">
 
@@ -171,8 +174,8 @@
         <ul class="tabs3">
             <li><a href="#example-3-tab-1" target="_self">FACULTY</a></li>
             <li><a href="#example-3-tab-2" target="_self">LABS</a></li>
-            <li><a href="#example-3-tab-3" target="_self">FACILITIES</a></li>
-            <li><a href="#example-3-tab-4" target="_self">TIMETABLE</a></li>
+            <li><a href="#example-3-tab-3" target="_self">PEOs</a></li>
+            <li><a href="#example-3-tab-4" target="_self">PSOs</a></li>
         </ul>
 
         <div class="tabs-content3 two">
@@ -184,37 +187,37 @@
                 }
                 else if (Model.ID == 5) // Replace with the actual ID for "Mechanical"
                 {
-                    <div id="example-3-tab-2" class="tabs-panel3">
+                    <div id="example-3-tab-1" class="tabs-panel3">
                         <iframe src="/Faculty/Mechanical?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
                     </div>
                 }
                 else if (Model.ID == 4) // Replace with the actual ID for "Civil"
                 {
-                    <div id="example-3-tab-3" class="tabs-panel3">
+                    <div id="example-3-tab-1" class="tabs-panel3">
                         <iframe src="/Faculty/Civil?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
                     </div>
                 }
                 else if (Model.ID == 3) // Replace with the actual ID for "Electrical"
                 {
-                    <div id="example-3-tab-4" class="tabs-panel3">
+                    <div id="example-3-tab-1" class="tabs-panel3">
                         <iframe src="/Faculty/Electrical?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
                     </div>
                 }
                 else if (Model.ID == 1) // Replace with the actual ID for "Electrical"
                 {
-                    <div id="example-3-tab-4" class="tabs-panel3">
+                    <div id="example-3-tab-1" class="tabs-panel3">
                         <iframe src="/Faculty/Electronics?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
                     </div>  
                 }
                 else if (Model.ID == 6) // Replace with the actual ID for "Electrical"
                 {
-                    <div id="example-3-tab-4" class="tabs-panel3">
+                    <div id="example-3-tab-1" class="tabs-panel3">
                         <iframe src="/Faculty/General?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
                     </div>
                 }
                 else if (Model.ID == 8) // Replace with the actual ID for "Electrical"
                 {
-                    <div id="example-3-tab-4" class="tabs-panel3">
+                    <div id="example-3-tab-1" class="tabs-panel3">
                         <iframe src="/Faculty/Applied?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
                     </div>
                 }
@@ -227,24 +230,117 @@
         
 
             <div id="example-3-tab-2" class="tabs-panel3">
-                <iframe src="/Department/Labs?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
+                <style>
+                    .container {
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        padding: 20px;
+                    }
+
+                    .lab-section {
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        padding: 20px;
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 10px;
+                        margin-bottom: 10px;
+                        background: #fff;
+                        border-radius: 8px;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                    }
+
+                        .lab-section img {
+                            flex: 0 0 30%;
+                            max-width: 30%;
+                            border-radius: 8px;
+                            height: auto;
+                        }
+
+                        .lab-section .lab-content {
+                            flex: 0 0 70%;
+                            max-width: 70%;
+                        }
+
+                            .lab-section .lab-content h2 {
+                                margin-top: 0;
+                                font-size: 1.5em;
+                                color: #333;
+                            }
+
+                            .lab-section .lab-content p {
+                                font-size: 1em;
+                                color: #555;
+                                text-align: justify;
+                            }
+
+                            .lab-section .lab-content ul {
+                                margin: 10px 0;
+                                padding-left: 20px;
+                                list-style-type: disc;
+                            }
+
+                                .lab-section .lab-content ul li {
+                                    margin-bottom: 8px;
+                                }
+                </style>
+
+                
+                    <h1>@Model.Title Engineering Laboratories</h1>
+
+                    @foreach (var lab in Model.Labs) // Assuming Model.Labs is the list of labs
+                    {
+                        <div class="lab-section">
+                            <img src="@lab.Lab_Image" alt="@lab.Lab_Name" />
+                            <div class="lab-content">
+                                <h2>@lab.Lab_Name</h2>
+                                <p>@lab.Lab_Details</p>
+                            </div>
+                        </div>
+                    }
             </div>
 
-            <div id="example-3-tab-3" class="tabs-panel3">
-                <img src="images\site-img40.jpg" alt="" class="img_left2">
-                <p>Content for Facilities tab.</p>
+                
+
+            <div id="example-3-tab-3" class="tabs-panel3" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
+                <!-- Image Section -->
+                <div style="flex: 0 0 40%; max-width: 40%;">
+                    <img src="~/images/Department/PEOs.png" alt="PEOs Image" style="width: 100%; height: auto; border-radius: 5px;">
+                </div>
+
+                <!-- Content Section -->
+                <div style="flex: 0 0 60%; max-width: 60%;">
+                    <span style="font-weight: 700; text-decoration: underline; font-size: 1.2em; color: #333;">
+                        PROGRAM EDUCATIONAL OBJECTIVES (PEOs)
+                        <br>
+                    </span>
+                    <p style="margin: 10px 0; font-size: 14px; line-height: 1.8; color: #555; text-align: justify;">
+                        Graduates of @Model.Title will:
+                    </p>
+                    <p style="margin: 10px 0; padding-left: 20px; font-size: 16px; line-height: 1.8; color: #555;">
+                        @Model.PEOs
+                    </p>
+                    
+                </div>
             </div>
+
 
             <div id="example-3-tab-4" class="tabs-panel3">
                 <img src="images\site-img50.jpg" alt="" class="rimg">
-                <p>Content for Timetable tab.</p>
+                <span style="font-weight: 700; text-decoration: underline;">
+                    PROGRAM SPECIFIC OUTCOMES (PSOs)
+                </span>
+                <p style="margin: 10px 0; padding-left: 20px; font-size: 16px; line-height: 1.8; color: #555;">
+                    @Model.PSOs
+                </p>
             </div>
+
         </div>
    </div>
         <!-- end all tabs -->
 
     <!-- end featured section 3 -->
-    @if (Model.FacultyList.Count() > 0)
+    @*if (Model.FacultyList.Count() > 0)
     {
         <div class="margin_top4"></div>
         <div id="slider-outline">
@@ -288,7 +384,7 @@
                 @Html.Raw(Model.Tagline)
             </div>
         </div>
-    }
+    }*@
     @section scripts {
 
         @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
@@ -415,6 +511,59 @@
         });
 
         </script>
+        <script>
+            function loadFacultyinfo(url, Name) {
+                if (path !== '') {
+                    path = path.replace("~", "");
+                    if (PDFObject.supportsPDFs) {
+                        PDFObject.embed(path, "#pdfreader");
+                        $("#newsname").text(name);
+                        $("#lnkPopup").click();
+                    } else {
+                        window.location.href = path;
+                    }
+                }
+            }
+        </script>
+
+
+        <script>
+            function popupOpenClose(popup) {
+
+            /* Add div inside popup for layout if one doesn't exist */
+                if ($(".wrapper", popup).length == 0) {
+                    $(popup).wrapInner("<div class='wrapper'></div>");
+                }
+
+            /* Open popup */
+                $(popup).show();
+
+            /* Close popup if user clicks on background */
+                $(popup).click(function (e) {
+                    if (e.target == this) {
+                        if ($(popup).is(':visible')) {
+                            $(popup).hide();
+                        }
+                    }
+                });
+
+            /* Close popup and remove errors if user clicks on cancel or close buttons */
+                $(popup).find(".popup-btn-close").on("click", function () {
+                    if ($(".formElementError").is(':visible')) {
+                        $(".formElementError").remove();
+                    }
+                    $(popup).hide();
+                });
+            }
+
+            $(document).ready(function () {
+                $(".popup-trigger").on("click", function () {
+                    var target = $(this).data('target');
+                    popupOpenClose($(target));
+                });
+            });
+        </script>
+
         
 
 
