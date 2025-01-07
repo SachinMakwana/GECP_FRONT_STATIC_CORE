@@ -6,74 +6,72 @@
 }
 
 
-    <div class="container">
-        <!-- Navigation Menu -->
-        <div class="menu_main_full2">
-            <div class="navbar yamm navbar-default">
-                <div class="navbar-header">
-                    <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1">
-                        <span>Menu</span>
-                        <button type="button"> <i class="fa fa-bars"></i></button>
-                    </div>
+<div class="container">
+    <!-- Navigation Menu -->
+    <div class="menu_main_full2">
+        <div class="navbar yamm navbar-default">
+            <div class="navbar-header">
+                <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span>Menu</span>
+                    <button type="button"> <i class="fa fa-bars"></i></button>
                 </div>
+            </div>
 
-                <div id="navbar-collapse-1" class="navbar-collapse collapse">
-                    <nav>
-                        <ul class="nav navbar-nav">
-                            @foreach (var item in Model.Where(m => m.isVisible).OrderBy(m => m.position))
+            <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                <nav>
+                    <ul class="nav navbar-nav">
+                        @foreach (var item in Model.Where(m => m.isVisible).OrderBy(m => m.position))
+                        {
+                            if (item.ChildMenuVMs.Where(m => m.isVisible).Count() > 0)
                             {
-                                if (item.ChildMenuVMs.Where(m => m.isVisible).Count() > 0)
-                                {
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle ">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle ">
+                                        @item.MenuText
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        @foreach (var childItem in item.ChildMenuVMs.Where(m => m.isVisible).OrderBy(m => m.position))
+                                        {
+                                            @if (childItem.dynamicID != null)
+                                            {
+                                                <li class="">
+                                                    <a href="@Url.Action(childItem.ActionName, childItem.ControllerName, new { id = childItem.dynamicID })">
+                                                        @childItem.MenuText
+                                                    </a>
+                                                </li>
+                                            }
+                                            else
+                                            {
+                                                <li class="">
+                                                    <a href="@Url.Action(childItem.ActionName, childItem.ControllerName)">
+                                                        @childItem.MenuText
+                                                    </a>
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="dropdown yamm-fw">
+                                    @if (string.IsNullOrWhiteSpace(item.ActionName))
+                                    {
+                                        <a href="javascript:void(0)" class="">
                                             @item.MenuText
                                         </a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            @foreach (var childItem in item.ChildMenuVMs.Where(m => m.isVisible).OrderBy(m => m.position))
-                                            {
-                                                @if (childItem.dynamicID != null)
-                                                {
-                                                    <li class="">
-                                                        <a href="@Url.Action(childItem.ActionName, childItem.ControllerName, new { id = childItem.dynamicID })">
-                                                            @childItem.MenuText
-                                                        </a>
-                                                    </li>
-                                                }
-                                                else
-                                                {
-                                                    <li class="">
-                                                        <a href="@Url.Action(childItem.ActionName, childItem.ControllerName)">
-                                                            @childItem.MenuText
-                                                        </a>
-                                                    </li>
-                                                }
-                                            }
-                                        </ul>
-                                    </li>
-                                }
-                                else
-                                {
-                                    <li class="dropdown yamm-fw">
-                                        @if (string.IsNullOrWhiteSpace(item.ActionName))
-                                        {
-                                            <a href="javascript:void(0)" class="">
-                                                @item.MenuText
-                                            </a>
-                                        }
-                                        else
-                                        {
-                                            <a href="@Url.Action(item.ActionName, item.ControllerName)" class="dropdown-toggle ">
-                                                @item.MenuText
-                                            </a>
-                                        }
-                                    </li>
-                                }
+                                    }
+                                    else
+                                    {
+                                        <a href="@Url.Action(item.ActionName, item.ControllerName)" class="dropdown-toggle ">
+                                            @item.MenuText
+                                        </a>
+                                    }
+                                </li>
                             }
-                        </ul>
-                    </nav>
-                </div>
+                        }
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
-
-
+</div>
