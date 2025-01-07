@@ -39,6 +39,11 @@ namespace GECP_Front_End_Static.Controllers
             data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
             return View(data);
         }
+
+        public IActionResult Labs()
+        {
+            return View();
+        }
         public IActionResult EC()
         {
             var ecData = FacultyData.Where(m => m.Dept_ID == 1).OrderBy(m => m.ID).ToList();

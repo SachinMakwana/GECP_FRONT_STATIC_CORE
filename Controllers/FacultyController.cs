@@ -26,6 +26,13 @@ namespace GECP_Front_End_Static.Controllers
             string json = webClient.DownloadString(jsonpath);
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
         }
+
+        public IActionResult Facultyview()
+        {
+
+            var viewdata = FacultyData.Where(m => m.Dept_ID == 2).OrderBy(m => m.ID).ToList();
+            return View(viewdata);
+        }
         public IActionResult Electronics()
         {
 
@@ -35,9 +42,16 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Computer()
         {
-            var compData = FacultyData.Where(m => m.Dept_ID == 2).OrderBy(m => m.ID).ToList();
-            return View(compData);
+            // Fetch the faculty details (replace this with your data fetching logic)
+            var facultyDetails = FacultyData.Where(m => m.Dept_ID == 2).OrderBy(m => m.ID).ToList();
+
+            // Return the view with the model
+            return View(facultyDetails);
         }
+
+
+
+
 
         public IActionResult Electrical()
         {
@@ -74,10 +88,14 @@ namespace GECP_Front_End_Static.Controllers
             var genData = FacultyData.Where(m => m.Dept_ID == 8).OrderBy(m => m.ID).ToList();
             return View(genData);
         }
-        public IActionResult FacultyInfo(int ID = 0)
+        public IActionResult FacultyInfo(int ID)
         {
-            FacultyDetailsVM data = FacultyData.Where(m => m.ID == ID).FirstOrDefault();
-            return View(data);
+            FacultyDetailsVM data = FacultyData.FirstOrDefault(m => m.ID == ID);
+            if (data == null)
+            {
+                return NotFound();
+            }
+            return PartialView("FacultyInfo", data);
         }
     }
 }

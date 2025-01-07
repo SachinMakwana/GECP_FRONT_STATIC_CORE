@@ -1,6 +1,7 @@
 ﻿@model GECP_Front_End_Static.Models.FacultyDetailsVM
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+    Layout = Context.Request.Query["isPartial"] == "true" ? "~/Views/Shared/_MinimalLayout.cshtml" : "~/Views/Shared/_Layout.cshtml";
     int head = 0;
     int value = 0;
 }
@@ -11,7 +12,7 @@
 
         <div class="one_third">
 
-            <img src="@Url.Content("~/"+Model.image)" alt="" />
+            <img src="@Url.Content("~/"+Model.image)" alt="image" />
 
         </div>
 

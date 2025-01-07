@@ -9131,16 +9131,16 @@ ul.footer_social_links5 {
     padding: 80px 0px 75px 0px;
     background: #f3f3f3;
     text-align: center;
-    color: #999;
+    color: #eee;
 }
 
 .footer4 a {
-    color: #999;
+    color: #eee;
     transition: all 0.3s ease;
 }
 
 .footer4 a:hover {
-    color: #393939;
+    color: #50c9d4;
 }
 
 .footer4 .fmlinks {
@@ -9148,14 +9148,14 @@ ul.footer_social_links5 {
 }
 
 .footer4 .fmlinks a {
-    color: #393939;
-    text-transform: uppercase;
-    margin: 0px 14px;
-    transition: all 0.3s ease;
+        color: #feebeb;
+        text-transform: uppercase;
+        margin: 0px 14px;
+        transition: all 0.3s ease;
 }
 
 .footer4 .fmlinks a:hover {
-    color: #999;
+    color: #50c9d4;
 }
 
 

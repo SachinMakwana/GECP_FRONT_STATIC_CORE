@@ -1,6 +1,6 @@
 ﻿@model IList<GECP_Front_End_Static.Models.FacultyDetailsVM>
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = Context.Request.Query["isPartial"] == "true" ? "~/Views/Shared/_MinimalLayout.cshtml" : "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Electronics and Communications";
 }
 
@@ -23,7 +23,7 @@
         {
             <div class="one_half @((Model.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
                 <div class="faculties_img_div" style="margin-bottom: 20px; ">
-                    <img src="@Url.Content("~/" + data.image)" alt="@data.Name"/>
+                    <img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
                     @if (data.tabs != null)
                     {
                         <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link">
