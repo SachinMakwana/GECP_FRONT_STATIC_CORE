@@ -46,7 +46,7 @@
                 <h3 class="nmb"><strong>@Model.Title</strong></h3>
             </div>
 
-            <p>
+            <p class="text-justify">
                 @Model.About
             </p>
 
@@ -432,6 +432,16 @@
                     width: 100%;
                     margin-bottom: 20px;
                     border-radius: 15px;
+                }
+                #pdfreader{
+                    max-height:600px;
+                    overflow-y:scroll;
+                    scrollbar-width:thin;
+                }
+                #FacultyInfo{
+                      max-height:600px;
+                    overflow-y:scroll;
+                    scrollbar-width:thin;
                 }
             </style>
             <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
