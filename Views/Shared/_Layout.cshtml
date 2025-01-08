@@ -74,10 +74,6 @@
     <link href="@Url.Content("~/js/carouselowl/owl.carousel.css")" rel="stylesheet">
 
     <!-- tabs 2 -->
-    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
-    <link rel="stylesheet" type="text/css" href="js\tabs\assets\css\responsive-tabs.css">
-    <link rel="stylesheet" type="text/css" href="js\tabs\assets\css\responsive-tabs2.css">
-    <link rel="stylesheet" type="text/css" href="js\tabs\assets\css\responsive-tabs3.css">
     <link href="@Url.Content("~/js/tabs2/tabacc.css")" rel="stylesheet" />
     <link href="@Url.Content("~/js/tabs2/detached2.css")" rel="stylesheet" />
     
@@ -118,7 +114,6 @@
     <script>
         $("#menuload").load("@Url.Action("Menu","Home")");
         $('#topHeader').load("@Url.Action("TopMenu", "Home")");
-        $('#popupContent').load("@Url.Action("FacultyInfo", "Faculty")");
         // $(document).ready(function () {
         //     // Example dynamic data
         //     var currentController = "@Context.Request.RouteValues["controller"]";
@@ -149,8 +144,6 @@
     <script src="@Url.Content("~/js/carouselowl/owl.carousel.js")"></script>
     @RenderSection("scripts", required: false)
     <script type="text/javascript" src="@Url.Content("~/js/universal/custom.js")"></script>
-    <script src="js\tabs\assets\js\responsive-tabs.min.js" type="text/javascript"></script>
-
 
 </body>
 

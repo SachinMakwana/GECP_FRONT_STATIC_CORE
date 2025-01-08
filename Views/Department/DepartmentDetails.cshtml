@@ -168,124 +168,73 @@
 
     <div class="clearfix"></div>
 
-    <div class="content_fullwidth"></div>
+   
         <div class="container">
 
         <ul class="tabs3">
-            <li><a href="#example-3-tab-1" target="_self">FACULTY</a></li>
+            <li><a href="#FacultyInfo" target="_self">FACULTY</a></li>
             <li><a href="#example-3-tab-2" target="_self">LABS</a></li>
             <li><a href="#example-3-tab-3" target="_self">PEOs</a></li>
             <li><a href="#example-3-tab-4" target="_self">PSOs</a></li>
         </ul>
 
         <div class="tabs-content3 two">
-                @if (Model.ID == 2) // Replace with the actual ID for "Computer"
-                {
-                    <div id="example-3-tab-1" class="tabs-panel3">
-                        <iframe src="/Faculty/Computer?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
+             <div id="FacultyInfo" class="tabs-panel3">
+                 @foreach (var data in Model.FacultyList)
+                 {
+                     <div class="one_half @((Model.FacultyList.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
+                         <div class="faculties_img_div" >
+                             <img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
+                                @if (data.tabs != null)
+                                {
+                                    <a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyInfo", "faculty", new { id = data.ID })')" class="four faculty_info_link">
+                                        <i class="fas fa-external-link-square-alt"></i>
+                                    </a>
+                                }
+                        </div>
+                    <div class="b-portfolio_info col-sm-6">
+                        <div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
+                            <a href="#">@data.Name</a>
+                        </div>
+                        <hr>
+                        <div class="b-portfolio_info_description f-portfolio_info_description">
+                            <div class="b-information-box f-information-box f-primary-b">
+                                <ul>
+                                    <li>
+                                        <strong class="f-information-box__name b-information-box__name">Designation</strong>
+                                        <i class="b-dotted f-dotted">:</i>
+                                        <span class="f-information_data">@data.Designation</span>
+                                    </li>
+                                    <li>
+                                        <strong class="f-information-box__name b-information-box__name">Qualification</strong>
+                                        <i class="b-dotted f-dotted">:</i>
+                                        <span class="f-information_data">@data.Qualification</span>
+                                    </li>
+                                    <li>
+                                        <strong class="f-information-box__name b-information-box__name">Experience</strong>
+                                        <i class="b-dotted f-dotted">:</i>
+                                        <span class="f-information_data">@data.YearsOfExperience Years</span>
+                                    </li>
+                                    <li>
+                                        <strong class="f-information-box__name b-information-box__name">Area Of Interest</strong>
+                                        <i class="b-dotted f-dotted">:</i>
+                                        <span class="f-information_data">@data.Area_of_Interest</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                }
-                else if (Model.ID == 5) // Replace with the actual ID for "Mechanical"
-                {
-                    <div id="example-3-tab-1" class="tabs-panel3">
-                        <iframe src="/Faculty/Mechanical?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
+            </div>
+            @if ((Model.FacultyList.IndexOf(data) + 1) % 2 == 0)
+            {
+                <div class="clearfix margin_top5"></div>
+            }
+        }
                     </div>
-                }
-                else if (Model.ID == 4) // Replace with the actual ID for "Civil"
-                {
-                    <div id="example-3-tab-1" class="tabs-panel3">
-                        <iframe src="/Faculty/Civil?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
-                    </div>
-                }
-                else if (Model.ID == 3) // Replace with the actual ID for "Electrical"
-                {
-                    <div id="example-3-tab-1" class="tabs-panel3">
-                        <iframe src="/Faculty/Electrical?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
-                    </div>
-                }
-                else if (Model.ID == 1) // Replace with the actual ID for "Electrical"
-                {
-                    <div id="example-3-tab-1" class="tabs-panel3">
-                        <iframe src="/Faculty/Electronics?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
-                    </div>  
-                }
-                else if (Model.ID == 6) // Replace with the actual ID for "Electrical"
-                {
-                    <div id="example-3-tab-1" class="tabs-panel3">
-                        <iframe src="/Faculty/General?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
-                    </div>
-                }
-                else if (Model.ID == 8) // Replace with the actual ID for "Electrical"
-                {
-                    <div id="example-3-tab-1" class="tabs-panel3">
-                        <iframe src="/Faculty/Applied?isPartial=true" frameborder="0" width="100%" height="600px"></iframe>
-                    </div>
-                }
-                else
-                {
-                    <div id="example-3-tab-default" class="tabs-panel3">
-                        <p>No data available for this department.</p>
-                    </div>
-                }
+                
         
 
             <div id="example-3-tab-2" class="tabs-panel3">
-                <style>
-                    .container {
-                        max-width: 1200px;
-                        margin: 0 auto;
-                        padding: 20px;
-                    }
-
-                    .lab-section {
-                        max-width: 1200px;
-                        margin: 0 auto;
-                        padding: 20px;
-                        display: flex;
-                        align-items: flex-start;
-                        gap: 10px;
-                        margin-bottom: 10px;
-                        background: #fff;
-                        border-radius: 8px;
-                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                    }
-
-                        .lab-section img {
-                            flex: 0 0 30%;
-                            max-width: 30%;
-                            border-radius: 8px;
-                            height: auto;
-                        }
-
-                        .lab-section .lab-content {
-                            flex: 0 0 70%;
-                            max-width: 70%;
-                        }
-
-                            .lab-section .lab-content h2 {
-                                margin-top: 0;
-                                font-size: 1.5em;
-                                color: #333;
-                            }
-
-                            .lab-section .lab-content p {
-                                font-size: 1em;
-                                color: #555;
-                                text-align: justify;
-                            }
-
-                            .lab-section .lab-content ul {
-                                margin: 10px 0;
-                                padding-left: 20px;
-                                list-style-type: disc;
-                            }
-
-                                .lab-section .lab-content ul li {
-                                    margin-bottom: 8px;
-                                }
-                </style>
-
-                
                     <h1>@Model.Title Engineering Laboratories</h1>
 
                     @foreach (var lab in Model.Labs) // Assuming Model.Labs is the list of labs
@@ -303,25 +252,7 @@
                 
 
             <div id="example-3-tab-3" class="tabs-panel3" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-                <!-- Image Section -->
-                <div style="flex: 0 0 40%; max-width: 40%;">
-                    <img src="~/images/Department/PEOs.png" alt="PEOs Image" style="width: 100%; height: auto; border-radius: 5px;">
-                </div>
-
-                <!-- Content Section -->
-                <div style="flex: 0 0 60%; max-width: 60%;">
-                    <span style="font-weight: 700; text-decoration: underline; font-size: 1.2em; color: #333;">
-                        PROGRAM EDUCATIONAL OBJECTIVES (PEOs)
-                        <br>
-                    </span>
-                    <p style="margin: 10px 0; font-size: 14px; line-height: 1.8; color: #555; text-align: justify;">
-                        Graduates of @Model.Title will:
-                    </p>
-                    <p style="margin: 10px 0; padding-left: 20px; font-size: 16px; line-height: 1.8; color: #555;">
-                        @Model.PEOs
-                    </p>
-                    
-                </div>
+                
             </div>
 
 
@@ -337,54 +268,19 @@
 
         </div>
    </div>
-        <!-- end all tabs -->
-
-    <!-- end featured section 3 -->
-    @*if (Model.FacultyList.Count() > 0)
-    {
-        <div class="margin_top4"></div>
-        <div id="slider-outline">
-
-            <div id="slider">
-
-                <div id="sl-view" class="clearfix">
-
-                    <div id="sl-wrap">
-
-                        @foreach (var faculty in Model.FacultyList)
-                        {
-                            <div class="sl-div two">
-
-                                <div class="cirpimg"><img src="@Url.Content("~/"+faculty.image)" alt="" class="dept_faculty_pic"></div>
-                                <h4 class="roboto">@faculty.Name<em></em></h4>
-                                <h4 class="roboto">@faculty.Designation<em></em></h4>
-                            </div>
-                        }
-                    </div>
-
-                </div>
-
-                <div id="sl-next"><span>&raquo;</span></div>
-                <div id="sl-prev"><span>&laquo;</span></div>
-
-            </div>
-
-        </div>
-        <!-- end slider section -->
-    }
-
-
-    @if (!string.IsNullOrWhiteSpace(Model.Tagline))
-    {
-
-        <div class="clearfix margin_top2"></div>
-
+   <div class="clearfix margin_top2"></div>
         <div class="featured_section38">
             <div class="container">
-                @Html.Raw(Model.Tagline)
+               @Html.Raw(Model.Tagline)
             </div>
         </div>
-    }*@
+
+   <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+<div id="popup" class="popup">
+    <div id="pdfreader" style="height:600px">
+    </div>
+    <span class="popup-btn-close">&times;</span>
+</div>
     @section scripts {
 
         @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
@@ -484,48 +380,13 @@
             })(jQuery);
         </script>
         <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Get all tabs and content panels
-            const tabs = document.querySelectorAll(".tabs3 li a");
-            const panels = document.querySelectorAll(".tabs-panel3");
-
-            // Add click event listener to each tab
-            tabs.forEach((tab) => {
-                tab.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
-
-                    // Remove "active" class from all tabs and panels
-                    tabs.forEach((t) => t.parentNode.classList.remove("active"));
-                    panels.forEach((panel) => panel.classList.remove("active"));
-
-                    // Add "active" class to the clicked tab and its corresponding panel
-                    const targetId = tab.getAttribute("href").substring(1);
-                    tab.parentNode.classList.add("active");
-                    document.getElementById(targetId).classList.add("active");
-                });
-            });
-
-            // Activate the first tab by default
-            tabs[0].parentNode.classList.add("active");
-            panels[0].classList.add("active");
-        });
-
-        </script>
-        <script>
-            function loadFacultyinfo(url, Name) {
-                if (path !== '') {
-                    path = path.replace("~", "");
-                    if (PDFObject.supportsPDFs) {
-                        PDFObject.embed(path, "#pdfreader");
-                        $("#newsname").text(name);
+            function loadFacultyinfo(url) {
+                if (url !== '') {
+                        $("#pdfreader").load(url);
                         $("#lnkPopup").click();
-                    } else {
-                        window.location.href = path;
-                    }
                 }
             }
         </script>
-
 
         <script>
             function popupOpenClose(popup) {
@@ -534,10 +395,8 @@
                 if ($(".wrapper", popup).length == 0) {
                     $(popup).wrapInner("<div class='wrapper'></div>");
                 }
-
             /* Open popup */
                 $(popup).show();
-
             /* Close popup if user clicks on background */
                 $(popup).click(function (e) {
                     if (e.target == this) {
@@ -546,7 +405,6 @@
                         }
                     }
                 });
-
             /* Close popup and remove errors if user clicks on cancel or close buttons */
                 $(popup).find(".popup-btn-close").on("click", function () {
                     if ($(".formElementError").is(':visible')) {
@@ -564,16 +422,10 @@
             });
         </script>
 
-        
-
-
     }
 
     @section styles {
             <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
-            <link rel="stylesheet" type="text/css" href="js\tabs\assets\css\responsive-tabs.css">
-            <link rel="stylesheet" type="text/css" href="js\tabs\assets\css\responsive-tabs2.css">
-            <link rel="stylesheet" type="text/css" href="js\tabs\assets\css\responsive-tabs3.css">
             <style>
                 .faculties_img_div img {
                     margin-right: 0px;
@@ -582,17 +434,8 @@
                     border-radius: 15px;
                 }
             </style>
-            <style>
-                .tabs-panel3 {
-                    display: none;
-                }
-
-
-                .tabs-panel3.active {
-                    display: block; /* Show only the active tab's content */
-                }
-            </style>
             <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
+              <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
     }
 
         
