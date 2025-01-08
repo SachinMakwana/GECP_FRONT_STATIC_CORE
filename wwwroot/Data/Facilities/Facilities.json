@@ -1,0 +1,121 @@
+﻿[
+  {
+    "ID": 1,
+    "Title": "Hostel",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "About": "The institute provides excellent accommodation to its students. The students are provided with all the amenities so that their stay here becomes a worthwhile experience. Entertainment facilities like TV room, badminton room, gymnasium are also available in hostel.",
+    "SideImage": "../../images/gallary/1112.jpg",
+    "BlogLink": "http://nssgecpatan.blogspot.com/",
+    "Factors": [
+      {
+        "Name": "Girls Hostel",
+        "Rooms": "40",
+        "Capacity": "120",
+        "Mess": "1",
+        "Hall": "1"
+      },
+      {
+        "Name": "Boys Hostel",
+        "Rooms": "40",
+        "Capacity": "120",
+        "Mess": "1",
+        "Hall": "1"
+      }
+    ],
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      },
+      {
+        "ID": 2,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      },
+      {
+        "ID": 3,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      },
+      {
+        "ID": 4,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      }
+
+    ]
+  },
+  {
+    "ID": 2,
+    "Title": "Student Club",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
+    "BlogLink": "",
+    "Factors": [],
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "Title": "Student Section",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
+    "BlogLink": "",
+    "Factors": [],
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      }
+
+    ]
+  },
+  {
+    "ID": 4,
+    "Title": "Gymkhana",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
+    "BlogLink": "",
+    "Factors": [],
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Coordinator",
+        "Department": "Electronics & Communication Engineering Department",
+        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      }
+
+    ]
+  }
+]

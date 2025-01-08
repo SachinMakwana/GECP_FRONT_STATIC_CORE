@@ -374,14 +374,14 @@
         "ControllerName": "Facilities",
         "ActionName": "Canteen",
         "position": 2,
-        "isVisible": true,
+        "isVisible": false,
         "ChildMenuVMs": []
       },
       {
         "ID": 53,
         "MenuText": "Hostel",
         "ParentID": 5,
-        "dynamicID": null,
+        "dynamicID": 1,
         "ControllerName": "Facilities",
         "ActionName": "Hostel",
         "position": 3,
@@ -392,22 +392,22 @@
         "ID": 54,
         "MenuText": "Gymkhana",
         "ParentID": 5,
-        "dynamicID": null,
+        "dynamicID": 4,
         "ControllerName": "Facilities",
-        "ActionName": "Gymkhana",
+        "ActionName": "FacilityPage",
         "position": 4,
-        "isVisible": true,
+        "isVisible": false,
         "ChildMenuVMs": []
       },
       {
         "ID": 55,
         "MenuText": "Student Section",
         "ParentID": 5,
-        "dynamicID": null,
+        "dynamicID": 3,
         "ControllerName": "Facilities",
-        "ActionName": "StudentSection",
+        "ActionName": "FacilityPage",
         "position": 5,
-        "isVisible": true,
+        "isVisible": false,
         "ChildMenuVMs": []
       },
       {
@@ -429,14 +429,14 @@
         "ControllerName": "Facilities",
         "ActionName": "FeesPayment",
         "position": 7,
-        "isVisible": true,
+        "isVisible": false,
         "ChildMenuVMs": []
       },
       {
         "ID": 58,
         "MenuText": "Student Club",
         "ParentID": 5,
-        "dynamicID": null,
+        "dynamicID":2,
         "ControllerName": "Facilities",
         "ActionName": "StudentClub",
         "position": 8,
@@ -462,7 +462,7 @@
         "ControllerName": "Facilities",
         "ActionName": "Auditorium",
         "position": 10,
-        "isVisible": true,
+        "isVisible": false,
         "ChildMenuVMs": []
       }
 
