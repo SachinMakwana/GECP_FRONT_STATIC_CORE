@@ -423,13 +423,13 @@
       },
       {
         "ID": 57,
-        "MenuText": "Fees Payment",
+        "MenuText": "Medical Facility",
         "ParentID": 5,
         "dynamicID": null,
         "ControllerName": "Facilities",
-        "ActionName": "FeesPayment",
+        "ActionName": "MedicalFacility",
         "position": 7,
-        "isVisible": false,
+        "isVisible": true,
         "ChildMenuVMs": []
       },
       {
@@ -456,13 +456,13 @@
       },
       {
         "ID": 50,
-        "MenuText": "Auditorium",
+        "MenuText": "Transportation",
         "ParentID": 5,
         "dynamicID": null,
         "ControllerName": "Facilities",
-        "ActionName": "Auditorium",
+        "ActionName": "Transportation",
         "position": 10,
-        "isVisible": false,
+        "isVisible": true,
         "ChildMenuVMs": []
       }
 

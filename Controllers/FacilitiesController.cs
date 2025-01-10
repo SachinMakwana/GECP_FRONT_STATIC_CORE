@@ -53,7 +53,7 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View();
         }
-        public IActionResult FeesPayment()
+        public IActionResult MedicalFacility()
         {
             return View();
         }
@@ -65,7 +65,7 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View();
         }
-        public IActionResult Auditorium()
+        public IActionResult Transportation()
         {
             return View();
         }
