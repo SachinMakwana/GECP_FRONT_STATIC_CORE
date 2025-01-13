@@ -1,0 +1,82 @@
+﻿[
+ 
+    {
+      "ID": 1,
+      "Title": "Student Club",
+      "Titleimage": "../../images/ssip_banner.jpg",
+      "TitleImageCSSClass": "ssip_title",
+      "Clubs": [
+        {
+          "ID": 1,
+          "Image": "../../images/icon-img17.png",
+          "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+          "Title" : "Google Developer Club" 
+        },
+        {
+          "ID": 2,
+          "Image": "../../images/icon-img17.png",
+          "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+          "Title": "Google Developer Club"
+        },
+        {
+          "ID": 3,
+          "Image": "../../images/icon-img17.png",
+          "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+          "Title": "Google Developer Club"
+        },
+        {
+          "ID": 4,
+          "Image": "../../images/icon-img17.png",
+          "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+          "Title": "Google Developer Club"
+        },
+        {
+          "ID": 5,
+          "Image": "../../images/icon-img17.png",
+          "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+          "Title": "Google Developer Club"
+        }
+      ]
+      
+        
+
+  },
+  {
+    "ID": 2,
+    "Title": "Central Facility",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "Clubs": [
+      {
+        "ID": 1,
+        "Image": "../../images/icon-img17.png",
+        "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+        "Title": "Google Developer Club"
+      },
+      {
+        "ID": 2,
+        "Image": "../../images/icon-img17.png",
+        "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+        "Title": "Google Developer Club"
+      },
+      {
+        "ID": 3,
+        "Image": "../../images/icon-img17.png",
+        "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+        "Title": "Google Developer Club"
+      },
+      {
+        "ID": 4,
+        "Image": "../../images/icon-img17.png",
+        "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+        "Title": "Google Developer Club"
+      },
+      {
+        "ID": 5,
+        "Image": "../../images/icon-img17.png",
+        "About": "The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+        "Title": "Google Developer Club"
+      }
+    ]
+  }
+]

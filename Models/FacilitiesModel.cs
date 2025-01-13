@@ -31,10 +31,40 @@ namespace GECP_Front_End_Static.Models
         public string Title { get; set; }
         public string TitleImage { get; set; }
         public string TitleImageCSSClass { get; set; }
-        public string SideImage {  get; set; }
+        public string SideImage { get; set; }
         public string BlogLink { get; set; }
         public string About { get; set; }
         public List<Factor> Factors { get; set; }
         public List<Members> Members { get; set; }
+    }
+
+    public class Club
+    {
+        public int ID { get; set; }
+        public string Image { get; set; }
+        public string About { get; set; }
+        public string Title { get; set; }
+    }
+
+    public class Student
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string Titleimage { get; set; }
+        public string TitleImageCSSClass { get; set; }
+        public List<Club> Clubs { get; set; }
+    }
+    public class Medical
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string Titleimage { get; set; }
+        public string TitleImageCSSClass { get; set; }
+        public List<Description> Descriptions { get; set; }
+    }
+        public class Description
+    {
+        public string Point1 { get; set; }
+
     }
 }
