@@ -23,13 +23,14 @@ namespace GECP_Front_End_Static.Models
 
         public string PEOs { get; set; }
         public string PSOs { get; set; }
-        public List<Labs> Labs { get; set; }
+        public List<Labs> Lab { get; set; }
         public List<FacultyDetailsVM> FacultyList { get; set; } = new List<FacultyDetailsVM>();
     }
 
     public class Labs
     {
         public int LabID { get; set; }
+        public int Dept_ID { get; set; }
         public string Lab_Name { get; set; }
         public string Lab_Image { get; set; }
         public string Lab_Details { get; set; }

@@ -26,18 +26,18 @@
     "Labs": [
       {
         "LabID": 11,
-        "Lab_Image": "",
-        "Lab_Name": "",
-        "Lab_Details": ""
+        "Lab_Image": "~/images/Department/pgl.png",
+        "Lab_Name": "Programming Lab",
+        "Lab_Details": "The laboratories are equipped with a number of desktop computers. The current software resources include open source programming SDKs. The lab is used for the course subjects like C, C++ programming etc."
       },
       {
-        "LabID": 11,
-        "Lab_Image": "",
-        "Lab_Name": "",
-        "Lab_Details": ""
+        "LabID": 12,
+        "Lab_Image": "~/images/Department/pgl.png",
+        "Lab_Name": "Programming Lab",
+        "Lab_Details": "The laboratories are equipped with a number of desktop computers. The current software resources include open source programming SDKs. The lab is used for the course subjects like C, C++ programming etc."
       },
       {
-        "LabID": 11,
+        "LabID": 13,
         "Lab_Image": "",
         "Lab_Name": "",
         "Lab_Details": ""
@@ -70,19 +70,22 @@
     "PSOs": "The ability to understand, analyze, design, and develop various computing solutions. The ability to decide career paths as an entrepreneur, competent professional, or pursue higher studies using engineering knowledge and modern programming skills. ",
     "Labs": [
       {
-        "LabID": 11,
-        "Lab_Image": "",
-        "Lab_Name": "",
-        "Lab_Details": ""
+        "LabID": 21,
+        "Dept_ID": 2,
+        "Lab_Image": "~/images/Department/pgl.png",
+        "Lab_Name": "Programming Lab",
+        "Lab_Details": "The laboratories are equipped with a number of desktop computers. The current software resources include open source programming SDKs. The lab is used for the course subjects like C, C++ programming etc."
       },
       {
-        "LabID": 11,
-        "Lab_Image": "",
-        "Lab_Name": "",
-        "Lab_Details": ""
+        "LabID": 22,
+        "Dept_ID": 2,
+        "Lab_Image": "~/images/Department/pgl.png",
+        "Lab_Name": "Programming Lab",
+        "Lab_Details": "The laboratories are equipped with a number of desktop computers. The current software resources include open source programming SDKs. The lab is used for the course subjects like C, C++ programming etc."
       },
       {
-        "LabID": 11,
+        "LabID": 23,
+        "Dept_ID": 2,
         "Lab_Image": "",
         "Lab_Name": "",
         "Lab_Details": ""

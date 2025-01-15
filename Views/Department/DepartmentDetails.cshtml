@@ -1,8 +1,6 @@
 ﻿@model DepartmentVM
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var departments = new List<string> { "Computer", "Mechanical", "Civil", "Electrical" }; // Example department names
-    int tabIndex = 1; // Initialize tab index
     ViewBag.Title = Model.Title;
 }
 
@@ -187,7 +185,7 @@
                              <img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
                                 @if (data.tabs != null)
                                 {
-                                    <a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyInfo", "faculty", new { id = data.ID })')" class="four faculty_info_link">
+                                    <a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">
                                         <i class="fas fa-external-link-square-alt"></i>
                                     </a>
                                 }
@@ -230,29 +228,114 @@
                 <div class="clearfix margin_top5"></div>
             }
         }
-                    </div>
+        </div>
                 
         
 
             <div id="example-3-tab-2" class="tabs-panel3">
-                    <h1>@Model.Title Engineering Laboratories</h1>
+               
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>@Model.Title Laboratories</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            line-height: 1.6;
+                            margin: 0;
+                            padding: 0;
+                            background-color: #f9f9f9;
+                        }
 
-                    @foreach (var lab in Model.Labs) // Assuming Model.Labs is the list of labs
-                    {
-                        <div class="lab-section">
-                            <img src="@lab.Lab_Image" alt="@lab.Lab_Name" />
-                            <div class="lab-content">
-                                <h2>@lab.Lab_Name</h2>
-                                <p>@lab.Lab_Details</p>
-                            </div>
-                        </div>
-                    }
+                        
+
+                        .lab-section {
+                            display: flex;
+                            align-items: flex-start;
+                            gap: 20px;
+                            margin-bottom: 40px;
+                            padding: 20px;
+                            background: #fff;
+                            border-radius: 8px;
+                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                        }
+
+                        .lab-section img {
+                            flex: 0 0 30%;
+                            max-width: 30%;
+                            border-radius: 8px;
+                            height: auto;
+                        }
+
+                        .lab-section .lab-content {
+                            flex: 0 0 70%;
+                            max-width: 70%;
+                        }
+
+                        .lab-section .lab-content h2 {
+                            margin-top: 0;
+                            font-size: 1.5em;
+                            color: #333;
+                        }
+
+                        .lab-section .lab-content p {
+                            font-size: 1em;
+                            color: #555;
+                            text-align: justify;
+                        }
+
+                        .lab-section .lab-content ul {
+                            margin: 10px 0;
+                            padding-left: 20px;
+                            list-style-type: disc;
+                        }
+
+                        .lab-section .lab-content ul li {
+                            margin-bottom: 8px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <h1>@Model.Title Laboratories</h1>
+
+                        @if (Model.Lab != null && Model.Lab.Any())
+                        {
+                            foreach (var lab in Model.Lab)
+                            {
+                                <div class="lab-section">
+                                    <img src="@lab.Lab_Image" alt="@lab.Lab_Name" />
+                                    <div class="lab-content">
+                                        <h2>@lab.Lab_Name</h2>
+                                        <p>@lab.Lab_Details</p>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p>No labs available for this department.</p>
+                        }
+                    </div>
+                </body>
+                </html>
+            
+
+
+
             </div>
 
                 
 
             <div id="example-3-tab-3" class="tabs-panel3" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-                
+                <img src="images\site-img50.jpg" alt="" class="rimg">
+                <span style="font-weight: 700; text-decoration: underline;">
+                    PROGRAM EDUCATIONAL OUTCOMES (PSOs)
+                </span>
+                <p style="margin: 10px 0; padding-left: 20px; font-size: 16px; line-height: 1.8; color: #555;">
+                        @Model.PEOs
+                </p>
             </div>
 
 
@@ -421,7 +504,7 @@
                 });
             });
         </script>
-
+        
     }
 
     @section styles {
@@ -445,7 +528,7 @@
                 }
             </style>
             <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
-              <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+            <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
     }
 
         
