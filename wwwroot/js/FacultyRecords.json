@@ -360,6 +360,61 @@
     "Date_of_Joining": "2016-10-01",
     "Qualification": "M.Tech. CE",
     "Area_of_Interest": "Routing in Wireless Sensor Network",
+    "PersonalDetails": {
+      "Name": "Dr. Harikrishna Jethva",
+      "Designation": "Professor",
+      "Department": "Computer Science",
+      "Contact": "+91-9876543210",
+      "Email": "harikrishna.jethva@example.com"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "Ph.D.",
+        "University": "XYZ University",
+        "Year": "2010",
+        "Specialization": "Artificial Intelligence"
+      },
+      {
+        "Degree": "M.Tech",
+        "University": "ABC Institute",
+        "Year": "2005",
+        "Specialization": "Computer Science"
+      }
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Professor",
+        "Organization": "ABC Institute",
+        "Duration": "2015 - Present"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "XYZ University",
+        "Duration": "2010 - 2015"
+      }
+    ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "Deep Learning Fundamentals",
+        "OrganizedBy": "XYZ Organization",
+        "Date": "Jan 2020"
+      },
+      {
+        "Title": "AI in Education",
+        "OrganizedBy": "TechLearn",
+        "Date": "June 2021"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "Improving Backpropagation Learning Algorithm Using Modified Gradient"
+      },
+      {
+        "SrNo": 2,
+        "Title": "High Performance Computing at IMS Conference"
+      }
+    ],
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. ADESH PANCHAL</a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech. CE</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Routing in Wireless Sensor Network</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "institute portfolio", "department portfolio", "department portfolio" ],

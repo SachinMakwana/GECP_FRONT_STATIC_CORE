@@ -78,7 +78,22 @@
 
 </head>
 <body>
-    @RenderBody()
+
+    <div class="site_wrapper">
+        @* @{Html.RenderPartial("_header");} *@
+        <div class="top_section2" id="topHeader"></div><!-- end top navigation links -->
+        <div class="clearfix"></div>
+        <header class="header" id="menuload"></header>
+        <!-- end Navigation Menu -->
+        @RenderBody()
+
+        @*
+            Html.RenderPartial("_footer");
+        *@
+        <a href="#" class="scrollup">Scroll</a>
+        <!-- end scroll to top of the page-->
+    </div>
+ 
     <!-- Add any essential scripts -->
     <script src="https://kit.fontawesome.com/ef9a692198.js"></script>
     <script src="@Url.Content("~/js/font-awesome/ef9a692198.js")"></script>

@@ -15,9 +15,7 @@ namespace GECP_Front_End_Static.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
-        public List<FacultyData> FacultyD = new List<FacultyData>();
-
-
+        
         public FacultyController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -27,10 +25,6 @@ namespace GECP_Front_End_Static.Controllers
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
-
-            webClient = new WebClient();
-            string json2 = webClient.DownloadString(jsonpath);
-            FacultyD = JsonConvert.DeserializeObject<List<FacultyData>>(json2);
 
         }
 
@@ -110,7 +104,10 @@ namespace GECP_Front_End_Static.Controllers
         [HttpGet]
         public IActionResult FacultyDatas(int ID)
         {
-            var facultydetails = FacultyD.FirstOrDefault();
+            var facultydetails = FacultyData.FirstOrDefault(f => f.ID == ID);
+            ViewData["ShowFooter"] = false;
+            ViewData["ShowTopHeader"] = false;
+
             return View(facultydetails);
         }
 

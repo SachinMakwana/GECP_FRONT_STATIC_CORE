@@ -92,14 +92,60 @@
 
     <div class="site_wrapper">
         @* @{Html.RenderPartial("_header");} *@
-        <div class="top_section2" id="topHeader"></div><!-- end top navigation links -->
+        @{
+            var showTopHeader = ViewData["ShowTopHeader"] as bool? ?? true;
+        }
+        @if (showTopHeader)
+        {
+            <div class="top_section2" id="topHeader"></div>
+
+            <!-- end top navigation links -->
+        }
         <div class="clearfix"></div>
         <header class="header" id="menuload"></header>
         <!-- end Navigation Menu -->
 
         @RenderBody()
 
-        @{Html.RenderPartial("_footer");}
+        @if (ViewData["ShowFooter"] == null || (bool)ViewData["ShowFooter"])
+        {
+
+            <div class="clearfix"></div>
+
+
+            <footer class="footer4">
+                <div class="container">
+
+                    <div class="fmlinks">
+                        <a href="@Url.Action("Index","Home")">Home</a>
+                        <a href="@Url.Action("AboutUs","Institute")">Institute</a>
+                        <a href="@Url.Action("Gallery","CampusLife")">Gallery</a>
+                        <a href="@Url.Action("NewsLetter","Institute")">Newsletter</a>
+                        <a href="@Url.Action("Tenders","Institute")">Tenders</a>
+                        <a href="@Url.Action("Index","ContactUs")">Contact</a>
+                        <a href="http://ssgecpatan.blogspot.com/">Student Section</a>
+                    </div>
+
+                    Copyright © @DateTime.Now.Year Government Engineering College. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+
+                    <div class="footer_social_links4">
+
+                        <a href=" https://www.facebook.com/groups/196556128399328/" class="animate" data-anim-type="zoomIn" data-anim-delay="100" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        @*<a href="https://www.facebook.com/Government-Engineering-College-Patan-109104388275262" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fab fa-facebook-f"></i></a>*@
+                        <a href="https://twitter.com/geckatpurpatan" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fab fa-twitter"></i></a>
+                        @*<a href="#" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fab fa-google-plus-g"></i></a>*@
+                        <a href="https://www.linkedin.com/school/government-engineering-college-patan-022/" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        @*<a href="#" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fas fa-rss"></i></a>*@
+                        <a href="https://www.instagram.com/gec_patan__official/" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fab fa-instagram"></i></a>
+                        @*<a href="#" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fas fa-rss"></i></a>*@
+                    </div>
+
+
+                </div>
+                <!-- end footer -->
+            </footer>
+        }
+
         <a href="#" class="scrollup">Scroll</a>
         <!-- end scroll to top of the page-->
     </div>
