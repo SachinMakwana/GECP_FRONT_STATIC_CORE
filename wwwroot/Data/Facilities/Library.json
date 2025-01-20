@@ -1,5 +1,4 @@
-﻿[
-  {
+﻿  {
     "Title": "Library",
     "Titleimage": "../../images/ssip_banner.jpg",
     "TitleImageCSSClass": "ssip_title",
@@ -40,4 +39,3 @@
 
     ]
   }
-]

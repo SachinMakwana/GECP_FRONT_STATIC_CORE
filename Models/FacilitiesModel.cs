@@ -6,15 +6,15 @@ namespace GECP_Front_End_Static.Models
     {
     }
     // Root myDeserializedClass = JsonConvert.DeserializeObject<List<Root>>(myJsonResponse);
-    public class Members
-    {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Position { get; set; }
-        public string Department { get; set; }
-        public string Image { get; set; }
-        public string Email { get; set; }
-    }
+    //public class Members
+    //{
+    //    public int ID { get; set; }
+    //    public string Name { get; set; }
+    //    public string Position { get; set; }
+    //    public string Department { get; set; }
+    //    public string Image { get; set; }
+    //    public string Email { get; set; }
+    //}
 
     public class Factor
     {
@@ -73,16 +73,16 @@ namespace GECP_Front_End_Static.Models
         public string Titleimage { get; set; }
         public string TitleImageCSSClass { get; set; }
         public string Content { get; set; }
-        public List<Member2> Members { get; set; }
+        public List<Members> Members { get; set; }
     }
 
-    public class Member2
-    {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Position { get; set; }
-        public string Department { get; set; }
-        public string Image { get; set; }
-        public string Email { get; set; }
-    }
+    //public class Member2
+    //{
+    //    public int ID { get; set; }
+    //    public string Name { get; set; }
+    //    public string Position { get; set; }
+    //    public string Department { get; set; }
+    //    public string Image { get; set; }
+    //    public string Email { get; set; }
+    //}
 }

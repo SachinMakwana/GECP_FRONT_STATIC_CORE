@@ -16,7 +16,7 @@ namespace GECP_Front_End_Static.Controllers
         //public List<Student> Students = new List<Student>();
         public List<Student> StudentVMs = new List<Student>();
         public List<Medical> MedicalVMs = new List<Medical>();
-        public List<Library> LibraryVMs = new List<Library>();
+        public Library LibraryVM = new Library();
         public FacilitiesController(IWebHostEnvironment hostingEnvironment) 
         {
             _hostingEnvironment = hostingEnvironment;
@@ -38,7 +38,7 @@ namespace GECP_Front_End_Static.Controllers
             // Students = JsonConvert.DeserializeObject<List<Student>>(json1);
             StudentVMs = JsonConvert.DeserializeObject<List<Student>>(json2);
             MedicalVMs = JsonConvert.DeserializeObject<List<Medical>>(json1);
-            LibraryVMs = JsonConvert.DeserializeObject<List<Library>>(json3);
+            LibraryVM = JsonConvert.DeserializeObject<Library>(json3);
 
 
         }
@@ -49,7 +49,7 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult Library ()
         {
-            return View(LibraryVMs);
+            return View(LibraryVM);
         }
         public IActionResult Canteen()
         {
