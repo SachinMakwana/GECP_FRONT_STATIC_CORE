@@ -12,41 +12,45 @@ namespace GECP_Front_End_Static.Controllers
     { 
     
         private readonly IWebHostEnvironment _hostingEnvironment;
-        public List<FacilitiesVM> FacilitiesVMs = new List<FacilitiesVM>();
+        public Hostel HostelVM = new Hostel();
         //public List<Student> Students = new List<Student>();
         public List<Student> StudentVMs = new List<Student>();
         public List<Medical> MedicalVMs = new List<Medical>();
         public Library LibraryVM = new Library();
+        public COE COEVM = new COE();
         public FacilitiesController(IWebHostEnvironment hostingEnvironment) 
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string jsonpath = webRootPath + @"\Data\Facilities\Facilities.json";
+            string jsonpath = webRootPath + @"\Data\Facilities\Hostel.json";
             string jsonpath1 = webRootPath + @"\Data\Facilities\Medical.json";
             string jsonpath3 = webRootPath + @"\Data\Facilities\Library.json";
             // string jasonpath1 = webRootPath + @"\Data\Facilities\Student.json";
             string jsonpath2 = webRootPath + @"\Data\Facilities\Student.json";
+            string jsonpath4 = webRootPath + @"\Data\Facilities\COE.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             string json2 = webClient.DownloadString(jsonpath2);
             string json1 = webClient.DownloadString(jsonpath1);
             string json3 = webClient.DownloadString(jsonpath3);
+            string json4 = webClient.DownloadString(jsonpath4);
 
             // string json1 = webClient.DownloadString(jasonpath1);
-            FacilitiesVMs = JsonConvert.DeserializeObject<List<FacilitiesVM>>(json);
+            HostelVM = JsonConvert.DeserializeObject<Hostel>(json);
             // Students = JsonConvert.DeserializeObject<List<Student>>(json1);
             StudentVMs = JsonConvert.DeserializeObject<List<Student>>(json2);
             MedicalVMs = JsonConvert.DeserializeObject<List<Medical>>(json1);
             LibraryVM = JsonConvert.DeserializeObject<Library>(json3);
+            COEVM = JsonConvert.DeserializeObject<COE>(json4);
 
 
         }
-        public IActionResult FacilityPage(int id)
-        {
-            var Facility = FacilitiesVMs.Where(m => m.ID == id).FirstOrDefault();
-            return View(Facility);
-        }
+        //public iactionresult facilitypage(int id)
+        //{
+        //    var facility = facilitiesvms.where(m => m.id == id).firstordefault();
+        //    return view(facility);
+        //}
         public IActionResult Library ()
         {
             return View(LibraryVM);
@@ -57,7 +61,7 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult Hostel()
         {
-            return View();
+            return View(HostelVM);
         }
         public IActionResult Gymkhana()
         {
@@ -84,7 +88,7 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult CenterOfExcellence()
         {
-            return View();
+            return View(COEVM);
         }
         public IActionResult Transportation()
         {

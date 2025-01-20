@@ -43,28 +43,28 @@
 
 				<div class="box animate" data-anim-type="fadeInUp" data-anim-delay="100">
 					<i class="fa fa-book"></i>
-					<h4 class="roboto">30900+ Books</h4>
+					<h4 class="roboto">@Model.Books</h4>
 					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
 				</div>
 				<!-- end box -->
 
 				<div class="box two animate" data-anim-type="fadeInUp" data-anim-delay="150">
 					<i class="fa fa-book"></i>
-					<h4 class="roboto">14000+ Periodicals</h4>
+					<h4 class="roboto">@Model.Periodicals</h4>
 					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
 				</div>
 				<!-- end box -->
 
 				<div class="box three animate" data-anim-type="fadeInUp" data-anim-delay="200">
 					<i class="fa fa-bookmark"></i>
-					<h4 class="roboto">2400+ Research Reports</h4>
+					<h4 class="roboto">@Model.Reports</h4>
 					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
 				</div>
 				<!-- end box -->
 
 				<div class="box four animate" data-anim-type="fadeInUp" data-anim-delay="250">
 					<i class="fa fa-user"></i>
-					<h4 class="roboto">87489+ Biography</h4>
+					<h4 class="roboto">@Model.Biography</h4>
 					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
 				</div>
 				<!-- end box -->
@@ -89,7 +89,7 @@
 				<br /><br />
 				<h3 class="white">Vision</h3>
 
-				<p>To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources. </p>
+				<p>@Model.Vision</p>
 				<br /><br />
 
 
@@ -103,9 +103,7 @@
 				<br /><br />
 				<h3 class="white">Mission</h3>
 
-				<p>
-					To develop, organize, provide access to and preserve materials to meet the needs of present and future generations of students and scholars.
-				</p>
+				<p>@Model.Mision</p>
 				<br /><br />
 
 
@@ -168,7 +166,7 @@
 <div class="featured_section38">
 	<div class="container">
 
-		<h1 class="animate" data-anim-type="fadeIn" data-anim-delay="200">"A Library is not Luxury its...<b>neccessity of Life.” ...</b></h1>
+		@Html.Raw(Model.TagLine)
 
 	</div>
 </div>

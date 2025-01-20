@@ -1,0 +1,52 @@
+﻿{
+
+  "Title": "Center of Excellence",
+  "Titleimage": "../../images/ssip_banner.jpg",
+  "TitleImageCSSClass": "ssip_title",
+  "SideImage": "../../images/Institute/CoE/CoE.jpg",
+  "About": "Government Engineering College has initiated to build Centre of Excellence (COE) with an objective of developing industry institute partnership in the field of Automation, Mobile Hydraulic, Automobile, and Mobile Electronics Technologies to bridge technology gaps between industry and academia to foster research and knowledge among the students. The main goal would be to improve the technical competence, employability and entrepreneurship of students who train at the centre and encourage students to pursue PG programs. The centre of competence is established to bridge the gap between industry expectations and theoretical deficiencies with the objectives, to provide hands on experience to the students of engineering and polytechnics institutes to the recent technologies practiced in the industry and to enable all the students in different regions and rural areas to have exposure to industry and technologies, by the concept of center of excellence.",
+  "Benefits": [
+    {
+      "Icon": "fas fa-tools",
+      "Time": "100",
+      "Text": "Skills and Expertise"
+    },
+    {
+      "Icon": "fas fa-users",
+      "Time": "200",
+      "Text": "An implementation approach"
+    },
+    {
+      "Icon": "fas fa-gavel",
+      "Time": "300",
+      "Text": "Direction and Governance"
+    },
+    {
+      "Icon": "fas fa-database",
+      "Time": "400",
+      "Text": "Data Governance and Integration"
+    },
+    {
+      "Icon": "fas fa-brain",
+      "Time": "500",
+      "Text": "Access to Knowledge and Best Practices"
+    },
+    {
+      "Icon": "fas fa-laptop",
+      "Time": "600",
+      "Text": "Tech-savy"
+    },
+    {
+      "Icon": "fas fa-headset",
+      "Time": "700",
+      "Text": "Access to support"
+    },
+    {
+      "Icon": "fas fa-tasks",
+      "Time": "800",
+      "Text": "Easy management"
+    }
+  ]
+
+
+}
