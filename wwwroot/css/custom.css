@@ -667,6 +667,18 @@ table.dataTable thead .sorting_desc_disabled:before {
 }
 
 
+.fabig {
+    font-size: 150px;
+    margin: auto;
+    display: block !important;
+}
+
+.minheight {
+    min-height: 270px;
+    padding: 20px 15px !important;
+}
+
+
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {

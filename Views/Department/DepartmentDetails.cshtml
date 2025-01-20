@@ -173,8 +173,12 @@
 		<ul class="tabs3">
 			<li><a href="#FacultyInfo" target="_self">FACULTY</a></li>
 			<li><a href="#LabsInfo" target="_self">LABS</a></li>
-			<li><a href="#example-3-tab-3" target="_self">PEOs</a></li>
-			<li><a href="#example-3-tab-4" target="_self">PSOs</a></li>
+			<li><a href="#PeoInfo" target="_self">PEOs</a></li>
+			<li><a href="#PsoInfo" target="_self">PSOs</a></li>
+			@if (Model.DeptAcademicCalender.Count() > 0)
+			{
+				<li><a href="#DeptAcaCalender" target="_self">ACADEMIC CALENDER</a></li>
+			}
 		</ul>
 
 		<div class="tabs-content3 two">
@@ -184,9 +188,9 @@
 					<div class="one_half @((Model.FacultyList.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
 						<div class="faculties_img_div">
 							<img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
-								<a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">
-									<i class="fas fa-external-link-square-alt"></i>
-								</a>
+							<a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">
+								<i class="fas fa-external-link-square-alt"></i>
+							</a>
 						</div>
 						<div class="b-portfolio_info col-sm-6">
 							<div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
@@ -228,54 +232,112 @@
 				}
 			</div>
 
-
-
 			<div id="LabsInfo" class="tabs-panel3">
-				<div class="container">
-					
-					@if (Model.Lab != null && Model.Lab.Any())
+			
+					@if (Model.Labs.Count() > 0)
 					{
-						foreach (var lab in Model.Lab)
+						foreach (var lab in Model.Labs)
 						{
-							<div class="lab-section">
-								<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
-								<div class="lab-content">
-									<h2>@lab.Lab_Name</h2>
-									<p>@lab.Lab_Details</p>
+							<div class="boxdetail">
+							<h2 class="boxtitle">@lab.Lab_Name</h2>
+								<div class="one_third">
+									<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
+
 								</div>
+								<div class="two_third last">
+									<div class="lab-content">
+										
+										<p class="text-justify">@lab.Lab_Details</p>
+									</div>
+								</div>
+								<div class="clearfix"></div>
 							</div>
 						}
 					}
 					else
 					{
-						<h2>No labs available for this department.</h2>
+					<h2 class="boxtitle">No labs available for this department.</h2>
 					}
+			</div>
+
+
+
+			<div id="PeoInfo" class="tabs-panel3">
+				<div class="one_third">
+					<img src="https://placehold.co/600x400" alt="" class="rimg">
 				</div>
+				<div class="two_third stcode_title1 last">
+					<h3>
+						<span class="line"></span>
+						<span class="text">PROGRAM EDUCATIONAL OUTCOMES (PEOs)</span>
+					</h3>
+					<ul class="list-unstyled">
+						@{
+							int count = 0;
+						}
+						@foreach (var item in Model.PSOs)
+						{
+							<li>
+								PEO @count: @item
+							</li>
+							count++;
+						}
+					</ul>
+				</div>
+
 			</div>
 
 
+			<div id="PsoInfo" class="tabs-panel3">
+				<div class="one_third ">
+					<img src="https://placehold.co/600x400" alt="" class="rimg">
+				</div>
+				<div class="two_third stcode_title1 last">
+					<h3>
+						<span class="line"></span>
+						<span class="text">PROGRAM SPECIFIC OUTCOMES (PSOs)</span>
+					</h3>
+					<ul class="list-unstyled">
+						@{
+							count = 0;
+						}
+						@foreach (var item in Model.PEOs)
+						{
+							<li>
+								PEO @count: @item
+							</li>
+							count++;
+						}
+					</ul>
+				</div>
 
-			<div id="example-3-tab-3" class="tabs-panel3" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px;">
-				<img src="images\site-img50.jpg" alt="" class="rimg">
-				<span style="font-weight: 700; text-decoration: underline;">
-					PROGRAM EDUCATIONAL OUTCOMES (PSOs)
-				</span>
-				<p style="margin: 10px 0; padding-left: 20px; font-size: 16px; line-height: 1.8; color: #555;">
-					@Model.PEOs
-				</p>
 			</div>
+			@if (Model.DeptAcademicCalender.Count() > 0)
+			{
+				<div id="DeptAcaCalender" class="tabs-panel3">
+					<div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
 
+						<ul>
+							@{
+								count = 0;
+							}
+							@foreach (var item in Model.DeptAcademicCalender)
+							{
 
-			<div id="example-3-tab-4" class="tabs-panel3">
-				<img src="images\site-img50.jpg" alt="" class="rimg">
-				<span style="font-weight: 700; text-decoration: underline;">
-					PROGRAM SPECIFIC OUTCOMES (PSOs)
-				</span>
-				<p style="margin: 10px 0; padding-left: 20px; font-size: 16px; line-height: 1.8; color: #555;">
-					@Model.PSOs
-				</p>
-			</div>
+								<li class="minheight">
+									<a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+										<i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+										@item.Title
+									</a>
+								</li>
 
+								count++;
+							}
+						</ul>
+
+					</div>
+				</div>
+			}
 		</div>
 	</div>
 	<div class="clearfix margin_top2"></div>
@@ -389,11 +451,27 @@
 				)
 			})(jQuery);
 		</script>
+		<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+
 		<script>
+
 			function loadFacultyinfo(url) {
 				if (url !== '') {
 						$("#pdfreader").load(url);
 						$("#lnkPopup").click();
+				}
+			}
+
+				function loadPdf(path, name) {
+				if (path !== '') {
+					path = path.replace("~", "");
+					if (PDFObject.supportsPDFs) {
+						PDFObject.embed(path, "#pdfreader");
+						$("#newsname").text(name);
+						$("#lnkPopup").click();
+					} else {
+						window.location.href = path;
+					}
 				}
 			}
 		</script>

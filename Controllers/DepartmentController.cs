@@ -49,7 +49,7 @@ namespace GECP_Front_End_Static.Controllers
             if (data != null)
             {
                 data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
-                data.Lab = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
+                //data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
             }
 
             return View(data);
