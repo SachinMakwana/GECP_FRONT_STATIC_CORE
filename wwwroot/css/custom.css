@@ -648,12 +648,26 @@ table.dataTable thead .sorting_desc_disabled:before {
     color:red;
 }
 
+.boxdetail{
+    padding: 10px;
+    border:1px solid;
+    border-radius:5px;
+    margin:10px 0px;
+    clear:both;
+}
 
+.boxtitle {
+    padding: 10px;
+    border-left: 10px solid black;
+    background: #d7d0d0;
+}
 
+.boxinfo{
+    text-align:justify;
+}
 
 
 /*responsive goes here*/
-
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {
         width: 60%;
