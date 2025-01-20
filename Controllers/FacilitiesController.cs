@@ -16,12 +16,14 @@ namespace GECP_Front_End_Static.Controllers
         //public List<Student> Students = new List<Student>();
         public List<Student> StudentVMs = new List<Student>();
         public List<Medical> MedicalVMs = new List<Medical>();
+        public List<Library> LibraryVMs = new List<Library>();
         public FacilitiesController(IWebHostEnvironment hostingEnvironment) 
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\Data\Facilities\Facilities.json";
             string jsonpath1 = webRootPath + @"\Data\Facilities\Medical.json";
+            string jsonpath3 = webRootPath + @"\Data\Facilities\Library.json";
             // string jasonpath1 = webRootPath + @"\Data\Facilities\Student.json";
             string jsonpath2 = webRootPath + @"\Data\Facilities\Student.json";
 
@@ -29,12 +31,14 @@ namespace GECP_Front_End_Static.Controllers
             string json = webClient.DownloadString(jsonpath);
             string json2 = webClient.DownloadString(jsonpath2);
             string json1 = webClient.DownloadString(jsonpath1);
+            string json3 = webClient.DownloadString(jsonpath3);
 
             // string json1 = webClient.DownloadString(jasonpath1);
             FacilitiesVMs = JsonConvert.DeserializeObject<List<FacilitiesVM>>(json);
             // Students = JsonConvert.DeserializeObject<List<Student>>(json1);
             StudentVMs = JsonConvert.DeserializeObject<List<Student>>(json2);
             MedicalVMs = JsonConvert.DeserializeObject<List<Medical>>(json1);
+            LibraryVMs = JsonConvert.DeserializeObject<List<Library>>(json3);
 
 
         }
@@ -45,7 +49,7 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult Library ()
         {
-            return View();
+            return View(LibraryVMs);
         }
         public IActionResult Canteen()
         {

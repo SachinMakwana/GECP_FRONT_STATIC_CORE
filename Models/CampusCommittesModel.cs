@@ -7,7 +7,7 @@ namespace GECP_Front_End_Static.Models
     {
     }
 
-    public class Member
+    public class Members
     {
         public int ID { get; set; }
         public string Name { get; set; }
@@ -35,6 +35,6 @@ namespace GECP_Front_End_Static.Models
         public string PageFlyer { get; set; }
         public string Tagline { get; set; }
         public string BlogLink { get; set; }
-        public List<Member> Members { get; set; }
+        public List<Members> Members { get; set; }
     }
 }

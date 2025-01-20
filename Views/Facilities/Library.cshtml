@@ -1,22 +1,25 @@
-﻿@{
+﻿@model Library
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Library";
+    int count = 0;
 }
 
 
 <div class="clearfix"></div>
 
 
-<div class="page_title3 lib_title">
+<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.Titleimage) no-repeat center top;background-size: cover;">
     <div class="container">
 
         <h1>
-            Library<em>Government Engineering College</em>
+            @Model.Title <em>Government Engineering College</em>
             <div class="line"></div>
         </h1>
 
     </div>
 </div>
+<div class="clearfix margin_bottom6"></div>
 <!-- end page title -->
 
 <div class="content_fullwidth">
@@ -31,7 +34,7 @@
                 <h2 class="roboto caps">Welcome to GECP Library.</h2>
                 <div class="hsmline6"></div>
                 <br />
-                <p class="bigtfont gray">On the basis of quality education, the library of the institute has been developed quite efficiently by the supportive faculties and is being updated constantly in order to avail our student's maximum knowledge and provide them a base to explore the future. It helps to keep the students updated with the latest technology and trends.</p>
+                <p class="bigtfont gray">Model.Content</p>
 
             </div>
             <!-- end section -->
@@ -78,39 +81,87 @@
 
     <div class="featured_section14">
         <div class="container">
+           
+                
+                    <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
 
-            <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+                    <img src="@Url.Content("~/images/vision.png")" alt="" />
+                    <br /><br />
+                    <h3 class="white">Vision</h3>
 
-                <img src="@Url.Content("~/images/vision.png")" alt="" />
-                <br /><br />
-                <h3 class="white">Vision</h3>
-
-                <p>To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources. </p>
-                <br /><br />
-
-
-            </div>
-            <!-- end section -->
-
-            <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
-
-                <img src="@Url.Content("~/images/Library/icon-img13.png")" alt="" />
-                <br /><br />
-                <h3 class="white">Mission</h3>
-
-                <p>
-                    To develop, organize, provide access to and preserve materials to meet the needs of present and future generations of students and scholars.
-                </p>
-                <br /><br />
+                    <p>To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources. </p>
+                    <br /><br />
 
 
-            </div>
-            <!-- end section -->
+                </div>
+                <!-- end section -->
+                
+                
+                    <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
+                    <img src="@Url.Content("~/images/Library/icon-img13.png")" alt="" />
+                    <br /><br />
+                    <h3 class="white">Mission</h3>
+
+                    <p>
+                        To develop, organize, provide access to and preserve materials to meet the needs of present and future generations of students and scholars.
+                    </p>
+                    <br /><br />
+
+
+                </div>
+                <!-- end section -->
+            
         </div>
     </div>
     <!-- end featured section 14 -->
+    
+    
 </div>
+<div class="clearfix margin_bottom6"></div>
+<div class="featured_section30">
+    <div class="container">
+        <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+            Committee Members
+        </h1>
+
+        <!-- end section -->
+
+        @foreach (var member in Model.Members)
+        {
+            @if (count % 2 == 0)
+            {
+                <div class="clearfix margin_top5"></div>
+
+                <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+                    <img src="@Url.Content(member.Image)" alt="">
+                    <h5>member.Name<em>member.Position</em></h5>
+                    <p>member.Department</p>
+                    <p>member.Email</p>
+                    @*  <br>
+            <a href="#" class="button four">Read More</a> *@
+                </div>
+            }
+
+            <!-- end section -->
+            else
+
+            {
+                <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="400">
+                    <img src="@Url.Content(member.Image)" alt="">
+                    <h5>member.Name<em>member.Position</em></h5>
+                    <p>member.Department</p>
+                    <p>member.Email</p>
+            @*  <br>
+            <a href="#" class="button four">Read More</a> *@
+        </div>}
+
+        }
+    </div>
+</div>
+<div class="clearfix margin_bottom6"></div>
+
 </div>
 <!-- end featured section 105 -->
 

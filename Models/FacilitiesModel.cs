@@ -64,7 +64,25 @@ namespace GECP_Front_End_Static.Models
     }
         public class Description
     {
-        public string Point1 { get; set; }
+        public string Point { get; set; }
 
+    }
+    public class Library
+    {
+        public string Title { get; set; }
+        public string Titleimage { get; set; }
+        public string TitleImageCSSClass { get; set; }
+        public string Content { get; set; }
+        public List<Member2> Members { get; set; }
+    }
+
+    public class Member2
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Position { get; set; }
+        public string Department { get; set; }
+        public string Image { get; set; }
+        public string Email { get; set; }
     }
 }
