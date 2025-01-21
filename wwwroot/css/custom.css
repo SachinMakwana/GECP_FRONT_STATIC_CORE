@@ -648,6 +648,10 @@ table.dataTable thead .sorting_desc_disabled:before {
     color:red;
 }
 
+.box{
+    padding:20px;
+    border:2px double;
+}
 .boxdetail{
     padding: 10px;
     border:1px solid;
