@@ -271,14 +271,14 @@
 						<span class="line"></span>
 						<span class="text">PROGRAM EDUCATIONAL OUTCOMES (PEOs)</span>
 					</h3>
-					<ul class="list-unstyled">
+					<ul class="list-unstyled text-justify">
 						@{
-							int count = 0;
+							int count = 1;
 						}
 						@foreach (var item in Model.PEOs)
 						{
 							<li>
-								PEO @count: @item
+								<i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PEO @count: @item
 							</li>
 							count++;
 						}
@@ -289,22 +289,22 @@
 
 
 			<div id="PsoInfo" class="tabs-panel3">
-				<div class="one_third" style="width:300px;">
-					<img src=@Url.Content("~/images/Department/PSOs.png") style="width:100%; height:200px;" alt="" class="rimg">
+				<div class="one_third">
+					<img src=@Url.Content("~/images/Department/PSOs.png") alt="" class="rimg">
 				</div>
 				<div class="two_third stcode_title1 last">
 					<h3>
 						<span class="line"></span>
 						<span class="text">PROGRAM SPECIFIC OUTCOMES (PSOs)</span>
 					</h3>
-					<ul class="list-unstyled">
+					<ul class="list-unstyled text-justify">
 						@{
-							count = 0;
+							count = 1;
 						}
 						@foreach (var item in Model.PSOs)
 						{
 							<li>
-								 -> @item
+								<i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PSO @count: @item
 							</li>
 							count++;
 						}
