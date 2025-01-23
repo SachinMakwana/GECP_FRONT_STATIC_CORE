@@ -336,18 +336,36 @@
   },
 
 
-  {
-    "ID": 204,
-    "Name": "Mr. Pinesh Darji",
-    "Designation": "Assistant Professor",
-    "image": "images/Faculty/Computer/pinesh.jpg",
-    "Dept_ID": 2,
-    "Date_of_Joining": "2016-09-22",
-    "Qualification": "M.E. (C.S.E.)",
-    "Area_of_Interest": "COMPUTER NETWORKS",
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. PINESH DARJI</a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">COMPUTER NETWORKS</span></li></ul></div></div></div>"
+    {
+        "ID": 204,
+        "Name": "Mr. Pinesh Darji",
+        "Designation": "Assistant Professor",
+        "image": "images/Faculty/Computer/pinesh.jpg",
+        "Dept_ID": 2,
+        "Date_of_Joining": "2016-09-22",
+        "Qualification": "M.E. (C.S.E.)",
+        "Area_of_Interest": "COMPUTER NETWORKS",
+        "PersonalDetails": {
+            "Name": "Dr. Harikrishna Jethva",
+            "Designation": "Professor",
+            "Department": "Computer Science",
+            "Contact": "+91-9876543210",
+            "Email": "harikrishna.jethva@example.com"
+        },
+        "EducationalQualifications": [
+            
+        ],
+        "ProfessionalExperiences": [
+            
+        ],
+        "TrainingAndWorkshops": [
+            
+        ],
+        "Publications": [
+            
+        ]
 
-  },
+    },
 
 
 
@@ -429,18 +447,36 @@
 
 
 
-  {
-    "ID": 206,
-    "Name": "Mr. Mitul Patel",
-    "Designation": "Assistant Professor",
-    "image": "images/Faculty/Computer/mitul.jpg",
-    "Date_of_Joining": "2020-06-06",
-    "Dept_ID": 2,
-    "Qualification": "M.E.",
-    "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MITUL PATEL</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Structures &amp; Algorithms, Theory of Computation, Compiler Design</span></li></ul></div></div></div>"
+    {
+        "ID": 206,
+        "Name": "Mr. Mitul Patel",
+        "Designation": "Assistant Professor",
+        "image": "images/Faculty/Computer/mitul.jpg",
+        "Date_of_Joining": "2020-06-06",
+        "Dept_ID": 2,
+        "Qualification": "M.E.",
+        "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
+        "PersonalDetails": {
+            "Name": "Dr. Harikrishna Jethva",
+            "Designation": "Professor",
+            "Department": "Computer Science",
+            "Contact": "+91-9876543210",
+            "Email": "harikrishna.jethva@example.com"
+        },
+        "EducationalQualifications": [
 
-  },
+        ],
+        "ProfessionalExperiences": [
+
+        ],
+        "TrainingAndWorkshops": [
+
+        ],
+        "Publications": [
+
+        ]
+
+    },
 
 
 
