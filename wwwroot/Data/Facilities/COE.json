@@ -42,6 +42,11 @@
       "Text": "Access to support"
     },
     {
+      "Icon": "fas fa-headset",
+      "Time": "900",
+      "Text": "Access to support"
+    },
+    {
       "Icon": "fas fa-tasks",
       "Time": "800",
       "Text": "Easy management"
