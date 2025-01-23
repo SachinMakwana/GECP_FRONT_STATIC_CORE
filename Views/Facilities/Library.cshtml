@@ -89,7 +89,12 @@
 				<br /><br />
 				<h3 class="white">Vision</h3>
 
-				<p>@Model.Vision</p>
+				<ul class="text-justify">
+					@foreach (var item in Model.Vision)
+					{
+						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+					}
+				</ul>
 				<br /><br />
 
 
@@ -99,11 +104,16 @@
 
 			<div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
-				<img src="@Url.Content("~/images/Library/icon-img13.png")" alt="" />
+				<img src="@Url.Content("~/images/mission.png")" alt="" />
 				<br /><br />
 				<h3 class="white">Mission</h3>
 
-				<p>@Model.Mision</p>
+				<ul class="text-justify">
+					@foreach (var item in Model.Mission)
+					{
+						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+					}
+				</ul>
 				<br /><br />
 
 

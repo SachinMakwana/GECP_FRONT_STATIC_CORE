@@ -25,34 +25,42 @@
   "Members": [
     {
       "ID": 1,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
+      "Name": "Dr. D. K. Patel",
+      "Position": "Rector",
+      "Department": "Mechanical Department",
+      "Image": "/images/Faculty/Mechanical/dinesh.jpg",
       "Email": "roshni.chaudhari@gecpatan.ac.in"
     },
     {
       "ID": 2,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
+      "Name": "Prof. B. B. Patel",
+      "Position": "Wardan(Boys)",
+      "Department": "Mechanical Department",
+      "Image": "~/images/Faculty/Mechanical/Bhargav.jpg",
       "Email": "roshni.chaudhari@gecpatan.ac.in"
     },
     {
       "ID": 3,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
+      "Name": "Prof. J. P. Patel",
+      "Position": "Asst. Warden(Boys)",
+      "Department": "Computer Science Department",
+      "Image": "~/images/Faculty/Computer/jay.jpg",
       "Email": "roshni.chaudhari@gecpatan.ac.in"
     },
     {
       "ID": 4,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
+      "Name": "Prof. K. R. Raval",
+      "Position": "Warden(Girls)",
+      "Department": "Computer Science Department",
+      "Image": "~/images/Faculty/Computer/dummy.jpg",
+      "Email": "roshni.chaudhari@gecpatan.ac.in"
+    },
+    {
+      "ID": 5,
+      "Name": "Prof. ",
+      "Position": "Asst. Warden(Girls)",
+      "Department": "Computer Science Department",
+      "Image": "~/images/Faculty/Computer/dummy.jpg",
       "Email": "roshni.chaudhari@gecpatan.ac.in"
     }
 

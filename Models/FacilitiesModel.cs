@@ -78,9 +78,9 @@ namespace GECP_Front_End_Static.Models
         public string Titleimage { get; set; }
         public string TitleImageCSSClass { get; set; }
         public string Content { get; set; }
-        public string Mision { get; set; }
-        public string Vision { get; set; }
-        public string Books { get; set; }
+		public List<string> Vision { get; set; }
+		public List<string> Mission { get; set; }
+		public string Books { get; set; }
         public string Periodicals { get; set; }
         public string Reports { get; set; }
         public string Biography { get; set; }
@@ -112,8 +112,11 @@ namespace GECP_Front_End_Static.Models
 		public string TitleImageCSSClass { get; set; }
 		public string SideImage { get; set; }
 		public string About { get; set; }
-		public List<Benefit> Benefits { get; set; }
-	}
+        public List<string> Vision { get; set; }
+        public List<string> Mission { get; set; }
+        public List<Benefit> Benefits { get; set; }
+        public List<Members> Members { get; set; }
+    }
 
 }
 
