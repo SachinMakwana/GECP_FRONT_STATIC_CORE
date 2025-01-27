@@ -233,31 +233,31 @@
 			</div>
 
 			<div id="LabsInfo" class="tabs-panel3">
-			
-					@if (Model.Labs.Count() > 0)
-					{
-						foreach (var lab in Model.Labs)
-						{
-							<div class="boxdetail">
-							<h2 class="boxtitle">@lab.Lab_Name</h2>
-								<div class="one_third">
-									<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
 
-								</div>
-								<div class="two_third last">
-									<div class="lab-content">
-										
-										<p class="text-justify">@lab.Lab_Details</p>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-						}
-					}
-					else
+				@if (Model.Labs.Count() > 0)
+				{
+					foreach (var lab in Model.Labs)
 					{
-					<h2 class="boxtitle">No labs available for this department.</h2>
+						<div class="boxdetail">
+							<h2 class="boxtitle">@lab.Lab_Name</h2>
+							<div class="one_third">
+								<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
+
+							</div>
+							<div class="two_third last">
+								<div class="lab-content">
+
+									<p class="text-justify">@lab.Lab_Details</p>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
 					}
+				}
+				else
+				{
+					<h2 class="boxtitle">No labs available for this department.</h2>
+				}
 			</div>
 
 
@@ -490,6 +490,7 @@
 					if (e.target == this) {
 						if ($(popup).is(':visible')) {
 							$(popup).hide();
+							resetPopUpScroll();
 						}
 					}
 				});
@@ -499,6 +500,7 @@
 						$(".formElementError").remove();
 					}
 					$(popup).hide();
+					resetPopUpScroll();
 				});
 			}
 
@@ -506,8 +508,13 @@
 				$(".popup-trigger").on("click", function () {
 					var target = $(this).data('target');
 					popupOpenClose($(target));
+					resetPopUpScroll();
 				});
 			});
+
+			function resetPopUpScroll(){
+				$("#pdfreader").scrollTop(0);
+			}
 		</script>
 
 	}
