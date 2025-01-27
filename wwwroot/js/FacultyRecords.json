@@ -489,7 +489,111 @@
     "Date_of_Joining": "2020-06-08",
     "Qualification": "M.E. (C.S.E.)",
     "Area_of_Interest": "Python",
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>"
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>",
+    "PersonalDetails": {
+      "Name": "SACHINKUMAR HARSHADBHAI MAKWANA",
+      "Designation": "Professor",
+      "Department": "Computer Science",
+      "Contact": "+91-7405450827",
+      "Email": "SACHIN.MAKWANA@GECPATAN.AC.IN"
+
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "B.E.",
+        "University": "",
+        "Year": "2011",
+        "Specialization": "COMPUTER ENGINEERING"
+      },
+      {
+        "Degree": "M.E.",
+        "University": "ABC Institute",
+        "Year": "2015",
+        "Specialization": "COMPUTER SCIENCE AND ENGINEERING"
+      }
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Assistant Professor",
+        "Organization": "GOVERNMENT ENGINEERING COLLEGE, PATAN",
+        "Duration": "08-06-2020 - Present"
+      }
+    ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
+        "OrganizedBy": "Education Department",
+        "Date": "06-07-2020 to 14-09-2020"
+      },
+      {
+        "Title": "UDAYAM (Unlimited Digital Advanced Yearlong Academic Method of Learning) E-Content Development Course",
+        "OrganizedBy": "KCG Education Department",
+        "Date": "28-07-2020 to 18-08-2020"
+      },
+      {
+        "Title": "Block chain",
+        "OrganizedBy": "AICTE Training And Learning (ATAL) Academy Online FDP",
+        "Date": "19-10-2020 to 23-10-2020"
+      },
+      {
+        "Title": "INDUCTION PROGRAMME PHASE - I",
+        "OrganizedBy": "NITTTR Bhopal, Online",
+        "Date": "05-07-2021 to 16-09-2021"
+      },
+      {
+        "Title": "INDUCTION PROGRAMME PHASE - II",
+        "OrganizedBy": "NITTTR Bhopal, Online",
+        "Date": "27-06-2022 to 08-07-2022"
+      },
+      {
+        "Title": "Introduction to Programming in C",
+        "OrganizedBy": "Swayam, NPTEL IIT kanpur",
+        "Date": "23-01-2023 to 17-03-2023"
+      },
+      {
+        "Title": "Introduction to Machine Learning - IITKGP",
+        "OrganizedBy": "Swayam, NPTEL IIT Kharagpur",
+        "Date": "24-07-2023 to 15-09-2023"
+      },
+      {
+        "Title": "Introduction to Internet Of Things",
+        "OrganizedBy": "Swayam, NPTEL IIT Kharagpur",
+        "Date": "22-01-2024 to 12-04-2024"
+      },
+      {
+        "Title": "Industrial Training at Tatvasoft",
+        "OrganizedBy": "TatvaSoft, Tatva House, Behind Rajpath Club, Bodakdev, Ahmedabad - 380054",
+        "Date": "01-07-2024 to 12-07-2024"
+      }
+
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "Sachinkumar Harshadbhai Makwana, DB Vaghela, P Sharma, 'A DECISION SUPPORT APPLICATION FOR STUDENT ADMISSION PROCESS BASED ON PREDICTION IN DISTRIBUTED DATA MINING'', ICIKR-EMS, December, 2014"
+
+      },
+      {
+        "SrNo": 2,
+        "Title": "Priyanka Sharma Sachin H Makwana, Dinesh B Vaghela, 'An Effective Approach for Student Admission Prediction using Binary Search Tree with Distributed Data Mining', ICIIECS, 2015"
+      },
+      {
+        "SrNo": 3,
+        "Title": "Sachinkumar Harshadbhai Makwana, Haresh Dhanji Chande, Pinesh Arvindbhai Darji, “Leveraging Random Forest For Nutritional Analysis And Prediction In Food Data”, 2022, Volume 11 , Issue 13 , Page: 3315 -3323."
+      },
+      {
+        "SrNo": 4,
+        "Title": "Bhoomi H Trivedi Pinesh Arvindbhai Darji, Sachinkumar Harshadbhai Makwana, Haresh Dhanji Chande, Rathod Swatiben Yashwanthbhai, Rathod Truptiben Yashwanthbhai, Payal Prajapati, Rathod Hiral Yashwantbhai, Utilizing an Ensemble of Extra Tree Model for Classifying Mesothelioma Cancer, 2024, Africal Journal of Biological Science, Volume 6, Issue 12, Pages 536-545"
+      },
+      {
+        "SrNo": 5,
+        "Title": "Twitter Based Sentiment Analysis of Russia-Ukraine War Using Machine Learning, Vaghela, Dineshkumar Bhagwandas; Makwana, Sachinkumar H; Chande, Haresh D; Mehta, Priyam.  Journal of Electrical Systems; Paris Vol. 20, Iss. 10s,  (2024): 1269-1283."
+      },
+      {
+        "SrNo": 6,
+        "Title": "Yashwantbhai, R.H. and Chande, H.D. and Makwana, S.H. and Prajapati, P. and Gondalia, A. and Darji, P.A., Deep learning model for smart wearables device to detect human health conduction, Measurement: Sensors,volume.36, 2024, 101401, ISSN 2665-9174."
+      }
+    ]
 
   },
 
@@ -590,7 +694,118 @@
     "Date_of_Joining": "2015-10-25",
     "Qualification": "M.E - Computer Engineering",
     "Area_of_Interest": "Image Processing, Machine Learning",
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARESH CHANDE</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E - Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Image Processing, Machine Learning</span></li></ul></div></div></div>"
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARESH CHANDE</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E - Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Image Processing, Machine Learning</span></li></ul></div></div></div>",
+    "PersonalDetails": {
+      "Name": "Haresh Dhanji Chande",
+      "Designation": "Professor",
+      "Department": "Computer Science",
+      "Contact": "+91-9725179795",
+      "Email": "haresh.chande@gecpatan.ac.in"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "B.E.",
+        "University": "",
+        "Year": "2010",
+        "Specialization": "Computer Engineering"
+      },
+      {
+        "Degree": "M.E.",
+        "University": "",
+        "Year": "2012",
+        "Specialization": "Image processing and Machine Learning"
+      },
+      {
+        "Degree": "Ph.D",
+        "University": "",
+        "Year": "Pursuing",
+        "Specialization": "Image processing and Machine Learning"
+      }
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Assistant Professor",
+        "Organization": "GOVERNMENT ENGINEERING COLLEGE, PATAN",
+        "Duration": "08-06-2020 - Present"
+      }
+    ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
+        "OrganizedBy": "Education Department",
+        "Date": "06-07-2020 to 14-09-2020"
+      },
+      {
+        "Title": "UDAYAM (Unlimited Digital Advanced Yearlong Academic Method of Learning) E-Content Development Course",
+        "OrganizedBy": "KCG Education Department",
+        "Date": "28-07-2020 to 18-08-2020"
+      },
+      {
+        "Title": "Block Chain",
+        "OrganizedBy": "AICTE Training And Learning (ATAL) Academy Online FDP",
+        "Date": "19-10-2020 to 23-10-2020"
+      },
+      {
+        "Title": "INDUCTION PROGRAMME PHASE - I",
+        "OrganizedBy": "NITTTR Bhopal, Online",
+        "Date": "02-08-2021 to 13-08-2021"
+      },
+      {
+        "Title": "INDUCTION PROGRAMME PHASE - II",
+        "OrganizedBy": "NITTTR Bhopal, Online",
+        "Date": "27-06-2022 to 08-07-2022"
+      },
+      {
+        "Title": "Introduction to Programming in C",
+        "OrganizedBy": "Swayam, NPTEL IIT kanpur",
+        "Date": "23-01-2023 to 17-03-2023"
+      },
+      {
+        "Title": "Introduction to Machine Learning - IITKGP",
+        "OrganizedBy": "Swayam, NPTEL IIT Kharagpur",
+        "Date": "24-07-2023 to 15-09-2023"
+      },
+      {
+        "Title": "Introduction to Internet Of Things",
+        "OrganizedBy": "Swayam, NPTEL IIT Kharagpur",
+        "Date": "22-01-2024 to 12-04-2024"
+      },
+      {
+        "Title": "Industrial Training at Tatvasoft",
+        "OrganizedBy": "TatvaSoft, Tatva House, Behind Rajpath Club, Bodakdev, Ahmedabad - 380054",
+        "Date": "01-07-2024 to 12-07-2024"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "Haresh D. Chande and Zankhana H. Shah, 'Illumination Invariant Face Recognition System', International Journal of Computer Science and Information Technologies, vol. 3, no. 3, 2012."
+      },
+      {
+        "SrNo": 2,
+        "Title": "Dipannita Kar ,  Prof. Haresh Chande,  Mr. Rajendra N. Gaikwad, 'A STUDY PAPER ON OUTLIER DETECTION ON TIME SERIES DATA', International Journal of Creative Research Thoughts (IJCRT), ISSN:2320-2882, Volume.5, Issue 4, pp.2244-2249, December 2017."
+      },
+      {
+        "SrNo": 3,
+        "Title": "Sachinkumar Harshadbhai Makwana, Haresh Dhanji Chande, Pinesh Arvindbhai Darji, “Leveraging Random Forest For Nutritional Analysis And Prediction In Food Data”, 2022, Volume 11 , Issue 13 , Page: 3315 -3323."
+      },
+      {
+        "SrNo": 4,
+        "Title": "Bhoomi H Trivedi Pinesh Arvindbhai Darji, Sachinkumar Harshadbhai Makwana, Haresh Dhanji Chande, Rathod Swatiben Yashwanthbhai, Rathod Truptiben Yashwanthbhai, Payal Prajapati, Rathod Hiral Yashwantbhai, Utilizing an Ensemble of Extra Tree Model for Classifying Mesothelioma Cancer, 2024, Africal Journal of Biological Science, Volume 6, Issue 12, Pages 536-545"
+      },
+      {
+        "SrNo": 5,
+        "Title": "Twitter Based Sentiment Analysis of Russia-Ukraine War Using Machine Learning, Vaghela, Dineshkumar Bhagwandas; Makwana, Sachinkumar H; Chande, Haresh D; Mehta, Priyam.  Journal of Electrical Systems; Paris Vol. 20, Iss. 10s,  (2024): 1269-1283."
+      },
+      {
+        "SrNo": 6,
+        "Title": "Yashwantbhai, R.H. and Chande, H.D. and Makwana, S.H. and Prajapati, P. and Gondalia, A. and Darji, P.A., Deep learning model for smart wearables device to detect human health conduction, Measurement: Sensors,volume.36, 2024, 101401, ISSN 2665-9174."
+      }
+
+
+
+
+    ]
 
   },
 
