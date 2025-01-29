@@ -6,7 +6,21 @@
 
 }
 
+<style>
+    .width{
+        color: black;
+        width:100%;
+    }
 
+    .border{
+        border : 1px solid #eee;
+        border-radius:6px;
+    }
+
+    .border:hover {
+            background-color: #f9f9f9e8;
+    }
+</style>
 <div class="clearfix"></div>
 
 
@@ -26,22 +40,18 @@
 
 
 <div class="featured_section69 text-justify">
-    @foreach (var factor in Model.Clubs)
-    {
-         
-    }
     <div class="container">
         @foreach (var factor in Model.Clubs)
         {
-            <div class="card mb-4" style="border:2px solid; border-radius:6px;">
-                <div class="row no-gutters" style="margin:10px">
+            <div class="card mb-4 border fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
+                <div class="row no-gutters" style="margin:15px">
                     <div class="col-md-3">
                         <img src=@factor.Image class="card-img p-3 rimg" style="height: 150px;">
                     </div>
                     <div class="col-md-9">
                         <div class="card-body">
                             <h4 class="card-title headingsall"><b>@factor.Title</b></h4>
-                            <p class="card-text text-justify" style="color: black; width:100%">@factor.About></p>
+                            <p class="card-text text-justify width">@factor.About></p>
                             <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                         </div>
                     </div>
@@ -51,7 +61,7 @@
             <p class="clearfix margin_bottom3"></p>
 
         }
-        <div class="card mb-4" style="/* border:2px solid; *//* border-radius:6px; */padding: 10px;">
+        @* <div class="card mb-4" style="/* border:2px solid; *//* border-radius:6px; */padding: 10px;">
             <div class="row no-gutters" style="/* margin:10px; */">
                 <div class="col-md-3" style="
     background: grey;
@@ -95,7 +105,7 @@
                     <img src="../../images/icon-img17.png" class="card-img p-3 rimg" style="height: 150px;">
                 </div>
             </div>
-        </div>
+        </div> *@
       @*  <div class="card mb-4" style="border:2px solid; border-radius:6px;">
             <div class="row no-gutters" style="margin:10px">
                 <div class="col-md-3">

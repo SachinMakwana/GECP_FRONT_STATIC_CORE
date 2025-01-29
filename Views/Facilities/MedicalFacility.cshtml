@@ -27,16 +27,21 @@
     <div class="container">
         <div class="card mb-4" style="border:2px solid; border-radius:6px;">
             <div class="row no-gutters" style="margin:10px">
-                <div class="">
+
+                <div class="one_third" style="flex: 1 1 30%; max-width: 30%; display: flex; align-items: center;">
+                    <img src="@Url.Content(Model.Image)" class="rimg" alt="" style="border-radius: 6px;">
+                </div>
+
+                <div class="two_third last">
                     @foreach (var des in Model.Descriptions)
                     {
-                    <div class="card-body">
+                        <div class="card-body">
                         
-                        <p class="card-text text-justify" style="color: black; width:100%">@des.Point</p>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                    <div class="margin_bottom1"></div>
-                }
+                            <p class="card-text text-justify" style="color: black;">@des.Point</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                        </div>
+                        <div class="margin_bottom1"></div>
+                    }
                    @* <div class="card-body">
                         
                         <p class="card-text text-justify" style="color: black; width:100%">The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.</p>
