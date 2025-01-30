@@ -20,6 +20,25 @@
 		.border:hover {
 			background-color: #f9f9f9e8;
 		}
+.popupWhole{
+	padding:30px;
+}
+	.popUpHeader{
+		border: 1px solid #dfdcdc;
+		padding: 10px;
+		/* border-left: 5px solid; */
+		margin-bottom: 0px;
+	}
+	.popUpHeader h2{
+			border-left: 10px solid;
+			padding: 5px 10px;
+			margin-bottom:0px;
+	}
+	.popupBody{
+		border: 1px solid #dfdcdc;
+		min-height: 380px;
+		padding: 30px 10px;
+	}
 </style>
 <div class="clearfix"></div>
 
@@ -48,7 +67,7 @@
 				<img src="@Url.Content(factor.Image)" alt="">
 
 				<h5>@factor.Title</h5>
-				<h5><a href="javascript:void(0)" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@factor))">Read</a></h5>
+				<h5><a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@factor))">Read More</a></h5>
 			</div>
 			@if (count % 4 == 0)
 			{
@@ -63,24 +82,21 @@
 
 <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
 <div id="popup" class="popup">
-	<h2 id="newsname"></h2>
-	<!-- <div class="popup-text"> -->
-	<div id="pdfreader" >
-		<div class="card mb-4 border fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
-			<div class="row no-gutters" style="margin:15px">
-				<div class="col-md-3">
-					<img src="" class="card-img p-3 rimg" style="height: 150px;" id="clubImg">
-				</div>
-				<div class="col-md-9">
-					<div class="card-body">
-						<p class="card-text text-justify" id="clubAbout"></p>
-						<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-					</div>
-				</div>
-			</div>
+	<div class="popupWhole">
+		<div class="popUpHeader">
+		<h2 id="newsname"></h2>
 		</div>
+	<!-- <div class="popup-text"> -->
+	<div id="pdfreader" class="popupBody">
+			<div class="one_third">
+				<img src="" class="card-img p-3 rimg" style="height: 150px;" id="clubImg">
+			</div>
+			<div class="two_third last">
+					<p class="card-text text-justify" id="clubAbout"></p>
+			</div>
 	</div>
 	<!-- </div> -->
+	</div>
 	<span class="popup-btn-close">&times;</span>
 </div>
 
