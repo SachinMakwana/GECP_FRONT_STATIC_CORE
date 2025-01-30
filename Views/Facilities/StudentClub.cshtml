@@ -1,178 +1,145 @@
 ﻿@model Student
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = Model.Title;
-    int count = 1;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = Model.Title;
+	int count = 1;
 
 }
 
 <style>
-    .width{
-        color: black;
-        width:100%;
-    }
+	.width {
+		color: black;
+		width: 100%;
+	}
 
-    .border{
-        border : 1px solid #eee;
-        border-radius:6px;
-    }
+	.border {
+		border: 1px solid #eee;
+		border-radius: 6px;
+	}
 
-    .border:hover {
-            background-color: #f9f9f9e8;
-    }
+		.border:hover {
+			background-color: #f9f9f9e8;
+		}
 </style>
 <div class="clearfix"></div>
 
 
 <div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.Titleimage) no-repeat center top;background-size: cover;">
-    <div class="container">
+	<div class="container">
 
-        <h1>
-            @Model.Title <em>Government Engineering College</em>
-            <div class="line"></div>
-        </h1>
+		<h1>
+			@Model.Title <em>Government Engineering College</em>
+			<div class="line"></div>
+		</h1>
 
-    </div>
+	</div>
 </div>
 <div class="clearfix margin_bottom6"></div>
 
 <!-- end page title -->
 
 
-<div class="featured_section69 text-justify">
-    <div class="container">
-        @foreach (var factor in Model.Clubs)
-        {
-            <div class="card mb-4 border fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
-                <div class="row no-gutters" style="margin:15px">
-                    <div class="col-md-3">
-                        <img src=@factor.Image class="card-img p-3 rimg" style="height: 150px;">
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h4 class="card-title headingsall"><b>@factor.Title</b></h4>
-                            <p class="card-text text-justify width">@factor.About></p>
-                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="featured_section48">
+	<div class="container">
+		@foreach (var factor in Model.Clubs)
+		{
+			<div class="one_fourth animate @(count%4==0?"last":"")" data-anim-type="fadeInUp" data-anim-delay="100">
 
-            <p class="clearfix margin_bottom3"></p>
+				<img src="@Url.Content(factor.Image)" alt="">
 
-        }
-        @* <div class="card mb-4" style="/* border:2px solid; *//* border-radius:6px; */padding: 10px;">
-            <div class="row no-gutters" style="/* margin:10px; */">
-                <div class="col-md-3" style="
-    background: grey;
-    min-height: 200px;
-    padding-top: 25px;
-">
-                    <img src="../../images/icon-img17.png" class="card-img p-3 rimg" style="height: 150px;">
-                </div>
-                <div class="col-md-9" style="
-    background: #ebe8e8;
-    min-height: 200px;
-    padding-top: 25px;
-">
-                    <div class="card-body">
-                        <h4 class="card-title headingsall"><b>Google Developer Club</b></h4>
-                        <p class="card-text text-justify" style="color: black; width:100%">The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.&gt;</p>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card mb-4" style="/* border:2px solid; *//* border-radius:6px; */padding: 10px;">
-            <div class="row no-gutters" style="/* margin:10px; */">
-                
-                <div class="col-md-9" style="
-    background: #ebe8e8;
-    min-height: 200px;
-    padding-top: 25px;
-">
-                    <div class="card-body">
-                        <h4 class="card-title headingsall"><b>Google Developer Club</b></h4>
-                        <p class="card-text text-justify" style="color: black; width:100%">The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.&gt;</p>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                </div>
-                <div class="col-md-3" style="
-    background: grey;
-    min-height: 200px;
-    padding-top: 25px;
-">
-                    <img src="../../images/icon-img17.png" class="card-img p-3 rimg" style="height: 150px;">
-                </div>
-            </div>
-        </div> *@
-      @*  <div class="card mb-4" style="border:2px solid; border-radius:6px;">
-            <div class="row no-gutters" style="margin:10px">
-                <div class="col-md-3">
-                    <img src="/images/gallary/campus11.jpg" class="card-img p-3 rimg" style="height: 150px;">
-                </div>
-                <div class="col-md-9">
-                    <div class="card-body">
-                        <h5 class="card-title headingsall">Admistrative Block</h5>
-                        <p class="card-text text-justify" style="color: black; width:100%">The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.</p>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <p class="clearfix margin_bottom3"></p>
-
-        <div class="card mb-4" style="border:2px solid; border-radius:6px;">
-            <div class="row no-gutters" style="margin:10px">
-                <div class="col-md-3">
-                    <img src="/images/gallary/campus11.jpg" class="card-img p-3 rimg" style="height: 150px;">
-                </div>
-                <div class="col-md-9">
-                    <div class="card-body">
-                        <h5 class="card-title headingsall">Admistrative Block</h5>
-                        <p class="card-text text-justify" style="color: black; width:100%">The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.</p>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <p class="clearfix margin_bottom3"></p>
-
-        <div class="card mb-4" style="border:2px solid; border-radius:6px;">
-            <div class="row no-gutters" style="margin:10px">
-                <div class="col-md-3">
-                    <img src="/images/gallary/campus11.jpg" class="card-img p-3 rimg" style="height: 150px;">
-                </div>
-                <div class="col-md-9">
-                    <div class="card-body">
-                        <h5 class="card-title headingsall">Admistrative Block</h5>
-                        <p class="card-text text-justify" style="color: black; width:100%">The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.</p>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <p class="clearfix margin_bottom3"></p>
-
-        <div class="card mb-4" style="border:2px solid; border-radius:6px;">
-            <div class="row no-gutters" style="margin:10px">
-                <div class="col-md-3">
-                    <img src="/images/gallary/campus11.jpg" class="card-img p-3 rimg" style="height: 150px;">
-                </div>
-                <div class="col-md-9">
-                    <div class="card-body">
-                        <h5 class="card-title headingsall">Admistrative Block</h5>
-                        <p class="card-text text-justify" style="color: black; width:100%">The Placement Cell in Vishwakarma Government Engineering College has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.</p>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <p class="clearfix margin_bottom3"></p>
-        *@
-    </div>
+				<h5>@factor.Title</h5>
+				<h5><a href="javascript:void(0)" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@factor))">Read</a></h5>
+			</div>
+			@if (count % 4 == 0)
+			{
+				<div class="clearfix margin_bottom3"></div>
+			}
+			count++;
+		}
+		<div class="clearfix margin_bottom3"></div>
+		
+	</div>
 </div>
+
+<a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+<div id="popup" class="popup">
+	<h2 id="newsname"></h2>
+	<!-- <div class="popup-text"> -->
+	<div id="pdfreader" >
+		<div class="card mb-4 border fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
+			<div class="row no-gutters" style="margin:15px">
+				<div class="col-md-3">
+					<img src="" class="card-img p-3 rimg" style="height: 150px;" id="clubImg">
+				</div>
+				<div class="col-md-9">
+					<div class="card-body">
+						<p class="card-text text-justify" id="clubAbout"></p>
+						<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- </div> -->
+	<span class="popup-btn-close">&times;</span>
+</div>
+
+
+<div class="clearfix"></div>
+
+@section scripts {
+	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+	<script>
+		function loadPdf(obj) {
+			console.log(obj)
+			if (obj !== null) {
+					$("#newsname").text(obj.Title);
+					 $('#clubImg').attr('src',obj.Image);
+					$("#clubAbout").text(obj.About);
+					$("#lnkPopup").click();
+			}
+		}
+	</script>
+
+
+	<script>
+		function popupOpenClose(popup) {
+
+			/* Add div inside popup for layout if one doesn't exist */
+			if ($(".wrapper", popup).length == 0) {
+				$(popup).wrapInner("<div class='wrapper'></div>");
+			}
+
+			/* Open popup */
+			$(popup).show();
+
+			/* Close popup if user clicks on background */
+			$(popup).click(function (e) {
+				if (e.target == this) {
+					if ($(popup).is(':visible')) {
+						$(popup).hide();
+					}
+				}
+			});
+
+			/* Close popup and remove errors if user clicks on cancel or close buttons */
+			$(popup).find(".popup-btn-close").on("click", function () {
+				if ($(".formElementError").is(':visible')) {
+					$(".formElementError").remove();
+				}
+				$(popup).hide();
+			});
+		}
+
+		$(document).ready(function () {
+			$(".popup-trigger").on("click", function () {
+				var target = $(this).data('target');
+				popupOpenClose($(target));
+			});
+		});
+	</script>
+}
+
+@section styles {
+	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+}
