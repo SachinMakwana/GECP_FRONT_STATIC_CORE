@@ -88,7 +88,7 @@
 					<!-- end section -->
 
 					<div class="one_fourth last">
-						<i class="fa fa-building"></i> <span id="target25">@Model.LabWorkshop</span>
+						<i class="fa fa-building"></i> <span id="target25">@Model.Labs.Count()</span>
 						<h4>Labs And Workshops</h4>
 					</div>
 					<!-- end section -->
@@ -507,6 +507,7 @@
 					if (e.target == this) {
 						if ($(popup).is(':visible')) {
 							$(popup).hide();
+							resetPopUpScroll();
 						}
 					}
 				});
@@ -516,6 +517,7 @@
 						$(".formElementError").remove();
 					}
 					$(popup).hide();
+					resetPopUpScroll();
 				});
 			}
 
@@ -523,8 +525,13 @@
 				$(".popup-trigger").on("click", function () {
 					var target = $(this).data('target');
 					popupOpenClose($(target));
+					resetPopUpScroll();
 				});
 			});
+
+		function resetPopUpScroll(){
+			$("#pdfreader").scrollTop(0);
+		}
 		</script>
 
 	}
