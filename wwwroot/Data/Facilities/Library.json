@@ -13,35 +13,19 @@
   "Members": [
     {
       "ID": 1,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
+      "Name": "Dr. S.P. Patel",
+      "Position": "Convener",
+      "Department": "Mechanical Engineering",
+      "Image": "~/images/Faculty/Mechanical/518_SPP.jpg",
+      "Email": "sachin.patel@gecpatan.ac.in"
     },
     {
       "ID": 2,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
-    },
-    {
-      "ID": 3,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
-    },
-    {
-      "ID": 4,
-      "Name": "Prof. R. A. Chaudhari",
-      "Position": "Coordinator",
-      "Department": "Electronics & Communication Engineering Department",
-      "Image": "~/images/Faculty/EC/roshni.jpg",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
+      "Name": "Prof. Y.P. Patel",
+      "Position": "Member",
+      "Department": "Computer Science & Engineering",
+      "Image": "~/images/Faculty/Computer/dummy.jpg",
+      "Email": "yogesh.patel.@gecpatan.ac.in"
     }
 
   ]

@@ -28,16 +28,16 @@
       "Name": "Dr. D. K. Patel",
       "Position": "Rector",
       "Department": "Mechanical Department",
-      "Image": "~/images/FacultyImg/ccp_photo - CHIRAGKUMAR PATEL.png",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
+      "Image": "~/images/Faculty/Mechanical/502_DKP.jpg",
+      "Email": ""
     },
     {
       "ID": 2,
       "Name": "Prof. B. B. Patel",
       "Position": "Wardan(Boys)",
       "Department": "Mechanical Department",
-      "Image": "~/images/Faculty/Mechanical/Bhargav.jpg",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
+      "Image": "~/images/Faculty/Mechanical/506_BP.jpg",
+      "Email": ""
     },
     {
       "ID": 3,
@@ -45,7 +45,7 @@
       "Position": "Asst. Warden(Boys)",
       "Department": "Computer Science Department",
       "Image": "~/images/Faculty/Computer/jay.jpg",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
+      "Email": "jaypatel0513@gmail.com"
     },
     {
       "ID": 4,
@@ -53,11 +53,11 @@
       "Position": "Warden(Girls)",
       "Department": "Computer Science Department",
       "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": "roshni.chaudhari@gecpatan.ac.in"
+      "Email": ""
     },
     {
       "ID": 5,
-      "Name": "Prof. ",
+      "Name": "Prof. R.A. Chaudhari",
       "Position": "Asst. Warden(Girls)",
       "Department": "Computer Science Department",
       "Image": "~/images/Faculty/Computer/dummy.jpg",

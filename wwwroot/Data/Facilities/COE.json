@@ -4,8 +4,8 @@
   "Titleimage": "../../images/ssip_banner.jpg",
   "TitleImageCSSClass": "ssip_title",
   "SideImage": "../../images/Institute/CoE/CoE.jpg",
-  "Vision": [ "" ],
-  "Mission": [ "" ],
+  "Vision": [ "To be a beacon of academic excellence and innovation, empowering students, faculty, and communities to drive positive societal change through research, knowledge, and sustainable development." ],
+  "Mission": [ "To provide a dynamic environment for academic growth, fostering research, collaboration, and skill development. The CoE will enhance educational practices, promote interdisciplinary learning, and create solutions that address real-world challenges in partnership with government, industry, and the community." ],
   "About": "Government Engineering College has initiated to build Centre of Excellence (COE) with an objective of developing industry institute partnership in the field of Automation, Mobile Hydraulic, Automobile, and Mobile Electronics Technologies to bridge technology gaps between industry and academia to foster research and knowledge among the students. The main goal would be to improve the technical competence, employability and entrepreneurship of students who train at the centre and encourage students to pursue PG programs. The centre of competence is established to bridge the gap between industry expectations and theoretical deficiencies with the objectives, to provide hands on experience to the students of engineering and polytechnics institutes to the recent technologies practiced in the industry and to enable all the students in different regions and rural areas to have exposure to industry and technologies, by the concept of center of excellence.",
   "Benefits": [
     {
@@ -44,11 +44,6 @@
       "Text": "Access to support"
     },
     {
-      "Icon": "fas fa-headset",
-      "Time": "900",
-      "Text": "Access to support"
-    },
-    {
       "Icon": "fas fa-tasks",
       "Time": "800",
       "Text": "Easy management"
@@ -57,10 +52,26 @@
   "Members": [
     {
       "ID": 1,
-      "Name": "",
-      "Position": "",
-      "Department": "",
-      "Image": "",
+      "Name": "Dr. K.V. Patel",
+      "Position": "Convener",
+      "Department": "Mechanical",
+      "Image": "~/images/Faculty/Computer/dummy.jpg",
+      "Email": "vipul.patel@gecpatan.ac.in"
+    },
+    {
+      "ID": 2,
+      "Name": "Dr. P.D Patel",
+      "Position": "Menber",
+      "Department": "Electrical",
+      "Image": "~/images/Faculty/Computer/dummy.jpg",
+      "Email": "pravin.patel@gecpata.ac.in"
+    },
+    {
+      "ID": 3,
+      "Name": "Dr. J.C. Prajapati",
+      "Position": "Menber",
+      "Department": "Electronics & Communication",
+      "Image": "~/images/Faculty/Computer/dummy.jpg",
       "Email": ""
     }
   ]
