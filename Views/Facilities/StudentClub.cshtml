@@ -17,6 +17,10 @@
 		border-radius: 6px;
 	}
 
+	.hieght-150 {
+		max-height:150px;
+		min-height:150px
+	}
 		.border:hover {
 			background-color: #f9f9f9e8;
 		}
@@ -64,7 +68,7 @@
 		{
 			<div class="one_fourth animate @(count%4==0?"last":"")" data-anim-type="fadeInUp" data-anim-delay="100">
 
-				<img src="@Url.Content(factor.Image)" alt="">
+				<img src="@Url.Content(factor.Image)" alt="" class="hieght-150">
 
 				<h5>@factor.Title</h5>
 				<h5><a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@factor))">Read More</a></h5>
