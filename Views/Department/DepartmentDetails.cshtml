@@ -210,7 +210,6 @@
 									(data.TrainingAndWorkshops != null && data.TrainingAndWorkshops.Any()) ||
 									(data.Publications != null && data.Publications.Any());
 								}
-
 								@if (hasData)
 								{
 									<a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">

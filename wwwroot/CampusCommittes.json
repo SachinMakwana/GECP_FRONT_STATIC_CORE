@@ -37,7 +37,7 @@
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Coordinator",
         "Department": "Electronics & Communication Engineering Department",
-        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Image": "~/images/Faculty/107.jpg",
         "Email": "roshni.chaudhari@gecpatan.ac.in"
       },
       {
@@ -45,7 +45,7 @@
         "Name": "Prof. H. Y. Rathod",
         "Position": "Member",
         "Department": "Computer Scence & Engineering Department",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/1000.jpg",
         "Email": "hiral.rathod@gecpatan.ac.in"
       },
       {
@@ -53,7 +53,7 @@
         "Name": "Smt. P. J. Patel",
         "Position": "Member",
         "Department": "Mechanical Engineering Department",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/1000.jpg",
         "Email": "priyanka.patel@gecpatan.ac.in"
       }
     ]
@@ -99,7 +99,7 @@
         "Name": "Dr. H. N. Panchal",
         "Position": "Converner",
         "Department": "Mechanical Engineering Department",
-        "Image": "~/images/Faculty/Mechanical/Hitesh.jpg",
+        "Image": "~/images/Faculty/519.jpg",
         "Email": "hitesh.panchal@gecpatan.ac.in"
       },
       {
@@ -107,7 +107,7 @@
         "Name": "Prof. H. L. Chaudhari",
         "Position": "Converner",
         "Department": "Computer Scence & Engineering Department",
-        "Image": "~/images/Faculty/Computer/Harshad.jpg",
+        "Image": "~/images/Faculty/214.jpg",
         "Email": "harshad.chaudhary@gecpatan.ac.in"
       },
       {
@@ -115,7 +115,7 @@
         "Name": "Prof. M. I. Baliya",
         "Position": "Member",
         "Department": "Civil Engineering Department",
-        "Image": "~/images/Faculty/Civil/manjurali.jpg",
+        "Image": "~/images/Faculty/1000.jpg",
         "Email": "manjurali.baliya@gecpatan.ac.in"
       },
       {
@@ -123,7 +123,7 @@
         "Name": "Dr. P. D. Patel",
         "Position": "Member",
         "Department": "Electrical Engineering Department",
-        "Image": "~/images/Faculty/Electrical/PRAVIN.jpg",
+        "Image": "~/images/Faculty/306.jpg",
         "Email": "pravin.patel@gecpatan.ac.in"
       },
       {
@@ -131,7 +131,7 @@
         "Name": "Dr. M. B. Patel",
         "Position": "Member",
         "Department": "Electronics & Communication Engineering Department",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/108.jpg",
         "Email": "maulik.patel@gecpatan.ac.in"
       },
       {
@@ -139,7 +139,7 @@
         "Name": "Prof. M. J. Vasava",
         "Position": "Member",
         "Department": "Computer Scence & Engineering Department",
-        "Image": "~/images/Faculty/Computer/mehul.jpg",
+        "Image": "~/images/Faculty/211.jpg",
         "Email": "mehul.vasava@gecpatan.ac.in"
       }
     ]
@@ -182,28 +182,28 @@
         "ID": 1,
         "Name": "Prof. N. K. Dabhi",
         "Position": "Converner",
-        "Image": "~/images/Faculty/Electrical/NARAN.jpg",
+        "Image": "~/images/Faculty/304.jpg",
         "Email": "naran.dabhi@gecpatan.ac.in"
       },
       {
         "ID": 2,
         "Name": "Dr. A. K. Chaudhari",
         "Position": "Member",
-        "Image": "~/images/Faculty/General/AKC.jpg",
+        "Image": "~/images/Faculty/602.jpg",
         "Email": "ashok.chaudhari@gecpatan.ac.in"
       },
       {
         "ID": 3,
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Member",
-        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Image": "~/images/Faculty/107.jpg",
         "Email": "roshni.chaudhari@gecpatan.ac.in"
       },
       {
         "ID": 4,
         "Name": "Prof. V. B. Pansiniya",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/217.jpg",
         "Email": "viral.pansiniya@gecpatan.ac.in"
       }
     ]
@@ -237,14 +237,14 @@
         "ID": 1,
         "Name": "Prof. H. L. Chaudhary",
         "Position": "Converner",
-        "Image": "~/images/Faculty/Computer/Harshad.jpg",
+        "Image": "~/images/Faculty/214.jpg",
         "Email": "harshad.chaudhary@gecpatan.ac.in"
       },
       {
         "ID": 2,
         "Name": "Prof. B. P. Patel",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/1000.jpg",
         "Email": "bhavesh.patel@gecpatan.ac.in"
       }
     ]
@@ -278,28 +278,28 @@
         "ID": 1,
         "Name": "Prof. A. B. Dhruv",
         "Position": "Chairman",
-        "Image": "~/images/Faculty/Mechanical/anand.jpg",
+        "Image": "~/images/Faculty/HOD/501.jpg",
         "Email": "anand.dhruv@gecpatan.ac.in"
       },
       {
         "ID": 2,
         "Name": "Prof. V. P. Soni",
         "Position": "Member",
-        "Image": "~/images/Faculty/General/vps.jpg",
+        "Image": "~/images/Faculty/601.jpg",
         "Email": "vijay.soni@gecpatan.ac.in"
       },
       {
         "ID": 3,
         "Name": "Prof. B. P. Patel",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/1000.jpg",
         "Email": "bhavesh.patel@gecpatan.ac.in"
       },
       {
         "ID": 4,
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Member",
-        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Image": "~/images/Faculty/107.jpg",
         "Email": "roshni.chaudhari@gecpatan.ac.in"
       }
     ]
@@ -333,14 +333,14 @@
         "ID": 1,
         "Name": "Dr. D. K. Patel",
         "Position": "Converner",
-        "Image": "~/images/Faculty/Mechanical/dinesh.jpg",
+        "Image": "~/images/Faculty/502.jpg",
         "Email": "dinesh.patel@gecpatan.ac.in"
       },
       {
         "ID": 2,
         "Name": "Prof. V. K. Patel",
         "Position": "Member",
-        "Image": "~/images/Faculty/Mechanical/Vipul.jpg",
+        "Image": "~/images/Faculty/512.jpg",
         "Email": "vipul.patel@gecpatan.ac.in"
       }
     ]
@@ -389,14 +389,14 @@
         "ID": 2,
         "Name": "Dr. V. C. Makwana",
         "Position": "Member",
-        "Image": "~/images/Faculty/General/VCM.jpg",
+        "Image": "~/images/Faculty/603.jpg",
         "Email": "vijay.makwana@gecpatan.ac.in"
       },
       {
         "ID": 3,
         "Name": "Prof. M. J. Vasava",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/mehul.jpg",
+        "Image": "~/images/Faculty/211.jpg",
         //"Image": "~/images/Faculty/Computer/dummy.jpg",
         "Email": "mehul.vasava@gecpatan.ac.in"
       },
@@ -404,14 +404,14 @@
         "ID": 4,
         "Name": "Prof. M. M. Patel",
         "Position": "Member",
-        "Image": "~/images/Faculty/EC/mihir.jpg",
+        "Image": "~/images/Faculty/104.jpg",
         "Email": "mihir.patel@gecpatan.ac.in"
       },
       {
         "ID": 5,
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Member",
-        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Image": "~/images/Faculty/107.jpg",
         "Email": "roshni.chaudhari@gecpatan.ac.in"
       }
     ]
@@ -445,21 +445,21 @@
         "ID": 1,
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Converner",
-        "Image": "~/images/Faculty/EC/roshni.jpg",
+        "Image": "~/images/Faculty/207.jpg",
         "Email": "roshni.chaudhari@gecpatan.ac.in"
       },
       {
         "ID": 2,
         "Name": "Prof. H. Y. Rathod",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/1000.jpg",
         "Email": "hiral.rathod@gecpatan.ac.in"
       },
       {
         "ID": 3,
         "Name": "Smt. P. J. Patel",
         "Position": "Member",
-        "Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Image": "~/images/Faculty/1000.jpg",
         "Email": "priyanka.patel@gecpatan.ac.in"
       }
     ]

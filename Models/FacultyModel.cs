@@ -29,6 +29,7 @@ namespace GECP_Front_End_Static.Models
         public DateTime Date_of_Joining { get; set; }
         public string Qualification { get; set; }
         public string Area_of_Interest { get; set; }
+        public bool IsTeaching { get; set; }
 
         public string personal_details { get; set; }
 
