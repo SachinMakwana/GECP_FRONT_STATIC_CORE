@@ -52,7 +52,7 @@
   "Members": [
     {
       "ID": 1,
-      "Name": "Dr. K.V. Patel",
+      "Name": "Dr. K. V. Patel",
       "Position": "Convener",
       "Department": "Mechanical",
       "Image": "~/images/Faculty/Computer/dummy.jpg",
@@ -60,7 +60,7 @@
     },
     {
       "ID": 2,
-      "Name": "Dr. P.D Patel",
+      "Name": "Dr. P. D. Patel",
       "Position": "Menber",
       "Department": "Electrical",
       "Image": "~/images/Faculty/Computer/dummy.jpg",
@@ -68,11 +68,11 @@
     },
     {
       "ID": 3,
-      "Name": "Dr. J.C. Prajapati",
+      "Name": "Dr. J. C. Prajapati",
       "Position": "Menber",
       "Department": "Electronics & Communication",
       "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": ""
+      "Email": "jayesh.prajapati@gecpatan.ac.in"
     }
   ]
 
