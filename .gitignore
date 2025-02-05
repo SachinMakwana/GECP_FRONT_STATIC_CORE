@@ -1055,3 +1055,5 @@ obj/Debug/netcoreapp3.1/Razor/Views/Department/Civil.cshtml.g.cs
 obj/Debug/netcoreapp3.1/Razor/Views/Department/Administrative.cshtml.g.cs
 GECP_Front_End_Static.csproj.user
 GECP_Front_End_Static.csproj
+/.vs
+/obj

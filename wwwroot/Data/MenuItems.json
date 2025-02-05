@@ -243,7 +243,8 @@
       }
     ]
   },
-  {
+
+  /*{
     "ID": 5,
     "MenuText": "Staff",
     "ParentID": null,
@@ -343,6 +344,130 @@
       }
     ]
   },
+  */
+  {
+    "ID": 5,
+    "MenuText": "Facilities",
+    "ParentID": null,
+    "dynamicID": null,
+    "ControllerName": "",
+    "ActionName": "",
+    "position": 5,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 51,
+        "MenuText": "Library",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "Library",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 52,
+        "MenuText": "Canteen",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "Canteen",
+        "position": 2,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 53,
+        "MenuText": "Hostel",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "Hostel",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 54,
+        "MenuText": "Gymkhana",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "FacilityPage",
+        "position": 4,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 55,
+        "MenuText": "Student Section",
+        "ParentID": 5,
+        "dynamicID": 3,
+        "ControllerName": "Facilities",
+        "ActionName": "FacilityPage",
+        "position": 5,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 56,
+        "MenuText": "Central Facilities",
+        "ParentID": 5,
+        "dynamicID": 2,
+        "ControllerName": "Facilities",
+        "ActionName": "StudentClub",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 57,
+        "MenuText": "Medical Facility",
+        "ParentID": 5,
+        "dynamicID": 1,
+        "ControllerName": "Facilities",
+        "ActionName": "MedicalFacility",
+        "position": 7,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 58,
+        "MenuText": "Student Club",
+        "ParentID": 5,
+        "dynamicID":1,
+        "ControllerName": "Facilities",
+        "ActionName": "StudentClub",
+        "position": 8,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 59,
+        "MenuText": "Center Of Excellence",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "CenterOfExcellence",
+        "position": 9,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 50,
+        "MenuText": "Transportation",
+        "ParentID": 5,
+        "dynamicID": 2,
+        "ControllerName": "Facilities",
+        "ActionName": "MedicalFacility",
+        "position": 10,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+
+    ]
+  },
   {
     "ID": 6,
     "MenuText": "Placement",
@@ -379,7 +504,7 @@
   },
   {
     "ID": 7,
-    "MenuText": "Campus Committees",
+    "MenuText": "Committees",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "",
@@ -479,4 +604,3 @@
     "ChildMenuVMs": []
   }
 ]
- 
