@@ -789,8 +789,84 @@
         "<div id=\"tabs-38881\" aria-labelledby=\"ui-id-5\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"><h4 class=\"f-tabs-vertical__title f-primary-b\">Research and Project</h4><p><b xss=\"removed\">Research</b></p><div xss=\"removed\"><b xss=\"removed\"><br></b></div><div xss=\"removed\"><b xss=\"removed\">1.</b><b xss=\"removed\"><span xss=\"removed\"><u>High speed Current Steering Digital to Analog converter.</u></span></b></div><div xss=\"removed\"><b xss=\"removed\"><span lang=\"FR\" xss=\"removed\">Tools &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: NGSPICE</span></b></div><div xss=\"removed\"><b xss=\"removed\"><span lang=\"FR\" xss=\"removed\">Summary<span class=\"Apple-tab-span\" xss=\"removed\">   </span>&nbsp; :</span></b></div><div><span lang=\"FR\" xss=\"removed\"><font face=\"Arial, Verdana\"><span xss=\"removed\">8 bit Digital to Analog Converted(DAC) is simulated using pipeline and current steering approach, which help &nbsp;to improve sampling rate of DAC. Identical current sources are triggered by a thermometer code to provide current in the output.&nbsp;</span></font></span></div><div><span lang=\"FR\" xss=\"removed\"><font face=\"Arial, Verdana\"><span xss=\"removed\"><br></span></font></span></div><div><div xss=\"removed\"><b>Project</b></div><div xss=\"removed\"><b xss=\"removed\"><span lang=\"EN-GB\" xss=\"removed\"><br></span></b></div><div xss=\"removed\"><b xss=\"removed\"><span lang=\"EN-GB\" xss=\"removed\">1.</span></b><b xss=\"removed\"><u><span lang=\"EN-GB\" xss=\"removed\">Design of two stage OPAMP:</span></u></b></div><div xss=\"removed\">  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Tools &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: NGSPICE<o></o></span></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Summary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :<o></o></span></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><span xss=\"removed\">Designed a two stages ultra-low power low voltage OPAMP based on CMOS 180nm technology. In this project, we have designed OPAMP with 1V supply voltage as well as lower power consumption.</span></p><p class=\"MsoNormal\" xss=\"removed\"><b xss=\"removed\"><span lang=\"EN-GB\" xss=\"removed\">2.</span></b><b xss=\"removed\"><u><span lang=\"EN-GB\" xss=\"removed\">Asynchronous Communication (Interface Adapter ACIA):</span></u></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Xilinx ISE (Verilog)<o></o></span></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Summary &nbsp; :<o></o></span></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><span xss=\"removed\">Designed ACIA which is a prototype for Asynchronous communication. The asynchronous communications interface (ACIA) provides data formatting and control to the asynchronous data communications of data bus systems.</span></p><p class=\"MsoNormal\" xss=\"removed\"><b xss=\"removed\"><span lang=\"EN-GB\" xss=\"removed\">3.</span></b><b xss=\"removed\"><u><span lang=\"EN-GB\" xss=\"removed\">IOT(ESP8266)&nbsp; and cap-sense based home automation :</span></u></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scratch pad of arduino.<o></o></span></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Summary &nbsp; :<o></o></span></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><span xss=\"removed\">In this project we have implemented a system which is used to control home appliances through mobile android application. We have used ESP8266 IOT device for wireless communication and arduino for the controlling of output devices.&nbsp;</span></p><p class=\"MsoNormal\" xss=\"removed\"><b xss=\"removed\"><span lang=\"EN-GB\" xss=\"removed\">4.</span></b><b xss=\"removed\"><u><span lang=\"EN-GB\" xss=\"removed\">Scrolling message display using 89C52 :</span></u></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; keil.<o></o></span></b></p>  <p class=\"MsoNormal\" xss=\"removed\"><b><span lang=\"FR\" xss=\"removed\">Summary &nbsp;:<o></o></span></b></p>  <span xss=\"removed\">In this project we have implemented a system which is used to display various messages on LED display. 89C52 device is used for the controlling and printing of messages on display. We have used concept of persistence of vision for display by keeping common data line.&nbsp;</span></div></div><p></p></div>",
         "<div id=\"tabs-38936\" aria-labelledby=\"ui-id-6\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Publication</h4>                                         <p></p><div><span xss=\"removed\">1.</span><span xss=\"removed\">“A Literature Review on Memory-less Pipeline Dynamic Design Technique”, A national level Symposium held during Feb 9 &amp; 10, 2012 at B.H Gardi College of engineering &amp; Technology, Rajkot.</span></div><div><span xss=\"removed\"><br></span></div><div><span xss=\"removed\">2.</span><span xss=\"removed\">“A Literature Review on Tunnel FET; an Emerging Semiconductor Device”, A national level Symposium held during Feb 9 &amp; 10, 2012 at B.H Gardi College of engineering &amp; Technology, Rajkot.</span></div><div><span xss=\"removed\"><br></span></div><div><span xss=\"removed\">3.</span><span xss=\"removed\">“High speed 8-bit current steering Digital to Analog converter” National Conference on Advances and Challenges in Engineering &amp; Science, held during Apr 13 &amp; 14, 2012 at LCIT bhandu.</span></div><p></p></div>"
       ]
-    }
-
+    },
+    "PersonalDetails": {
+      "Name": "Mr. SHYAMKUMAR PANKHANIYA",
+      "Designation": "Assistant Professor",
+      "Department": "Electronics And Communication",
+      "Contact": "",
+      "Email": "shyam.pankhaniya@gecpatan.ac.in"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "M.E.",
+        "Year": "2012",
+        "Specialization": "Signal Processing and VLSI Technology"
+      },
+      {
+        "Degree": "B.E.",
+        "Year": "2008",
+        "Specialization": "Electronics and Communication Engineering"
+      }
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Assistant Professor",
+        "Organization": "R K University",
+        "Duration": "02-06-2012 to 21-07-2017"
+      }
+    ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "Completed the training at Gujarat State Wide Area Network",
+        "OrganizedBy": "-",
+        "Date": "Jan-2008 to May-2008"
+      },
+      {
+        "Title": "ASIC & FPGA Design Tools and Technology”, held during 25th & 26th Febuary, 2012",
+        "OrganizedBy": "Gujarat Technological University Ahmedabad",
+        "Date": "25-02-2012 to 26-02-2012"
+      },
+      {
+        "Title": "Research fair",
+        "OrganizedBy": "L.D.College of Engineering Ahmedabad",
+        "Date": "13-05-2014 to 14-05-2014"
+      },
+      {
+        "Title": "Introduction to research Methodologies",
+        "OrganizedBy": "IIT Bombay",
+        "Date": "25-06-2012 to 04-06-2012"
+      },
+      {
+        "Title": "Modern Digital Design",
+        "OrganizedBy": "L.J.I.T, Ahmedabad",
+        "Date": "03-12-2012 to 04-12-2012"
+      },
+      {
+        "Title": "Akash for Education",
+        "OrganizedBy": "RK University, Rajkot.",
+        "Date": "10-11-2012 to 11-11-2012"
+      },
+      {
+        "Title": "Analog Electronics",
+        "OrganizedBy": "RK University, Rajkot.",
+        "Date": "04-06-2013 to 14-06-2013"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": "1",
+        "Title": "“A Literature Review on Memory-less Pipeline Dynamic Design Technique”, A national level Symposium held during Feb 9 & 10, 2012 at B.H Gardi College of engineering & Technology, Rajkot."
+      },
+      {
+        "SrNo": "2",
+        "Title": "“A Literature Review on Tunnel FET; an Emerging Semiconductor Device”, A national level Symposium held during Feb 9 & 10, 2012 at B.H Gardi College of engineering & Technology, Rajkot."
+      },
+      {
+        "SrNo": "3",
+        "Title": ".“High speed 8-bit current steering Digital to Analog converter” National Conference on Advances and Challenges in Engineering & Science, held during Apr 13 & 14, 2012 at LCIT bhandu."
+      }
+    ]
   },
   {
     "ID": 107,
@@ -1569,7 +1645,7 @@
       {
         "Title": "Industrial Training",
         "OrganizedBy": "SAHANA Systems Ltd",
-        "Date": "29-07-2024"
+        "Date": "29-07-2024 to 09-08-2024"
       }
     ],
     "Publications": [
@@ -1639,57 +1715,57 @@
       {
         "Title": "LATEX FOR ACADEMIC WRITING",
         "OrganizedBy": "TEQIP GEC PATAN",
-        "Date": "Mar 2017"
+        "Date": "20-03-2017 to 24-03-2024"
       },
       {
         "Title": "BEYOND THE CLASSROOM TOWARDS EXCELLENCE",
         "OrganizedBy": "IITE GANDHINAGAR",
-        "Date": "Sep 2017 - Sep 2018"
+        "Date": "17-09-2017 to 22-09-2018"
       },
       {
         "Title": "INDUCTION PHASE-1",
         "OrganizedBy": "NITTTR CENTER AHMEDABAD",
-        "Date": "Jan 2019"
+        "Date": "07-01-2019 to 18-01-2019"
       },
       {
         "Title": "INDUCTION PHASE-2",
         "OrganizedBy": "NITTTR CENTER AHMEDABAD",
-        "Date": "Dec 2019 - Jan 2020"
+        "Date": "30-12-2019 to 10-01-2020"
       },
       {
         "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
         "OrganizedBy": "I-HUB ONLINE",
-        "Date": "Jul 2020 - Sep 2020"
+        "Date": "06-07-2020 to 14-09-2020"
       },
       {
         "Title": "UDAYAM E-Content Development Course",
         "OrganizedBy": "KCG ONLINE",
-        "Date": "Jul 2020 - Aug 2020"
+        "Date": "28-07-2020 to 18-08-2020"
       },
       {
         "Title": "Concept of Artificial Intelligence & Machine Learning towards Research Applications",
         "OrganizedBy": "LDCE AHMEDABAD",
-        "Date": "Jan 2021"
+        "Date": "16-01-2023 to 20-01-23"
       },
       {
         "Title": "Leveraging AI for Enhanced Healthcare Delivery Systems",
         "OrganizedBy": "LDCE AHMEDABAD",
-        "Date": "Dec 2023"
+        "Date": "18-12-2023 to 23-12-2023"
       },
       {
         "Title": "Computer Networks & Internet Protocol.",
         "OrganizedBy": "MOOC NPTEL",
-        "Date": "Jan 2023 - Apr 2023"
+        "Date": "01-01-2023 to 01-04-2023"
       },
       {
         "Title": "Netwrorking & ERP system Industril Training",
         "OrganizedBy": "MEHSANA DAIRY & FOOD PVT LTD, MEHSANA",
-        "Date": "Jul 2024"
+        "Date": "15-07-2024 to 26-07-2024"
       },
       {
         "Title": "Artificial Intelligence Industrial Training",
         "OrganizedBy": "SAHANA SYSTEM PVT LTD ,AHMEDABAD",
-        "Date": "Dec 2024"
+        "Date": "16-12-2024 to 28-12-2024"
       }
     ],
     "Publications": [
@@ -2067,42 +2143,42 @@
       {
         "Title": "INTELLECTUAL PROPERTY RIGHTS (IPR)",
         "OrganizedBy": "Online",
-        "Date": "Jul 2020 - Sep 2020"
+        "Date": "06-07-2020 to 14-09-2020"
       },
       {
         "Title": "E-Content Development Course",
         "OrganizedBy": "Online",
-        "Date": "Jul 2020 - Aug 2020"
+        "Date": "28-07-2020 to 18-08-2020"
       },
       {
         "Title": "Introduction To Programming In C",
         "OrganizedBy": "Online-NPTEL",
-        "Date": "Feb 2022 - Apr 2022"
+        "Date": "21-02-2022 to 15-04-2022"
       },
       {
         "Title": "Introduction to Quantum Computing Quantum Algorithms and Qiskit",
         "OrganizedBy": "Online-NPTEL",
-        "Date": "Jul 2022 - Aug 2022"
+        "Date": "04-07-2022 to 01-08-2022"
       },
       {
         "Title": "Induction Training Phase - 1",
         "OrganizedBy": "SVNIT, Surat",
-        "Date": "Jun 2023"
+        "Date": "12-06-2023 to 23-06-2023"
       },
       {
         "Title": "Quantum Algorithms and Cryptography",
         "OrganizedBy": "Online-NPTEL",
-        "Date": "Jan 2023 - Apr 2023"
+        "Date": "23-01-2023 to 14-04-2023"
       },
       {
         "Title": "Introduction to Machine Learning",
         "OrganizedBy": "Online-NPTEL",
-        "Date": "Jan 2024 - Apr 2024"
+        "Date": "22-01-2024 to 12-04-2024"
       },
       {
         "Title": "Deep Learning",
         "OrganizedBy": "Online-NPTEL",
-        "Date": "Jul 2024 - Oct 2024"
+        "Date": "15-07-2024 to 25-10-2024"
       }
     ],
     "Publications": [
@@ -2548,32 +2624,32 @@
     "image": "images/Faculty/217.jpg",
     "Dept_ID": 2,
     "Date_of_Joining": "2022-01-19",
-    "Qualification": "M.Tech.",
+    "Qualification": "M.E. C.E.",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Viral Pansiniya</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Shri Viral B Pansiniya",
       "Designation": "Assistant Professor",
-      "Department": "Computer Engineering",
-      "Contact": "9737084167",
+      "Department": "Computer",
+      "Contact": "+91-9737084167",
       "Email": "viral.pansiniya@gecpatan.ac.in"
     },
     "EducationalQualifications": [
       {
         "Degree": "M.E.",
         "Year": "2015",
-        "Specialization": " Computer Engg."
+        "Specialization": "Computer Enggineering"
       },
       {
         "Degree": "B.E.",
         "Year": "2011",
-        "Specialization": "Computer Eng."
+        "Specialization": "Computer Engineering"
       }
     ],
     "ProfessionalExperiences": [
       {
-        "Position": "Asst. Professor",
+        "Position": "Assistant Professor",
         "Organization": "GEC, Patan",
         "Duration": "19-01-2022 to 23-01-2025"
       }
@@ -2641,7 +2717,6 @@
     "TrainingAndWorkshops": [],
     "Publications": []
   },
-
   {
     "ID": 302,
     "Name": "Mr. Harshadkumar Patel",
@@ -2649,7 +2724,7 @@
     "image": "images/Faculty/302.jpg",
     "Dept_ID": 3,
     "Date_of_Joining": "10-04-1996",
-    "Qualification": "M.E.(Electrical) Pursuing Ph.D at IIT Roorkee",
+    "Qualification": "M.E. Electrical ", //Pursuing Ph.D at IIT Roorkee
     "Area_of_Interest": "Electrical power system, Renewable energy",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHADKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.(Electrical) Pursuing Ph.D at IIT Roorkee</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">25 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical power system, Renewable energy</span></li></ul></div></div></div>",
@@ -2676,12 +2751,12 @@
       {
         "Degree": "Ph.D.",
         "Year": "Pursuing",
-        "Specialization": "IIT Roorkee"
+        "Specialization": ""
       },
       {
         "Degree": "M.E.",
         "Year": "2011",
-        "Specialization": "Power System"
+        "Specialization": "Electrical"
       },
       {
         "Degree": "B.E.",
@@ -2780,8 +2855,6 @@
 
     ]
   },
-
-
   {
     "ID": 303,
     "Name": "Mr. Anilkumar Patel",
@@ -2812,7 +2885,7 @@
     "image": "images/Faculty/304.jpg",
     "Dept_ID": 3,
     "Date_of_Joining": "05-09-2019",
-    "Qualification": "B.E. (Electrical)",
+    "Qualification": "M.E. Power System",
     "Area_of_Interest": "Electrical Engineering",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARAN DABHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E. (Electrical)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">22 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical Engineering </span></li></ul></div></div></div>",
@@ -2835,7 +2908,102 @@
         "<div id=\"tabs-8553\" aria-labelledby=\"ui-id-15\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"><h4 class=\"f-tabs-vertical__title f-primary-b\">expert lectures</h4><p>N.A.</p></div>",
         "<div id=\"tabs-8591\" aria-labelledby=\"ui-id-16\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"><h4 class=\"f-tabs-vertical__title f-primary-b\">awards</h4><p>N.A.</p></div>"
       ]
-    }
+    },
+    "PersonalDetails": {
+      "Name": "Prof. Naran K. Dabhi",
+      "Designation": "Assistant Professor",
+      "Department": "Electrical",
+      "Contact": "+91-9510681795",
+      "Email": "naran.dabhi@gecpatan.ac.in"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "M.E.",
+        "Year": "2018",
+        "Specialization": "Power System"
+      },
+      {
+        "Degree": "B.E.",
+        "Year": "1997",
+        "Specialization": "Electrical"
+      }
+
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "LECTURER",
+        "Organization": "GOVT.ENGG.COLLEGE BHUJ ",
+        "Duration": "27-12-1999 to 31-08-2005"
+      },
+      {
+        "Position": "LECTURER",
+        "Organization": "GOVT.ENGG.COLLEGE RAJKOT",
+        "Duration": "01-09-2005 to 18-07-2007"
+      },
+      {
+        "Position": "LECTURER",
+        "Organization": "L.E.COLLEGE MORBI",
+        "Duration": "19-07-2007 to 04-09-2019"
+      },
+     {
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "05-09-2019 to Present"
+      }
+
+    ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "Tools and Techniques for effective reaching",
+        "OrganizedBy": "S.V.N.I.T. SURAT",
+        "Date":"26-10-2015 to 30-10-2015"
+      },
+      {
+        "Title": "Induction Training Programme II",
+        "OrganizedBy": "NITTTR BHOPAL",
+        "Date":"05-09-2016 to 16-09-2016"
+      },
+      {
+        "Title": "Comprehensive Online intellectual Property Right (IPR)",
+        "OrganizedBy": "i-Hub online",
+        "Date":"06-07-2020 to 14-09-2020"
+      },
+      {
+        "Title": "UDAYAM",
+        "OrganizedBy": "KCG, Online",
+        "Date":"28-07-2020 to 18-08-2020"
+      },
+      {
+        "Title": "Inculcating Universal Human Values in Technical Education",
+        "OrganizedBy": "AICTE, Online",
+        "Date": "22-03-2021 to 26-03-2021"
+      },
+      {
+        "Title": "Role of Renewable Energy in Power System",
+        "OrganizedBy": "ATAL FDP, Online",
+        "Date": "05-07-2021 to 09-07-2021"
+      },
+      {
+        "Title": "Smart Energy System",
+        "OrganizedBy": "IIT RAM, Online",
+        "Date": "04-10-2021 to 08-10-2021"
+      },
+      {
+        "Title": "Recent Advancement in Power System with Renewable Energy Sources.",
+        "OrganizedBy": "ATAL FDP, Online",
+        "Date": "17-03-2022 to 21-01-2022"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "Voltage Stability study using sensitivity Analysis paper published in International Journal of Science and Engineering in Volume/Issue 7, April 2018. ISSN:2319-8354."
+      },
+      {
+        "SrNo": 2,
+        "Title": "Prediction of Voltage Stability by Using L-index in  Power System\" paper published in International Journal of Future Revolution in Computer Science and Communication Engineering in Volume/Issue 4, April 2018. ISSN: 2454-4218."
+      }
+    ]
 
   },
   {
@@ -2863,12 +3031,12 @@
   },
   {
     "ID": 306,
-    "Name": "Mr. Pravinkumar Patel",
+    "Name": "Dr. Pravinkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/306.jpg",
     "Dept_ID": 3,
     "Date_of_Joining": "2015-06-30",
-    "Qualification": "B.E. Electrical from L.D. College of Engineering, M.Tech. Electrical (Power apparatus and systems) from Nirma University",
+    "Qualification": "Ph.D. Electrical", // B.E. Electrical from L.D. College of Engineering, M.Tech. Electrical     (Power apparatus and systems) from Nirma University
     "Area_of_Interest": "Electrical drives, Power Electronics, Electrical Machines",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. PRAVINKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E. Electrical from L.D.College of Engineering, M.Tech. Electrical (Power  apparatus and systems) from Nirma University</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">9 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical drives,Power Electronics,Electrical Machines.</span></li></ul></div></div></div>",
@@ -2881,8 +3049,8 @@
     },
     "EducationalQualifications": [
       {
-        "Degree": "B.E.",
-        "Year": "2004",
+        "Degree": "Ph.D.",
+        "Year": "2021",
         "Specialization": "Electrical"
       },
       {
@@ -2891,10 +3059,11 @@
         "Specialization": "Electrical"
       },
       {
-        "Degree": "Ph.D.",
-        "Year": "2021",
+        "Degree": "B.E.",
+        "Year": "2004",
         "Specialization": "Electrical"
       }
+
     ],
     "ProfessionalExperiences": [
       {
@@ -2985,6 +3154,11 @@
         "OrganizedBy": "Government Engineering College, Patan."
       },
       {
+        "Title": "Power Electronics For Distribution syatem and Electrical Drives",
+        "Date": "25-06-2018 to 04-07-2018",
+        "OrganizedBy": "SVNIT"
+      },
+      {
         "Title": "AICTE Training And Learning (ATAL) Academy Online Elementary FDP on 'smart energy systems",
         "Date": "04-10-2021 to 08-10-2021",
         "OrganizedBy": "IITRAM, Ahmedabad"
@@ -3071,18 +3245,18 @@
   },
   {
     "ID": 307,
-    "Name": "Mr. Sohankumar Prajapati",
+    "Name": "Dr. Sohankumar Prajapati",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/307.jpg",
     "Dept_ID": 3,
     "Date_of_Joining": "2015-07-01",
-    "Qualification": "M.E (ELECTRICAL)",
+    "Qualification": "Ph.D. Electrical",  
     "Area_of_Interest": "POWER SYSTEM",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Sohankumar  Prajapati</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E (ELECTRICAL)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">POWER SYSTEM</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Sohankumar Gordhanbhai Prajapati",
-      "Designation": "Professor",
+      "Name": "Dr. Sohankumar Gordhanbhai Prajapati",
+      "Designation": "Assistant Professor",
       "Department": "Electrical",
       "Contact": "+91-985564580",
       "Email": "sgp.gec@gmail.com"
@@ -3090,9 +3264,9 @@
     },
     "EducationalQualifications": [
       {
-        "Degree": "B.E.",
-        "Year": "2002",
-        "Specialization": "ELECTRICAL ENGINEERING"
+        "Degree": "Ph.D",
+        "Year": "2024",
+        "Specialization": "ELECTRICAL"
       },
       {
         "Degree": "M.E.",
@@ -3100,10 +3274,11 @@
         "Specialization": "ELECTRICAL POWER SYSTEM"
       },
       {
-        "Degree": "Ph.D",
-        "Year": "2024",
-        "Specialization": "ELECTRICAL ENGINEERING"
+        "Degree": "B.E.",
+        "Year": "2002",
+        "Specialization": "ELECTRICAL"
       }
+
 
     ],
     "ProfessionalExperiences": [
@@ -3259,7 +3434,7 @@
       },
       {
         "SrNo": 6,
-        "Title": "G Prajapati, Sohankumar, and Sanjay R Vyas.\"An Experimental Study to Evolutes Performance of PV Module at Workplace.\" Proceedings of the International e-Conference on Intelligent Systems and Signal Processing: e-ISSP 2020. Springer Singapore, 2022."
+        "Title": "Prajapati, Sohankumar, and Sanjay Vyas. Solar Wind and Battery Storage Energy Management and Control for Electric Car Charging Load. International Conference on science, Engineering and Technology (ICSET 2022), no. icset. 2022."
       }
     ]
 
@@ -3285,16 +3460,16 @@
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. VIPUL PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.Civil</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Water Resources Engineering</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "PATEL VIPUL DASHRATHBHAI",
+      "Name": "Prof. VIPUL DASHRATHBHAI PATEL",
       "Designation": "Assistant Professor",
-      "Department": "Civil Engineering",
+      "Department": "Civil",
       "Contact": "+91-9825317322",
       "Email": "vd.patel@gecpatan.ac.in"
     },
     "EducationalQualifications": [
       {
         "Degree": "PhD",
-        "Year": "Ongoing",
+        "Year": "Pursuing",
         "Specialization": "Water Resources Engineering"
       },
       {
@@ -3445,36 +3620,36 @@
     "Publications": [
       {
         "SrNo": 1,
-        "Title": "Comparison of Distribution Uniformity of Micro and Mini Sprinkler Irrigation System"
+        "Title": "Comparison of  Distribution Uniformity  of Micro and Mini Sprinkler Irrigation System in National conference HYDRO-2007, held at SVNIT, Surat during 21-22 Dec 2007."
       },
       {
         "SrNo": 2,
-        "Title": "Yield And Water Productivity Impact Of Pressurized Irrigation Technology On Alfalfa Crop Over Flood Irrigation\" in National Conference on Infrastructure Development In Civil Engineering (IDCE-2008), at NIT Hamirpur during May 16-17 2008"
+        "Title": "Yield And Water Productivity Impact Of Pressurized Irrigation Technology On Alfalfa Crop Over Flood Irrigation\" in National Conference on Infrastructure Development In Civil Engineering (IDCE-2008), at NIT Hamirpur during May 16-17 2008."
       },
 
       {
         "SrNo": 3,
-        "Title": "Traffic Study At Rail Road Level Crossing"
+        "Title": "Traffic Study At Rail Road Level Crossing in National Conference on Infrastructure Development In Civil Engineering (IDCE-2008), at NIT Hamirpur during May 16-17 2008."
       },
       {
         "SrNo": 4,
-        "Title": "Optimization Techniques in Water Resources Management"
+        "Title": "Optimization techniques in water resources management in National Conference on Infrastructure Development In Civil Engineering (IDCE-2008),at NIT Hamirpur during May 16-17 2008." 
       },
       {
         "SrNo": 5,
-        "Title": "Climate at Godhara, Gujarat a case study\" in National Conference on GEC – 09 at NIT Hamirpur during 18-19 Sept 2009"
+        "Title": "Climate at Godhara, Gujarat a case study\" in National Conference on GEC – 09 at NIT Hamirpur during 18-19 Sept 2009."
       },
       {
         "SrNo": 6,
-        "Title": "Pre-Engineered Steel Building-A Today’s Need"
+        "Title": "Pre-Engineered Steel Building-A Today’s Need in International Conference on “ACSGE” at BITS- Pilani, Rajasthan during 25-27 Oct 2009."
       },
       {
         "SrNo": 7,
-        "Title": "Geo-Information Technology for Coastal Disaster Risk Reduction International Journal of Innovative Research in Science, Engineering and Technology (An ISO 3297: 2007 Certified Organization)"
+        "Title": "Geo-Information Technology for Coastal Disaster Risk Reduction International Journal of Innovative Research in Science, Engineering and Technology (An ISO 3297: 2007 Certified Organization) Vol. 4, Issue 7, July 2015."
       },
       {
         "SrNo": 8,
-        "Title": "The Concept of Zero Energy Buildings (ZEB) - A Literature Study, INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY, September 2019 | IJIRT | Volume 6 Issue 4 | ISSN: 2349-6002"
+        "Title": "The Concept of Zero Energy Buildings (ZEB) - A Literature Study, INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY, September 2019 | IJIRT | Volume 6 Issue 4 | ISSN: 2349-6002."
       },
       {
         "SrNo": 9,
@@ -3482,7 +3657,7 @@
       },
       {
         "SrNo": 10,
-        "Title": "TSUNAMI EMERGENCY RESPONSE SYSTEM USING GEO-INFORMATION TECHNOLOGY ALONG THE WESTERN COAST OF INDIA , International Journal of Civil Engineering and Technology (IJCIET) Volume 10, Issue 05, May 2019, pp. 418-429, Article ID: IJCIET_10_05_045 Available online at http://www.iaeme.com/ijciet/issues.asp?JType=IJCIET&VType=10&IType=05 ISSN Print: 0976-6308 and ISSN Online: 0976-6316 "
+        "Title": "TSUNAMI EMERGENCY RESPONSE SYSTEM USING GEO-INFORMATION TECHNOLOGY ALONG THE WESTERN COAST OF INDIA , International Journal of Civil Engineering and Technology (IJCIET) Volume 10, Issue 05, May 2019, pp. 418-429, Article ID: IJCIET_10_05_045 Available online at http://www.iaeme.com/ijciet/issues.asp?JType=IJCIET&VType=10&IType=05 ISSN Print: 0976-6308 and ISSN Online: 0976-6316."
       }
     ]
   },
@@ -3493,12 +3668,12 @@
     "image": "images/Faculty/402.jpg",
     "Dept_ID": 4,
     "Date_of_Joining": "2017-04-18",
-    "Qualification": "M.E.",
+    "Qualification": "Ph.D.",
     "Area_of_Interest": "Civil Engineering",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJENDRAKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Civil Engineering</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Dr. V.M.Patel",
+      "Name": "Dr. Vijendrakumar M. Patel",
       "Designation": "Assistant Professor",
       "Department": "Civil",
       "Contact": "7990885704",
@@ -3673,7 +3848,7 @@
         "Title": "Testing of construction materials at Gujarat Engineering Research Institute",
         "OrganizedBy": "GERI, Gandhinagar",
         "Date": "-"
-      },
+      }
       //{
       //  "Title": "Research Trainee",
       //  "OrganizedBy": "Online",
@@ -3799,7 +3974,7 @@
     "image": "images/Faculty/403.jpg",
     "Dept_ID": 4,
     "Date_of_Joining": "2017-07-12",
-    "Qualification": "Ph.D.",
+    "Qualification": "Ph.D. Civil Engineering",
     "Area_of_Interest": "Civil Engineering",
     "Isteaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. MANJURALI BALYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D. (Civil Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Transportation Engineering</span></li></ul></div></div></div>",
@@ -3813,98 +3988,93 @@
         "<div id=\"tabs-40455\" aria-labelledby=\"ui-id-6\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"><h4 class=\"f-tabs-vertical__title f-primary-b\">Portfolios</h4>                                         <p>1. Departmental Student section Coordinator</p><div>2.&nbsp;<span xss=\"removed\">Departmental Training and Placement Coordinator</span></div><div><span xss=\"removed\"><br></span></div><p></p>                                     </div>",
         "<div id=\"tabs-40457\" aria-labelledby=\"ui-id-7\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"><h4 class=\"f-tabs-vertical__title f-primary-b\">Publication </h4>                                         <p></p><div xss=\"removed\"><span xss=\"removed\"><b xss=\"removed\"><font face=\"Sans Serif\" xss=\"removed\" size=\"2\">International Journal Published (Peer Reviewed)</font></b></span></div><div xss=\"removed\"><ol xss=\"removed\"><li xss=\"removed\"><font face=\"Sans Serif\"><b xss=\"removed\">Manjurali I. Balya,</b> Rakesh Kumar (2018), “Commuter&nbsp;Attitude Analysis of Feeder Public Transit Service- A Case Study”,&nbsp;<span xss=\"removed\">Iran J Sci Technol Trans Civ Eng, </span><span xss=\"removed\">SPRINGER. <u>https://link.springer.com/article/10.1007/s40996-018-0166-4</u></span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><b>Balya, M. I.,</b> Kumar, R., &amp; Gundaliya, P. J. (2018). Bus stop network catchment analysis of integrated feeder service for public bus transit system–a case study of Ahmedabad City.&nbsp;<i xss=\"removed\">World Review of Intermodal Transportation Research</i><span xss=\"removed\">,&nbsp;</span><span xss=\"removed\">Vol. 7, No. 1, pp. <span xss=\"removed\">80-98. </span></span><span xss=\"removed\"><a href=\"http://dx.doi.org/10.1504/WRITR.2018.089534\" target=\"_blank\" xss=\"removed\">http://dx.doi.org/10.1504/WRITR.2018.089534</a>.</span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><b>Balya, M. I.,</b> &amp; Kumar, R. (2017). <span xss=\"removed\">Walking Feeder Mode Services Choice Analysis for Integration of Bus Rapid Transit System: A Case Study<span xss=\"removed\">. <i>International Journal for Traffic and Transport Engineering</i>,&nbsp;</span>Vol. 7, No. 4, <span xss=\"removed\">pp 487-497. </span><u>DOI: 10.7708/ijtte.2017.7(4).07</u></span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><b>Balya, M. I.</b>, &amp; Kumar, R. (2017). Feeder mode choice analysis for public bus transit system: a case study.&nbsp;<i xss=\"removed\">World Review of Intermodal Transportation Research</i><span xss=\"removed\">,&nbsp;</span><span xss=\"removed\">Vol. 6, No. 3, pp. <span xss=\"removed\">177-192. </span></span><a href=\"https://doi.org/10.1504/WRITR.2017.086233\" xss=\"removed\"><span xss=\"removed\">https://doi.org/10.1504/WRITR.2017.086233</span></a><u xss=\"removed\"><span xss=\"removed\">.</span></u></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><b>Balya, M. I.,</b> &amp; Kumar, R. (2017). Proposed Integrated Bicycle Feeder Mode Service Analysis for Bus Rapid Transit System-A Multinomial Logit Model Approach.&nbsp;<i xss=\"removed\">International Journal for Traffic and Transport Engineering</i><span xss=\"removed\">,&nbsp;</span><span xss=\"removed\">Vol. 7, No. 1, pp. <span xss=\"removed\">108-116. </span></span><a href=\"http://dx.doi.org/10.7708/ijtte.2017.7(1).08\" target=\"_blank\" xss=\"removed\"><span xss=\"removed\">http://dx.doi.org/10.7708/ijtte.2017.7(1).08</span></a><span xss=\"removed\">.</span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><b>Balya, M. I.</b>, Katti, B. K., &amp; Saw, K. (2016). Spatial Transit Accessibility Modeling of an Indian Metropolitan City in GIS Environment.&nbsp;<i xss=\"removed\">International Journal for Traffic and Transport Engineering</i><span xss=\"removed\">,&nbsp;</span><span xss=\"removed\">Vol. 6, No. 1, pp. 51-62<span xss=\"removed\">. </span></span><a href=\"http://dx.doi.org/10.7708/ijtte.2016.6(1).05\" target=\"_blank\" xss=\"removed\"><span xss=\"removed\">http://dx.doi.org/10.7708/ijtte.2016.6(1).05</span></a><span xss=\"removed\">.</span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><b>Balya, M. I.</b>, &amp; Kumar, R. (2016). <span xss=\"removed\">Integration of Bicycle as Feeder Mode in Bus Rapid Transit System</span><span xss=\"removed\">.&nbsp;</span><i xss=\"removed\"><span xss=\"removed\">International Journal of Intelligent Transport-Bowen Publishing House.</span></i></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><b>Manjurali I. Balya</b>, A. R. Patel, K. P. Patel, V. A. Patel ,<span xss=\"removed\"> P. M. Joshi (2016). Bus Rapid Transit System (BRTS) - A Sustainable Approach- Literature Review. </span><i xss=\"removed\">Global Research and Development Journal for Engineering.&nbsp;</i><u xss=\"removed\"><span xss=\"removed\"><font size=\"2\">http://www.grdjournals.com/uploads/conference/GRDCF/001/112/GRDCF001112.pdf.</font></span></u></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><font size=\"2\"><b>Manjurali I. Balya, </b>A. R. Patel, V. A. Patel, H. M. Rajgor (2016). Analysis of Water Supply Distribution Network in Mehsana City. <i xss=\"removed\">Global Research and Development Journal for Engineering.&nbsp;</i></font><u xss=\"removed\"><span xss=\"removed\"><font size=\"2\">http://www.grdjournals.com/uploads/conference/GRDCF/001/075/GRDCF001075.pdf</font></span></u></font></li><li xss=\"removed\"><font face=\"Sans Serif\">Patel, U. R., Patel, V. A., <b>Balya, M. I.,</b> &amp; Rajgor, H. M. (2014). Rooftop Rainwater Harvesting (RRWH) at SPSV Campus, Visnagar: Gujarat-A Case Study.&nbsp;<i xss=\"removed\">Int. J. Res. Eng. Technol</i><span xss=\"removed\">,&nbsp;</span><span xss=\"removed\">Vol. 3, No. 4, pp. <span xss=\"removed\">821-825.&nbsp;</span></span><u xss=\"removed\"><span xss=\"removed\"><font size=\"2\">http://citeseerx.ist.psu.edu/viewdoc/downloaddoi=10.1.1.685.7785&amp;rep=rep1&amp;type=pdf</font></span></u></font></li><li xss=\"removed\"><font face=\"Sans Serif\">Jinal Patel, Neha Chaudhary, Aftab Mansuri, <b>Manjurali I. Balya</b> (2015). Walking Accessibility for BRTS of Ahmedabad City- A Case Study. <i xss=\"removed\">International Journal for Scientific Research &amp; Development, </i><span xss=\"removed\">Vol. 2, No. 12.&nbsp; &nbsp; &nbsp;</span><u xss=\"removed\"><span xss=\"removed\"><font size=\"2\">http://ijsrd.com/Article.php?manuscript=IJSRDV2I12020.</font></span></u></font></li><li xss=\"removed\"><font face=\"Sans Serif\">Vikas V. Oza, Harsh D. Patel,&nbsp; Ramji K. Thakor, <b>Manjurali I. Balya,</b> V. A. Patel (2015). Traffic Characteristics and Control at Savala Junction-Visnagar City. <i xss=\"removed\">International Journal for Scientific Research &amp; Development, </i><span xss=\"removed\">Vol. 2, No. 11. </span><u xss=\"removed\">http://ijsrd.com/Article.php?manuscript=IJSRDV2I11219.</u></font></li><li xss=\"removed\"><font face=\"Sans Serif\">Harsh Patel, Chintan Patel, Kishan Patel, <b>Manjurali I. Balya,</b> Vikrant A. Patel (2015). Performance Evaluation of Polymer Fiber “Recron® 3s” In Pavement Quality Concrete. <i xss=\"removed\">International Journal for Scientific Research &amp; Development, </i><span xss=\"removed\">Vol. 2, No. 11. </span><u xss=\"removed\">http://www.ijsrd.com/articles/IJSRDV2I11217.pdf.</u></font></li></ol></div><div xss=\"removed\"><b xss=\"removed\"><span lang=\"EN-GB\"><font face=\"Sans Serif\" size=\"2\">Paper published/presented in International Conference</font></span></b></div><div xss=\"removed\"><ol xss=\"removed\"><li xss=\"removed\"><font face=\"Sans Serif\"><i xss=\"removed\">Non Motorized Transportation in Metropolitan Cities: Issues &amp; Promotion Strategies</i><span xss=\"removed\">, at ITES VVP College, Rajkot, 2012.</span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><i xss=\"removed\">Urban Activity Duration and Travel Distance Frequency Analysis: An Indian Case Study</i><span xss=\"removed\">, at ITES VVP College, Rajkot, 2012.</span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><i xss=\"removed\"> Planning for a Safety of Crossing Pedestrian at Intersections</i><span xss=\"removed\">, at ICCIET, MEC, Basna, March-2014.</span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><i xss=\"removed\"> Public Transport Level Improvement through Bus Rapid Transit System (BRTS)</i><span xss=\"removed\">, at ICCIET, MEC, Basna, March-2014.</span></font></li><li xss=\"removed\"><font face=\"Sans Serif\"><i xss=\"removed\"> Risk Factors and Characteristics of Elder People on Intersection Planning</i><span xss=\"removed\">, at ICCIET, MEC, Basna, March-2014.</span></font></li></ol><div xss=\"removed\"><b xss=\"removed\"><span lang=\"EN-GB\"><font face=\"Sans Serif\" size=\"2\">Paper published/presented in National Conference</font></span></b></div></div><div xss=\"removed\"><p class=\"MsoListParagraph\" xss=\"removed\"></p><ol xss=\"removed\"><li xss=\"removed\"><i xss=\"removed\"><span xss=\"removed\">&nbsp;</span><font size=\"2\" face=\"Sans Serif\">Behavior &amp; Effect of Elder Peoples on Intersection Planning</font></i><span xss=\"removed\"><font size=\"2\" face=\"Sans Serif\">, National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</font></span></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\" xss=\"removed\">&nbsp;<span xss=\"removed\"><i>An Introduction of Mahatma Gandhi National&nbsp;&nbsp; Rural Employment Guarantee Act (MGNREGA) of Mehsana District- A Case study,</i></span><span xss=\"removed\"> National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.&nbsp;</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Walking Distance/Time Accessibility for BRTS Corridor of Ahmedabad City,</i><span xss=\"removed\"> National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\" xss=\"removed\"><span xss=\"removed\"><span xss=\"removed\"><i>Use of Plastic Waste in Construction of Low Traffic Area Road</i></span></span><span xss=\"removed\"><i>,</i> National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">The concept of Futuristic Sustainable Building,</i><span xss=\"removed\"> National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><span xss=\"removed\">&nbsp;</span><i xss=\"removed\">A Solution of Traffic: Sky bus,</i><span xss=\"removed\"> National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Traffic Analysis and Remedial Measures at Savala Junction-Visnagar City</i><span xss=\"removed\">, National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><span xss=\"removed\">&nbsp;</span><i xss=\"removed\">Alternatives for Green Concrete,</i><span xss=\"removed\"> National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Bus Rapid Transit System (BRTS) - A Literature Base,</i><span xss=\"removed\"> National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\" xss=\"removed\"><span xss=\"removed\">&nbsp;</span><i xss=\"removed\">Application of “RECRON® 3S” as Construction Material in Pavement Quality Concrete</i><span xss=\"removed\">, National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Safety of Crossing Pedestrian at Intersections- A Literature Review</i><span xss=\"removed\">, National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Rural Infrastructure Development Projects (RIDP) Under MGNREGA</i><span xss=\"removed\">, National Conference of Emerging Trends in Civil Engineering at SPCE Visnagar, March 2015.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\" xss=\"removed\"><span xss=\"removed\"><span xss=\"removed\"><i>Evaluation of Transit Accessibility and likely impact on traffic for fast developing residential area: A case study,</i></span></span><span xss=\"removed\"> at RATE-2012, SVNIT, Surat.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Promoting Bicycle Transport on Secondary Roads of Urban Street Network,</i><span xss=\"removed\"> at RATE-2012, SVNIT, Surat.</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Planning for the safety of pedestrian crossing at Urban Intersection</i><span xss=\"removed\">, at SRUJAN, IPS Academy, Indore, 2011.&nbsp;</span></font></li><li xss=\"removed\"><font size=\"2\" face=\"Sans Serif\"><i xss=\"removed\">Activity-based Urban Travel Demand Assessment: Need-Based approach</i><span xss=\"removed\">, at SRUJAN, IPS Academy, Indore, 2011.</span></font></li></ol><p xss=\"removed\"></p></div><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><font face=\"Sans Serif\"><span xss=\"removed\"></span></font></div><p></p>                                     </div>",
         "<div id=\"tabs-40458\" aria-labelledby=\"ui-id-8\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"><h4 class=\"f-tabs-vertical__title f-primary-b\">expert lectures</h4>                                         <p><span xss=\"removed\">Expert Lecture on \"Sustainable Planning\" to ME Sem II &amp;IV at Atmiya Institute of Engineering and Science, Rajkot on 4th March 2017.&nbsp;</span></p>                                     </div>"
-      ],
-      "PersonalDetails": {
-        "Name": "Dr. Manjurali I. Balya",
-        "Designation": "Assistant Professor",
-        "Department": "Civil Engineering",
-        "Contact": "9714566993",
-        "Email": "manjuralimomin1@gmail.com"
-      },
-
-
-      "EducationalQualifications": [
-        {
-          "Degree": "PhD",
-          "Year": "2018",
-          "Specialization": "Civil Engineering"
-        },
-        {
-          "Degree": "M. Tech.",
-          "Year": "2012",
-          "Specialization": "Civil Engineering (Transportation Engineering and Planning)"
-        },
-        {
-          "Degree": "BE.",
-          "Year": "2010",
-          "Specialization": "Civil Engineering"
-        }
-      ],
-      "ProfessionalExperiences": [
-        {
-          "Position": "Assistant Professor",
-          "Institute": "Government Engineering College, Katpur, Patan",
-          "Duration": "2017 - Present"
-        },
-        {
-          "Position": "Assistant Professor",
-          "Institute": "Sankalchand Patel College of Engineering, Visnagar, Gujarat, India",
-          "Duration": "2013 - 2017"
-        }
-      ],
-      "TrainingAndWorkshops": [
-        {
-          "Title": "Recent Trends in Civil Engineering",
-          "OrganizedBy": "GEC, Patan",
-          "Date": "05-02-2018 to 17-02-2018"
-        },
-        {
-          "Title": "Geotechnical Investigations for Infrastructure Development",
-          "OrganizedBy": "IITRAM Ahmedabad",
-          "Date": "19-03-2018 to 23-03-2018"
-        },
-        {
-          "Title": "Induction Programme Phase-I",
-          "OrganizedBy": "NITTTR Ext. Centre, Ahmedabad",
-          "Date": "07-01-2019 to 18-01-2019"
-        },
-        {
-          "Title": "Faculty Development for Teachers Training Program of Technical Courses",
-          "OrganizedBy": "IITE, Gandhinagar",
-          "Date": "14-11-2019 to 20-11-2019"
-        },
-        {
-          "Title": "Induction Programme Phase-II",
-          "OrganizedBy": "NITTTR Bhopal",
-          "Date": "21-06-2021 to 02-07-2021"
-        }
-      ],
-
-      "Publications": [
-        {
-          "SrNo": 1,
-          "Title": "Commuters’ Attitude Analysis of Feeder Public Transit Service: A Case Study, Iranian Journal of Science and Technology, Transactions of Civil Engineering, Vol. 43, No. 1, pp 313-321"
-        },
-        {
-          "SrNo": 2,
-          "Title": "Bus stop network catchment analysis of integrated feeder service for public bus transit system–a case study of Ahmedabad City, World Review of Intermodal Transportation Research, Vol. 7, No. 1, pp. 80-98"
-        },
-        {
-          "SrNo": 3,
-          "Title": "Walking Feeder Mode Services Choice Analysis for Integration of Bus Rapid Transit System: A Case Study, International Journal for Traffic and Transport Engineering, Vol. 7, No. 4, pp 487-497"
-        },
-        {
-          "SrNo": 4,
-          "Title": "Feeder mode choice analysis for public bus transit system: a case study, World Review of Intermodal Transportation Research, Vol. 6, No. 3, pp. 177-192"
-        },
-        {
-          "SrNo": 5,
-          "Title": "Proposed Integrated Bicycle Feeder Mode Service Analysis for Bus Rapid Transit System-A Multinomial Logit Model Approach, International Journal for Traffic and Transport Engineering, Vol. 7, No. 1, pp. 108-116"
-        }
       ]
-    }
-
-
+    },
+      "PersonalDetails": {
+          "Name": "Dr. Manjurali I. Balya",
+          "Designation": "Assistant Professor",
+          "Department": "Civil",
+          "Contact": "9714566993",
+          "Email": "manjuralimomin1@gmail.com"
+        },
+        "EducationalQualifications": [
+          {
+            "Degree": "PhD",
+            "Year": "2018",
+            "Specialization": "Civil Engineering"
+          },
+          {
+            "Degree": "M. Tech.",
+            "Year": "2012",
+            "Specialization": "Civil Engineering (Transportation Engineering and Planning)"
+          },
+          {
+            "Degree": "BE.",
+            "Year": "2010",
+            "Specialization": "Civil Engineering"
+          }
+        ],
+        "ProfessionalExperiences": [
+          {
+            "Position": "Assistant Professor",
+            "Organization": "Government Engineering College, Katpur, Patan",
+            "Duration": "12-07-2017 to 17-01-2025"
+          },
+          {
+            "Position": "Assistant Professor",
+            "Organization": "Sankalchand Patel College of Engineering, Visnagar, Gujarat, India",
+            "Duration": "25-06-2013 to 11-07-2017"
+          }
+        ],
+        "TrainingAndWorkshops": [
+          {
+            "Title": "Recent Trends in Civil Engineering",
+            "OrganizedBy": "GEC, Patan",
+            "Date": "05-02-2018 to 17-02-2018"
+          },
+          {
+            "Title": "Geotechnical Investigations for Infrastructure Development",
+            "OrganizedBy": "IITRAM Ahmedabad",
+            "Date": "19-03-2018 to 23-03-2018"
+          },
+          {
+            "Title": "Induction Programme Phase-I",
+            "OrganizedBy": "NITTTR Ext. Centre, Ahmedabad",
+            "Date": "07-01-2019 to 18-01-2019"
+          },
+          {
+            "Title": "Faculty Development for Teachers Training Program of Technical Courses",
+            "OrganizedBy": "IITE, Gandhinagar",
+            "Date": "14-11-2019 to 20-11-2019"
+          },
+          {
+            "Title": "Induction Programme Phase-II",
+            "OrganizedBy": "NITTTR Bhopal",
+            "Date": "21-06-2021 to 02-07-2021"
+          }
+        ],
+        "Publications": [
+          {
+            "SrNo": 1,
+            "Title": "Commuters’ Attitude Analysis of Feeder Public Transit Service: A Case Study, Iranian Journal of Science and Technology, Transactions of Civil Engineering, Vol. 43, No. 1, pp 313-321"
+          },
+          {
+            "SrNo": 2,
+            "Title": "Bus stop network catchment analysis of integrated feeder service for public bus transit system–a case study of Ahmedabad City, World Review of Intermodal Transportation Research, Vol. 7, No. 1, pp. 80-98"
+          },
+          {
+            "SrNo": 3,
+            "Title": "Walking Feeder Mode Services Choice Analysis for Integration of Bus Rapid Transit System: A Case Study, International Journal for Traffic and Transport Engineering, Vol. 7, No. 4, pp 487-497"
+          },
+          {
+            "SrNo": 4,
+            "Title": "Feeder mode choice analysis for public bus transit system: a case study, World Review of Intermodal Transportation Research, Vol. 6, No. 3, pp. 177-192"
+          },
+          {
+            "SrNo": 5,
+            "Title": "Proposed Integrated Bicycle Feeder Mode Service Analysis for Bus Rapid Transit System-A Multinomial Logit Model Approach, International Journal for Traffic and Transport Engineering, Vol. 7, No. 1, pp. 108-116"
+          }
+        ]
   },
 
 
@@ -3915,12 +4085,12 @@
 
   {
     "ID": 501,
-    "Name": "Mr. Anand Dhruv",
+    "Name": "Dr. Anand Dhruv",
     "Designation": "Professor",
     "image": "images/Faculty/HOD/501.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2021-01-19",
-    "Qualification": "Ph.D. (IITD)",
+    "Qualification": "Ph.D.",//IITD
     "Area_of_Interest": "cad, cam, metal forming, automobile engg, manufacturing engg",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. ANAND DHRUV</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D. (IITD)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">26 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">cad, cam, metal forming, automobile engg, manufacturing engg</span></li></ul></div></div></div>",
@@ -3933,7 +4103,7 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Mr. Anand Dhruv",
+      "Name": "Dr. Anand Dhruv",
       "Designation": "Professor",
       "Department": "Mechanical",
       "Contact": "",
@@ -4068,7 +4238,7 @@
     "image": "images/Faculty/502.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2004-11-17",
-    "Qualification": "PhD (Mechanical Engineering)",
+    "Qualification": "PhD ", //(Mechanical Engineering)
     "Area_of_Interest": "Solar Energy",
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. DINESHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD (Mechanical Engineering) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">25 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Solar Energy</span></li></ul></div></div></div>",
     "IsTeaching": true,
@@ -4080,161 +4250,49 @@
       "Email": "dinesh.patel@gecpatan.ac.in"
     },
     "EducationalQualifications": [
-      {
-        "Degree": "Ph.D.",
-        "Year": "2009",
-        "Specialization": "Mechanical Engineering"
-      },
-      {
-        "Degree": "M.Tech.",
-        "Year": "2002",
-        "Specialization": "Mechanical Engineering"
-      },
-      {
-        "Degree": "B.E.",
-        "Year": "1998",
-        "Specialization": "Mechanical Engineering"
-      }
     ],
     "ProfessionalExperiences": [
-      // {
-      //   "Position": "Assistant Professor",
-      //   "Organization": "Parul Institute of Engineering and Technology",
-      //   "Duration": "15-06-2012 to 31-12-2012"
-      // },
-      // {
-      //   "Position": "Assistant Professor",
-      //   "Organization": "U V Patel College Of Engineering",
-      //   "Duration": "01-01-2013 to 21-09-2016"
-      // },
-      //{
-      //  "Position": "Assistant Professor",
-      //  "Organization": "Government Engineering College, Patan",
-      //  "Duration": ""
-      //}
+
     ],
     "TrainingAndWorkshops": [
-      // {
-      //   "Title": "Induction Phase - I  ( 2 weeks ) at NITTTR   Extension Center Ahmadabad",
-      //   "OrganizedBy": "",
-      //   "Date": ""
-      // },
-      // {
-      //   "Title": "Spectrum of Electronics and Communication Engineering and Emerging Trends and Technologies",
-      //   "OrganizedBy": "DTE Gandhinagar",
-      //   "Date": "21-05-2013 to 31-05-2013"
-      // },
-      // {
-      //   "Title": "Faculty Development Program",
-      //   "OrganizedBy": "IIT Gandhinagar",
-      //   "Date": "13-11-2013 to 17-11-2013"
-      // },
-      // {
-      //   "Title": "Faculty Induction Tranining Program",
-      //   "OrganizedBy": "UVPCE",
-      //   "Date": "23-12-2013"
-      // },
-      // {
-      //   "Title": "Computer Programing",
-      //   "OrganizedBy": "UVPCE",
-      //   "Date": "20-05-2014 to 21-07-2014"
-      // },
-      // {
-      //   "Title": "Computer Network",
-      //   "OrganizedBy": "UVPCE",
-      //   "Date": "28-06-2014 to 05-07-2014"
-      // },
-      // {
-      //   "Title": "Android Application Development",
-      //   "OrganizedBy": "UVPCE",
-      //   "Date": "11-05-2015 to 15-05-2015"
-      // },
-      // {
-      //   "Title": "Introduction to Design of Algorithm",
-      //   "OrganizedBy": "UVPCE",
-      //   "Date": "27-04-2015 to 30-05-2015"
-      // },
-      // {
-      //   "Title": "Wireless Network and Mobile Computing",
-      //   "OrganizedBy": "SVINT, Surat",
-      //   "Date": "28-06-2014 to 05-07-2014"
-      // },
-      // {
-      //   "Title": "LaTex for Academic Writing",
-      //   "OrganizedBy": "GEC, Patan",
-      //   "Date": "20-03-2017 to 24-03-2017"
-      // },
-      // {
-      //   "Title": "i-FDP - International Faculty Development Program",
-      //   "OrganizedBy": "GEC, Patan & Mahatma Mandir",
-      //   "Date": "10-03-2017 to 23-03-2017"
-      // },
-      // {
-      //   "Title": "Recent Trends in Comoputer and Information Technology",
-      //   "OrganizedBy": "Directorate of Technical Education, Gandhinagar",
-      //   "Date": "02-04-2018 to 12-04-2018"
-      // },
-      // {
-      //   "Title": "Induction Programme Phase-I",
-      //   "OrganizedBy": "NITTTR, Regional Center Ahmedabad",
-      //   "Date": "30-07-2018 to 10-08-2018"
-      // },
-      // {
-      //   "Title": "Android Programming",
-      //   "OrganizedBy": "L.D. College of Engineering, Ahmedabad",
-      //   "Date": "11-03-2019 to 15-03-2019"
-      // },
-      // {
-      //   "Title": "Big Data and Iot : Data Analytics, Security & Privacy",
-      //   "OrganizedBy": "SVINT, Surat",
-      //   "Date": "24-06-2019 to 28-06-2019"
-      // },
-      // {
-      //   "Title": "Comprehensive Online Intellectual Property rights (IPR)",
-      //   "OrganizedBy": "i-HUB, Online",
-      //   "Date": "06-07-2020 to 14-09-2020"
-      // },
-      // {
-      //   "Title": "UDAYAM E-Content Development",
-      //   "OrganizedBy": "KCG, Ahmedabad and HRDC, Gujrat University, Online",
-      //   "Date": "28-07-2020 to 18-08-2020"
-      // },
-      // {
-      //   "Title": "Induction Programme Phase-II",
-      //   "OrganizedBy": "NITTTR, Bhopal",
-      //   "Date": "21-06-2021 to 02-07-2021"
-      // },
-      // {
-      //   "Title": "Data Analytics and Application",
-      //   "OrganizedBy": "L.D. College of Engineering, Ahmedabad",
-      //   "Date": "19-02-2024 to 01-03-2024"
-      // },
-      // {
-      //   "Title": "Industrial Training",
-      //   "OrganizedBy": "TatvaSoft",
-      //   "Date": "15-07-2024 to 26-07-2027"
-      // },{
-      //   "Title": "Industrial Training",
-      //   "OrganizedBy": "SAHANA Systems Ltd",
-      //   "Date": "29-07-2024"
-      // }
+
     ],
     "Publications": [
       {
         "SrNo": 1,
-        "Title": "Thermal performance of compound parabolic solar air heater,  International Journal on Recent and Innovation Trends in Computing and Communication, Volume:3,Issue2 Discovery 2015,29(112). ISSN: 2321-8169"
+        "Title": "Axial flow fan using Recess Vane Casing Treatment | Field: Mechanical and Aerospace | CBR Date: 07/07/2021 | Organization: Intellectual Property India"
       },
       {
         "SrNo": 2,
-        "Title": "Theoretical and experimental performance analysis of sandstones and marble pieces as thermal energy storage materials inside solar stills’ International Journal of Ambient Energy, Volume 39,2018-Issue 3 DOI: 10.1080/01430750.2017.1298059"
+        "Title": "Design of Axial flow fan | Field: Mechanical and Aerospace | CBR Date: 08/05/2021 | Organization: Intellectual Property India"
       },
       {
         "SrNo": 3,
-        "Title": "A review on compound parabolic solar concentrator for sustainable development,International Journal of Ambient Energy, 39:5, 533-546 DOI: 10.1080/01430750.2017.1378720"
+        "Title": "Solar air preheater with rotating spiral shape Baffles | Field: Mechanical and Solar Thermal Engineering | CBR Date: 23/07/2021 | Organization: Intellectual Property India"
       },
       {
         "SrNo": 4,
-        "Title": "Annual performance analysis of a single-basin passive solar still coupled with evacuated tubes: comprehensive study in climate conditions of Mahesana, Gujarat.International Journal of Ambient Energy. DOI: 10.1080/01430750.2017.1378720"
+        "Title": "Head Gear With Air-Conditioning System (patent No.506200) | Field: Mechanical | CBR Date: 04/04/2019 | Organization: Intellectual Property India"
+      },
+      {
+        "SrNo": 5,
+        "Title": "Thermal performance of compound parabolic solar air heater | Journal: International Journal on Recent and Innovation Trends in Computing and Communication | Volume: 3, Issue: 2 | Discovery 2015, 29(112) | ISSN: 2321-8169"
+      },
+      {
+        "SrNo": 6,
+        "Title": "Theoretical and experimental performance analysis of sandstones and marble pieces as thermal energy storage materials inside solar stills | Journal: International Journal of Ambient Energy | Volume: 39, Issue: 3, 2018 | DOI: 10.1080/01430750.2017.1298059"
+      },
+      {
+        "SrNo": 7,
+        "Title": "A review on compound parabolic solar concentrator for sustainable development | Journal: International Journal of Ambient Energy | Volume: 39, Issue: 5 | Pages: 533-546 | DOI: 10.1080/01430750.2017.1318786"
+      },
+      {
+        "SrNo": 8,
+        "Title": "Annual performance analysis of a single-basin passive solar still coupled with evacuated tubes: comprehensive study in climate conditions of Mahesana, Gujarat | Journal: International Journal of Ambient Energy | DOI: 10.1080/01430750.2017.1378720"
+      },
+      {
+        "SrNo": 9,
+        "Title": "Analysis and Performance Investigations on a Solar Air Heater with Compound Parabolic Concentrator | Published: March 2015 | ISSN: 2278-5469"
       }
     ]
   },
@@ -4245,12 +4303,12 @@
     "image": "images/Faculty/503.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2011-04-13",
-    "Qualification": "M.E",
-    "Area_of_Interest": "M.E",
+    "Qualification": "M.E Thermal Science and Engineering ",
+    "Area_of_Interest": "Mechanical Engineering",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. CHIRAGKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Prof. C. C. Patel",
+      "Name": "Prof. Chiragkumar C. Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical Engineering",
       "Contact": "+91-9427788854",
@@ -4361,18 +4419,23 @@
     "image": "images/Faculty/504.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2022-11-02",
-    "Qualification": "Master of Engineering",
+    "Qualification": "M.E. Jet Propulsion and Gas Turbine ",
     "Area_of_Interest": "Jet propulsion and gas turbine",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIPAK PARMAR</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Master of Engineering </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">12 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Jet propulsion and gas turbine</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Dipak J. Parmar",
+      "Name": "Mr. Dipak J. Parmar",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "8511166277",
       "Email": "dipak.parmar@gecpatan.ac.in"
     },
     "EducationalQualifications": [
+      {
+        "Degree": "Ph.D.",
+        "Year": "Pursuing",
+        "Specialization": "Mechanical Engineering"
+      },
       {
         "Degree": "M.E",
         "Year": "2007",
@@ -4415,254 +4478,246 @@
       {
         "Title": "Faculty development program on Effective teaching",
         "OrganizedBy": "LCIT Bhandu",
-        "Date": "4-Dec-06 to 9-Dec-06"
+        "Date": "04-12-2006 to 09-12-2006"
       },
       {
         "Title": "National conference on Best Practices in Engineering Education",
         "OrganizedBy": "STES, Pune",
-        "Date": "2-Feb-07 to 3-Feb-07"
+        "Date": "02-02-2007 to 03-02-2007"
       },
       {
         "Title": "The 12th ISTE Gujarat State Convension and One day Symposium on Excellence in Technical Education Through Innovation",
         "OrganizedBy": "ISTE Gujarat at BVM",
-        "Date": "20-Oct-07"
+        "Date": "20-10-2007"
       },
       {
         "Title": "37th ISTE Annual convention and National Seminar",
         "OrganizedBy": "MIT, Manipal",
-        "Date": "17-Dec-07 to 19-Dec-07"
+        "Date": "17-12-2007 to 19-12-2007"
       },
       {
         "Title": "National workshop on Igniting the spirit of Innovation in Engineering students",
         "OrganizedBy": "SNIST Hyderabad",
-        "Date": "24-Jan-08 to 25-Jan-08"
-      },
-      {
-        "Title": "National workshop on Igniting the spirit of Innovation in Engineering students",
-        "OrganizedBy": "SNIST, Hyderabad",
-        "Date": "24-Jan-08 to 25-Jan-08"
+        "Date": "24-01-2008 to 25-01-2008"
       },
       {
         "Title": "Advances in Industrial Boilers",
         "OrganizedBy": "Nirma University Ahmedabad",
-        "Date": "25-May-09 to 29-May-09"
+        "Date": "25-05-2009 to 29-05-2009"
       },
       {
         "Title": "Faculty Induction training program – 2009",
         "OrganizedBy": "Nirma University Ahmedabad",
-        "Date": "15-Jun-09 to 26-Jun-09"
+        "Date": "15-06-2009 to 26-06-2009"
       },
       {
         "Title": "Energy Conservation, Management and Audit",
         "OrganizedBy": "SVNIT, Surat",
-        "Date": "21-Dec-09 to 25-Dec-09"
+        "Date": "21-12-2009 to 25-12-2009"
       },
       {
         "Title": "Industrial training",
         "OrganizedBy": "IFFCO Kalol",
-        "Date": "20-Dec-10 to 24-Dec-10"
+        "Date": "20-12-2010 to 24-12-2010"
       },
       {
         "Title": "Advances in Automobile Engineering",
         "OrganizedBy": "Nirma University Ahmedabad",
-        "Date": "27-Dec-10 to 1-Jan-11"
+        "Date": "27-12-2010 to 01-01-2011"
       },
       {
         "Title": "Patent search methodology",
         "OrganizedBy": "LDCE Ahmedabad",
-        "Date": "16-Feb-13"
+        "Date": "16-02-2013"
       },
       {
         "Title": "Recent trends in Automobile Engineering",
         "OrganizedBy": "L D C E Ahmedabad",
-        "Date": "13-May-13 to 18-May-13"
+        "Date": "13-05-2013 to 18-05-2013"
       },
       {
         "Title": "International conference on advances in tribology & engineering systems",
         "OrganizedBy": "GTU & LDCE, Ahmedabad",
-        "Date": "15-Oct-13 to 17-Oct-13"
+        "Date": "15-10-2013 to 17-10-2013"
       },
       {
         "Title": "Energy savings using solar appliances",
         "OrganizedBy": "PDPU, Gandhinagar",
-        "Date": "25-Oct-13"
+        "Date": "25-10-2013"
       },
       {
         "Title": "Importance of CAD/CAM",
         "OrganizedBy": "L D C E Ahmedabad",
-        "Date": "18-Nov-13 to 22-Nov-13"
+        "Date": "18-11-2013 to 22-11-2013"
       },
       {
         "Title": "Karmayogi residential training for quality improvement program in technical education",
         "OrganizedBy": "Gandhinagar",
-        "Date": "6-Dec-13 to 8-Dec-13"
+        "Date": "06-12-2013 to 08-12-2013"
       },
       {
         "Title": "Induction Training Program Phase-I",
         "OrganizedBy": "NITTR, Bhopal",
-        "Date": "16-Dec-13 to 27-Dec-13"
+        "Date": "16-12-2013 to 27-12-2013"
       },
       {
         "Title": "Induction Training Program Phase-II",
         "OrganizedBy": "NITTR, Bhopal",
-        "Date": "7-Apr-14 to 25-Apr-14"
+        "Date": "07-04-2014 to 25-04-2014"
       },
       {
         "Title": "Fluid Mechanics",
         "OrganizedBy": "IIT Kharagpur",
-        "Date": "20-May-14 to 30-May-14"
+        "Date": "20-05-2014 to 30-05-2014"
       },
       {
         "Title": "Teaching Thermodynamics",
         "OrganizedBy": "IIT Gandhinagar",
-        "Date": "26-Jun-14 to 27-Jun-14"
+        "Date": "26-06-2014 to 27-06-2014"
       },
       {
         "Title": "Teaching Fluid Mechanics",
         "OrganizedBy": "IIT Gandhinagar",
-        "Date": "10-Oct-14 to 11-Oct-14"
+        "Date": "10-10-2014 to 11-10-2014"
       },
       {
         "Title": "MATLAB and its applications",
         "OrganizedBy": "GP Gandhinagar",
-        "Date": "17-Nov-14 to 21-Nov-14"
+        "Date": "17-11-2014 to 21-11-2014"
       },
       {
         "Title": "NX-Essentials for NX Designers",
         "OrganizedBy": "SIEMENS COE, LDCE",
-        "Date": "4-Dec-14 to 16-Dec-14"
+        "Date": "04-12-2014 to 16-12-2014"
       },
       {
         "Title": "Shaping technical education to meet the challenges beyond 2020",
         "OrganizedBy": "LDCE Ahmedabad, ISTE",
-        "Date": "1-Jan-15"
+        "Date": "01-01-2015"
       },
       {
         "Title": "SIEMENS Controllers and CIM",
         "OrganizedBy": "SIEMENS COE, LDCE",
-        "Date": "18-May-15 to 22-May-15"
+        "Date": "18-05-2015 to 22-05-2015"
       },
       {
         "Title": "CATIA for Mechanical and Allied Engineering",
         "OrganizedBy": "RCTI, NITTR Ex. Centre Ahmedabad",
-        "Date": "25-May-15 to 29-May-15"
+        "Date": "25-05-2015 to 29-05-2015"
       },
       {
         "Title": "Right to Information Act 2005",
         "OrganizedBy": "SPIPA , LDCE",
-        "Date": "11-Jun-15"
+        "Date": "11-06-2015"
       },
       {
         "Title": "Modelling, Analysis and Automation in Engineering",
         "OrganizedBy": "LDCE Ahmedabad",
-        "Date": "23-May-16 to 4-Jun-16"
+        "Date": "23-05-2016 to 04-06-2016"
       },
       {
         "Title": "Two week summer school on Fluid Mechanics",
         "OrganizedBy": "IIT Gandhinagar",
-        "Date": "6-Jun-16 to 18-Jun-16"
-      },
-      {
-        "Title": "Advances in Automobile Engineering",
-        "OrganizedBy": "NITTTR, BHOPAL",
-        "Date": "12-Dec-16 to 16-Dec-16"
+        "Date": "06-06-2016 to 18-06-2016"
       },
       {
         "Title": "Advanced computer added manufacturing techniques",
         "OrganizedBy": "SIEMENS COE, GEC, Patan",
-        "Date": "22-May-17 to 2-Jun-17"
+        "Date": "22-05-2017 to 02-06-2017"
       },
       {
         "Title": "Simulation using CATIA",
         "OrganizedBy": "NITTTR, BHOPAL",
-        "Date": "30-Oct-17 to 3-Nov-17"
+        "Date": "30-10-2017 to 03-11-2017"
       },
       {
         "Title": "Two wheeler technology",
         "OrganizedBy": "L D C E Ahmedabad",
-        "Date": "26-Dec-17 to 5-Jan-18"
+        "Date": "26-12-2017 to 05-01-2018"
       },
       {
         "Title": "Innovation and advancement in conventional industrial welding practices",
         "OrganizedBy": "COE Welding, LDCE",
-        "Date": "28-May-18 to 8-Jun-18"
+        "Date": "28-05-2018 to 08-06-2018"
       },
       {
         "Title": "First Course in Computational Fluid Dynamics",
         "OrganizedBy": "IIT Bombay",
-        "Date": "25-Jun-18 to 29-Jun-18"
+        "Date": "25-06-2018 to 29-06-2018"
       },
       {
         "Title": "Pedagogy and effective use of ICT in engineering education and academic governance",
         "OrganizedBy": "NITTTR, BHOPAL",
-        "Date": "15-Jul-19 to 19-Jul-19"
+        "Date": "15-07-2019 to 19-07-2019"
       },
       {
         "Title": "MATLAB programming for numerical computations (8 Weeks)",
         "OrganizedBy": "Online, Swayam Portal, IIT Madras",
-        "Date": "1-Jan-20 to 1-Mar-20"
+        "Date": "01-01-2020 to 01-03-2020"
       },
       {
         "Title": "Comprehensive Online Intellectual Property Rights (Ipr)",
         "OrganizedBy": "Online, i-Hub",
-        "Date": "6-Jul-20 to 14-Sep-20"
+        "Date": "06-07-2020 to 14-09-2020"
       },
       {
         "Title": "UDAYAM",
         "OrganizedBy": "Online, KCG & Guj. University",
-        "Date": "28-Jul-20 to 18-Aug-20"
+        "Date": "28-07-2020 to 18-08-2020"
       },
       {
         "Title": "Scientific computing using MATLAB (12 Weeks)",
         "OrganizedBy": "Online, Swayam Portal, IIT Delhi",
-        "Date": "1-Sep-20 to 1-Dec-20"
+        "Date": "01-09-2020 to 01-12-2020"
       },
       {
         "Title": "LaTex",
         "OrganizedBy": "Online by GTU innovation cell",
-        "Date": "2-Oct-20 to 31-Oct-20"
+        "Date": "02-10-2020 to 31-10-2020"
       },
       {
         "Title": "Fundamentals of Combustion (12 Weeks)",
         "OrganizedBy": "Online, Swayam Portal, IIT Madras",
-        "Date": "1-Jan-21 to 1-Apr-21"
+        "Date": "01-01-2021 to 01-04-2021"
       },
       {
         "Title": "The joy of computing using Python (12 Weeks)",
         "OrganizedBy": "Online, Swayam Portal, IIT Ropar",
-        "Date": "1-Jan-22 to 1-Apr-22"
+        "Date": "01-01-2022 to 01-04-2022"
       },
       {
         "Title": "Performance appraisal and development",
         "OrganizedBy": "NITTTR, BHOPAL",
-        "Date": "29-Aug-22 to 2-Sep-22"
+        "Date": "29-08-2022 to 02-09-2022"
       },
       {
         "Title": "Introduction to programming in C",
         "OrganizedBy": "Online, Swayam Portal, IIT Madras",
-        "Date": "1-Jan-23 to 1-Mar-23"
+        "Date": "01-01-2023 to 01-03-2023"
       },
       {
         "Title": "Blended learning",
         "OrganizedBy": "NITTTR, BHOPAL",
-        "Date": "30-Jan-23 to 3-Feb-23"
+        "Date": "30-01-2023 to 03-02-2023"
       },
       {
         "Title": "Research paper and research proposal writing",
         "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "16-Oct-23 to 20-Oct-23"
+        "Date": "16-10-2023 to 20-10-2023"
       },
       {
         "Title": "Computational approaches for engineering",
         "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "5-Feb-24 to 9-Feb-24"
+        "Date": "05-02-2024 to 09-02-2024"
       },
       {
         "Title": "Industrial Training at IFFCO, Kalol",
         "OrganizedBy": "IFFCO Kalol",
-        "Date": "3-Jun-24 to 18-Jun-24"
+        "Date": "03-06-2024 to 18-06-2024"
       }
+
     ],
+
     "Publications": [
       {
         "SrNo": 1,
@@ -4755,17 +4810,17 @@
   },
   {
     "ID": 505,
-    "Name": "Mr. Miteshkumar Patel",
+    "Name": "Dr. Miteshkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/505.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2011-05-04",
-    "Qualification": "M.E.MECHANICAL (PROD. ENGG.)",
+    "Qualification": "Ph.D. Mechanical",
     "Area_of_Interest": "production",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MITESHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.MECHANICAL (PROD. ENGG.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">production</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Patel Miteshkumar Govindbhai",
+      "Name": "Dr. Miteshkumar Govindbhai Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "9909177300",
@@ -4947,12 +5002,12 @@
     "image": "images/Faculty/507.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2012-10-05",
-    "Qualification": "M.E",
+    "Qualification": "M.E CAD-CAM",
     "Area_of_Interest": "CAD-CAM",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KIRANKUMAR RABARI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD-CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "KIRANKUMAR   KANJIBHAI   RABARI",
+      "Name": "Mr. KIRANKUMAR   KANJIBHAI   RABARI",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9426875710",
@@ -4961,14 +5016,15 @@
     },
     "EducationalQualifications": [
       {
-        "Degree": "B.E.",
-        "Year": "2009",
-        "Specialization": "MECHANICAL ENGINEERING"
-      },
-      {
         "Degree": "M.E.",
         "Year": "2012",
         "Specialization": "CAD/CAM"
+      },
+      {
+        "Degree": "B.E.",
+        "Year": "2009",
+        "Specialization": "MECHANICAL ENGINEERING"
+
       }
     ],
     "ProfessionalExperiences": [
@@ -5047,12 +5103,12 @@
     "image": "images/Faculty/508.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2011-06-21",
-    "Qualification": "BE MECHANICAL",
+    "Qualification": "B.E. MECHANICAL",
     "Area_of_Interest": "POWER PLANT ENGINEERING",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. CHIRAG KADIYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li>=<li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">BE MECHANICAL</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">13 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">POWER PLANT ENGINEERING</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "CHIRAG PRAVINBHAI KADIYA",
+      "Name": "Mr. CHIRAG PRAVINBHAI KADIYA",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9824528645",
@@ -5093,7 +5149,7 @@
 
   {
     "ID": 509,
-    "Name": "Mr. NARENDRAKUMAR PATEL",
+    "Name": "Dr. Narendrakumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/509.jpg",
     "Dept_ID": 5,
@@ -5122,34 +5178,49 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Prof. Narendra A. Patel",
+      "Name": "Dr. Narendra A. Patel",
       "Designation": "Assistant Professor",
-      "Department": "Computer Science",
-      "Contact": "+91-9876543210",
+      "Department": "Mechanical",
+      "Contact": "+91 9879328977",
       "Email": "narendra.patel@gecpatan.ac.in"
     },
     "EducationalQualifications": [
       {
-        "Degree": "M.Tech",
-        "Year": "2015",
-        "Specialization": "Computer Science"
+        "Degree": "Ph.D.",
+        "Year": "2021",
+        "Specialization": "Adaptive Control for Machine Tools"
       },
       {
-        "Degree": "B.Tech",
-        "Year": "2012",
-        "Specialization": "Information Technology"
+        "Degree": "M.Tech",
+        "Year": "2009",
+        "Specialization": "CAD/CAM"
+      },
+      {
+        "Degree": "B.E.",
+        "Year": "2002",
+        "Specialization": "Mechanical Engineering"
       }
     ],
     "ProfessionalExperiences": [
       {
         "Position": "Assistant Professor",
-        "Organization": "Government Engineering College Patan",
-        "Duration": "01-08-2016 to Present"
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "01-11-2022 to Present"
       },
       {
-        "Position": "Lecturer",
-        "Organization": "D.N. Patel College of Engineering",
-        "Duration": "01-07-2013 to 31-07-2016"
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College, Palanpur",
+        "Duration": "09-05-2011 to 01-11-2022"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "U. V. Patel College of Engineering, Ganpat University, Kherva",
+        "Duration": "04-01-2004 to 08-05-2011"
+      },
+      {
+        "Position": "Design Engineer",
+        "Organization": "L & T Limited, Hazira works, Sura",
+        "Duration": "07-01-2002 to 07-01-2003"
       }
     ],
     "TrainingAndWorkshops": [
@@ -5293,22 +5364,75 @@
       {
         "SrNo": 12,
         "Title": "Evaluating the Cooking Oil Container Filling Machine's Performance by Altering the Actuation Devices (Experimental Methods), International Journal of Applied Engineering & Technology, Vol. 5, No. S6, Oct-Dec 2023, ISSN: 2633-4828, Pg. 166-175"
+      },
+      {
+        "SrNo": 13,
+        "Title": "“A Review on development of adaptive control system for tool vibration minimization and feed optimization for turning center”, International Conference on Emerging Trends in Mechanical Engineering, Feb. 24-25,2017,G. H. Patel College of Engineering & Technology, Vallabh Vidyanagar- 388120 , Gujarat, India"
+      },
+      {
+        "SrNo": 14,
+        "Title": "“Finite Element Analysis Of Single Point Beam Type Load Cell To Optimize It’s Measuring Range”, Golden Jubilee International Conference on RECENT ADVANCES IN MANUFACTURING (RAM2010), 19-21 JULY 2010 S.V. National Institute of Technology, Surat – 395 007, Gujarat, India"
+      },
+      {
+        "SrNo": 15,
+        "Title": "“Improper Lubricants & Particle Size Effect On Vibration Level Of Ball Bearing : A Review”, Third International & Twenty forth All India Manufacturing Technology Design & Research Confenrence-2010 (3rd international & 24th AIMTDR-2010), By Andhra University College Of Engineering(A) , Andhra University, Visakhapatnam-530 003 , Andhra Pradesh , India."
+      },
+      {
+        "SrNo": 16,
+        "Title": "“Centrifugal Separator Performance Characterization By Focusing Bearing Service Life”, Proc. of the 3rd International Conference on Advances in Mechanical Engineering, January 4-6, 2010, S.V. National Institute of Technology, Surat – 395 007, Gujarat, India"
+      },
+      {
+        "SrNo": 17,
+        "Title": "“Performance Evaluation of Edible Oil Drum Filling Machine ByChanging Control Devices (Experimental Methods)”, Proc. of the International Conference on ‘Advances in Mechanical Engineering’, December 15-17, 2008, S.V. National Institute of Technology, Surat – 395 007, Gujarat, India"
+      },
+      {
+        "SrNo": 18,
+        "Title": "“Modelling & Analysis Of Ball Bearing –Skf-6310 Mc/3 Of Oil Separator To Optimise It’s Performance”, Golden Jubilee National Conference On Recent Advances In Manufacturing (RAM-2010) 19-21JULY 2010S.V. National Institute of Technology, Surat – 395 007, Gujarat, India."
+      },
+      {
+        "SrNo": 19,
+        "Title": "“Results Of Vibration Level Due To Contaminated Lubricants Of Ball Bearing : A Review”, Golden Jubilee National Conference On Recent Advances In Manufacturing (RAM 2010) 19-21july 2010, S.V. National Institute of Technology, Surat – 395 007, Gujarat, India."
+      },
+      {
+        "SrNo": 20,
+        "Title": "“Design & Analysis Of Strain Guage Based Load Cell to Optimize it’s Performance”, All India National Conference on Advancement & Futurastic Trends In Mechanical & Material Engineering ,1st May 2010 Yagyavalkya Institute of Technology,Jaipur (Raj) – 302020."
+      },
+      {
+        "SrNo": 21,
+        "Title": "“Determination of deformation (crake propagation) of deep groove ball bearing (SKF-6310 mc/3) through FEM-method-Ansys”, All India National Conference On Advancement & Futuristic Trends in Mechanical & Material Engineering 30-Apr & 1-May,2010,Yagyavalkya Institute of Technology, Jaipur, Rajsthan."
+      },
+      {
+        "SrNo": 22,
+        "Title": "“Application and implementation of RFID techniques in manufacturing industries”, National Conference on Innovations in Engineering & Technology, (IET 2008), Takniki Shiksha Vidyarthi Parishad in association with Poornima Group of Colleges, Jaipur"
+      },
+      {
+        "SrNo": 23,
+        "Title": "“Performance Issues and its Solutions for Mobile Computing”, National Conference on Innovations in Engineering & Technology, (IET 2008), Takniki Shiksha Vidyarthi Parishad in association with Poornima Group of Colleges, Jaipu"
+      },
+      {
+        "SrNo": 24,
+        "Title": "“Holonic Control Concept For Packaging Under Virtual Manufacturing Environment”, National Conference on Engineering Technology for Sustainable Development: Opportunities & Challenges, 18th & 19th January, 2008"
+      },
+      {
+        "SrNo": 25,
+        "Title": "“Optimizing the cost and manufacturing time by improving design of manufacturing”, NCDDM_2007 National Conference on Design Dynamics and Manufacturing SLIET Longowal (Pb), (16-17 March 20"
       }
     ]
   },
   {
     "ID": 510,
-    "Name": "Mr. kamlesh Thakkar",
+    "Name": "Mr. Kamlesh Thakkar",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/510.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2016-06-10",
-    "Qualification": "M.TECH",
+    "Qualification": "M.TECH CAD/CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAMLESH THAKKAR</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div>                                         </div>",
     "PersonalDetails": {
-      "Name": "KAMLESH HASMUKHLAL THAKKAR",
+      "Name": "Mr. KAMLESH HASMUKHLAL THAKKAR",
+      "THAKKAR\",": null,
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9924964688",
@@ -5503,27 +5627,27 @@
   },
   {
     "ID": 511,
-    "Name": "MR. HIRENKUMAR PRAJAPATI",
+    "Name": "Dr. HIRENKUMAR PRAJAPATI",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/511.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2022-11-01",
-    "Qualification": "M.Tech",
+    "Qualification": "Ph.D. Design And Dynamics",
     "Area_of_Interest": "Design, Dynamics and Manufacturing",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">                                              <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HIRENKUMAR  PRAJAPATI</a></div>                                             <hr>                                              <div class=\"b-portfolio_info_description f-portfolio_info_description\">                                                   <div class=\"b-information-box f-information-box f-primary-b\">                                                          <ul>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Designation</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Assistant Professor</span>                                                              </li>                                                                <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">M.Tech</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Experience</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                                                                                  <span class=\"f-information_data\">7 Years</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Design, Dynamics and Manufacturing</span>                                                              </li>                                                          </ul>                                                      </div>                                              </div>                                          </div>",
     "PersonalDetails": {
       "Name": "Dr. Hirenkumar Rameshbhai Prajapati",
       "Designation": "Assistant Professor",
-      "Department": "Computer Science",
+      "Department": "Mechanical",
       "Contact": "+91-9724500859",
       "Email": "hiren.prajapati@gecpatan.ac.in"
     },
     "EducationalQualifications": [
       {
-        "Degree": "B.E.",
-        "Year": "2007",
-        "Specialization": "Mechanical (CAD/CAM)"
+        "Degree": "Ph.D",
+        "Year": "2019",
+        "Specialization": "Mechanical (Design and Dynamics)"
       },
       {
         "Degree": "M.Tech",
@@ -5535,11 +5659,13 @@
         "Year": "2016",
         "Specialization": "PGDIPR"
       },
+
       {
-        "Degree": "Ph.D",
-        "Year": "2019",
-        "Specialization": "Mechanical (Design and Dynamics)"
+        "Degree": "B.E.",
+        "Year": "2007",
+        "Specialization": "Mechanical (CAD/CAM)"
       }
+
     ],
     "ProfessionalExperiences": [
       {
@@ -5641,82 +5767,78 @@
     "Publications": [
       {
         "SrNo": 1,
-        "Title": "Parametric analysis of surface Roughness (SR) and material Removal rate (MRR) of harden steel on CNC turning using ANOVA analysis: A Review"
+        "Title": "Parametric analysis of surface Roughness (SR) and material Removal rate (MRR) of harden steel on CNC turning using ANOVA analysis: A Review - International Journal of Engineering Science and Technology (IJEST), 2012"
       },
       {
         "SrNo": 2,
-        "Title": "Parametric analysis of surface Roughness (SR) and material Removal rate (MRR) of harden steel on CNC turning using ANOVA analysis: A Review"
+        "Title": "Parametric analysis of surface Roughness (SR) and material Removal rate (MRR) of harden steel on CNC turning using ANOVA analysis: A Review - International Journal of Engineering Science and Technology (IJEST), 2012"
       },
       {
         "SrNo": 3,
-        "Title": "Microstructural and mechanical properties of eutectic Alâ€“Si alloy with grain refined and modified using gravity-die and sand casting"
+        "Title": "Microstructural and mechanical properties of eutectic Al–Si alloy with grain refined and modified using gravity-die and sand casting - International Journal of Engineering & Research and Application (IJERA), 2012"
       },
       {
         "SrNo": 4,
-        "Title": "Fault Detection Analysis and Diagnosis of Rotor by Six Sigma Methodology: A Review"
+        "Title": "Fault Detection Analysis and Diagnosis of Rotor by Six Sigma Methodology: A Review - International Journal of Engineering Research & Technology (IJERT), 2012"
       },
       {
         "SrNo": 5,
-        "Title": "Experimental Investigation of Performance of Different Electrode Materials in Electro Discharge Machining For Material Removal Rate and Surface Roughnes"
+        "Title": "Experimental Investigation of Performance of Different Electrode Materials in Electro Discharge Machining For Material Removal Rate and Surface Roughness - International Journal of Engineering Research and Applications (IJERA), 2012"
       },
       {
         "SrNo": 6,
-        "Title": "Design of Vibratory Screen used in Coal Mining Industry to Prevent Failure â€“ A Case Study"
+        "Title": "Design of Vibratory Screen used in Coal Mining Industry to Prevent Failure – A Case Study - International Journal of Research in Modern Engineering and Emerging Technology (IJRMEET), 2013"
       },
       {
         "SrNo": 7,
-        "Title": "Optimization Of Twin Screw Extruder (TSE) Machine for Polyethylene Terephthalate (PET) Polymer Material using ANOVA methods"
+        "Title": "Optimization Of Twin Screw Extruder (TSE) Machine for Polyethylene Terephthalate (PET) Polymer Material using ANOVA methods - International Journal of Engineering Research & Technology (IJERT), 2013"
       },
       {
         "SrNo": 8,
-        "Title": "Parametric Analysis of Material removal rate and surface roughness of Electro Discharge Machining on EN 9"
+        "Title": "Parametric Analysis of Material removal rate and surface roughness of Electro Discharge Machining on EN 9 - International Journal of Research in Modern Engineering and Emerging Technology (IJRMEET), 2013"
       },
       {
         "SrNo": 9,
-        "Title": "Analysis of the penstock for pit turbine using computational fluid dynamics"
+        "Title": "Analysis of the penstock for pit turbine using computational fluid dynamics - IOSR Journal of Mechanical and Civil Engineering (IOSR-JMCE), 2014"
       },
       {
         "SrNo": 10,
-        "Title": "Parametric Optimization of belt conveyor supporting structure using FEA- DOE hybrid Modeling"
+        "Title": "Parametric Optimization of belt conveyor supporting structure using FEA- DOE hybrid Modeling - IOSR Journal of Mechanical and Civil Engineering (IOSR-JMCE), 2014"
       },
       {
         "SrNo": 11,
-        "Title": "Modeling And Analysis of Track Mounted Conveyorâ€™s Chassis Using FEA"
+        "Title": "Modeling And Analysis of Track Mounted Conveyor’s Chassis Using FEA - International Journal for Scientific Research & Development (IJSRD), 2014"
       },
       {
         "SrNo": 12,
-        "Title": "Investigation of Stress Concentration Factor for Keyway on Shaft under Different Loading Conditions: A Case Study"
+        "Title": "Investigation of Stress Concentration Factor for Keyway on Shaft under Different Loading Conditions: A Case Study - University Journal of Research, 2015"
       },
       {
         "SrNo": 13,
-        "Title": " A Novel Axial Foldable Mechanism for a Segmented Primary Mirror of Space Telescope"
+        "Title": "Investigation of optimum stress concentration factor for shoulder fillet in round bar under different loading conditions - Trends in Mechanical Engineering & Technology, 2018"
       },
       {
         "SrNo": 14,
-        "Title": "Investigation of optimum stress concentration factor for shoulder fillet in round bar under different loading conditions"
+        "Title": "Evaluation of Stress Concentration Factor for Shoulder Fillet on Round Bar under Axial Tension Loading - American International Journal of Research in Science, Technology, Engineering & Mathematics, 2019"
       },
       {
         "SrNo": 15,
-        "Title": "Evaluation of Stress Concentration Factor for Shoulder Fillet on Round Bar under Axial Tension Loading"
+        "Title": "Performance Evaluation of Stress Concentration Factor for Shoulder Fillet on Round Bar under Bending Loading - International Journal of Recent Technology and Engineering (IJRTE), 2019"
       },
       {
         "SrNo": 16,
-        "Title": "Performance Evaluation of Stress Concentration Factor for Shoulder Fillet on Round Bar under Bending Loading"
+        "Title": "Measurement of Stress Concentration Factor for Shoulder Fillet on Flat Plate under Axial Tension using Photoelasticity Method and FEA - International Journal of Innovative Technology and Exploring Engineering (IJITEE), 2019"
       },
       {
         "SrNo": 17,
-        "Title": "Measurement of Stress Concentration Factor for Shoulder Fillet on Flat Plate under Axial Tension using Photoelasticity Method and FEA"
+        "Title": "Effect of Curved Surface of a Shoulder Fillet Round Bar on Stress Concentration Factor for Axial Tension Loading - Jurnal Kejuruteraan, 2023"
       },
       {
         "SrNo": 18,
-        "Title": " Effect of Curved Surface of a Shoulder Fillet Round Bar on Stress Concentration Factor for Axial Tension Loading"
-
-      },
-      {
-        "SrNo": 19,
-        "Title": "Estimation of Stress Concentration Factor for a plate with hole under Axial Tension Loading"
+        "Title": "Estimation of Stress Concentration Factor for a plate with hole under Axial Tension Loading - Jurnal Kejuruteraan, 2023"
       }
     ]
+
   },
   {
     "ID": 512,
@@ -5725,12 +5847,12 @@
     "image": "images/Faculty/512.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2016-06-23",
-    "Qualification": "M.E",
+    "Qualification": "M.E CAD/CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. VIPULKUMAR PATEL</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "VIPULKUMAR KASHIRAMBHAI PATEL",
+      "Name": "Mr. Vipulkumar Kashirambhai Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "9427283696",
@@ -5738,9 +5860,9 @@
     },
     "EducationalQualifications": [
       {
-        "Degree": "B.E Mechanical",
-        "Year": "2008",
-        "Specialization": "Mechanical"
+        "Degree": "PhD",
+        "Year": "Pursuing",
+        "Specialization": ""
       },
       {
         "Degree": "M.Tech",
@@ -5748,10 +5870,11 @@
         "Specialization": "CAD/CAM"
       },
       {
-        "Degree": "PhD",
-        "Year": "Pursuing",
-        "Specialization": ""
+        "Degree": "B.E.",
+        "Year": "2008",
+        "Specialization": "Mechanical"
       }
+
     ],
     "ProfessionalExperiences": [
       {
@@ -5880,11 +6003,11 @@
     "Publications": [
       {
         "SrNo": 1,
-        "Title": "Study on AZ31 Magnesium Alloy-Based Surface Composite Through Friction Stir Processing: A Review. Welding International (Taylor & Francis), 2025. DOI: https://doi.org/10.1080/09507116.2025.2458043."
+        "Title": "Study on AZ31 magnesium alloy-based surface composite through friction stir processing: a review - Welding International (Tylor& Francis), 2025 - DOI: https://doi.org/10.1080/09507116.2025.2458043"
       },
       {
         "SrNo": 2,
-        "Title": "Fabrication of Copper-Reinforced Aluminium 6061-T6 Surface Composite Using Friction Stir Processing. International Conference on Futuristic Advances in Mechatronics Engineering for Aerospace and Defence (ICFAMEAD-2024), 2024."
+        "Title": "Fabrication of copper reinforced Aluminium 6061-T6 surface composite using friction stir processing - International Conference on Futuristic Advances in Mechatronics Engineering for Aerospace and Defence: ICFAMEAD-2024, 04-05 October 2024"
       }
     ]
   },
@@ -5900,26 +6023,22 @@
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARENDRASINH MAKVANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M. E. (Mechanical)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">I. C. Engines &amp; Automobile</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Makvana Narendrasinh Ramjibhai",
+      "Name": "Mr. Narendrasinh Ramjibhai Makvana ",
       "Designation": "Assistant Professor",
-      "Department": "Mechanical Engineering",
+      "Department": "Mechanical",
       "Contact": "+91-9033659239",
       "Email": "naren.makvana@yahoo.com"
     },
     "EducationalQualifications": [
-      {
-        "Degree": "B. Tech.",
-        "Year": "2010",
-        "Specialization": "Mechanical"
-      },
       {
         "Degree": "M.E.",
         "Year": "2013",
         "Specialization": "I. C. Engine & Automobile"
       },
       {
-        "Degree": "PhD",
-        "Year": "Ongoing"
+        "Degree": "B. Tech.",
+        "Year": "2010",
+        "Specialization": "Mechanical"
       }
     ],
     "ProfessionalExperiences": [
@@ -6033,12 +6152,12 @@
     "image": "images/Faculty/515.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2016-06-10",
-    "Qualification": "M.E.",
+    "Qualification": "M.E. CAD-CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. RAKESHKUMAR OZA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Prof. Rakesh A. Oza",
+      "Name": "Mr. Rakesh A. Oza",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-7698873200",
@@ -6048,8 +6167,7 @@
       {
         "Degree": "Ph.D",
         "University": "GTU",
-        "Year": "Pursuing",
-        "Specialization": ""
+        "Specialization": "Pursuing"
       },
       {
         "Degree": "M.E.",
@@ -6218,7 +6336,7 @@
     "image": "images/Faculty/516.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2018-12-06",
-    "Qualification": "ME",
+    "Qualification": "ME Machine Design",
     "Area_of_Interest": "Machine Design",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAUSHIKKUMAR PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
@@ -6234,40 +6352,149 @@
         "<div id=\"tabs-25815\" aria-labelledby=\"ui-id-8\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">   <h4 class=\"f-tabs-vertical__title f-primary-b\">Research Papars</h4><p></p><h2 id=\"h.p_IdN5lqeTXVbM\" class=\"zfr3Q RuayVd\" xss=\"removed\"><font color=\"#006600\">PRIMARY RESEARCH AREA: </font></h2><h2 id=\"h.p__cie4FiFXeDd\" class=\"zfr3Q RuayVd\" xss=\"removed\"><i><font color=\"#660000\">Balancing Parameter of Spatial , Multi loop and single loop mechanism ( Variable  Input Speed)</font></i></h2><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><h3 id=\"h.p_yLMhSmjVYOtj\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Analysis of Spatial Mechanism in dynamic equilibrium condition using MatLab” By K.V. Patel &amp; Dr. Anurag Verma at International Journal of Engineering Science and Technology (IJEST) ISSN: 0975-5462 </font></h3><h3 id=\"h.p_XQclcqimuvI4\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">“Analysis of Planner Kinematics Chain By Moment Matrix Method” By K.V. Patel &amp; S .J. Patel at International Journal of Design Engineering, Inderscience Publication, Switzerland. </font></h3><h3 id=\"h.p_tg6f6CrOuxw0\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“Analysis of Planner Kinematics Chain By Moment Matrix Method” By K.V. Patel   &amp;  S .J. Patel at International Conference on “Advance In Mechanical Engineering” on 15-17 Dec,2008 at SVNIT, Surat, Gujarat. </font></h3><h3 id=\"h.p_-ASlwexuu0BQ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Optimization Of  Four Bar Linkages In Variable Input Speed With Kinematic And Dynamic Synthesis Using MatLab” By K.V. Patel &amp; S .J. Patel at International Conference on “Advance In Mechanical Engineering” on 15-17 Dec,2008 at SVNIT, Surat, Gujarat.</font></h3><h3 id=\"h.p_ZNkVDP7Au14c\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">\" Evolution of Efficiency of Flat panel used in coal mining industry- A Case study \"   B. P. Patel &amp; K. V. Patel on 3-5 August -2009 At SVNIT, Surat, Gujarat. </font></h3><h3 id=\"h.p_wtHEepDGu4cU\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“Moment matrix method for selection of planar kinematics chains.” By S. J. Patel &amp; K.V. Patel at National Conference on Mechanical Engineering Department -Emerging trends in Mechanical Engineering, Vallabh Vidhyanagar, Gujarat on 28-29 March 2008. \"</font></h3><h3 id=\"h.p_y4lZaFM6u7Fi\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Kinematics synthesis &amp; optimizations of four bar linkages Using Mat lab in variable input speed.” By K.V. Patel &amp; S. J. Patel at National Conference on Mechanical Engineering Department -Emerging trends in mechanical engineering, Vallabh Vidhyanagar, Gujarat on 28-29 March 2008.</font></h3><h3 id=\"h.p_th1xq9aou--s\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">“A Novel Approach For Selection of Production Plant layout in Manufacturing Environment using MADM method: Strategy case Study” By  K. V. Patel, S J. Patel &amp; B. D. Prajapati at National Conference on “Advancement and Futuristic Trend In Mechanical Engineering” on 20<span xss=\"removed\">th</span> Nov-2008 at Rajkot.</font></h3><h3 id=\"h.p_mlGpJxBTvKoA\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“A Novel Approach For Selection of Material In  Manufacturing  Environment using MADM method: Strategy case Study “ By K. V. Patel at 3<span xss=\"removed\">rd</span> National Conference on Recent Development In Mechanical Engineering” on 14-15 Nov-2008 at Thapar University, Patiala.</font></h3></div><p></p>                                     </div>",
         "<div id=\"tabs-25832\" aria-labelledby=\"ui-id-9\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Book Publication </h4><p></p><h2 id=\"h.p_LJpDREW9vrxC\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\" face=\"Arial\">“WORKSHOP TECHNOLOGY “ AUTHOR K. V. PATEL PRACTICE MANUAL FOR FIRST YEAR DEGREE AND DIPLOMA STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN</font></h2><p id=\"h.p_IYbYIY7LvuQT\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p__FEJLyksvucG\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#006600\" face=\"Arial\">“ELEMENTS OF MECHANICAL ENGINEERING “ AUTHOR K. V. PATEL FOR FIRST YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN , ISBN 8189736027</font></h2><p id=\"h.p_RxMlWX5gvwgV\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_sSaGAtF8vwmL\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\" face=\"Arial\">“MANUFACTURING PROCESS-I \" AUTHOR K. V. PATEL FOR SECOND YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN</font></h2><p id=\"h.p_X7vD52PSeFKY\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_uAOlXwq-dre9\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#660000\" face=\"Arial\">\"PRODUCT DESIGN AND VALUE ENGINEERING \" AUTHOR K. V. PATEL FOR THE FINAL YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN.</font></h2><p id=\"h.p_vC2SNIhSNvvU\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_jWxUlde6Nv--\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\" face=\"Arial\">\"OPERATION RESEARCH \" AUTHOR K. V. PATEL FOR THE FINAL YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN. ISBN No.&nbsp; &nbsp;978-93-85173-07-3</font></h2><div xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\"><br></font></div><div xss=\"removed\"><font xss=\"removed\" size=\"1\" face=\"Arial\" color=\"#6600cc\"><h2 id=\"h.p_m9UzdfybiKW6\" class=\"CDt4Ke zfr3Q JYVBee\" tabindex=\"-1\" xss=\"removed\"><div jscontroller=\"Ae65rd\" jsaction=\"touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;\" class=\"CjVfdc\" xss=\"removed\">\"MANUFACTURING PROCESSES\" SUB CODE:3141908, AUTHOR PROF. K. V. PATEL FOR THE 4TH SEMESTER B.E. MECHANICAL STUDENT AS PER NEW REVISED GTU SYLLABUS. ISBN 978-93-85138-48-5</div></h2></font></div><p></p></div>",
         "<div id=\"tabs-46692\" aria-labelledby=\"ui-id-10\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">   <h4 class=\"f-tabs-vertical__title f-primary-b\">Faculty Training Monitoring Cell</h4><p></p><div xss=\"removed\"><span xss=\"removed\"><font face=\"Arial Black\" xss=\"removed\" color=\"#660000\"><b xss=\"removed\">All Other Department Staff </b><span xss=\"removed\"><b>Training</b></span><b xss=\"removed\">&nbsp;Data</b></font></span></div><span xss=\"removed\"><font xss=\"removed\"><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><span xss=\"removed\"><a href=\"https://www.cognitoforms.com/GECPATAN3/TrainingData\" xss=\"removed\"><b xss=\"removed\"><font face=\"Arial\" xss=\"removed\">https://www.cognitoforms.com/GECPATAN3/TrainingData</font></b></a></span></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><font xss=\"removed\" face=\"Arial Black\" color=\"#000099\"><br></font></b></div><font xss=\"removed\" face=\"Arial Black\" color=\"#000099\"><b xss=\"removed\">M</b><b xss=\"removed\">echanical Department Faculty Detail</b></font></font></span><div xss=\"removed\"><b><font color=\"#000099\"><br></font></b></div><div xss=\"removed\"><font face=\"Arial, Verdana\" color=\"#cc0000\"><span xss=\"removed\"><b xss=\"removed\"><a href=\"https://www.cognitoforms.com/GECPL1/FacultyTrainingMonitoring\">https://www.cognitoforms.com/GECPL1/FacultyTrainingMonitoring</a></b></span></font></div><p></p></div>"
-      ],
-      //"Publications": [
-      //    {
-      //      "SrNo": 1,
-      //      "Title": "WORKSHOP TECHNOLOGY - K. V. PATEL, Practice manual for first year degree and diploma students as per GTU syllabus, Atul Prakasan"
-      //    },
-      //    {
-      //      "SrNo": 2,
-      //      "Title": "ELEMENTS OF MECHANICAL ENGINEERING - K. V. PATEL, For first year degree students as per GTU syllabus, Atul Prakasan, ISBN 8189736027"
-      //    },
-      //    {
-      //      "SrNo": 3,
-      //      "Title": "MANUFACTURING PROCESS-I - K. V. PATEL, For second year degree students as per GTU syllabus, Atul Prakasan"
-      //    },
-      //    {
-      //      "SrNo": 4,
-      //      "Title": "PRODUCT DESIGN AND VALUE ENGINEERING - K. V. PATEL, For final year degree students as per GTU syllabus, Atul Prakasan"
-      //    },
-      //    {
-      //      "SrNo": 5,
-      //      "Title": "OPERATION RESEARCH - K. V. PATEL, For final year degree students as per GTU syllabus, Atul Prakasan, ISBN 978-93-85173-07-3"
-      //    },
-      //    {
-      //      "SrNo": 6,
-      //      "Title": "MANUFACTURING PROCESSES - PROF. K. V. PATEL, For 4th semester B.E. Mechanical students as per new revised GTU syllabus, Atul Prakasan, ISBN 978-93-85138-48-5"
-      //    }
-   
+      ]
+    },
+    "PersonalDetails": {
+      "Name": "Mr. Kaushikkumar Patel",
+      "Designation": "Assistant Professor",
+      "Department": "Mechanical ",
+      "Contact": "",
+      "Email": "kaushik.patel@gecpatan.ac.in"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "M.E.",
+        "Year": "2007",
+        "Specialization": "Machine  Design"
+      },
+      {
+        "Degree": "B.E.",
+        "Year": "2002",
+        "Specialization": "Mechanical"
+      }
 
-      //]
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Lecturer",
+        "Organization": "B.S.Patel Polytechnic , Ganpat Vidhyanagar , Kherva ",
+        "Duration": "21-12-2005 to 29-04-2011"
+      },
+      {
+        "Position": "Assistat Professor",
+        "Organization": "Government Engineering College, Palanpur ",
+        "Duration": "30-April 2011 to  05 Dec-2018 "
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College, Patan ",
+        "Duration": "06 Dec-2018 to Present"
 
-
-
-    }
-
+      }
+    ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "ADVANCE OPTIMIZATION THROUGH INTELLIGENT TECHNIQUES",
+        "OrganizedBy": "AICTE Sponsored, SVNIT Surat",
+        "Date": "16-06-2008 to 20-06-2008"
+      },
+      {
+        "Title": "ADVANCE IN HEAT TRANSFER IN MECHANICAL ENGINEERING",
+        "OrganizedBy": "ISTE approved, Parul Institute of Engineering and Technology, Vadodara",
+        "Date": "17-11-2008 to 21-11-2008"
+      },
+      {
+        "Title": "ADVANCE IN MANUFACTURING",
+        "OrganizedBy": "AICTE Sponsored, SVNIT Surat",
+        "Date": "29-12-2008 to 02-01-2009"
+      },
+      {
+        "Title": "ENGINEERING DRAWING USING CAD",
+        "OrganizedBy": "AICTE Sponsored, SVNIT Surat",
+        "Date": "23-11-2009 to 27-11-2009"
+      },
+      {
+        "Title": "COMPUTER AIDED DESIGN AND MANUFACTURING",
+        "OrganizedBy": "American Society of Mechanical Engineers (ASME), SVNIT Surat",
+        "Date": "20-12-2011 to 21-12-2011"
+      },
+      {
+        "Title": "ADVANCE FINITE ELEMENT ANALYSIS",
+        "OrganizedBy": "American Society of Mechanical Engineers (ASME), SVNIT Surat",
+        "Date": "22-12-2011 to 24-12-2011"
+      },
+      {
+        "Title": "INDUCTION TRAINING PHASE –I",
+        "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
+        "Date": "15-04-2013 to 26-04-2013"
+      },
+      {
+        "Title": "INDUCTION TRAINING PHASE –II",
+        "OrganizedBy": "NITTTR, Ext. Center, Gujarat",
+        "Date": "02-12-2013 to 13-12-2013"
+      },
+      {
+        "Title": "KARMYOGI RESIDENTIAL TRAINING",
+        "OrganizedBy": "CTE Gandhinagar",
+        "Date": "17-01-2014 to 19-01-2014"
+      },
+      {
+        "Title": "VAHIVATI TALIM",
+        "OrganizedBy": "SPIPA, Gandhinagar",
+        "Date": "09-06-2014 to 13-06-2014"
+      },
+      {
+        "Title": "ACADEMIC AND RESEARCH PAPER WRITING",
+        "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
+        "Date": "23-02-2015 to 27-02-2015"
+      },
+      {
+        "Title": "DEVELOPMENT OF LAB MANUAL AND PROJECT WORK FOR MECHANICAL ENGINEERING AND ALLIED PROGRAMS",
+        "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
+        "Date": "15-06-2015 to 19-06-2015"
+      },
+      {
+        "Title": "3D ANIMATION",
+        "OrganizedBy": "NITTTR, Bhopal",
+        "Date": "27-06-2017 to 08-07-2017"
+      },
+      {
+        "Title": "PORTFOLIO ASSESSMENTS",
+        "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
+        "Date": "02-01-2017 to 06-01-2017"
+      },
+      {
+        "Title": "RESOURCE MANAGEMENT FOR MANUFACTURING SECTOR",
+        "OrganizedBy": "NITTTR, Bhopal",
+        "Date": "03-07-2017 to 14-07-2017"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "WORKSHOP TECHNOLOGY - K. V. PATEL, Practice manual for first year degree and diploma students as per GTU syllabus, Atul Prakasan"
+      },
+      {
+        "SrNo": 2,
+        "Title": "ELEMENTS OF MECHANICAL ENGINEERING - K. V. PATEL, For first year degree students as per GTU syllabus, Atul Prakasan, ISBN 8189736027"
+      },
+      {
+        "SrNo": 3,
+        "Title": "MANUFACTURING PROCESS-I - K. V. PATEL, For second year degree students as per GTU syllabus, Atul Prakasan"
+      },
+      {
+        "SrNo": 4,
+        "Title": "PRODUCT DESIGN AND VALUE ENGINEERING - K. V. PATEL, For final year degree students as per GTU syllabus, Atul Prakasan"
+      },
+      {
+        "SrNo": 5,
+        "Title": "OPERATION RESEARCH - K. V. PATEL, For final year degree students as per GTU syllabus, Atul Prakasan, ISBN 978-93-85173-07-3"
+      },
+      {
+        "SrNo": 6,
+        "Title": "MANUFACTURING PROCESSES - PROF. K. V. PATEL, For 4th semester B.E. Mechanical students as per new revised GTU syllabus, Atul Prakasan, ISBN 978-93-85138-48-5"
+      }
+    ]
   },
   {
     "ID": 517,
@@ -6276,35 +6503,34 @@
     "image": "images/Faculty/517.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2014-10-21",
-    "Qualification": "M.TECH (AMT)",
+    "Qualification": "M.TECH AMT",
     "Area_of_Interest": "MANUFACTURING",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">   <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DHARMESH PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH (AMT) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">7 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MANUFACTURING</span></li></ul></div></div></div>",
-      "PersonalDetails": {
-        "Name": "Patel Dharmesh Kantilal",
-        "Designation": "Assistant Professor",
-        "Department": "Mechanical",
-        "Contact": "8347055235",
-        "Email": "dkpatel0704@gmail.com"
-      },
+    "PersonalDetails": {
+      "Name": "Mr. Dharmesh Kantilal Patel",
+      "Designation": "Assistant Professor",
+      "Department": "Mechanical",
+      "Contact": "+91 8347055235",
+      "Email": "dkpatel0704@gmail.com"
+    },
       "EducationalQualifications": [
-        {
-          "Degree": "B.E.",
-          "Year": "2012",
-          "Specialization": "Mechanical Engineering"
-        },
         {
           "Degree": "M.Tech",
           "Year": "2014",
           "Specialization": "Advanced Manufacturing Techniques"
+        },
+        {
+          "Degree": "B.E.",
+          "Year": "2012",
+          "Specialization": "Mechanical Engineering"
         }
-        
       ],
       "ProfessionalExperiences": [
         {
           "Position": "Assistant Professor",
           "Organization": "GEC PATAN",
-          "Duration": "10/21/2014 - Present"
+          "Duration": "10/21/2014 to Present"
         }
       ],
       "TrainingAndWorkshops": [],
@@ -6325,18 +6551,13 @@
     "PersonalDetails": {
       "Name": "Mr. Sachin Patel",
       "Designation": "Assistant Professor",
-      "Department": "Mechanical Engineering",
+      "Department": "Mechanical",
       "Contact": "",
       "Email": "sachin.patel@gecpatan.ac.in"
     },
     "EducationalQualifications": [
     ],
     "ProfessionalExperiences": [
-      //{
-      //  "Position": "Assistant Professor",
-      //  "Organization": "Govt. Engineering College, Patan",
-      //  "Duration": "04/21/2011 - Present"
-      //}
     ],
     "TrainingAndWorkshops": [],
     "Publications": []
@@ -6348,7 +6569,7 @@
     "image": "images/Faculty/519.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2016-07-01",
-    "Qualification": "Ph.D.",
+    "Qualification": "Ph.D. Renewable Energy",
     "Area_of_Interest": "Solar Thermal, Solar Photovoltaic, IC Engine",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HITESH PANCHAL</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Solar Thermal, Solar Photovoltaic, IC Engine</span></li></ul></div></div></div>",
@@ -6357,21 +6578,21 @@
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9558037440",
-      "Email": "hitesh.panchal@gecpatan.ac.in"
+      "Email": "engineerhitesh2000@gmail.com"
     },
     "EducationalQualifications": [
       {
-        "Degree": "PhD (Mech)",
+        "Degree": "PhD.",
         "Year": "2015",
         "Specialization": "Renewable Energy"
       },
       {
-        "Degree": "ME (Mech,)",
+        "Degree": "M.E.",
         "Year": "2006",
         "Specialization": "IC/Auto"
       },
       {
-        "Degree": "BE (Mech.)",
+        "Degree": "BE ",
         "Year": "2004",
         "Specialization": "Mechanical Engineering"
       }
@@ -6380,7 +6601,7 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GOVERNMENT ENGINEERING COLLEGE, PATAN",
-        "Duration": "7/1/2016 - Present"
+        "Duration": "07-01-2016 - Present"
       }
     ],
     "TrainingAndWorkshops": [
@@ -6452,7 +6673,7 @@
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY SONI</a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Phil, CSIR- UGC NET, Ph.D. </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Dr.Vijay P. Soni",
+      "Name": "Dr. Vijay P. Soni",
       "Designation": "Assistant Professor",
       "Department": "General",
       "Contact": "+91-9998107895",
@@ -6468,7 +6689,7 @@
       {
         "Degree": "CSIR-UGC NET",
         "Year": "2009",
-        "Specialization": ""
+        "Specialization": "-"
       },
       {
         "Degree": "M.Phil",
@@ -6841,12 +7062,12 @@
     "image": "images/Faculty/603.jpg",
     "Dept_ID": 6,
     "Date_of_Joining": "2011-05-26",
-    "Qualification": "M.Sc. PhD",
+    "Qualification": "M.Sc. PhD CSIR-UGC NET",
     "Area_of_Interest": "Fuzzy Mathematics & Linear algebra",
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY MAKWANA </a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Sc. PhD </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics &amp; Linear algebra</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Dr.Vijay C. Makwana",
+      "Name": "Dr. Vijay C. Makwana",
       "Designation": "Assistant Professor",
       "Department": "General",
       "Contact": "+919879227919",
@@ -6859,11 +7080,11 @@
         "Year": "2017",
         "Specialization": "Fuzzy Mathematics"
       },
-      {
-        "Degree": "CSIR-UGC NET",
-        "Year": "2009",
-        "Specialization": ""
-      },
+      //{
+      //  "Degree": "",
+      //  "Year": "2009",
+      //  "Specialization": ""
+      //},
       {
         "Degree": "M.Phil",
         "Year": "2007",
@@ -6892,6 +7113,116 @@
         "Duration": "26-05-2011 - Present"
       }
     ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "FLUID DYNEMICS",
+        "OrganizedBy": "LDCE, AHMEDABAD",
+        "Date": "30-12-2013 to 03-01-2014"
+      },
+      {
+        "Title": "INDUCTION TRAINING PROGRAMME PHASE-I",
+        "OrganizedBy": "NITTTR, EXTENSION CENTRE, AHMEDABAD",
+        "Date": "26-05-2014 to 06-06-2014"
+      },
+      {
+        "Title": "MATHEMATICAL MODELLING AND NUMERICAL COMPUTATION USING MATLAB",
+        "OrganizedBy": "IIT, ROORKEE",
+        "Date": "09-02-2015 to 13-02-2015"
+      },
+      {
+        "Title": "INDUCTION PHASE-II",
+        "OrganizedBy": "NITTTR, BHOPAL",
+        "Date": "06-07-2015 to 17-07-2015"
+      },
+      {
+        "Title": "MMOFCCES-2016",
+        "OrganizedBy": "SVNIT, SURAT",
+        "Date": "21-06-2016 to 25-06-2016"
+      },
+      {
+        "Title": "INTRODUCTION TO BOUNDARY ELEMENT METHOD",
+        "OrganizedBy": "LDCE, AHMEDABAD",
+        "Date": "09-01-2017 to 13-01-2017"
+      },
+      {
+        "Title": "LaTex For Academic Writing",
+        "OrganizedBy": "GEC, PATAN",
+        "Date": "20-03-2017 to 24-03-2017"
+      },
+      {
+        "Title": "Research Methodology and Technical Communications",
+        "OrganizedBy": "OM EDUCATION CAMPUS, JUNAGADH",
+        "Date": "05-03-2018 to 09-03-2018"
+      },
+      {
+        "Title": "Application of Mathematics in Science and Engineering",
+        "OrganizedBy": "NITTTR, EXTENSION CENTRE, AHMEDABAD",
+        "Date": "13-11-2017 to 13-11-2017"
+      },
+      {
+        "Title": "Scilab Software",
+        "OrganizedBy": "NITTTR, BHOPAL",
+        "Date": "15-07-2019 To 19-07-2019"
+      },
+      {
+        "Title": "Comprehensive Online Intellectual Property Rights (IPR)",
+        "OrganizedBy": "ONLINE",
+        "Date": "06-06-2020 to 14-09-2020"
+      },
+      {
+        "Title": "RECENT TREND IN APPLIED SCIENCES AND ITS APPLICATIONS IN ENGINEERING",
+        "OrganizedBy": "GEC, PATAN",
+        "Date": "30-08-2016 to 30-08-2016"
+      },
+      {
+        "Title": "INDUSTRIAL MATHEMATICS AND SCIENTIFIC COMPUTING",
+        "OrganizedBy": "LDCE, AHMEDABAD",
+        "Date": "16-12-2019 to 25-12-2019"
+      },
+      {
+        "Title": "UDYAM (Unlimited Digital Advanced Yearlong Academic Method of Learning)",
+        "OrganizedBy": "ONLINE",
+        "Date": "28-07-2020 to 18-08-2020"
+      },
+      {
+        "Title": "Partial Differential Equation For Engineers: Solution by Separation of Variables",
+        "OrganizedBy": "MOOC",
+        "Date": "18-01-2021 to 12-02-2021"
+      },
+      {
+        "Title": "Advance Research Methodology & Analytics (ARMA-2021)",
+        "OrganizedBy": "GEC, PATAN",
+        "Date": "22-03-2021 to 26-03-2021"
+      },
+      {
+        "Title": "Matrix Analysis With Applications",
+        "OrganizedBy": "MOOC",
+        "Date": "23-08-2021 to 15-10-2021"
+      },
+      {
+        "Title": "Transform Calculus And Its Applications In Differential Equations",
+        "OrganizedBy": "MOOC",
+        "Date": "24-01-2022 to 15-04-2022"
+      },
+      {
+        "Title": "Mathematics For Economics-1",
+        "OrganizedBy": "MOOC",
+        "Date": "25-07-2022 to 14-10-2022"
+      },
+      {
+        "Title": "Laplace Transform",
+        "OrganizedBy": "MOOC",
+        "Date": "24-07-2023 to 12-08-2023"
+      },
+      {
+        "Title": "Matrix Computations And Its Application",
+        "OrganizedBy": "MOOC",
+        "Date": "24-07-2023 to 13-10-2023"
+      }
+    ],
+
+
+
     "Publications": [
       {
         "SrNo": 1,
@@ -6915,27 +7246,43 @@
       },
       {
         "SrNo": 6,
-        "Title": "SSolution of Fuzzy Algebraic Equations For New Fuzzy Number"
+        "Title": "Solution of Fuzzy Algebraic Equations For New Fuzzy Number"
       },
       {
         "SrNo": 7,
         "Title": "Finite Additive Fuzzy Group, Finite Multiplicative Fuzzy Group and Finite Fuzzy Field"
+      },
+      {
+        "SrNo": 8,
+        "Title": "Fuzzy Number -A New hypothesis and Solution of Fuzzy Equations"
+      },
+      {
+        "SrNo": 9,
+        "Title": "Fuzzy Additive and Fuzzy multiplicative Group"
+      },
+      {
+        "SrNo": 10,
+        "Title": "Application of The Probability Theory To Study of A Transportation Problem of An Essential Item From Various Origins To Different Destinations"
+      },
+      {
+        "SrNo": 11,
+        "Title": "A study of finite fuzzy group, finite fuzzy field and finite fuzzy vector space"
+      },
+      {
+        "SrNo": 12,
+        "Title": "Mathematical Analysis of the Performance of A Longitudinally Rough Finite Porous Plane Slider Bearing"
       }
-    ],
-    "TrainingAndWorkshops": []
+    ]
   },
   {
     "ID": 604,
-    "Name": "Dr. Bhavin S. Patel",
+    "Name": "Dr. Bhavin Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/604.jpg",
     "Dept_ID": 6,
     "Date_of_Joining": "2024-09-18",
     "Qualification": "Ph.D.",
-    "Area_of_Interest": "Fuzzy Mathematics",
-    "Department": "General",
-    "Contact": "+91-9879036903",
-    "Email": "bspatel78@gmail.com",
+    "Area_of_Interest": "Queuing Theory",
     "IsTeaching": true,
     "PersonalDetails": {
       "Name": "Dr. Bhavin S. Patel",
@@ -7124,7 +7471,7 @@
     "image": "images/Faculty/605.jpg",
     "Dept_ID": 6,
     "Date_of_Joining": "2011-05-04",
-    "Qualification": "Ph.D.(Physics)",
+    "Qualification": "Ph.D.",
     "Area_of_Interest": "Atomic and Molecular Physics",
     "Isteaching": true,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HARSHADKUMAR BHUTADIA </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.(Physics) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic andMolecular Physics</span></li></ul></div></div></div>"
@@ -7134,7 +7481,7 @@
       "Contact": "+91-9876543210",
       "Email": "harshad.bhutadia@gecpatan.ac.in",
       "Designation": "Assistant Professional",
-      "Department": ""
+      "Department": "General"
     },
     "EducationalQualifications": [
       {
@@ -7154,11 +7501,7 @@
       }
     ],
     "ProfessionalExperiences": [
-      {
-        "Position": "Professor",
-        "Organization": "ABC Institute",
-        "Duration": "2015 - Present"
-      }
+     
     ],
     "TrainingAndWorkshops": [
       {
@@ -7412,7 +7755,7 @@
 
   {
     "ID": 803,
-    "Name": "Mr. Pareshkumar Nimodiya",
+    "Name": "Dr. Pareshkumar Nimodiya",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/803.jpg",
     "Dept_ID": 8,
@@ -7473,7 +7816,78 @@
         "Title": "Geotechnical Engineering Laboratory",
         "OrganizedBy": "IIT, Gandhinagar",
         "Date": "08/06/2015 to 20/06/2015"
+      },
+      {
+        "Title": "Geotechnical Investigation",
+        "OrganizedBy": "SVNIT, Surat",
+        "Date": "14-07-2015 to 18-07-2015"
+      },
+      {
+        "Title": "Optimization: Theory and Engineering Practice",
+        "OrganizedBy": "VGEC, Chandkheda",
+        "Date": "07-12-2015 to 19-12-2015"
+      },
+      {
+        "Title": "CAD using NX",
+        "OrganizedBy": "GEC Patan",
+        "Date": "25-04-2016 to 30-04-2016"
+      },
+      {
+        "Title": "Management Capacity Enhancement Programme",
+        "OrganizedBy": "IIM Udaipur Rajasthan",
+        "Date": "13-02-2017 to 18-02-2017"
+      },
+      {
+        "Title": "Induction  Phase-1",
+        "OrganizedBy": "RCTI, Ahmedabad",
+        "Date": "24-07-2017 to 04-08-2017"
+      },
+      {
+        "Title": "Life Assessment, Repair and Restoration of Structures",
+        "OrganizedBy": "NITTTR, BHOPAL,MP",
+        "Date": "21-05-2018 to 25-05-2018"
+      },
+      {
+        "Title": "Emerging trends in structural and geotechnical engineering (ETSGE-2018)",
+        "OrganizedBy": "GEC Patan",
+        "Date": "30-07-2018 to 13-08-2018"
+      },
+      {
+        "Title": "Design of Experiments",
+        "OrganizedBy": "BVM, Vallabh Vidyanagar",
+        "Date": "10-06-2019 to 22-06-2019"
+      },
+      {
+        "Title": "Introduction to Research (online  Mooc Training)",
+        "OrganizedBy": "NPTEL (Swayam) IIT Madras /GEC Patan",
+        "Date": "24-02-2020 to 17-04-2020"
+      },
+      {
+        "Title": "Comprehensive online intellectual property rights (IPR)",
+        "OrganizedBy": "GEC Patan",
+        "Date": "06-07-2020 to 14-09-2020"
+      },
+      {
+        "Title": "Use of ICT in Institute",
+        "OrganizedBy": "GEC Patan",
+        "Date": "13-06-2022 to 14-06-2022"
+      },
+      {
+        "Title": "Admixture and Special Concrete",
+        "OrganizedBy": "GEC Patan",
+        "Date": "24-07-2023 to 13-10-2023"
+      },
+      {
+        "Title": "Indrustrial training",
+        "OrganizedBy": "PSP Projects Limited, Ahmedabad",
+        "Date": "17-06-2024 to 30-06-2024"
+      },
+      {
+        "Title": "Industrial training",
+        "OrganizedBy": "Rakesh Construction Company, Patan",
+        "Date": "15-07-2024 to 27-07-2024"
       }
+
     ],
     "Publications": [
       {
@@ -7551,7 +7965,7 @@
     "IsTeaching": true,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARDIK TRIVEDI</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E.Civil (CASAD)</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">10 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Structural Analysis &amp; Design</span> </li> </ul> </div> </div> </div>",
     "PersonalDetails": {
-      "Name": "H. R. TRIVEDI",
+      "Name": "Mr. Hardik R. Trivedi",
       "Designation": "Assistant Professor",
       "Department": "Civil",
       "Contact": "+91-9722335587",
@@ -7582,7 +7996,7 @@
       },
       {
         "Position": "Assistant Professor",
-        "Organization": "GEC Patan",
+        "Organization": "GEC, Patan",
         "Duration": "01-07-2015 to Present"
       }
     ],
@@ -7708,7 +8122,7 @@
   },
   {
     "ID": 805,
-    "Name": "Mr. Jigneshkumar Patel",
+    "Name": "Dr. Jigneshkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/805.jpg",
     "Dept_ID": 8,
@@ -7719,7 +8133,7 @@
 
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JIGNESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Master in Structural Engineering</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">5 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">characterization and production of different types of concrete</span> </li> </ul> </div> </div> </div>"
     "PersonalDetails": {
-      "Name": "JIGNESHKUMAR MAHENDRABHAI PATEL",
+      "Name": "Dr. Jigeshkumar Mahendrabhai Patel",
       "Designation": "Assistant Professor",
       "Department": "Applied Mechanics",
       "Contact": "",
@@ -7761,7 +8175,7 @@
       {
         "Position": "Assistant Professor",
         "Organization": "Government Engineering College, Patan",
-        "Duration": "06-20-2016 to 18-01-2025"
+        "Duration": "20-06-2016 to 18-01-2025"
       }
     ],
     "TrainingAndWorkshops": [
