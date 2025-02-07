@@ -39,6 +39,14 @@
                                                     </a>
                                                 </li>
                                             }
+                                            else if (!string.IsNullOrWhiteSpace(childItem.Link))
+                                            {
+                                                <li class="">
+                                                    <a href="@childItem.Link" target="_blank">
+                                                        @childItem.MenuText
+                                                    </a>
+                                                </li>
+                                            }
                                             else
                                             {
                                                 <li class="">
