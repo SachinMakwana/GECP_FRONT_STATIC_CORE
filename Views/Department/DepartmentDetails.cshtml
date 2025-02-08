@@ -101,7 +101,7 @@
 		</div>
 		<!-- end parallax section 12 -->
 	}
-	<div class="featured_section14">
+	@*<div class="featured_section14" >
 		<div class="container">
 
 			<div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
@@ -141,13 +141,13 @@
 			<!-- end section -->
 
 		</div>
-	</div>
+	</div>*@
 	<!-- end featured section 14 -->
 
 	<div class="clearfix"></div>
 
 
-	<div class="featured_section3 two">
+	@*<div class="featured_section3 two">
 		<div class="container">
 
 			<div class="onecol_forty"><img src="@Url.Content(Model.HOD_Pic)" alt="" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
@@ -162,7 +162,7 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	</div>*@
 	<div class="margin_top6"></div>
 
 	<div class="clearfix"></div>
@@ -190,6 +190,10 @@
 			@if (Model.DeptAcademicCalender != null && Model.DeptAcademicCalender.Any())
 			{
 				<li><a href="#DeptAcaCalender" target="_self">ACADEMIC CALENDER</a></li>
+			}
+			@if (Model.Mission.Any() && Model.Vision.Any())
+			{
+				<li><a href="#vandm" target="_self">Vision Mission</a></li>
 			}
 		</ul>
 
@@ -323,6 +327,50 @@
 								count++; // Increment count properly
 							}
 						</ul>
+					</div>
+				</div>
+			}
+			@if (Model.Vision.Any() && Model.Mission.Any())
+			{
+				<div class="featured_section14" id="vandm">
+					<div class="container">
+
+						<div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+
+							<img src="@Url.Content("~/images/vision.png")" alt="" />
+							<br /><br />
+							<h3 class="white">Vision</h3>
+
+							<ul class="text-justify">
+								@foreach (var item in Model.Vision)
+								{
+									<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+								}
+							</ul>
+							<br /><br />
+
+
+						</div>
+						<!-- end section -->
+
+						<div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+
+							<img src="@Url.Content("~/images/mission.png")" alt="" />
+							<br /><br />
+							<h3 class="white">Mission</h3>
+
+							<ul class="text-justify">
+								@foreach (var item in Model.Mission)
+								{
+									<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+								}
+							</ul>
+							<br /><br />
+
+
+						</div>
+						<!-- end section -->
+
 					</div>
 				</div>
 			}
