@@ -1,7 +1,7 @@
 ﻿@model DepartmentVM
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = Model.Title;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = Model.Title;
 }
 
 
@@ -10,304 +10,317 @@
 
 
 <div class="page_title3 @Model.TitleImageCSSClass">
-    <div class="container">
+	<div class="full-container">
 
-        <h1>
-            @Model.Title<em>Government Engineering College</em>
-            <div class="line"></div>
-        </h1>
+		<h1>
+			@Model.Title<em>Government Engineering College</em>
+			<div class="line"></div>
+		</h1>
 
-    </div>
+	</div>
 </div>
 <div class="clearfix"></div>
 
+<div class="margin_top10"></div>
+<div class="full-container">
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+		<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+		<button class="tablinks" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button>
+		<button class="tablinks" onclick="openTab(event, 'Staff')">Staff</button>
+		<button class="tablinks" onclick="openTab(event, 'TimeTable')">Time Table</button>
+		<button class="tablinks" onclick="openTab(event, 'NoticeBoard')">Notice Board</button>
+		<button class="tablinks" onclick="openTab(event, 'Achievements')">Achievements</button>
+	</div>
+	<div id="About" class="tabcontent">
+		<div class="full-container">
 
-<div class="content_fullwidth">
+			<div class="one_half">
 
-    <div class="container">
+				<div id="owl-demo2" class="owl-carousel">
+					@foreach (var item in Model.About_Images)
+					{
+						<div><img src="@Url.Content(item)" alt="" class="rimg"></div>
+					}
+				</div>
 
-        <div class="one_half">
+			</div>
+			<!-- end section -->
 
-            <div id="owl-demo2" class="owl-carousel">
-                @foreach (var item in Model.About_Images)
-                {
-                    <div><img src="@Url.Content(item)" alt="" class="rimg"></div>
-                }
-            </div>
+			<div class="one_half last text-justify">
 
-        </div>
-        <!-- end section -->
+				<div class="stcode_title5">
+					<h3 class="nmb"><strong>@Model.Title</strong></h3>
+				</div>
 
-        <div class="one_half last text-justify">
+				<p>
+					@Model.About
+				</p>
 
-            <div class="stcode_title5">
-                <h3 class="nmb"><strong>@Model.Title</strong></h3>
-            </div>
+				<div class="clearfix marb12"></div>
 
-            <p>
-                @Model.About
-            </p>
+			</div>
+			<!-- end section -->
 
-            <div class="clearfix marb12"></div>
+		</div>
+		@if (Model.showIntake)
+		{
+			<div class="margin_top2"> </div>
 
-        </div>
-        <!-- end section -->
+			<div class="parallax_section12">
+				<div class="full-container">
 
-    </div>
-    <!-- end all sections -->
-    @if (Model.showIntake)
-    {
-        <div class="margin_top2"> </div>
+					<div class="counters7 animate" data-anim-type="fadeIn" data-anim-delay="300">
 
-        <div class="parallax_section12">
-            <div class="container">
+						<div class="one_fourth">
+							<i class="fa fa-user"></i> <span id="target21">@Model.Intake</span>
+							<h4>Total Intake</h4>
+						</div>
+						<!-- end section -->
 
-                <div class="counters7 animate" data-anim-type="fadeIn" data-anim-delay="300">
-
-                    <div class="one_fourth">
-                        <i class="fa fa-user"></i> <span id="target21">@Model.Intake</span>
-                        <h4>Total Intake</h4>
-                    </div>
-                    <!-- end section -->
-
-                    <div class="one_fourth">
-                        <i class="fa fa-users"></i> <span id="target22">@Model.FacultyList.Count()</span>
-                        <h4>Faculties Member</h4>
-                    </div>
-                    <!-- end section -->
-                    @*  <div class="one_fifth">
+						<div class="one_fourth">
+							<i class="fa fa-users"></i> <span id="target22">@Model.FacultyList.Count()</span>
+							<h4>Faculties Member</h4>
+						</div>
+						<!-- end section -->
+						@*  <div class="one_fifth">
                 <i class="fa fa-book"></i> <span id="target23">0</span>
                 <h4>Total Subjects</h4>
                 </div> *@
-                    <!-- end section -->
+						<!-- end section -->
 
-                    <div class="one_fourth">
-                        <i class="fa fa-paper-plane"></i> <span id="target24">@Model.AnnualPlacementCount</span>
-                        <h4>Annual Placement</h4>
-                    </div>
-                    <!-- end section -->
+						<div class="one_fourth">
+							<i class="fa fa-paper-plane"></i> <span id="target24">@Model.AnnualPlacementCount</span>
+							<h4>Annual Placement</h4>
+						</div>
+						<!-- end section -->
 
-                    <div class="one_fourth last">
-                        <i class="fa fa-building"></i> <span id="target25">@Model.LabWorkshop</span>
-                        <h4>Labs And Workshops</h4>
-                    </div>
-                    <!-- end section -->
-
-
-                </div>
+						<div class="one_fourth last">
+							<i class="fa fa-building"></i> <span id="target25">@Model.LabWorkshop</span>
+							<h4>Labs And Workshops</h4>
+						</div>
+						<!-- end section -->
 
 
-            </div>
-        </div>
-        <!-- end parallax section 12 -->
-    }
-    <div class="featured_section14">
-        <div class="container">
-
-            <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
-
-                <img src="@Url.Content("~/images/vision.png")" alt="" />
-                <br /><br />
-                <h3 class="white">Vision</h3>
-
-                <ul class="text-justify">
-                    @foreach (var item in Model.Vision)
-                    {
-                        <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-                    }
-                </ul>
-                <br /><br />
+					</div>
 
 
-            </div>
-            <!-- end section -->
+				</div>
+			</div>
+			<!-- end parallax section 12 -->
+		}
 
-            <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+	</div>
+	<div id="VisionMission" class="tabcontent">
+		<div class="featured_section14">
+			<div class="full-container">
 
-                <img src="@Url.Content("~/images/mission.png")" alt="" />
-                <br /><br />
-                <h3 class="white">Mission</h3>
+				<div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
 
-                <ul class="text-justify">
-                    @foreach (var item in Model.Mission)
-                    {
-                        <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-                    }
-                </ul>
-                <br /><br />
+					<img src="@Url.Content("~/images/vision.png")" alt="" />
+					<br /><br />
+					<h3 class="white">Vision</h3>
 
-
-            </div>
-            <!-- end section -->
-
-        </div>
-    </div>
-    <!-- end featured section 14 -->
-
-    <div class="featured_section3 two">
-        <div class="container">
-
-            <div class="onecol_forty"><img src="@Url.Content(Model.HOD_Pic)" alt="" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
-            <div class="onecol_sixty last animate" data-anim-type="fadeInRight" data-anim-delay="300">
-
-                <strong class="color3">HOD MESSAGE</strong>
-                <br />
-                <p class="bigtfont text-justify">
-                    @Model.HODMessage
-                    <br />
-                    - @Model.HODName
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!-- end featured section 3 -->
-    @if (Model.FacultyList.Count() > 0)
-    {
-        <div class="margin_top4"></div>
-        <div id="slider-outline">
-
-            <div id="slider">
-
-                <div id="sl-view" class="clearfix">
-
-                    <div id="sl-wrap">
-
-                        @foreach (var faculty in Model.FacultyList)
-                        {
-                            <div class="sl-div two">
-
-                                <div class="cirpimg"><img src="@Url.Content("~/"+faculty.image)" alt="" class="dept_faculty_pic"></div>
-                                <h4 class="roboto">@faculty.Name<em></em></h4>
-                                <h4 class="roboto">@faculty.Designation<em></em></h4>
-                            </div>
-                        }
-                    </div>
-
-                </div>
-
-                <div id="sl-next"><span>&raquo;</span></div>
-                <div id="sl-prev"><span>&laquo;</span></div>
-
-            </div>
-
-        </div>
-        <!-- end slider section -->
-    }
+					<ul class="text-justify">
+						@foreach (var item in Model.Vision)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+						}
+					</ul>
+					<br /><br />
 
 
-    @if (!string.IsNullOrWhiteSpace(Model.Tagline))
-    {
+				</div>
+				<!-- end section -->
 
-        <div class="clearfix margin_top2"></div>
+				<div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
-        <div class="featured_section38">
-            <div class="container">
-                @Html.Raw(Model.Tagline)
-            </div>
-        </div>
-    }
-    @section scripts {
+					<img src="@Url.Content("~/images/mission.png")" alt="" />
+					<br /><br />
+					<h3 class="white">Mission</h3>
 
-        @*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
-        <script src="@Url.Content("~/js/loopslider/jquery.loopslider.js")"></script>
-        <script>
-            $(function () {
-                $('#slider').loopSlider({
-                    autoMove: true,
-                    mouseOnStop: true,
-                    turn: 9000,
-                    motion: 'swing',
-                    delay: 500,
-                    width: 750,
-                    height: 400,
-                    marginLR: 10,
-                    viewSize: 100,
-                    viewOverflow: 'visible',
-                    navPositionBottom: 30,
-                    navibotton: true,
-                    navbtnImage: ''
-                });
-            });
-        </script>
-        <script>
-            (function ($) {
-                "use strict";
-                var target21 = $("#target21").text();
-                var target22 = $("#target22").text();
-                var target24 = $("#target24").text();
-                var target25 = $("#target25").text();
-
-                $('#target21').animateNumber({
-                    number: target21,
-
-                    numberStep: function (now, tween) {
-                        var floored_number = Math.floor(now),
-                            target = $(tween.elem);
-
-                        target.text(floored_number);
-                    }
-                },
-                    5000
-                )
-
-                $('#target22').animateNumber({
-                    number: target22,
-
-                    numberStep: function (now, tween) {
-                        var floored_number = Math.floor(now),
-                            target = $(tween.elem);
-
-                        target.text(floored_number);
-                    }
-                },
-                    5000
-                )
-
-                $('#target23').animateNumber({
-                    number: 45,
-
-                    numberStep: function (now, tween) {
-                        var floored_number = Math.floor(now),
-                            target = $(tween.elem);
-
-                        target.text(floored_number);
-                    }
-                },
-                    5000
-                )
-
-                $('#target24').animateNumber({
-                    number: target24,
-
-                    numberStep: function (now, tween) {
-                        var floored_number = Math.floor(now),
-                            target = $(tween.elem);
-
-                        target.text(floored_number);
-                    }
-                },
-                    5000
-                )
-
-                $('#target25').animateNumber({
-                    number: target25,
-
-                    numberStep: function (now, tween) {
-                        var floored_number = Math.floor(now),
-                            target = $(tween.elem);
-
-                        target.text(floored_number);
-                    }
-                },
-                    5000
-                )
-            })(jQuery);
-        </script>
+					<ul class="text-justify">
+						@foreach (var item in Model.Mission)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+						}
+					</ul>
+					<br /><br />
 
 
-    }
+				</div>
+				<!-- end section -->
 
-    @section styles {
-        <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
-    }
+			</div>
+		</div>
+		<!-- end featured section 14 -->
+
+	</div>
+
+	<div id="PeoPso" class="tabcontent">
+	
+	</div>
+
+	<div id="Staff" class="tabcontent">
+		<!-- end featured section 3 -->
+		@if (Model.FacultyList.Count() > 0)
+		{
+			<div class="margin_top4"></div>
+			<div id="slider-outline">
+
+				<div id="slider">
+
+					<div id="sl-view" class="clearfix">
+
+						<div id="sl-wrap">
+
+							@foreach (var faculty in Model.FacultyList)
+							{
+								<div class="sl-div two">
+
+									<div class="cirpimg"><img src="@Url.Content("~/"+faculty.image)" alt="" class="dept_faculty_pic"></div>
+									<h4 class="roboto">@faculty.Name<em></em></h4>
+									<h4 class="roboto">@faculty.Designation<em></em></h4>
+								</div>
+							}
+						</div>
+
+					</div>
+
+					<div id="sl-next"><span>&raquo;</span></div>
+					<div id="sl-prev"><span>&laquo;</span></div>
+
+				</div>
+
+			</div>
+			<!-- end slider section -->
+		}
+
+	</div>
+
+	<div id="TimeTable" class="tabcontent">
+	</div>
+
+	<div id="NoticeBoard" class="tabcontent">
+	</div>
+
+	<div id="Achievements" class="tabcontent">
+	</div>
+</div>
+
+
+@if (!string.IsNullOrWhiteSpace(Model.Tagline))
+{
+
+	<div class="clearfix margin_top2"></div>
+
+	<div class="featured_section38">
+		<div class="full-container">
+			@Html.Raw(Model.Tagline)
+		</div>
+	</div>
+}
+@section scripts {
+
+	@*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
+	<script src="@Url.Content("~/js/loopslider/jquery.loopslider.js")"></script>
+	<script>
+		$(function () {
+			$('#slider').loopSlider({
+				autoMove: true,
+				mouseOnStop: true,
+				turn: 9000,
+				motion: 'swing',
+				delay: 500,
+				width: 750,
+				height: 400,
+				marginLR: 10,
+				viewSize: 100,
+				viewOverflow: 'visible',
+				navPositionBottom: 30,
+				navibotton: true,
+				navbtnImage: ''
+			});
+		});
+	</script>
+	<script>
+		(function ($) {
+			"use strict";
+			var target21 = $("#target21").text();
+			var target22 = $("#target22").text();
+			var target24 = $("#target24").text();
+			var target25 = $("#target25").text();
+
+			$('#target21').animateNumber({
+				number: target21,
+
+				numberStep: function (now, tween) {
+					var floored_number = Math.floor(now),
+						target = $(tween.elem);
+
+					target.text(floored_number);
+				}
+			},
+				5000
+			)
+
+			$('#target22').animateNumber({
+				number: target22,
+
+				numberStep: function (now, tween) {
+					var floored_number = Math.floor(now),
+						target = $(tween.elem);
+
+					target.text(floored_number);
+				}
+			},
+				5000
+			)
+
+			$('#target23').animateNumber({
+				number: 45,
+
+				numberStep: function (now, tween) {
+					var floored_number = Math.floor(now),
+						target = $(tween.elem);
+
+					target.text(floored_number);
+				}
+			},
+				5000
+			)
+
+			$('#target24').animateNumber({
+				number: target24,
+
+				numberStep: function (now, tween) {
+					var floored_number = Math.floor(now),
+						target = $(tween.elem);
+
+					target.text(floored_number);
+				}
+			},
+				5000
+			)
+
+			$('#target25').animateNumber({
+				number: target25,
+
+				numberStep: function (now, tween) {
+					var floored_number = Math.floor(now),
+						target = $(tween.elem);
+
+					target.text(floored_number);
+				}
+			},
+				5000
+			)
+		})(jQuery);
+	</script>
+
+
+}
+
+@section styles {
+	<link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
+}
