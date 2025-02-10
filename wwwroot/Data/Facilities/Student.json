@@ -101,6 +101,15 @@
         "Title": "Sport",
         "Images": [],
         "IsDynamic": false
+      },
+      {
+        "ID": 7,
+        "Icon": "../../images/tpo.jpeg",
+        "About": "The Training and Placement Office (TPO) at Government Engineering College, Patan helps students with job placements, internships, and skill development. It conducts placement drives, training sessions, industry interactions, and career guidance programs to enhance employability and professional growth.Link:- https://tpogecp.blogspot.com/",
+        "Title": "TPO",
+        "Images": [],
+        "Link": "https://tpogecp.blogspot.com/",
+        "IsDynamic": true
       }
     ]
   }
