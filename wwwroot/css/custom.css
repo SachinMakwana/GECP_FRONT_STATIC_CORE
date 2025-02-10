@@ -648,6 +648,40 @@ table.dataTable thead .sorting_desc_disabled:before {
     color:red;
 }
 
+.box {
+    padding: 20px;
+    border: 2px double;
+}
+
+.boxdetail {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0px;
+    clear: both;
+}
+
+.boxtitle {
+    padding: 10px;
+    border-left: 10px solid black;
+    background: #d7d0d0;
+}
+
+.boxinfo {
+    text-align: justify;
+}
+
+.fabig {
+    font-size: 150px;
+    margin: auto;
+    display: block !important;
+}
+
+.minheight {
+    min-height: 270px;
+    padding: 20px 15px !important;
+}
+
 .full-container{
     padding:0 4%;
 }

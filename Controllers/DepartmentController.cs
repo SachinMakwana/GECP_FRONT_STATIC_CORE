@@ -19,13 +19,13 @@ namespace GECP_Front_End_Static.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string jsonpath = webRootPath + @"\js\FacultyRecords.json";
+            string jsonpath = webRootPath + @"\Data\Faculties\FacultyRecords.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
 
-            jsonpath = webRootPath + @"\Data\Departments\departments.json";
+            jsonpath = webRootPath + @"\Data\Departments\department.json";
 
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);

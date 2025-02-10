@@ -2,6 +2,7 @@
 @{
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewBag.Title = Model.Title;
+	int count = 1;
 }
 
 
@@ -27,8 +28,10 @@
 		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
 		<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
 		<button class="tablinks" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button>
+		<button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
 		<button class="tablinks" onclick="openTab(event, 'Staff')">Staff</button>
 		<button class="tablinks" onclick="openTab(event, 'TimeTable')">Time Table</button>
+		<button class="tablinks" onclick="openTab(event, 'Calender')">Academic Calender</button>
 		<button class="tablinks" onclick="openTab(event, 'NoticeBoard')">Notice Board</button>
 		<button class="tablinks" onclick="openTab(event, 'Achievements')">Achievements</button>
 	</div>
@@ -156,9 +159,66 @@
 		<!-- end featured section 14 -->
 
 	</div>
-
 	<div id="PeoPso" class="tabcontent">
-	
+		@if (Model.PEOs != null && Model.PEOs.Any())
+		{
+		
+				<div class="stcode_title1 last">
+					<h3><span class="line"></span><span class="text">PROGRAM EDUCATIONAL OUTCOMES (PEOs)</span></h3>
+					<ul class="list-unstyled text-justify">
+						@{
+							count = 1;  // Declare count variable inside the block
+						}
+						@foreach (var item in Model.PEOs)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PEO @count: @item</li>
+							count++; // Increment count properly
+						}
+					</ul>
+				</div>
+		}
+
+		@if (Model.PSOs != null && Model.PSOs.Any())
+		{
+				<div class="stcode_title1 ">
+					<h3><span class="line"></span><span class="text">PROGRAM SPECIFIC OUTCOMES (PSOs)</span></h3>
+					<ul class="list-unstyled text-justify">
+						@{
+							count = 1;  // Declare count variable inside the block again
+						}
+						@foreach (var item in Model.PSOs)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PSO @count: @item</li>
+							count++; // Increment count properly
+						}
+					</ul>
+				</div>
+		}
+		</div>
+	<div id="Labs" class="tabcontent">
+		@foreach (var lab in Model.Labs)
+		{
+			<div class="boxdetail">
+				<h2 class="boxtitle">@lab.Lab_Name</h2>
+				<div class="one_third">
+					<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
+				</div>
+				<div class="two_third last">
+					<div class="lab-content">
+						<p class="text-justify">
+							@if (!string.IsNullOrEmpty(lab.Lab_Details))
+							{
+								foreach (var line in lab.Lab_Details.Split(','))
+								{
+									@line.Trim() <br />
+								}
+							}
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		}
 	</div>
 
 	<div id="Staff" class="tabcontent">
@@ -166,39 +226,99 @@
 		@if (Model.FacultyList.Count() > 0)
 		{
 			<div class="margin_top4"></div>
-			<div id="slider-outline">
+			@foreach (var data in Model.FacultyList)
+			{
+				<div class="one_half @((Model.FacultyList.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
+					<div class="faculties_img_div">
+						<img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
 
-				<div id="slider">
-
-					<div id="sl-view" class="clearfix">
-
-						<div id="sl-wrap">
-
-							@foreach (var faculty in Model.FacultyList)
-							{
-								<div class="sl-div two">
-
-									<div class="cirpimg"><img src="@Url.Content("~/"+faculty.image)" alt="" class="dept_faculty_pic"></div>
-									<h4 class="roboto">@faculty.Name<em></em></h4>
-									<h4 class="roboto">@faculty.Designation<em></em></h4>
-								</div>
-							}
-						</div>
-
+						@{
+							bool hasData = (data.ProfessionalExperiences != null && data.ProfessionalExperiences.Any()) ||
+							(data.EducationalQualifications != null && data.EducationalQualifications.Any()) ||
+							(data.TrainingAndWorkshops != null && data.TrainingAndWorkshops.Any()) ||
+							(data.Publications != null && data.Publications.Any());
+						}
+						@if (hasData)
+						{
+							<a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">
+								<i class="fas fa-external-link-square-alt"></i>
+							</a>
+						}
 					</div>
-
-					<div id="sl-next"><span>&raquo;</span></div>
-					<div id="sl-prev"><span>&laquo;</span></div>
-
+					<div class="b-portfolio_info col-sm-6">
+						<div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
+							<a href="#">@data.Name</a>
+						</div>
+						<hr>
+						<div class="b-portfolio_info_description f-portfolio_info_description">
+							<div class="b-information-box f-information-box f-primary-b">
+								<ul>
+									@if (!string.IsNullOrEmpty(data.Designation))
+									{
+										<li><strong>Designation:</strong> @data.Designation</li>
+									}
+									@if (!string.IsNullOrEmpty(data.Qualification))
+									{
+										<li><strong>Qualification:</strong> @data.Qualification</li>
+									}
+									@if (data.YearsOfExperience > 0)
+									{
+										<li><strong>Experience:</strong> @data.YearsOfExperience Years</li>
+									}
+									@if (!string.IsNullOrEmpty(data.Area_of_Interest))
+									{
+										<li><strong>Area Of Interest:</strong> @data.Area_of_Interest</li>
+									}
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
-
-			</div>
-			<!-- end slider section -->
+				@if ((Model.FacultyList.IndexOf(data) + 1) % 2 == 0)
+				{
+					<div class="clearfix margin_top5"></div>
+				}
+			}
 		}
 
 	</div>
-
 	<div id="TimeTable" class="tabcontent">
+		<div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
+			<ul>
+				@{
+					count = 0;  // Declare count variable inside this block separately
+				}
+				@foreach (var item in Model.TimeTable)
+				{
+					<li class="minheight">
+						<a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+							<i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+							@item.Title
+						</a>
+					</li>
+					count++; // Increment count properly
+				}
+			</ul>
+		</div>
+		</div>
+	<div id="Calender" class="tabcontent">
+		<div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
+			<ul>
+				@{
+					count = 0;  // Declare count variable inside this block separately
+				}
+				@foreach (var item in Model.DeptAcademicCalender)
+				{
+					<li class="minheight">
+						<a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+							<i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+							@item.Title
+						</a>
+					</li>
+					count++; // Increment count properly
+				}
+			</ul>
+		</div>
 	</div>
 
 	<div id="NoticeBoard" class="tabcontent">
@@ -220,6 +340,12 @@
 		</div>
 	</div>
 }
+<a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+<div id="popup" class="popup">
+	<div id="pdfreader" style="height:600px">
+	</div>
+	<span class="popup-btn-close">&times;</span>
+</div>
 @section scripts {
 
 	@*<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/jquery.cubeportfolio.min.js")"></script>*@
@@ -317,10 +443,85 @@
 			)
 		})(jQuery);
 	</script>
+	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+	<script>
+		function loadFacultyinfo(url) {
+				if (url !== '') {
+						$("#pdfreader").load(url);
+						$("#lnkPopup").click();
+				}
+			}
 
+				function loadPdf(path, name) {
+				if (path !== '') {
+					path = path.replace("~", "");
+					if (PDFObject.supportsPDFs) {
+						PDFObject.embed(path, "#pdfreader");
+						$("#newsname").text(name);
+						$("#lnkPopup").click();
+					} else {
+						window.location.href = path;
+					}
+				}
+			}
+			function popupOpenClose(popup) {
+
+			/* Add div inside popup for layout if one doesn't exist */
+				if ($(".wrapper", popup).length == 0) {
+					$(popup).wrapInner("<div class='wrapper'></div>");
+				}
+			/* Open popup */
+				$(popup).show();
+			/* Close popup if user clicks on background */
+				$(popup).click(function (e) {
+					if (e.target == this) {
+						if ($(popup).is(':visible')) {
+							$(popup).hide();
+							resetPopUpScroll();
+						}
+					}
+				});
+			/* Close popup and remove errors if user clicks on cancel or close buttons */
+				$(popup).find(".popup-btn-close").on("click", function () {
+					if ($(".formElementError").is(':visible')) {
+						$(".formElementError").remove();
+					}
+					$(popup).hide();
+					resetPopUpScroll();
+				});
+			}
+
+			$(document).ready(function () {
+				$(".popup-trigger").on("click", function () {
+					var target = $(this).data('target');
+					popupOpenClose($(target));
+					resetPopUpScroll();
+				});
+			});
+
+		function resetPopUpScroll(){
+			$("#pdfreader").scrollTop(0);
+		}
+	</script>
 
 }
 
 @section styles {
+	<style>
+		.faculties_img_div img {
+			margin-right: 0px;
+			width: 100%;
+			margin-bottom: 20px;
+			border-radius: 15px;
+		}
+
+		#pdfreader {
+			max-height: 600px;
+			overflow-y: scroll;
+			scrollbar-width: thin;
+		}
+
+	</style>
 	<link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
+	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
 }
