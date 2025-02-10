@@ -46,9 +46,11 @@ namespace GECP_Front_End_Static.Models
     public class Club
     {
         public int ID { get; set; }
-        public string Image { get; set; }
+        public string Icon { get; set; }
+		public List<string> Images { get; set; }
         public string About { get; set; }
         public string Title { get; set; }
+        public bool IsDynamic { get; set;}
     }
 
     public class Student
@@ -120,4 +122,3 @@ namespace GECP_Front_End_Static.Models
     }
 
 }
-
