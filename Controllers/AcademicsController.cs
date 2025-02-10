@@ -21,7 +21,7 @@ namespace GECP_Front_End_Static.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string jsonpath = webRootPath + @"\Achievements\Achievements.json";
+            string jsonpath = webRootPath + @"\Data\Achievements\Achievements.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);

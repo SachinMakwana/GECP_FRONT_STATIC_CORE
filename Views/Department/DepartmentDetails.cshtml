@@ -26,14 +26,35 @@
 <div class="full-container">
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-		<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
-		<button class="tablinks" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button>
-		<button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
-		<button class="tablinks" onclick="openTab(event, 'Staff')">Staff</button>
-		<button class="tablinks" onclick="openTab(event, 'TimeTable')">Time Table</button>
-		<button class="tablinks" onclick="openTab(event, 'Calender')">Academic Calender</button>
-		<button class="tablinks" onclick="openTab(event, 'NoticeBoard')">Notice Board</button>
-		<button class="tablinks" onclick="openTab(event, 'Achievements')">Achievements</button>
+		@if (Model.Vision != null && Model.Mission != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+		}
+		@if (Model.PEOs != null && Model.PSOs != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button>
+		}
+		@if (Model.Labs != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
+		}
+		@if (Model.FacultyList != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Staff')">Staff</button>
+		}
+		@if (Model.TimeTable != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'TimeTable')">Time Table</button>
+		}
+		@if (Model.DeptAcademicCalender != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Calender')">Academic Calender</button>
+		}
+		@if (Model.NoticeBoard != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'NoticeBoard')">Notice Board</button>
+		}
+		<a href="@Url.Action("Achievements","Academics")"><button class="tablinks">Achievements</button></a>
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="full-container">
@@ -56,7 +77,7 @@
 					<h3 class="nmb"><strong>@Model.Title</strong></h3>
 				</div>
 
-				<p>
+				<p class="text-justify">
 					@Model.About
 				</p>
 
@@ -162,62 +183,65 @@
 	<div id="PeoPso" class="tabcontent">
 		@if (Model.PEOs != null && Model.PEOs.Any())
 		{
-		
-				<div class="stcode_title1 last">
-					<h3><span class="line"></span><span class="text">PROGRAM EDUCATIONAL OUTCOMES (PEOs)</span></h3>
-					<ul class="list-unstyled text-justify">
-						@{
-							count = 1;  // Declare count variable inside the block
-						}
-						@foreach (var item in Model.PEOs)
-						{
-							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PEO @count: @item</li>
-							count++; // Increment count properly
-						}
-					</ul>
-				</div>
+
+			<div class="stcode_title1 last">
+				<h3><span class="line"></span><span class="text">PROGRAM EDUCATIONAL OUTCOMES (PEOs)</span></h3>
+				<ul class="list-unstyled text-justify">
+					@{
+						count = 1;  // Declare count variable inside the block
+					}
+					@foreach (var item in Model.PEOs)
+					{
+						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PEO @count: @item</li>
+						count++; // Increment count properly
+					}
+				</ul>
+			</div>
 		}
 
 		@if (Model.PSOs != null && Model.PSOs.Any())
 		{
-				<div class="stcode_title1 ">
-					<h3><span class="line"></span><span class="text">PROGRAM SPECIFIC OUTCOMES (PSOs)</span></h3>
-					<ul class="list-unstyled text-justify">
-						@{
-							count = 1;  // Declare count variable inside the block again
-						}
-						@foreach (var item in Model.PSOs)
-						{
-							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PSO @count: @item</li>
-							count++; // Increment count properly
-						}
-					</ul>
-				</div>
-		}
-		</div>
-	<div id="Labs" class="tabcontent">
-		@foreach (var lab in Model.Labs)
-		{
-			<div class="boxdetail">
-				<h2 class="boxtitle">@lab.Lab_Name</h2>
-				<div class="one_third">
-					<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
-				</div>
-				<div class="two_third last">
-					<div class="lab-content">
-						<p class="text-justify">
-							@if (!string.IsNullOrEmpty(lab.Lab_Details))
-							{
-								foreach (var line in lab.Lab_Details.Split(','))
-								{
-									@line.Trim() <br />
-								}
-							}
-						</p>
-					</div>
-				</div>
-				<div class="clearfix"></div>
+			<div class="stcode_title1 ">
+				<h3><span class="line"></span><span class="text">PROGRAM SPECIFIC OUTCOMES (PSOs)</span></h3>
+				<ul class="list-unstyled text-justify">
+					@{
+						count = 1;  // Declare count variable inside the block again
+					}
+					@foreach (var item in Model.PSOs)
+					{
+						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PSO @count: @item</li>
+						count++; // Increment count properly
+					}
+				</ul>
 			</div>
+		}
+	</div>
+	<div id="Labs" class="tabcontent">
+		@if (Model.Labs != null)
+		{
+			@foreach (var lab in Model.Labs)
+			{
+				<div class="boxdetail">
+					<h2 class="boxtitle">@lab.Lab_Name</h2>
+					<div class="one_third">
+						<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
+					</div>
+					<div class="two_third last">
+						<div class="lab-content">
+							<p class="text-justify">
+								@if (!string.IsNullOrEmpty(lab.Lab_Details))
+								{
+									foreach (var line in lab.Lab_Details.Split(','))
+									{
+										@line.Trim() <br />
+									}
+								}
+							</p>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			}
 		}
 	</div>
 
@@ -300,7 +324,7 @@
 				}
 			</ul>
 		</div>
-		</div>
+	</div>
 	<div id="Calender" class="tabcontent">
 		<div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
 			<ul>

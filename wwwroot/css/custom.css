@@ -694,6 +694,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     width: 19%;
     min-height: 300px;
     margin-right: 1%;
+    margin-bottom:5%;
 }
 
     /* Style the buttons inside the tab */
@@ -734,6 +735,28 @@ table.dataTable thead .sorting_desc_disabled:before {
     width: 79%;
     /* border-left: none; */
     min-height: 300px;
+    margin-bottom: 5%;
+}
+
+.tabcontent > .box{
+    border-color:#ccc;
+}
+
+.box .post_categoty {
+    background: #5076bb;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    padding: 0px 10px;
+    margin: 0px 3px;
+}
+
+.featured_section16 .box {
+    float: left;
+    margin-top: 75px;
+    margin-left: 6.2%;
+    margin-bottom: 40px;
+    border:none;
 }
 /* end of jquery tabs from w3schools goes here */
 /*responsive goes here*/
