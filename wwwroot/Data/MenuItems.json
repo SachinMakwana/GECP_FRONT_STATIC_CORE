@@ -60,10 +60,10 @@
       },
       {
         "ID": 27,
-        "MenuText": "Important Documents",
+        "MenuText": "Mandatory Disclosure",
         "ParentID": 2,
         "ControllerName": "Institute",
-        "ActionName": "importantDocuments",
+        "ActionName": "ImportantDocuments",
         "position": 5,
         "isVisible": true,
         "ChildMenuVMs": []
