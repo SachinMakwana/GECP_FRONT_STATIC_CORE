@@ -379,7 +379,7 @@
   },
   {
     "ID": 7,
-    "MenuText": "Campus Committees",
+    "MenuText": "Committees",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "",
@@ -468,13 +468,57 @@
     "ChildMenuVMs": []
   },
   {
+    "ID": 10,
+    "MenuText": "R&D",
+    "ParentID": null,
+    "ControllerName": "Home",
+    "ActionName": "Index",
+    "position": 9,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 72,
+        "MenuText": "SSIP",
+        "ParentID": 10,
+        "dynamicID": 2,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 102,
+        "MenuText": "Design Lab",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Research",
+        "ActionName": "DesignLab",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 103,
+        "MenuText": "Research Grants",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
     "ID": 9,
     "MenuText": "Contact",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "ContactUs",
     "ActionName": "Index",
-    "position": 9,
+    "position": 10,
     "isVisible": true,
     "ChildMenuVMs": []
   }
