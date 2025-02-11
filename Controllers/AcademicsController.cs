@@ -16,15 +16,18 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<AchievementsVM> AchievementsVM = new List<AchievementsVM>();
         public List<AcademicCalendersVM> AcademicCalendersVM = new List<AcademicCalendersVM>();
+        public List<SSIPDocumentsVM> SSIPDocumentsVM = new List<SSIPDocumentsVM>();
         public IntakeVM intakeVM = new IntakeVM();
         public AcademicsController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\Achievements\Achievements.json";
+            string jsonpath1 = webRootPath + @"\Data\Academics\SSIPDocuments.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
+            string json1 = webClient.DownloadString(jsonpath1);
             AchievementsVM = JsonConvert.DeserializeObject<List<AchievementsVM>>(json);
 
             jsonpath = webRootPath + @"\Data\Academics\AcademicsCalender.json";
@@ -32,12 +35,14 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             AcademicCalendersVM = JsonConvert.DeserializeObject<List<AcademicCalendersVM>>(json);
+            SSIPDocumentsVM = JsonConvert.DeserializeObject<List<SSIPDocumentsVM>>(json1);
 
             jsonpath = webRootPath + @"\Data\Academics\Intake.json";
 
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             intakeVM = JsonConvert.DeserializeObject<IntakeVM>(json);
+            SSIPDocumentsVM = JsonConvert.DeserializeObject<List<SSIPDocumentsVM>>(json1);
         }
         public IActionResult AcademicCalender()
         {
@@ -53,5 +58,10 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View(AchievementsVM);
         }
+        public IActionResult SSIPDocuments()
+        {
+            return View(SSIPDocumentsVM.Where(m => m.isShow == true).ToList());
+        }
+
     }
 }

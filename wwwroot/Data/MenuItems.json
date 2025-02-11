@@ -477,12 +477,12 @@
     "isVisible": true,
     "ChildMenuVMs": [
       {
-        "ID": 72,
-        "MenuText": "SSIP",
+        "ID": 102,
+        "MenuText": "SSIP Documents",
         "ParentID": 10,
-        "dynamicID": 2,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "CommitteePage",
+        "dynamicID": null,
+        "ControllerName": "AcademicsController",
+        "ActionName": "SSIPDocuments",
         "position": 1,
         "isVisible": true,
         "ChildMenuVMs": []

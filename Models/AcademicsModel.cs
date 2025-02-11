@@ -17,6 +17,15 @@
         public string UploadDate { get; set; }
         public bool isShow { get; set; }
     }
+    public class SSIPDocumentsVM
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string File { get; set; }
+        public string UploadDate { get; set; }
+        public bool isShow { get; set; }
+    }
+
 
     public class IntakeVM
     {
