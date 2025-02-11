@@ -410,7 +410,7 @@
         "isVisible": false,
         "ChildMenuVMs": []
       },
-      {
+     {
         "ID": 56,
         "MenuText": "Central Facilities",
         "ParentID": 5,
@@ -429,17 +429,6 @@
         "ControllerName": "Facilities",
         "ActionName": "MedicalFacility",
         "position": 7,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 58,
-        "MenuText": "Student Club",
-        "ParentID": 5,
-        "dynamicID": 1,
-        "ControllerName": "Facilities",
-        "ActionName": "StudentClub",
-        "position": 8,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -512,13 +501,24 @@
         "ChildMenuVMs": []
       },
       {
+        "ID": 58,
+        "MenuText": "Student Club",
+        "ParentID": 5,
+        "dynamicID": 1,
+        "ControllerName": "Facilities",
+        "ActionName": "StudentClub",
+        "position": 14,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
         "ID": 64,
         "MenuText": "Student Grade History",
         "ParentID": 6,
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "StudentGradeHistory",
-        "position": 14,
+        "position": 15,
         "isVisible": true,
         "Link": "https://www.students.gtu.ac.in/Default.aspx",
         "ChildMenuVMs": []
@@ -530,7 +530,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "Fees",
-        "position": 14,
+        "position": 16,
         "isVisible": true,
         "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
         "ChildMenuVMs": []
