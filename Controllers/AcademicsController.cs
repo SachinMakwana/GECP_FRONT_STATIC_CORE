@@ -17,6 +17,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<AchievementsVM> AchievementsVM = new List<AchievementsVM>();
         public List<AcademicCalendersVM> AcademicCalendersVM = new List<AcademicCalendersVM>();
         public List<SSIPDocumentsVM> SSIPDocumentsVM = new List<SSIPDocumentsVM>();
+        public List<ResearchGrantsVM> ResearchGrantsVM = new List<ResearchGrantsVM>();
         public IntakeVM intakeVM = new IntakeVM();
         public AcademicsController(IWebHostEnvironment hostingEnvironment)
         {
@@ -24,10 +25,12 @@ namespace GECP_Front_End_Static.Controllers
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\Achievements\Achievements.json";
             string jsonpath1 = webRootPath + @"\Data\Academics\SSIPDocuments.json";
+            string jsonpath2 = webRootPath + @"\Data\Academics\ResearchGrants.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             string json1 = webClient.DownloadString(jsonpath1);
+            string json2 = webClient.DownloadString(jsonpath2);
             AchievementsVM = JsonConvert.DeserializeObject<List<AchievementsVM>>(json);
 
             jsonpath = webRootPath + @"\Data\Academics\AcademicsCalender.json";
@@ -36,6 +39,7 @@ namespace GECP_Front_End_Static.Controllers
             json = webClient.DownloadString(jsonpath);
             AcademicCalendersVM = JsonConvert.DeserializeObject<List<AcademicCalendersVM>>(json);
             SSIPDocumentsVM = JsonConvert.DeserializeObject<List<SSIPDocumentsVM>>(json1);
+            ResearchGrantsVM = JsonConvert.DeserializeObject<List<ResearchGrantsVM>>(json2);
 
             jsonpath = webRootPath + @"\Data\Academics\Intake.json";
 
@@ -43,6 +47,7 @@ namespace GECP_Front_End_Static.Controllers
             json = webClient.DownloadString(jsonpath);
             intakeVM = JsonConvert.DeserializeObject<IntakeVM>(json);
             SSIPDocumentsVM = JsonConvert.DeserializeObject<List<SSIPDocumentsVM>>(json1);
+            ResearchGrantsVM = JsonConvert.DeserializeObject<List<ResearchGrantsVM>>(json2);
         }
         public IActionResult AcademicCalender()
         {
@@ -61,6 +66,10 @@ namespace GECP_Front_End_Static.Controllers
         public IActionResult SSIPDocuments()
         {
             return View(SSIPDocumentsVM.Where(m => m.isShow == true).ToList());
+        }
+        public IActionResult ResearchGrants()
+        {
+            return View(ResearchGrantsVM.Where(m => m.isShow == true).ToList());
         }
 
     }

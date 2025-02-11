@@ -26,6 +26,18 @@
         public bool isShow { get; set; }
     }
 
+    public class ResearchGrantsVM
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string PrincipalInvestigator { get; set; }
+        public string StartDate { get; set; }
+        public string CompletionDate { get; set; }
+        public string Duration { get; set; }
+        public string ProjectCost { get; set; }
+        public string SponsoringAuthority { get; set; }
+        public bool isShow { get; set; }
+    }
 
     public class IntakeVM
     {
