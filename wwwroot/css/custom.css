@@ -1,4 +1,4 @@
-.detached.tabs>ul>li+li {
+.detached.tabs > ul > li + li {
     margin-left: 95px !important;
 }
 
@@ -11,11 +11,11 @@
     color: #5076bb !important;
 }*/
 
-ul.nav>li>a:hover {
+ul.nav > li > a:hover {
     color: #fff !important;
 }
 
-.detached.tabs>ul>li.current {
+.detached.tabs > ul > li.current {
     border-bottom: 2px solid #5076bb !important;
     color: #5076bb !important;
 }
@@ -30,6 +30,10 @@ ul.nav>li>a:hover {
 
 .top_nav .left {
     color: #5076bb !important;
+}
+
+.top_nav .gecp_social_right {
+    margin-top: 10px;
 }
 
 .tpbut:hover,
@@ -65,14 +69,14 @@ ul.nav>li>a:hover {
     background-color: #5076bb !important;
 }
 
-.featured_section19 .text h1 {
-    color: white;
-    border-bottom: 1px solid #ffffff;
-}
+    .featured_section19 .text h1 {
+        color: white;
+        border-bottom: 1px solid #ffffff;
+    }
 
-.featured_section19 .text p {
-    color: white;
-}
+    .featured_section19 .text p {
+        color: white;
+    }
 
 .divider_line11belownews {
     float: left;
@@ -83,7 +87,7 @@ ul.nav>li>a:hover {
     text-align: center;
 }
 
-.hovercolor:hover>.hovered {
+.hovercolor:hover > .hovered {
     background-color: #5076bb;
     color: white;
 }
@@ -92,9 +96,9 @@ ul.nav>li>a:hover {
     background-color: #5076bb !important;
 }
 
-.tabs li.active a::after {
-    border-right-color: #5076bb !important;
-}
+    .tabs li.active a::after {
+        border-right-color: #5076bb !important;
+    }
 
 
 /* .tabs3 li a:active {
@@ -177,10 +181,10 @@ a {
     transition: all 0.3s ease;
 }
 
-.cforms .button:hover {
-    background: #454545;
-    border: 1px solid #393939;
-}
+    .cforms .button:hover {
+        background: #454545;
+        border: 1px solid #393939;
+    }
 
 .one_half a {
     color: #5076bb;
@@ -273,17 +277,17 @@ a {
     background-color: white;
 }
 
-.top_section2 .right .tinfo a {
-    color: black !important;
-}
+    .top_section2 .right .tinfo a {
+        color: black !important;
+    }
 
-.top_section2 .right .tinfo em {
-    color: black !important;
-}
+    .top_section2 .right .tinfo em {
+        color: black !important;
+    }
 
-.top_section2 .right .tinfo i {
-    border: 1px solid black;
-}
+    .top_section2 .right .tinfo i {
+        border: 1px solid black;
+    }
 
 .fa-envelope::before {
     color: black;
@@ -365,7 +369,7 @@ a {
     color: #5076bb;
 }
 
-.detached.tabs.place>ul {
+.detached.tabs.place > ul {
     padding: 0 0 0 2% !important;
 }
 
@@ -373,7 +377,7 @@ a {
     padding: 4% 8% !important;
 }
 
-.detached.tabs>section {
+.detached.tabs > section {
     padding: 0px 0px 30px 0px !important;
 }
 
@@ -450,10 +454,10 @@ a {
     background: #f3f3f300 !important;
 }
 
-.featured_section40 h4 {
-    margin-bottom: 5px !important;
-    color: white;
-}
+    .featured_section40 h4 {
+        margin-bottom: 5px !important;
+        color: white;
+    }
 
 .white {
     color: white !important;
@@ -521,6 +525,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     background-color: #5076bb !important;
     ;
 }
+
 .dept_faculty_pic {
     width: 200.6px;
     height: 199.783px;
@@ -530,7 +535,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     width: 278px;
     height: 180px;
     float: left;
-    position:relative;
+    position: relative;
 }
 
     .faculties_img_div .faculty_info_link {
@@ -548,6 +553,7 @@ table.dataTable thead .sorting_desc_disabled:before {
 .women_cell_title {
     background: #999 url(../images/women_banner.jpg) no-repeat;
 }
+
 .alumni_cell_title {
     background: #999 url(../images/alumni-banner.jpg) no-repeat;
     background-size: cover;
@@ -558,70 +564,89 @@ table.dataTable thead .sorting_desc_disabled:before {
         background: #00000063;
         padding: 20px 0;
     }
+
 .ssip_title {
     background: #999 url(../images/ssip_banner.jpg) no-repeat center top;
 }
+
 .nss_title {
     background: #999 url(../images/nss_banner.jpg) no-repeat center top;
-    
 }
+
 .anti_ragging_title {
     background: #999 url(../images/anti_ragging_banner.jpg) no-repeat center top;
-    
 }
+
 .grievance_title {
     background: #999 url(../images/grievence_banner.jpg) no-repeat center top;
 }
+
 .rti_title {
     background: #999 url(../images/CampusCommittee/RTI/rti_banner.jpg) no-repeat center top;
 }
+
 .placement_title {
     background: #999 url(../images/placement_banner.jpg) no-repeat center top;
 }
-.placement_title h1, .women_cell_title h1, .nss_title h1, .grievance_title h1, .ssip_title h1, .anti_ragging_title h1 {
+
+    .placement_title h1, .women_cell_title h1, .nss_title h1, .grievance_title h1, .ssip_title h1, .anti_ragging_title h1 {
         padding: 20px 0 0 0;
         background-color: #25252575;
     }
-.text-justify{
-    text-align:justify;
+
+.text-justify {
+    text-align: justify;
 }
+
 .ec_title {
     background: #999 url(../images/Title/ec_banner.jpg) no-repeat center top;
 }
+
 .cs_title {
     background: #999 url(../images/Title/cs_banner.jpg) no-repeat center top;
 }
+
 .ee_title {
     background: #999 url(../images/Title/ee_banner.jpg) no-repeat center top;
 }
+
 .ce_title {
     background: #999 url(../images/Title/ce_banner.jpg) no-repeat center top;
 }
+
 .me_title {
     background: #999 url(../images/Title/me_banner.jpg) no-repeat center top;
 }
+
 .lib_title {
     background: #999 url(../images/Title/lib_banner.jpg) no-repeat center top;
 }
+
 .admin_title {
     background: #999 url(../images/Title/admin_banner.jpg) no-repeat center top;
 }
+
 .teqip_title {
     background: #999 url(../images/Title/teqip_banner.jpg) no-repeat center top;
 }
+
 .general_title {
     background: #999 url(../images/Title/gen_banner.jpg) no-repeat center top;
 }
-.ec_title h1, .cs_title h1, .ee_title h1, .ce_title h1, .me_title h1, .lib_title h1, .admin_title h1, .teqip_title h1, .general_title h1{
-    padding: 20px 0 0 0;
-    background-color: #25252575;
-}
+
+    .ec_title h1, .cs_title h1, .ee_title h1, .ce_title h1, .me_title h1, .lib_title h1, .admin_title h1, .teqip_title h1, .general_title h1 {
+        padding: 20px 0 0 0;
+        background-color: #25252575;
+    }
+
 .engg_title {
     background: #999 url(../images/Title/title_banner.jpg) no-repeat center top;
 }
+
 .coe_title {
     background: #999 url(../images/Title/coe_banner.jpg) no-repeat center top;
 }
+
 .gallery_title {
     background: #999 url(../images/Title/gallery_banner.jpg) no-repeat center top;
 }
@@ -644,9 +669,9 @@ table.dataTable thead .sorting_desc_disabled:before {
     border-bottom: 1px solid #d1cbcb;
 }
 
-.newssection li a:hover{
-    color:red;
-}
+    .newssection li a:hover {
+        color: red;
+    }
 
 .box {
     padding: 20px;
@@ -682,10 +707,61 @@ table.dataTable thead .sorting_desc_disabled:before {
     padding: 20px 15px !important;
 }
 
-.full-container{
-    padding:0 4%;
+.full-container {
+    padding: 0 4%;
 }
 
+.logo_section {
+    width: 100px;
+    display: inline;
+}
+
+.gecp_logo {
+    width: 84%;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 50px;
+}
+
+    .gecp_logo img {
+        width: 100px;
+    }
+
+.gecp_gov_emblame img {
+    float: right;
+}
+
+.gecp_logo h1 {
+    display: inline-block;
+    margin: auto;
+    font-size: 60px;
+    top: -30px;
+    position: relative;
+    left: 3%;
+    font-variant:small-caps;
+}
+
+.gecp_gov_emblame {
+    width: 15%;
+    display: block;
+    float: right;
+    position: relative;
+    top: -47px;
+}
+
+.gecp_name {
+    display: block;
+    margin: auto;
+}
+
+.gecp_logo2 {
+    float: right;
+}
+
+.header {
+    top: 150px;
+}
 /*jquery tabs from w3schools goes here*/
 .tab {
     float: left;
@@ -694,7 +770,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     width: 19%;
     min-height: 300px;
     margin-right: 1%;
-    margin-bottom:5%;
+    margin-bottom: 5%;
 }
 
     /* Style the buttons inside the tab */
@@ -738,9 +814,9 @@ table.dataTable thead .sorting_desc_disabled:before {
     margin-bottom: 5%;
 }
 
-.tabcontent > .box{
-    border-color:#ccc;
-}
+    .tabcontent > .box {
+        border-color: #ccc;
+    }
 
 .box .post_categoty {
     background: #5076bb;
@@ -756,7 +832,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     margin-top: 75px;
     margin-left: 6.2%;
     margin-bottom: 40px;
-    border:none;
+    border: none;
 }
 /* end of jquery tabs from w3schools goes here */
 /*responsive goes here*/

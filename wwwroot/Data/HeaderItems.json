@@ -1,6 +1,7 @@
 {
-  "ContactNo": "2766297735 | 2766297736",
-  "ContactEmail": "principalgecpatan@gmail.com",
-  "logo": "~/images/logo_1.png",
-  "MenuVMs": []
+    "ContactNo": "2766297735 | 2766297736",
+    "ContactEmail": "principalgecpatan@gmail.com",
+    //"ContactEmail": "principalgecpatan@gmail.com",
+    "logo": "~/images/GECP_LOGO.png",
+    "MenuVMs": []
 }
