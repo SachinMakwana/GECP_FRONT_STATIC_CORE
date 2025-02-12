@@ -53,15 +53,15 @@
     "Titleimage": "../../images/ssip_banner.jpg",
     "TitleImageCSSClass": "ssip_title",
     "Clubs": [
-      {
-        "ID": 1,
-        "Image": "../../images/TPO.png",
-        "About": "The Placement Cell in GEC Patan has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
-        "Title": "Placement Cell",
-        "ActionName": "",
-        "ControllerName": "",
-        "IsDynamic": true
-      },
+        {
+            "ID": 1,
+            "Image": "../../images/Tpo.jpeg",
+            "About": "The Placement Cell in GEC Patan has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+            "Title": "Placement Cell",
+            "ActionName": "PlacementCell",
+            "ControllerName": "CampusCommittee",
+            "IsDynamic": false
+        },
       {
         "ID": 2,
         "Image": "../../images/workshop.png",
@@ -98,24 +98,25 @@
         "ControllerName": "",
         "IsDynamic": true
       },
-      {
-        "ID": 6,
-        "Image": "../../images/sports.png",
-        "About": "A sports facility is a venue designed for playing and practicing sports. It includes indoor spaces (for table tennis, chess, etc.) and outdoor areas (for cricket, volleyball, etc.). These facilities are equipped with the necessary infrastructure, such as courts, fields, and seating, to support recreational and competitive sports activities. They also provide amenities like locker rooms and equipment storage.",
-        "Title": "Sport",
-        "ActionName": "",
-        "ControllerName": "",
-        "IsDynamic": true
-      },
-      {
-        "ID": 7,
-        "Image": "../../images/Tpo.jpeg",
-        "About": "A sports facility is a venue designed for playing and practicing sports. It includes indoor spaces (for table tennis, chess, etc.) and outdoor areas (for cricket, volleyball, etc.). These facilities are equipped with the necessary infrastructure, such as courts, fields, and seating, to support recreational and competitive sports activities. They also provide amenities like locker rooms and equipment storage.",
-        "Title": "TPO",
-        "ActionName": "PlacementCell",
-        "ControllerName": "CampusCommittee",
-        "IsDynamic": false
-      }
+        {
+            "ID": 6,
+            "Image": "../../images/sports.png",
+            "About": "A sports facility is a venue designed for playing and practicing sports. It includes indoor spaces (for table tennis, chess, etc.) and outdoor areas (for cricket, volleyball, etc.). These facilities are equipped with the necessary infrastructure, such as courts, fields, and seating, to support recreational and competitive sports activities. They also provide amenities like locker rooms and equipment storage.",
+            "Title": "Sport",
+            "ActionName": "",
+            "ControllerName": "",
+            "IsDynamic": true
+        }
+      //,
+      //{
+      //  "ID": 7,
+      //  "Image": "../../images/Tpo.jpeg",
+      //  "About": "A sports facility is a venue designed for playing and practicing sports. It includes indoor spaces (for table tennis, chess, etc.) and outdoor areas (for cricket, volleyball, etc.). These facilities are equipped with the necessary infrastructure, such as courts, fields, and seating, to support recreational and competitive sports activities. They also provide amenities like locker rooms and equipment storage.",
+      //  "Title": "TPO",
+      //  "ActionName": "PlacementCell",
+      //  "ControllerName": "CampusCommittee",
+      //  "IsDynamic": false
+      //}
     ]
   }
 ]
