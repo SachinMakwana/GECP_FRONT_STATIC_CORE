@@ -153,16 +153,16 @@
         "Link": "https://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE",
         "ChildMenuVMs": []
       },
-      {
-        "ID": 35,
-        "MenuText": "Courses And Intake",
-        "ParentID": 3,
-        "dynamicID": null,
-        "ControllerName": "Research",
-        "ActionName": "CoursesAndIntake",
-        "position": 5,
-        "ChildMenuVMs": []
-      }
+        {
+            "ID": 35,
+            "MenuText": "Courses And Intake",
+            "ParentID": 3,
+            "dynamicID": null,
+            "ControllerName": "Institute",
+            "ActionName": "AboutUs",
+            "position": 5,
+            "ChildMenuVMs": []
+        }
     ]
   },
   {
