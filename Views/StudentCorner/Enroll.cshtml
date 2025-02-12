@@ -18,6 +18,7 @@
 
     .box {
         position: relative;
+        width: 80%;
         border: 2px solid black;
         padding: 20px;
         margin-top: 20px;
@@ -69,6 +70,7 @@
                                 <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
                                     <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
                                     @item.Title
+
                                 </a>
                             </li>
                         }
@@ -77,7 +79,7 @@
                             <li class="minheight">
                                 <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
                                     <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
-                                    @item.Title
+                                    @item.Title 
                                 </a>
                             </li>
                         }
