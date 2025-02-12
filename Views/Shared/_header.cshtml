@@ -30,25 +30,33 @@
                                             @item.MenuText
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            @foreach (var childItem in item.ChildMenuVMs.Where(m => m.isVisible).OrderBy(m => m.position))
+                                        @foreach (var childItem in item.ChildMenuVMs.Where(m => m.isVisible).OrderBy(m => m.position))
+                                        {
+                                            @if (childItem.dynamicID != null)
                                             {
-                                                @if (childItem.dynamicID != null)
-                                                {
-                                                    <li class="">
-                                                        <a href="@Url.Action(childItem.ActionName, childItem.ControllerName, new { id = childItem.dynamicID })">
-                                                            @childItem.MenuText
-                                                        </a>
-                                                    </li>
-                                                }
-                                                else
-                                                {
-                                                    <li class="">
-                                                        <a href="@Url.Action(childItem.ActionName, childItem.ControllerName)">
-                                                            @childItem.MenuText
-                                                        </a>
-                                                    </li>
-                                                }
+                                                <li class="">
+                                                    <a href="@Url.Action(childItem.ActionName, childItem.ControllerName, new { id = childItem.dynamicID })">
+                                                        @childItem.MenuText
+                                                    </a>
+                                                </li>
                                             }
+                                            else if (!string.IsNullOrWhiteSpace(childItem.Link))
+                                            {
+                                                <li class="">
+                                                    <a href="@childItem.Link" target="_blank">
+                                                        @childItem.MenuText
+                                                    </a>
+                                                </li>
+                                            }
+                                            else
+                                            {
+                                                <li class="">
+                                                    <a href="@Url.Action(childItem.ActionName, childItem.ControllerName)">
+                                                        @childItem.MenuText
+                                                    </a>
+                                                </li>
+                                            }
+                                        }
                                         </ul>
                                     </li>
                                 }

@@ -64,6 +64,7 @@ namespace GECP_Front_End_Static.Models
         public int position { get; set; }
         public bool isVisible { get; set; } = true;
         public int? dynamicID { get; set; }
+        public string Link {  get; set; }
         public List<MenuVM> ChildMenuVMs { get; set; } = new List<MenuVM>();
 
     }
