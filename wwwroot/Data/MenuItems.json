@@ -51,9 +51,10 @@
       {
         "ID": 26,
         "MenuText": "Tenders",
+        "dynamicID": 3,
         "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "Tenders",
+        "ControllerName": "Documents",
+        "ActionName": "Index",
         "position": 4,
         "isVisible": true,
         "ChildMenuVMs": []
@@ -61,9 +62,10 @@
       {
         "ID": 27,
         "MenuText": "Mandatory Disclosure",
+        "dynamicID": 2,
         "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "ImportantDocuments",
+        "ControllerName": "Documents",
+        "ActionName": "Index",
         "position": 5,
         "isVisible": true,
         "ChildMenuVMs": []
@@ -71,9 +73,10 @@
       {
         "ID": 28,
         "MenuText": "MoUs",
+        "dynamicID": 1,
         "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "MoU",
+        "ControllerName": "Documents",
+        "ActionName": "Index",
         "position": 6,
         "isVisible": true,
         "ChildMenuVMs": []
@@ -482,9 +485,9 @@
         "ID": 62,
         "MenuText": "Time Table",
         "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "StudentCorner",
-        "ActionName": "TimeTable",
+        "dynamicID": 4,
+        "ControllerName": "Documents",
+        "ActionName": "Index",
         "position": 12,
         "isVisible": true,
         "ChildMenuVMs": []
@@ -493,9 +496,9 @@
         "ID": 63,
         "MenuText": "Enrollment Details",
         "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "StudentCorner",
-        "ActionName": "Enroll",
+        "dynamicID": 5,
+        "ControllerName": "Documents",
+        "ActionName": "Index",
         "position": 13,
         "isVisible": true,
         "ChildMenuVMs": []
