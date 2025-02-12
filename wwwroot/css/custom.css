@@ -682,6 +682,9 @@ table.dataTable thead .sorting_desc_disabled:before {
     padding: 20px 15px !important;
 }
 
+.full-container {
+    padding: 0 2%;
+}
 
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {

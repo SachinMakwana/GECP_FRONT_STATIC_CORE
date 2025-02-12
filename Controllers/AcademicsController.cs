@@ -72,5 +72,9 @@ namespace GECP_Front_End_Static.Controllers
             return View(ResearchGrantsVM.Where(m => m.isShow == true).ToList());
         }
 
+        public IActionResult Syllabus()
+        { 
+            return View();
+        }
     }
 }
