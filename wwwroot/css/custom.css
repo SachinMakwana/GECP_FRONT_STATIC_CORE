@@ -648,6 +648,13 @@ table.dataTable thead .sorting_desc_disabled:before {
     color:red;
 }
 
+.box-shadow {
+    padding: 20px;
+    border: 2px double;
+    box-shadow: 2px 2px 5px #787980;
+    background: #ced8f833;
+}
+
 
 
 

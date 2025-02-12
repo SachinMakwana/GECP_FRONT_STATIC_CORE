@@ -1,7 +1,7 @@
-﻿@model List<TendersVM>
+﻿@model IList<GECP_Front_End_Static.Models.MOUModel>
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Important Documents";
+    ViewBag.Title = "Time Table";
     int count = 1;
 }
 <style>
@@ -15,14 +15,34 @@
         min-height: 270px;
         padding: 20px 15px !important;
     }
+
+    .box {
+        position: relative;
+        border: 2px solid black;
+        padding: 20px;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .box-text {
+        position: absolute;
+        top: -12px; /* Adjust to align with the border */
+        left: 50px;
+        transform: translateX(-50%);
+        background: white; /* Match the background to hide border */
+        padding: 0 10px;
+        font-weight: bold;
+    }
 </style>
-<div class="page_title3 placement_title">
+<div class="clearfix"></div>
+
+
+<div class="page_title3 general_title">
     <div class="container">
 
         <h1>
-            <br> Mandatory Disclosure<em>Government Engineering College</em>
+           Time Table<em>Government Engineering College, Patan</em>
             <div class="line"></div>
-            <br>
         </h1>
 
     </div>
@@ -30,15 +50,23 @@
 <div class="clearfix margin_bottom6"></div>
 <div class="content_fullwidth less">
     <div class="featured_section77 two">
-        <div class="container">
+        <div class="container box">
+            <div class="box-text">2024</div>
             <div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
 
                 <ul>
+
+                    @*  <li class="minheight">
+                    <a href="@Url.Content("~/MOU/Kachhua.pdf")" target="_blank">
+                    <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                    Kachchua Solutions Pvt. Ltd.
+                    </a>
+                    </li> *@
                     @foreach (var item in Model)
                     {
-                        @if (count % 5 != 0)
+                        if (count % 5 == 0)
                         {
-                            <li class="minheight">
+                            <li class="minheight last">
                                 <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
                                     <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
                                     @item.Title
@@ -47,7 +75,7 @@
                         }
                         else
                         {
-                            <li class="minheight last">
+                            <li class="minheight">
                                 <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
                                     <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
                                     @item.Title
@@ -79,7 +107,7 @@
 @section scripts {
     <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
     <script>
-        function loadPdf(path, name) {
+        function loadPdf(path,name) {
             if (path !== '') {
                 path = path.replace("~", "");
                 if (PDFObject.supportsPDFs) {

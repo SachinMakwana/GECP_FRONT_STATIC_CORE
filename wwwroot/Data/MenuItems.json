@@ -60,10 +60,10 @@
       },
       {
         "ID": 27,
-        "MenuText": "Important Documents",
+        "MenuText": "Mandatory Disclosure",
         "ParentID": 2,
         "ControllerName": "Institute",
-        "ActionName": "importantDocuments",
+        "ActionName": "ImportantDocuments",
         "position": 5,
         "isVisible": true,
         "ChildMenuVMs": []
@@ -410,7 +410,7 @@
         "isVisible": false,
         "ChildMenuVMs": []
       },
-      {
+     {
         "ID": 56,
         "MenuText": "Central Facilities",
         "ParentID": 5,
@@ -429,17 +429,6 @@
         "ControllerName": "Facilities",
         "ActionName": "MedicalFacility",
         "position": 7,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 58,
-        "MenuText": "Student Club",
-        "ParentID": 5,
-        "dynamicID":1,
-        "ControllerName": "Facilities",
-        "ActionName": "StudentClub",
-        "position": 8,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -465,12 +454,11 @@
         "isVisible": true,
         "ChildMenuVMs": []
       }
-
     ]
   },
   {
     "ID": 6,
-    "MenuText": "Placement",
+    "MenuText": "Student Corner",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "",
@@ -478,30 +466,111 @@
     "position": 6,
     "isVisible": true,
     "ChildMenuVMs": [
+
       {
         "ID": 61,
-        "MenuText": "About Placement Cell",
+        "MenuText": "General Rules & Regulations",
         "ParentID": 6,
         "dynamicID": null,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "PlacementCell",
-        "position": 1,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Rules",
+        "position": 11,
         "isVisible": true,
         "ChildMenuVMs": []
       },
       {
         "ID": 62,
-        "MenuText": "Placement Statistics",
+        "MenuText": "Time Table",
         "ParentID": 6,
         "dynamicID": null,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "PlacementStatistics",
-        "position": 2,
+        "ControllerName": "StudentCorner",
+        "ActionName": "TimeTable",
+        "position": 12,
         "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 63,
+        "MenuText": "Enrollment Details",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Enroll",
+        "position": 13,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 58,
+        "MenuText": "Student Club",
+        "ParentID": 5,
+        "dynamicID": 1,
+        "ControllerName": "Facilities",
+        "ActionName": "StudentClub",
+        "position": 14,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 64,
+        "MenuText": "Student Grade History",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "StudentGradeHistory",
+        "position": 15,
+        "isVisible": true,
+        "Link": "https://www.students.gtu.ac.in/Default.aspx",
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 65,
+        "MenuText": "Fees Portal",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Fees",
+        "position": 16,
+        "isVisible": true,
+        "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
         "ChildMenuVMs": []
       }
     ]
   },
+  //{
+  //  "ID": 6,
+  //  "MenuText": "Placement",
+  //  "ParentID": null,
+  //  "dynamicID": null,
+  //  "ControllerName": "",
+  //  "ActionName": "",
+  //  "position": 6,
+  //  "isVisible": true,
+  //  "ChildMenuVMs": [
+  //    {
+  //      "ID": 61,
+  //      "MenuText": "About Placement Cell",
+  //      "ParentID": 6,
+  //      "dynamicID": null,
+  //      "ControllerName": "CampusCommittee",
+  //      "ActionName": "PlacementCell",
+  //      "position": 1,
+  //      "isVisible": true,
+  //      "ChildMenuVMs": []
+  //    },
+  //    {
+  //      "ID": 62,
+  //      "MenuText": "Placement Statistics",
+  //      "ParentID": 6,
+  //      "dynamicID": null,
+  //      "ControllerName": "CampusCommittee",
+  //      "ActionName": "PlacementStatistics",
+  //      "position": 2,
+  //      "isVisible": true,
+  //      "ChildMenuVMs": []
+  //    }
+  //  ]
+  //},
   {
     "ID": 7,
     "MenuText": "Committees",
