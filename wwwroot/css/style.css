@@ -11362,3 +11362,8 @@ ul.adsbanner-list {
     background: url(../images/scroll-top-arrow.png) no-repeat left top;
     z-index: 9001;
 }
+.card-custom {
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 20px 10px 10px 10px
+}

@@ -1,0 +1,122 @@
+﻿[
+ 
+    {
+      "ID": 1,
+      "Title": "Student Club",
+      "Titleimage": "../../images/ssip_banner.jpg",
+      "TitleImageCSSClass": "ssip_title",
+      "Clubs": [
+        {
+          "ID": 1,
+          "Image": "../../images/Club/gdgp.jpeg",
+          "About": "GDG Patan is a local chapter of Google Developer Groups in Patan, Gujarat, India. It brings together developers to learn about and collaborate on Google technologies like Android, Firebase, and Google Cloud. They organize workshops, meetups, hackathons, and events such as Google I/O Extended. To get involved, you can join their events via Meetup, follow them on social media, or attend their workshops and networking events. It's a great way to connect with like-minded tech enthusiasts and learn from experts!",
+          "Title": "GDGP",
+          "ActionName": "",
+          "ControllerName": "",
+          "IsDynamic": true
+        },
+        {
+          "ID": 2,
+          "Image": "../../images/Club/codehives.jpeg",
+          "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
+          "Title": "Code Hives",
+          "ActionName": "",
+          "ControllerName": "",
+          "IsDynamic": true
+        },
+        {
+          "ID": 3,
+          "Image": "../../images/Club/animfx.jpeg",
+          "About": "AnimFX Club is a community focused on animation and visual effects (VFX). It offers workshops, collaborative projects, and networking opportunities for members interested in animation, 3D modeling, and VFX. It's a great place to learn, create, and connect with others in the field",
+          "Title": "AnimFx",
+          "ActionName": "",
+          "ControllerName": "",
+          "IsDynamic": true
+        },
+        {
+          "ID": 4,
+          "Image": "../../images/Club/algozenith.jpeg",
+          "About": "AlgoZenith Club is a community focused on competitive programming and algorithms. It offers coding competitions, workshops, and collaborative learning opportunities to help members improve their problem-solving skills.",
+          "Title": "AlgoZenith",
+          "ActionName": "",
+          "ControllerName": "",
+          "IsDynamic": true
+        }
+      ]
+      
+        
+
+  },
+  {
+    "ID": 2,
+    "Title": "Central Facility",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "Clubs": [
+        {
+            "ID": 1,
+            "Image": "../../images/Tpo.jpeg",
+            "About": "The Placement Cell in GEC Patan has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+            "Title": "Placement Cell",
+            "ActionName": "PlacementCell",
+            "ControllerName": "CampusCommittee",
+            "IsDynamic": false
+        },
+      {
+        "ID": 2,
+        "Image": "../../images/workshop.png",
+        "About": "The Workshop offers hands-on experience for students in the Mechanical Engineering Department. Students learn machining, welding, and fabrication using tools like lathe machines, drilling machines, and welding stations. These workshops help students apply theoretical knowledge in real-world scenarios, developing practical skills for future careers in mechanical engineering. It fosters innovation, problem-solving, and teamwork.",
+        "Title": "Workshop",
+        "ActionName": "",
+        "ControllerName": "",
+        "IsDynamic": true
+      },
+      {
+        "ID": 3,
+        "Image": "../../images/auditorium.png",
+        "About": "The auditorium is a large venue used for academic, cultural, and extracurricular events. It hosts activities like guest lectures, seminars, cultural performances, and student presentations, with a design that ensures good acoustics and a clear view for all attendees",
+        "Title": "Aditorium",
+        "ActionName": "",
+        "ControllerName": "",
+        "IsDynamic": true
+      },
+      {
+        "ID": 4,
+        "Image": "../../images/canteen.png",
+        "About": "The canteen serves as a convenient spot for students, faculty, and staff to grab meals and snacks. It offers a variety of food options, including snacks, lunch, and beverages, catering to different tastes. The canteen provides an affordable and hygienic space, where people can relax, socialize, and take a break between activities or classes",
+        "Title": "Canteen",
+        "ActionName": "",
+        "ControllerName": "",
+        "IsDynamic": true
+      },
+      {
+        "ID": 5,
+        "Image": "../../images/seminar.png",
+        "About": "The seminar hall is a well-equipped space designed for academic and professional events. It offers a comfortable environment for activities like seminars, workshops, presentations, and discussions. The hall is equipped with necessary audiovisual facilities, ensuring effective communication during events. It provides a quiet and focused setting, ideal for hosting guest lectures, student presentations, and collaborative learning experiences.",
+        "Title": "Seminar Hall",
+        "ActionName": "",
+        "ControllerName": "",
+        "IsDynamic": true
+      },
+        {
+            "ID": 6,
+            "Image": "../../images/sports.png",
+            "About": "A sports facility is a venue designed for playing and practicing sports. It includes indoor spaces (for table tennis, chess, etc.) and outdoor areas (for cricket, volleyball, etc.). These facilities are equipped with the necessary infrastructure, such as courts, fields, and seating, to support recreational and competitive sports activities. They also provide amenities like locker rooms and equipment storage.",
+            "Title": "Sport",
+            "ActionName": "",
+            "ControllerName": "",
+            "IsDynamic": true
+        }
+      //,
+      //{
+      //  "ID": 7,
+      //  "Image": "../../images/Tpo.jpeg",
+      //  "About": "A sports facility is a venue designed for playing and practicing sports. It includes indoor spaces (for table tennis, chess, etc.) and outdoor areas (for cricket, volleyball, etc.). These facilities are equipped with the necessary infrastructure, such as courts, fields, and seating, to support recreational and competitive sports activities. They also provide amenities like locker rooms and equipment storage.",
+      //  "Title": "TPO",
+      //  "ActionName": "PlacementCell",
+      //  "ControllerName": "CampusCommittee",
+      //  "IsDynamic": false
+      //}
+    ]
+  }
+]

@@ -671,7 +671,6 @@ table.dataTable thead .sorting_desc_disabled:before {
     border-left: 10px solid black;
     background: #d7d0d0;
 }
-
 .boxinfo{
     text-align:justify;
 }
