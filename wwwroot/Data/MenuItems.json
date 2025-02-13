@@ -38,6 +38,18 @@
         "isVisible": false,
         "ChildMenuVMs": []
       },
+
+      {
+        "ID": 29,
+        "MenuText": "Governance",
+        "ParentID": 2,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 9,
+        "isVisible": true,
+        "Link": "/ImpDocs/Goverence.pdf",
+        "ChildMenuVMs": []
+      },
       {
         "ID": 25,
         "MenuText": "Newsletter",
