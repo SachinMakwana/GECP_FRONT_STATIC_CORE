@@ -15,6 +15,7 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
         public List<DepartmentVM>  DepartmentData = new List<DepartmentVM>();
+        public List<Labs> LabsData = new List<Labs>();
         public DepartmentController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -30,15 +31,30 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             DepartmentData = JsonConvert.DeserializeObject<List<DepartmentVM>>(json);
-            
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+
+            // Deserialize directly into a List<Labs>
+            LabsData = JsonConvert.DeserializeObject<List<Labs>>(json);
+
+
+
         }
 
         public IActionResult DepartmentDetails(int id=0)
         {
             var data = DepartmentData.Where(m => m.ID == id).FirstOrDefault();
-            data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
+
+            if (data != null)
+            {
+                data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
+                //data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
+            }
+
             return View(data);
         }
+
         public IActionResult EC()
         {
             var ecData = FacultyData.Where(m => m.Dept_ID == 1).OrderBy(m => m.ID).ToList();

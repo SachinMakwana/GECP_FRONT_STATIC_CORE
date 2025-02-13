@@ -5,7 +5,7 @@
     "Name": "Prof. Sohan Prajapti",
     "Email": "sgp.gec@gmail.com",
     "Mobile": "9825564580",
-    "Pic": "/images/Faculty/Electrical/SOHAN.jpg"
+    "Pic": "/images/Faculty/307.jpg"
   },
   {
     "ID": 2,
@@ -13,7 +13,7 @@
     "Name": "Prof. Hardik Trivedi",
     "Email": "hardik.trivedi@gecpatan.ac.in",
     "Mobile": "9722335587",
-    "Pic": "/images/Faculty/Computer/dummy.jpg"
+    "Pic": "/images/Faculty/1000.jpg"
   },
   {
     "ID": 3,
@@ -21,7 +21,7 @@
     "Name": "Dr. Narendra Patel",
     "Email": "narendra.patel@gecpatan.ac.in",
     "Mobile": "9879328977",
-    "Pic": "/images/Faculty/Computer/dummy.jpg"
+    "Pic": "/images/Faculty/1000.jpg"
   },
   {
     "ID": 4,
@@ -29,6 +29,6 @@
     "Name": "Prof. Divyesh Bavisa",
     "Email": "divyesh.bavisa@gecpatan.ac.in",
     "Mobile": "9974623421",
-    "Pic": "/images/Faculty/Computer/Divyesh.jpg"
+    "Pic": "/images/Faculty/210.jpg"
   }
 ]

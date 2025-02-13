@@ -1,0 +1,57 @@
+﻿@model List<ResearchGrantsVM>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "NSS";
+}
+
+<style>
+    .box-shadow {
+        padding: 20px;
+        border: 2px double;
+        box-shadow: 2px 2px 5px #787980;
+        background: #ced8f833;
+    }
+</style>
+<div class="clearfix"></div>
+
+
+<div class="page_title3 nss_title">
+    <div class="container">
+
+        <h1>
+            RESEARCH GRANTS <em>Government Engineering College</em>
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>
+<div class="margin_top5"></div>
+<div class="container">
+    @foreach (var item in Model) {
+        <div class="clearfix"></div>
+        <div class="box-shadow">
+            <div itemscope="" itemtype="http://schema.org/Organization" class="funny-boxes funny-boxes-left-green clubs">
+        <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                <h2 itemprop="legalName">@item.Title</h2>
+                <p itemprop="description" class="text-justify"><i class="fa  fa-hand-o-right"></i><b>Principal Investigator:</b> @item.PrincipalInvestigator</p>
+                <p itemprop="description" class="text-justify"><i class="fa  fa-hand-o-right"></i><b>Start Date:</b>           @item.StartDate</p>
+                <p itemprop="description" class="text-justify"><i class="fa  fa-hand-o-right"></i><b>Completion Date:</b>      @item.CompletionDate</p>
+                <p itemprop="description" class="text-justify"><i class="fa  fa-hand-o-right"></i><b>Duration:</b>             @item.Duration</p>
+                <p itemprop="description" class="text-justify"><i class="fa  fa-hand-o-right"></i><b>Project cost:</b>         @item.ProjectCost</p>
+                <p itemprop="description" class="text-justify"><i class="fa  fa-hand-o-right"></i><b>Sponsoring authority:</b> @item.SponsoringAuthority</p>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <br />
+    <br />
+    }
+    
+
+
+
+</div>

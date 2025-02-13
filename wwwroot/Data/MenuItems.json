@@ -140,7 +140,29 @@
         "ActionName": "Achievements",
         "position": 3,
         "ChildMenuVMs": []
-      }
+      },
+      {
+        "ID": 34,
+        "MenuText": "Syllabus",
+        "ParentID": 3,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName":"",
+        "position": 4,
+        "isVisible": true,
+        "Link": "https://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE",
+        "ChildMenuVMs": []
+      },
+        {
+            "ID": 35,
+            "MenuText": "Courses And Intake",
+            "ParentID": 3,
+            "dynamicID": null,
+            "ControllerName": "Institute",
+            "ActionName": "AboutUs",
+            "position": 5,
+            "ChildMenuVMs": []
+        }
     ]
   },
   {
@@ -210,7 +232,7 @@
       },
       {
         "ID": 46,
-        "MenuText": "General",
+        "MenuText": "Science And Humanities",
         "ParentID": 4,
         "dynamicID": 6,
         "ControllerName": "Department",
@@ -410,7 +432,7 @@
         "isVisible": false,
         "ChildMenuVMs": []
       },
-     {
+      {
         "ID": 56,
         "MenuText": "Central Facilities",
         "ParentID": 5,
@@ -661,6 +683,52 @@
     "isVisible": true,
     "ChildMenuVMs": []
   },
+  {
+    "ID": 10,
+    "MenuText": "R&D",
+    "ParentID": null,
+    "ControllerName": "Home",
+    "ActionName": "Index",
+    "position": 9,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 102,
+        "MenuText": "SSIP Documents",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "SSIPDocuments",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 102,
+        "MenuText": "Design Lab",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Research",
+        "ActionName": "DesignLab",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 103,
+        "MenuText": "Research Grants",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "ResearchGrants",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+ 
+
   {
     "ID": 9,
     "MenuText": "Contact",

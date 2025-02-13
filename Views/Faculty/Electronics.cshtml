@@ -1,6 +1,6 @@
 ﻿@model IList<GECP_Front_End_Static.Models.FacultyDetailsVM>
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = Context.Request.Query["isPartial"] == "true" ? "~/Views/Shared/_MinimalLayout.cshtml" : "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Electronics and Communications";
 }
 
@@ -23,10 +23,11 @@
         {
             <div class="one_half @((Model.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
                 <div class="faculties_img_div" style="margin-bottom: 20px; ">
-                    <img src="@Url.Content("~/" + data.image)" alt="@data.Name"/>
+                    <img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
                     @if (data.tabs != null)
                     {
-                        <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link">
+                        <a href="@Url.Action("FacultyInfo", "faculty", new { id = data.ID })" class="four faculty_info_link"
+                           href="javascript:void(0)" onclick="loadPartialViewInPopup('@data.url','@data.Name')">
                             <i class="fas fa-external-link-square-alt"></i>
                         </a>
                     }
@@ -73,7 +74,71 @@
 </div>
 
 
-<div class="clearfix margin_top2"></div>
+<a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+<div id="popup" class="popup" style="display:none;">
+    <h2 id="newsname"></h2>
+    <div id="popupContent" style="height:600px; overflow-y: auto;">
+        <!-- Partial View Content will be dynamically loaded here -->
+    </div>
+    <span class="popup-btn-close">&times;</span>
+</div>
+<div class="clearfix"></div>
+
+<div class="clearfix"></div>
+
+@section scripts {
+    <script>
+        function loadPartialViewInPopup(url, name) {
+            if (url) {
+                // Set the title or heading of the popup
+                $("#newsname").text(name);
+
+                // Dynamically load the content from the specified URL into the popup
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    success: function (data) {
+                        // Load the returned HTML data into the popupContent div
+                        $("#popupContent").html(data);
+
+                        // Open the popup
+                        $("#popup").fadeIn(); // Show the popup with fade effect
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("AJAX Error Details:");
+                        console.error("Status: ", status);
+                        console.error("Error: ", error);
+                        console.error("Response Text: ", xhr.responseText);
+                        console.error("Request URL: ", url);
+                        alert(`Failed to load content. Status: ${status}, Error: ${error}`);
+                    }
+                });
+            }
+        }
+
+        function closePopup() {
+            // Hide the popup
+            $("#popup").fadeOut();
+        }
+
+        $(document).ready(function () {
+            // Close the popup when clicking on the close button
+            $(".popup-btn-close").on("click", function () {
+                closePopup();
+            });
+
+            // Close the popup when clicking outside the content area
+            $("#popup").on("click", function (e) {
+                if (e.target === this) {
+                    closePopup();
+                }
+            });
+        });
+    </script>
+
+}
+
+
 @section styles {
     <style>
         .faculties_img_div img {
