@@ -23,7 +23,7 @@
 
 <div class="content_fullwidth">
     <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
-        <div class="container">
+        <div class="full-container">
 
             <h2 class="caps">About</h2>
 
@@ -43,7 +43,8 @@
 
             <div class="one_third">
 
-                <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg">
+                @* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
+                <img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
 
             </div>
             <!-- end section -->
@@ -69,7 +70,7 @@
 @if (!string.IsNullOrWhiteSpace(Model.BlogLink))
 {
     <div class="arrowdown_box">
-    <div class="container">
+    <div class="full-container">
 
         <h2 class="white">
             <p>Link For Blogspot:</p>
@@ -83,7 +84,7 @@
 @if (Model.SubObjectives.Count() > 0)
 {
     <div class="featured_section106">
-        <div class="container">
+        <div class="full-container">
             <div class="margin_top2"></div>
             <div class="onecol_sixty animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200">
 
@@ -111,7 +112,7 @@
     </div>
 }
 <div class="featured_section14">
-    <div class="container">
+    <div class="full-container">
 
         <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
 
@@ -155,7 +156,7 @@
 {
     <div class="clearfix margin_bottom6"></div>
     <div class="featured_section30">
-        <div class="container">
+        <div class="full-container">
             <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
                 Committee Members
             </h1>
@@ -207,7 +208,7 @@
 @if (!string.IsNullOrWhiteSpace(Model.Tagline))
 {
     <div class="featured_section38">
-        <div class="container">
+        <div class="full-container">
             @Html.Raw(Model.Tagline)
         </div>
     </div>

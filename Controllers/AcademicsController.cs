@@ -23,7 +23,7 @@ namespace GECP_Front_End_Static.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string jsonpath = webRootPath + @"\Achievements\Achievements.json";
+            string jsonpath = webRootPath + @"\Data\Achievements\Achievements.json";
             string jsonpath1 = webRootPath + @"\Data\Academics\SSIPDocuments.json";
             string jsonpath2 = webRootPath + @"\Data\Academics\ResearchGrants.json";
 

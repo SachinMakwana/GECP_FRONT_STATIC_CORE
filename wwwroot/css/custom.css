@@ -724,9 +724,13 @@ table.dataTable thead .sorting_desc_disabled:before {
     padding: 20px 15px !important;
 }
 
-.full-container {
-    padding: 0 4%;
-}
+    .minheight a{
+        font-weight:bolder;
+    }
+
+    .full-container {
+        padding: 0 4%;
+    }
 
 .logo_section {
     width: 100px;

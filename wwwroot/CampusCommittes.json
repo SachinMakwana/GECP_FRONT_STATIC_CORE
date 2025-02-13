@@ -346,76 +346,76 @@
     ]
   },
   //SC/ST Committee
-  {
-    "ID": 7,
-    "Title": "SC/ST Committee",
-    "TitleImage": "../../images/CampusCommittee/scst/brain-4245977_1280.jpg",
-    "TitleImageCSSClass": "",
-    "About": "The SC/ST Committee at Government Engineering College, Patan, ensures a supportive, inclusive environment for Scheduled Caste and Scheduled Tribe students. It addresses grievances, offers counseling, promotes awareness of scholarships and opportunities, and implements government policies to foster academic and career growth while safeguarding their rights and well-being.",
-    "Measures": "The SC/ST Committee at Government Engineering College, Patan, ensures grievance redressal, counseling support, and awareness of scholarships and government programs. It implements policies to protect students' rights, fosters career growth through coaching and workshops, and creates an inclusive environment to address socio-economic and educational challenges effectively.",
-    "Measure_Image": "/images/CampusCommittee/scst/scales-310962_640.png",
-    "Vision": [
-      "To foster an inclusive and equitable academic environment at Government Engineering College, Patan, where students from Scheduled Castes (SC) and Scheduled Tribes (ST) feel empowered, respected, and supported, enabling them to achieve their full potential and contribute meaningfully to society."
-    ],
-    "Mission": [
-      "To ensure the safety, dignity, and equal opportunities for SC/ST students within the institute.",
-      "To provide timely support through grievance redressal, counseling, and mentorship programs.",
-      "To promote awareness of government policies, scholarships, and career opportunities for holistic development.",
-      "To foster a culture of inclusivity and respect, aligning with constitutional values and institutional goals."
-    ],
-    "SubObjectives": [
-      "Establish a robust mechanism for addressing the grievances of SC/ST students promptly and effectively.",
-      "Offer psychological and emotional support to help students navigate academic and personal challenges.",
-      "Disseminate information about government scholarships, fellowships, and career advancement programs.",
-      "Organize coaching sessions, workshops, and seminars to enhance competitive exam preparedness and employability."
-      //"Ensure adherence to constitutional provisions and government policies for the welfare of SC/ST students.",
-      //"Foster a sense of belonging and inclusivity through cultural and academic initiatives aimed at empowering marginalized students."
-    ],
-    "SubObjImg": "~/images/CampusCommittee/scst/analysis-6232545_640.jpg",
-    "BulletPoints": [],
-    "BulletPointsImg": "",
-    "PageFlyer": "~/images/CampusCommittee/scst/flyer.jpg",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Equality, <b>Enabling Excellence.”</b></h1>",
-    "BlogLink": "",
-    "Members": [
-      {
-        "ID": 1,
-        "Name": "Dr. B. J. Shah",
-        "Position": "Chairman",
-        "Image": "~/images/Department/Administrative/principal.jpg",
-        "Email": "principal@gecpatan.ac.in"
-      },
-      {
-        "ID": 2,
-        "Name": "Dr. V. C. Makwana",
-        "Position": "Member",
-        "Image": "~/images/Faculty/603.jpg",
-        "Email": "vijay.makwana@gecpatan.ac.in"
-      },
-      {
-        "ID": 3,
-        "Name": "Prof. M. J. Vasava",
-        "Position": "Member",
-        "Image": "~/images/Faculty/211.jpg",
-        //"Image": "~/images/Faculty/Computer/dummy.jpg",
-        "Email": "mehul.vasava@gecpatan.ac.in"
-      },
-      {
-        "ID": 4,
-        "Name": "Prof. M. M. Patel",
-        "Position": "Member",
-        "Image": "~/images/Faculty/104.jpg",
-        "Email": "mihir.patel@gecpatan.ac.in"
-      },
-      {
-        "ID": 5,
-        "Name": "Prof. R. A. Chaudhari",
-        "Position": "Member",
-        "Image": "~/images/Faculty/107.jpg",
-        "Email": "roshni.chaudhari@gecpatan.ac.in"
-      }
-    ]
-  },
+    {
+        "ID": 7,
+        "Title": "SC/ST Committee",
+        "TitleImage": "../../images/CampusCommittee/scst/brain-4245977_1280.jpg",
+        "TitleImageCSSClass": "",
+        "About": "The SC/ST Committee at Government Engineering College, Patan, ensures a supportive, inclusive environment for Scheduled Caste and Scheduled Tribe students. It addresses grievances, offers counseling, promotes awareness of scholarships and opportunities, and implements government policies to foster academic and career growth while safeguarding their rights and well-being.",
+        "Measures": "The SC/ST Committee at Government Engineering College, Patan, ensures grievance redressal, counseling support, and awareness of scholarships and government programs. It implements policies to protect students' rights, fosters career growth through coaching and workshops, and creates an inclusive environment to address socio-economic and educational challenges effectively.",
+        "Measure_Image": "/images/CampusCommittee/scst/about_section.png",
+        "Vision": [
+            "To foster an inclusive and equitable academic environment at Government Engineering College, Patan, where students from Scheduled Castes (SC) and Scheduled Tribes (ST) feel empowered, respected, and supported, enabling them to achieve their full potential and contribute meaningfully to society."
+        ],
+        "Mission": [
+            "To ensure the safety, dignity, and equal opportunities for SC/ST students within the institute.",
+            "To provide timely support through grievance redressal, counseling, and mentorship programs.",
+            "To promote awareness of government policies, scholarships, and career opportunities for holistic development.",
+            "To foster a culture of inclusivity and respect, aligning with constitutional values and institutional goals."
+        ],
+        "SubObjectives": [
+            "Establish a robust mechanism for addressing the grievances of SC/ST students promptly and effectively.",
+            "Offer psychological and emotional support to help students navigate academic and personal challenges.",
+            "Disseminate information about government scholarships, fellowships, and career advancement programs.",
+            "Organize coaching sessions, workshops, and seminars to enhance competitive exam preparedness and employability."
+            //"Ensure adherence to constitutional provisions and government policies for the welfare of SC/ST students.",
+            //"Foster a sense of belonging and inclusivity through cultural and academic initiatives aimed at empowering marginalized students."
+        ],
+        "SubObjImg": "~/images/CampusCommittee/scst/analysis-6232545_640.jpg",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/scst/flyer.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Equality, <b>Enabling Excellence.”</b></h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. B. J. Shah",
+                "Position": "Chairman",
+                "Image": "~/images/Department/Administrative/principal.jpg",
+                "Email": "principal@gecpatan.ac.in"
+            },
+            {
+                "ID": 2,
+                "Name": "Dr. V. C. Makwana",
+                "Position": "Member",
+                "Image": "~/images/Faculty/603.jpg",
+                "Email": "vijay.makwana@gecpatan.ac.in"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. M. J. Vasava",
+                "Position": "Member",
+                "Image": "~/images/Faculty/211.jpg",
+                //"Image": "~/images/Faculty/Computer/dummy.jpg",
+                "Email": "mehul.vasava@gecpatan.ac.in"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. M. M. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/104.jpg",
+                "Email": "mihir.patel@gecpatan.ac.in"
+            },
+            {
+                "ID": 5,
+                "Name": "Prof. R. A. Chaudhari",
+                "Position": "Member",
+                "Image": "~/images/Faculty/107.jpg",
+                "Email": "roshni.chaudhari@gecpatan.ac.in"
+            }
+        ]
+    },
 
   {
     "ID": 8,
