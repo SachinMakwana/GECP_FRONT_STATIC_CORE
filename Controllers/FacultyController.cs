@@ -20,7 +20,7 @@ namespace GECP_Front_End_Static.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string jsonpath = webRootPath + @"\js\FacultyRecords.json";
+            string jsonpath = webRootPath + @"\Data\Faculties\FacultyRecords.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);

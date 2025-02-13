@@ -1,0 +1,432 @@
+[
+    {
+        "ID": 1,
+        "Title": "Electronics And Communication",
+        "TitleImage": "../../images/Title/ec_banner.jpg",
+        "TitleImageCSSClass": "ec_title",
+        "About": "The Electronics and Communication Department at GEC, Patan provides a technology-rich academic environment that enables students to achieve the highest levels of excellence as professionals in the field. The department offers a four-year undergraduate program in Electronics and Communication Engineering. With excellent infrastructure, experienced faculty, and advanced facilities for research, the department ensures that students can hone their skills and stand out among their peers. Established in 2004, the Electronics and Communication Department has been a cornerstone of the institute. It is one of the most sought-after branches, offering the highest number of seats in the state and generating numerous job opportunities. The curriculum covers a wide range of subjects, including AC and Analog Electronics, Digital Electronics, Electrical Machines, Analog and Digital Communication, Fiber Optic Communication, Microwave and Antenna Engineering, Computer Hardware and Networking, Microprocessors and Microcontrollers, Advanced and Wireless Communication, and VLSI. The program also includes elective subjects to provide students with flexibility and depth in specialized areas.",
+        "About_Images": [ "~/images/Department/EC/ec1.jpg" ],
+        "showIntake": true,
+        "Intake": 30,
+        "FacultyCount": 9,
+        "AnnualPlacementCount": 15,
+        "LabWorkshop": 7,
+        "Vision": [
+            "To prepare engineers with essential technical knowledge, value based professional skills for technical up gradation and societal growth."
+        ],
+        "Mission": [
+            "To prepare the competent engineers with ability to solve industrial problems who can raise the living standards of the society.",
+            "To prepare engineers with effective communication skill professional ethics and leadership qualities."
+        ],
+        "HODMessage": "It is my pleasure and honor to welcome you to the Department of Electronics and Communication Engineering at Government Engineering College, Patan. Electronics and Communication Engineering is a dynamic and ever-evolving branch of engineering, with applications spanning across various disciplines of the profession. Our department is dedicated to equipping students with fundamental concepts as well as the latest advancements through a modern and effective educational process. We take pride in our state-of-the-art laboratory facilities, which are continually upgraded to provide students with ample opportunities to learn, experiment, and innovate. Beyond classroom instruction, we focus on nurturing critical thinking and problem-solving skills, enabling students to confidently adapt to future challenges. We also encourage students to practice the principles they learn in the classroom by engaging in hands-on experiments and real-world applications. I extend my heartfelt congratulations to our dedicated faculty members and talented students for their brilliant and original efforts. I wish all our students and faculty members a fulfilling and successful academic journey.",
+        "HODName": "Prof. Sanjaykumar Joshi",
+        "HOD_Pic": "~/images/Department/EC/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“It is not enough to wire the world if you ...<b>short-circuit the soul. .” ...</b></h1>",
+        "PEOs": [
+            "Accumulate sound technical knowledge that enables pursue higher education and research.",
+            "Work in multidisciplinary areas with a strong focus and innovation and entrepreneurship. ",
+            "To inculcate effective communication skill, managerial skill as well as professional ethics for successful professional career."
+        ],
+        "PSOs": [
+            "An ability to apply the conceptual knowledge of Microelectronics, Signal Processing, Microprocessors/Microcontrollers and Communication Systems to solve industrial problems.",
+            "An ability to solve Electronics and communication Engineering problems using latest hardware and software."
+        ],
+        "Labs": [
+            {
+                "LabID": 11,
+                "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+                "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+            },
+            {
+                "LabID": 12,
+                "Lab_Image": "~/images/Department/EC/L202_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Name": "L 202 Simulation lab",
+                "Lab_Details": "This lab is equipped with latest computers with advanced simulation softwares viz matlab, multisim, visual studio code, keil u vision, atmel studio, verilog."
+            },
+            {
+                "LabID": 13,
+                "Lab_Image": "~/images/Department/EC/L203_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Name": "L 203 Electronics system design lab",
+                "Lab_Details": "Electronic system design lab consists of multiple workbenches having digital storage oscilloscope, multimer, function generator, power supply which can be helpful in electronic system design"
+            },
+            {
+                "LabID": 14,
+                "Lab_Image": "~/images/Department/EC/L211_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Name": "L 211 RF & Microwave Lab",
+                "Lab_Details": "RF and Microwave lab consists of analog and communication engineering labs having trainers for AM, FM and PM modulation demodulation, superheterodyne receiver, trainer for analog to digital conversion, PWM, PPM, PAM trainers, ASK, FSK, PSK trainers and trainer for microwave communication along with active passive components."
+            },
+            {
+                "LabID": 15,
+                "Lab_Image": "~/images/Department/EC/L213_-_ANJU_VASDEWANI_optimized.png",
+                "Lab_Name": "L 213 VLSI and DSP lab",
+                "Lab_Details": "This lab consists of trainers for DSP processor and VLSI."
+            },
+            {
+                "LabID": 16,
+                "Lab_Image": "~/images/Department/EC/L214_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Name": "L 214 Computer/ Microprocessor embedded system lab",
+                "Lab_Details": "This lab consists of various kits of 8085 microprocessor trainer, 8086 microprocessor trainer, 8051 microcontroller trainer, AVR microcontroller trainer and daughter boards like 8255 I/O interfacing, ADC, DAC, stepper motor controller, Arduino boards and ESP8266 Node MCU boards. "
+            },
+            {
+                "LabID": 17,
+                "Lab_Image": "~/images/Department/EC/R213_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Name": "R213 Audio video system lab",
+                "Lab_Details": "This lab consist of tv trainer (CRT), microphones, loudspeaker, set top box trainer, equalizers and filter trainer."
+            }
+        ],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ]
+    },
+    {
+        "ID": 2,
+        "Title": "Computer Science & Engineering",
+        "TitleImage": "../../images/Title/cs_banner.jpg",
+        "TitleImageCSSClass": "cs_title",
+        "About": "Computer Science & Engineering Department was established in year 2004 intake of 60 and from 2009 intake is increased to 120. It runs under graduate course in Computer Science & Engineering. Computer Engineering Laboratories are outfitted with high performance servers and computers with latest configurations. It includes C programming lab, Computer network lab, Database lab, and Advanced computing lab and Microprocessor lab. Entire campus is connected with high speed fiber network having large capacity Data Server and 100 Mbps Internet facility of 24×7 hrs. Faculty members are dedicated to import quality education in the field of Computer Engineering and active in research & development work to cope with current market trends. Students are imparted knowledge about technology through workshop and expert lectures in order to interact with academia, industries & professionals.",
+        "About_Images": [ "~/images/Department/Computer/comp1.jpg" ],
+        "showIntake": true,
+        "Intake": 120,
+        "FacultyCount": 16,
+        "AnnualPlacementCount": 50,
+        "LabWorkshop": 4,
+        "Vision": [
+            "To achieve excellence by providing value based education in Computer Science and Engineering through innovation, teamwork and ethical practices."
+        ],
+        "Mission": [
+            "To produce graduates according to the need of industry, government, society and scientific community.",
+            " To develop partnership with industries, government agencies and R &amp; D organizations for knowledge sharing and overall development of faculties and students.",
+            " To solve industrial, government agencies, societal and political issues by applying computing techniques. ",
+            " To motivate students to be entrepreneurs. ",
+            " To motivate students to participate in reputed conferences, workshops, symposiums, seminars and related technical activities. ",
+            " To impart human and ethical values in our students for better serving of society.",
+            " To create awareness among students and inculcate affection for free and open source software. "
+        ],
+        "HODMessage": "Greetings! On behalf of the faculty members, staff, and students of the Department of Computer Science and Engineering of Government Engineering College Patan, I welcome you all to the creative world of CSE. Our primary objective of this programme is to develop Computer Engineers with knowledge of software and hardware, responsible for wide range of computer system design and development, built them as dedicated and competent professionals for challenging world of varying requirements of automation. During the course, students are able to mould their career, polish their technical skills and also inculcate team spirit with good oral and written communication. Students are supported technically and financially to participate in competitions, hackathons at state, national and international level platforms. Faculty members are encouraged to acquire higher degree and conduct investigation on research in the interest of the technical community. Faculty members are also supported to conduct workshops, symposium and conferences at national and international levels. They are motivated to adopt innovative teaching methodologies and best practices to make classroom a pursuit of learning. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Dr. Harikrishna Jethva",
+        "HOD_Pic": "~/images/Department/Computer/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The computer was born to solve problems that <b>did not exist before...\"</b></h1>",
+        "PEOs": [
+            "Possess knowledge about core areas related to the field of Computer Engineering.",
+            "Acquire good analytical, design, development, implementation, and testing skills to formulate simple computing solutions to meet customer business objectives.",
+            "Provide requisite skills to pursue entrepreneurship, higher studies, and imbibe a high degree of professionalism in the fields of computing.",
+            "Embrace lifelong learning by introducing principles of public policies, professional environment, and societal context."
+        ],
+        "PSOs": [
+            "The ability to understand, analyze, design, and develop various computing solutions.",
+            "The ability to decide career paths as an entrepreneur, competent professional, or pursue higher studies using engineering knowledge and modern programming skills. "
+        ],
+        "Labs": [
+            {
+                "LabID": 21,
+
+                "Lab_Image": "~/images/Department/Computer/lab301_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-301 NETWORK LAB",
+                "Lab_Details": "PC Model- \tAcer , Processor-\tAMD Ryzen 7 5700G Radeon Graphics, RAM- \t16 GB, HDD-\t1 TB, System Type-\t64 bit operating System, Total PC-\t20."
+            },
+            {
+                "LabID": 22,
+
+                "Lab_Image": "~/images/Department/Computer/lab302_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-302   LOGIC  PROGRAMMING  LAB",
+                "Lab_Details": "PC Model- \tACXXEL,  Processor- 11th, Gen Intel® core™ i7-11700, RAM- 8.00 GB RAM, HDD- 1TB, System Type-64 bit operating System, Total PC-15. "
+            },
+            {
+                "LabID": 23,
+                "Lab_Image": "~/images/Department/Computer/lab303_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-303 DATABASE  &  SOFTWARE  LAB",
+                "Lab_Details": "PC Model- DELL, Processor-\tIntel(R) Core(TM)i5-4590 CPU @3.30 GHz, RAM- \t4.00 GB RAM, HDD-\t500GB, System Type-\t64 bit operating System,x64 based processor, Total PC-\t16"
+            },
+            {
+                "LabID": 24,
+
+                "Lab_Image": "~/images/Department/Computer/lab311_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-311 ",
+                "Lab_Details": "PC Model- \tAcer , Processor-\tAMD Ryzen 7 5700G Radeon Graphics, RAM- \t16 GB, HDD-\t1 TB, System Type-\t64 bit operating System, Total PC-\t20."
+
+
+            },
+            {
+                "LabID": 25,
+
+                "Lab_Image": "~/images/Department/Computer/lab313_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-313  PROJECT  & INTERNET LAB",
+                "Lab_Details": "PC Model- \tAcer , Processor-\tAMD Ryzen 7 5700G Radeon Graphics, RAM- \t16 GB, HDD-\t1 TB, System Type-\t64 bit operating System, Total PC-\t20."
+
+            },
+            {
+                "LabID": 26,
+                "Lab_Image": "~/images/Department/Computer/lab315_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-315 Desktop Configuration",
+                "Lab_Details": "PC Model- \tdell, Processor-\tIntel(R) Core(TM)i7, RAM- \t8.00 GB RAM, HDD-\t1TB HDD, Graphics Card HPZ240 Tower Workstation."
+            }
+        ],
+        "DeptAcademicCalender": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ],
+        "TimeTable": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ]
+    },
+    {
+        "ID": 3,
+        "Title": "Electrical Engineering",
+        "TitleImage": "../../images/Title/ee_banner.jpg",
+        "TitleImageCSSClass": "ee_title",
+        "About": "The Department of Electrical Engineering was established in the year 2009. It has academic programme with intake of 60 under graduate students. The department is equipped with the latest experimental and computational facilities. It runs to cater to the ever-challenging needs of technical excellence in all areas of electrical engineering such as Power Systems, Electrical Machines, Control & Automation, Integrated Electronics & circuits and Power Electronics. The Department is dynamic and has a scholarly environment wherein students learn independently and in collaboration with others to develop a disciplined yet innovative approach to their careers as professional engineers, researchers or teachers and offers a four-year program in Electrical Engineering. It is geared up with outcome-based education imparted to the students. Students at the department are consistently provided with opportunities to upgrade their technical knowledge and develop skills that make them best employable, qualified for higher education or develop them as a strong entrepreneur.",
+        "About_Images": [ "/images/Department/Electrical/elec1.jpg" ],
+        "showIntake": true,
+        "Intake": 60,
+        "FacultyCount": 11,
+        "AnnualPlacementCount": 8,
+        "LabWorkshop": 4,
+        "Vision": [ "To foster learning environment for electrical engineering education having high technical skills, ethical values and overall global competence." ],
+        "Mission": [ "To provide high quality graduate program in electrical engineering so that it prepares students for liflong learning to meet professional, intellectual and ethical tasks." ],
+        "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Department of Electrical Engineering at Government Engineering College Patan. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. Our primary objective to provide high quality graduate program in electrical engineering so that it prepares students for industry and managerial skills to be highly competent Electrical Engineers. Students are trained in a way that they inculcate research capabilities in different areas of Electrical Engineering to identify, comprehend and solve problems and adapt themselves in a world of constantly evolving technology. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Dr. Gunvantbhai Patel",
+        "HOD_Pic": "~/images/Department/Electrical/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Have no fear ...<b>electrician is here. .” ...</b></h1>",
+        "PEOs": [],
+        "PSOs": [],
+        "Labs": [
+            //{
+            //    "LabID": 11,
+            //    "Lab_Image": "",
+            //    "Lab_Name": "",
+            //    "Lab_Details": ""
+            //},
+            //{
+            //    "LabID": 11,
+            //    "Lab_Image": "",
+            //    "Lab_Name": "",
+            //    "Lab_Details": ""
+            //},
+            //{
+            //    "LabID": 11,
+            //    "Lab_Image": "",
+            //    "Lab_Name": "",
+            //    "Lab_Details": ""
+            //}
+        ],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ]
+    },
+    {
+        "ID": 4,
+        "Title": "Civil Engineering",
+        "TitleImage": "../../images/Title/ce_banner.jpg",
+        "TitleImageCSSClass": "ce_title",
+        "About": "The Department of Civil Engineering has been in existence since 2009 with intake of 60 seats. Civil Engineering is considered to be the oldest engineering field. It includes the planning, design, construction, maintenance and operation of the infrastructure that surrounds us. Our infrastructure includes roads, airports, railroads, buildings, bridges, water and wastewater treatment plans, sewers, drainage, flood control, water supply and many other facilities. Most everything civil engineers do affect our daily lives in many ways. Our faculty members are assigned with various theory subjects prepare course plans using the standard format provided by the institute with emphasis on 'learning' of the students. The instructional or lecture delivery of the faculty will be through a set of Educational Technology / Tools opted by the faculty.",
+        "About_Images": [ "~/images/Department/Civil/civil.jpg" ],
+        "showIntake": true,
+        "Intake": 60,
+        "FacultyCount": 4,
+        "AnnualPlacementCount": 20,
+        "LabWorkshop": 6,
+        "Vision": [ "To mould civil engineering students with an emphasis on value-based education through technological innovations, teamwork, and skills for the growth of society." ],
+        "Mission": [ "To combine quality education with career focussed learning and the application of knowledge and to mentor students for innovative thinking with relevance to entrepreneurship." ],
+        "HODMessage": "“Engineers are the creators of the new world”. We welcome you to be a part of this creative process. The Department of Civil Engineering of Government Engineering College Patan strives for excellence in teaching and learning and professional development. Our department is committed to provide students with a strong, broad based fundamental engineering education and prepare the students for a career in the industry, teaching and national laboratories. We promote innovative practices in the field of Civil Engineering and mentor students for innovative thinking with relevance to entrepreneurship. We also plan to develop entrepreneurial skills in students through summer internships so that they would drive the spirit of growth of our economy and would be able to generate employment opportunities for other qualified and skilled people. Our graduates are exceptionally well prepared for challenging careers, handling major projects and being on the fast track towards new heights in their careers. Come and join us now and build the Nation! - Prof. Vipul Patel",
+        "HODName": "Prof. Vipul Patel",
+        "HOD_Pic": "~/images/Department/Civil/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“The road to success is always under...<b>construction .” ...</b></h1>",
+        "PEOs": [
+            "The graduates shall be able to engage themselves to achieve expertise to solve real-world problems with modern Civil Engineering tools and techniques.",
+
+            "The Graduates shall be able to develop leadership, and resource management skills and exhibit good teamwork in multidisciplinary projects.",
+
+            "To produce civil engineering graduates who can excel in their professional careers and/or higher education by acquiring knowledge of basic engineering principles.  ",
+
+            "The graduates shall be able to pursue Technological Innovations and Advancements.",
+
+            "The graduates shall be able to serve the Industry with professional Ethics and society with moral responsibilities."
+        ],
+        "PSOs": [
+            "The Civil Engineering Graduate will be able to solve complex Civil Engineering problems and provide the best possible design solutions using various contemporary engineering tools and techniques.",
+            "The Civil Engineering Graduate will be able to use effective communication skills and shoulder accountability in a professional role as Civil Engineer independently, or as a team-member/team-leader in society.",
+            "The students will be able to achieve expertise in design and analysis of various Civil Engineering structures using relevant codes of practice, materials, techniques and software. ",
+            "The students will acquire knowledge, skills and attitude for their better prospects in professional career of Civil Engineering. ",
+            "The students will be able to Pursue Technological innovations in the field of Civil Engineering & allied fields for betterment of the society."
+        ],
+        "Labs": [
+            {
+                "LabID": 41,
+                "Lab_Image": "~/images/Department/Civil/Transportation_Engineering_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Transportation Engineering Laboratory",
+                "Lab_Details": "The Transportation Engineering Laboratory bridges the gap between theoretical knowledge and practical applications in road design, construction, quality control, and maintenance. It is equipped to perform various tests to ensure the quality of materials used in constructing flexible and rigid pavements, including assessments of bitumen, aggregates, soil, and concrete. The lab is furnished with specialized equipment such as Plate Bearing Test apparatus, Marshall Stability Test setup, impact test machines, crushing test apparatus, CBR test equipment, ductility testing tools, abrasion testing machines, bitumen extractors, and Flash and Fire Point apparatus, among others."
+            },
+            {
+                "LabID": 42,
+                "Lab_Image": "~/images/Department/Civil/SURVEYING_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Surveying Lab",
+                "Lab_Details": "The Surveying Laboratory is well-equipped with a diverse range of instruments spanning all three generations of measurement techniques, meeting the needs of various types and complexities of survey work. Surveying is a crucial aspect of civil engineering projects, as precise measurements of lengths and elevations are fundamental to successful construction. The lab features tools ranging from simple metric chains to advanced modern instruments like Total Stations, ensuring comprehensive support for surveying tasks. The available equipment includes Total Stations, theodolites, plane tables, prismatic compasses, open cross-staffs, leveling staffs, surveyor’s compasses, planimeters, optical squares, line rangers, prism squares, and more."
+            },
+            {
+                "LabID": 43,
+                "Lab_Image": "~/images/Department/Civil/Environemental_Engineering_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Environmental Engineering Lab",
+                "Lab_Details": "The Environmental Engineering Laboratory is equipped for conducting standard tests and measurements of key environmental parameters. It facilitates the analysis of the physical, chemical, and bacteriological properties of water and wastewater, which are critical for designing treatment facilities and maintaining acceptable water quality standards. Additionally, the lab plays a significant role in addressing air, water, and noise pollution by providing data that helps propose effective solutions for reducing environmental pollution. The laboratory houses various equipment, including a pH meter, turbidity meter, hot air oven, COD digester, BOD incubator, jar test apparatus, high-volume air sampler, sound level meter, exhaust gas analyzer, and more."
+            },
+            {
+                "LabID": 44,
+                "Lab_Image": "~/images/Department/Civil/Fluid_Mechanics_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Fluid Mechanics Lab",
+                "Lab_Details": "The Fluid Mechanics laboratory is dedicated to enhancing students' understanding of fundamental fluid mechanics concepts through practical application. It offers a hands-on learning experience by conducting experiments designed to demonstrate the principles of fluid engineering and provide a clearer, more intuitive grasp of the theory. The lab is equipped with various apparatus, including manometers, pitot tubes, hydrometers, viscometers, centrifugal pumps, Bernoulli’s apparatus, Reynolds apparatus, and others, to support comprehensive learning and experimentation."
+            }
+
+
+        ],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ]
+    },
+    {
+        "ID": 5,
+        "Title": "Mechnanical Engineering",
+        "TitleImage": "../../images/Title/me_banner.jpg",
+        "TitleImageCSSClass": "me_title",
+        "About": "Our strong academic performance in high school enables you to pursue a range of educational opportunities. One avenue you'll want to explore is mechanical engineering. Studying mechanical engineering at Government Engineering College Patan will equip you with a broad education, preparing you for a variety of career paths graduation and providing a solid foundation for continuing education. Mechanical engineering encompasses many areas. In short, anything that involves the design and or manufacturing of mechanical, thermal or electronic devices and or processes falls entrepreneurs, chief engineers, astronauts, faculty, physicians and patent attorneys, among other occupations. The field includes activities such as designing, developing, manufacturing, managing, researching and controlling engineering systems and their components.",
+        "About_Images": [ "~/images/Department/Mechanical/mech1.png" ],
+        "showIntake": true,
+        "Intake": 60,
+        "FacultyCount": 19,
+        "AnnualPlacementCount": 15,
+        "LabWorkshop": 0,
+        "Vision": [ "To create a centre of excellence for imparting education in mechanical engineering field to meet the current and future challenges of technological and sustainable development." ],
+        "Mission": [
+            "To build enabling environment for excellent teaching, learning and research in order to produce entrepreneurs and innovators in the field of Mechanical Engineering for sustainable improvement.",
+            "To impart adequate fundamental knowledge, technical and soft skills to students.",
+            "To develop Mechanical Engineering solutions for the problems of industry and society."
+        ],
+        "HODMessage": "Welcome to the Department of Mechanical Engineering at Government Engineering College Patan. The primary focus of our curriculum is to impart technical know-how to students, promote their problem-solving skills and innovation of new technologies. In today’s fast-changing world with ever-growing challenges of limited resources and rapid climate changes, a new generation of Mechanical Engineers nurtured with necessary skills and innovative spirit is needed. Students are encouraged to undertake various research projects. The course contents are periodically updated for introducing new scientific and technological developments. Undergraduate students are encouraged to undertake various research projects and encouraged to spend time in neighbouring industry. Faculty members have excellent academic credentials and are highly regarded. We hope that whether you are a prospective undergraduate or graduate student, or work in the industry, or another university, or a visitor, you will find this website to be informative. Welcome to this world of machines.",
+        "HODName": "Prof. Anand Dhruv",
+        "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
+        "PEOs": [],
+        "PSOs": [],
+        "Labs": [
+
+        ],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ]
+    },
+    {
+        "ID": 6,
+        "Title": "General",
+        "TitleImage": "../../images/Title/gen_banner.jpg",
+        "TitleImageCSSClass": "general_title",
+        "About": "The department aims at and focuses on- the overall development of the learner by teaching the subjects of Mathematics, Communication Skills, Contributor personality development and Physics. The faculty members of the department are committed to impart the knowledge based on their vast experience in the field and bringing the best out of learners. With the development of the Language Lab and the Physics Lab in the recent past, learners can now practice and apply their acquired skills. The department is involved in a number of activities like conducting seminars, workshops and guest lectures by eminent personalities of other universities and R&D organizations.",
+        "About_Images": [ "~/images/Department/General/slider1.png" ],
+        "showIntake": false,
+        "Intake": 0,
+        "FacultyCount": 0,
+        "AnnualPlacementCount": 0,
+        "LabWorkshop": 0,
+        "Vision": [ "To achieve excellence by providing overall development of the student." ],
+        "Mission": [ "To train graduates according to the needs of industry, government, society and scientific community." ],
+        "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the General Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. The department focuses on the overall development of the student by teaching the subjects related to Mathematics, English, Physics. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Prof. VIJAY SONI",
+        "HOD_Pic": "~/images/Faculty/HOD/601.png",
+        "Tagline": null,
+        "PEOs": [],
+        "PSOs": [],
+        "Labs": [
+
+        ],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ]
+    },
+    {
+        "ID": 8, //Keept this as 8
+        "Title": "Applied Mechanics",
+        "TitleImage": "../../images/Title/gen_banner.jpg",
+        "TitleImageCSSClass": "general_title",
+        "About": "The Applied Mechanics Department is committed to finding solutions to our major sustainability challenges this century and to educating and training the leaders who will have a large impact on our profession and on society. Join us in this important endeavor. The department of Applied Mechanics an independent functioning unit is the backbone of Civil Engineering. The department presents a picture of a small but fully dedicated and developed faculty contributing to all round growth of students, Institute, Industries and Society. While we're equipping our students with the knowledge and tools that can apply to the Civil Engineering and all other Engineering professional skills today, our real goal is to the coming decades.",
+        "About_Images": [ "~/images/Department/General/slider1.png" ],
+        "showIntake": false,
+        "Intake": 0,
+        "FacultyCount": 0,
+        "AnnualPlacementCount": 0,
+        "LabWorkshop": 0,
+        "Vision": [ "To achieve excellence by providing overall development of the student." ],
+        "Mission": [ "To train graduates according to the needs of industry, government, society and scientific community." ],
+        "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Applied Mechanics Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Prof. Paresh Nimodia",
+        "HOD_Pic": "~/images/Faculty/HOD/803.png",
+        "Tagline": null,
+        "PEOs": [],
+        "PSOs": [],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "Hostel mess and cantine tender GECP 2024-25",
+                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            }
+        ]
+    }
+]

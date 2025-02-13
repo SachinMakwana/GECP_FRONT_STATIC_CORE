@@ -1,5 +1,6 @@
 [
     {
+
     "ID": 1,
     "Title": "Electronics And Communication",
     "TitleImage": "../../images/Title/ec_banner.jpg",
@@ -163,6 +164,7 @@
     "DeptAcademicCalender": [
         
     ]
+
     },
     {
         "ID": 3,
@@ -181,6 +183,7 @@
         "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Department of Electrical Engineering at Government Engineering College Patan. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. Our primary objective to provide high quality graduate program in electrical engineering so that it prepares students for industry and managerial skills to be highly competent Electrical Engineers. Students are trained in a way that they inculcate research capabilities in different areas of Electrical Engineering to identify, comprehend and solve problems and adapt themselves in a world of constantly evolving technology. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
         "HODName": "Dr. Gunvantbhai Patel",
         "HOD_Pic": "~/images/Department/Electrical/HoD.png",
+
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Have no fear ...<b>electrician is here. .” ...</b></h1>",
         "PEOs": [],
         "PSOs": [],
@@ -275,6 +278,7 @@
     "DeptAcademicCalender": [
         
     ]
+
     },
     {
         "ID": 5,
@@ -297,6 +301,7 @@
         "HODMessage": "Welcome to the Department of Mechanical Engineering at Government Engineering College Patan. The primary focus of our curriculum is to impart technical know-how to students, promote their problem-solving skills and innovation of new technologies. In today’s fast-changing world with ever-growing challenges of limited resources and rapid climate changes, a new generation of Mechanical Engineers nurtured with necessary skills and innovative spirit is needed. Students are encouraged to undertake various research projects. The course contents are periodically updated for introducing new scientific and technological developments. Undergraduate students are encouraged to undertake various research projects and encouraged to spend time in neighbouring industry. Faculty members have excellent academic credentials and are highly regarded. We hope that whether you are a prospective undergraduate or graduate student, or work in the industry, or another university, or a visitor, you will find this website to be informative. Welcome to this world of machines.",
         "HODName": "Prof. Anand Dhruv",
         "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
+
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
         "PEOs": [],
         "PSOs": [],
@@ -310,6 +315,7 @@
     {
         "ID": 6,
         "Title": "Science And Humanities",
+
         "TitleImage": "../../images/Title/gen_banner.jpg",
         "TitleImageCSSClass": "general_title",
         "About": "The department aims at and focuses on- the overall development of the learner by teaching the subjects of Mathematics, Communication Skills, Contributor personality development and Physics. The faculty members of the department are committed to impart the knowledge based on their vast experience in the field and bringing the best out of learners. With the development of the Language Lab and the Physics Lab in the recent past, learners can now practice and apply their acquired skills. The department is involved in a number of activities like conducting seminars, workshops and guest lectures by eminent personalities of other universities and R&D organizations.",
@@ -323,6 +329,7 @@
         "Mission": [ "To train graduates according to the needs of industry, government, society and scientific community." ],
         "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the General Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. The department focuses on the overall development of the student by teaching the subjects related to Mathematics, English, Physics. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
         "HODName": "Prof. VIJAY SONI",
+
         "HOD_Pic": "~/images/Faculty/HOD/601.png",
         "Tagline": null,
         "PEOs": [],
@@ -333,6 +340,7 @@
         "DeptAcademicCalender": [
             
         ]
+
     },
     {
         "ID": 8, //Keept this as 8
@@ -350,6 +358,7 @@
         "Mission": [ "To train graduates according to the needs of industry, government, society and scientific community." ],
         "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Applied Mechanics Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
         "HODName": "Prof. Paresh Nimodia",
+
         "HOD_Pic": "~/images/Faculty/HOD/803.png",
         "Tagline": null,
         "PEOs": [],
@@ -357,5 +366,6 @@
         "DeptAcademicCalender": [
             
         ]
+
     }
 ]

@@ -1,24 +1,50 @@
-﻿@model HeaderVM
+@model HeaderVM
 @{
 }
+<div class="top_nav">
+	<div class="full-container">
+
+		<div class="left">
+
+			<a href="mailto:@Model.ContactEmail"><i class="fa fa-envelope"></i>&nbsp; @Model.ContactEmail</a> <i class="fa fa-phone-square"></i>&nbsp; @Model.ContactNo
+
+		</div><!-- end left -->
+
+		@* <div class="right gecp_social_right">
+
+			<a href="#" class="tpbut two active"><i class="fa fa-pencil-square-o"></i>&nbsp; Register</a>
+			<a href="#" class="tpbut"><i class="fa fa-lock"></i>&nbsp; Login</a>
+
+			<ul class="topsocial">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="#"><i class="fa fa-rss"></i></a></li>
+			</ul>
+
+		</div> *@<!-- end right -->
+
+	</div>
+</div><!-- end top navigation links -->
+<div class="clearfix margin_top5"></div>
+<div class="full-container">
+	<div class="logo_section">
+		<div class="gecp_logo">
+			<a href="@Url.Action("Index","Home")">
+				<img src="@Url.Content(Model.logo)" class="rimg gecp_logo1" /> 
+				<h1 class="animate fadeIn gecp_name">Government Engineering College, Patan</h1>
+			</a>
+		</div>
+		<div class="gecp_gov_emblame">
+			<img src="@Url.Content("~/images/affiliated.png")" class="rimg" />
+		</div>
+	</div>
+
+	
 
 
-
-    
-    </div><!-- end top navigation links -->
-    <div class="container">
-
-        <div class="left">
-
-            <!-- Logo -->
-            <div>
-                <a href="@Url.Action("Index","Home")"> <img src="@Url.Content(Model.logo)" class="rimg" /></a>
-            </div>
-
-        </div>
-        <!-- end left -->
-
-        <div class="right">
+	@*  <div class="right">
 
             <ul class="tinfo last">
                 <li><i class="fa fa-phone"></i></li>
@@ -38,10 +64,6 @@
             </ul>
 
         </div>
-        <!-- end right -->
+        <!-- end right --> *@
 
-    </div>
-
-
-
-
+</div>

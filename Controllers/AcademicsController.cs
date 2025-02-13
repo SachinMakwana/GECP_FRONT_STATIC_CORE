@@ -1,4 +1,4 @@
-﻿using GECP_Front_End_Static.Models;
+using GECP_Front_End_Static.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;

@@ -1,0 +1,55 @@
+[
+    /*
+    Type: 0 for Student |   1 for Faculty
+    Department: 1 EC | 2 CSE | 3 EE | 4 Civil | 5 Mechanical | 6 General | 7 Admin | 8 Applied
+    */
+    {
+        "ID": 1,
+        "Title": "Ashray Joshi, 7th sem CSE<br/>Young Change Maker on International Youth Day",
+        "Image": "/images/Achievements/01.jpg",
+        "Date": "12/08/2024",
+        "Description": "Joshi Ashray Ashok a Student of CSE 7th Semester got selected as a Young Change Maker and was invited in National Youth Conclave to share his journey and achievements of his unit under his leadership, Also Ashray submitted the Manifesto of MyBharat Portal to Hon. Union Cabinet Minister Shri Mansukh Mandavya Sir on behalf of Gujarat Youth . He was awarded by Mansukh Mandavya Sir as a Young Change Maker in field of Social Change through NSS This event was organized by UNICEF India, United Nations and Ministry of Sports and Youth Affairs.",
+        "Type": 0,
+        "Dept": "CSE",
+        "DeptID": 2,
+        "Keywords": "CSE,NSS",
+        "Year": 2024
+    },
+    {
+        "ID": 1,
+        "Title": "Ashray Joshi, 7th sem CSE<br/>Young Change Maker on International Youth Day",
+        "Image": "/images/Achievements/01.jpg",
+        "Date": "12/08/2024",
+        "Description": "Joshi Ashray Ashok a Student of CSE 7th Semester got selected as a Young Change Maker and was invited in National Youth Conclave to share his journey and achievements of his unit under his leadership, Also Ashray submitted the Manifesto of MyBharat Portal to Hon. Union Cabinet Minister Shri Mansukh Mandavya Sir on behalf of Gujarat Youth . He was awarded by Mansukh Mandavya Sir as a Young Change Maker in field of Social Change through NSS This event was organized by UNICEF India, United Nations and Ministry of Sports and Youth Affairs.",
+        "Type": 0,
+        "Dept": "CSE",
+        "DeptID": 2,
+        "Keywords": "CSE,NSS",
+        "Year": 2024
+    },
+    {
+        "ID": 1,
+        "Title": "Ashray Joshi, 7th sem CSE<br/>Young Change Maker on International Youth Day",
+        "Image": "/images/Achievements/01.jpg",
+        "Date": "12/08/2024",
+        "Description": "Joshi Ashray Ashok a Student of CSE 7th Semester got selected as a Young Change Maker and was invited in National Youth Conclave to share his journey and achievements of his unit under his leadership, Also Ashray submitted the Manifesto of MyBharat Portal to Hon. Union Cabinet Minister Shri Mansukh Mandavya Sir on behalf of Gujarat Youth . He was awarded by Mansukh Mandavya Sir as a Young Change Maker in field of Social Change through NSS This event was organized by UNICEF India, United Nations and Ministry of Sports and Youth Affairs.",
+        "Type": 0,
+        "Dept": "CSE",
+        "DeptID": 2,
+        "Keywords": "CSE,NSS, Electrical",
+        "Year": 2024
+    },
+    {
+        "ID": 1,
+        "Title": "Ashray Joshi, 7th sem CSE<br/>Young Change Maker on International Youth Day",
+        "Image": "/images/Achievements/01.jpg",
+        "Date": "12/08/2024",
+        "Description": "Joshi Ashray Ashok a Student of CSE 7th Semester got selected as a Young Change Maker and was invited in National Youth Conclave to share his journey and achievements of his unit under his leadership, Also Ashray submitted the Manifesto of MyBharat Portal to Hon. Union Cabinet Minister Shri Mansukh Mandavya Sir on behalf of Gujarat Youth . He was awarded by Mansukh Mandavya Sir as a Young Change Maker in field of Social Change through NSS This event was organized by UNICEF India, United Nations and Ministry of Sports and Youth Affairs.",
+        "Type": 0,
+        "Dept": "CSE",
+        "DeptID": 2,
+        "Keywords": "CSE,NSS, Yoddhha",
+        "Year": 2024
+    }
+
+]
