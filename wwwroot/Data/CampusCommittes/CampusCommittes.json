@@ -1,0 +1,545 @@
+[
+    // Women Cell
+    {
+        "ID": 1,
+        "Title": "Women Development Cell",
+        "TitleImage": "../../images/women_banner.jpg",
+        "TitleImageCSSClass": "women_cell_title",
+        "About": "A Women Development Cell (WDC) in a Government Engineering College,Patan is an institutional body aimed at addressing gender-related issues and fostering the holistic development of women in the academic and professional environment. Such cells often function under the guidelines provided by University Grants Commission (UGC) in India, or specific state education boards.",
+        "Measures": "The Women Development Cell (WDC) in a Government Engineering College implements several measures to promote the safety, empowerment, and holistic development of women. These measures are designed to create a gender-sensitive and inclusive academic environment while addressing challenges faced by women students and staff. <ul> <li>1. Safety and Security Measures</li> <li>2. Awareness and Sensitization Programs</li> <li>3. Health and Wellness Initiatives</li> <li>4. Empowerment through Education and Training</li> <li>5. Cultural and Social Development Activities</li> </ul>",
+        "Measure_Image": "~/images/women.jpg",
+        "Vision": [
+            "To create a gender-inclusive and empowering academic environment that fosters equality, safety, and the holistic development of women, enabling them to thrive as confident professionals and responsible citizens in the field of engineering and technology."
+        ],
+        "Mission": [
+            "Empowerment Through Education",
+            "Promoting Gender Equality",
+            "Ensuring Safety and Security",
+            "Encouraging Leadership and Innovation",
+            "Health and Well-being"
+        ],
+        "SubObjectives": [
+            "Promoting Gender Equality",
+            "Ensuring Safety and Security",
+            "Empowering Women",
+            "Spreading Awareness",
+            "Holistic Development"
+        ],
+        "SubObjImg": "~/images/CampusCommittee/WomenCell/quote.jpg",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/WomenCell/wcell.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"A woman with a voice is, by definition, <b>a strong woman.\"</b></h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. R. A. Chaudhari",
+                "Position": "Coordinator",
+                "Department": "Electronics & Communication Engineering Department",
+                "Image": "~/images/Faculty/107.jpg",
+                "Email": "roshni.chaudhari@gecpatan.ac.in"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. H. Y. Rathod",
+                "Position": "Member",
+                "Department": "Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "hiral.rathod@gecpatan.ac.in"
+            },
+            {
+                "ID": 3,
+                "Name": "Smt. P. J. Patel",
+                "Position": "Member",
+                "Department": "Mechanical Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "priyanka.patel@gecpatan.ac.in"
+            }
+        ]
+    },
+    //SSIP
+    {
+        "ID": 2,
+        "Title": "Student Startup Innovation Program",
+        "TitleImage": "../../images/ssip_banner.jpg",
+        "TitleImageCSSClass": "ssip_title",
+        "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
+        "Measures": "The SSIP Cell at GEC Patan undertakes several measures to promote innovation and entrepreneurship among students:<br/> <ul class=\"text-justify\"> <li>Idea Nurturing: Organizes ideation workshops, hackathons, and innovation challenges to identify and refine creative ideas.</li> <li>Mentorship: Provides industry experts, entrepreneurs, and faculty guidance to support project development.</li> <li>Financial Support: Offers seed funding and grants for prototyping and startup initiatives.</li> <li>Infrastructure Support: Provides access to labs, co-working spaces, and technical resources.</li> <li>Capacity Building: Conducts skill development programs and training sessions on business models, intellectual property rights, and pitching.</li> <li>Industry Collaboration: Establishes partnerships with industries and startups for internships, real-world exposure, and project validation.</li> <li>Outreach Activities: Encourages participation in state and national-level innovation competitions.</li> </ul>",
+        "Measure_Image": "~/images/CampusCommittee/SSIP/tree-2987962_1280.jpg",
+        "Vision": [
+            "To create an ecosystem that fosters innovation, entrepreneurship, and skill development, empowering students to become future-ready innovators and entrepreneurs contributing to sustainable socio-economic growth."
+        ],
+        "Mission": [
+            "To encourage a culture of creativity, problem-solving, and innovation among students and faculty.",
+            "To support student-led startups by providing mentorship, funding, and resource access.",
+            "To bridge the gap between academia and industry through collaborations and partnerships.",
+            "To promote skill enhancement through training, workshops, and hands-on project development.",
+            "To empower students with knowledge of intellectual property rights and commercialization strategies.",
+            "To provide a platform for students to showcase their innovations at various levels."
+        ],
+        "SubObjectives": [
+            "Encourage Innovation: Promote a culture of creative thinking and problem-solving among students.",
+            "Support Startups: Facilitate student-led startups by providing mentorship, funding, and resources.",
+            "Bridge Academia and Industry: Connect with industries to ensure practical exposure and project validation.",
+            "Enable Prototyping: Support students in developing prototypes and proof-of-concept models.",
+            "Promote Skill Development: Conduct training sessions to enhance entrepreneurial and technical skills.",
+            "Raise Awareness: Educate students about intellectual property rights and commercialization opportunities.",
+            "Encourage Participation: Motivate students to engage in state, national, and international innovation competitions and exhibitions."
+        ],
+        "SubObjImg": "~/images/CampusCommittee/SSIP/laptop-5000778_1280.png",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/SSIP/ssipcell.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"> <b> \"</b> Innovate, Incubate, <b> Ignite!\"</b> </h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. H. N. Panchal",
+                "Position": "Converner",
+                "Department": "Mechanical Engineering Department",
+                "Image": "~/images/Faculty/519.jpg",
+                "Email": "hitesh.panchal@gecpatan.ac.in"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. H. L. Chaudhari",
+                "Position": "Converner",
+                "Department": "Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/214.jpg",
+                "Email": "harshad.chaudhary@gecpatan.ac.in"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. M. I. Baliya",
+                "Position": "Member",
+                "Department": "Civil Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "manjurali.baliya@gecpatan.ac.in"
+            },
+            {
+                "ID": 4,
+                "Name": "Dr. P. D. Patel",
+                "Position": "Member",
+                "Department": "Electrical Engineering Department",
+                "Image": "~/images/Faculty/306.jpg",
+                "Email": "pravin.patel@gecpatan.ac.in"
+            },
+            {
+                "ID": 5,
+                "Name": "Dr. M. B. Patel",
+                "Position": "Member",
+                "Department": "Electronics & Communication Engineering Department",
+                "Image": "~/images/Faculty/108.jpg",
+                "Email": "maulik.patel@gecpatan.ac.in"
+            },
+            {
+                "ID": 6,
+                "Name": "Prof. M. J. Vasava",
+                "Position": "Member",
+                "Department": "Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/211.jpg",
+                "Email": "mehul.vasava@gecpatan.ac.in"
+            }
+        ]
+    },
+    //NSS
+    {
+        "ID": 3,
+        "Title": "National Service Scheme",
+        "TitleImage": "../../images/nss_banner.jpg",
+        "TitleImageCSSClass": "nss_title",
+        "About": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+        "Measures": "The NSS volunteer is expected to participate in projects prepared by the Programme Officer for community work. The aim of such projects is to bring the NSS volunteer face to face with the realities of life and needs & requirements of the community. Total 50 Volunteers working in NSS GEC PATAN Unit (25 Senior - 25 Junior Volunteer).",
+        "Measure_Image": "~/images/nss.png",
+        "Vision": [
+            "The vision is to build the youth with the mind and spirit to serve the society and work for the social uplift of the down-trodden masses of our nation as a movement."
+        ],
+        "Mission": [
+            "The National Service Scheme has been functioning with the motto “NOT ME BUT YOU” in view of making the youth inspired in service of the people and hence NSS Aims Education through Community Service and Community Service through Education."
+        ],
+        "SubObjectives": [
+            "Understand the community in which they work",
+            "Understand themselves in relation to their community",
+            "Identify the needs and problems of the community and involve them in problem-solving",
+            "Develop among themselves a sense of social and civic responsibility",
+            "Utilize their knowledge in finding practical solutions to individual and community,problems",
+            "Develop competence required for group-living and sharing of responsibilities",
+            "Gain skills in mobilizing community participation",
+            "Acquire leadership qualities and democratic attitudes",
+            "Develop capacity to meet emergencies and natural disasters and",
+            "Practice national integration and social harmony."
+        ],
+        "SubObjImg": "~/images/CampusCommittee/NSS/subobj.jpg",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/NSS/nsscell.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Not Me, <b>But You”</b></h1>",
+        "BlogLink": "http://nssgecpatan.blogspot.com/",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. N. K. Dabhi",
+                "Position": "Converner",
+                "Image": "~/images/Faculty/304.jpg",
+                "Email": "naran.dabhi@gecpatan.ac.in",
+                "Department": "Electrical Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Dr. A. K. Chaudhari",
+                "Position": "Member",
+                "Image": "~/images/Faculty/602.jpg",
+                "Email": "ashok.chaudhari@gecpatan.ac.in",
+                "Department": "Humanities & Science Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. R. A. Chaudhari",
+                "Position": "Member",
+                "Image": "~/images/Faculty/107.jpg",
+                "Email": "roshni.chaudhari@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. V. B. Pansiniya",
+                "Position": "Member",
+                "Image": "~/images/Faculty/217.jpg",
+                "Email": "viral.pansiniya@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            }
+        ]
+    },
+    //Anti Ragging
+    {
+        "ID": 4,
+        "Title": "Anti Ragging",
+        "TitleImage": "../../images/anti_ragging_banner.jpg",
+        "TitleImageCSSClass": "anti_ragging_title",
+        "About": "According to UGC regulations 2009 on curbing the menace of ragging in higher educational institutions, we at GEC Patan has been running active antiragging committee/squad to prevent any issue regarding ragging to be happen in institute premises.",
+        "Measures": "We are taking undertaking forms from parents as well as from students of each semester and this we are doing every year to prevent any incident of ragging in future. We are supplying all information regarding antiragging committee functioning at institute level among all students; especially new comers. No such ragging incident has been recorded in this institute from the beginning to till date.",
+        "Measure_Image": "~/images/Anti-Ragging.png",
+        "Vision": [
+            "To build a ragging free environment by instilling the principles of democratic values, tolerance, empathy, compassion and sensitivity to that students become responsible citizens."
+        ],
+        "Mission": [
+            "To create an atmosphere of discipline by passing a clear message that no act of ragging in college premises."
+        ],
+        "SubObjectives": [
+
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/AntiRagging/antiragging.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Ragging does not break the person or ice, it breaks <b>Career, Family and Lives.” ...</b></h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. H. L. Chaudhary",
+                "Position": "Converner",
+                "Image": "~/images/Faculty/214.jpg",
+                "Email": "harshad.chaudhary@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. B. P. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "bhavesh.patel@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            }
+        ]
+    },
+
+    //Grievence Cell
+    {
+        "ID": 5,
+        "Title": "Grievence Cell",
+        "TitleImage": "../../images/grievence_banner.jpg",
+        "TitleImageCSSClass": "grievance_title",
+        "About": "Government Engineering College, Patan has established an Grievance Cell, to provide a mechanism for redressal of students' grievances. The function of the cell is to look into the complaints lodged by any student, and judge its merit. The Grievance cell is also empowered to look into matters of harassment.",
+        "Measures": "The objective of the Grievance Cell in Government Engineering College, Patan is to develop a responsive and accountable attitude among all the students in order to maintain a harmonious educational atmosphere in the institute.",
+        "Measure_Image": "/images/grievence.jpg",
+        "Vision": [
+            "To develop a responsible and accountable attitude among all the students in order to maintain a harmonious educational ambience in the institute and uphold the dignity & divinity of the college."
+        ],
+        "Mission": [
+            "Advising students of the college to respect the right of dignity of one another. Encouraging the students to express their grievances/ suggestions freely for a smooth relationship and keep up the standard and discipline of the college."
+        ],
+        "SubObjectives": [
+
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. A. B. Dhruv",
+                "Position": "Chairman",
+                "Image": "~/images/Faculty/HOD/501.jpg",
+                "Email": "anand.dhruv@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. V. P. Soni",
+                "Position": "Member",
+                "Image": "~/images/Faculty/601.jpg",
+                "Email": "vijay.soni@gecpatan.ac.in",
+                "Department": "Science & Humanities Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. B. P. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "bhavesh.patel@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. R. A. Chaudhari",
+                "Position": "Member",
+                "Image": "~/images/Faculty/107.jpg",
+                "Email": "roshni.chaudhari@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            }
+        ]
+    },
+    //RTI
+    {
+        "ID": 6,
+        "Title": "Right To Information",
+        "TitleImage": "../../images/CampusCommittee/RTI/rti_banner.jpg",
+        "TitleImageCSSClass": "rti_title",
+        "About": "The Right to Information (RTI) Act empowers citizens to access information from public authorities, fostering transparency and accountability. Government Engineering College, Patan, adheres to RTI by providing details on admissions, finances, faculty, and facilities upon request. This promotes trust, ensuring fair governance and informed decision-making for students and stakeholders.",
+        "Measures": "To ensure RTI compliance at Government Engineering College, Patan, measures include maintaining an RTI cell, appointing a Public Information Officer (PIO), updating institutional records, providing timely responses to RTI queries, publishing mandatory disclosures on the website, conducting awareness sessions, and ensuring transparency in admissions, finances, and administrative processes.",
+        "Measure_Image": "~/images/CampusCommittee/RTI/rti_measures.jpg",
+        "Vision": [
+            "To promote transparency, accountability, and participatory governance by empowering citizens with the right to access information, fostering a culture of openness and trust within public institutions."
+        ],
+        "Mission": [
+            "To ensure timely and accurate dissemination of information, strengthen public awareness of RTI, and enhance institutional efficiency by upholding the principles of fairness and accountability."
+        ],
+        "SubObjectives": [
+
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/RTI/rti_flyer.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Fostering Trust Through <b>Transparency.”</b></h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. D. K. Patel",
+                "Position": "Converner",
+                "Image": "~/images/Faculty/502.jpg",
+                "Email": "dinesh.patel@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. V. K. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/512.jpg",
+                "Email": "vipul.patel@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            }
+        ]
+    },
+    //SC/ST Committee
+    {
+        "ID": 7,
+        "Title": "SC/ST Committee",
+        "TitleImage": "../../images/CampusCommittee/scst/brain-4245977_1280.jpg",
+        "TitleImageCSSClass": "",
+        "About": "The SC/ST Committee at Government Engineering College, Patan, ensures a supportive, inclusive environment for Scheduled Caste and Scheduled Tribe students. It addresses grievances, offers counseling, promotes awareness of scholarships and opportunities, and implements government policies to foster academic and career growth while safeguarding their rights and well-being.",
+        "Measures": "The SC/ST Committee at Government Engineering College, Patan, ensures grievance redressal, counseling support, and awareness of scholarships and government programs. It implements policies to protect students' rights, fosters career growth through coaching and workshops, and creates an inclusive environment to address socio-economic and educational challenges effectively.",
+        "Measure_Image": "/images/CampusCommittee/scst/about_section.png",
+        "Vision": [
+            "To foster an inclusive and equitable academic environment at Government Engineering College, Patan, where students from Scheduled Castes (SC) and Scheduled Tribes (ST) feel empowered, respected, and supported, enabling them to achieve their full potential and contribute meaningfully to society."
+        ],
+        "Mission": [
+            "To ensure the safety, dignity, and equal opportunities for SC/ST students within the institute.",
+            "To provide timely support through grievance redressal, counseling, and mentorship programs.",
+            "To promote awareness of government policies, scholarships, and career opportunities for holistic development.",
+            "To foster a culture of inclusivity and respect, aligning with constitutional values and institutional goals."
+        ],
+        "SubObjectives": [
+            "Establish a robust mechanism for addressing the grievances of SC/ST students promptly and effectively.",
+            "Offer psychological and emotional support to help students navigate academic and personal challenges.",
+            "Disseminate information about government scholarships, fellowships, and career advancement programs.",
+            "Organize coaching sessions, workshops, and seminars to enhance competitive exam preparedness and employability."
+            //"Ensure adherence to constitutional provisions and government policies for the welfare of SC/ST students.",
+            //"Foster a sense of belonging and inclusivity through cultural and academic initiatives aimed at empowering marginalized students."
+        ],
+        "SubObjImg": "~/images/CampusCommittee/scst/analysis-6232545_640.jpg",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/scst/flyer.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Equality, <b>Enabling Excellence.”</b></h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. B. J. Shah",
+                "Position": "Chairman",
+                "Image": "~/images/Department/Administrative/principal.jpg",
+                "Email": "principal@gecpatan.ac.in"
+            },
+            {
+                "ID": 2,
+                "Name": "Dr. V. C. Makwana",
+                "Position": "Member",
+                "Image": "~/images/Faculty/603.jpg",
+                "Email": "vijay.makwana@gecpatan.ac.in",
+                "Department": "Science & Humanities Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. M. J. Vasava",
+                "Position": "Member",
+                "Image": "~/images/Faculty/211.jpg",
+                //"Image": "~/images/Faculty/Computer/dummy.jpg",
+                "Email": "mehul.vasava@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. M. M. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/104.jpg",
+                "Email": "mihir.patel@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            },
+            {
+                "ID": 5,
+                "Name": "Prof. R. A. Chaudhari",
+                "Position": "Member",
+                "Image": "~/images/Faculty/107.jpg",
+                "Email": "roshni.chaudhari@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            }
+        ]
+    },
+
+    {
+        "ID": 8,
+        "Title": "Student Section",
+        "TitleImage": "",
+        "TitleImageCSSClass": "anti_ragging_title",
+        "About": "The Student Section Committee enhances the student experience by fostering growth, innovation, and collaboration. Through active participation, students develop knowledge, skills, and leadership abilities while contributing to their institution’s progress. It serves as a platform for academic, technical, and extracurricular development, preparing students for future challenges and opportunities.",
+        "Measures": "The Student Section Committee ensures effectiveness through structured measures like leadership training, regular feedback, event evaluations, mentorship programs, industry collaborations, and academic workshops. It promotes inclusivity, transparency, teamwork, and innovation. Performance assessments, student engagement surveys, and strategic planning further enhance its impact, ensuring continuous improvement and institutional growth.",
+        "Measure_Image": "~/images/CampusCommittee/StudentSection/student_section_small.png",
+        "Vision": [
+            "To foster a dynamic and inclusive student community that nurtures leadership, innovation, and holistic development. "
+        ],
+        "Mission": [
+            "To Provide opportunities for students to develop leadership skills through active participation in committee activities.",
+            "To  Balance academic, technical, cultural, and social activities for overall student growth.",
+            "To Conduct regular events, discussions, and interactive sessions to keep students actively involved."
+        ],
+        "SubObjectives": [
+
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“ Empowering Students, Inspiring Growth, <b>Shaping Futures.”</b></h1>",
+        "BlogLink": "https://ssgecpatan.blogspot.com/",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. H. L. Judal",
+                "Position": "Converner",
+                "Image": "~/images/Faculty/102.jpg",
+                "Email": "haresh.judal@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. R. A. Oza",
+                "Position": "Member",
+                "Image": "~/images/Faculty/515.jpg",
+                "Email": "rakesh.oza@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. M. J. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/206.jpg",
+                "Email": "mitul.patel@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Shri. A. B. Darji",
+                "Position": "Member",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "ankit.darji@gecpatan.ac.in",
+                "Department": "Electical Engineering Department"
+            }
+        ]
+    }
+]
+// use below template to add a committee
+
+//{
+//    "ID": 8,
+//    "Title": "",
+//    "TitleImage": "",
+//    "TitleImageCSSClass": "anti_ragging_title",
+//    "About": "",
+//    "Measures": "",
+//    "Measure_Image": "",
+//    "Vision": [
+
+//    ],
+//    "Mission": [
+
+//    ],
+//    "SubObjectives": [
+
+//    ],
+//    "SubObjImg": "",
+//    "BulletPoints": [],
+//    "BulletPointsImg": "",
+//    "PageFlyer": "",
+//    "Tagline": "",
+//    "BlogLink": "",
+//    "Members": [
+//        {
+//            "ID": 1,
+//            "Name": "Prof. R. A. Chaudhari",
+//            "Position": "Converner",
+//            "Image": "~/images/Faculty/207.jpg",
+//            "Email": "roshni.chaudhari@gecpatan.ac.in"
+//        },
+//        {
+//            "ID": 2,
+//            "Name": "Prof. H. Y. Rathod",
+//            "Position": "Member",
+//            "Image": "~/images/Faculty/1000.jpg",
+//            "Email": "hiral.rathod@gecpatan.ac.in"
+//        },
+//        {
+//            "ID": 3,
+//            "Name": "Smt. P. J. Patel",
+//            "Position": "Member",
+//            "Image": "~/images/Faculty/1000.jpg",
+//            "Email": "priyanka.patel@gecpatan.ac.in"
+//        }
+//    ]
+//}

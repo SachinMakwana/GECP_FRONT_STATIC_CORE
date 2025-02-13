@@ -31,7 +31,7 @@ namespace GECP_Front_End_Static.Controllers
             json = webClient.DownloadString(jsonpath);
             PlacementTeamVM = JsonConvert.DeserializeObject<List<PlacementTeamVM>>(json);
 
-            jsonpath = webRootPath + @"\CampusCommittes.json";
+            jsonpath = webRootPath + @"\Data\CampusCommittes\CampusCommittes.json";
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             CampusCommittesVMs = JsonConvert.DeserializeObject<List<CampusCommittesVM>>(json);

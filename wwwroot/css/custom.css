@@ -666,11 +666,15 @@ table.dataTable thead .sorting_desc_disabled:before {
 .newssection li {
     text-align: justify;
     padding: 3px 0 3px 0;
-    border-bottom: 1px solid #d1cbcb;
+    /*border-bottom: 1px solid #d1cbcb;*/
+    margin-bottom: 15px;
 }
 
-    .newssection li a:hover {
+    .newssection li a {
         color: red;
+    }
+    .newssection li a:hover {
+        color: #727272;
     }
 
 .box {
