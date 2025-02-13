@@ -24,9 +24,11 @@ namespace GECP_Front_End_Static.Models
         public List<string> PEOs { get; set; }
         public List<string> PSOs { get; set; }
         public List<TendersVM> DeptAcademicCalender { get; set; }
+
         public List<TendersVM> TimeTable { get; set; }
         public List<Labs> Labs { get; set; }
         public List<NEWSModel> NoticeBoard { get; set; }
+
         public List<FacultyDetailsVM> FacultyList { get; set; } = new List<FacultyDetailsVM>();
     }
 

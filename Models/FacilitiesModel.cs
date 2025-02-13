@@ -50,7 +50,10 @@ namespace GECP_Front_End_Static.Models
 		public List<string> Images { get; set; }
         public string About { get; set; }
         public string Title { get; set; }
-        public bool IsDynamic { get; set;}
+        public string ActionName { get; set; }
+		public string ControllerName { get; set; }
+		public bool IsDynamic { get; set; }
+
     }
 
     public class Student

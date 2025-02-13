@@ -1,4 +1,4 @@
-﻿@model List<MenuVM>
+@model List<MenuVM>
 @{
     var currentController = ViewBag.CurrentController?.ToString();
     var currentAction = ViewBag.CurrentAction?.ToString();
@@ -35,6 +35,14 @@
                                             {
                                                 <li class="">
                                                     <a href="@Url.Action(childItem.ActionName, childItem.ControllerName, new { id = childItem.dynamicID })">
+                                                        @childItem.MenuText
+                                                    </a>
+                                                </li>
+                                            }
+                                            else if (!string.IsNullOrWhiteSpace(childItem.Link))
+                                            {
+                                                <li class="">
+                                                    <a href="@childItem.Link" target="_blank">
                                                         @childItem.MenuText
                                                     </a>
                                                 </li>

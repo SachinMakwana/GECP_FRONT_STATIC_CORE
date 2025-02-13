@@ -60,10 +60,10 @@
       },
       {
         "ID": 27,
-        "MenuText": "Important Documents",
+        "MenuText": "Mandatory Disclosure",
         "ParentID": 2,
         "ControllerName": "Institute",
-        "ActionName": "importantDocuments",
+        "ActionName": "ImportantDocuments",
         "position": 5,
         "isVisible": true,
         "ChildMenuVMs": []
@@ -140,7 +140,29 @@
         "ActionName": "Achievements",
         "position": 3,
         "ChildMenuVMs": []
-      }
+      },
+      {
+        "ID": 34,
+        "MenuText": "Syllabus",
+        "ParentID": 3,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName":"",
+        "position": 4,
+        "isVisible": true,
+        "Link": "https://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE",
+        "ChildMenuVMs": []
+      },
+        {
+            "ID": 35,
+            "MenuText": "Courses And Intake",
+            "ParentID": 3,
+            "dynamicID": null,
+            "ControllerName": "Institute",
+            "ActionName": "AboutUs",
+            "position": 5,
+            "ChildMenuVMs": []
+        }
     ]
   },
   {
@@ -210,7 +232,7 @@
       },
       {
         "ID": 46,
-        "MenuText": "General",
+        "MenuText": "Science And Humanities",
         "ParentID": 4,
         "dynamicID": 6,
         "ControllerName": "Department",
@@ -433,17 +455,6 @@
         "ChildMenuVMs": []
       },
       {
-        "ID": 58,
-        "MenuText": "Student Club",
-        "ParentID": 5,
-        "dynamicID":1,
-        "ControllerName": "Facilities",
-        "ActionName": "StudentClub",
-        "position": 8,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
         "ID": 59,
         "MenuText": "Center Of Excellence",
         "ParentID": 5,
@@ -465,12 +476,11 @@
         "isVisible": true,
         "ChildMenuVMs": []
       }
-
     ]
   },
   {
     "ID": 6,
-    "MenuText": "Placement",
+    "MenuText": "Student Corner",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "",
@@ -478,30 +488,111 @@
     "position": 6,
     "isVisible": true,
     "ChildMenuVMs": [
+
       {
         "ID": 61,
-        "MenuText": "About Placement Cell",
+        "MenuText": "General Rules & Regulations",
         "ParentID": 6,
         "dynamicID": null,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "PlacementCell",
-        "position": 1,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Rules",
+        "position": 11,
         "isVisible": true,
         "ChildMenuVMs": []
       },
       {
         "ID": 62,
-        "MenuText": "Placement Statistics",
+        "MenuText": "Time Table",
         "ParentID": 6,
         "dynamicID": null,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "PlacementStatistics",
-        "position": 2,
+        "ControllerName": "StudentCorner",
+        "ActionName": "TimeTable",
+        "position": 12,
         "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 63,
+        "MenuText": "Enrollment Details",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Enroll",
+        "position": 13,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 58,
+        "MenuText": "Student Club",
+        "ParentID": 5,
+        "dynamicID": 1,
+        "ControllerName": "Facilities",
+        "ActionName": "StudentClub",
+        "position": 14,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 64,
+        "MenuText": "Student Grade History",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "StudentGradeHistory",
+        "position": 15,
+        "isVisible": true,
+        "Link": "https://www.students.gtu.ac.in/Default.aspx",
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 65,
+        "MenuText": "Fees Portal",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Fees",
+        "position": 16,
+        "isVisible": true,
+        "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
         "ChildMenuVMs": []
       }
     ]
   },
+  //{
+  //  "ID": 6,
+  //  "MenuText": "Placement",
+  //  "ParentID": null,
+  //  "dynamicID": null,
+  //  "ControllerName": "",
+  //  "ActionName": "",
+  //  "position": 6,
+  //  "isVisible": true,
+  //  "ChildMenuVMs": [
+  //    {
+  //      "ID": 61,
+  //      "MenuText": "About Placement Cell",
+  //      "ParentID": 6,
+  //      "dynamicID": null,
+  //      "ControllerName": "CampusCommittee",
+  //      "ActionName": "PlacementCell",
+  //      "position": 1,
+  //      "isVisible": true,
+  //      "ChildMenuVMs": []
+  //    },
+  //    {
+  //      "ID": 62,
+  //      "MenuText": "Placement Statistics",
+  //      "ParentID": 6,
+  //      "dynamicID": null,
+  //      "ControllerName": "CampusCommittee",
+  //      "ActionName": "PlacementStatistics",
+  //      "position": 2,
+  //      "isVisible": true,
+  //      "ChildMenuVMs": []
+  //    }
+  //  ]
+  //},
   {
     "ID": 7,
     "MenuText": "Committees",
@@ -592,6 +683,52 @@
     "isVisible": true,
     "ChildMenuVMs": []
   },
+  {
+    "ID": 10,
+    "MenuText": "R&D",
+    "ParentID": null,
+    "ControllerName": "Home",
+    "ActionName": "Index",
+    "position": 9,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 102,
+        "MenuText": "SSIP Documents",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "SSIPDocuments",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 102,
+        "MenuText": "Design Lab",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Research",
+        "ActionName": "DesignLab",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 103,
+        "MenuText": "Research Grants",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "ResearchGrants",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+ 
+
   {
     "ID": 9,
     "MenuText": "Contact",

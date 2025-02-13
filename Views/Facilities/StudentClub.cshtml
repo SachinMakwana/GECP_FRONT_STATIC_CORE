@@ -71,7 +71,14 @@
 				<img src="@Url.Content(factor.Icon)" alt="" class="hieght-150">
 
 				<h5>@factor.Title</h5>
-				<h5><a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@factor))">Read More</a></h5>
+				@if (factor.IsDynamic)
+				{
+					<h5><a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@factor))">Read More</a></h5>
+				}
+				else
+				{
+					<h5><a href="@Url.Action(factor.ActionName,factor.ControllerName)" class="btn btn-success">Read More</a></h5>
+				}
 			</div>
 			@if (count % 4 == 0)
 			{

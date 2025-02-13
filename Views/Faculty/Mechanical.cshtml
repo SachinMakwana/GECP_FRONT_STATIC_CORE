@@ -1,23 +1,11 @@
 ﻿@model IList<GECP_Front_End_Static.Models.FacultyDetailsVM>
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = Context.Request.Query["isPartial"] == "true" ? "~/Views/Shared/_MinimalLayout.cshtml" : "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Mechanical";
     int count = 1;
 }
 
 <div class="clearfix"></div>
-
-
-<div class="page_title3 me_title">
-    <div class="container">
-
-        <h1>
-            Meet Our Team<em>Mechanical, Government Engineering College</em>
-            <div class="line"></div>
-        </h1>
-
-    </div>
-</div>
 
 <div class="margin_top2"></div>
 <div class="featured_section30">
