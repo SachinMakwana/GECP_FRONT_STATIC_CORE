@@ -339,22 +339,30 @@
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Fostering Trust Through <b>Transparency.”</b></h1>",
         "BlogLink": "",
         "Members": [
-            {
-                "ID": 1,
-                "Name": "Dr. D. K. Patel",
-                "Position": "Converner",
-                "Image": "~/images/Faculty/502.jpg",
-                "Email": "dinesh.patel@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. V. K. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/512.jpg",
-                "Email": "vipul.patel@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            }
+          {
+            "ID": 1,
+            "Name": "Dr. B. J. Shah",
+            "Position": "Principal (PRIMARY APPELLATE)",
+            "Image": "~/images/Faculty/701.jpg",
+            "Email": "principal@gecpatan.ac.in",
+            "Department": "Administrative"
+          },
+          {
+            "ID": 1,
+            "Name": "Dr. D. K. Patel",
+            "Position": "Converner",
+            "Image": "~/images/Faculty/502.jpg",
+            "Email": "dinesh.patel@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+          },
+          {
+            "ID": 2,
+            "Name": "Prof. V. K. Patel",
+            "Position": "Member",
+            "Image": "~/images/Faculty/512.jpg",
+            "Email": "vipul.patel@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+          }
         ]
     },
     //SC/ST Committee
