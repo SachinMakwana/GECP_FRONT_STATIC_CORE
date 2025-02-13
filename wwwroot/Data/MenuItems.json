@@ -716,13 +716,24 @@
     "isVisible": true,
     "ChildMenuVMs": [
       {
+        "ID": 59,
+        "MenuText": "Center Of Excellence",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "CenterOfExcellence",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
         "ID": 102,
         "MenuText": "SSIP Documents",
         "ParentID": 10,
         "dynamicID": null,
         "ControllerName": "Academics",
         "ActionName": "SSIPDocuments",
-        "position": 1,
+        "position": 2,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -733,7 +744,7 @@
         "dynamicID": null,
         "ControllerName": "Research",
         "ActionName": "DesignLab",
-        "position": 2,
+        "position": 3,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -744,7 +755,7 @@
         "dynamicID": null,
         "ControllerName": "Academics",
         "ActionName": "ResearchGrants",
-        "position": 3,
+        "position": 4,
         "isVisible": true,
         "ChildMenuVMs": []
       }

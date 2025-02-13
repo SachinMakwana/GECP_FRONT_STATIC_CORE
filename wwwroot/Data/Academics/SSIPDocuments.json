@@ -5,5 +5,33 @@
     "File": "~/AcademicCalender/ODD_Academic_Calendar_2024_25.pdf",
     "UploadDate": "04-12-2024",
     "isShow": true
+  },
+  {
+    "ID": 2,
+    "Title": "Guidelines for IPR Support in SSIP_2.O",
+    "File": "~/AcademicCalender/Guidelines_for_IPR_Support_in_SSIP_2.O.pdf",
+    "UploadDate": "04-12-2024",
+    "isShow": true
+  },
+  {
+    "ID": 3,
+    "Title": "SSIP 2.0 GR",
+    "File": "~/AcademicCalender/SSIP 2.0 GR.pdf",
+    "UploadDate": "04-12-2024",
+    "isShow": true
+  },
+  {
+    "ID": 4,
+    "Title": "FinancialGuideline SSIP2.0",
+    "File": "~/AcademicCalender/FinancialGuideline_SSIP2.0.pdf",
+    "UploadDate": "04-12-2024",
+    "isShow": true
+  },
+  {
+    "ID": 5,
+    "Title": "TRL Explantion",
+    "File": "~/AcademicCalender/TRLExplantion.pdf",
+    "UploadDate": "04-12-2024",
+    "isShow": true
   }
 ]

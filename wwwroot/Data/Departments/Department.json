@@ -138,7 +138,7 @@
                 "LabID": 22,
 
                 "Lab_Image": "~/images/Department/Computer/lab302_-_Sachin_Makwana_optimized.png",
-                "Lab_Name": "LAB-302   LOGIC  PROGRAMMING  LAB",
+                "Lab_Name": "LAB-302 IOT LAB",
                 "Lab_Details": "PC Model- \tACXXEL,  Processor- 11th, Gen Intel® core™ i7-11700, RAM- 8.00 GB RAM, HDD- 1TB, System Type-64 bit operating System, Total PC-15. "
             },
             {
@@ -151,7 +151,7 @@
                 "LabID": 24,
 
                 "Lab_Image": "~/images/Department/Computer/lab311_-_Sachin_Makwana_optimized.png",
-                "Lab_Name": "LAB-311 ",
+                "Lab_Name": "LAB-311  AI LAB",
                 "Lab_Details": "PC Model- \tAcer , Processor-\tAMD Ryzen 7 5700G Radeon Graphics, RAM- \t16 GB, HDD-\t1 TB, System Type-\t64 bit operating System, Total PC-\t20."
 
 
@@ -164,12 +164,12 @@
                 "Lab_Details": "PC Model- \tAcer , Processor-\tAMD Ryzen 7 5700G Radeon Graphics, RAM- \t16 GB, HDD-\t1 TB, System Type-\t64 bit operating System, Total PC-\t20."
 
             },
-            {
-                "LabID": 26,
-                "Lab_Image": "~/images/Department/Computer/lab315_-_Sachin_Makwana_optimized.png",
-                "Lab_Name": "LAB-315 Desktop Configuration",
-                "Lab_Details": "PC Model- \tdell, Processor-\tIntel(R) Core(TM)i7, RAM- \t8.00 GB RAM, HDD-\t1TB HDD, Graphics Card HPZ240 Tower Workstation."
-            }
+          {
+            "LabID": 26,
+            "Lab_Image": "~/images/Department/Computer/lab315_-_Sachin_Makwana_optimized.png",
+            "Lab_Name": "LAB-315 LOGIC  BUILDING  AND  R&D  LAB",
+            "Lab_Details": "PC Model- \tdell, Processor-\tIntel(R) Core(TM)i7, RAM- \t8.00 GB RAM, HDD-\t1TB HDD, Graphics Card HPZ240 Tower Workstation."
+          }
         ],
         "DeptAcademicCalender": [ //tender vm object
             {
