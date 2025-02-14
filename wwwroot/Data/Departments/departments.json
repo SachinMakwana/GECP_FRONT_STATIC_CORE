@@ -117,13 +117,13 @@
         "The ability to decide career paths as an entrepreneur, competent professional, or pursue higher studies using engineering knowledge and modern programming skills. "
     ],
     "Labs": [
-        {
-          "LabID": 21,
+      {
+        "LabID": 21,
 
-          "Lab_Image": "~/images/Department/Computer/lab301_-_Sachin_Makwana_optimized.png",
-          "Lab_Name": "LAB-301 NETWORK LAB",
-          "Lab_Details": "PC Model- \tAcer , Processor-\tAMD Ryzen 7 5700G Radeon Graphics, RAM- \t16 GB, HDD-\t1 TB, System Type-\t64 bit operating System, Total PC-\t20."
-        },
+        "Lab_Image": "~/images/Department/Computer/lab301_-_Sachin_Makwana_optimized.png",
+        "Lab_Name": "LAB-301 NETWORK LAB",
+        "Lab_Details": "<p>PC Model- Acer , Processor- AMD Ryzen 7 5700G Radeon Graphics, RAM- 16 GB, HDD- 1 TB, System Type- 64 bit operating System, Total PC- 20.</p>"
+      },
         {
           "LabID": 22,
 
@@ -258,7 +258,8 @@
         "LabID": 42,
         "Lab_Image": "~/images/Department/Civil/SURVEYING_-_Dr._Manjurali_Balya_600x400.jpg",
         "Lab_Name": "Surveying Lab",
-        "Lab_Details": "The Surveying Laboratory is well-equipped with a diverse range of instruments spanning all three generations of measurement techniques, meeting the needs of various types and complexities of survey work. Surveying is a crucial aspect of civil engineering projects, as precise measurements of lengths and elevations are fundamental to successful construction. The lab features tools ranging from simple metric chains to advanced modern instruments like Total Stations, ensuring comprehensive support for surveying tasks. The available equipment includes Total Stations, theodolites, plane tables, prismatic compasses, open cross-staffs, leveling staffs, surveyor’s compasses, planimeters, optical squares, line rangers, prism squares, and more."
+        "Lab_Details": "<p>The Transportation Engineering Laboratory bridges the gap between theoretical knowledge and practical applications in road design construction quality control and maintenance. It is equipped to perform various tests to ensure the quality of materials used in constructing flexible and rigid pavements including assessments of bitumen aggregates soil and concrete. The lab is furnished with specialized equipment such as Plate Bearing Test apparatus Marshall Stability Test setup impact test machines crushing test apparatus CBR test equipment ductility testing tools abrasion testing machines bitumen extractors and Flash and Fire Point apparatus among others.</p>"
+
       },
       {
         "LabID": 43,

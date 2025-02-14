@@ -105,6 +105,7 @@
 			<div class="two_third last">
 					<p class="card-text text-justify" id="clubAbout"></p>
 			</div>
+			<div class="clearfix"></div>
 			<div id="imagegallery"></div>
 	</div>
 	<!-- </div> -->
@@ -143,6 +144,9 @@
 
 			/* Open popup */
 			$(popup).show();
+
+			/* Remove chidren of imagegallery*/
+			$("#imagegallery").empty();
 
 			/* Close popup if user clicks on background */
 			$(popup).click(function (e) {
