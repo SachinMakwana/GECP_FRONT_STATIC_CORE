@@ -184,22 +184,6 @@
         @if (Model.PEOs != null && Model.PEOs.Any())
         {
 
-<<<<<<< HEAD
-            <div class="stcode_title1 last">
-                <h3><span class="line"></span><span class="text">PROGRAM EDUCATIONAL OUTCOMES (PEOs)</span></h3>
-                <ul class="list-unstyled text-justify">
-                    @{
-                        count = 1;  // Declare count variable inside the block
-                    }
-                    @foreach (var item in Model.PEOs)
-                    {
-                        <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PEO @count: @item</li>
-                        count++; // Increment count properly
-                    }
-                </ul>
-            </div>
-        }
-=======
 			<div class="stcode_title1 last">
 				<h3><span class="line"></span><span class="text">PROGRAM EDUCATIONAL OBJECTIVES (PEOs)</span></h3>
 				<ul class="list-unstyled text-justify">
@@ -214,7 +198,7 @@
 				</ul>
 			</div>
 		}
->>>>>>> c2545f7ee5507a2cd60aad98a611aeb4dec68e23
+
 
         @if (Model.PSOs != null && Model.PSOs.Any())
         {
