@@ -1,0 +1,208 @@
+﻿@model GECP_Front_End_Static.Models.Club
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Model.Title";
+    int count = 1;
+}
+
+<div clss="clearfix"></div>
+
+<div class="page_title3 ssip_title" style="background: #999 url(../../images/ssip_banner.jpg) no-repeat center top;background-size: cover;">
+    <div class="container">
+
+        <h1>
+            @Model.Title
+            <em>Government Engineering College</em>
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>>
+
+<div clss="clearfix margin-bottom6"></div>
+
+<div class="featured_section77">
+    <div class="container">
+        <div class="clearfix margin_bottom4"></div>
+        <div>
+            <div class="one_third text-center">
+                <img src="@Url.Content(Model.Icon)" class="rimg" style="max-height: 275px" />
+            </div>
+            <div class="two_third last">
+                <p class="card-text text-justify">@Model.About</p>
+            </div>
+        </div>
+        <div class="clearfix margin_bottom4"></div>
+
+    </div>
+</div>
+@if (Model.Activities != null && Model.Activities.Count > 0)
+{
+
+    <div class="content_fullwidth less">
+        <div class="featured_section77 two">
+            <div class="container box">
+                <div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
+
+                    <ul>
+
+                        @foreach (var item in Model.Activities)
+                        {
+                            @if (count % 5 != 0)
+                            {
+                                <li class="minheight">
+                                    <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+                                        <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                                        @item.Title
+                                    </a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="minheight last">
+                                    <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+                                        <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                                        @item.Title
+                                    </a>
+                                </li>
+                            }
+                            count++;
+                        }
+                    </ul>
+
+                </div>
+            </div>
+            <div class="clearfix margin_bottom4"></div>
+
+        </div>
+    </div>
+}
+<div class="featured_section30">
+    <div class="container">
+        <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+            Club Members
+        </h1>
+
+        <!-- end section -->
+        @foreach (var member in Model.Members)
+        {
+            @if (count % 2 == 0)
+            {
+                <div class="clearfix margin_top5"></div>
+
+                <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+                    <img src="@Url.Content(member.Image)" alt="">
+                    <h5>@member.Name<em>@member.Position</em></h5>
+                    <p>@member.Department</p>
+                    <p>@member.Email</p>
+                </div>
+            }
+            else
+
+            {
+                <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="400">
+                    <img src="@Url.Content(member.Image)" alt="">
+                    <h5>@member.Name<em>@member.Position</em></h5>
+                    <p>@member.Department</p>
+                    <p>@member.Email</p>
+
+                </div>
+            }
+            count++;
+        }
+    </div>
+</div>
+<div class="clearfix margin_bottom6"></div>
+
+@section scripts {
+    <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+    <script>
+        function loadPdf(path, name) {
+            if (path !== '') {
+                path = path.replace("~", "");
+                if (PDFObject.supportsPDFs) {
+                    PDFObject.embed(path, "#pdfreader");
+                    $("#newsname").text(name);
+                    $("#lnkPopup").click();
+                } else {
+                    window.location.href = path;
+                }
+            }
+        }
+    </script>
+
+
+    <script>
+        function popupOpenClose(popup) {
+
+            /* Add div inside popup for layout if one doesn't exist */
+            if ($(".wrapper", popup).length == 0) {
+                $(popup).wrapInner("<div class='wrapper'></div>");
+            }
+
+            /* Open popup */
+            $(popup).show();
+
+            /* Close popup if user clicks on background */
+            $(popup).click(function (e) {
+                if (e.target == this) {
+                    if ($(popup).is(':visible')) {
+                        $(popup).hide();
+                    }
+                }
+            });
+
+            /* Close popup and remove errors if user clicks on cancel or close buttons */
+            $(popup).find(".popup-btn-close").on("click", function () {
+                if ($(".formElementError").is(':visible')) {
+                    $(".formElementError").remove();
+                }
+                $(popup).hide();
+            });
+        }
+
+        $(document).ready(function () {
+            $(".popup-trigger").on("click", function () {
+                var target = $(this).data('target');
+                popupOpenClose($(target));
+            });
+        });
+    </script>
+}
+
+@section styles {
+    <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")"   />
+
+    <style>
+        .fabig {
+            font-size: 150px;
+            margin: auto;
+            display: block !important;
+        }
+
+        .minheight {
+            min-height: 270px;
+            padding: 20px 15px !important;
+        }
+
+        .box {
+            position: relative;
+            border: 2px solid black;
+            padding: 20px;
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        .box-border-text {
+            position: absolute;
+            top: -12px; /* Adjust to align with the border */
+            left: 50px;
+            transform: translateX(-50%);
+            background: white; /* Match the background to hide border */
+            padding: 0 10px;
+            font-weight: bold;
+        }
+    </style>
+
+}
