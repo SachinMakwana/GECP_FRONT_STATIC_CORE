@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace GECP_Front_End_Static.Models
 {
@@ -47,16 +48,36 @@ namespace GECP_Front_End_Static.Models
     {
         public int ID { get; set; }
         public string Icon { get; set; }
-		public List<string> Images { get; set; }
+        public List<string> Images { get; set; }
         public string About { get; set; }
         public string Title { get; set; }
         public string ActionName { get; set; }
-		public string ControllerName { get; set; }
-		public bool IsDynamic { get; set; }
+        public string ControllerName { get; set; }
+        public bool IsDynamic { get; set; }
+        public List<Members> Members { get; set; }
+        public List<Document11> Activities { get; set; }
 
     }
+    public class Document11
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string File { get; set; }
+        public bool isShow { get; set; }
+        public string FileType { get; set; }
+        public string UploadDate { get; set; }
+    }
 
-    public class Student
+
+    public class Activities
+	{
+		public int SrNo { get; set; }
+		public string EventName { get; set; }
+		public string EventDate { get; set; }
+		public string About { get; set; }
+	}
+
+	public class Student
     {
         public int ID { get; set; }
         public string Title { get; set; }
@@ -71,13 +92,9 @@ namespace GECP_Front_End_Static.Models
         public string Image { get; set; }
         public string Titleimage { get; set; }
         public string TitleImageCSSClass { get; set; }
-        public List<Description> Descriptions { get; set; }
+        public List<string> Descriptions { get; set; }
     }
-        public class Description
-    {
-        public string Point { get; set; }
-
-    }
+    
     public class Library
     {
         public string Title { get; set; }

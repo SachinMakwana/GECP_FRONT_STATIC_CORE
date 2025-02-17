@@ -11,15 +11,48 @@
           "Icon": "../../images/Club/gdgp.jpeg",
           "About": "GDG Patan is a local chapter of Google Developer Groups in Patan, Gujarat, India. It brings together developers to learn about and collaborate on Google technologies like Android, Firebase, and Google Cloud. They organize workshops, meetups, hackathons, and events such as Google I/O Extended. To get involved, you can join their events via Meetup, follow them on social media, or attend their workshops and networking events. It's a great way to connect with like-minded tech enthusiasts and learn from experts!",
           "Title": "GDGP",
-          "ActionName": "",
-          "ControllerName": "",
+          "ActionName": "Description",
+          "ControllerName": "Facilities",
           "Images": [
             "../../images/Club/gdgp.jpeg",
             "../../images/Club/gdgp.jpeg",
             "../../images/ssip_banner.jpg",
             "../../images/ssip_banner.jpg"
           ],
-          "IsDynamic": true
+          "Activities": [
+            {
+              "ID": 1,
+              "Title": "Tentative Academic Calender ODD 2024-2025",
+              "File": "~/AcademicCalender/ODD_Academic_Calendar_2024_25.pdf",
+              "UploadDate": "04-12-2024",
+              "isShow": true
+            },
+            {
+              "ID": 2,
+              "Title": "Guidelines for IPR Support in SSIP_2.O",
+              "File": "~/AcademicCalender/Guidelines_for_IPR_Support_in_SSIP_2.O.pdf",
+              "UploadDate": "04-12-2024",
+              "isShow": true
+            },
+            {
+              "ID": 3,
+              "Title": "SSIP 2.0 GR",
+              "File": "~/AcademicCalender/SSIP 2.0 GR.pdf",
+              "UploadDate": "04-12-2024",
+              "isShow": true
+            }
+          ],
+          "Members": [
+            {
+              "ID": 2,
+              "Name": "Prof. Y.P. Patel",
+              "Position": "Member",
+              "Department": "Computer Science & Engineering",
+              "Image": "~/images/Faculty/Computer/dummy.jpg",
+              "Email": "yogesh.patel.@gecpatan.ac.in"
+            }
+          ],
+          "IsDynamic": false
         },
         {
           "ID": 2,
