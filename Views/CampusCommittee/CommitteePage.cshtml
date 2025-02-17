@@ -1,215 +1,343 @@
 ﻿@model CampusCommittesVM
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = Model.Title;
-    int count = 1;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = Model.Title;
+	int count = 1;
 }
 
 <div class="clearfix"></div>
 
 
 <div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;background-size: cover;">
-    <div class="container">
+	<div class="container">
 
-        <h1>
-            @Model.Title <em>Government Engineering College</em>
-            <div class="line"></div>
-        </h1>
+		<h1>
+			@Model.Title <em>Government Engineering College</em>
+			<div class="line"></div>
+		</h1>
 
-    </div>
+	</div>
 </div>
 <div class="clearfix"></div>
 
+<div class="margin_top10"></div>
 
-<div class="content_fullwidth">
-    <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
-        <div class="full-container">
+<div class="full-container">
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+		@if (Model.Vision != null && Model.Mission != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+		}
+		@if (Model.SubObjectives != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">Sub Objectives</button>
+		}
+		@if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">Procedure</button>
+		}
+		@if (Model.Members != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
+		}
+		@if (Model.Activities != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Activities')">Activities</button>
+		}
+		@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+		{
+			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogspot</button></a>
+		}
 
-            <h2 class="caps">About</h2>
-
-            <br /><br />
-
-            <div class="one_third">
-
-                <h4 class="color3 margin_bottom2">About @Model.Title</h4>
-                <p class="bigtfont text-justify overflowCommittes">
-                    @Html.Raw(Model.About)
-                </p>
-
-
-
-            </div>
-            <!-- end section -->
-
-            <div class="one_third">
-
-                @* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
-                <img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
-
-            </div>
-            <!-- end section -->
-
-            <div class="one_third last ">
-
-                <h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
-
-                <div class="bigtfont text-justify overflowCommittes">
-                    @Html.Raw(Model.Measures)
-                </div>
+	</div>
+	<div id="About" class="tabcontent">
+		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
+			<div class="full-container">
 
 
-            </div>
-            <!-- end section -->
+				<div class="one_third">
 
-        </div>
-    </div>
-</div>
-<div class="margin_top2"></div>
+					@* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
+					<img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
 
-<!-- end featured section 55 -->
-@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
-{
-    <div class="arrowdown_box">
-    <div class="full-container">
+				</div>
+				<div class="two_third last">
 
-        <h2 class="white">
-            <p>Link For Blogspot:</p>
-                <a href="@Model.BlogLink">@Model.BlogLink</a>
-        </h2>
+					<h4 class="color3 margin_bottom2">About @Model.Title</h4>
+					<p class="bigtfont text-justify overflowCommittes">
+						@Html.Raw(Model.About)
+					</p>
+					<div class="clearfix margin_top3"></div>
+					<h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
 
-    </div>
-</div>
-<div class="clearfix"></div>
-}
-@if (Model.SubObjectives.Count() > 0)
-{
-    <div class="featured_section106">
-        <div class="full-container">
-            <div class="margin_top2"></div>
-            <div class="onecol_sixty animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200">
+					<div class="bigtfont text-justify overflowCommittes">
+						@Html.Raw(Model.Measures)
+					</div>
+
+				</div>
+				<!-- end section -->
 
 
-                <img src="@Url.Content(Model.SubObjImg)" alt="" class="img_left rimg" />
+			</div>
+		</div>
+	</div>
+	<div id="VisionMission" class="tabcontent">
+		<div class="featured_section14">
+			<div class="full-container">
 
-            </div><!-- end section -->
+				<div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
 
-            <div class="onecol_forty last">
+					<img src="@Url.Content("~/images/vision.png")" alt="" />
+					<br /><br />
+					<h3 class="white">Vision</h3>
 
-                <h2 class="roboto thin">Sub-Objectives </h2>
-                <div class="hsmline7"></div>
-
-                <br><br>
-                @foreach (var obj in Model.SubObjectives)
-                {
-                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @obj</h4>
-                }
-                <br>
-            </div><!-- end section -->
-            <div class="margin_top2"></div>
-
-
-        </div>
-    </div>
-}
-<div class="featured_section14">
-    <div class="full-container">
-
-        <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
-
-            <img src="@Url.Content("~/images/vision.png")" alt="" />
-            <br /><br />
-            <h3 class="white">Vision</h3>
-
-            <ul class="text-justify">
-                @foreach (var item in Model.Vision)
-                {
-                    <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-                }
-            </ul>
-            <br /><br />
+					<ul class="text-justify">
+						@foreach (var item in Model.Vision)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+						}
+					</ul>
+					<br /><br />
 
 
-        </div>
-        <!-- end section -->
+				</div>
+				<!-- end section -->
 
-        <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+				<div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
-            <img src="@Url.Content("~/images/mission.png")" alt="" />
-            <br /><br />
-            <h3 class="white">Mission</h3>
+					<img src="@Url.Content("~/images/mission.png")" alt="" />
+					<br /><br />
+					<h3 class="white">Mission</h3>
 
-            <ul class="text-justify">
-                @foreach (var item in Model.Mission)
-                {
-                    <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-                }
-            </ul>
-            <br /><br />
+					<ul class="text-justify">
+						@foreach (var item in Model.Mission)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+						}
+					</ul>
+					<br /><br />
 
 
-        </div>
-        <!-- end section -->
+				</div>
+				<!-- end section -->
 
-    </div>
-</div>
-@if (Model.Members.Count() > 0)
-{
-    <div class="clearfix margin_bottom6"></div>
-    <div class="featured_section30">
-        <div class="full-container">
-            <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-                Committee Members
-            </h1>
-            @foreach (var item in Model.Members)
-            {
-                if (count % 2 == 0)
-                {
-                    <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300" style="border-left:1px solid rgba(255, 255, 255, 0.1)">
+			</div>
+		</div>
+	</div>
+	<div id="SubObjectives" class="tabcontent">
+		<div class="featured_section106">
+			<div class="full-container">
+				<div class="margin_top2"></div>
+				<div class="onecol_sixty animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200">
 
-                        <img src="@Url.Content(item.Image)" alt="">
-                        <h5>@item.Name <em>@item.Position</em></h5>
-                        <p>@item.Department</p>
-                        <p>@item.Email</p>
-                        @*  <br>
+
+					<img src="@Url.Content(Model.SubObjImg)" alt="" class="img_left rimg" />
+
+				</div><!-- end section -->
+
+				<div class="onecol_forty last">
+
+					<h2 class="roboto thin">Sub-Objectives </h2>
+					<div class="hsmline7"></div>
+
+					<br><br>
+					@foreach (var obj in Model.SubObjectives)
+					{
+						<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @obj</h4>
+					}
+					<br>
+				</div><!-- end section -->
+				<div class="margin_top2"></div>
+
+
+			</div>
+		</div>
+	</div>
+	<div id="Members" class="tabcontent">
+		<div class="featured_section30">
+			<div class="full-container">
+				<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+					Committee Members
+				</h1>
+				@foreach (var item in Model.Members)
+				{
+					if (count % 2 == 0)
+					{
+						<div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300" style="border-left:1px solid rgba(255, 255, 255, 0.1)">
+
+							<img src="@Url.Content(item.Image)" alt="">
+							<h5>@item.Name <em>@item.Position</em></h5>
+							<p>@item.Department</p>
+							<p>@item.Email</p>
+							@*  <br>
             <a href="#" class="button four">Read More</a> *@
-                    </div>
+						</div>
 
-                    <!-- end section -->
+						<!-- end section -->
 
-                    <div class="clearfix margin_top5"></div>
-                }
-                else
-                {
-                    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
+						<div class="clearfix margin_top5"></div>
+					}
+					else
+					{
+						<div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
 
-                        <img src="@Url.Content(item.Image)" alt="">
-                        <h5>@item.Name <em>@item.Position</em></h5>
-                        <p>@item.Department</p>
-                        <p>@item.Email</p>
-                        @*  <br>
+							<img src="@Url.Content(item.Image)" alt="">
+							<h5>@item.Name <em>@item.Position</em></h5>
+							<p>@item.Department</p>
+							<p>@item.Email</p>
+							@*  <br>
             <a href="#" class="button four">Read More</a> *@
-                    </div>
+						</div>
 
-                    <!-- end section -->
-                }
-                count++;
-            }
-        </div>
-    </div>
-    <div class="clearfix margin_bottom6"></div>
-}
-<!-- end parallax section 10 -->
-@* <div class="clearfix margin_bottom6"></div> *@
+						<!-- end section -->
+					}
+					count++;
+				}
+			</div>
+		</div>
+	</div>
+	<div id="BulletPoints" class="tabcontent"></div>
+	<div id="Activities" class="tabcontent">
+		@if (Model.Activities != null && Model.Activities.Count() > 0)
+		{
+			foreach (var item in Model.Activities)
+			{
+				<div class="box">
+					<h2 class="boxtitle">@item.Title</h2>
+					<div class="boxinfo">
+						<ul class="post_meta_links">
+							<li class="post_categoty">@item.EventDate</li>
+							<li class="post_categoty">@item.EventTime</li>
+						</ul>
+						@item.Description
+					</div>
+					<div class="clearfix margin_top1"></div>
+					<ul class="Activitesfile">
+						@foreach (var file in item.Files)
+						{
 
-<div class="content_fullwidth" style="padding: 0 !important">
-    <img src="@Url.Content(Model.PageFlyer)" class="rimg" alt="" />
+							<li>
+								@if (file.FileType.ToUpper() == "PDF")
+								{
+									<a href="javascript:void(0)" onclick="loadPdf('@file.FilePath','@file.Title')">
+										<i class="fa fa-file-pdf-o " aria-hidden="true"></i>
+										@file.Title
+									</a>
+								}
+								else
+								{
+									<a href="@Url.Content(file.FilePath)" target="_blank" download>
+										<i class="fa @(file.FileType.ToUpper()=="WORD"?"fa-file-word-o":"fa-file-excel-o")" aria-hidden="true"></i>
+										@file.Title
+									</a>
+								}
+							</li>
+						}
+
+					</ul>
+				</div>
+				<div class="clearfix margin_bottom1"></div>
+			}
+		}
+		else
+		{
+			<h2>No Activities Available</h2>
+		}
+	</div>
 </div>
-<div class="clearfix" style="background: #5076bb !important"></div>
+
+
+
+
 @if (!string.IsNullOrWhiteSpace(Model.Tagline))
 {
-    <div class="featured_section38">
-        <div class="full-container">
-            @Html.Raw(Model.Tagline)
-        </div>
-    </div>
+	<div class="featured_section38">
+		<div class="full-container">
+			@Html.Raw(Model.Tagline)
+		</div>
+	</div>
+}
+
+<a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+<div id="popup" class="popup">
+	<div id="pdfreader" style="height:600px">
+	</div>
+	<span class="popup-btn-close">&times;</span>
+</div>
+
+@section scripts {
+	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+	<script>
+		function loadFacultyinfo(url) {
+				if (url !== '') {
+						$("#pdfreader").load(url);
+						$("#lnkPopup").click();
+				}
+			}
+
+				function loadPdf(path, name) {
+				if (path !== '') {
+					path = path.replace("~", "");
+					if (PDFObject.supportsPDFs) {
+						PDFObject.embed(path, "#pdfreader");
+						$("#newsname").text(name);
+						$("#lnkPopup").click();
+					} else {
+						window.location.href = path;
+					}
+				}
+			}
+			function popupOpenClose(popup) {
+
+			/* Add div inside popup for layout if one doesn't exist */
+				if ($(".wrapper", popup).length == 0) {
+					$(popup).wrapInner("<div class='wrapper'></div>");
+				}
+			/* Open popup */
+				$(popup).show();
+			/* Close popup if user clicks on background */
+				$(popup).click(function (e) {
+					if (e.target == this) {
+						if ($(popup).is(':visible')) {
+							$(popup).hide();
+							resetPopUpScroll();
+						}
+					}
+				});
+			/* Close popup and remove errors if user clicks on cancel or close buttons */
+				$(popup).find(".popup-btn-close").on("click", function () {
+					if ($(".formElementError").is(':visible')) {
+						$(".formElementError").remove();
+					}
+					$(popup).hide();
+					resetPopUpScroll();
+				});
+			}
+
+			$(document).ready(function () {
+				$(".popup-trigger").on("click", function () {
+					var target = $(this).data('target');
+					popupOpenClose($(target));
+					resetPopUpScroll();
+				});
+			});
+
+		function resetPopUpScroll(){
+			$("#pdfreader").scrollTop(0);
+		}
+	</script>
+}
+
+
+@section styles {
+	<style>
+		.Activitesfile > li {
+			display: block;
+			margin: auto;
+			float: left;
+			margin-right: 15px;
+		}
+	</style>
+	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
 }
