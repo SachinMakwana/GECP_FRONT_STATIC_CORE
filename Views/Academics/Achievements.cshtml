@@ -1,97 +1,131 @@
 ﻿@model List<GECP_Front_End_Static.Models.AchievementsVM>
 @{
-	Layout = "~/Views/Shared/_Layout.cshtml";
-	ViewBag.Title = "Achievements";
-	int count = 1;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Achievements";
+    int count = 1;
 }
 <div class="page_title3 placement_title">
-	<div class="container">
+    <div class="container">
 
-		<h1>
-			<br> Achievements<em>Government Engineering College</em>
-			<div class="line"></div>
-			<br>
-		</h1>
+        <h1>
+            <br> Achievements<em>Government Engineering College</em>
+            <div class="line"></div>
+            <br>
+        </h1>
 
-	</div>
+    </div>
 </div>
 <div class="margin_top10"></div>
 
-<div class="full-container">
-	<div class="tab">
-		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">All</button>
-	</div>
-	<div id="About" class="tabcontent">
-	
+<div class="works01">
+    <div class="container">
 
-			@foreach (var item in Model)
-			{
-				<div class="one_third box @(count%3==0?"last":"")">
-					<div class="blog_post">
-						<div class="blog_postcontent">
-							<div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt=""></a></div>
-							<h3>@Html.Raw(item.Title)</h3>
-							<ul class="post_meta_links">
-								<li><a href="#" class="date">@item.Date</a></li>
-								@if (!string.IsNullOrWhiteSpace(item.Keywords))
-								{
-									foreach (string key in item.Keywords.Split(','))
-									{
-										<li class="post_categoty">@key</li>
-									}
-								}
-							</ul>
-							<div class="clearfix"></div>
-							<div class="margin_top1"></div>
-							<p class="text-justify">@item.Description</p>
+        <div id="filters-container" class="cbp-l-filters-button">
+            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                All
+                <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".CSE" class="cbp-filter-item">
+                CSE
+                <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".NSS" class="cbp-filter-item">
+                NSS
+                <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".Electrical" class="cbp-filter-item">
+                Electrical
+                <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".Yoddhha" class="cbp-filter-item">
+                Yoddhha
+                <div class="cbp-filter-counter"></div>
+            </div>
+            @*<div data-filter=".identity" class="cbp-filter-item">
+            woman councelling session
+            <div class="cbp-filter-counter"></div>
+            </div>
+            <div data-filter=".web-design" class="cbp-filter-item">
+            NSS Activities
+            <div class="cbp-filter-counter"></div>
+            </div>
 
-						</div>
-					</div>
+            <div data-filter=".logos" class="cbp-filter-item">
+            tree plantation
+            <div class="cbp-filter-counter"></div>
+            </div>
 
-				</div>
-				@if(count%3==0){
-							<div class="clearfix margin_bottom3"></div>
-				}
-				count++;
+            <div data-filter=".media" class="cbp-filter-item">
+            media support
+            <div class="cbp-filter-counter"></div>
+            </div>*@
 
-			}
+        </div>
 
 
-	</div>
+        <div id="grid-container" class="cbp-l-grid-fullWidth">
+            @foreach (var item in Model)
+            {
+                <div class="cbp-item @foreach (string key in item.Keywords.Split(',')){
+            @key
+ }">
+                    <div class="box">
+                        <div class="cbp-caption">
+                            <div class="cbp-caption-defaultWrap">
+                                <div class="blog_post">
+                                    <div class="blog_postcontent">
+                                        <div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt=""></a></div>
+                                        <h3>@Html.Raw(item.Title)</h3>
+                                        <ul class="post_meta_links">
+                                            <li><a href="#" class="date">@item.Date</a></li>
+                                            @if (!string.IsNullOrWhiteSpace(item.Keywords))
+                                            {
+                                                foreach (string key in item.Keywords.Split(','))
+                                                {
+                                                    <li class="post_categoty">@key</li>
+                                                }
+                                            }
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                        <div class="margin_top1"></div>
+                                        <p class="text-justify">@item.Description</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            @*<div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h4>campus</h4>
+                        <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
+                        <a href="~/images/gallary/campus11.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
+                        </div>
+                        </div>
+                        </div>*@
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+        <!--<div class="cbp-l-loadMore-text">
+            <div data-href="ajax/loadMore.html" class="cbp-l-loadMore-text-link">LOADING...</div>
+        </div>-->
+
+
+    </div>
 </div>
+<!-- end works section -->
 
-<div class="clearfix"></div>
 
-@section scripts {
-	<script>
-		(function ($) {
-			"use strict";
+<div class="clearfix margin_top2"></div>
 
-			jQuery(document).ready(function ($) {
-				var $timeline_block = $('.cd-timeline-block');
-
-				//hide timeline blocks which are outside the viewport
-				$timeline_block.each(function () {
-					if ($(this).offset().top > $(window).scrollTop() + $(window).height() * 0.75) {
-						$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
-					}
-				});
-
-				//on scolling, show/animate timeline blocks when enter the viewport
-				$(window).on('scroll', function () {
-					$timeline_block.each(function () {
-						if ($(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden')) {
-							$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
-						}
-					});
-				});
-			});
-
-		})(jQuery);
-	</script>
+@section tabs {
+    <script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/main32.js")"></script>
 }
 
 @section styles {
-	<!-- timeline -->
-	<link rel="stylesheet" href="@Url.Content("~/js/timeline/timeline.css")">
+    <!-- timeline -->
+    <link rel="stylesheet" href="@Url.Content("~/js/timeline/timeline.css")">
 }

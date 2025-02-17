@@ -4,9 +4,14 @@
     ViewBag.Title = Model.Title;
     int count = 1;
 }
+<style>
+.margin_top41{
+        width: 100%;
+        margin-top: 40px;
+    }
 
-
-
+}
+</style>
 <div class="clearfix"></div>
 
 
@@ -252,7 +257,7 @@
             count = 1;
 
 
-            <div class="margin_top4"></div>
+           
            
             @foreach (var data in Model.FacultyList)
             {
@@ -260,8 +265,8 @@
                 {
                     @if(count==1)
                     {
-                        <div>
-                            <h3>Teaching Staff</h3>
+                        <div class="boxdetails" >
+                            <h3 class="boxtitle" style="font-size:2rem">Teaching Staff</h3>
                             <div class="line"></div>
                         </div>
                     }
@@ -321,7 +326,7 @@
 
             }
             <div class="clearfix"></div>
-            <div class="margin_top4"></div>
+            <div class="margin_top41"></div>
             
                 count = 1;
             
@@ -333,8 +338,8 @@
                 {
                     @if(count==1)
                     {
-                        <div>
-                            <h3>Non-Teaching Staff</h3>
+                        <div class="boxdetails">
+                            <h3 class="boxtitle" style="font-size:2rem">Non-Teaching Staff</h3>
                             <div class="line"></div>
                         </div>
                     }
