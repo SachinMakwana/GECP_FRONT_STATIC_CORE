@@ -274,18 +274,7 @@
                         <div class="faculties_img_div">
                             <img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
 
-                            @{
-                                bool hasData = (data.ProfessionalExperiences != null && data.ProfessionalExperiences.Any()) ||
-                                (data.EducationalQualifications != null && data.EducationalQualifications.Any()) ||
-                                (data.TrainingAndWorkshops != null && data.TrainingAndWorkshops.Any()) ||
-                                (data.Publications != null && data.Publications.Any());
-                            }
-                            @if (hasData)
-                            {
-                                <a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">
-                                    <i class="fas fa-external-link-square-alt"></i>
-                                </a>
-                            }
+                            
                         </div>
                         <div class="b-portfolio_info col-sm-6">
                             <div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
@@ -299,19 +288,33 @@
                                         {
                                             <li><strong>Designation:</strong> @data.Designation</li>
                                         }
-                                        @if (!string.IsNullOrEmpty(data.Qualification))
+                                        @*if (!string.IsNullOrEmpty(data.Qualification))
                                         {
                                             <li><strong>Qualification:</strong> @data.Qualification</li>
                                         }
                                         @if (data.YearsOfExperience > 0)
                                         {
                                             <li><strong>Experience:</strong> @data.YearsOfExperience Years</li>
-                                        }
+                                        }*@
                                         @if (!string.IsNullOrEmpty(data.Area_of_Interest))
                                         {
                                             <li><strong>Area Of Interest:</strong> @data.Area_of_Interest</li>
                                         }
                                     </ul>
+                                    @{
+                                        bool hasData = (data.ProfessionalExperiences != null && data.ProfessionalExperiences.Any()) ||
+                                        (data.EducationalQualifications != null && data.EducationalQualifications.Any()) ||
+                                        (data.TrainingAndWorkshops != null && data.TrainingAndWorkshops.Any()) ||
+                                        (data.Publications != null && data.Publications.Any());
+                                    }
+                                    @if (hasData)
+                                    {
+                                        <div class="read-more-container">
+                                            <a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="read-more-button">
+                                                KNOW MORE
+                                            </a>
+                                        </div>
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -346,19 +349,7 @@
                     <div class="one_half @(count % 2 % 2 == 0 ? " last" : "" ) animate" data-anim-type="fadeIn" data-anim-delay="300">
                         <div class="faculties_img_div">
                             <img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
-
-                            @{
-                                bool hasData = (data.ProfessionalExperiences != null && data.ProfessionalExperiences.Any()) ||
-                                (data.EducationalQualifications != null && data.EducationalQualifications.Any()) ||
-                                (data.TrainingAndWorkshops != null && data.TrainingAndWorkshops.Any()) ||
-                                (data.Publications != null && data.Publications.Any());
-                            }
-                            @if (hasData)
-                            {
-                                <a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">
-                                    <i class="fas fa-external-link-square-alt"></i>
-                                </a>
-                            }
+                                      
                         </div>
                         <div class="b-portfolio_info col-sm-6">
                             <div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
@@ -385,6 +376,8 @@
                                             <li><strong>Area Of Interest:</strong> @data.Area_of_Interest</li>
                                         }
                                     </ul>
+                                   
+
                                 </div>
                             </div>
                         </div>
@@ -638,6 +631,27 @@
             max-height: 600px;
             overflow-y: scroll;
             scrollbar-width: thin;
+        }
+
+        .read-more-container {
+            margin-top: 15px;
+        }
+
+        .read-more-button {
+            display: inline-block;
+            background-color: #5076bb;
+            color: white !important;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .read-more-button:hover {
+            background-color: #0056b3;
         }
 
     </style>
