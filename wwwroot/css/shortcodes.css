@@ -775,7 +775,7 @@
 }
 
 .stcode_title4 .line {
-    background: #9eca45;
+    background: #5076bb;
     position: absolute;
     height: 2px;
     display: block;
@@ -804,15 +804,6 @@
 }
 
 .stcode_title5 .line {
-    background: #9eca45;
-    position: absolute;
-    height: 3px;
-    display: block;
-    bottom: 0px;
-    width: 100px;
-}
-
-.stcode_title5 .line2 {
     background: #000;
     border-top: solid 1px #e3e3e3;
     position: absolute;
