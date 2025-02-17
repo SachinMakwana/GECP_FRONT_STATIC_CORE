@@ -136,85 +136,72 @@
 
 	</div>
 	<div id="VisionMission" class="tabcontent">
-		<div class="featured_section14">
-			<div class="full-container">
+		<div class="featured_section106" style="background-color:white">
+			<div style="padding-left:10px;">
 
-				<div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+				<div class="margin_top2"></div>
+				<h2 class="roboto thin">Vision </h2>
+				<div class="hsmline7"></div>
 
-					<img src="@Url.Content("~/images/vision.png")" alt="" />
-					<br /><br />
-					<h3 class="white">Vision</h3>
+				<br><br>
+				@foreach (var obj in Model.Vision)
+				{
+					<h4 class="roboto thin text-justify"> @obj</h4>
+				}
 
-					<ul class="text-justify">
-						@foreach (var item in Model.Vision)
-						{
-							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-						}
-					</ul>
-					<br /><br />
+				<div class="clearfix margin_top2"></div>
 
+				<div class="margin_top2"></div>
+				<h2 class="roboto thin">Mission </h2>
+				<div class="hsmline7"></div>
 
-				</div>
-				<!-- end section -->
+				<br><br>
+				@foreach (var obj in Model.Mission)
+				{
+					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+				}
 
-				<div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
-
-					<img src="@Url.Content("~/images/mission.png")" alt="" />
-					<br /><br />
-					<h3 class="white">Mission</h3>
-
-					<ul class="text-justify">
-						@foreach (var item in Model.Mission)
-						{
-							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-						}
-					</ul>
-					<br /><br />
-
-
-				</div>
-				<!-- end section -->
+				<div class="margin_top2"></div>
 
 			</div>
 		</div>
-		<!-- end featured section 14 -->
-
 	</div>
 	<div id="PeoPso" class="tabcontent">
 		@if (Model.PEOs != null && Model.PEOs.Any())
 		{
+			<div class="featured_section106" style="background-color:white">
+				<div style="padding-left:10px;">
 
-			<div class="stcode_title1 last">
-				<h3><span class="line"></span><span class="text">PROGRAM EDUCATIONAL OUTCOMES (PEOs)</span></h3>
-				<ul class="list-unstyled text-justify">
-					@{
-						count = 1;  // Declare count variable inside the block
-					}
-					@foreach (var item in Model.PEOs)
+					<div class="margin_top2"></div>
+					<h2 class="roboto thin">PROGRAM EDUCATIONAL OBJECTIVES (PEOs) </h2>
+					<div class="hsmline7"></div>
+
+					<br><br>
+					@foreach (var obj in Model.PEOs)
 					{
-						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PEO @count: @item</li>
-						count++; // Increment count properly
+						<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @obj</h4>
 					}
-				</ul>
+
+					<div class="clearfix margin_top2"></div>
+
+					<div class="margin_top2"></div>
+					<h2 class="roboto thin">PROGRAM SPECIFIC OUTCOMES (PSOs) </h2>
+					<div class="hsmline7"></div>
+
+					<br><br>
+					@foreach (var obj in Model.PSOs)
+					{
+						<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+					}
+
+					<div class="margin_top2"></div>
+
+				</div>
 			</div>
+
+		
 		}
 
-		@if (Model.PSOs != null && Model.PSOs.Any())
-		{
-			<div class="stcode_title1 ">
-				<h3><span class="line"></span><span class="text">PROGRAM SPECIFIC OUTCOMES (PSOs)</span></h3>
-				<ul class="list-unstyled text-justify">
-					@{
-						count = 1;  // Declare count variable inside the block again
-					}
-					@foreach (var item in Model.PSOs)
-					{
-						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PSO @count: @item</li>
-						count++; // Increment count properly
-					}
-				</ul>
-			</div>
-		}
 	</div>
 	<div id="Labs" class="tabcontent">
 		@if (Model.Labs != null)
