@@ -12,7 +12,7 @@
         public string Dept { get; set; }
         public int DeptID {  get; set; }
         public string Keywords {  get; set; }
-        public int Year {  get; set; }
+        public string Year {  get; set; }
     }
     public class AcademicCalendersVM
     {

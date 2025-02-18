@@ -1,0 +1,164 @@
+﻿{
+  "ID": 1,
+  "Title": "Student Club",
+  "Titleimage": "../../images/ssip_banner.jpg",
+  "TitleImageCSSClass": "ssip_title",
+  "Clubs": [
+    {
+      "ID": 1,
+      "Icon": "../../images/Club/gdgp.jpeg",
+      "About": "GDG Patan is a local chapter of Google Developer Groups in Patan, Gujarat, India. It brings together developers to learn about and collaborate on Google technologies like Android, Firebase, and Google Cloud. They organize workshops, meetups, hackathons, and events such as Google I/O Extended. To get involved, you can join their events via Meetup, follow them on social media, or attend their workshops and networking events. It's a great way to connect with like-minded tech enthusiasts and learn from experts!",
+      "Title": "GDGP",
+      "ActionName": "ClubDetails",
+      "ControllerName": "StudentCorner",
+      "SubObjectives": [
+        "Encourage Innovation: Promote a culture of creative thinking and problem-solving among students.",
+        "Support Startups: Facilitate student-led startups by providing mentorship, funding, and resources.",
+        "Bridge Academia and Industry: Connect with industries to ensure practical exposure and project validation.",
+        "Enable Prototyping: Support students in developing prototypes and proof-of-concept models.",
+        "Promote Skill Development: Conduct training sessions to enhance entrepreneurial and technical skills.",
+        "Raise Awareness: Educate students about intellectual property rights and commercialization opportunities.",
+        "Encourage Participation: Motivate students to engage in state, national, and international innovation competitions and exhibitions."
+      ],
+      "BlogLink": "http://nssgecpatan.blogspot.com/",
+      "Images": [
+        "../../images/Club/gdgp.jpeg",
+        "../../images/Club/gdgp.jpeg",
+        "../../images/ssip_banner.jpg",
+        "../../images/ssip_banner.jpg"
+      ],
+
+      "Members": [
+        {
+          "ID": 1,
+          "Name": "Dr. H. N. Panchal",
+          "Position": "Converner",
+          "Department": "Mechanical Engineering Department",
+          "Image": "~/images/Faculty/519.jpg",
+          "Email": "hitesh.panchal@gecpatan.ac.in"
+        },
+        {
+          "ID": 2,
+          "Name": "Prof. H. L. Chaudhari",
+          "Position": "Converner",
+          "Department": "Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/214.jpg",
+          "Email": "harshad.chaudhary@gecpatan.ac.in"
+        },
+        {
+          "ID": 3,
+          "Name": "Prof. M. I. Baliya",
+          "Position": "Member",
+          "Department": "Civil Engineering Department",
+          "Image": "~/images/Faculty/1000.jpg",
+          "Email": "manjurali.baliya@gecpatan.ac.in"
+        },
+        {
+          "ID": 4,
+          "Name": "Dr. P. D. Patel",
+          "Position": "Member",
+          "Department": "Electrical Engineering Department",
+          "Image": "~/images/Faculty/306.jpg",
+          "Email": "pravin.patel@gecpatan.ac.in"
+        },
+        {
+          "ID": 5,
+          "Name": "Dr. M. B. Patel",
+          "Position": "Member",
+          "Department": "Electronics & Communication Engineering Department",
+          "Image": "~/images/Faculty/108.jpg",
+          "Email": "maulik.patel@gecpatan.ac.in"
+        },
+        {
+          "ID": 6,
+          "Name": "Prof. M. J. Vasava",
+          "Position": "Member",
+          "Department": "Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/211.jpg",
+          "Email": "mehul.vasava@gecpatan.ac.in"
+        }
+      ],
+      "Activities": [
+        {
+          "ID": 1,
+          "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
+          "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+          "EventDate": "",
+          "EventTime": "",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Placement Activities",
+              "FileType": "PDF",
+              "FilePath": "~/PlacementCell/ActivityPoster.pdf"
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Title": "Career Guidance Seminar",
+          "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+          "EventDate": "13/02/2025",
+          "EventTime": "10:30 AM to 12:30 PM",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Career Guidance Seminar",
+              "FileType": "PDF",
+              "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+            },
+            {
+              "ID": 2,
+              "Title": "Career Guidance Seminar",
+              "FileType": "Word",
+              "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+            }
+          ]
+        }
+      ],
+      "IsDynamic": false
+    },
+    {
+      "ID": 2,
+      "Icon": "../../images/Club/codehives.jpeg",
+      "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
+      "Title": "Code Hives",
+      "ActionName": "",
+      "ControllerName": "",
+      "SubObjectives": [],
+      "BlogLink": "",
+      "Images": [],
+      "Activities": [],
+      "IsDynamic": true
+    },
+    {
+      "ID": 3,
+      "Icon": "../../images/Club/animfx.jpeg",
+      "About": "AnimFX Club is a community focused on animation and visual effects (VFX). It offers workshops, collaborative projects, and networking opportunities for members interested in animation, 3D modeling, and VFX. It's a great place to learn, create, and connect with others in the field",
+      "Title": "AnimFx",
+      "ActionName": "",
+      "ControllerName": "",
+      "SubObjectives": [],
+      "BlogLink": "",
+      "Images": [],
+      "Activities": [],
+      "IsDynamic": true
+    },
+    {
+      "ID": 4,
+      "Icon": "../../images/Club/algozenith.jpeg",
+      "About": "AlgoZenith Club is a community focused on competitive programming and algorithms. It offers coding competitions, workshops, and collaborative learning opportunities to help members improve their problem-solving skills.",
+      "Title": "AlgoZenith",
+      "ActionName": "",
+      "ControllerName": "",
+      "SubObjectives": [],
+      "BlogLink": "",
+      "Images": [],
+      "Activities": [],
+      "IsDynamic": true
+    }
+  ]
+
+
+
+}

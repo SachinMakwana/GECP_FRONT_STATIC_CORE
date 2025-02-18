@@ -1,0 +1,68 @@
+{
+  "ID": 1,
+  "Title": "Central Facility",
+  "Titleimage": "../../images/ssip_banner.jpg",
+  "TitleImageCSSClass": "ssip_title",
+  "Clubs": [
+    {
+      "ID": 1,
+      "Icon": "../../images/tpo.jpeg",
+      "About": "The Placement Cell in GEC Patan has been operational with the dual objective of imparting preparatory coaching to students and liaison with the industry to arrange campus selection. The cell has dedicated resources like TPO Office, Group Discussion room and Interview cabins for facilitating various activities related to training the students for placements. It is a prime resource for nurturing industry academia linkage.",
+      "Title": "Placement Cell",
+      "ActionName": "",
+      "ControllerName": "",
+      "Images": [],
+      "IsDynamic": true
+    },
+    {
+      "ID": 2,
+      "Icon": "../../images/workshop.png",
+      "About": "The Workshop offers hands-on experience for students in the Mechanical Engineering Department. Students learn machining, welding, and fabrication using tools like lathe machines, drilling machines, and welding stations. These workshops help students apply theoretical knowledge in real-world scenarios, developing practical skills for future careers in mechanical engineering. It fosters innovation, problem-solving, and teamwork.",
+      "Title": "Workshop",
+      "ActionName": "",
+      "ControllerName": "",
+      "Images": [],
+      "IsDynamic": true
+    },
+    {
+      "ID": 3,
+      "Icon": "../../images/auditorium.png",
+      "About": "The auditorium is a large venue used for academic, cultural, and extracurricular events. It hosts activities like guest lectures, seminars, cultural performances, and student presentations, with a design that ensures good acoustics and a clear view for all attendees",
+      "Title": "Aditorium",
+      "ActionName": "",
+      "ControllerName": "",
+      "Images": [],
+      "IsDynamic": true
+    },
+    {
+      "ID": 4,
+      "Icon": "../../images/canteen.png",
+      "About": "The canteen serves as a convenient spot for students, faculty, and staff to grab meals and snacks. It offers a variety of food options, including snacks, lunch, and beverages, catering to different tastes. The canteen provides an affordable and hygienic space, where people can relax, socialize, and take a break between activities or classes",
+      "Title": "Canteen",
+      "ActionName": "",
+      "ControllerName": "",
+      "Images": [],
+      "IsDynamic": true
+    },
+    {
+      "ID": 5,
+      "Icon": "../../images/seminar.png",
+      "About": "The seminar hall is a well-equipped space designed for academic and professional events. It offers a comfortable environment for activities like seminars, workshops, presentations, and discussions. The hall is equipped with necessary audiovisual facilities, ensuring effective communication during events. It provides a quiet and focused setting, ideal for hosting guest lectures, student presentations, and collaborative learning experiences.",
+      "Title": "Seminar Hall",
+      "ActionName": "",
+      "ControllerName": "",
+      "Images": [],
+      "IsDynamic": true
+    },
+    {
+      "ID": 6,
+      "Icon": "../../images/sports.png",
+      "About": "A sports facility is a venue designed for playing and practicing sports. It includes indoor spaces (for table tennis, chess, etc.) and outdoor areas (for cricket, volleyball, etc.). These facilities are equipped with the necessary infrastructure, such as courts, fields, and seating, to support recreational and competitive sports activities. They also provide amenities like locker rooms and equipment storage.",
+      "Title": "Sport",
+      "ActionName": "",
+      "ControllerName": "",
+      "Images": [],
+      "IsDynamic": true
+    }
+  ]
+}

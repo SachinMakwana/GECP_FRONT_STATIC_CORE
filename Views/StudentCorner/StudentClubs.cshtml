@@ -1,0 +1,180 @@
+﻿@model Student
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = Model.Title;
+	int count = 1;
+
+}
+
+<style>
+		.width {
+			color: black;
+			width: 100%;
+		}
+
+		.border {
+			border: 1px solid #eee;
+			border-radius: 6px;
+		}
+
+		.hieght-150 {
+			max-height:150px;
+			min-height:150px
+		}
+			.border:hover {
+				background-color: #f9f9f9e8;
+			}
+	.popupWhole{
+		padding:30px;
+	}
+		.popUpHeader{
+			border: 1px solid #dfdcdc;
+			padding: 10px;
+			/* border-left: 5px solid; */
+			margin-bottom: 0px;
+		}
+		.popUpHeader h2{
+				border-left: 10px solid;
+				padding: 5px 10px;
+				margin-bottom:0px;
+		}
+		.popupBody{
+			border: 1px solid #dfdcdc;
+			min-height: 380px;
+			padding: 30px 10px;
+		}
+</style>
+<div class="clearfix"></div>
+
+
+<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.Titleimage) no-repeat center top;background-size: cover;">
+	<div class="container">
+
+		<h1>
+			@Model.Title <em>Government Engineering College</em>
+			<div class="line"></div>
+		</h1>
+
+	</div>
+</div>
+<div class="clearfix margin_bottom6"></div>
+
+<!-- end page title -->
+
+
+<div class="featured_section48">
+	<div class="container">
+		@foreach (var item in Model.Clubs)
+		{
+			<div class="one_fourth animate @(count%4==0?"last":"")" data-anim-type="fadeInUp" data-anim-delay="100">
+
+				<img src="@Url.Content(item.Icon)" alt="" class="hieght-150">
+
+				<h5>@item.Title</h5>
+				@if (item.IsDynamic)
+				{
+					<h5><a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@item))">Read More</a></h5>
+				}
+				else
+				{
+					<h5><a href="@Url.Action(item.ActionName,item.ControllerName, new{id = item.ID})" class="btn btn-success">Read More</a></h5>
+				}
+			</div>
+			@if (count % 4 == 0)
+			{
+				<div class="clearfix margin_bottom3"></div>
+			}
+			count++;
+		}
+		<div class="clearfix margin_bottom3"></div>
+
+	</div>
+</div>
+
+<a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+<div id="popup" class="popup">
+	<div class="popupWhole">
+		<div class="popUpHeader">
+			<h2 id="newsname"></h2>
+		</div>
+		<!-- <div class="popup-text"> -->
+		<div id="pdfreader" class="popupBody">
+			<div class="one_third">
+				<img src="" class="card-img p-3 rimg" style="height: 150px;" id="clubIcon">
+			</div>
+			<div class="two_third last">
+				<p class="card-text text-justify" id="clubAbout"></p>
+			</div>
+			<div class="clearfix"></div>
+			<div id="imagegallery"></div>
+		</div>
+		<!-- </div> -->
+	</div>
+	<span class="popup-btn-close">&times;</span>
+</div>
+
+
+<div class="clearfix"></div>
+
+@section scripts {
+	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+	<script>
+		function loadPdf(obj) {
+			console.log(obj)
+			if (obj !== null) {
+					$("#newsname").text(obj.Title);
+					$('#clubIcon').attr('src',obj.Icon);
+					$("#clubAbout").text(obj.About);
+					$("#lnkPopup").click();
+					$.each(obj.Images, function(index, src) {
+					$("#imagegallery").append('<img src="'+src+'" alt = "" class= "hieght-150" >')
+					});
+			}
+		}
+	</script>
+
+
+	<script>
+		function popupOpenClose(popup) {
+
+			/* Add div inside popup for layout if one doesn't exist */
+			if ($(".wrapper", popup).length == 0) {
+				$(popup).wrapInner("<div class='wrapper'></div>");
+			}
+
+			/* Open popup */
+			$(popup).show();
+
+			/* Remove chidren of imagegallery*/
+			$("#imagegallery").empty();
+
+			/* Close popup if user clicks on background */
+			$(popup).click(function (e) {
+				if (e.target == this) {
+					if ($(popup).is(':visible')) {
+						$(popup).hide();
+					}
+				}
+			});
+
+			/* Close popup and remove errors if user clicks on cancel or close buttons */
+			$(popup).find(".popup-btn-close").on("click", function () {
+				if ($(".formElementError").is(':visible')) {
+					$(".formElementError").remove();
+				}
+				$(popup).hide();
+			});
+		}
+
+		$(document).ready(function () {
+			$(".popup-trigger").on("click", function () {
+				var target = $(this).data('target');
+				popupOpenClose($(target));
+			});
+		});
+	</script>
+}
+
+@section styles {
+	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+}

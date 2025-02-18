@@ -17,105 +17,170 @@
 </div>
 <div class="margin_top10"></div>
 
-<div class="works01">
-    <div class="container">
+<div class="full-container">
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">All</button>
+        <button class="tablinks" onclick="openTab(event, 'YearWise')">YearWise</button>
+    </div>
+    <div id="About" class="tabcontent">
+        <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
+            <div class="works01">
+                <div class="container">
 
-        <div id="filters-container" class="cbp-l-filters-button">
-            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                All
-                <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".CSE" class="cbp-filter-item">
-                CSE
-                <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".NSS" class="cbp-filter-item">
-                NSS
-                <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".Electrical" class="cbp-filter-item">
-                Electrical
-                <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".Yoddhha" class="cbp-filter-item">
-                Yoddhha
-                <div class="cbp-filter-counter"></div>
-            </div>
-            @*<div data-filter=".identity" class="cbp-filter-item">
-            woman councelling session
-            <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".web-design" class="cbp-filter-item">
-            NSS Activities
-            <div class="cbp-filter-counter"></div>
-            </div>
+                    <div id="filters-container" class="cbp-l-filters-button">
+                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                            All
+                            <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".CSE" class="cbp-filter-item">
+                            CSE
+                            <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".NSS" class="cbp-filter-item">
+                            NSS
+                            <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".Electrical" class="cbp-filter-item">
+                            Electrical
+                            <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".Yoddhha" class="cbp-filter-item">
+                            Yoddhha
+                            <div class="cbp-filter-counter"></div>
+                        </div>
 
-            <div data-filter=".logos" class="cbp-filter-item">
-            tree plantation
-            <div class="cbp-filter-counter"></div>
-            </div>
-
-            <div data-filter=".media" class="cbp-filter-item">
-            media support
-            <div class="cbp-filter-counter"></div>
-            </div>*@
-
-        </div>
+                    </div>
 
 
-        <div id="grid-container" class="cbp-l-grid-fullWidth">
-            @foreach (var item in Model)
-            {
-                <div class="cbp-item @foreach (string key in item.Keywords.Split(',')){
-            @key
- }">
-                    <div class="box">
-                        <div class="cbp-caption">
-                            <div class="cbp-caption-defaultWrap">
-                                <div class="blog_post">
-                                    <div class="blog_postcontent">
-                                        <div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt=""></a></div>
-                                        <h3>@Html.Raw(item.Title)</h3>
-                                        <ul class="post_meta_links">
-                                            <li><a href="#" class="date">@item.Date</a></li>
-                                            @if (!string.IsNullOrWhiteSpace(item.Keywords))
-                                            {
-                                                foreach (string key in item.Keywords.Split(','))
-                                                {
-                                                    <li class="post_categoty">@key</li>
-                                                }
-                                            }
-                                        </ul>
-                                        <div class="clearfix"></div>
-                                        <div class="margin_top1"></div>
-                                        <p class="text-justify">@item.Description</p>
+                    <div id="grid-container" class="cbp-l-grid-fullWidth">
+                        @foreach (var item in Model)
+                        {
+                            <div class="cbp-item @foreach (string key in item.Keywords.Split(',')){
+                        @key
+}">
+                                <div class="box">
+                                    <div class="cbp-caption">
+                                        <div class="cbp-caption-defaultWrap">
+                                            <div class="blog_post">
+                                                <div class="blog_postcontent">
+                                                    <div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt=""></a></div>
+                                                    <h3>@Html.Raw(item.Title)</h3>
+                                                    <ul class="post_meta_links">
+                                                        <li><a href="#" class="date">@item.Date</a></li>
+                                                        @if (!string.IsNullOrWhiteSpace(item.Keywords))
+                                                        {
+                                                            foreach (string key in item.Keywords.Split(','))
+                                                            {
+                                                                <li class="post_categoty">@key</li>
+                                                            }
+                                                        }
+                                                    </ul>
+                                                    <div class="clearfix"></div>
+                                                    <div class="margin_top1"></div>
+                                                    <p class="text-justify">@item.Description</p>
 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @*<div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-alignCenter">
+                                    <div class="cbp-l-caption-body">
+                                    <h4>campus</h4>
+                                    <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
+                                    <a href="~/images/gallary/campus11.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
+                                    </div>
+                                    </div>
+                                    </div>*@
                                     </div>
                                 </div>
                             </div>
-                            @*<div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignCenter">
-                        <div class="cbp-l-caption-body">
-                        <h4>campus</h4>
-                        <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                        <a href="~/images/gallary/campus11.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
-                        </div>
-                        </div>
-                        </div>*@
-                        </div>
+                        }
+
                     </div>
+
+                    <!--<div class="cbp-l-loadMore-text">
+                        <div data-href="ajax/loadMore.html" class="cbp-l-loadMore-text-link">LOADING...</div>
+                    </div>-->
+
+
                 </div>
-            }
-
+            </div>
         </div>
+    </div>
+    <div id="YearWise" class="tabcontent">
+        <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
+            <div class="works01">
+                <div class="container">
 
-        <!--<div class="cbp-l-loadMore-text">
-            <div data-href="ajax/loadMore.html" class="cbp-l-loadMore-text-link">LOADING...</div>
-        </div>-->
+                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                        All
+                        <div class="cbp-filter-counter"></div>
+                    </div>
+                    <div data-filter=".2024" class="cbp-filter-item">
+                        2024
+                        <div class="cbp-filter-counter"></div>
+                    </div>
+
+                </div>
 
 
+                <div id="grid-container" class="cbp-l-grid-fullWidth">
+                    @foreach (var item in Model)
+                    {
+
+                        <div class="cbp-item @item.Year">
+                            <div class="box">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <div class="blog_post">
+                                            <div class="blog_postcontent">
+                                                <div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt=""></a></div>
+                                                <h3>@Html.Raw(item.Title)</h3>
+                                                <ul class="post_meta_links">
+                                                    <li><a href="#" class="date">@item.Date</a></li>
+                                                    @if (!string.IsNullOrWhiteSpace(item.Keywords))
+                                                    {
+                                                        foreach (string key in item.Keywords.Split(','))
+                                                        {
+                                                            <li class="post_categoty">@key</li>
+                                                        }
+                                                    }
+                                                </ul>
+                                                <div class="clearfix"></div>
+                                                <div class="margin_top1"></div>
+                                                <p class="text-justify">@item.Description</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    @*<div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignCenter">
+                                <div class="cbp-l-caption-body">
+                                <h4>campus</h4>
+                                <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
+                                <a href="~/images/gallary/campus11.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
+                                </div>
+                                </div>
+                                </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+
+                <!--<div class="cbp-l-loadMore-text">
+                    <div data-href="ajax/loadMore.html" class="cbp-l-loadMore-text-link">LOADING...</div>
+                </div>-->
+
+
+            </div>
+        </div>
     </div>
 </div>
+</div>
+
+
 <!-- end works section -->
 
 

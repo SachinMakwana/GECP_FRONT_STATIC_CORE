@@ -77,7 +77,7 @@
 				}
 				else
 				{
-					<h5><a href="@Url.Action(item.ActionName,item.ControllerName, new{id1 = Model.ID ,id2 = item.ID})" class="btn btn-success">Read More</a></h5>
+					<h5><a href="@Url.Action(item.ActionName,item.ControllerName, new{id = item.ID})" class="btn btn-success">Read More</a></h5>
 				}
 			</div>
 			@if (count % 4 == 0)

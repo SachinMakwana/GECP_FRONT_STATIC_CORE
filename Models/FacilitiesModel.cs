@@ -52,30 +52,15 @@ namespace GECP_Front_End_Static.Models
         public string About { get; set; }
         public string Title { get; set; }
         public string ActionName { get; set; }
-        public string ControllerName { get; set; }
-        public bool IsDynamic { get; set; }
+		public List<string> SubObjectives { get; set; }
+		public string ControllerName { get; set; }
+		public string BlogLink { get; set; }
+		public bool IsDynamic { get; set; }
         public List<Members> Members { get; set; }
-        public List<Document11> Activities { get; set; }
+        public List<CommitteeActivity> Activities { get; set; }
 
     }
-    public class Document11
-    {
-        public int ID { get; set; }
-        public string Title { get; set; }
-        public string File { get; set; }
-        public bool isShow { get; set; }
-        public string FileType { get; set; }
-        public string UploadDate { get; set; }
-    }
 
-
-    public class Activities
-	{
-		public int SrNo { get; set; }
-		public string EventName { get; set; }
-		public string EventDate { get; set; }
-		public string About { get; set; }
-	}
 
 	public class Student
     {

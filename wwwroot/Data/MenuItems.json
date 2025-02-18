@@ -534,17 +534,17 @@
             "isVisible": false,
             "ChildMenuVMs": []
         },
-        {
-            "ID": 56,
-            "MenuText": "Central Facilities",
-            "ParentID": 5,
-            "dynamicID": 2,
-            "ControllerName": "Facilities",
-            "ActionName": "StudentClub",
-            "position": 6,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
+      {
+        "ID": 56,
+        "MenuText": "Central Facilities",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "CenterFacilites",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
         {
             "ID": 57,
             "MenuText": "Medical Facility",
@@ -640,9 +640,9 @@
             "ID": 58,
             "MenuText": "Student Club",
             "ParentID": 5,
-            "dynamicID": 1,
-            "ControllerName": "Facilities",
-            "ActionName": "StudentClub",
+            "dynamicID": null,
+            "ControllerName": "StudentCorner",
+            "ActionName": "StudentClubs",
             "position": 14,
             "isVisible": true,
             "ChildMenuVMs": []
