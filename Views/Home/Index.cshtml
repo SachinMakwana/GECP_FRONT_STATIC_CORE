@@ -98,39 +98,35 @@
 </div>
 <!-- end featured section 13 -->
 <div class="clearfix margin_top5"></div>
-<div class="featured_section14">
-    <div class="full-container">
 
-        <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+<div class="full-container">
+        <div class="clearfix"></div>
 
-            <img src="@Url.Content("~/images/vision.png")" alt="" />
-            <br /><br />
-            <h3 class="white">Vision</h3>
+        <div class="one_half stcode_title4">
+
+        <h3><span class="line"></span><span class="text"><i class="fa fa fa-institution" aria-hidden="true"></i><strong>  VISION</strong></span></h3>
+
+
+            <div class="vision-container">
+            <i class="fa fa-university" aria-hidden="true"></i><i class="fa fa-bullseye" aria-hidden="true"></i><i class="fa fa-university" aria-hidden="true"></i>
+            </div>
+
+            <p class="large-text">
+                To prepare human resources with value-based competency for technical advancements and growth of society.
+            </p>
+        </div>
+
+        <div class="one_half last stcode_title5">
+
+        <h3><span class="line"></span><span class="text"><i class="fa fa fa-mortar-board (alias)" aria-hidden="true"></i><strong>  MISSION</strong></span></h3>
             <ul class="text-justify">
-                <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> To prepare human resource with value based competency for technical advancements and growth of the society.</li>
+            <li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> To Deliver technical programs and services to cater the current needs of society and industry.</li>
+            <li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> Helping industries in solving challenges by means of providing best technical human resources.</li>
+            <li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> To contribute in sustainable growth of society.</li>
             </ul>
-            <br /><br />
-
-
         </div>
-        <!-- end section -->
-
-        <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
-
-            <img src="@Url.Content("~/images/mission.png")" alt="" />
-            <br /><br />
-            <h3 class="white">Mission</h3>
-             <ul class="text-justify">
-                <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> To Deliver technical programs and services to cater the current needs of society and industry.</li>
-                <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> Helping industries in solving challenges by means of providing best technical human resources.</li>
-                <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> To contribute in sustainable growth of society.</li>
-            </ul>
-
-        </div>
-        <!-- end section -->
-
-    </div>
 </div>
+
 <!-- end featured section 14 -->
 <div class="clearfix margin_top5"></div>
 <div class="featured_section16">
@@ -369,7 +365,49 @@
         .text-center {
             text-align: center !important;
         }
+    
+        .large-text {
+            font-size: 20px;
+        }
+
+        .one_half ul {
+            list-style: none; /* Removes default bullets */
+            padding-left: 0;
+        }
+
+        .one_half ul li {
+            display: flex;
+            align-items: center; /* Aligns text with the icon */
+            gap: 10px; /* Adds space between the icon and text */
+            margin-bottom: 8px; /* Adds spacing between list items */
+        }
+
+        .one_half ul li i {
+            color: #007bff; /* Change color as needed */
+            font-size: 18px; /* Adjust icon size */
+        }
+
+        .vision-container {
+            text-align: center; /* Centers inline elements like <i> */
+            margin-top: 10px;
+        }
+
+        .vision-container i {
+            font-size: 60px; /* Adjust the size as needed */
+            color: #007bff; /* Blue color */
+        }
+
+        .large-text {
+            font-size: 25px;
+            text-align: center; /* Centers the paragraph text */
+        }
+
+        .text-justify{
+            font-size : 18px;
+        }
     </style>
+
+
     @* <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/tabwidget/tabwidget.css")"> *@
      <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
 }
