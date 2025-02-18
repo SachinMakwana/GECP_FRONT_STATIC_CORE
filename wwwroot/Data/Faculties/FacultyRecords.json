@@ -2009,7 +2009,7 @@
       "Date_of_Joining": "2020-06-08",
       "Qualification": "ME IT",
       "Area_of_Interest": "Cloud computing",
-      "IsTeachng": true,
+      "IsTeaching": true,
       "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JAY PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME/Mtech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Cloud computing </span></li></ul></div></div></div>",
       "PersonalDetails": {
         "Name": "Mr. Jay Prakashbhai Patel",
@@ -2688,7 +2688,7 @@
       "Date_of_Joining": "2020-06-06",
       "Qualification": "",
       "Area_of_Interest": "",
-      "IsTaching": true,
+      "IsTeaching": true,
       "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Miss. HIRALBEN RATHOD</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>"
   
     },
@@ -4309,11 +4309,11 @@
   
     },
     {
-      "ID": 406,
+      "ID": 406, // change id according to electrical department
       "Name": "MR. ANKITKUMAR B. DARJI ",
       "Designation": "LAB ASSISTANT",
       "image": "images/Faculty/406.jpg",
-      "Dept_ID": 4,
+      "Dept_ID": 3,
       "Date_of_Joining": "2013-12-13",
       "Qualification": "Diploma Civil",
       "Area_of_Interest": "Civil",
@@ -6592,124 +6592,92 @@
   
   
     },
-    {
-      "ID": 516,
-      "Name": "Mr. Kaushikkumar Patel",
+  {
+    "ID": 516,
+    "Name": "Dr. Kaushikkumar Patel",
+    "Designation": "Assistant Professor",
+    "image": "images/Faculty/516.jpg",
+    "Dept_ID": 5,
+    "Date_of_Joining": "2018-12-06",
+    "Qualification": "Ph.D Mechanical",
+    "Area_of_Interest": "Machine Design",
+    "IsTeaching": true,
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAUSHIKKUMAR PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
+    "tabs": {
+      "Head": [ "education qualification", "Work Experience", "patent publication", "subject taught", "training and workshop", "portfolio", "research project", "publication", "faculty training Monitoring cell" ],
+      "Values": [
+        "<div id=\"tabs-25703\" aria-labelledby=\"ui-id-2\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Education Qualification </h4><p><b xss=\"removed\"><font xss=\"removed\" size=\"4\" color=\"#666600\">B. E. Mechanical&nbsp;&nbsp;</font></b></p><div xss=\"removed\"><font color=\"#990000\" xss=\"removed\"><b><br></b></font><div xss=\"removed\"><font xss=\"removed\" color=\"#339999\">(From L.D.C.E. Ahmadabad, Gujarat University in 200</font><font xss=\"removed\" color=\"#66cccc\">2)</font><br><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><b xss=\"removed\"><font xss=\"removed\" face=\"Arial\" size=\"4\" color=\"#666600\">M.E. Mechanical ( Machine&nbsp; Design )</font></b></div><div xss=\"removed\"><br></div><div xss=\"removed\"><font color=\"#339999\">(From B. V. M. , Sardar Patel University, Vallabh Vidhyanagar in 2007</font></div></div></div><p></p></div>",
+        "<div id=\"tabs-25785\" aria-labelledby=\"ui-id-3\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Work Experience</h4><p><b xss=\"removed\"><font face=\"Arial Black\" color=\"#000099\">Lecture in Mechanical Department&nbsp;</font></b></p><div xss=\"removed\"><br><div xss=\"removed\"><font color=\"#336666\" xss=\"removed\"><b>B.S.Patel Polytechnic , Ganpat Vidhyanagar , Kherva&nbsp;</b></font></div></div><div xss=\"removed\"><font color=\"#666600\" xss=\"removed\"><b>( 21- Dec -2005 to 29 - April 2011 )</b></font></div><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><b xss=\"removed\"><font face=\"Arial Black\" color=\"#000099\">Asst. Professor in Mechanical Department</font></b></div><div xss=\"removed\"><b><br></b></div><div xss=\"removed\"><font color=\"#336666\" xss=\"removed\"><b><span xss=\"removed\">Government Engineering </span><font face=\"Arial, Verdana\" xss=\"removed\"><span xss=\"removed\">College</span></font><span xss=\"removed\">,&nbsp; Palanpur&nbsp;</span></b></font></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#666600\">(30-April 2011 to&nbsp; 05 Dec-2018 )&nbsp;</font></b></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#666600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><div xss=\"removed\"><font color=\"#336666\" xss=\"removed\"><b><span xss=\"removed\">Government Engineering&nbsp;</span><font face=\"Arial, Verdana\" xss=\"removed\"><span xss=\"removed\">College</span></font><span xss=\"removed\">,&nbsp; Patan&nbsp;</span></b></font></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#666600\">( 06 Dec-2018 to onward )</font></b></div></b></div><p></p></div>",
+        "<div id=\"tabs-46691\" aria-labelledby=\"ui-id-4\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Patent Publication</h4><p><font face=\"Arial, Verdana\"><span xss=\"removed\">RSSR SS Motion Platform with stability control using Universal joint</span></font></p><div><font face=\"Arial, Verdana\"><span xss=\"removed\"><br></span></font></div><div><font face=\"Arial, Verdana\"><span xss=\"removed\">202021052066A Dated: 01/01/2021</span></font></div><p></p></div>",
+        "<div id=\"tabs-25741\" aria-labelledby=\"ui-id-5\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Subject Taught</h4><p></p><h3 xss=\"removed\"><font size=\"3\"><font face=\"Georgia\" xss=\"removed\"><font color=\"#000099\">Machine Design&nbsp;</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#cc33cc\">Design of Machine Element</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#990000\">Dynamics of Machinery&nbsp;</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#009900\">Theory of Machine&nbsp;</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#000099\">Kinematic&nbsp; of Machine&nbsp;</font><br></font><span id=\"cphPageHeader_SubjectHeader_lblSubjectName\" xss=\"removed\"><font face=\"Georgia\"><font color=\"#cc33cc\">Machine Design and Industrial Drafting&nbsp;</font><br></font></span><span xss=\"removed\"><font face=\"Georgia\" xss=\"removed\" color=\"#990000\"><span xss=\"removed\">Elements of Mechanical </span><span xss=\"removed\">Engineering</span><span xss=\"removed\">&nbsp;</span></font></span><span xss=\"removed\"><font face=\"Georgia\" xss=\"removed\"><br></font></span><span xss=\"removed\"><font face=\"Georgia\" color=\"#009900\">Engineering Graphics&nbsp;</font></span></font></h3><div xss=\"removed\"><span xss=\"removed\"><b xss=\"removed\"><a href=\"https://sites.google.com/view/kvpatel\"><font face=\"Arial Black\" color=\"#000099\">https://sites.google.com/view/kvpatel</font></a></b></span></div><p></p></div>",
+        "<div id=\"tabs-24677\" aria-labelledby=\"ui-id-6\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Training Taken</h4><p></p><h3 id=\"h.p_oA2vorc2DX7k\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">ADVANCE OPTIMIZATION THROUGH INTELLIGENT TECHNIQUES, AICTE Sponsored at SVNIT Surat on 16-20 June 2008 </font></h3><h3 id=\"h.p_dtH4qTVWwgGN\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">ADVANCE IN HEAT TRANSFER IN MECHANICAL ENGINEERING, ISTE approved at Parul Institute of Engineering and Technology , Vadodara  on 17- 21 November 2008</font></h3><h3 id=\"h.p_zH8GVZJ4whm9\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">ADVANCE IN MANUFACTURING, AICTE Sponsored at SVNIT Surat on 29th December 2008 to 2<span xss=\"removed\">nd</span> January 2009</font></h3><h3 id=\"h.p_P3p6ubVYwlBJ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">ENGINEERING DRAWING USING CAD, AICTE Sponsored at SVNIT, Surat on 23-27 November 2009 </font></h3><h3 id=\"h.p_Wo8uwaIZwoZ6\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">COMPUTER AIDED DESIGN AND MANUFACTURING by American Society of Mechanical Engineers (ASME) Anchor partnership with SVNIT, Surat on 20-21 December 2011. </font></h3><h3 id=\"h.p_xc6kJ5LGwqgC\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">ADVANCE FINITE ELEMENT ANALYSIS by American Society of Mechanical Engineers (ASME) Anchor partnership with SVNIT, Surat on 22-24 December 2011</font></h3><h3 id=\"h.p_etlgT8Newul4\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">INDUCTION TRAINING PHASE –I at NITTTR, Ext. Center, Ahmedabad on 15- 26 April 2013 </font></h3><h3 id=\"h.p_kAWjURV_wxDi\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">INDUCTION TRAINING PHASE –II at NITTTR, Ext. Center, GUJARAT on 2-13 December 2013</font></h3><h3 id=\"h.p_A38z66MOwzEZ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">KARMYOGI RESIDENTIAL TRAINING, Organized By CTE Gandhinagar  on 17-19 January 2014</font></h3><h3 id=\"h.p_OsAf_JnKw0x_\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">VAHIVATI TALIM   at SPIPA, Gandhinagar on 09-13 June 2014</font></h3><h3 id=\"h.p_kxK1Mr5_w2cz\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">ACADEMIC AND RESEARCH PAPER WRITING , at NITTTR, Ext. Center, Ahmedabad on 23-27 February 2015 </font></h3><h3 id=\"h.p__yLNUfahw4Ch\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">DEVELOPMENT OF LAB MANUAL AND PROJECT WORK FOR MECHANICAL ENGINEERING AND ALLIED PROGRAMS, at NITTTR, Ext. Center, Ahmedabad on 15-19 June 2015</font></h3><h3 id=\"h.p_BlHJDxOlw5sQ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">3D ANIMATION at NITTTR, BHOPAL 27 June to 8 July, 2017</font></h3><h3 id=\"h.p_QzG9NnE1w5wR\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">PORTFOLIO ASSESSMENTS, at NITTTR, Ext. Center, Ahmedabad 2-6 January 2017</font></h3><h3 id=\"h.p_hL3eRoAyw9xX\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">RESOURCE MANAGEMENT FOR MANUFACTURING SECTOR at NITTTR, Bhopal 3-14 July, 2017</font></h3><p></p>                                     </div>",
+        "<div id=\"tabs-8315\" aria-labelledby=\"ui-id-7\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Portfolio</h4><p></p><div xss=\"removed\"><font face=\"Arial, Verdana\" color=\"#000099\" xss=\"removed\"><span xss=\"removed\"><b>Coordinator - C.O.E.</b></span></font></div><ol xss=\"removed\"><li xss=\"removed\"><font color=\"#6600cc\">To cultivate symbiotic relationship between college and industry.</font></li><li xss=\"removed\"><font color=\"#6600cc\">To provide ample opportunities for industry exposure to students and faculty through industry visits, summer internship and industry projects.</font></li><li xss=\"removed\"><font color=\"#6600cc\">Industry exposure to students and faculty.</font></li><li xss=\"removed\"><font color=\"#6600cc\">Students’ projects/dissertation work in industries under joint guidance of the faculty and experts from industry.</font></li></ol><div xss=\"removed\"><font face=\"Arial, Verdana\" color=\"#000099\" xss=\"removed\"><span xss=\"removed\"><b xss=\"removed\">Coordinator - Faculty </b><span xss=\"removed\"><b>Training</b></span><b xss=\"removed\">&nbsp; Monitoring Cell&nbsp;</b></span></font></div><div xss=\"removed\"><ol xss=\"removed\"><li xss=\"removed\"><font color=\"#cc33cc\" xss=\"removed\"><font face=\"Arial, Verdana\"><span xss=\"removed\">To assess the implementation of guidelines, circular letters, regulations and other directions made by the CTE, Gandhinagar, GTU and Institute for </span><span xss=\"removed\">Training</span><span xss=\"removed\">.&nbsp;</span></font></font></li></ol><div xss=\"removed\"><font color=\"#000099\" xss=\"removed\"><b>Departmental Duties</b></font></div><div xss=\"removed\"><ol xss=\"removed\"><li xss=\"removed\"><font color=\"#6633ff\" xss=\"removed\"><font face=\"Arial, Verdana\"><span xss=\"removed\">Faculty </span><span xss=\"removed\">Training</span><span xss=\"removed\">&nbsp;Monitoring Cell at Departmental Level</span></font></font></li></ol></div></div><div xss=\"removed\"><br></div><p></p>                                     </div>",
+        "<div id=\"tabs-25815\" aria-labelledby=\"ui-id-8\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">   <h4 class=\"f-tabs-vertical__title f-primary-b\">Research Papars</h4><p></p><h2 id=\"h.p_IdN5lqeTXVbM\" class=\"zfr3Q RuayVd\" xss=\"removed\"><font color=\"#006600\">PRIMARY RESEARCH AREA: </font></h2><h2 id=\"h.p__cie4FiFXeDd\" class=\"zfr3Q RuayVd\" xss=\"removed\"><i><font color=\"#660000\">Balancing Parameter of Spatial , Multi loop and single loop mechanism ( Variable  Input Speed)</font></i></h2><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><h3 id=\"h.p_yLMhSmjVYOtj\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Analysis of Spatial Mechanism in dynamic equilibrium condition using MatLab” By K.V. Patel &amp; Dr. Anurag Verma at International Journal of Engineering Science and Technology (IJEST) ISSN: 0975-5462 </font></h3><h3 id=\"h.p_XQclcqimuvI4\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">“Analysis of Planner Kinematics Chain By Moment Matrix Method” By K.V. Patel &amp; S .J. Patel at International Journal of Design Engineering, Inderscience Publication, Switzerland. </font></h3><h3 id=\"h.p_tg6f6CrOuxw0\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“Analysis of Planner Kinematics Chain By Moment Matrix Method” By K.V. Patel   &amp;  S .J. Patel at International Conference on “Advance In Mechanical Engineering” on 15-17 Dec,2008 at SVNIT, Surat, Gujarat. </font></h3><h3 id=\"h.p_-ASlwexuu0BQ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Optimization Of  Four Bar Linkages In Variable Input Speed With Kinematic And Dynamic Synthesis Using MatLab” By K.V. Patel &amp; S .J. Patel at International Conference on “Advance In Mechanical Engineering” on 15-17 Dec,2008 at SVNIT, Surat, Gujarat.</font></h3><h3 id=\"h.p_ZNkVDP7Au14c\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">\" Evolution of Efficiency of Flat panel used in coal mining industry- A Case study \"   B. P. Patel &amp; K. V. Patel on 3-5 August -2009 At SVNIT, Surat, Gujarat. </font></h3><h3 id=\"h.p_wtHEepDGu4cU\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“Moment matrix method for selection of planar kinematics chains.” By S. J. Patel &amp; K.V. Patel at National Conference on Mechanical Engineering Department -Emerging trends in Mechanical Engineering, Vallabh Vidhyanagar, Gujarat on 28-29 March 2008. \"</font></h3><h3 id=\"h.p_y4lZaFM6u7Fi\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Kinematics synthesis &amp; optimizations of four bar linkages Using Mat lab in variable input speed.” By K.V. Patel &amp; S. J. Patel at National Conference on Mechanical Engineering Department -Emerging trends in mechanical engineering, Vallabh Vidhyanagar, Gujarat on 28-29 March 2008.</font></h3><h3 id=\"h.p_th1xq9aou--s\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">“A Novel Approach For Selection of Production Plant layout in Manufacturing Environment using MADM method: Strategy case Study” By  K. V. Patel, S J. Patel &amp; B. D. Prajapati at National Conference on “Advancement and Futuristic Trend In Mechanical Engineering” on 20<span xss=\"removed\">th</span> Nov-2008 at Rajkot.</font></h3><h3 id=\"h.p_mlGpJxBTvKoA\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“A Novel Approach For Selection of Material In  Manufacturing  Environment using MADM method: Strategy case Study “ By K. V. Patel at 3<span xss=\"removed\">rd</span> National Conference on Recent Development In Mechanical Engineering” on 14-15 Nov-2008 at Thapar University, Patiala.</font></h3></div><p></p>                                     </div>",
+        "<div id=\"tabs-25832\" aria-labelledby=\"ui-id-9\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Book Publication </h4><p></p><h2 id=\"h.p_LJpDREW9vrxC\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\" face=\"Arial\">“WORKSHOP TECHNOLOGY “ AUTHOR K. V. PATEL PRACTICE MANUAL FOR FIRST YEAR DEGREE AND DIPLOMA STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN</font></h2><p id=\"h.p_IYbYIY7LvuQT\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p__FEJLyksvucG\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#006600\" face=\"Arial\">“ELEMENTS OF MECHANICAL ENGINEERING “ AUTHOR K. V. PATEL FOR FIRST YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN , ISBN 8189736027</font></h2><p id=\"h.p_RxMlWX5gvwgV\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_sSaGAtF8vwmL\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\" face=\"Arial\">“MANUFACTURING PROCESS-I \" AUTHOR K. V. PATEL FOR SECOND YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN</font></h2><p id=\"h.p_X7vD52PSeFKY\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_uAOlXwq-dre9\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#660000\" face=\"Arial\">\"PRODUCT DESIGN AND VALUE ENGINEERING \" AUTHOR K. V. PATEL FOR THE FINAL YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN.</font></h2><p id=\"h.p_vC2SNIhSNvvU\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_jWxUlde6Nv--\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\" face=\"Arial\">\"OPERATION RESEARCH \" AUTHOR K. V. PATEL FOR THE FINAL YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN. ISBN No.&nbsp; &nbsp;978-93-85173-07-3</font></h2><div xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\"><br></font></div><div xss=\"removed\"><font xss=\"removed\" size=\"1\" face=\"Arial\" color=\"#6600cc\"><h2 id=\"h.p_m9UzdfybiKW6\" class=\"CDt4Ke zfr3Q JYVBee\" tabindex=\"-1\" xss=\"removed\"><div jscontroller=\"Ae65rd\" jsaction=\"touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;\" class=\"CjVfdc\" xss=\"removed\">\"MANUFACTURING PROCESSES\" SUB CODE:3141908, AUTHOR PROF. K. V. PATEL FOR THE 4TH SEMESTER B.E. MECHANICAL STUDENT AS PER NEW REVISED GTU SYLLABUS. ISBN 978-93-85138-48-5</div></h2></font></div><p></p></div>",
+        "<div id=\"tabs-46692\" aria-labelledby=\"ui-id-10\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">   <h4 class=\"f-tabs-vertical__title f-primary-b\">Faculty Training Monitoring Cell</h4><p></p><div xss=\"removed\"><span xss=\"removed\"><font face=\"Arial Black\" xss=\"removed\" color=\"#660000\"><b xss=\"removed\">All Other Department Staff </b><span xss=\"removed\"><b>Training</b></span><b xss=\"removed\">&nbsp;Data</b></font></span></div><span xss=\"removed\"><font xss=\"removed\"><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><span xss=\"removed\"><a href=\"https://www.cognitoforms.com/GECPATAN3/TrainingData\" xss=\"removed\"><b xss=\"removed\"><font face=\"Arial\" xss=\"removed\">https://www.cognitoforms.com/GECPATAN3/TrainingData</font></b></a></span></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><font xss=\"removed\" face=\"Arial Black\" color=\"#000099\"><br></font></b></div><font xss=\"removed\" face=\"Arial Black\" color=\"#000099\"><b xss=\"removed\">M</b><b xss=\"removed\">echanical Department Faculty Detail</b></font></font></span><div xss=\"removed\"><b><font color=\"#000099\"><br></font></b></div><div xss=\"removed\"><font face=\"Arial, Verdana\" color=\"#cc0000\"><span xss=\"removed\"><b xss=\"removed\"><a href=\"https://www.cognitoforms.com/GECPL1/FacultyTrainingMonitoring\">https://www.cognitoforms.com/GECPL1/FacultyTrainingMonitoring</a></b></span></font></div><p></p></div>"
+      ]
+    },
+    "PersonalDetails": {
+      "Name": "Dr.Kaushikkumar Vishnubhai Patel",
       "Designation": "Assistant Professor",
-      "image": "images/Faculty/516.jpg",
-      "Dept_ID": 5,
-      "Date_of_Joining": "2018-12-06",
-      "Qualification": "ME Machine Design",
-      "Area_of_Interest": "Machine Design",
-      "IsTeaching": true,
-      "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAUSHIKKUMAR PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
-      "tabs": {
-        "Head": [ "education qualification", "Work Experience", "patent publication", "subject taught", "training and workshop", "portfolio", "research project", "publication", "faculty training Monitoring cell" ],
-        "Values": [
-          "<div id=\"tabs-25703\" aria-labelledby=\"ui-id-2\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Education Qualification </h4><p><b xss=\"removed\"><font xss=\"removed\" size=\"4\" color=\"#666600\">B. E. Mechanical&nbsp;&nbsp;</font></b></p><div xss=\"removed\"><font color=\"#990000\" xss=\"removed\"><b><br></b></font><div xss=\"removed\"><font xss=\"removed\" color=\"#339999\">(From L.D.C.E. Ahmadabad, Gujarat University in 200</font><font xss=\"removed\" color=\"#66cccc\">2)</font><br><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><b xss=\"removed\"><font xss=\"removed\" face=\"Arial\" size=\"4\" color=\"#666600\">M.E. Mechanical ( Machine&nbsp; Design )</font></b></div><div xss=\"removed\"><br></div><div xss=\"removed\"><font color=\"#339999\">(From B. V. M. , Sardar Patel University, Vallabh Vidhyanagar in 2007</font></div></div></div><p></p></div>",
-          "<div id=\"tabs-25785\" aria-labelledby=\"ui-id-3\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Work Experience</h4><p><b xss=\"removed\"><font face=\"Arial Black\" color=\"#000099\">Lecture in Mechanical Department&nbsp;</font></b></p><div xss=\"removed\"><br><div xss=\"removed\"><font color=\"#336666\" xss=\"removed\"><b>B.S.Patel Polytechnic , Ganpat Vidhyanagar , Kherva&nbsp;</b></font></div></div><div xss=\"removed\"><font color=\"#666600\" xss=\"removed\"><b>( 21- Dec -2005 to 29 - April 2011 )</b></font></div><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><b xss=\"removed\"><font face=\"Arial Black\" color=\"#000099\">Asst. Professor in Mechanical Department</font></b></div><div xss=\"removed\"><b><br></b></div><div xss=\"removed\"><font color=\"#336666\" xss=\"removed\"><b><span xss=\"removed\">Government Engineering </span><font face=\"Arial, Verdana\" xss=\"removed\"><span xss=\"removed\">College</span></font><span xss=\"removed\">,&nbsp; Palanpur&nbsp;</span></b></font></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#666600\">(30-April 2011 to&nbsp; 05 Dec-2018 )&nbsp;</font></b></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#666600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><div xss=\"removed\"><font color=\"#336666\" xss=\"removed\"><b><span xss=\"removed\">Government Engineering&nbsp;</span><font face=\"Arial, Verdana\" xss=\"removed\"><span xss=\"removed\">College</span></font><span xss=\"removed\">,&nbsp; Patan&nbsp;</span></b></font></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#666600\">( 06 Dec-2018 to onward )</font></b></div></b></div><p></p></div>",
-          "<div id=\"tabs-46691\" aria-labelledby=\"ui-id-4\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Patent Publication</h4><p><font face=\"Arial, Verdana\"><span xss=\"removed\">RSSR SS Motion Platform with stability control using Universal joint</span></font></p><div><font face=\"Arial, Verdana\"><span xss=\"removed\"><br></span></font></div><div><font face=\"Arial, Verdana\"><span xss=\"removed\">202021052066A Dated: 01/01/2021</span></font></div><p></p></div>",
-          "<div id=\"tabs-25741\" aria-labelledby=\"ui-id-5\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Subject Taught</h4><p></p><h3 xss=\"removed\"><font size=\"3\"><font face=\"Georgia\" xss=\"removed\"><font color=\"#000099\">Machine Design&nbsp;</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#cc33cc\">Design of Machine Element</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#990000\">Dynamics of Machinery&nbsp;</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#009900\">Theory of Machine&nbsp;</font><br></font><font face=\"Georgia\" xss=\"removed\"><font color=\"#000099\">Kinematic&nbsp; of Machine&nbsp;</font><br></font><span id=\"cphPageHeader_SubjectHeader_lblSubjectName\" xss=\"removed\"><font face=\"Georgia\"><font color=\"#cc33cc\">Machine Design and Industrial Drafting&nbsp;</font><br></font></span><span xss=\"removed\"><font face=\"Georgia\" xss=\"removed\" color=\"#990000\"><span xss=\"removed\">Elements of Mechanical </span><span xss=\"removed\">Engineering</span><span xss=\"removed\">&nbsp;</span></font></span><span xss=\"removed\"><font face=\"Georgia\" xss=\"removed\"><br></font></span><span xss=\"removed\"><font face=\"Georgia\" color=\"#009900\">Engineering Graphics&nbsp;</font></span></font></h3><div xss=\"removed\"><span xss=\"removed\"><b xss=\"removed\"><a href=\"https://sites.google.com/view/kvpatel\"><font face=\"Arial Black\" color=\"#000099\">https://sites.google.com/view/kvpatel</font></a></b></span></div><p></p></div>",
-          "<div id=\"tabs-24677\" aria-labelledby=\"ui-id-6\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Training Taken</h4><p></p><h3 id=\"h.p_oA2vorc2DX7k\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">ADVANCE OPTIMIZATION THROUGH INTELLIGENT TECHNIQUES, AICTE Sponsored at SVNIT Surat on 16-20 June 2008 </font></h3><h3 id=\"h.p_dtH4qTVWwgGN\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">ADVANCE IN HEAT TRANSFER IN MECHANICAL ENGINEERING, ISTE approved at Parul Institute of Engineering and Technology , Vadodara  on 17- 21 November 2008</font></h3><h3 id=\"h.p_zH8GVZJ4whm9\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">ADVANCE IN MANUFACTURING, AICTE Sponsored at SVNIT Surat on 29th December 2008 to 2<span xss=\"removed\">nd</span> January 2009</font></h3><h3 id=\"h.p_P3p6ubVYwlBJ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">ENGINEERING DRAWING USING CAD, AICTE Sponsored at SVNIT, Surat on 23-27 November 2009 </font></h3><h3 id=\"h.p_Wo8uwaIZwoZ6\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">COMPUTER AIDED DESIGN AND MANUFACTURING by American Society of Mechanical Engineers (ASME) Anchor partnership with SVNIT, Surat on 20-21 December 2011. </font></h3><h3 id=\"h.p_xc6kJ5LGwqgC\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">ADVANCE FINITE ELEMENT ANALYSIS by American Society of Mechanical Engineers (ASME) Anchor partnership with SVNIT, Surat on 22-24 December 2011</font></h3><h3 id=\"h.p_etlgT8Newul4\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">INDUCTION TRAINING PHASE –I at NITTTR, Ext. Center, Ahmedabad on 15- 26 April 2013 </font></h3><h3 id=\"h.p_kAWjURV_wxDi\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">INDUCTION TRAINING PHASE –II at NITTTR, Ext. Center, GUJARAT on 2-13 December 2013</font></h3><h3 id=\"h.p_A38z66MOwzEZ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">KARMYOGI RESIDENTIAL TRAINING, Organized By CTE Gandhinagar  on 17-19 January 2014</font></h3><h3 id=\"h.p_OsAf_JnKw0x_\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">VAHIVATI TALIM   at SPIPA, Gandhinagar on 09-13 June 2014</font></h3><h3 id=\"h.p_kxK1Mr5_w2cz\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">ACADEMIC AND RESEARCH PAPER WRITING , at NITTTR, Ext. Center, Ahmedabad on 23-27 February 2015 </font></h3><h3 id=\"h.p__yLNUfahw4Ch\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">DEVELOPMENT OF LAB MANUAL AND PROJECT WORK FOR MECHANICAL ENGINEERING AND ALLIED PROGRAMS, at NITTTR, Ext. Center, Ahmedabad on 15-19 June 2015</font></h3><h3 id=\"h.p_BlHJDxOlw5sQ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">3D ANIMATION at NITTTR, BHOPAL 27 June to 8 July, 2017</font></h3><h3 id=\"h.p_QzG9NnE1w5wR\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#6600cc\">PORTFOLIO ASSESSMENTS, at NITTTR, Ext. Center, Ahmedabad 2-6 January 2017</font></h3><h3 id=\"h.p_hL3eRoAyw9xX\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font color=\"#cc33cc\">RESOURCE MANAGEMENT FOR MANUFACTURING SECTOR at NITTTR, Bhopal 3-14 July, 2017</font></h3><p></p>                                     </div>",
-          "<div id=\"tabs-8315\" aria-labelledby=\"ui-id-7\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">  <h4 class=\"f-tabs-vertical__title f-primary-b\">Portfolio</h4><p></p><div xss=\"removed\"><font face=\"Arial, Verdana\" color=\"#000099\" xss=\"removed\"><span xss=\"removed\"><b>Coordinator - C.O.E.</b></span></font></div><ol xss=\"removed\"><li xss=\"removed\"><font color=\"#6600cc\">To cultivate symbiotic relationship between college and industry.</font></li><li xss=\"removed\"><font color=\"#6600cc\">To provide ample opportunities for industry exposure to students and faculty through industry visits, summer internship and industry projects.</font></li><li xss=\"removed\"><font color=\"#6600cc\">Industry exposure to students and faculty.</font></li><li xss=\"removed\"><font color=\"#6600cc\">Students’ projects/dissertation work in industries under joint guidance of the faculty and experts from industry.</font></li></ol><div xss=\"removed\"><font face=\"Arial, Verdana\" color=\"#000099\" xss=\"removed\"><span xss=\"removed\"><b xss=\"removed\">Coordinator - Faculty </b><span xss=\"removed\"><b>Training</b></span><b xss=\"removed\">&nbsp; Monitoring Cell&nbsp;</b></span></font></div><div xss=\"removed\"><ol xss=\"removed\"><li xss=\"removed\"><font color=\"#cc33cc\" xss=\"removed\"><font face=\"Arial, Verdana\"><span xss=\"removed\">To assess the implementation of guidelines, circular letters, regulations and other directions made by the CTE, Gandhinagar, GTU and Institute for </span><span xss=\"removed\">Training</span><span xss=\"removed\">.&nbsp;</span></font></font></li></ol><div xss=\"removed\"><font color=\"#000099\" xss=\"removed\"><b>Departmental Duties</b></font></div><div xss=\"removed\"><ol xss=\"removed\"><li xss=\"removed\"><font color=\"#6633ff\" xss=\"removed\"><font face=\"Arial, Verdana\"><span xss=\"removed\">Faculty </span><span xss=\"removed\">Training</span><span xss=\"removed\">&nbsp;Monitoring Cell at Departmental Level</span></font></font></li></ol></div></div><div xss=\"removed\"><br></div><p></p>                                     </div>",
-          "<div id=\"tabs-25815\" aria-labelledby=\"ui-id-8\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">   <h4 class=\"f-tabs-vertical__title f-primary-b\">Research Papars</h4><p></p><h2 id=\"h.p_IdN5lqeTXVbM\" class=\"zfr3Q RuayVd\" xss=\"removed\"><font color=\"#006600\">PRIMARY RESEARCH AREA: </font></h2><h2 id=\"h.p__cie4FiFXeDd\" class=\"zfr3Q RuayVd\" xss=\"removed\"><i><font color=\"#660000\">Balancing Parameter of Spatial , Multi loop and single loop mechanism ( Variable  Input Speed)</font></i></h2><div xss=\"removed\"><br></div><div xss=\"removed\"><br></div><div xss=\"removed\"><h3 id=\"h.p_yLMhSmjVYOtj\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Analysis of Spatial Mechanism in dynamic equilibrium condition using MatLab” By K.V. Patel &amp; Dr. Anurag Verma at International Journal of Engineering Science and Technology (IJEST) ISSN: 0975-5462 </font></h3><h3 id=\"h.p_XQclcqimuvI4\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">“Analysis of Planner Kinematics Chain By Moment Matrix Method” By K.V. Patel &amp; S .J. Patel at International Journal of Design Engineering, Inderscience Publication, Switzerland. </font></h3><h3 id=\"h.p_tg6f6CrOuxw0\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“Analysis of Planner Kinematics Chain By Moment Matrix Method” By K.V. Patel   &amp;  S .J. Patel at International Conference on “Advance In Mechanical Engineering” on 15-17 Dec,2008 at SVNIT, Surat, Gujarat. </font></h3><h3 id=\"h.p_-ASlwexuu0BQ\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Optimization Of  Four Bar Linkages In Variable Input Speed With Kinematic And Dynamic Synthesis Using MatLab” By K.V. Patel &amp; S .J. Patel at International Conference on “Advance In Mechanical Engineering” on 15-17 Dec,2008 at SVNIT, Surat, Gujarat.</font></h3><h3 id=\"h.p_ZNkVDP7Au14c\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">\" Evolution of Efficiency of Flat panel used in coal mining industry- A Case study \"   B. P. Patel &amp; K. V. Patel on 3-5 August -2009 At SVNIT, Surat, Gujarat. </font></h3><h3 id=\"h.p_wtHEepDGu4cU\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“Moment matrix method for selection of planar kinematics chains.” By S. J. Patel &amp; K.V. Patel at National Conference on Mechanical Engineering Department -Emerging trends in Mechanical Engineering, Vallabh Vidhyanagar, Gujarat on 28-29 March 2008. \"</font></h3><h3 id=\"h.p_y4lZaFM6u7Fi\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\">“Kinematics synthesis &amp; optimizations of four bar linkages Using Mat lab in variable input speed.” By K.V. Patel &amp; S. J. Patel at National Conference on Mechanical Engineering Department -Emerging trends in mechanical engineering, Vallabh Vidhyanagar, Gujarat on 28-29 March 2008.</font></h3><h3 id=\"h.p_th1xq9aou--s\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#6600cc\">“A Novel Approach For Selection of Production Plant layout in Manufacturing Environment using MADM method: Strategy case Study” By  K. V. Patel, S J. Patel &amp; B. D. Prajapati at National Conference on “Advancement and Futuristic Trend In Mechanical Engineering” on 20<span xss=\"removed\">th</span> Nov-2008 at Rajkot.</font></h3><h3 id=\"h.p_mlGpJxBTvKoA\" class=\"zfr3Q OmQG5e\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\">“A Novel Approach For Selection of Material In  Manufacturing  Environment using MADM method: Strategy case Study “ By K. V. Patel at 3<span xss=\"removed\">rd</span> National Conference on Recent Development In Mechanical Engineering” on 14-15 Nov-2008 at Thapar University, Patiala.</font></h3></div><p></p>                                     </div>",
-          "<div id=\"tabs-25832\" aria-labelledby=\"ui-id-9\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\"> <h4 class=\"f-tabs-vertical__title f-primary-b\">Book Publication </h4><p></p><h2 id=\"h.p_LJpDREW9vrxC\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\" face=\"Arial\">“WORKSHOP TECHNOLOGY “ AUTHOR K. V. PATEL PRACTICE MANUAL FOR FIRST YEAR DEGREE AND DIPLOMA STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN</font></h2><p id=\"h.p_IYbYIY7LvuQT\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p__FEJLyksvucG\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#006600\" face=\"Arial\">“ELEMENTS OF MECHANICAL ENGINEERING “ AUTHOR K. V. PATEL FOR FIRST YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN , ISBN 8189736027</font></h2><p id=\"h.p_RxMlWX5gvwgV\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_sSaGAtF8vwmL\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#cc33cc\" face=\"Arial\">“MANUFACTURING PROCESS-I \" AUTHOR K. V. PATEL FOR SECOND YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN</font></h2><p id=\"h.p_X7vD52PSeFKY\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_uAOlXwq-dre9\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#660000\" face=\"Arial\">\"PRODUCT DESIGN AND VALUE ENGINEERING \" AUTHOR K. V. PATEL FOR THE FINAL YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN.</font></h2><p id=\"h.p_vC2SNIhSNvvU\" class=\"zfr3Q\" xss=\"removed\"><br xss=\"removed\"></p><h2 id=\"h.p_jWxUlde6Nv--\" class=\"zfr3Q JYVBee\" xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\" face=\"Arial\">\"OPERATION RESEARCH \" AUTHOR K. V. PATEL FOR THE FINAL YEAR DEGREE STUDENT AS PER GTU SYLLABUS IN ATUL PRAKASAN. ISBN No.&nbsp; &nbsp;978-93-85173-07-3</font></h2><div xss=\"removed\"><font size=\"3\" xss=\"removed\" color=\"#000099\"><br></font></div><div xss=\"removed\"><font xss=\"removed\" size=\"1\" face=\"Arial\" color=\"#6600cc\"><h2 id=\"h.p_m9UzdfybiKW6\" class=\"CDt4Ke zfr3Q JYVBee\" tabindex=\"-1\" xss=\"removed\"><div jscontroller=\"Ae65rd\" jsaction=\"touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;\" class=\"CjVfdc\" xss=\"removed\">\"MANUFACTURING PROCESSES\" SUB CODE:3141908, AUTHOR PROF. K. V. PATEL FOR THE 4TH SEMESTER B.E. MECHANICAL STUDENT AS PER NEW REVISED GTU SYLLABUS. ISBN 978-93-85138-48-5</div></h2></font></div><p></p></div>",
-          "<div id=\"tabs-46692\" aria-labelledby=\"ui-id-10\" class=\"ui-tabs-panel ui-widget-content ui-corner-bottom\" role=\"tabpanel\" aria-hidden=\"false\" style=\"display: block;\">   <h4 class=\"f-tabs-vertical__title f-primary-b\">Faculty Training Monitoring Cell</h4><p></p><div xss=\"removed\"><span xss=\"removed\"><font face=\"Arial Black\" xss=\"removed\" color=\"#660000\"><b xss=\"removed\">All Other Department Staff </b><span xss=\"removed\"><b>Training</b></span><b xss=\"removed\">&nbsp;Data</b></font></span></div><span xss=\"removed\"><font xss=\"removed\"><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><span xss=\"removed\"><a href=\"https://www.cognitoforms.com/GECPATAN3/TrainingData\" xss=\"removed\"><b xss=\"removed\"><font face=\"Arial\" xss=\"removed\">https://www.cognitoforms.com/GECPATAN3/TrainingData</font></b></a></span></div><div xss=\"removed\"><b xss=\"removed\"><font color=\"#006600\"><br></font></b></div><div xss=\"removed\"><b xss=\"removed\"><font xss=\"removed\" face=\"Arial Black\" color=\"#000099\"><br></font></b></div><font xss=\"removed\" face=\"Arial Black\" color=\"#000099\"><b xss=\"removed\">M</b><b xss=\"removed\">echanical Department Faculty Detail</b></font></font></span><div xss=\"removed\"><b><font color=\"#000099\"><br></font></b></div><div xss=\"removed\"><font face=\"Arial, Verdana\" color=\"#cc0000\"><span xss=\"removed\"><b xss=\"removed\"><a href=\"https://www.cognitoforms.com/GECPL1/FacultyTrainingMonitoring\">https://www.cognitoforms.com/GECPL1/FacultyTrainingMonitoring</a></b></span></font></div><p></p></div>"
-        ]
+      "Department": "Mechanical",
+      "Contact": "+91-9913663600",
+      "Email": "kaushik.patel@gecpatan.ac.in"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "Ph.D",
+        "Specialization": "Mechanical",
+        "Year": "2022"
       },
-      "PersonalDetails": {
-        "Name": "Mr. Kaushikkumar Patel",
-        "Designation": "Assistant Professor",
-        "Department": "Mechanical ",
-        "Contact": "",
-        "Email": "kaushik.patel@gecpatan.ac.in"
+      {
+        "Degree": "M.E.",
+        "Specialization": "Machine Design",
+        "Year": "2007"
       },
-      "EducationalQualifications": [
-        {
-          "Degree": "M.E.",
-          "Year": "2007",
-          "Specialization": "Machine  Design"
-        },
-        {
-          "Degree": "B.E.",
-          "Year": "2002",
-          "Specialization": "Mechanical"
-        }
-  
-      ],
-      "ProfessionalExperiences": [
-        {
-          "Position": "Lecturer",
-          "Organization": "B.S.Patel Polytechnic , Ganpat Vidhyanagar , Kherva ",
-          "Duration": "21-12-2005 to 29-04-2011"
-        },
-        {
-          "Position": "Assistat Professor",
-          "Organization": "Government Engineering College, Palanpur ",
-          "Duration": "30-April 2011 to  05 Dec-2018 "
-        },
-        {
-          "Position": "Assistant Professor",
-          "Organization": "Government Engineering College, Patan ",
-          "Duration": "06 Dec-2018 to Present"
-  
-        }
-      ],
+      {
+        "Degree": "B.E.",
+        "Specialization": "Mechanical",
+        "Year": "2002"
+      }
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Lecturer",
+        "Organization": "B S Patel Polytechnic, Ganpat Vidhyanagar, Kherva",
+        "Duration": "21-12-2005 to 29-04-2011"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College Palanpur",
+        "Duration": "30-04-2011 to 05-12-2018"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College Patan",
+        "Duration": "06-12-2018 to Present"
+      }
+    ],
       "TrainingAndWorkshops": [
         {
-          "Title": "ADVANCE OPTIMIZATION THROUGH INTELLIGENT TECHNIQUES",
-          "OrganizedBy": "AICTE Sponsored, SVNIT Surat",
-          "Date": "16-06-2008 to 20-06-2008"
+          "Title": "INDUCATION TRAINING PHASE -II",
+          "OrganizedBy": "K.D.POLYTECHNIC , PATAN",
+          "Date": "02-12-2013 to 13-12-2013"
         },
         {
-          "Title": "ADVANCE IN HEAT TRANSFER IN MECHANICAL ENGINEERING",
-          "OrganizedBy": "ISTE approved, Parul Institute of Engineering and Technology, Vadodara",
-          "Date": "17-11-2008 to 21-11-2008"
-        },
-        {
-          "Title": "ADVANCE IN MANUFACTURING",
-          "OrganizedBy": "AICTE Sponsored, SVNIT Surat",
-          "Date": "29-12-2008 to 02-01-2009"
-        },
-        {
-          "Title": "ENGINEERING DRAWING USING CAD",
-          "OrganizedBy": "AICTE Sponsored, SVNIT Surat",
-          "Date": "23-11-2009 to 27-11-2009"
-        },
-        {
-          "Title": "COMPUTER AIDED DESIGN AND MANUFACTURING",
-          "OrganizedBy": "American Society of Mechanical Engineers (ASME), SVNIT Surat",
-          "Date": "20-12-2011 to 21-12-2011"
-        },
-        {
-          "Title": "ADVANCE FINITE ELEMENT ANALYSIS",
-          "OrganizedBy": "American Society of Mechanical Engineers (ASME), SVNIT Surat",
-          "Date": "22-12-2011 to 24-12-2011"
-        },
-        {
-          "Title": "INDUCTION TRAINING PHASE –I",
+          "Title": "INDICATION TRAINING PHASE -I",
           "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
           "Date": "15-04-2013 to 26-04-2013"
         },
         {
-          "Title": "INDUCTION TRAINING PHASE –II",
-          "OrganizedBy": "NITTTR, Ext. Center, Gujarat",
-          "Date": "02-12-2013 to 13-12-2013"
-        },
-        {
           "Title": "KARMYOGI RESIDENTIAL TRAINING",
-          "OrganizedBy": "CTE Gandhinagar",
+          "OrganizedBy": "SWAMINARAYAN DHAM, GANDHINAGAR",
           "Date": "17-01-2014 to 19-01-2014"
         },
         {
           "Title": "VAHIVATI TALIM",
-          "OrganizedBy": "SPIPA, Gandhinagar",
+          "OrganizedBy": "SPIPA, GANDHINAGAR",
           "Date": "09-06-2014 to 13-06-2014"
-        },
-        {
-          "Title": "ACADEMIC AND RESEARCH PAPER WRITING",
-          "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
-          "Date": "23-02-2015 to 27-02-2015"
         },
         {
           "Title": "DEVELOPMENT OF LAB MANUAL AND PROJECT WORK FOR MECHANICAL ENGINEERING AND ALLIED PROGRAMS",
@@ -6717,12 +6685,17 @@
           "Date": "15-06-2015 to 19-06-2015"
         },
         {
-          "Title": "3D ANIMATION",
-          "OrganizedBy": "NITTTR, Bhopal",
-          "Date": "27-06-2017 to 08-07-2017"
+          "Title": "ACADEMIC AND RESEARCH PAPER WRITING",
+          "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
+          "Date": "23-02-2015 to 27-02-2015"
         },
         {
-          "Title": "PORTFOLIO ASSESSMENTS",
+          "Title": "3D ANIMATION",
+          "OrganizedBy": "NITTTR, Bhopal",
+          "Date": "27-06-2016 to 08-07-2016"
+        },
+        {
+          "Title": "Portfolio Assessment",
           "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
           "Date": "02-01-2017 to 06-01-2017"
         },
@@ -6730,33 +6703,162 @@
           "Title": "RESOURCE MANAGEMENT FOR MANUFACTURING SECTOR",
           "OrganizedBy": "NITTTR, Bhopal",
           "Date": "03-07-2017 to 14-07-2017"
+        },
+        {
+          "Title": "Faculty Development Program",
+          "OrganizedBy": "IITE Gandhinagar",
+          "Date": "14-11-2019 to 20-11-2019"
+        },
+        {
+          "Title": "Recent Trend in Automobile",
+          "OrganizedBy": "NITTTR, Ext. Center, Ahmedabad",
+          "Date": "24-02-2020 to 28-02-2020"
+        },
+        {
+          "Title": "UDAYAM (Unlimited Digital Advanced Yearlong Academic Method of Learning) E-Content Development Course",
+          "OrganizedBy": "Online",
+          "Date": "28-07-2020 to 18-08-2020"
+        },
+        {
+          "Title": "Comprehensive Online Intellectual Property Rights (IPR)",
+          "OrganizedBy": "Online",
+          "Date": "06-07-2020 to 14-09-2020"
+        },
+        {
+          "Title": "EFFECTIVE USE OF OFFICE SOFTWARE",
+          "OrganizedBy": "NITTTR, Bhopal- Online Mode",
+          "Date": "05-07-2021 to 09-07-2021"
+        },
+        {
+          "Title": "WORK ETHICS, MOTIVATIONAL CLIMATE AND ATTITUDE DEVELOPMENT",
+          "OrganizedBy": "NITTTR, Bhopal- Online Mode",
+          "Date": "11-10-2021 to 15-10-2021"
+        },
+        {
+          "Title": "Student Assessment",
+          "OrganizedBy": "SWAYAM ONLINE COURSE",
+          "Date": "Jan 2023 to Jun 2023"
+        },
+        {
+          "Title": "Yoga and Positive Psychology for Managing Career and Life",
+          "OrganizedBy": "NPTEL -SWAYAM ONLINE COURSE",
+          "Date": "Aug 2023 to Oct 2023"
+        },
+        {
+          "Title": "Alternate fuels and Electric vehicle",
+          "OrganizedBy": "ATAL- LDCE Ahmedabad",
+          "Date": "18-12-2023 to 23-12-2023"
+        },
+        {
+          "Title": "Leadership and Team Effectiveness",
+          "OrganizedBy": "NPTEL -SWAYAM ONLINE COURSE",
+          "Date": "Jan 2024 to Apr 2024"
+        },
+        {
+          "Title": "Industrial Training- Bharat Horans",
+          "OrganizedBy": "Mehsana",
+          "Date": "17-06-2024 to 29-06-2024"
+        },
+        {
+          "Title": "Industrial Training- APS",
+          "OrganizedBy": "Prantij",
+          "Date": "09-07-2024 to 23-07-2024"
         }
       ],
+
       "Publications": [
-        {
-          "SrNo": 1,
-          "Title": "WORKSHOP TECHNOLOGY - K. V. PATEL, Practice manual for first year degree and diploma students as per GTU syllabus, Atul Prakasan"
-        },
-        {
-          "SrNo": 2,
-          "Title": "ELEMENTS OF MECHANICAL ENGINEERING - K. V. PATEL, For first year degree students as per GTU syllabus, Atul Prakasan, ISBN 8189736027"
-        },
-        {
-          "SrNo": 3,
-          "Title": "MANUFACTURING PROCESS-I - K. V. PATEL, For second year degree students as per GTU syllabus, Atul Prakasan"
-        },
-        {
-          "SrNo": 4,
-          "Title": "PRODUCT DESIGN AND VALUE ENGINEERING - K. V. PATEL, For final year degree students as per GTU syllabus, Atul Prakasan"
-        },
-        {
-          "SrNo": 5,
-          "Title": "OPERATION RESEARCH - K. V. PATEL, For final year degree students as per GTU syllabus, Atul Prakasan, ISBN 978-93-85173-07-3"
-        },
-        {
-          "SrNo": 6,
-          "Title": "MANUFACTURING PROCESSES - PROF. K. V. PATEL, For 4th semester B.E. Mechanical students as per new revised GTU syllabus, Atul Prakasan, ISBN 978-93-85138-48-5"
-        }
+          {
+            "SrNo": 1,
+            "Title": "Design and dynamic balancing of multi-loop spatial mechanism-A Review - International Journal for Research in Engineering Application & Management (IJREAM), Jan 2019"
+          },
+          {
+            "SrNo": 2,
+            "Title": "An Application of Jacobian Matrix in Kinematic of Multi-loop Spatial Mechanism - International Journal of Innovative Technology and Exploring Engineering (IJITEE), Oct 2019"
+          },
+          {
+            "SrNo": 3,
+            "Title": "Modeling and dynamic analysis of multi-loop RSSR-SS parallel manipulator - Materials Today: Proceedings, 2022"
+          },
+          {
+            "SrNo": 4,
+            "Title": "Evaluation of different approach for WEDM process optimization - Materials Today: Proceedings, 2022"
+          },
+          {
+            "SrNo": 5,
+            "Title": "Design and performance evaluation of inverted downdraft biomass gasifier cook stove for improving the kitchen environment of rural area - Applied Chemical Engineering, 2024"
+          },
+          {
+            "SrNo": 6,
+            "Title": "Development of thermodynamic relation for mean density of mixture in the risers of natural circulation boilers - Applied Chemical Engineering, 2024"
+          },
+          {
+            "SrNo": 7,
+            "Title": "Analysis of Spatial Mechanism in dynamic equilibrium condition using MatLab - International Journal of Engineering Science and Technology (IJEST)"
+          },
+          {
+            "SrNo": 8,
+            "Title": "Analysis of Planner Kinematics Chain By Moment Matrix Method - International Journal of Design Engineering, Inderscience Publication"
+          },
+          {
+            "SrNo": 9,
+            "Title": "Analysis of Planner Kinematics Chain By Moment Matrix Method - International Conference on Advances in Mechanical Engineering, SVNIT Surat, 2008"
+          },
+          {
+            "SrNo": 10,
+            "Title": "Optimization Of Four-Bar Linkages In Variable Input Speed With Kinematic And Dynamic Synthesis Using MatLab - International Conference on Advances in Mechanical Engineering, SVNIT Surat, 2008"
+          },
+          {
+            "SrNo": 11,
+            "Title": "Evolution of Efficiency of Flat panel used in coal mining industry- A Case study - SVNIT Surat, 2009"
+          },
+          {
+            "SrNo": 12,
+            "Title": "Moment matrix method for selection of planar kinematics chains - National Conference on Emerging Trends in Mechanical Engineering, Vallabh Vidyanagar, 2008"
+          },
+          {
+            "SrNo": 13,
+            "Title": "Kinematics synthesis & optimizations of four-bar linkages Using Mat lab in variable input speed - National Conference on Emerging Trends in Mechanical Engineering, Vallabh Vidyanagar, 2008"
+          },
+          {
+            "SrNo": 14,
+            "Title": "A Novel Approach For Selection of Production Plant layout in Manufacturing Environment using MADM method: Strategy case Study - National Conference on Advancement and Futuristic Trends in Mechanical Engineering, Rajkot, 2008"
+          },
+          {
+          "SrNo": 15,
+          "Title": "A Novel Approach For Selection of Material In Manufacturing Environment using MADM method: Strategy case Study - 3rd National Conference on Recent Developments in Mechanical Engineering, Thapar University, Patiala, 2008"
+           },
+          {
+            "SrNo": 16,
+            "Title": "Workshop Technology - Practice Manual for First Year Degree and Diploma Students as per GTU Syllabus, Atul Prakashan"
+          },
+          {
+            "SrNo": 17,
+            "Title": "Elements of Mechanical Engineering - For First Year Degree Students as per GTU Syllabus, Atul Prakashan, ISBN 8189736027 (2015-16)"
+          },
+          {
+            "SrNo": 18,
+            "Title": "Manufacturing Process-I - For Second Year Degree Students as per GTU Syllabus, Atul Prakashan (2015-16)"
+          },
+          {
+            "SrNo": 19,
+            "Title": "Product Design and Value Engineering - For Final Year Degree Students as per GTU Syllabus, Atul Prakashan, ISBN 978-93-85173-25-7 (2018-19)"
+          },
+          {
+            "SrNo": 20,
+            "Title": "Operation Research - For Final Year Degree Students as per GTU Syllabus, Atul Prakashan, ISBN 978-93-85173-07-3 (2018-19)"
+          },
+          {
+            "SrNo": 21,
+            "Title": "Manufacturing Processes - Sub Code: 3141908, For 4th Semester B.E. Mechanical Students as per GTU Syllabus, Atul Prakashan, ISBN 978-93-85138-48-5 (2020-21)"
+          },
+          {
+            "SrNo": 22,
+            "Title": "Manufacturing Technology - Sub Code: 3151912, For 5th Semester B.E. Mechanical Students as per GTU Syllabus, Atul Prakashan, ISBN 978-93-85138-34-8 (2020-21)"
+          },
+          {
+            "SrNo": 23,
+            "Title": "Manufacturing Process-I - Sub Code: 2131903, For Second Year Degree Students as per GTU Syllabus, Atul Prakashan, ISBN 978-93-85138-48-5 (2016-17) Revised Edition"
+          }
       ]
     },
     {

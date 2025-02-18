@@ -1,3 +1,4 @@
+
 @model List<MenuVM>
 @{
     var currentController = ViewBag.CurrentController?.ToString();
@@ -5,15 +6,14 @@
     var dynamicID = ViewBag.DynamicID as int?;
 }
 
-
 <div class="full-container">
     <!-- Navigation Menu -->
     <div class="menu_main_full2">
         <div class="navbar yamm navbar-default">
             <div class="navbar-header">
-                <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1">
+                <div class="navbar-toggle .navbar-collapse .pull-right" data-toggle="collapse" data-target="#navbar-collapse-1">
                     <span>Menu</span>
-                    <button type="button"> <i class="fa fa-bars"></i></button>
+                    <button type="button"><i class="fa fa-bars"></i></button>
                 </div>
             </div>
 
@@ -22,37 +22,67 @@
                     <ul class="nav navbar-nav">
                         @foreach (var item in Model.Where(m => m.isVisible).OrderBy(m => m.position))
                         {
-                            if (item.ChildMenuVMs.Where(m => m.isVisible).Count() > 0)
+                            if (item.ChildMenuVMs.Where(m => m.isVisible).Any())
                             {
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle ">
+                                    <a href="#" class="dropdown-toggle">
                                         @item.MenuText
                                     </a>
                                     <ul class="dropdown-menu" role="menu">
                                         @foreach (var childItem in item.ChildMenuVMs.Where(m => m.isVisible).OrderBy(m => m.position))
                                         {
-                                            @if (childItem.dynamicID != null)
+                                            @if (childItem.ChildMenuVMs != null && childItem.ChildMenuVMs.Any(m => m.isVisible))
                                             {
-                                                <li class="">
-                                                    <a href="@Url.Action(childItem.ActionName, childItem.ControllerName, new { id = childItem.dynamicID })">
-                                                        @childItem.MenuText
-                                                    </a>
-                                                </li>
-                                            }
-                                            else if (!string.IsNullOrWhiteSpace(childItem.Link))
-                                            {
-                                                <li class="">
-                                                    <a href="@childItem.Link" target="_blank">
-                                                        @childItem.MenuText
-                                                    </a>
+                                                <li class="dropdown-submenu">
+                                                    <a href="#">@childItem.MenuText</a>
+                                                    <ul class="dropdown-menu">
+                                                        @foreach (var subChild in childItem.ChildMenuVMs.Where(m => m.isVisible).OrderBy(m => m.position))
+                                                        {
+                                                            <li>
+                                                                @if (subChild.dynamicID != null)
+                                                                {
+                                                                    <a href="@Url.Action(subChild.ActionName, subChild.ControllerName, new { id = subChild.dynamicID })">
+                                                                        @subChild.MenuText
+                                                                    </a>
+                                                                }
+                                                                else if (!string.IsNullOrWhiteSpace(subChild.Link))
+                                                                {
+                                                                    <a href="@subChild.Link" target="_blank">
+                                                                        @subChild.MenuText
+                                                                    </a>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <a href="@Url.Action(subChild.ActionName, subChild.ControllerName)">
+                                                                        @subChild.MenuText
+                                                                    </a>
+                                                                }
+                                                            </li>
+                                                        }
+                                                    </ul>
                                                 </li>
                                             }
                                             else
                                             {
-                                                <li class="">
-                                                    <a href="@Url.Action(childItem.ActionName, childItem.ControllerName)">
-                                                        @childItem.MenuText
-                                                    </a>
+                                                <li>
+                                                    @if (childItem.dynamicID != null)
+                                                    {
+                                                        <a href="@Url.Action(childItem.ActionName, childItem.ControllerName, new { id = childItem.dynamicID })">
+                                                            @childItem.MenuText
+                                                        </a>
+                                                    }
+                                                    else if (!string.IsNullOrWhiteSpace(childItem.Link))
+                                                    {
+                                                        <a href="@childItem.Link" target="_blank">
+                                                            @childItem.MenuText
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a href="@Url.Action(childItem.ActionName, childItem.ControllerName)">
+                                                            @childItem.MenuText
+                                                        </a>
+                                                    }
                                                 </li>
                                             }
                                         }
@@ -64,13 +94,13 @@
                                 <li class="dropdown yamm-fw">
                                     @if (string.IsNullOrWhiteSpace(item.ActionName))
                                     {
-                                        <a href="javascript:void(0)" class="">
+                                        <a href="javascript:void(0)">
                                             @item.MenuText
                                         </a>
                                     }
                                     else
                                     {
-                                        <a href="@Url.Action(item.ActionName, item.ControllerName)" class="dropdown-toggle ">
+                                        <a href="@Url.Action(item.ActionName, item.ControllerName)" class="dropdown-toggle">
                                             @item.MenuText
                                         </a>
                                     }
@@ -80,6 +110,9 @@
                     </ul>
                 </nav>
             </div>
+                   
+            </div>
         </div>
     </div>
-</div>
+
+

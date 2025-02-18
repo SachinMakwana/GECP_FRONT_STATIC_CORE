@@ -86,7 +86,16 @@ namespace GECP_Front_End_Static.Controllers
             // var Stud = Students.Where(m => m.ID == id).FirstOrDefault();
             return View(student);
         }
-        public IActionResult CenterOfExcellence()
+		public IActionResult Description(int id1, int id2)
+		{
+			var student = StudentVMs.FirstOrDefault(m => m.ID == id1);
+
+			var club = student.Clubs.FirstOrDefault(m => m.ID == id2);
+
+			return View(club);
+		}
+
+		public IActionResult CenterOfExcellence()
         {
             return View(COEVM);
         }

@@ -64,20 +64,20 @@
 
 <div class="featured_section48">
 	<div class="container">
-		@foreach (var factor in Model.Clubs)
+		@foreach (var item in Model.Clubs)
 		{
 			<div class="one_fourth animate @(count%4==0?"last":"")" data-anim-type="fadeInUp" data-anim-delay="100">
 
-				<img src="@Url.Content(factor.Icon)" alt="" class="hieght-150">
+				<img src="@Url.Content(item.Icon)" alt="" class="hieght-150">
 
-				<h5>@factor.Title</h5>
-				@if (factor.IsDynamic)
+				<h5>@item.Title</h5>
+				@if (item.IsDynamic)
 				{
-					<h5><a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@factor))">Read More</a></h5>
+					<h5><a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf(@Newtonsoft.Json.JsonConvert.SerializeObject(@item))">Read More</a></h5>
 				}
 				else
 				{
-					<h5><a href="@Url.Action(factor.ActionName,factor.ControllerName)" class="btn btn-success">Read More</a></h5>
+					<h5><a href="@Url.Action(item.ActionName,item.ControllerName, new{id1 = Model.ID ,id2 = item.ID})" class="btn btn-success">Read More</a></h5>
 				}
 			</div>
 			@if (count % 4 == 0)
@@ -105,6 +105,7 @@
 			<div class="two_third last">
 					<p class="card-text text-justify" id="clubAbout"></p>
 			</div>
+			<div class="clearfix"></div>
 			<div id="imagegallery"></div>
 	</div>
 	<!-- </div> -->
@@ -143,6 +144,9 @@
 
 			/* Open popup */
 			$(popup).show();
+
+			/* Remove chidren of imagegallery*/
+			$("#imagegallery").empty();
 
 			/* Close popup if user clicks on background */
 			$(popup).click(function (e) {

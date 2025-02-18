@@ -12,7 +12,7 @@
         "Type": 0,
         "Dept": "CSE",
         "DeptID": 2,
-        "Keywords": "CSE,NSS",
+        "Keywords": "CSE, NSS",
         "Year": 2024
     },
     {
@@ -24,7 +24,7 @@
         "Type": 0,
         "Dept": "CSE",
         "DeptID": 2,
-        "Keywords": "CSE,NSS",
+        "Keywords": "CSE, NSS",
         "Year": 2024
     },
     {
@@ -36,7 +36,7 @@
         "Type": 0,
         "Dept": "CSE",
         "DeptID": 2,
-        "Keywords": "CSE,NSS, Electrical",
+        "Keywords": "CSE, NSS, Electrical",
         "Year": 2024
     },
     {
@@ -48,7 +48,7 @@
         "Type": 0,
         "Dept": "CSE",
         "DeptID": 2,
-        "Keywords": "CSE,NSS, Yoddhha",
+        "Keywords": "CSE, NSS, Yoddhha",
         "Year": 2024
     }
 

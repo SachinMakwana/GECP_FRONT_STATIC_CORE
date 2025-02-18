@@ -343,22 +343,30 @@
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Fostering Trust Through <b>Transparency.”</b></h1>",
         "BlogLink": "",
         "Members": [
-            {
-                "ID": 1,
-                "Name": "Dr. D. K. Patel",
-                "Position": "Converner",
-                "Image": "~/images/Faculty/502.jpg",
-                "Email": "dinesh.patel@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. V. K. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/512.jpg",
-                "Email": "vipul.patel@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            }
+          {
+            "ID": 1,
+            "Name": "Dr. B. J. Shah",
+            "Position": "Principal (PRIMARY APPELLATE)",
+            "Image": "~/images/Faculty/701.jpg",
+            "Email": "principal@gecpatan.ac.in",
+            "Department": "Administrative"
+          },
+          {
+            "ID": 1,
+            "Name": "Dr. D. K. Patel",
+            "Position": "RTI Officer",
+            "Image": "~/images/Faculty/502.jpg",
+            "Email": "dinesh.patel@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+          },
+          {
+            "ID": 2,
+            "Name": "Prof. V. K. Patel",
+            "Position": "Member",
+            "Image": "~/images/Faculty/512.jpg",
+            "Email": "vipul.patel@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+          }
         ]
     },
 
@@ -438,6 +446,66 @@
         ]
     },
 
+  {
+    "ID": 10,
+    "Title": "Gymkhana",
+    "TitleImage": "",
+    "TitleImageCSSClass": "anti_ragging_title",
+    "About": "The Student Section Committee enhances the student experience by fostering growth, innovation, and collaboration. Through active participation, students develop knowledge, skills, and leadership abilities while contributing to their institution’s progress. It serves as a platform for academic, technical, and extracurricular development, preparing students for future challenges and opportunities.",
+    "Measures": "The Student Section Committee ensures effectiveness through structured measures like leadership training, regular feedback, event evaluations, mentorship programs, industry collaborations, and academic workshops. It promotes inclusivity, transparency, teamwork, and innovation. Performance assessments, student engagement surveys, and strategic planning further enhance its impact, ensuring continuous improvement and institutional growth.",
+    "Measure_Image": "~/images/CampusCommittee/StudentSection/student_section_small.png",
+    "Vision": [
+      "To foster a dynamic and inclusive student community that nurtures leadership, innovation, and holistic development. "
+    ],
+    "Mission": [
+      "To Provide opportunities for students to develop leadership skills through active participation in committee activities.",
+      "To  Balance academic, technical, cultural, and social activities for overall student growth.",
+      "To Conduct regular events, discussions, and interactive sessions to keep students actively involved."
+    ],
+    "SubObjectives": [
+
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“ Empowering Students, Inspiring Growth, <b>Shaping Futures.”</b></h1>",
+    "BlogLink": "",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. G. A. Patel",
+        "Position": "President",
+        "Image": "~/images/Faculty/HOD/301.jpg",
+        "Email": "hod.electrical@gecpatan.ac.in",
+        "Department": "Electrical Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Dr. N. A. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/509.jpg",
+        "Email": "narendra.patel@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 3,
+        "Name": "Prof. Hiral Y. Rathod",
+        "Position": "Member",
+        "Image": "~/images/Faculty/1000.jpg",
+        "Email": "",
+        "Department": "Computer Science & Engineering Department"
+      },
+      {
+        "ID": 4,
+        "Name": "Prof. Anju M. Vasdwani",
+        "Position": "Member",
+        "Image": "~/images/Faculty/109.jpg",
+        "Email": "amvgec@gmail.com",
+        "Department": "Electronics & Communications Engineering Department"
+      }
+    ]
+  },
     //Student Section
     {
         "ID": 8,
