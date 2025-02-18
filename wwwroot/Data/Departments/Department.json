@@ -220,24 +220,48 @@
       "To generate high standards of moral and ethical values among the graduates, this will help in transforming them as responsible citizen of the nation."
     ],
     "Labs": [
-      //{
-      //    "LabID": 11,
-      //    "Lab_Image": "",
-      //    "Lab_Name": "",
-      //    "Lab_Details": ""
-      //},
-      //{
-      //    "LabID": 11,
-      //    "Lab_Image": "",
-      //    "Lab_Name": "",
-      //    "Lab_Details": ""
-      //},
-      //{
-      //    "LabID": 11,
-      //    "Lab_Image": "",
-      //    "Lab_Name": "",
-      //    "Lab_Details": ""
-      //}
+      {
+        "LabID": 11,
+        "Lab_Image": "~/images/Department/Electrical/BEE_LAB.JPEG",
+        "Lab_Name": "Basics Of Electrical Engineering  Lab",
+        "Lab_Details": "To make students understand basics of Electrical Engineering A.C & D.C. Power and conduction of simple experiments "
+      },
+      {
+        "LabID": 12,
+        "Lab_Image": "~/images/Department/Electrical/ELE MC LAB - Gunvant Patel.JPEG",
+        "Lab_Name": "Electrical Machines Lab",
+        "Lab_Details": "To make students understand basics, testing, performance characteristics, speed control of various electric machines The laboratory is equipped with basic and advanced electrical machines. Major Equipments are 1-Phase and 3-Phase transformer, 1-phase and 3-phase variac, Induction machines, DC machines , Synchronous machines, lamp banks, various measuring meters, cut section of machines to demonstrate various parts of machines, various Resistive, Inductive and Capacitive load banks etc."
+      },
+      {
+        "LabID": 13,
+        "Lab_Image": "~/images/Department/Electrical/HV-Lab - Gunvant Patel.jpeg",
+        "Lab_Name": "High Voltage Engineering Laboratory",
+        "Lab_Details": "This laboratory is designed to provide platform for basic studies and to give boost to research in Insulation studies. Major Equipments are Oil testing kit, kit for measurement of dielectric strength of solid, Horn-gap arrester, Electrolytic tank, Sphere-Gap assembly, High-voltage transformer with control panel, High-Voltage rectifier etc."
+      },
+      {
+        "LabID": 14,
+        "Lab_Image": "~/images/Department/Electrical/Power System Protection Lab - Gunvant Patel.jpeg",
+        "Lab_Name": "Switchgear and Protection Laboratory",
+        "Lab_Details": "To make students familiar with the working of various switchgear equipment used for power system protection and performance of these equipments. Major Equipments are Transmission Line Simulator with Protection system, Microcontroller based Distance Relay trainer, Microcontroller based Over Current relay trainer, various Circuit breaker for demonstration."
+      },
+      {
+        "LabID": 15,
+        "Lab_Image": "~/images/Department/Electrical/Electronics Lab - Gunvant Patel (2).jpeg",
+        "Lab_Name": "Electronics Laboratory",
+        "Lab_Details": "Major Equipments are Experimental setups for power electronics Applications such as PWM Inverters, V-I Characteristics of IGBT, SCR, UJT & MOSFET trainer, A.C. voltage controllers, Cyclo-converter, Chopper controlled DC drives, Chopper trainer, Single phase dual converter, Gate/Base triggering circuit trainer, Digital Storage Scopes - 60 MHz and 200 MHz with high voltage differential probe, AC to DC regulated dual power supplies, Measurement panel includes CRO, function generator, regulated DC power supply. "
+      },
+      {
+        "LabID": 16,
+        "Lab_Image": "~/images/Department/Electrical/Electrical Measurement Lab - Gunvant Patel.jpeg",
+        "Lab_Name": "Network, Measurement and Instrumentation Lab",
+        "Lab_Details": "The Network,measurement and Instrumentation laboratory is located at L204 L block Electrical department. It is equipped with various experimental setups of bridges for measuring R,L,C, thermocouples, LVDT, Strain guage, ultrasonic distance measurement and other measuring instruments which enhances students knowledge in the field of measurement of electrical parameters."
+      },
+      {
+        "LabID": 17,
+        "Lab_Image": "~/images/Department/Electrical/Computer Lab - Gunvant Patel.jpeg",
+        "Lab_Name": "Computer Lab",
+        "Lab_Details": "To provide programming,stimulation and modelling on technical software like MATLAB,SCILAB etc on computer. The goal of a computer lab is to teach students of each semester efficiently and effectively. The computer lab is designed to perform practicals based on different software like matlab,sci lab,vlab,psim etc. The students utilize this lab for searching different e -learning materials .The students use this computer lab for finding information related to their Design engineering and final year project."
+      }
     ],
     "DeptAcademicCalender": [
 
@@ -451,6 +475,32 @@
         "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
         "isShow": true,
         "UploadDate": ""
+      }
+    ],
+    "Labs": [
+      {
+        "LabID": "81",
+        "Lab_Image": "~/images/Department/Applied Mechanics/CONCRETE TECHNOLOGY LAB - Paresh Nimodiya_page-0001.jpg",
+        "Lab_Name": "Concrete Technology",
+        "Lab_Details": "The Concrete Technology Laboratory at Government Engineering College, Patan provides students with hands-on experience in testing and analyzing various properties of concrete and its constituent materials. The lab is well-equipped with modern instruments to facilitate practical learning, research, and industry-oriented projects in areas such as concrete mix design and strength assessment. Key Equipment & Facilities: The lab houses a wide range of testing equipment, including: Cement Testing Equipment: Vicat needle apparatus, Blaine’s air permeability apparatus, Le Chatelier bath, flow table, cement cube molds, Aggregate Testing Equipment: Specific gravity bottle, pycnometer, density basket, thickness gauge & length gauge, aggregate crushing value apparatus, standard sieve set, Concrete Testing Equipment: Slump test apparatus, automatic compression testing machine, cube molds, hot air oven, weighing machine, Mixing & Preparation Equipment: Concrete mixture machine, mortar mixture machine, jaw crusher, cement mortar cube vibrating machine.The laboratory ensures that students gain practical exposure to quality control and testing methods, essential for modern civil engineering applications."
+      },
+      {
+        "LabID": "82",
+        "Lab_Image": "~/images/Department/Applied Mechanics/geotechnical lab - Paresh Nimodiya_page-0001.jpg",
+        "Lab_Name": "Geotechnical/Soil MechanicS/Foundation Engineering Lab",
+        "Lab_Details": "The Geotechnical Engineering Laboratory at Government Engineering College, Patan provides students with hands-on experience in soil mechanics, foundation engineering, and geotechnical analysis. The lab is equipped with modern instruments to conduct various tests on soil properties, strength, permeability, and compaction, ensuring a thorough understanding of soil behavior in construction and infrastructure projects.Key Equipment & Testing Facilities:The lab is well-equipped with advanced testing apparatus, including :\tStrength & Shear Testing: Unconfined Compression Testing Machine, Direct Shear Test Apparatus, Tri-axial Shear Test Apparatus, Laboratory Vane Shear Test Apparatus, Compaction & Density Testing: Universal Automatic Soil Compactor, Compaction Factor Apparatus, Relative Density Apparatus, Core Cutter,\tPermeability & Consolidation Testing: Permeability Apparatus, Consolidation Test Apparatus, Swell Pressure Test Apparatus, Index Property Testing: Liquid Limit Device, Plastic Limit Apparatus, Hydrometer, Pycnometer, California Bearing Ratio (CBR) Testing: CBR Testing Machine for pavement design analysis, Other Equipment: Hot Air Oven, essential for drying and moisture content determination"
+      },
+      {
+        "LabID": "83",
+        "Lab_Image": "~/images/Department/Applied Mechanics/Mechanics of Solids - Paresh Nimodiya_page-0001.jpg",
+        "Lab_Name": "Mechanics of Solids",
+        "Lab_Details": "The Mechanics of Solids Laboratory at Government Engineering College, Patan provides students with practical exposure to the fundamental principles of engineering mechanics, strength of materials, and structural behavior. The lab is equipped with a wide range of testing apparatus to help students understand force equilibrium, friction, moment of inertia, and mechanical advantage in simple machines. Key Equipment & Testing Facilities: The laboratory includes various apparatus for studying static and dynamic forces, mechanical properties, and equilibrium. conditionsForce:  & Equilibrium Studies: Apparatus for Reaction of Forces in Beams, Apparatus to Study Equilibrium of Non-Concurrent Forces, Polygon & Triangle of Forces Apparatus, Triangle & Parallelogram of Forces Apparatus, Friction & Mechanical Advantage: Combined Inclined Plane and Friction Slide Apparatus, Simple Screw Jack, Single Purchase Crab, Double Purchase Crab, Moment & Inertia Studies: Law of Moments Apparatus, Moment of Inertia of Flywheel, Pulley & Axle Systems: System of Pulleys, Wheel & Differential Axle."
+      },
+      {
+        "LabID": "84",
+        "Lab_Image": "~/images/Department/Applied Mechanics/Structural Analysis Lab - Paresh Nimodiya_page-0001.jpg",
+        "Lab_Name": "Structural Analysis Lab",
+        "Lab_Details": "The Structural Analysis Laboratory at Government Engineering College, Patan equips students with practical insights into the behavior of structural elements under various loading conditions. The lab is designed to enhance understanding of stress, strain, deflection, and stability in beams, columns, arches, and other structural components, crucial for effective design and analysis in civil engineering.Key Equipment & Testing Facilities: The laboratory features a range of apparatus to study fundamental and advanced concepts in structural analysis: Beam Analysis: Bending of Beam Apparatus, Deflection of Beam Apparatus, Column & Stability Testing: Column and Struts Apparatus for evaluating buckling and critical loads,Elasticity & Torsion Studies: Torsion Apparatus (Vertical Type), Young's Modulus Apparatus for material stiffness determination,Arches & Theorems: Three Hinged Arch Apparatus, Maxwell Reciprocal Theorem Apparatus for analyzing indeterminate structures."
       }
     ]
   }
