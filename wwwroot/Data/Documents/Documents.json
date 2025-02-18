@@ -1,0 +1,214 @@
+/*
+  1--MoUs, 2--Mandatory Disclosure, 3--Tenders, 4--Time Table, 5--Enrollment Details
+*/
+
+/*
+  {
+    "Id": 1,
+    "Title": "Memorandum of Understanding",
+    "YearSection": [
+      {
+        "Year": 2024,
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Kachchua Solutions Pvt. Ltd.",
+            "File": "~/MOU/Kachhua.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          }
+        ]
+      }
+    ]
+  }
+*/
+
+[
+  {
+    "Id": 1,
+    "Title": "Memorandum of Understanding",
+    "YearSection": [
+      {
+        "Year": "2025",
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Kachchua Solutions Pvt. Ltd.",
+            "FileType": "PDF",
+            "File": "~/MOU/Kachhua.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 2,
+            "Title": "Mahakali Engineering works",
+            "FileType": "PDF",
+            "File": "~/MOU/Mahakali.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 3,
+            "Title": "Sai Sunrise Consultancy",
+            "FileType": "PDF",
+            "File": "~/MOU/SaiSunrise.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 4,
+            "Title": "Silvertouch Technologies Ltd.",
+            "FileType": "PDF",
+            "File": "~/MOU/Silvertouch.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 5,
+            "Title": "Edunet Foundation",
+            "FileType": "PDF",
+            "File": "~/MOU/techsaksham.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 6,
+            "Title": "Unik Industries",
+            "FileType": "Word",
+            "File": "~/MOU/UNIK.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "Id": 2,
+    "Title": "Mandatory Disclosure",
+    "YearSection": [
+      {
+        "Year": "",
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Important Campus Committees",
+            "FileType": "PDF",
+            "File": "~/ImpDocs/1 to 5 Grievance_anti_ragging_DEC_2024.pdf",
+            "isShow": true,
+            "UploadDate": "10/12/2024"
+          },
+          {
+            "ID": 2,
+            "Title": "Mandatory Disclosure",
+            "FileType": "PDF",
+            "File": "~/ImpDocs/15 Mandatory Disclosure_F_compressed.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 3,
+            "Title": "NIRF India Ranking 2024 Details",
+            "FileType": "PDF",
+            "File": "~/ImpDocs/GOVERNMENT ENGINEERING COLLEGE, AT.KATPUR, PATAN20240228-.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 4,
+            "Title": "Aicte Extension of Approval till 2024-25",
+            "FileType": "PDF",
+            "File": "~/ImpDocs/EOA_Till_2024_25.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          },
+          {
+            "ID": 5,
+            "Title": "GSIRF 2024 Details",
+            "FileType": "PDF",
+            "File": "~/ImpDocs/Engineering Summary_2024.pdf",
+            "isShow": true,
+            "UploadDate": "10/12/2024"
+          },
+          {
+            "ID": 6,
+            "Title": "Governance",
+            "FileType": "PDF",
+            "File": "~/ImpDocs/Goverence.pdf",
+            "isShow": true,
+            "UploadDate": "10/12/2024"
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "Id": 3,
+    "Title": "Tenders",
+    "YearSection": [
+      {
+        "Year": "",
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Hostel mess and cantine tender GECP 2024-25",
+            "FileType": "PDF",
+            "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "Id": 4,
+    "Title": "Time Table",
+    "YearSection": [
+      {
+        "Year": "2024",
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Kachchua Solutions Pvt. Ltd.",
+            "FileType": "PDF",
+            "File": "~/MOU/Kachhua.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "Id": 5,
+    "Title": "Enrollment Details",
+    "YearSection": [
+      {
+        "Year": "2024",
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Kachchua Solutions Pvt. Ltd.",
+            "FileType": "PDF",
+            "File": "~/MOU/Kachhua.pdf",
+            "isShow": true,
+            "UploadDate": ""
+          }
+        ]
+      }
+    ]
+  }
+]

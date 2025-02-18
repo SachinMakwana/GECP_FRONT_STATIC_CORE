@@ -1,0 +1,66 @@
+[
+    {
+        "Id": 1,
+        "Title": "Hostel Mess and Cantine",
+        "YearSection": [
+            {
+                "Year": "2024",
+                "Order": 1,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Hostel mess and cantine tender GECP 2024-25",
+                        "FileType": "PDF",
+                        "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                        "isShow": true,
+                        "UploadDate": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "Title": "Write Off",
+        "YearSection": [
+            {
+                "Year": "2024-25",
+                "Order": 1,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "૨૦૦૦થી વધુ કિમતની ઈ-વેસ્ટ આઈટમો ખરીદવા માટે નું કવોટેશન ( ભાવ-પત્રક)",
+                        "FileType": "PDF",
+                        "File": "~/Tenders/WriteOff/2025/૨૦૦૦થી વધુ કિમતની ઈ-વેસ્ટ આઈટમો ખરીદવા માટે નું કવોટેશન ( ભાવ-પત્રક).pdf",
+                        "isShow": true,
+                        "UploadDate": "18/02/2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "કબુલાતનામું",
+                        "FileType": "WORD",
+                        "File": "~/Tenders/WriteOff/2025/કબુલાતનામું.docx",
+                        "isShow": true,
+                        "UploadDate": "18/02/2025"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "નિયત ટેન્ડર ફોર્મ",
+                        "FileType": "PDF",
+                        "File": "~/Tenders/WriteOff/2025/નિયત ટેન્ડર ફોર્મ.docx",
+                        "isShow": true,
+                        "UploadDate": "18/02/2025"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "માલ સંભાળ્યા નું પ્રમાણ પત્ર  પેઢી ના લેટરપેડ પર",
+                        "FileType": "PDF",
+                        "File": "~/Tenders/WriteOff/2025/માલ સંભાળ્યા નું પ્રમાણ પત્ર  પેઢી ના લેટરપેડ પર.docx",
+                        "isShow": true,
+                        "UploadDate": "18/02/2025"
+                    }
+                ]
+            }
+        ]
+    }
+]
