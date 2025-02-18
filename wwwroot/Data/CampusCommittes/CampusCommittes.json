@@ -58,6 +58,7 @@
             }
         ]
     },
+
     //SSIP
     {
         "ID": 2,
@@ -144,6 +145,7 @@
             }
         ]
     },
+
     //NSS
     {
         "ID": 3,
@@ -212,6 +214,7 @@
             }
         ]
     },
+
     //Anti Ragging
     {
         "ID": 4,
@@ -314,6 +317,7 @@
             }
         ]
     },
+
     //RTI
     {
         "ID": 6,
@@ -365,6 +369,7 @@
           }
         ]
     },
+
     //SC/ST Committee
     {
         "ID": 7,
@@ -442,66 +447,6 @@
     },
 
   {
-    "ID": 8,
-    "Title": "Student Section",
-    "TitleImage": "",
-    "TitleImageCSSClass": "anti_ragging_title",
-    "About": "The Student Section Committee enhances the student experience by fostering growth, innovation, and collaboration. Through active participation, students develop knowledge, skills, and leadership abilities while contributing to their institution’s progress. It serves as a platform for academic, technical, and extracurricular development, preparing students for future challenges and opportunities.",
-    "Measures": "The Student Section Committee ensures effectiveness through structured measures like leadership training, regular feedback, event evaluations, mentorship programs, industry collaborations, and academic workshops. It promotes inclusivity, transparency, teamwork, and innovation. Performance assessments, student engagement surveys, and strategic planning further enhance its impact, ensuring continuous improvement and institutional growth.",
-    "Measure_Image": "~/images/CampusCommittee/StudentSection/student_section_small.png",
-    "Vision": [
-      "To foster a dynamic and inclusive student community that nurtures leadership, innovation, and holistic development. "
-    ],
-    "Mission": [
-      "To Provide opportunities for students to develop leadership skills through active participation in committee activities.",
-      "To  Balance academic, technical, cultural, and social activities for overall student growth.",
-      "To Conduct regular events, discussions, and interactive sessions to keep students actively involved."
-    ],
-    "SubObjectives": [
-
-    ],
-    "SubObjImg": "",
-    "BulletPoints": [],
-    "BulletPointsImg": "",
-    "PageFlyer": "",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“ Empowering Students, Inspiring Growth, <b>Shaping Futures.”</b></h1>",
-    "BlogLink": "https://ssgecpatan.blogspot.com/",
-    "Members": [
-      {
-        "ID": 1,
-        "Name": "Dr. H. L. Judal",
-        "Position": "Converner",
-        "Image": "~/images/Faculty/102.jpg",
-        "Email": "haresh.judal@gecpatan.ac.in",
-        "Department": "Electronics & Communication Engineering Department"
-      },
-      {
-        "ID": 2,
-        "Name": "Prof. R. A. Oza",
-        "Position": "Member",
-        "Image": "~/images/Faculty/515.jpg",
-        "Email": "rakesh.oza@gecpatan.ac.in",
-        "Department": "Mechanical Engineering Department"
-      },
-      {
-        "ID": 3,
-        "Name": "Prof. M. J. Patel",
-        "Position": "Member",
-        "Image": "~/images/Faculty/206.jpg",
-        "Email": "mitul.patel@gecpatan.ac.in",
-        "Department": "Computer Science & Engineering Department"
-      },
-      {
-        "ID": 3,
-        "Name": "Shri. A. B. Darji",
-        "Position": "Member",
-        "Image": "~/images/Faculty/1000.jpg",
-        "Email": "ankit.darji@gecpatan.ac.in",
-        "Department": "Electical Engineering Department"
-      }
-    ]
-  },
-  {
     "ID": 10,
     "Title": "Gymkhana",
     "TitleImage": "",
@@ -560,7 +505,175 @@
         "Department": "Electronics & Communications Engineering Department"
       }
     ]
-  }
+  },
+    //Student Section
+    {
+        "ID": 8,
+        "Title": "Student Section",
+        "TitleImage": "",
+        "TitleImageCSSClass": "placement_title",
+        "About": "The Student Section Committee enhances the student experience by fostering growth, innovation, and collaboration. Through active participation, students develop knowledge, skills, and leadership abilities while contributing to their institution’s progress. It serves as a platform for academic, technical, and extracurricular development, preparing students for future challenges and opportunities.",
+        "Measures": "The Student Section Committee ensures effectiveness through structured measures like leadership training, regular feedback, event evaluations, mentorship programs, industry collaborations, and academic workshops. It promotes inclusivity, transparency, teamwork, and innovation. Performance assessments, student engagement surveys, and strategic planning further enhance its impact, ensuring continuous improvement and institutional growth.",
+        "Measure_Image": "~/images/CampusCommittee/StudentSection/student_section_small.png",
+        "Vision": [
+            "To foster a dynamic and inclusive student community that nurtures leadership, innovation, and holistic development. "
+        ],
+        "Mission": [
+            "To Provide opportunities for students to develop leadership skills through active participation in committee activities.",
+            "To  Balance academic, technical, cultural, and social activities for overall student growth.",
+            "To Conduct regular events, discussions, and interactive sessions to keep students actively involved."
+        ],
+        "SubObjectives": [
+
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [],
+        "BulletPointsImg": "",
+        "PageFlyer": "",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“ Empowering Students, Inspiring Growth, <b>Shaping Futures.”</b></h1>",
+        "BlogLink": "https://ssgecpatan.blogspot.com/",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. H. L. Judal",
+                "Position": "Converner",
+                "Image": "~/images/Faculty/102.jpg",
+                "Email": "haresh.judal@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. R. A. Oza",
+                "Position": "Member",
+                "Image": "~/images/Faculty/515.jpg",
+                "Email": "rakesh.oza@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. M. J. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/206.jpg",
+                "Email": "mitul.patel@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Shri. A. B. Darji",
+                "Position": "Member",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "ankit.darji@gecpatan.ac.in",
+                "Department": "Electical Engineering Department"
+            }
+        ]
+    },
+    {
+        "ID": 9,
+        "Title": "Training and Placement Cell",
+        "TitleImage": "",
+        "TitleImageCSSClass": "anti_ragging_title",
+        "About": "The Training and Placement Cell (T&P Cell or TPC) at Government Engineering College - Patan, works professionally with the Industry to place its students in each and every sector.",
+        "Measures": "The T&P Cell handle all aspects of the campus recruitment at institute and also helps in enhancing the skills of the students as per the demands of the industry by conducting many numbers of seminars & workshops including KCG’s Finishing School (GoG) Programs.",
+        "Measure_Image": "~/images/site-img226.png",
+        "Vision": [
+            "Enhance the employability skills among the students to meet out the corporate expectations and to furnish them with professional skills and guiding them towards the bright future and career."
+        ],
+        "Mission": [
+            "To train students for the needs of industries and to partner with renowned organizations from industry & organize recruitment drives for our students within and outside the campus."
+        ],
+        "SubObjectives": [
+
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [
+            "The TP Cell sends invitations to companies/organizations along with relevant information.",
+            "Company/ Organization fills in a JAF (Job Announcement Form) containing details of the job offer (pay package, place of posting, allowances and other bonuses). JAF can be sent either by post or email to the T&P Cell, GEC-Patan.",
+            "Pre-Placement Talk can be organized in advance or on the same day. For fixing Pre-Placement Talk in advance, Company/ Organization can send a request along with the preferred dates.",
+            "The JAF is made available online to the students, along with any other information furnished by company/organization. The placement facility is available to all the students of GEC-Patan and in adherence to the Placement Policy.",
+            "After confirmation by the company/ organization, the Training and Placement Cell will announce the dates for campus interviews. The Order in which the companies are invited for the Placement is decided jointly by the TPC & the Principal; and will be based on various factors like pay package offered, the demand from students, and the profile of the company.",
+            "Interested students will show their willingness to participate in the recruitment process of a company by submitting the Sign-up form or by filling google-form created for the same.",
+            "The list of interested students and/or shortlisted students (in case the short listing is based on Percentage/ Grades obtained) can be sent to the company/ organization on request.",
+            "The Company/ Organization is required to furnish the final list of students preferably on the date of interview mentioning the joining date and other terms and conditions, if any. The company shall send or hand over the offer letter only to the Training and Placement (T&P) Cell within a set time-frame and mutual understanding.",
+            "Student’s signed offer letter will be forwarded to the company if demanded by company.",
+            "After confirmation by the company/ organization, the Training and Placement Cell will announce the dates for campus interviews. The Order in which the companies are invited for the Placement is decided jointly by the TPC & the Principal; and will be based on various factors like pay package offered, the demand from students, and the profile of the company."
+        ],
+        "BulletPointsImg": "",
+        "PageFlyer": "",
+        "Tagline": "<div class=\"featured_section38\"> <div class=\"container\"> <h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“In the middle of difficulty lies <b>opportunity.”</b></h1> </div> </div>",
+        "BlogLink": "http://tpogecp.blogspot.com/",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. S. G. Prajapati",
+                "Position": "TPO",
+                "Department": "Electrical Engineering",
+                "Image": "~/images/Faculty/307.jpg",
+                "Email": "soham.prajapati@gecpatan.ac.in"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. H. R. Trivedi",
+                "Position": "Member",
+                "Department": "Applied Sciecne",
+                "Image": "~/images/Faculty/804.jpg",
+                "Email": "hardik.trivedi@gecpatan.ac.in"
+            },
+            {
+                "ID": 3,
+                "Name": "Dr. N. A. Patel",
+                "Position": "Member",
+                "Department": "Mechanical Engineering",
+                "Image": "~/images/Faculty/509.jpg",
+                "Email": "narendra.patel@gecpatan.ac.in"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. D. U. Bavisa",
+                "Position": "Member",
+                "Department": "Computer Science and Engineering",
+                "Image": "~/images/Faculty/210.jpg",
+                "Email": "divyesh.bavisa@gecpatan.ac.in"
+            }
+        ],
+        "Activities": [
+            {
+                "ID": 1,
+                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
+                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+                "EventDate": "",
+                "EventTime": "",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Placement Activities",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
+                    }
+                ]
+            },
+            {
+                "ID": 2,
+                "Title": "Career Guidance Seminar",
+                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+                "EventDate": "13/02/2025",
+                "EventTime": "10:30 AM to 12:30 PM",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Career Guidance Seminar",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Career Guidance Seminar",
+                        "FileType": "Word",
+                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+                    }
+                ]
+            }
+        ]
+    }
 ]
 // use below template to add a committee
 

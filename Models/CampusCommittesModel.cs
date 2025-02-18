@@ -36,5 +36,24 @@ namespace GECP_Front_End_Static.Models
         public string Tagline { get; set; }
         public string BlogLink { get; set; }
         public List<Members> Members { get; set; }
+        public List<CommitteeActivity> Activities { get; set; }
+    }
+
+    public class CommitteeActivity
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string EventDate { get; set; }
+        public string EventTime { get; set; }
+        public List<File> Files { get; set; }
+    }
+
+    public class File
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string FileType { get; set; }
+        public string FilePath { get; set; }
     }
 }

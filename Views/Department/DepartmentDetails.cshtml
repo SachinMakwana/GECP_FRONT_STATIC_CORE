@@ -176,32 +176,163 @@
                     </ul>
                     <br /><br />
 
+	</div>
+	<div id="VisionMission" class="tabcontent">
+		<div class="featured_section106" style="background-color:white">
+			<div style="padding-left:10px;">
 
-                </div>
-                <!-- end section -->
+				<div class="margin_top2"></div>
+				<h2 class="roboto thin">Vision </h2>
+				<div class="hsmline7"></div>
 
-            </div>
-        </div>
-        <!-- end featured section 14 -->
+				<br><br>
+				@foreach (var obj in Model.Vision)
+				{
+					<h4 class="roboto thin text-justify"> @obj</h4>
+				}
 
-    </div>
-    <div id="PeoPso" class="tabcontent">
-        @if (Model.PEOs != null && Model.PEOs.Any())
-        {
+				<div class="clearfix margin_top2"></div>
 
-			<div class="stcode_title1 last">
-				<h3><span class="line"></span><span class="text">PROGRAM EDUCATIONAL OBJECTIVES (PEOs)</span></h3>
-				<ul class="list-unstyled text-justify">
-					@{
-						count = 1;  // Declare count variable inside the block
-					}
-					@foreach (var item in Model.PEOs)
-					{
-						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> PEO @count: @item</li>
-						count++; // Increment count properly
-					}
-				</ul>
+				<div class="margin_top2"></div>
+				<h2 class="roboto thin">Mission </h2>
+				<div class="hsmline7"></div>
+
+				<br><br>
+				@foreach (var obj in Model.Mission)
+				{
+					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+				}
+
+				<div class="margin_top2"></div>
+
 			</div>
+		</div>
+	</div>
+	<div id="PeoPso" class="tabcontent">
+		@if (Model.PEOs != null && Model.PEOs.Any())
+		{
+			<div class="featured_section106" style="background-color:white">
+				<div style="padding-left:10px;">
+
+					<div class="margin_top2"></div>
+					<h2 class="roboto thin">PROGRAM EDUCATIONAL OBJECTIVES (PEOs) </h2>
+					<div class="hsmline7"></div>
+
+					<br><br>
+					@foreach (var obj in Model.PEOs)
+					{
+						<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @obj</h4>
+					}
+
+
+					<div class="clearfix margin_top2"></div>
+
+					<div class="margin_top2"></div>
+					<h2 class="roboto thin">PROGRAM SPECIFIC OUTCOMES (PSOs) </h2>
+					<div class="hsmline7"></div>
+
+					<br><br>
+					@foreach (var obj in Model.PSOs)
+					{
+						<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+					}
+
+					<div class="margin_top2"></div>
+
+				</div>
+			</div>
+
+		
+		}
+
+	</div>
+	<div id="Labs" class="tabcontent">
+		@if (Model.Labs != null)
+		{
+			@foreach (var lab in Model.Labs)
+			{
+				<div class="boxdetail">
+					<h2 class="boxtitle">@lab.Lab_Name</h2>
+					<div class="one_third">
+						<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
+					</div>
+					<div class="two_third last">
+						<div class="lab-content">
+							<p class="text-justify">
+								@if (!string.IsNullOrEmpty(lab.Lab_Details))
+								{
+									foreach (var line in lab.Lab_Details.Split(','))
+									{
+										@line.Trim() <br />
+									}
+								}
+							</p>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			}
+		}
+	</div>
+
+	<div id="Staff" class="tabcontent">
+		<!-- end featured section 3 -->
+		@if (Model.FacultyList.Count() > 0)
+		{
+			<div class="margin_top4"></div>
+			@foreach (var data in Model.FacultyList)
+			{
+				<div class="one_half @((Model.FacultyList.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
+					<div class="faculties_img_div">
+						<img src="@Url.Content("~/" + data.image)" alt="@data.Name" />
+
+						@{
+							bool hasData = (data.ProfessionalExperiences != null && data.ProfessionalExperiences.Any()) ||
+							(data.EducationalQualifications != null && data.EducationalQualifications.Any()) ||
+							(data.TrainingAndWorkshops != null && data.TrainingAndWorkshops.Any()) ||
+							(data.Publications != null && data.Publications.Any());
+						}
+						@if (hasData)
+						{
+							<a href="javascript:void(0)" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = data.ID })')" class="four faculty_info_link">
+								<i class="fas fa-external-link-square-alt"></i>
+							</a>
+						}
+					</div>
+					<div class="b-portfolio_info col-sm-6">
+						<div class="b-portfolio_info_title f-primary-b f-portfolio_info_title">
+							<a href="#">@data.Name</a>
+						</div>
+						<hr>
+						<div class="b-portfolio_info_description f-portfolio_info_description">
+							<div class="b-information-box f-information-box f-primary-b">
+								<ul>
+									@if (!string.IsNullOrEmpty(data.Designation))
+									{
+										<li><strong>Designation:</strong> @data.Designation</li>
+									}
+									@if (!string.IsNullOrEmpty(data.Qualification))
+									{
+										<li><strong>Qualification:</strong> @data.Qualification</li>
+									}
+									@if (data.YearsOfExperience > 0)
+									{
+										<li><strong>Experience:</strong> @data.YearsOfExperience Years</li>
+									}
+									@if (!string.IsNullOrEmpty(data.Area_of_Interest))
+									{
+										<li><strong>Area Of Interest:</strong> @data.Area_of_Interest</li>
+									}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				@if ((Model.FacultyList.IndexOf(data) + 1) % 2 == 0)
+				{
+					<div class="clearfix margin_top5"></div>
+				}
+			}
 		}
 
 

@@ -681,17 +681,17 @@
     "position": 6,
     "isVisible": true,
     "ChildMenuVMs": [
-      {
-        "ID": 61,
-        "MenuText": "About Placement Cell",
-        "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "PlacementCell",
-        "position": 1,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
+        {
+            "ID": 61,
+            "MenuText": "About Placement Cell",
+            "ParentID": 6,
+            "dynamicID": 9,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "position": 1,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        },
       {
         "ID": 62,
         "MenuText": "Placement Statistics",
