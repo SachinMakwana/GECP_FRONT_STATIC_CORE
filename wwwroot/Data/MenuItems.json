@@ -18,189 +18,189 @@
     "position": 2,
     "isVisible": true,
     "ChildMenuVMs": [
-        {
-            "ID": 23,
-            "MenuText": "About us",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "AboutUs",
-            "position": 1,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 24,
-            "MenuText": "Center of Excellence",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "CoE",
-            "position": 2,
-            "isVisible": false,
-            "ChildMenuVMs": []
-        },
+      {
+        "ID": 23,
+        "MenuText": "About us",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "AboutUs",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 24,
+        "MenuText": "Center of Excellence",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "CoE",
+        "position": 2,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
 
-        {
-            "ID": 29,
-            "MenuText": "Governance",
-            "ParentID": 2,
+      {
+        "ID": 29,
+        "MenuText": "Governance",
+        "ParentID": 2,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 9,
+        "isVisible": true,
+        "Link": "/ImpDocs/Goverence.pdf",
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 25,
+        "MenuText": "Newsletter",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "NewsLetter",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 26,
+        "MenuText": "Tenders",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "Tenders",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 27,
+        "MenuText": "Mandatory Disclosure",
+        "dynamicID": 2,
+        "ParentID": 2,
+        "ControllerName": "Documents",
+        "ActionName": "Index",
+        "position": 5,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 28,
+        "MenuText": "MoUs",
+        "dynamicID": 1,
+        "ParentID": 2,
+        "ControllerName": "Documents",
+        "ActionName": "Index",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 76,
+        "MenuText": "RTI",
+        "ParentID": 2,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "dynamicID": 6,
+        "position": 7,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 29,
+        "MenuText": "NEWS",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "NEWS",
+        "position": 8,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 21,
+        "MenuText": "Important Links",
+        "ParentID": 2,
+        "ControllerName": "",
+        "ActionName": "#",
+        "position": 10,
+        "isVisible": true,
+        "ChildMenuVMs": [
+          {
+            "ID": 1,
+            "MenuText": "Gujarat Technological University (GTU)",
+            "ParentID": 21,
+            "dynamicID": null,
             "ControllerName": "",
             "ActionName": "",
-            "position": 9,
+            "position": 1,
             "isVisible": true,
-            "Link": "/ImpDocs/Goverence.pdf",
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 25,
-            "MenuText": "Newsletter",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "NewsLetter",
+            "Link": "https://www.gtu.ac.in/"
+          },
+          {
+            "ID": 2,
+            "MenuText": "AICTE",
+            "ParentID": 21,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 2,
+            "isVisible": true,
+            "Link": "https://www.aicte-india.org/"
+          },
+          {
+            "ID": 3,
+            "MenuText": "NBA",
+            "ParentID": 21,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
             "position": 3,
             "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 26,
-            "MenuText": "Tenders",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "Tenders",
+            "Link": "https://www.nbaind.org/"
+          },
+          {
+            "ID": 4,
+            "MenuText": "Directorate of Technical Education",
+            "ParentID": 21,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
             "position": 4,
             "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 27,
-            "MenuText": "Mandatory Disclosure",
-            "dynamicID": 2,
-            "ParentID": 2,
-            "ControllerName": "Documents",
-            "ActionName": "Index",
+            "Link": "https://dte.gujarat.gov.in/"
+          },
+          {
+            "ID": 5,
+            "MenuText": "DST",
+            "ParentID": 21,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
             "position": 5,
             "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 28,
-            "MenuText": "MoUs",
-            "dynamicID": 1,
-            "ParentID": 2,
-            "ControllerName": "Documents",
-            "ActionName": "Index",
+            "Link": "https://dst.gov.in/"
+          },
+          {
+            "ID": 6,
+            "MenuText": "GPSC",
+            "ParentID": 21,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
             "position": 6,
             "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 76,
-            "MenuText": "RTI",
-            "ParentID": 2,
-            "ControllerName": "CampusCommittee",
-            "ActionName": "CommitteePage",
-            "dynamicID": 6,
+            "Link": "https://gpsc.gujarat.gov.in/"
+          },
+          {
+            "ID": 7,
+            "MenuText": "Mari Yojana",
+            "ParentID": 21,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
             "position": 7,
             "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 29,
-            "MenuText": "NEWS",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "NEWS",
-            "position": 8,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 21,
-            "MenuText": "Important Links",
-            "ParentID": 2,
-            "ControllerName": "",
-            "ActionName": "#",
-            "position": 10,
-            "isVisible": true,
-            "ChildMenuVMs": [
-                {
-                    "ID": 1,
-                    "MenuText": "Gujarat Technological University (GTU)",
-                    "ParentID": 21,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 1,
-                    "isVisible": true,
-                    "Link": "https://www.gtu.ac.in/"
-                },
-                {
-                    "ID": 2,
-                    "MenuText": "AICTE",
-                    "ParentID": 21,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 2,
-                    "isVisible": true,
-                    "Link": "https://www.aicte-india.org/"
-                },
-                {
-                    "ID": 3,
-                    "MenuText": "NBA",
-                    "ParentID": 21,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 3,
-                    "isVisible": true,
-                    "Link": "https://www.nbaind.org/"
-                },
-                {
-                    "ID": 4,
-                    "MenuText": "Directorate of Technical Education",
-                    "ParentID": 21,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 4,
-                    "isVisible": true,
-                    "Link": "https://dte.gujarat.gov.in/"
-                },
-                {
-                    "ID": 5,
-                    "MenuText": "DST",
-                    "ParentID": 21,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 5,
-                    "isVisible": true,
-                    "Link": "https://dst.gov.in/"
-                },
-                {
-                    "ID": 6,
-                    "MenuText": "GPSC",
-                    "ParentID": 21,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 6,
-                    "isVisible": true,
-                    "Link": "https://gpsc.gujarat.gov.in/"
-                },
-                {
-                    "ID": 7,
-                    "MenuText": "Mari Yojana",
-                    "ParentID": 21,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 7,
-                    "isVisible": true,
-                    "Link": "https://mariyojana.gujarat.gov.in/"
-                }
-            ]
-        }
+            "Link": "https://mariyojana.gujarat.gov.in/"
+          }
+        ]
+      }
     ]
   },
   {
@@ -249,22 +249,22 @@
         "ParentID": 3,
         "dynamicID": null,
         "ControllerName": "",
-        "ActionName":"",
+        "ActionName": "",
         "position": 4,
         "isVisible": true,
         "Link": "https://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE",
         "ChildMenuVMs": []
       },
-        {
-            "ID": 35,
-            "MenuText": "Courses And Intake",
-            "ParentID": 3,
-            "dynamicID": null,
-            "ControllerName": "Institute",
-            "ActionName": "AboutUs",
-            "position": 5,
-            "ChildMenuVMs": []
-        }
+      {
+        "ID": 35,
+        "MenuText": "Courses And Intake",
+        "ParentID": 3,
+        "dynamicID": null,
+        "ControllerName": "Institute",
+        "ActionName": "AboutUs",
+        "position": 5,
+        "ChildMenuVMs": []
+      }
     ]
   },
   {
@@ -469,6 +469,7 @@
     ]
   },
   */
+
   {
     "ID": 5,
     "MenuText": "Facilities",
@@ -479,221 +480,276 @@
     "position": 5,
     "isVisible": true,
     "ChildMenuVMs": [
-        {
-            "ID": 51,
-            "MenuText": "Library",
-            "ParentID": 5,
-            "dynamicID": null,
-            "ControllerName": "Facilities",
-            "ActionName": "Library",
-            "position": 1,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 52,
-            "MenuText": "Canteen",
-            "ParentID": 5,
-            "dynamicID": null,
-            "ControllerName": "Facilities",
-            "ActionName": "Canteen",
-            "position": 2,
-            "isVisible": false,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 53,
-            "MenuText": "Hostel",
-            "ParentID": 5,
-            "dynamicID": null,
-            "ControllerName": "Facilities",
-            "ActionName": "Hostel",
-            "position": 3,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 54,
-            "MenuText": "Gymkhana",
-            "ParentID": 5,
-            "dynamicID": null,
-            "ControllerName": "Facilities",
-            "ActionName": "FacilityPage",
-            "position": 4,
-            "isVisible": false,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 55,
-            "MenuText": "Student Section",
-            "ParentID": 5,
-            "dynamicID": 3,
-            "ControllerName": "Facilities",
-            "ActionName": "FacilityPage",
-            "position": 5,
-            "isVisible": false,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 56,
-            "MenuText": "Central Facilities",
-            "ParentID": 5,
-            "dynamicID": 2,
-            "ControllerName": "Facilities",
-            "ActionName": "StudentClub",
-            "position": 6,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 57,
-            "MenuText": "Medical Facility",
-            "ParentID": 5,
-            "dynamicID": 1,
-            "ControllerName": "Facilities",
-            "ActionName": "MedicalFacility",
-            "position": 7,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 59,
-            "MenuText": "Center Of Excellence",
-            "ParentID": 5,
-            "dynamicID": null,
-            "ControllerName": "Facilities",
-            "ActionName": "CenterOfExcellence",
-            "position": 9,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 60,
-            "MenuText": "Transportation",
-            "ParentID": 5,
-            "dynamicID": 2,
-            "ControllerName": "Facilities",
-            "ActionName": "MedicalFacility",
-            "position": 10,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
+      {
+        "ID": 51,
+        "MenuText": "Library",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "Library",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 52,
+        "MenuText": "Canteen",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "Canteen",
+        "position": 2,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 53,
+        "MenuText": "Hostel",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "Hostel",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 54,
+        "MenuText": "Gymkhana",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "FacilityPage",
+        "position": 4,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 55,
+        "MenuText": "Student Section",
+        "ParentID": 5,
+        "dynamicID": 3,
+        "ControllerName": "Facilities",
+        "ActionName": "FacilityPage",
+        "position": 5,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 56,
+        "MenuText": "Central Facilities",
+        "ParentID": 5,
+        "dynamicID": 2,
+        "ControllerName": "Facilities",
+        "ActionName": "StudentClub",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 57,
+        "MenuText": "Medical Facility",
+        "ParentID": 5,
+        "dynamicID": 1,
+        "ControllerName": "Facilities",
+        "ActionName": "MedicalFacility",
+        "position": 7,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 59,
+        "MenuText": "Center Of Excellence",
+        "ParentID": 5,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "CenterOfExcellence",
+        "position": 9,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 60,
+        "MenuText": "Transportation",
+        "ParentID": 5,
+        "dynamicID": 2,
+        "ControllerName": "Facilities",
+        "ActionName": "MedicalFacility",
+        "position": 10,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
 
-        {
-            "ID":61,
-            "MenuText": "Student Section",
-            "ParentID": 7,
-            "dynamicID": 8,
-            "ControllerName": "CampusCommittee",
-            "ActionName": "CommitteePage",
-            "position": 11,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        }
+      {
+        "ID": 61,
+        "MenuText": "Student Section",
+        "ParentID": 7,
+        "dynamicID": 8,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 11,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
     ]
   },
   {
     "ID": 6,
+    "MenuText": "R&D",
+    "ParentID": null,
+    "ControllerName": "Home",
+    "ActionName": "Index",
+    "position": 6,
+    "isVisible": true,
+    "ChildMenuVMs": [
+      {
+        "ID": 59,
+        "MenuText": "Center Of Excellence",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "CenterOfExcellence",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 102,
+        "MenuText": "SSIP Documents",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "SSIPDocuments",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 102,
+        "MenuText": "Design Lab",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Research",
+        "ActionName": "DesignLab",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 103,
+        "MenuText": "Research Grants",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "ResearchGrants",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
+  },
+  {
+    "ID": 7,
     "MenuText": "Student Corner",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "",
     "ActionName": "",
-    "position": 6,
+    "position": 7,
     "isVisible": true,
     "ChildMenuVMs": [
 
-        {
-            "ID": 61,
-            "MenuText": "General Rules & Regulations",
-            "ParentID": 6,
-            "dynamicID": null,
-            "ControllerName": "StudentCorner",
-            "ActionName": "Rules",
-            "position": 11,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 62,
-            "MenuText": "Time Table",
-            "ParentID": 6,
-            "dynamicID": 4,
-            "ControllerName": "Documents",
-            "ActionName": "Index",
-            "position": 12,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 63,
-            "MenuText": "Enrollment Details",
-            "ParentID": 6,
-            "dynamicID": 5,
-            "ControllerName": "Documents",
-            "ActionName": "Index",
-            "position": 13,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 58,
-            "MenuText": "Student Club",
-            "ParentID": 5,
-            "dynamicID": 1,
-            "ControllerName": "Facilities",
-            "ActionName": "StudentClub",
-            "position": 14,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 64,
-            "MenuText": "Student Grade History",
-            "ParentID": 6,
-            "dynamicID": null,
-            "ControllerName": "StudentCorner",
-            "ActionName": "StudentGradeHistory",
-            "position": 15,
-            "isVisible": true,
-            "Link": "https://www.students.gtu.ac.in/Default.aspx",
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 65,
-            "MenuText": "Fees Portal",
-            "ParentID": 6,
-            "dynamicID": null,
-            "ControllerName": "StudentCorner",
-            "ActionName": "Fees",
-            "position": 16,
-            "isVisible": true,
-            "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
-            "ChildMenuVMs": []
-        }
+      {
+        "ID": 61,
+        "MenuText": "General Rules & Regulations",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Rules",
+        "position": 11,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 62,
+        "MenuText": "Time Table",
+        "ParentID": 6,
+        "dynamicID": 4,
+        "ControllerName": "Documents",
+        "ActionName": "Index",
+        "position": 12,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 63,
+        "MenuText": "Enrollment Details",
+        "ParentID": 6,
+        "dynamicID": 5,
+        "ControllerName": "Documents",
+        "ActionName": "Index",
+        "position": 13,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 58,
+        "MenuText": "Student Club",
+        "ParentID": 5,
+        "dynamicID": 1,
+        "ControllerName": "Facilities",
+        "ActionName": "StudentClub",
+        "position": 14,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 64,
+        "MenuText": "Student Grade History",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "StudentGradeHistory",
+        "position": 15,
+        "isVisible": true,
+        "Link": "https://www.students.gtu.ac.in/Default.aspx",
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 65,
+        "MenuText": "Fees Portal",
+        "ParentID": 6,
+        "dynamicID": null,
+        "ControllerName": "StudentCorner",
+        "ActionName": "Fees",
+        "position": 16,
+        "isVisible": true,
+        "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
+        "ChildMenuVMs": []
+      }
     ]
   },
   {
-    "ID": 6,
+    "ID": 8,
     "MenuText": "Placement",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "",
     "ActionName": "",
-    "position": 6,
+    "position": 8,
     "isVisible": true,
     "ChildMenuVMs": [
-        {
-            "ID": 61,
-            "MenuText": "About Placement Cell",
-            "ParentID": 6,
-            "dynamicID": 9,
-            "ControllerName": "CampusCommittee",
-            "ActionName": "CommitteePage",
-            "position": 1,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
+      {
+        "ID": 61,
+        "MenuText": "About Placement Cell",
+        "ParentID": 6,
+        "dynamicID": 9,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
       {
         "ID": 62,
         "MenuText": "Placement Statistics",
@@ -708,13 +764,13 @@
     ]
   },
   {
-    "ID": 7,
+    "ID": 9,
     "MenuText": "Committees / Cell",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "",
     "ActionName": "",
-    "position": 8,
+    "position": 9,
     "isVisible": true,
     "ChildMenuVMs": [
       {
@@ -809,81 +865,27 @@
     ]
   },
   {
-    "ID": 8,
+    "ID": 10,
     "MenuText": "Alumni",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "Alumni",
     "ActionName": "Index",
-    "position": 9,
+    "position": 10,
     "isVisible": true,
     "ChildMenuVMs": []
   },
-  {
-    "ID": 10,
-    "MenuText": "R&D",
-    "ParentID": null,
-    "ControllerName": "Home",
-    "ActionName": "Index",
-    "position": 7,
-    "isVisible": true,
-    "ChildMenuVMs": [
-      {
-        "ID": 59,
-        "MenuText": "Center Of Excellence",
-        "ParentID": 10,
-        "dynamicID": null,
-        "ControllerName": "Facilities",
-        "ActionName": "CenterOfExcellence",
-        "position": 1,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 102,
-        "MenuText": "SSIP Documents",
-        "ParentID": 10,
-        "dynamicID": null,
-        "ControllerName": "Academics",
-        "ActionName": "SSIPDocuments",
-        "position": 2,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 102,
-        "MenuText": "Design Lab",
-        "ParentID": 10,
-        "dynamicID": null,
-        "ControllerName": "Research",
-        "ActionName": "DesignLab",
-        "position": 3,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 103,
-        "MenuText": "Research Grants",
-        "ParentID": 10,
-        "dynamicID": null,
-        "ControllerName": "Academics",
-        "ActionName": "ResearchGrants",
-        "position": 4,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      }
-    ]
-  },
- 
+
+
 
   {
-    "ID": 9,
+    "ID": 11,
     "MenuText": "Contact",
     "ParentID": null,
     "dynamicID": null,
     "ControllerName": "ContactUs",
     "ActionName": "Index",
-    "position": 10,
+    "position": 11,
     "isVisible": true,
     "ChildMenuVMs": []
   }
