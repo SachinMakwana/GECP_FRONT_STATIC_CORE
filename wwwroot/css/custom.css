@@ -673,9 +673,10 @@ table.dataTable thead .sorting_desc_disabled:before {
     .newssection li a {
         color: red;
     }
-    .newssection li a:hover {
-        color: #727272;
-    }
+
+        .newssection li a:hover {
+            color: #727272;
+        }
 
 .box {
     padding: 20px;
@@ -689,16 +690,18 @@ table.dataTable thead .sorting_desc_disabled:before {
     box-shadow: 2px 2px 5px #787980;
     background: #ced8f833;
 }
-.box{
-    padding:20px;
-    border:2px double;
+
+.box {
+    padding: 20px;
+    border: 2px double;
 }
-.boxdetail{
+
+.boxdetail {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius:5px;
-    margin:10px 0px;
-    clear:both;
+    border-radius: 5px;
+    margin: 10px 0px;
+    clear: both;
 }
 
 .boxtitle {
@@ -706,9 +709,9 @@ table.dataTable thead .sorting_desc_disabled:before {
     border-left: 10px solid black;
     background: #d7d0d0;
 }
-.boxinfo{
-    text-align:justify;
 
+.boxinfo {
+    text-align: justify;
 }
 
 .boxtitle {
@@ -728,13 +731,13 @@ table.dataTable thead .sorting_desc_disabled:before {
     padding: 20px 15px !important;
 }
 
-    .minheight a{
-        font-weight:bolder;
+    .minheight a {
+        font-weight: bolder;
     }
 
-    .full-container {
-        padding: 0 4%;
-    }
+.full-container {
+    padding: 0 4%;
+}
 
 .logo_section {
     width: 100px;
@@ -764,7 +767,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     top: -30px;
     position: relative;
     left: 3%;
-    font-variant:small-caps;
+    font-variant: small-caps;
 }
 
 .gecp_gov_emblame {
@@ -861,12 +864,16 @@ table.dataTable thead .sorting_desc_disabled:before {
 }
 /* end of jquery tabs from w3schools goes here */
 
+.stcode_title4 .line {
+    background: #5076bb;
+}
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {
         width: 60%;
     }
 }
+
 @media (max-width: 768px) {
     .logo_section {
         flex-direction: column;
@@ -897,4 +904,3 @@ table.dataTable thead .sorting_desc_disabled:before {
         font-variant: small-caps;
     }
 }
-
