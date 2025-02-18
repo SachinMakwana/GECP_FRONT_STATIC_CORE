@@ -20,13 +20,13 @@ namespace GECP_Front_End_Static.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string jsonpath = webRootPath + @"\PlacementCell\PlacementData.json";
+            string jsonpath = webRootPath + @"\Data\PlacementCell\PlacementData.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             PlacementDataVM = JsonConvert.DeserializeObject<List<PlacementDataVM>>(json);
 
-            jsonpath = webRootPath + @"\PlacementCell\PlacementTeam.json";
+            jsonpath = webRootPath + @"\Data\PlacementCell\PlacementTeam.json";
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             PlacementTeamVM = JsonConvert.DeserializeObject<List<PlacementTeamVM>>(json);
