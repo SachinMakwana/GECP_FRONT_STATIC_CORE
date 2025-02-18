@@ -712,7 +712,7 @@
     "dynamicID": null,
     "ControllerName": "",
     "ActionName": "",
-    "position": 7,
+    "position": 8,
     "isVisible": true,
     "ChildMenuVMs": [
       {
@@ -813,7 +813,7 @@
     "dynamicID": null,
     "ControllerName": "Alumni",
     "ActionName": "Index",
-    "position": 8,
+    "position": 9,
     "isVisible": true,
     "ChildMenuVMs": []
   },
@@ -823,7 +823,7 @@
     "ParentID": null,
     "ControllerName": "Home",
     "ActionName": "Index",
-    "position": 9,
+    "position": 7,
     "isVisible": true,
     "ChildMenuVMs": [
       {
