@@ -2009,7 +2009,7 @@
       "Date_of_Joining": "2020-06-08",
       "Qualification": "ME IT",
       "Area_of_Interest": "Cloud computing",
-      "IsTeachng": true,
+      "IsTeaching": true,
       "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JAY PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME/Mtech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Cloud computing </span></li></ul></div></div></div>",
       "PersonalDetails": {
         "Name": "Mr. Jay Prakashbhai Patel",
@@ -2688,7 +2688,7 @@
       "Date_of_Joining": "2020-06-06",
       "Qualification": "",
       "Area_of_Interest": "",
-      "IsTaching": true,
+      "IsTeaching": true,
       "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Miss. HIRALBEN RATHOD</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>"
   
     },
@@ -4309,11 +4309,11 @@
   
     },
     {
-      "ID": 406,
+      "ID": 406, // change id according to electrical department
       "Name": "MR. ANKITKUMAR B. DARJI ",
       "Designation": "LAB ASSISTANT",
       "image": "images/Faculty/406.jpg",
-      "Dept_ID": 4,
+      "Dept_ID": 3,
       "Date_of_Joining": "2013-12-13",
       "Qualification": "Diploma Civil",
       "Area_of_Interest": "Civil",
