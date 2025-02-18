@@ -17,7 +17,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<MOUModel> MOUModelVM = new List<MOUModel>();
         public List<NewsLettersModel> NewsLettersModel = new List<NewsLettersModel>();
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
-        public List<TendersVM> TendersVM = new List<TendersVM>();
+        public List<DocumentsVm> TendersVM = new List<DocumentsVm>();
         public List<TendersVM> ImpDocuments = new List<TendersVM>();
 
         public InstituteController(IWebHostEnvironment hostingEnvironment)
@@ -26,7 +26,7 @@ namespace GECP_Front_End_Static.Controllers
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\MOU\MPU.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";
-            string tendersjsonpath = webRootPath + @"\Tenders\Tenders.json";
+            string tendersjsonpath = webRootPath + @"\Data\Tenders\Tenders.json";
             string impDocsJsonpath = webRootPath + @"\Data\ImportantDocuments\documentItems.json";
 
             var webClient = new WebClient();
@@ -45,7 +45,7 @@ namespace GECP_Front_End_Static.Controllers
 
             webClient = new WebClient();
             json = webClient.DownloadString(tendersjsonpath);
-            TendersVM = JsonConvert.DeserializeObject<List<TendersVM>>(json);
+            TendersVM = JsonConvert.DeserializeObject<List<DocumentsVm>>(json);
 
             webClient = new WebClient();
             json = webClient.DownloadString(impDocsJsonpath);
@@ -62,12 +62,23 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult NewsLetter()
         {
-            return View(NewsLettersModel.OrderByDescending(m=>m.ID).ToList());
+            return View(NewsLettersModel.OrderByDescending(m => m.ID).ToList());
         }
 
         public IActionResult Tenders()
         {
-            return View(TendersVM.Where(m=>m.isShow==true).ToList());
+            return View(TendersVM);
+        }
+        [HttpPost]
+        public IActionResult TendersList(int id = 0)
+        {
+            DocumentsVm data = new DocumentsVm();
+            if (id > 0)
+            {
+                data = TendersVM.Where(m => m.Id == id).FirstOrDefault();
+                data.YearSection = data.YearSection.OrderByDescending(m => m.Order).ToList();
+            }
+            return View(data);
         }
 
         public IActionResult ImportantDocuments()
@@ -91,7 +102,7 @@ namespace GECP_Front_End_Static.Controllers
             return View(data);
         }
 
-        public IActionResult NEWSDetail(int id=0)
+        public IActionResult NEWSDetail(int id = 0)
         {
             var data = NEWSModelData.Where(m => m.ID == id).FirstOrDefault();
             return View(data);

@@ -18,187 +18,189 @@
     "position": 2,
     "isVisible": true,
     "ChildMenuVMs": [
-      {
-        "ID": 23,
-        "MenuText": "About us",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "AboutUs",
-        "position": 1,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 24,
-        "MenuText": "Center of Excellence",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "CoE",
-        "position": 2,
-        "isVisible": false,
-        "ChildMenuVMs": []
-      },
-
-      {
-        "ID": 29,
-        "MenuText": "Governance",
-        "ParentID": 2,
-        "ControllerName": "",
-        "ActionName": "",
-        "position": 9,
-        "isVisible": true,
-        "Link": "/ImpDocs/Goverence.pdf",
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 25,
-        "MenuText": "Newsletter",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "NewsLetter",
-        "position": 3,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 26,
-        "MenuText": "Tenders",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "Tenders",
-        "position": 4,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 27,
-        "MenuText": "Mandatory Disclosure",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "ImportantDocuments",
-        "position": 5,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 28,
-        "MenuText": "MoUs",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "MoU",
-        "position": 6,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 76,
-        "MenuText": "RTI",
-        "ParentID": 2,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "CommitteePage",
-        "dynamicID": 6,
-        "position": 7,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 29,
-        "MenuText": "NEWS",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "NEWS",
-        "position": 8,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 21,
-        "MenuText": "Important Links",
-        "ParentID": 2,
-        "ControllerName": "",
-        "ActionName": "#",
-        "position": 10,
-        "isVisible": true,
-        "ChildMenuVMs": [
-          {
-            "ID": 1,
-            "MenuText": "Gujarat Technological University (GTU)",
-            "ParentID": 21,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
+        {
+            "ID": 23,
+            "MenuText": "About us",
+            "ParentID": 2,
+            "ControllerName": "Institute",
+            "ActionName": "AboutUs",
             "position": 1,
             "isVisible": true,
-            "Link": "https://www.gtu.ac.in/"
-          },
-          {
-            "ID": 2,
-            "MenuText": "AICTE",
-            "ParentID": 21,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 24,
+            "MenuText": "Center of Excellence",
+            "ParentID": 2,
+            "ControllerName": "Institute",
+            "ActionName": "CoE",
             "position": 2,
-            "isVisible": true,
-            "Link": "https://www.aicte-india.org/"
-          },
-          {
-            "ID": 3,
-            "MenuText": "NBA",
-            "ParentID": 21,
-            "dynamicID": null,
+            "isVisible": false,
+            "ChildMenuVMs": []
+        },
+
+        {
+            "ID": 29,
+            "MenuText": "Governance",
+            "ParentID": 2,
             "ControllerName": "",
             "ActionName": "",
+            "position": 9,
+            "isVisible": true,
+            "Link": "/ImpDocs/Goverence.pdf",
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 25,
+            "MenuText": "Newsletter",
+            "ParentID": 2,
+            "ControllerName": "Institute",
+            "ActionName": "NewsLetter",
             "position": 3,
             "isVisible": true,
-            "Link": "https://www.nbaind.org/"
-          },
-          {
-            "ID": 4,
-            "MenuText": "Directorate of Technical Education",
-            "ParentID": 21,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 26,
+            "MenuText": "Tenders",
+            "ParentID": 2,
+            "ControllerName": "Institute",
+            "ActionName": "Tenders",
             "position": 4,
             "isVisible": true,
-            "Link": "https://dte.gujarat.gov.in/"
-          },
-          {
-            "ID": 5,
-            "MenuText": "DST",
-            "ParentID": 21,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 27,
+            "MenuText": "Mandatory Disclosure",
+            "dynamicID": 2,
+            "ParentID": 2,
+            "ControllerName": "Documents",
+            "ActionName": "Index",
             "position": 5,
             "isVisible": true,
-            "Link": "https://dst.gov.in/"
-          },
-          {
-            "ID": 6,
-            "MenuText": "GPSC",
-            "ParentID": 21,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 28,
+            "MenuText": "MoUs",
+            "dynamicID": 1,
+            "ParentID": 2,
+            "ControllerName": "Documents",
+            "ActionName": "Index",
             "position": 6,
             "isVisible": true,
-            "Link": "https://gpsc.gujarat.gov.in/"
-          },
-          {
-            "ID": 7,
-            "MenuText": "Mari Yojana",
-            "ParentID": 21,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 76,
+            "MenuText": "RTI",
+            "ParentID": 2,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "dynamicID": 6,
             "position": 7,
             "isVisible": true,
-            "Link": "https://mariyojana.gujarat.gov.in/"
-          }
-        ]
-      }
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 29,
+            "MenuText": "NEWS",
+            "ParentID": 2,
+            "ControllerName": "Institute",
+            "ActionName": "NEWS",
+            "position": 8,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 21,
+            "MenuText": "Important Links",
+            "ParentID": 2,
+            "ControllerName": "",
+            "ActionName": "#",
+            "position": 10,
+            "isVisible": true,
+            "ChildMenuVMs": [
+                {
+                    "ID": 1,
+                    "MenuText": "Gujarat Technological University (GTU)",
+                    "ParentID": 21,
+                    "dynamicID": null,
+                    "ControllerName": "",
+                    "ActionName": "",
+                    "position": 1,
+                    "isVisible": true,
+                    "Link": "https://www.gtu.ac.in/"
+                },
+                {
+                    "ID": 2,
+                    "MenuText": "AICTE",
+                    "ParentID": 21,
+                    "dynamicID": null,
+                    "ControllerName": "",
+                    "ActionName": "",
+                    "position": 2,
+                    "isVisible": true,
+                    "Link": "https://www.aicte-india.org/"
+                },
+                {
+                    "ID": 3,
+                    "MenuText": "NBA",
+                    "ParentID": 21,
+                    "dynamicID": null,
+                    "ControllerName": "",
+                    "ActionName": "",
+                    "position": 3,
+                    "isVisible": true,
+                    "Link": "https://www.nbaind.org/"
+                },
+                {
+                    "ID": 4,
+                    "MenuText": "Directorate of Technical Education",
+                    "ParentID": 21,
+                    "dynamicID": null,
+                    "ControllerName": "",
+                    "ActionName": "",
+                    "position": 4,
+                    "isVisible": true,
+                    "Link": "https://dte.gujarat.gov.in/"
+                },
+                {
+                    "ID": 5,
+                    "MenuText": "DST",
+                    "ParentID": 21,
+                    "dynamicID": null,
+                    "ControllerName": "",
+                    "ActionName": "",
+                    "position": 5,
+                    "isVisible": true,
+                    "Link": "https://dst.gov.in/"
+                },
+                {
+                    "ID": 6,
+                    "MenuText": "GPSC",
+                    "ParentID": 21,
+                    "dynamicID": null,
+                    "ControllerName": "",
+                    "ActionName": "",
+                    "position": 6,
+                    "isVisible": true,
+                    "Link": "https://gpsc.gujarat.gov.in/"
+                },
+                {
+                    "ID": 7,
+                    "MenuText": "Mari Yojana",
+                    "ParentID": 21,
+                    "dynamicID": null,
+                    "ControllerName": "",
+                    "ActionName": "",
+                    "position": 7,
+                    "isVisible": true,
+                    "Link": "https://mariyojana.gujarat.gov.in/"
+                }
+            ]
+        }
     ]
   },
   {
@@ -601,74 +603,74 @@
     "isVisible": true,
     "ChildMenuVMs": [
 
-      {
-        "ID": 61,
-        "MenuText": "General Rules & Regulations",
-        "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "StudentCorner",
-        "ActionName": "Rules",
-        "position": 11,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 62,
-        "MenuText": "Time Table",
-        "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "StudentCorner",
-        "ActionName": "TimeTable",
-        "position": 12,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 63,
-        "MenuText": "Enrollment Details",
-        "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "StudentCorner",
-        "ActionName": "Enroll",
-        "position": 13,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 58,
-        "MenuText": "Student Club",
-        "ParentID": 5,
-        "dynamicID": 1,
-        "ControllerName": "Facilities",
-        "ActionName": "StudentClub",
-        "position": 14,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 64,
-        "MenuText": "Student Grade History",
-        "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "StudentCorner",
-        "ActionName": "StudentGradeHistory",
-        "position": 15,
-        "isVisible": true,
-        "Link": "https://www.students.gtu.ac.in/Default.aspx",
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 65,
-        "MenuText": "Fees Portal",
-        "ParentID": 6,
-        "dynamicID": null,
-        "ControllerName": "StudentCorner",
-        "ActionName": "Fees",
-        "position": 16,
-        "isVisible": true,
-        "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
-        "ChildMenuVMs": []
-      }
+        {
+            "ID": 61,
+            "MenuText": "General Rules & Regulations",
+            "ParentID": 6,
+            "dynamicID": null,
+            "ControllerName": "StudentCorner",
+            "ActionName": "Rules",
+            "position": 11,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 62,
+            "MenuText": "Time Table",
+            "ParentID": 6,
+            "dynamicID": 4,
+            "ControllerName": "Documents",
+            "ActionName": "Index",
+            "position": 12,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 63,
+            "MenuText": "Enrollment Details",
+            "ParentID": 6,
+            "dynamicID": 5,
+            "ControllerName": "Documents",
+            "ActionName": "Index",
+            "position": 13,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 58,
+            "MenuText": "Student Club",
+            "ParentID": 5,
+            "dynamicID": 1,
+            "ControllerName": "Facilities",
+            "ActionName": "StudentClub",
+            "position": 14,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 64,
+            "MenuText": "Student Grade History",
+            "ParentID": 6,
+            "dynamicID": null,
+            "ControllerName": "StudentCorner",
+            "ActionName": "StudentGradeHistory",
+            "position": 15,
+            "isVisible": true,
+            "Link": "https://www.students.gtu.ac.in/Default.aspx",
+            "ChildMenuVMs": []
+        },
+        {
+            "ID": 65,
+            "MenuText": "Fees Portal",
+            "ParentID": 6,
+            "dynamicID": null,
+            "ControllerName": "StudentCorner",
+            "ActionName": "Fees",
+            "position": 16,
+            "isVisible": true,
+            "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
+            "ChildMenuVMs": []
+        }
     ]
   },
   {
