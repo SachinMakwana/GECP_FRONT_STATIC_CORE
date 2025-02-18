@@ -867,6 +867,20 @@ table.dataTable thead .sorting_desc_disabled:before {
 .stcode_title4 .line {
     background: #5076bb;
 }
+
+.vision_section {
+    float: left;
+    width: 100%;
+    background: #f3f3f3;
+    padding: 7% 4%;
+}
+
+    .vision_section .one_half {
+        border-right: 2px solid rgb(0 123 255);
+    }
+    .vision_section .last {
+        border-right: none;
+    }
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {
