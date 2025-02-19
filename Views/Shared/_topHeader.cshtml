@@ -10,20 +10,39 @@
 
 		</div><!-- end left -->
 
-		@* <div class="right gecp_social_right">
-
-			<a href="#" class="tpbut two active"><i class="fa fa-pencil-square-o"></i>&nbsp; Register</a>
-			<a href="#" class="tpbut"><i class="fa fa-lock"></i>&nbsp; Login</a>
-
-			<ul class="topsocial">
+		<div class="right gecp_social_right">
+            @foreach (var subChild in Model.MenuVMs.OrderByDescending(m=>m.position).ToList())
+            {
+                @if (subChild.dynamicID != null)
+                {
+                    <a href="@Url.Action(subChild.ActionName, subChild.ControllerName, new { id = subChild.dynamicID })" class="tpbut">
+                        @subChild.MenuText
+                    </a>
+                }
+                else if (!string.IsNullOrWhiteSpace(subChild.Link))
+                {
+                    <a href="@subChild.Link" target="_blank" class="tpbut">
+                        @subChild.MenuText
+                    </a>
+                }
+                else
+                {
+                    <a href="@Url.Action(subChild.ActionName, subChild.ControllerName)" class="tpbut">
+                        @subChild.MenuText
+                    </a>
+                }
+			}
+			@* <a href="#" class="tpbut two active"><i class="fa fa-pencil-square-o"></i>&nbsp; Register</a>
+			<a href="#" class="tpbut"><i class="fa fa-lock"></i>&nbsp; Login</a> 
+            <ul class="topsocial">
 				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 				<li><a href="#"><i class="fa fa-rss"></i></a></li>
-			</ul>
+			</ul> *@
 
-		</div> *@<!-- end right -->
+		</div><!-- end right -->
 
 	</div>
 </div><!-- end top navigation links -->

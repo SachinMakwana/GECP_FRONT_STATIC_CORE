@@ -1,7 +1,31 @@
 {
     "ContactNo": "2766297735 | 2766297736",
-    "ContactEmail": "principalgecpatan@gmail.com",
+    "ContactEmail": "principal@gecpatan.ac.in",
     //"ContactEmail": "principalgecpatan@gmail.com",
     "logo": "~/images/GECP_LOGO.png",
-    "MenuVMs": []
+    "MenuVMs": [
+        {
+            "ID": 10,
+            "MenuText": "Alumni",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "Alumni",
+            "ActionName": "Index",
+            "position": 1,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        },
+
+        {
+            "ID": 11,
+            "MenuText": "Contact",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "ContactUs",
+            "ActionName": "Index",
+            "position": 2,
+            "isVisible": true,
+            "ChildMenuVMs": []
+        }
+    ]
 }
