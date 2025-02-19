@@ -14,6 +14,7 @@ namespace GECP_Front_End_Static.Models
         public List<string> Images { get; set; }
         public string ControllerName { get; set; }
         public string ActionName { get; set; }
+        public string ExternalLink { get; set; }
         public string Description { get; set; }
     }
 }

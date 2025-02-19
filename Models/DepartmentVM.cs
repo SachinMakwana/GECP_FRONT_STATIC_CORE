@@ -27,9 +27,11 @@ namespace GECP_Front_End_Static.Models
 
         public List<TendersVM> TimeTable { get; set; }
         public List<Labs> Labs { get; set; }
-        public List<NEWSModel> NoticeBoard { get; set; }
+        public List<CommitteeActivity> NoticeBoard { get; set; }
 
         public List<FacultyDetailsVM> FacultyList { get; set; } = new List<FacultyDetailsVM>();
+
+        public List<CommitteeActivity> Activities { get; set; }
     }
 
     public class Labs

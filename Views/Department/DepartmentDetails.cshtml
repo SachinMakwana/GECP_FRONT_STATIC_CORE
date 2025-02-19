@@ -42,19 +42,21 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'Staff')">Faculties And Staff</button>
 		}
-		@if (Model.TimeTable != null)
-		{
-			<button class="tablinks" onclick="openTab(event, 'TimeTable')">Time Table</button>
-		}
-		@if (Model.DeptAcademicCalender != null)
+		
+		<a href="@Url.Action("Index","Documents",new{@id=4})" target="_blank"><button class="tablinks">Time Table</button></a>
+		@if (Model.DeptAcademicCalender != null && Model.DeptAcademicCalender.Count()>0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Calender')">Academic Calender</button>
 		}
-		@if (Model.NoticeBoard != null)
+		@if (Model.Activities != null && Model.Activities.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Activities')">Activities</button>
+		}
+		@if (Model.NoticeBoard != null && Model.NoticeBoard.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'NoticeBoard')">Notice Board</button>
 		}
-		<a href="@Url.Action("Achievements","Academics")"><button class="tablinks">Achievements</button></a>
+		<a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="tablinks">Achievements</button></a>
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="full-container">
@@ -413,8 +415,112 @@
 			</ul>
 		</div>
 	</div>
+	<div id="Activities" class="tabcontent">
+		@if (Model.Activities != null && Model.Activities.Count() > 0)
+		{
+			foreach (var item in Model.Activities)
+			{
+				<div class="box">
+					<h2 class="boxtitle">@item.Title</h2>
+					<div class="boxinfo">
+						<ul class="post_meta_links">
+							<li class="post_categoty">@item.EventDate</li>
+							<li class="post_categoty">@item.EventTime</li>
+						</ul>
+						<div class="clearfix margin_top1"></div>
+						@item.Description
+					</div>
+					<div class="clearfix margin_top1"></div>
+					<ul class="Activitesfile">
+						@foreach (var file in item.Files)
+						{
 
+							<li>
+								@if (file.FileType.ToUpper() == "PDF")
+								{
+									<a href="javascript:void(0)" onclick="loadPdf('@file.FilePath','@file.Title')">
+										<i class="fa fa-file-pdf-o " aria-hidden="true"></i>
+										@file.Title
+									</a>
+								}
+								else
+								{
+									<a href="@Url.Content(file.FilePath)" target="_blank" download>
+										<i class="fa @(file.FileType.ToUpper()=="WORD"?"fa-file-word-o":"fa-file-excel-o")" aria-hidden="true"></i>
+										@file.Title
+									</a>
+								}
+							</li>
+						}
+
+					</ul>
+				</div>
+				<div class="clearfix margin_bottom1"></div>
+			}
+		}
+		else
+		{
+			<h2>No Activities Available</h2>
+		}
+	</div>
 	<div id="NoticeBoard" class="tabcontent">
+		@if (Model.NoticeBoard != null && Model.NoticeBoard.Count() > 0)
+		{
+			foreach (var item in Model.NoticeBoard)
+			{
+				<div class="box">
+					<h2 class="boxtitle">@item.Title</h2>
+					<div class="boxinfo">
+						<ul class="post_meta_links">
+							<li class="post_categoty">@item.EventDate</li>
+							<li class="post_categoty">@item.EventTime</li>
+						</ul>
+						<div class="clearfix margin_top1"></div>
+						@item.Description
+					</div>
+					<div class="clearfix margin_top1"></div>
+					<ul class="Activitesfile">
+						@foreach (var file in item.Files)
+						{
+
+							<li>
+								@if (file.FileType.ToUpper() == "PDF")
+								{
+									<a href="javascript:void(0)" onclick="loadPdf('@file.FilePath','@file.Title')">
+										<i class="fa fa-file-pdf-o " aria-hidden="true"></i>
+										@file.Title
+									</a>
+								}
+								else
+								{
+									<a href="@Url.Content(file.FilePath)" target="_blank" download>
+										<i class="fa @(file.FileType.ToUpper()=="WORD"?"fa-file-word-o":"fa-file-excel-o")" aria-hidden="true"></i>
+										@file.Title
+									</a>
+								}
+							</li>
+						}
+
+					</ul>
+					<div class="clearfix margin_bottom1"></div>
+					@if(!string.IsNullOrWhiteSpace(item.ActionName)&&!string.IsNullOrWhiteSpace(item.ControllerName)){
+						<a href="@Url.Action(item.ActionName,item.ControllerName,new{@id = item.PageID})" class="read-more-button" target="_blank">
+							KNOW MORE
+						</a>
+					}
+					else if(!string.IsNullOrWhiteSpace(item.ExternalLink)){
+						<a href="@Url.Action(item.ActionName,item.ControllerName,new{@id = item.PageID})" class="read-more-button" target="_blank">
+							KNOW MORE
+						</a>
+					}
+				</div>
+				<div class="clearfix margin_bottom1"></div>
+			}
+		}
+		else
+		{
+			<h2>No Activities Available</h2>
+		}
 	</div>
 
 	<div id="Achievements" class="tabcontent">
@@ -635,7 +741,14 @@
 				background-color: #0056b3;
 			}
 
+		.Activitesfile > li {
+			display: block;
+			margin: auto;
+			float: left;
+			margin-right: 15px;
+		}
 	</style>
+	
 	<link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
 	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
 }
