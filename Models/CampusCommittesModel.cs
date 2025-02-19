@@ -47,6 +47,11 @@ namespace GECP_Front_End_Static.Models
         public string EventDate { get; set; }
         public string EventTime { get; set; }
         public List<File> Files { get; set; }
+        public List<string> Images { get; set; }
+        public string ControllerName { get; set; }
+        public string ActionName { get; set; }
+        public string ExternalLink { get; set; }
+        public string PageID { get; set; }
     }
 
     public class File
