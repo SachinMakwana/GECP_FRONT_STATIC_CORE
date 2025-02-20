@@ -70,7 +70,7 @@ transition:height .4s ease!important
 	transition:none!important
 }
 .cbp-loading {
-	background:url(../../../../../www.themesmarket.net/html/linstar/js/img/cbp-loading.html) center center no-repeat
+	background: url(img/cbp-loading.gif) center center no-repeat
 }
 .cbp .cbp-item-hidden {
 	pointer-events:none;

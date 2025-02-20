@@ -13,4 +13,4 @@ function openTab(evt, tabId) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+if (document.getElementById("defaultOpen") != null) { document.getElementById("defaultOpen").click(); }
