@@ -61,8 +61,20 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Achievements()
         {
-            return View(AchievementsVM);
+            return View();
         }
+
+        public IActionResult AchievementsByYear(int year=0)
+        {
+            List<AchievementsVM> achievementsVMs = new List<AchievementsVM>();
+            achievementsVMs = AchievementsVM;
+            if (year > 0)
+            {
+                achievementsVMs = AchievementsVM.Where(m => m.Year == year).ToList();
+            }
+            return View("_Achievements", achievementsVMs);
+        }
+
         public IActionResult SSIPDocuments()
         {
             return View(SSIPDocumentsVM.Where(m => m.isShow == true).ToList());
