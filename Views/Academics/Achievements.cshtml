@@ -37,7 +37,7 @@
 	<script>
 		$(document).ready(function(){
 			$("#achDiv").load("@Url.Action("AchievementsByYear", "Academics", new { @year = 0 })");
-			setTimeout(function(){reInit()},100);
+			reInit();
 		})
 		function loadAchievements(evt,url){
 			$("#achDiv").load(url);
