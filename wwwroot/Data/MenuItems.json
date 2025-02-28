@@ -711,9 +711,9 @@
                 "ID": 58,
                 "MenuText": "Student Club",
                 "ParentID": 5,
-                "dynamicID": 1,
-                "ControllerName": "Facilities",
-                "ActionName": "StudentClub",
+                "dynamicID": null,
+                "ControllerName": "StudentCorner",
+                "ActionName": "StudentClubs",
                 "position": 14,
                 "isVisible": true,
                 "ChildMenuVMs": []
