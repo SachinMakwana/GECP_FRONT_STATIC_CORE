@@ -1,9 +1,10 @@
-﻿@model List<GECP_Front_End_Static.Models.AchievementsVM>
+﻿@model GECP_Front_End_Static.Models.AchievementsWrapperVM
 @{
     Layout = null;
     ViewBag.Title = "Achievements";
     int count = 1;
 }
+@if(Model.Achievements.Count()>0){
 <div class="works01">
     <div class="container">
 
@@ -12,29 +13,17 @@
                 All
                 <div class="cbp-filter-counter"></div>
             </div>
-            <div data-filter=".CSE" class="cbp-filter-item">
-                CSE
-                <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".NSS" class="cbp-filter-item">
-                NSS
-                <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".Electrical" class="cbp-filter-item">
-                Electrical
-                <div class="cbp-filter-counter"></div>
-            </div>
-            <div data-filter=".Yoddhha" class="cbp-filter-item">
-                Yoddhha
-                <div class="cbp-filter-counter"></div>
-            </div>
-          
-
+            @foreach(var item in Model.Keywords){
+                <div data-filter=".@item" class="cbp-filter-item">
+                    @item
+                    <div class="cbp-filter-counter"></div>
+                </div>
+            }
         </div>
 
 
         <div id="grid-container" class="cbp-l-grid-fullWidth">
-            @foreach (var item in Model)
+            @foreach (var item in Model.Achievements)
             {
                 <div class="cbp-item @foreach (string key in item.Keywords.Split(',')){
             @key
@@ -78,14 +67,17 @@
 
     </div>
 </div>
-
+}
+else{
+    <h2 class="text-center">NO DATA AVAILABLE</h2>
+}
 <div class="clearfix margin_top2"></div>
 
-@section tabs {
+@* @section tabs {
     <script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/main32.js")"></script>
 }
 
 @section styles {
     <!-- timeline -->
     <link rel="stylesheet" href="@Url.Content("~/js/timeline/timeline.css")">
-}
+} *@
