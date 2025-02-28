@@ -1,4 +1,4 @@
-﻿@model List<GECP_Front_End_Static.Models.AchievementsVM>
+﻿@model GECP_Front_End_Static.Models.AchievementsWrapperVM
 @{
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewBag.Title = "Achievements";
@@ -20,8 +20,10 @@
 <div class="full-container">
 	<div class="tab">
 		<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=0})')" id="defaultOpen">All</button>
-		<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=2025})')">2025</button>
-		<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=2024})')">2024</button>
+		@foreach (var item in Model.Years)
+		{
+			<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=item})')">@item</button>
+		}
 	</div>
 	<div id="achDiv" class="tabcontent">
 	</div>

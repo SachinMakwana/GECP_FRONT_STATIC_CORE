@@ -18,6 +18,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<AcademicCalendersVM> AcademicCalendersVM = new List<AcademicCalendersVM>();
         public List<SSIPDocumentsVM> SSIPDocumentsVM = new List<SSIPDocumentsVM>();
         public List<ResearchGrantsVM> ResearchGrantsVM = new List<ResearchGrantsVM>();
+        public AchievementsWrapperVM achievementsWrapperVM = new AchievementsWrapperVM();
         public IntakeVM intakeVM = new IntakeVM();
         public AcademicsController(IWebHostEnvironment hostingEnvironment)
         {
@@ -31,7 +32,8 @@ namespace GECP_Front_End_Static.Controllers
             string json = webClient.DownloadString(jsonpath);
             string json1 = webClient.DownloadString(jsonpath1);
             string json2 = webClient.DownloadString(jsonpath2);
-            AchievementsVM = JsonConvert.DeserializeObject<List<AchievementsVM>>(json);
+            achievementsWrapperVM = JsonConvert.DeserializeObject<AchievementsWrapperVM>(json);
+            //AchievementsVM = achievementsWrapperVM.Achievements;
 
             jsonpath = webRootPath + @"\Data\Academics\AcademicsCalender.json";
 
@@ -61,18 +63,19 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Achievements()
         {
-            return View();
+            return View(achievementsWrapperVM);
         }
 
         public IActionResult AchievementsByYear(int year=0)
         {
-            List<AchievementsVM> achievementsVMs = new List<AchievementsVM>();
-            achievementsVMs = AchievementsVM;
+            AchievementsWrapperVM data = new AchievementsWrapperVM();
+            data = achievementsWrapperVM;
             if (year > 0)
             {
-                achievementsVMs = AchievementsVM.Where(m => m.Year == year).ToList();
+                data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.Year == year).ToList();
             }
-            return View("_Achievements", achievementsVMs);
+            
+            return View("_Achievements", data);
         }
 
         public IActionResult SSIPDocuments()
