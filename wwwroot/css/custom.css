@@ -766,7 +766,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     font-size: 60px;
     top: -30px;
     position: relative;
-    left: 3%;
+    left: 0%;
     font-variant: small-caps;
 }
 
@@ -899,6 +899,14 @@ table.dataTable thead .sorting_desc_disabled:before {
         flex-direction: column;
     }
 
+    body, input, textarea {
+        /* font: 14px 'Open Sans', sans-serif; */
+        font-weight: normal;
+        font-style: normal;
+        line-height: 23px;
+        color: #727272;
+    }
+
     .gecp_name {
         font-size: 1.2rem;
     }
@@ -911,10 +919,45 @@ table.dataTable thead .sorting_desc_disabled:before {
     .gecp_logo h1 {
         display: inline;
         margin: auto;
-        font-size: 29px;
+        font-size: 24px;
         top: -19px;
         position: relative;
         /*left: 3%;*/
         font-variant: small-caps;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .logo_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body, input, textarea {
+        /* font: 14px 'Open Sans', sans-serif; */
+        font-weight: normal;
+        font-style: normal;
+        line-height: 23px;
+        color: #727272;
+    }
+
+
+    .gecp_logo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .gecp_logo img {
+            width: 60px; /* Further reduced */
+        }
+
+        .gecp_logo h1 {
+            font-size: 16px; /* Smaller font */
+            white-space: normal;
+        }
+
+    .gecp_gov_emblame img {
+        width: 60px; /* Adjusted for small screens */
     }
 }
