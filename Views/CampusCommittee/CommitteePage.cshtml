@@ -29,7 +29,7 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
 		}
-		@if (Model.SubObjectives != null && Model.SubObjectives.Count()>0)
+		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">Sub Objectives</button>
 		}
@@ -94,7 +94,7 @@
 				<br><br>
 				@foreach (var obj in Model.Vision)
 				{
-					<h4 class="roboto thin text-justify"> @obj</h4>
+					<h4 class="roboto thin text-justify"> @Html.Raw(obj)</h4>
 				}
 
 				<div class="margin_top2"></div>
@@ -105,7 +105,7 @@
 				<br><br>
 				@foreach (var obj in Model.Mission)
 				{
-					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @obj</h4>
+					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
 				}
 
 				<div class="margin_top2"></div>
@@ -126,7 +126,7 @@
 				{
 					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
 				}
-				
+
 				<div class="margin_top2"></div>
 
 			</div>
@@ -140,18 +140,18 @@
 				</h1>
 				@foreach (var item in Model.Members)
 				{
-					
-						<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
 
-							<img src="@Url.Content(item.Image)" alt="">
-							<h5>@item.Name <em>@item.Position</em></h5>
-							<text>@item.Department</text>
-							<text>@item.Email</text>
-						
-						</div>
+					<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
 
-						<!-- end section -->
-						<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
+						<img src="@Url.Content(item.Image)" alt="">
+						<h5>@item.Name <em>@item.Position</em></h5>
+						<text>@item.Department</text>
+						<text>@item.Email</text>
+
+					</div>
+
+					<!-- end section -->
+					<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
 					count++;
 				}
 			</div>
@@ -159,14 +159,14 @@
 	</div>
 	<div id="BulletPoints" class="tabcontent">
 		<div class="featured_section37">
-			<div class="container text-justify">
+			<div class="full-container text-justify">
 
 				@foreach (var item in Model.BulletPoints)
 				{
 					<div class="ibox animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
 
 						<i class="fa fa-check" aria-hidden="true"></i>
-						<h5>@item</h5>
+						<h5>@Html.Raw(item)</h5>
 
 					</div>
 					<!-- end section -->
@@ -187,7 +187,19 @@
 							<li class="post_categoty">@item.EventTime</li>
 						</ul>
 						<div class="clearfix margin_top1"></div>
-						@item.Description
+						@if (item.Images.Count() > 0)
+						{
+
+							<div class="image_section">
+								@foreach (var img in item.Images)
+								{
+									<div class="col-sm-2 ">
+										<img src="@img" class="rimg" />
+									</div>
+								}
+							</div>
+						}
+						@Html.Raw(item.Description)
 					</div>
 					<div class="clearfix margin_top1"></div>
 					<ul class="Activitesfile">

@@ -175,16 +175,24 @@
     "Title": "Time Table",
     "YearSection": [
       {
-        "Year": "2024",
+        "Year": "2024-2024",
         "Documents": [
-          {
-            "ID": 1,
-            "Title": "Kachchua Solutions Pvt. Ltd.",
-            "FileType": "PDF",
-            "File": "~/MOU/Kachhua.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          }
+            {
+                "ID": 1,
+                "Title": "Civil ODD 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2024_2025.pdf",
+                "isShow": true,
+                "UploadDate": "01-03-2025"
+            },
+            {
+                "ID": 2,
+                "Title": "Civil EVEN 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2024_2025.pdf",
+                "isShow": true,
+                "UploadDate": "01-03-2025"
+            }
         ]
       }
     ]

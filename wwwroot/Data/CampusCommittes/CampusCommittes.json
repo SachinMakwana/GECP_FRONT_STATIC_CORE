@@ -65,31 +65,27 @@
         "Title": "Student Startup Innovation Program",
         "TitleImage": "../../images/ssip_banner.jpg",
         "TitleImageCSSClass": "ssip_title",
-        "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
+        "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, is a dedicated initiative aimed at fostering innovation, entrepreneurship, and problem-solving skills among students. Established under the SSIP program by the Government of Gujarat, the cell provides financial and infrastructural support to young innovators, helping them transform their ideas into viable products and startups. <br/>At SSIP Cell, GEC Patan, students receive mentorship, technical guidance, and access to resources such as prototyping labs, funding opportunities, and networking events. The cell conducts various activities, including hackathons, ideation workshops, expert talks, and startup competitions, to encourage students to think creatively and work on real-world challenges.<br/> By collaborating with industry experts, research organizations, and startup incubators, the SSIP Cell bridges the gap between academia and industry, ensuring that students can commercialize their innovations effectively. The initiative also aligns with Make in India and Atmanirbhar Bharat, promoting self-reliance and indigenous technological development. <br/>Through SSIP, GEC Patan nurtures a culture of entrepreneurship and innovation, empowering students to become job creators rather than job seekers and contribute to technological advancements and economic growth.",
         "Measures": "The SSIP Cell at GEC Patan undertakes several measures to promote innovation and entrepreneurship among students:<br/> <ul class=\"text-justify\"> <li>Idea Nurturing: Organizes ideation workshops, hackathons, and innovation challenges to identify and refine creative ideas.</li> <li>Mentorship: Provides industry experts, entrepreneurs, and faculty guidance to support project development.</li> <li>Financial Support: Offers seed funding and grants for prototyping and startup initiatives.</li> <li>Infrastructure Support: Provides access to labs, co-working spaces, and technical resources.</li> <li>Capacity Building: Conducts skill development programs and training sessions on business models, intellectual property rights, and pitching.</li> <li>Industry Collaboration: Establishes partnerships with industries and startups for internships, real-world exposure, and project validation.</li> <li>Outreach Activities: Encourages participation in state and national-level innovation competitions.</li> </ul>",
-        "Measure_Image": "~/images/CampusCommittee/SSIP/tree-2987962_1280.jpg",
+        //"Measure_Image": "~/images/CampusCommittee/SSIP/tree-2987962_1280.jpg",
+        "Measure_Image": "~/DataFiles/CampusCommittees/SSIP/logo.png",
         "Vision": [
-            "To create an ecosystem that fosters innovation, entrepreneurship, and skill development, empowering students to become future-ready innovators and entrepreneurs contributing to sustainable socio-economic growth."
+            "Fostering Innovation &amp; Entrepreneurship – Cultivate a culture of creativity, innovation, and entrepreneurship among students by providing necessary resources, mentorship, and industry collaboration.",
+            "Encouraging Research &amp; Prototyping – Support students in research, prototyping, and product development by offering technical and financial assistance.",
+            "Bridging Academia &amp; Industry – Establish strong industry-academia linkages to enhance skill development, technology transfer, and real-world problem-solving."
         ],
         "Mission": [
-            "To encourage a culture of creativity, problem-solving, and innovation among students and faculty.",
-            "To support student-led startups by providing mentorship, funding, and resource access.",
-            "To bridge the gap between academia and industry through collaborations and partnerships.",
-            "To promote skill enhancement through training, workshops, and hands-on project development.",
-            "To empower students with knowledge of intellectual property rights and commercialization strategies.",
-            "To provide a platform for students to showcase their innovations at various levels."
+            "Empower Student Innovators – Provide a supportive ecosystem for students to transform ideas into viable innovations through mentorship, funding, and technical guidance.",
+            "Enhance Startup Culture – Foster an entrepreneurial mindset by encouraging startups, incubating innovative projects, and facilitating industry collaborations.",
+            "Promote Research &amp; Skill Development – Support research, prototype development, and skill enhancement to bridge the gap between academic knowledge and real-world applications."
         ],
         "SubObjectives": [
-            "Encourage Innovation: Promote a culture of creative thinking and problem-solving among students.",
-            "Support Startups: Facilitate student-led startups by providing mentorship, funding, and resources.",
-            "Bridge Academia and Industry: Connect with industries to ensure practical exposure and project validation.",
-            "Enable Prototyping: Support students in developing prototypes and proof-of-concept models.",
-            "Promote Skill Development: Conduct training sessions to enhance entrepreneurial and technical skills.",
-            "Raise Awareness: Educate students about intellectual property rights and commercialization opportunities.",
-            "Encourage Participation: Motivate students to engage in state, national, and international innovation competitions and exhibitions."
+            "Encourage Student-led Innovations – Support students in developing innovative solutions by providing financial, technical, and mentorship assistance.",
+            "Facilitate Prototyping &amp; Incubation – Assist in transforming ideas into prototypes and fostering startups through incubation support.",
+            "Strengthen Industry &amp; Academic Collaboration – Bridge the gap between industry and academia to enhance practical learning, research, and commercialization of innovations."
         ],
         "SubObjImg": "~/images/CampusCommittee/SSIP/laptop-5000778_1280.png",
-        "BulletPoints": [],
+        "BulletPoints": [ "For the PoC and IPR, student has to apply through the following link : <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSew5ey9S9JiZDyNXLxh_bOzbtrGhCXvfzCUnIcSyI2dP0WyOw/viewform?fbzx=3137647941861298455\" class=\"btn btn-success\" target=\"_blank\"> Link </a>" ],
         "BulletPointsImg": "",
         "PageFlyer": "~/images/CampusCommittee/SSIP/ssipcell.jpg",
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"> <b> \"</b> Innovate, Incubate, <b> Ignite!\"</b> </h1>",
@@ -142,6 +138,19 @@
                 "Department": "Computer Scence & Engineering Department",
                 "Image": "~/images/Faculty/211.jpg",
                 "Email": "mehul.vasava@gecpatan.ac.in"
+            }
+        ],
+        "Activities": [
+            {
+                "ID": 1,
+                "Title": "SSIP 2.0 sensitization program",
+                "Description": "The SSIP 2.0 Sensitization Program aims to create COMMITTEE DETAILS awareness among students, faculty, and stakeholders about the Student Startup and Innovation Policy (SSIP) 2.0. This initiative enhances the innovation ecosystem by providing financial, technical, and mentorship support for student-led projects, startups, and research. The program educates participants about funding opportunities, prototyping assistance, and industry collaborations. It also highlights advancements from SSIP 1.0, focusing on scalability, intellectual property rights (IPR), and commercialization. Through workshops, seminars, and interactive sessions, the sensitization program encourages students to actively participate in innovation and entrepreneurship, driving technological progress and self-reliance in Gujarat and beyond. 120 students of First year including all branches have participated in it.",
+                "EventDate": "21/02/2025",
+                "EventTime": "02: 00 pm to 3: 15 pm",
+                "Images": [],
+                "Files": [
+
+                ]
             }
         ]
     },
