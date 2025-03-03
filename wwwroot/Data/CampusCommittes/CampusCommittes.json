@@ -65,31 +65,27 @@
         "Title": "Student Startup Innovation Program",
         "TitleImage": "../../images/ssip_banner.jpg",
         "TitleImageCSSClass": "ssip_title",
-        "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, fosters innovation and entrepreneurial skills among students. Established under the Gujarat government's initiative, the cell provides resources, mentorship, and financial support to nurture student-led startups and projects. It encourages innovative thinking, offering platforms like ideation workshops, hackathons, and incubation programs. By collaborating with industries and academic experts, the SSIP Cell helps students turn their ideas into viable solutions, promoting a culture of self-reliance and innovation. Its efforts aim to bridge the gap between academia and industry, driving technological advancements and socio-economic growth.",
+        "About": "The SSIP (Student Startup and Innovation Policy) Cell at Government Engineering College (GEC), Patan, is a dedicated initiative aimed at fostering innovation, entrepreneurship, and problem-solving skills among students. Established under the SSIP program by the Government of Gujarat, the cell provides financial and infrastructural support to young innovators, helping them transform their ideas into viable products and startups. <br/>At SSIP Cell, GEC Patan, students receive mentorship, technical guidance, and access to resources such as prototyping labs, funding opportunities, and networking events. The cell conducts various activities, including hackathons, ideation workshops, expert talks, and startup competitions, to encourage students to think creatively and work on real-world challenges.<br/> By collaborating with industry experts, research organizations, and startup incubators, the SSIP Cell bridges the gap between academia and industry, ensuring that students can commercialize their innovations effectively. The initiative also aligns with Make in India and Atmanirbhar Bharat, promoting self-reliance and indigenous technological development. <br/>Through SSIP, GEC Patan nurtures a culture of entrepreneurship and innovation, empowering students to become job creators rather than job seekers and contribute to technological advancements and economic growth.",
         "Measures": "The SSIP Cell at GEC Patan undertakes several measures to promote innovation and entrepreneurship among students:<br/> <ul class=\"text-justify\"> <li>Idea Nurturing: Organizes ideation workshops, hackathons, and innovation challenges to identify and refine creative ideas.</li> <li>Mentorship: Provides industry experts, entrepreneurs, and faculty guidance to support project development.</li> <li>Financial Support: Offers seed funding and grants for prototyping and startup initiatives.</li> <li>Infrastructure Support: Provides access to labs, co-working spaces, and technical resources.</li> <li>Capacity Building: Conducts skill development programs and training sessions on business models, intellectual property rights, and pitching.</li> <li>Industry Collaboration: Establishes partnerships with industries and startups for internships, real-world exposure, and project validation.</li> <li>Outreach Activities: Encourages participation in state and national-level innovation competitions.</li> </ul>",
-        "Measure_Image": "~/images/CampusCommittee/SSIP/tree-2987962_1280.jpg",
+        //"Measure_Image": "~/images/CampusCommittee/SSIP/tree-2987962_1280.jpg",
+        "Measure_Image": "~/DataFiles/CampusCommittees/SSIP/logo.png",
         "Vision": [
-            "To create an ecosystem that fosters innovation, entrepreneurship, and skill development, empowering students to become future-ready innovators and entrepreneurs contributing to sustainable socio-economic growth."
+            "Fostering Innovation &amp; Entrepreneurship – Cultivate a culture of creativity, innovation, and entrepreneurship among students by providing necessary resources, mentorship, and industry collaboration.",
+            "Encouraging Research &amp; Prototyping – Support students in research, prototyping, and product development by offering technical and financial assistance.",
+            "Bridging Academia &amp; Industry – Establish strong industry-academia linkages to enhance skill development, technology transfer, and real-world problem-solving."
         ],
         "Mission": [
-            "To encourage a culture of creativity, problem-solving, and innovation among students and faculty.",
-            "To support student-led startups by providing mentorship, funding, and resource access.",
-            "To bridge the gap between academia and industry through collaborations and partnerships.",
-            "To promote skill enhancement through training, workshops, and hands-on project development.",
-            "To empower students with knowledge of intellectual property rights and commercialization strategies.",
-            "To provide a platform for students to showcase their innovations at various levels."
+            "Empower Student Innovators – Provide a supportive ecosystem for students to transform ideas into viable innovations through mentorship, funding, and technical guidance.",
+            "Enhance Startup Culture – Foster an entrepreneurial mindset by encouraging startups, incubating innovative projects, and facilitating industry collaborations.",
+            "Promote Research &amp; Skill Development – Support research, prototype development, and skill enhancement to bridge the gap between academic knowledge and real-world applications."
         ],
         "SubObjectives": [
-            "Encourage Innovation: Promote a culture of creative thinking and problem-solving among students.",
-            "Support Startups: Facilitate student-led startups by providing mentorship, funding, and resources.",
-            "Bridge Academia and Industry: Connect with industries to ensure practical exposure and project validation.",
-            "Enable Prototyping: Support students in developing prototypes and proof-of-concept models.",
-            "Promote Skill Development: Conduct training sessions to enhance entrepreneurial and technical skills.",
-            "Raise Awareness: Educate students about intellectual property rights and commercialization opportunities.",
-            "Encourage Participation: Motivate students to engage in state, national, and international innovation competitions and exhibitions."
+            "Encourage Student-led Innovations – Support students in developing innovative solutions by providing financial, technical, and mentorship assistance.",
+            "Facilitate Prototyping &amp; Incubation – Assist in transforming ideas into prototypes and fostering startups through incubation support.",
+            "Strengthen Industry &amp; Academic Collaboration – Bridge the gap between industry and academia to enhance practical learning, research, and commercialization of innovations."
         ],
         "SubObjImg": "~/images/CampusCommittee/SSIP/laptop-5000778_1280.png",
-        "BulletPoints": [],
+        "BulletPoints": [ "For the PoC and IPR, student has to apply through the following link : <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSew5ey9S9JiZDyNXLxh_bOzbtrGhCXvfzCUnIcSyI2dP0WyOw/viewform?fbzx=3137647941861298455\" class=\"btn btn-success\" target=\"_blank\"> Link </a>" ],
         "BulletPointsImg": "",
         "PageFlyer": "~/images/CampusCommittee/SSIP/ssipcell.jpg",
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"> <b> \"</b> Innovate, Incubate, <b> Ignite!\"</b> </h1>",
@@ -142,6 +138,19 @@
                 "Department": "Computer Scence & Engineering Department",
                 "Image": "~/images/Faculty/211.jpg",
                 "Email": "mehul.vasava@gecpatan.ac.in"
+            }
+        ],
+        "Activities": [
+            {
+                "ID": 1,
+                "Title": "SSIP 2.0 sensitization program",
+                "Description": "The SSIP 2.0 Sensitization Program aims to create COMMITTEE DETAILS awareness among students, faculty, and stakeholders about the Student Startup and Innovation Policy (SSIP) 2.0. This initiative enhances the innovation ecosystem by providing financial, technical, and mentorship support for student-led projects, startups, and research. The program educates participants about funding opportunities, prototyping assistance, and industry collaborations. It also highlights advancements from SSIP 1.0, focusing on scalability, intellectual property rights (IPR), and commercialization. Through workshops, seminars, and interactive sessions, the sensitization program encourages students to actively participate in innovation and entrepreneurship, driving technological progress and self-reliance in Gujarat and beyond. 120 students of First year including all branches have participated in it.",
+                "EventDate": "21/02/2025",
+                "EventTime": "02: 00 pm to 3: 15 pm",
+                "Images": [],
+                "Files": [
+
+                ]
             }
         ]
     },
@@ -512,8 +521,8 @@
         "Title": "Student Section",
         "TitleImage": "",
         "TitleImageCSSClass": "placement_title",
-        "About": "The Student Section Committee enhances the student experience by fostering growth, innovation, and collaboration. Through active participation, students develop knowledge, skills, and leadership abilities while contributing to their institution’s progress. It serves as a platform for academic, technical, and extracurricular development, preparing students for future challenges and opportunities.",
-        "Measures": "The Student Section Committee ensures effectiveness through structured measures like leadership training, regular feedback, event evaluations, mentorship programs, industry collaborations, and academic workshops. It promotes inclusivity, transparency, teamwork, and innovation. Performance assessments, student engagement surveys, and strategic planning further enhance its impact, ensuring continuous improvement and institutional growth.",
+        "About": "The main objective of the student section is to assist the students for their various kind of activities seeking from the institution such as enrollment, examination, scholarship, student affairs and certifications. <ul class=\"bigtfont \"> <li><i class=\"fa fa-caret-right\"></i> Issuing and maintaining records of students. </li> <li><i class=\"fa fa-caret-right\"></i> Issuing bonafide document to students. </li> <li><i class=\"fa fa-caret-right\"></i> Issuing Railway / Bus concessions to students. </li> <li><i class=\"fa fa-caret-right\"></i> The data is maintained of the students who have paid their fees online. </li> <li><i class=\"fa fa-caret-right\"></i> Various Scholarship related work. </li> </ul>",
+        "Measures": "",
         "Measure_Image": "~/images/CampusCommittee/StudentSection/student_section_small.png",
         "Vision": [
             "To foster a dynamic and inclusive student community that nurtures leadership, innovation, and holistic development. "
@@ -561,9 +570,80 @@
                 "ID": 3,
                 "Name": "Shri. A. B. Darji",
                 "Position": "Member",
-                "Image": "~/images/Faculty/1000.jpg",
+                "Image": "~/images/Faculty/406.jpg",
                 "Email": "ankit.darji@gecpatan.ac.in",
                 "Department": "Electical Engineering Department"
+            }
+        ],
+        "AdditionalMembers": [
+            {
+                "CommitteeTitle": "Student Scholarship Committee",
+                "Members": [
+                    {
+                        "ID": 1,
+                        "Name": "Prof. M. M. Patel",
+                        "Position": "SC Scholarship and overall",
+                        "Image": "~/images/Faculty/104.jpg",
+                        "Email": "mihir.patel@gecpatan.ac.in",
+                        "Department": "Electronics & Communication Engineering Department"
+                    },
+                    {
+                        "ID": 2,
+                        "Name": "Prof. M. J. Patel",
+                        "Position": "SC Scholarship and overall",
+                        "Image": "~/images/Faculty/206.jpg",
+                        "Email": "mitul.patel@gecpatan.ac.in",
+                        "Department": "Computer Science & Engineering Department"
+                    },
+                    {
+                        "ID": 3,
+                        "Name": "Prof. M. J. Vasava",
+                        "Position": "ST Scholarship",
+                        "Image": "~/images/Faculty/211.jpg",
+                        "Email": "mitul.vasava@gecpatan.ac.in",
+                        "Department": "Computer Science & Engineering Department"
+                    },
+                    {
+                        "ID": 4,
+                        "Name": "Prof. C. C. Patel",
+                        "Position": "OBC Scholarship",
+                        "Image": "~/images/Faculty/503.jpg",
+                        "Email": "chirag.patel@gecpatan.ac.in",
+                        "Department": "Mechanical Engineering Department"
+                    },
+                    {
+                        "ID": 5,
+                        "Name": "Prof. Dharmesh Patel",
+                        "Position": "OBC Scholarship",
+                        "Image": "~/images/Faculty/517.jpg",
+                        "Email": "dharmesh.patel@gecpatan.ac.in",
+                        "Department": "Mechanical Engineering Department"
+                    },
+                    {
+                        "ID": 6,
+                        "Name": "Prof. K. H. Thakkar",
+                        "Position": "Open & E.B.C.  Scholarship",
+                        "Image": "~/images/Faculty/510.jpg",
+                        "Email": "kamlesh.thakkar@gecpatan.ac.in",
+                        "Department": "Mechanical Engineering Department"
+                    },
+                    {
+                        "ID": 7,
+                        "Name": "Prof. J. C. Prajapati",
+                        "Position": "PMMMS/Minority/Saksham /AICTE",
+                        "Image": "~/images/Faculty/103.jpg",
+                        "Email": "jayesh.prajapati@gecpatan.ac.in",
+                        "Department": "Electronics & Communication Engineering Department"
+                    },
+                    {
+                        "ID": 8,
+                        "Name": "Prof. M. L. Patel",
+                        "Position": "Member",
+                        "Image": "~/images/Faculty/105.jpg",
+                        "Email": "mehul.patel@gecpatan.ac.in",
+                        "Department": "Electronics & Communication Engineering Department"
+                    }
+                ]
             }
         ]
     },
@@ -572,30 +652,37 @@
         "Title": "Training and Placement Cell",
         "TitleImage": "",
         "TitleImageCSSClass": "placement_title",
-        "About": "The Training and Placement Cell (T&P Cell or TPC) at Government Engineering College - Patan, works professionally with the Industry to place its students in each and every sector.",
-        "Measures": "The T&P Cell handle all aspects of the campus recruitment at institute and also helps in enhancing the skills of the students as per the demands of the industry by conducting many numbers of seminars & workshops including KCG’s Finishing School (GoG) Programs.",
+        "About": "Training and Placement of Government Engineering College, Patan is an essential foundation of the Institute. It plays a crucial role for student's future by assist students in achieving their career objectives by developing employment-seeking skills and finally securing desired positions. This is achieved by continues interaction of alumni, and industries.",
+        "Measures": "Training and Placement Committee measures its success by tracking metrics like placement rate, average salary of placed students, student satisfaction with the placement process, number of companies visiting campus, pre-placement training effectiveness, student preparedness for interviews, and employer feedback on recruit.",
         "Measure_Image": "~/images/site-img226.png",
         "Vision": [
-            "Enhance the employability skills among the students to meet out the corporate expectations and to furnish them with professional skills and guiding them towards the bright future and career."
+            "<b>Developing industry-ready students: </b>Equipping students with technical expertise, soft skills, and relevant industry knowledge through training programs and workshops. ",
+            "<b>Building strong industry connections: </b>Actively engaging with companies to create diverse placement opportunities and maintain positive relationships with recruiters. ",
+            "<b>•\tPromoting career awareness: </b>Providing students with information about Job, study and Entrepreneurship opportunity after graduation in their field."
         ],
         "Mission": [
-            "To train students for the needs of industries and to partner with renowned organizations from industry & organize recruitment drives for our students within and outside the campus."
+            "Career development: Educate students about career options, help them identify their career goals, and provide necessary training to enhance their employability skills. ",
+            "Industry outreach: Actively engage with companies to invite them for campus recruitment drives, understand their hiring needs, and maintain positive relationships. ",
+            "Skill enhancement: Organize workshops, seminars, and training programs to develop students' technical, soft skills, and interview preparation abilities. ",
+            "Placement coordination: Manage the entire placement process, including student registration, company presentations, shortlisting candidates, and coordinating interviews. ",
+            "Feedback loop: Gather feedback from companies and students to continuously improve the training and placement process. "
         ],
         "SubObjectives": [
-
+            "Guide the students in terms of their job, study, and business scope in engineering.",
+            "Preparing students for placement by arranging mock interviews and arranging campus placement drives to provide the best opportunities to students"
         ],
         "SubObjImg": "",
         "BulletPoints": [
-            "The TP Cell sends invitations to companies/organizations along with relevant information.",
-            "Company/ Organization fills in a JAF (Job Announcement Form) containing details of the job offer (pay package, place of posting, allowances and other bonuses). JAF can be sent either by post or email to the T&P Cell, GEC-Patan.",
-            "Pre-Placement Talk can be organized in advance or on the same day. For fixing Pre-Placement Talk in advance, Company/ Organization can send a request along with the preferred dates.",
-            "The JAF is made available online to the students, along with any other information furnished by company/organization. The placement facility is available to all the students of GEC-Patan and in adherence to the Placement Policy.",
-            "After confirmation by the company/ organization, the Training and Placement Cell will announce the dates for campus interviews. The Order in which the companies are invited for the Placement is decided jointly by the TPC & the Principal; and will be based on various factors like pay package offered, the demand from students, and the profile of the company.",
-            "Interested students will show their willingness to participate in the recruitment process of a company by submitting the Sign-up form or by filling google-form created for the same.",
-            "The list of interested students and/or shortlisted students (in case the short listing is based on Percentage/ Grades obtained) can be sent to the company/ organization on request.",
-            "The Company/ Organization is required to furnish the final list of students preferably on the date of interview mentioning the joining date and other terms and conditions, if any. The company shall send or hand over the offer letter only to the Training and Placement (T&P) Cell within a set time-frame and mutual understanding.",
-            "Student’s signed offer letter will be forwarded to the company if demanded by company.",
-            "After confirmation by the company/ organization, the Training and Placement Cell will announce the dates for campus interviews. The Order in which the companies are invited for the Placement is decided jointly by the TPC & the Principal; and will be based on various factors like pay package offered, the demand from students, and the profile of the company."
+            "Industry was invited by email, personal visit, or telephone communication.",
+            "Industry may directly contact the placement officer through the website.",
+            "Industry data and links pertaining to vacancies were provided to the HR department of the industry. ",
+            "A Job Proposal for Students is created from the link response.",
+            "Response acquired from the list of interested students in the job proposal.",
+            "The list of students has been provided with Industry HR for reference.",
+            "Interviews may be conducted either on campus or at the industry location.",
+            "Arrangements at the campus include appropriate documentation and hospitality given by the Placement Cell. ",
+            "Feedback forms from the industry are collected. ",
+            "Offer letters are obtained from the industry."
         ],
         "BulletPointsImg": "",
         "PageFlyer": "",
@@ -608,7 +695,7 @@
                 "Position": "TPO",
                 "Department": "Electrical Engineering",
                 "Image": "~/images/Faculty/307.jpg",
-                "Email": "soham.prajapati@gecpatan.ac.in"
+                "Email": "soham.prajapati@gecpatan.ac.in" //" tnp.gecp@gmail.com"
             },
             {
                 "ID": 2,
@@ -657,6 +744,27 @@
                 "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
                 "EventDate": "13/02/2025",
                 "EventTime": "10:30 AM to 12:30 PM",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Career Guidance Seminar",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Career Guidance Seminar",
+                        "FileType": "Word",
+                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+                    }
+                ]
+            },
+            {
+                "ID": 2,
+                "Title": "Mock interviews ",
+                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+                "EventDate": "1/1/2025",
+                "EventTime": "10.30am  to 12.30pm",
                 "Files": [
                     {
                         "ID": 1,

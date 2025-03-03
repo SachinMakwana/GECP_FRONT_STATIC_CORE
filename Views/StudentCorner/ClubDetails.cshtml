@@ -1,4 +1,4 @@
-﻿@model CampusCommittesVM
+﻿@model Club
 @{
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewBag.Title = Model.Title;
@@ -8,7 +8,7 @@
 <div class="clearfix"></div>
 
 
-<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;background-size: cover;">
+<div class="page_title3 ssip_title" style="background: #999 url('../../images/ssip_banner.jpg') no-repeat center top;background-size: cover;">
 	<div class="container">
 
 		<h1>
@@ -25,23 +25,17 @@
 <div class="full-container">
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-		@if (Model.Vision != null && Model.Mission != null)
-		{
-			<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
-		}
+
 		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">Sub Objectives</button>
 		}
-		@if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">Procedure</button>
-		}
-		@if (Model.Members != null && Model.Members.Count() > 0)
+
+		@if (Model.Members != null)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
 		}
-		@if (Model.Activities != null && Model.Activities.Count()>0)
+		@if (Model.Activities != null)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Activities')">Activities</button>
 		}
@@ -49,6 +43,7 @@
 		{
 			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogspot</button></a>
 		}
+
 
 	</div>
 	<div id="About" class="tabcontent">
@@ -59,7 +54,7 @@
 				<div class="container center-block">
 
 					@* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
-					<img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
+					<img src="@Url.Content(Model.Icon)" alt="" class="center-block" />
 
 				</div>
 				<div class="clearfix margin_top1"></div>
@@ -70,48 +65,10 @@
 						@Html.Raw(Model.About)
 					</p>
 					<div class="clearfix margin_top3"></div>
-					@if (!string.IsNullOrWhiteSpace(Model.Measures))
-					{
 
-						<h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
-
-						<div class="bigtfont text-justify overflowCommittes">
-							@Html.Raw(Model.Measures)
-						</div>
-					}
 				</div>
 				<!-- end section -->
 
-
-			</div>
-		</div>
-	</div>
-	<div id="VisionMission" class="tabcontent">
-		<div class="featured_section106" style="background-color:white">
-			<div style="padding-left:10px;">
-
-				<div class="margin_top2"></div>
-				<h2 class="roboto thin">Vision </h2>
-				<div class="hsmline7"></div>
-
-				<br><br>
-				@foreach (var obj in Model.Vision)
-				{
-					<h4 class="roboto thin text-justify"> @Html.Raw(obj)</h4>
-				}
-
-				<div class="margin_top2"></div>
-				<div class="clearfix margin_top2"></div>
-				<h2 class="roboto thin">Mission </h2>
-				<div class="hsmline7"></div>
-
-				<br><br>
-				@foreach (var obj in Model.Mission)
-				{
-					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
-				}
-
-				<div class="margin_top2"></div>
 
 			</div>
 		</div>
@@ -158,53 +115,9 @@
 					count++;
 				}
 			</div>
-			@if (Model.AdditionalMembers.Count() > 0)
-			{
-				@foreach (var additionalMembers in Model.AdditionalMembers)
-				{
-					<div class="clearfix margin_top5"></div>
-					<div class="full-container">
-						<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-							@additionalMembers.CommitteeTitle
-						</h1>
-						@foreach (var item in additionalMembers.Members)
-						{
-
-							<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
-
-								<img src="@Url.Content(item.Image)" alt="">
-								<h5>@item.Name <em>@item.Position</em></h5>
-								<text>@item.Department</text>
-								<text>@item.Email</text>
-
-							</div>
-
-							<!-- end section -->
-							<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
-							count++;
-						}
-					</div>
-				}
-			}
 		</div>
 	</div>
-	<div id="BulletPoints" class="tabcontent">
-		<div class="featured_section37">
-			<div class="full-container text-justify">
 
-				@foreach (var item in Model.BulletPoints)
-				{
-					<div class="ibox animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
-
-						<i class="fa fa-check" aria-hidden="true"></i>
-						<h5>@Html.Raw(item)</h5>
-
-					</div>
-					<!-- end section -->
-				}
-			</div>
-		</div>
-	</div>
 	<div id="Activities" class="tabcontent">
 		@if (Model.Activities != null && Model.Activities.Count() > 0)
 		{
@@ -218,19 +131,7 @@
 							<li class="post_categoty">@item.EventTime</li>
 						</ul>
 						<div class="clearfix margin_top1"></div>
-						@if (item.Images.Count() > 0)
-						{
-
-							<div class="image_section">
-								@foreach (var img in item.Images)
-								{
-									<div class="col-sm-2 ">
-										<img src="@img" class="rimg" />
-									</div>
-								}
-							</div>
-						}
-						@Html.Raw(item.Description)
+						@item.Description
 					</div>
 					<div class="clearfix margin_top1"></div>
 					<ul class="Activitesfile">
@@ -269,16 +170,6 @@
 
 
 
-
-@if (!string.IsNullOrWhiteSpace(Model.Tagline))
-{
-	<div class="featured_section38">
-		<div class="full-container">
-			@Html.Raw(Model.Tagline)
-		</div>
-	</div>
-}
-
 <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
 <div id="popup" class="popup">
 	<div id="pdfreader" style="height:600px">
@@ -290,60 +181,60 @@
 	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
 	<script>
 		function loadFacultyinfo(url) {
-				if (url !== '') {
-						$("#pdfreader").load(url);
-						$("#lnkPopup").click();
-				}
+			if (url !== '') {
+				$("#pdfreader").load(url);
+				$("#lnkPopup").click();
 			}
+		}
 
-				function loadPdf(path, name) {
-				if (path !== '') {
-					path = path.replace("~", "");
-					if (PDFObject.supportsPDFs) {
-						PDFObject.embed(path, "#pdfreader");
-						$("#newsname").text(name);
-						$("#lnkPopup").click();
-					} else {
-						window.location.href = path;
-					}
+		function loadPdf(path, name) {
+			if (path !== '') {
+				path = path.replace("~", "");
+				if (PDFObject.supportsPDFs) {
+					PDFObject.embed(path, "#pdfreader");
+					$("#newsname").text(name);
+					$("#lnkPopup").click();
+				} else {
+					window.location.href = path;
 				}
 			}
-			function popupOpenClose(popup) {
+		}
+		function popupOpenClose(popup) {
 
 			/* Add div inside popup for layout if one doesn't exist */
-				if ($(".wrapper", popup).length == 0) {
-					$(popup).wrapInner("<div class='wrapper'></div>");
-				}
-			/* Open popup */
-				$(popup).show();
-			/* Close popup if user clicks on background */
-				$(popup).click(function (e) {
-					if (e.target == this) {
-						if ($(popup).is(':visible')) {
-							$(popup).hide();
-							resetPopUpScroll();
-						}
-					}
-				});
-			/* Close popup and remove errors if user clicks on cancel or close buttons */
-				$(popup).find(".popup-btn-close").on("click", function () {
-					if ($(".formElementError").is(':visible')) {
-						$(".formElementError").remove();
-					}
-					$(popup).hide();
-					resetPopUpScroll();
-				});
+			if ($(".wrapper", popup).length == 0) {
+				$(popup).wrapInner("<div class='wrapper'></div>");
 			}
-
-			$(document).ready(function () {
-				$(".popup-trigger").on("click", function () {
-					var target = $(this).data('target');
-					popupOpenClose($(target));
-					resetPopUpScroll();
-				});
+			/* Open popup */
+			$(popup).show();
+			/* Close popup if user clicks on background */
+			$(popup).click(function (e) {
+				if (e.target == this) {
+					if ($(popup).is(':visible')) {
+						$(popup).hide();
+						resetPopUpScroll();
+					}
+				}
 			});
+			/* Close popup and remove errors if user clicks on cancel or close buttons */
+			$(popup).find(".popup-btn-close").on("click", function () {
+				if ($(".formElementError").is(':visible')) {
+					$(".formElementError").remove();
+				}
+				$(popup).hide();
+				resetPopUpScroll();
+			});
+		}
 
-		function resetPopUpScroll(){
+		$(document).ready(function () {
+			$(".popup-trigger").on("click", function () {
+				var target = $(this).data('target');
+				popupOpenClose($(target));
+				resetPopUpScroll();
+			});
+		});
+
+		function resetPopUpScroll() {
 			$("#pdfreader").scrollTop(0);
 		}
 	</script>

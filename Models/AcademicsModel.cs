@@ -1,6 +1,12 @@
-﻿namespace GECP_Front_End_Static.Models
+﻿using System.Collections.Generic;
+namespace GECP_Front_End_Static.Models
 {
-
+    public class AchievementsWrapperVM
+    {
+        public List<string> Keywords { get; set; }
+        public List<long> Years { get; set; }
+        public List<AchievementsVM> Achievements { get; set; }
+    }
     public class AchievementsVM
     {
         public int ID { get; set; }

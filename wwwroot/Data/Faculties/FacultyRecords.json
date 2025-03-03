@@ -3827,7 +3827,7 @@
     },
     {
       "ID": 402,
-      "Name": "Dr. Vijendrakumar Patel",
+      "Name": "Dr. V. M. Patel",
       "Designation": "Assistant Professor",
       "image": "images/Faculty/402.jpg",
       "Dept_ID": 4,
@@ -4309,37 +4309,37 @@
   
     },
     {
-      "ID": 406, // change id according to electrical department
-      "Name": "MR. ANKITKUMAR B. DARJI ",
-      "Designation": "LAB ASSISTANT",
-      "image": "images/Faculty/406.jpg",
-      "Dept_ID": 3,
-      "Date_of_Joining": "2013-12-13",
-      "Qualification": "Diploma Civil",
-      "Area_of_Interest": "Civil",
-      "IsTeaching": false,
-      "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
-      "PersonalDetails": {
-        "Name": "MR. ANKITKUMAR B. DARJI",
+        "ID": 406, // change id according to electrical department
+        "Name": "MR. ANKITKUMAR B. DARJI ",
         "Designation": "LAB ASSISTANT",
-        "Department": "",
-        "Contact": "+91-9924690454",
-        "Email": "ankit.darji@gecpatan.ac.in"
-      },
-      "EducationalQualifications": [
-      ],
-      "ProfessionalExperiences": [
-        {
-          "Position": "LAB ASSISTANT",
-          "Organization": "Government Engineering College,Patan",
-          "Duration": "13-12-2013 to Present"
-        }
-      ],
-      "TrainingAndWorkshops": [
-      ],
-      "Publications": [
-      ]
-  
+        "image": "images/Faculty/406.jpg",
+        "Dept_ID": 3,
+        "Date_of_Joining": "2013-12-13",
+        "Qualification": "Diploma Electrical Engineering",
+        "Area_of_Interest": "Electrical Engineering",
+        "IsTeaching": false,
+        "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
+        "PersonalDetails": {
+            "Name": "MR. ANKITKUMAR B. DARJI",
+            "Designation": "LAB ASSISTANT",
+            "Department": "",
+            "Contact": "+91-9924690454",
+            "Email": "ankit.darji@gecpatan.ac.in"
+        },
+        "EducationalQualifications": [
+        ],
+        "ProfessionalExperiences": [
+            {
+                "Position": "LAB ASSISTANT",
+                "Organization": "Government Engineering College,Patan",
+                "Duration": "13-12-2013 to Present"
+            }
+        ],
+        "TrainingAndWorkshops": [
+        ],
+        "Publications": [
+        ]
+
     },
   
   
