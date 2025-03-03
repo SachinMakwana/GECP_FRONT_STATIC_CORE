@@ -1,24 +1,35 @@
 ﻿[
-  {
-    "ID": 1,
-    "Title": "Integrated Project on Active Fault Mapping in Kachchh Basin,Western India",
-    "PrincipalInvestigator": " Dr. Mahendrasinh Gadhavi, Assistant Professor Department of Civil Engineering",
-    "StartDate": "04-12-2024",
-    "CompletionDate": "",
-    "Duration": "5 years",
-    "ProjectCost": "",
-    "SponsoringAuthority": "",
-    "isShow": true
-  },
-  {
-    "ID": 2,
-    "Title": "Integrated Project on Active Fault Mapping in Kachchh Basin,Western India",
-    "PrincipalInvestigator": " Dr. Mahendrasinh Gadhavi, Assistant Professor Department of Civil Engineering",
-    "StartDate": "04-12-2024",
-    "CompletionDate": "",
-    "Duration": "5 years",
-    "ProjectCost": "",
-    "SponsoringAuthority": "",
-    "isShow": true
-  }
+    {
+      "ID": 1,
+      "Title": "Investigation on Atmospheric water Generator with Air Humidification Unit",
+      "PrincipalInvestigator": "Dr Hitesh Panchal",
+      "StartDate": "04/01/2021",
+      "CompletionDate": "10/31/2022",
+      "Duration": "1 Year 6 months ",
+      "ProjectCost": "2,00,000/-",
+      "SponsoringAuthority": "Education Deptt, Govt of Gujarat",
+      "isShow": true
+    },
+    {
+      "ID": 2,
+      "Title": "Investigation on Solar Desalination system to enhance the distillate output",
+      "PrincipalInvestigator": "Dr Hitesh Panchal",
+      "StartDate": "04/01/2023",
+      "CompletionDate": "03/31/2024",
+      "Duration": "1 Year",
+      "ProjectCost": "2,00,000/-",
+      "SponsoringAuthority": "Education Deptt, Govt of Gujarat",
+      "isShow": true
+    },
+    {
+      "ID": 3,
+      "Title": "Performance analysis of Double basin solar desalination system with applications of coating and storage materials",
+      "PrincipalInvestigator": "Dr Hitesh Panchal",
+      "StartDate": "04/01/2024",
+      "CompletionDate": "03/31/2026",
+      "Duration": "2 Years",
+      "ProjectCost": "5,00,000/-",
+      "SponsoringAuthority": "Education Deptt, Govt of Gujarat",
+      "isShow": true
+    }
 ]
