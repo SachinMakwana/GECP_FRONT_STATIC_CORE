@@ -26,17 +26,24 @@ namespace GECP_Front_End_Static.Models
         public string About { get; set; }
         public string Measures { get; set; }
         public string Measure_Image { get; set; }
-        public List<string> Vision { get; set; }
-        public List<string> Mission { get; set; }
-        public List<string> SubObjectives { get; set; }
+        public List<string> Vision { get; set; } = new List<string>();
+        public List<string> Mission { get; set; } = new List<string>();
+        public List<string> SubObjectives { get; set; } = new List<string>();
         public string SubObjImg { get; set; }
-        public List<string> BulletPoints { get; set; }
+        public List<string> BulletPoints { get; set; } = new List<string>();
         public string BulletPointsImg { get; set; }
         public string PageFlyer { get; set; }
         public string Tagline { get; set; }
         public string BlogLink { get; set; }
-        public List<Members> Members { get; set; }
-        public List<CommitteeActivity> Activities { get; set; }
+        public List<Members> Members { get; set; }= new List<Members>();
+        public List<CommitteeActivity> Activities { get; set; } = new List<CommitteeActivity>();
+        public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
+    }
+
+    public class AdditionalMembers
+    {
+        public string CommitteeTitle { get; set; }
+        public List<Members> Members { get; set; } = new List<Members>();
     }
 
     public class CommitteeActivity
@@ -46,8 +53,8 @@ namespace GECP_Front_End_Static.Models
         public string Description { get; set; }
         public string EventDate { get; set; }
         public string EventTime { get; set; }
-        public List<File> Files { get; set; }
-        public List<string> Images { get; set; }
+        public List<File> Files { get; set; } = new List<File>();
+        public List<string> Images { get; set; } = new List<string>();
         public string ControllerName { get; set; }
         public string ActionName { get; set; }
         public string ExternalLink { get; set; }

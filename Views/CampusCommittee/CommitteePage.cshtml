@@ -37,11 +37,11 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">Procedure</button>
 		}
-		@if (Model.Members != null)
+		@if (Model.Members != null && Model.Members.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
 		}
-		@if (Model.Activities != null)
+		@if (Model.Activities != null && Model.Activities.Count()>0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Activities')">Activities</button>
 		}
@@ -70,12 +70,15 @@
 						@Html.Raw(Model.About)
 					</p>
 					<div class="clearfix margin_top3"></div>
-					<h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
+					@if (!string.IsNullOrWhiteSpace(Model.Measures))
+					{
 
-					<div class="bigtfont text-justify overflowCommittes">
-						@Html.Raw(Model.Measures)
-					</div>
+						<h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
 
+						<div class="bigtfont text-justify overflowCommittes">
+							@Html.Raw(Model.Measures)
+						</div>
+					}
 				</div>
 				<!-- end section -->
 
@@ -155,6 +158,34 @@
 					count++;
 				}
 			</div>
+			@if (Model.AdditionalMembers.Count() > 0)
+			{
+				@foreach (var additionalMembers in Model.AdditionalMembers)
+				{
+					<div class="clearfix margin_top5"></div>
+					<div class="full-container">
+						<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+							@additionalMembers.CommitteeTitle
+						</h1>
+						@foreach (var item in additionalMembers.Members)
+						{
+
+							<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
+
+								<img src="@Url.Content(item.Image)" alt="">
+								<h5>@item.Name <em>@item.Position</em></h5>
+								<text>@item.Department</text>
+								<text>@item.Email</text>
+
+							</div>
+
+							<!-- end section -->
+							<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
+							count++;
+						}
+					</div>
+				}
+			}
 		</div>
 	</div>
 	<div id="BulletPoints" class="tabcontent">
