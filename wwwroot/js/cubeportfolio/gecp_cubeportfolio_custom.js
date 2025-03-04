@@ -239,3 +239,11 @@ function reInit() {
 
     })(jQuery, window, document);
 }
+
+function destroyGrid() {
+    var gridContainer = $('#grid-container'),
+        filtersContainer = $('#filters-container'),
+        wrap, filtersCallback;
+
+    gridContainer.cubeportfolio('destroy');
+}
