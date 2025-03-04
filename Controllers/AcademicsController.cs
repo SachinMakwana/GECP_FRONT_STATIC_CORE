@@ -84,7 +84,7 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult ResearchGrants()
         {
-            return View(ResearchGrantsVM.Where(m => m.isShow == true).OrderByDescending(m => m.ID).ToList());
+            return View(ResearchGrantsVM.Where(m => m.isShow == true).ToList());
         }
 
         public IActionResult Syllabus()
