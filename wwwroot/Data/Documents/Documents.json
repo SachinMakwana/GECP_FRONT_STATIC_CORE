@@ -175,7 +175,7 @@
     "Title": "Time Table",
     "YearSection": [
       {
-        "Year": "2024-2024",
+        "Year": "2024-2025",
         "Documents": [
             {
                 "ID": 1,
@@ -206,6 +206,22 @@
                 "Title": "Computer EVEN 2024-2025",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2024_2025.pdf",
+                "isShow": true,
+                "UploadDate": "01-03-2025"
+            },
+            {
+                "ID": 5,
+                "Title": "EC ODD 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
+                "isShow": true,
+                "UploadDate": "01-03-2025"
+            },
+            {
+                "ID": 6,
+                "Title": "EC EVEN 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
                 "isShow": true,
                 "UploadDate": "01-03-2025"
             }
