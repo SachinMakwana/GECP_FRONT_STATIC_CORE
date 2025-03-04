@@ -13,16 +13,7 @@
       }
     ],
     "Data": [
-      {
-        "Year": "2023-24",
-        "Passout": 58,
-        "Placed": 1,
-        "AverageCTC": 14500,
-        "HigherStudy": 0,
-        "Business": 0,
-        "PlacementPercentage": 45,
-        "IsDisplay": false
-      },
+      
       {
         "Year": "2022-23",
         "Passout": 45,
@@ -71,26 +62,6 @@
     ],
     "Data": [
       {
-        "Year": "2024-25",
-        "Passout": 58,
-        "Placed": 44,
-        "AverageCTC": 14500,
-        "HigherStudy": 0,
-        "Business": 0,
-        "PlacementPercentage": 45,
-        "IsDisplay": false
-      },
-      {
-        "Year": "2023-24",
-        "Passout": 58,
-        "Placed": 70,
-        "AverageCTC": 14500,
-        "HigherStudy": 0,
-        "Business": 0,
-        "PlacementPercentage": 45,
-        "IsDisplay": false
-      },
-      {
         "Year": "2022-23",
         "Passout": 113,
         "Placed": 58,
@@ -137,26 +108,7 @@
       }
     ],
     "Data": [
-      {
-        "Year": "2024-25",
-        "Passout": 58,
-        "Placed": 4,
-        "AverageCTC": 14500,
-        "HigherStudy": 0,
-        "Business": 0,
-        "PlacementPercentage": 45,
-        "IsDisplay": false
-      },
-      {
-        "Year": "2023-24",
-        "Passout": 58,
-        "Placed": 13,
-        "AverageCTC": 14500,
-        "HigherStudy": 0,
-        "Business": 0,
-        "PlacementPercentage": 45,
-        "IsDisplay": false
-      },
+      
       {
         "Year": "2022-23",
         "Passout": 51,
@@ -205,16 +157,6 @@
     ],
     "Data": [
       {
-        "Year": "2023-24",
-        "Passout": 58,
-        "Placed": 5,
-        "AverageCTC": 14500,
-        "HigherStudy": 0,
-        "Business": 0,
-        "PlacementPercentage": 45,
-        "IsDisplay": false
-      },
-      {
         "Year": "2022-23",
         "Passout": 58,
         "Placed": 6,
@@ -261,16 +203,7 @@
       }
     ],
     "Data": [
-      {
-        "Year": "2023-24",
-        "Passout": 58,
-        "Placed": 41,
-        "AverageCTC": 14500,
-        "HigherStudy": 0,
-        "Business": 0,
-        "PlacementPercentage": 45,
-        "IsDisplay": false
-      },
+      
       {
         "Year": "2022-23",
         "Passout": 113,
