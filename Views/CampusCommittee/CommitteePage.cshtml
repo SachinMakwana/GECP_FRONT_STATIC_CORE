@@ -24,30 +24,34 @@
 
 <div class="full-container">
 	<div class="tab">
-		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
 		@if (Model.Vision != null && Model.Mission != null)
 		{
-			<button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+			<button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
 		}
 		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
 		{
-			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">Sub Objectives</button>
+			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button>
 		}
 		@if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
 		{
-			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">Procedure</button>
+			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
 		}
 		@if (Model.Members != null && Model.Members.Count() > 0)
 		{
-			<button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
+			<button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
 		}
 		@if (Model.Activities != null && Model.Activities.Count()>0)
 		{
-			<button class="tablinks" onclick="openTab(event, 'Activities')">Activities</button>
+			<button class="tablinks" onclick="openTab(event, 'Activities')">@Model.TabTitles.Activities</button>
 		}
 		@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
 		{
-			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogspot</button></a>
+			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
+		}
+		@if (Model.ShowDocument)
+		{
+			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
 		}
 
 	</div>
