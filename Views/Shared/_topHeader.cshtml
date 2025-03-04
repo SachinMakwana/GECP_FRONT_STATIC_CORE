@@ -2,16 +2,16 @@
 @{
 }
 <div class="top_nav">
-	<div class="full-container">
+    <div class="full-container">
 
-		<div class="left">
+        <div class="left hidden-xs">
 
-			<a href="mailto:@Model.ContactEmail"><i class="fa fa-envelope"></i>&nbsp; @Model.ContactEmail</a> <i class="fa fa-phone-square"></i>&nbsp; @Model.ContactNo
+            <a href="mailto:@Model.ContactEmail"><i class="fa fa-envelope"></i>&nbsp; @Model.ContactEmail</a> <i class="fa fa-phone-square"></i>&nbsp; @Model.ContactNo
 
-		</div><!-- end left -->
+        </div><!-- end left -->
 
-		<div class="right gecp_social_right">
-            @foreach (var subChild in Model.MenuVMs.OrderByDescending(m=>m.position).ToList())
+        <div class="right gecp_social_right">
+            @foreach (var subChild in Model.MenuVMs.OrderByDescending(m => m.position).ToList())
             {
                 @if (subChild.dynamicID != null)
                 {
@@ -31,58 +31,64 @@
                         @subChild.MenuText
                     </a>
                 }
-			}
-			@* <a href="#" class="tpbut two active"><i class="fa fa-pencil-square-o"></i>&nbsp; Register</a>
-			<a href="#" class="tpbut"><i class="fa fa-lock"></i>&nbsp; Login</a> 
+            }
+            @* <a href="#" class="tpbut two active"><i class="fa fa-pencil-square-o"></i>&nbsp; Register</a>
+            <a href="#" class="tpbut"><i class="fa fa-lock"></i>&nbsp; Login</a>
             <ul class="topsocial">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-				<li><a href="#"><i class="fa fa-rss"></i></a></li>
-			</ul> *@
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            </ul> *@
 
-		</div><!-- end right -->
+        </div><!-- end right -->
 
-	</div>
+    </div>
 </div><!-- end top navigation links -->
-<div class="clearfix margin_top5"></div>
-<div class="full-container">
-	<div class="logo_section">
-		<div class="gecp_logo">
-			<a href="@Url.Action("Index","Home")">
-				<img src="@Url.Content(Model.logo)" class="rimg gecp_logo1" /> 
-				<h1 class="animate fadeIn gecp_name">Government Engineering College, Patan</h1>
-			</a>
-		</div>
-		<div class="gecp_gov_emblame">
-			<img src="@Url.Content("~/images/affiliated.png")" class="rimg" />
-		</div>
-	</div>
+<div class="clearfix margin_top1"></div>
 
-	
+<div class="full-container hidden-xs">
 
-
-	@*  <div class="right">
-
-            <ul class="tinfo last">
-                <li><i class="fa fa-phone"></i></li>
-                <li>
-                    <em>Call Us</em>
-                    <strong>@Model.ContactNo</strong>
-                </li>
-
-            </ul>
-
-            <ul class="tinfo">
-                <li><i class="fa fa-envelope"></i></li>
-                <li>
-                    <em>Mail Us</em>
-                    <strong><a href="mailto:@Model.ContactEmail">@Model.ContactEmail</a></strong>
-                </li>
-            </ul>
-
+    <div class="logo_section">
+        <div class="gecp_logo">
+            <a href="@Url.Action("Index","Home")">
+                <img src="@Url.Content(Model.logo)" class="rimg gecp_logo1" />
+                <h1 class="animate fadeIn gecp_name">Government Engineering College, Patan</h1>
+            </a>
         </div>
-        <!-- end right --> *@
+        <div class="gecp_gov_emblame">
+            <img src="@Url.Content("~/images/affiliated.png")" class="rimg" />
+        </div>
+    </div>
 
+
+
+
+    @*  <div class="right">
+
+    <ul class="tinfo last">
+    <li><i class="fa fa-phone"></i></li>
+    <li>
+    <em>Call Us</em>
+    <strong>@Model.ContactNo</strong>
+    </li>
+
+    </ul>
+
+    <ul class="tinfo">
+    <li><i class="fa fa-envelope"></i></li>
+    <li>
+    <em>Mail Us</em>
+    <strong><a href="mailto:@Model.ContactEmail">@Model.ContactEmail</a></strong>
+    </li>
+    </ul>
+
+    </div>
+    <!-- end right --> *@
+
+</div>
+
+<div class="full-container visible-xs">
+    <img src="@Url.Content("~/images/Dynamic/NameBanner.png")" class="visible-xs" />
 </div>

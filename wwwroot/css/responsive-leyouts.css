@@ -650,10 +650,11 @@
 }
 
 .top_nav .left {
-	width: 40%;
+	width: auto;
 }
 .top_nav .right {
-	width: 60%;
+	width: auto;
+	margin-left:33px;
 }
 
 .top_nav2 .left {
