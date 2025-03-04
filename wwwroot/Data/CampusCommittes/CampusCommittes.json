@@ -460,22 +460,43 @@
     "Title": "Gymkhana",
     "TitleImage": "",
     "TitleImageCSSClass": "anti_ragging_title",
-    "About": "The Student Section Committee enhances the student experience by fostering growth, innovation, and collaboration. Through active participation, students develop knowledge, skills, and leadership abilities while contributing to their institution’s progress. It serves as a platform for academic, technical, and extracurricular development, preparing students for future challenges and opportunities.",
-    "Measures": "The Student Section Committee ensures effectiveness through structured measures like leadership training, regular feedback, event evaluations, mentorship programs, industry collaborations, and academic workshops. It promotes inclusivity, transparency, teamwork, and innovation. Performance assessments, student engagement surveys, and strategic planning further enhance its impact, ensuring continuous improvement and institutional growth.",
-    "Measure_Image": "~/images/CampusCommittee/StudentSection/student_section_small.png",
+    "About": "Government Engineering College, Patan (GEC Patan) offers a vibrant campus life enriched with various sports and cultural activities, fostering holistic development among its students.",
+    "Measures": "At Government Engineering College, Patan (GEC Patan), the gymkhana plays a pivotal role in enriching student life by facilitating a wide array of extracurricular activities. This dedicated space is designed to promote holistic development through various measures: <ul><li><b>Sports and Indoor Games:</b> <ul><li><b>Facilities:</b> The gymkhana is equipped to host numerous indoor games, providing students with opportunities to engage in physical activities that foster teamwork and healthy competition.</li><li><b>Events:</b> Annual sports weeks are organized, during which students participate in diverse sports and games, enhancing their physical well-being and camaraderie.</li></ul></li><li><b>Cultural Activities:</b> <ul><li><b>Celebrations:</b> The gymkhana serves as the central venue for cultural events, including festivals and annual functions, allowing students to showcase their talents in music, dance, drama, and more.</li><li><b>Clubs and Committees:</b> Various student-led groups, such as the Cultural Committee, utilize the gymkhana to plan and execute events that enrich the campus's cultural landscape.</li></ul></li><li><b>Social Services:</b> <ul><li><b>Community Engagement:</b> The gymkhana is a hub for organizing social service initiatives, including thalassemia test camps, blood donation camps, and health awareness programs, encouraging students to contribute positively to society.</li></ul></li></ul>",
+    "Measure_Image": "~/images/CampusCommittee/Gymkhana/Gymkhana.png",
     "Vision": [
-      "To foster a dynamic and inclusive student community that nurtures leadership, innovation, and holistic development. "
+      "To foster a vibrant and inclusive environment that promotes physical fitness, teamwork, creativity, and cultural enrichment, empowering students to achieve excellence in sports and cultural activities while nurturing their overall personality development. "
     ],
     "Mission": [
-      "To Provide opportunities for students to develop leadership skills through active participation in committee activities.",
-      "To  Balance academic, technical, cultural, and social activities for overall student growth.",
-      "To Conduct regular events, discussions, and interactive sessions to keep students actively involved."
+      "To promote holistic student development by encouraging active participation in sports and cultural activities, fostering teamwork, discipline, and creativity.",
+      "To provide an inclusive platform that nurtures talent, enhances leadership skills, and strengthens the spirit of sportsmanship and cultural excellence."
     ],
     "SubObjectives": [
-
+      "The gymkhana at Government Engineering College, Patan (GEC Patan) plays a vital role in fostering overall student development through various initiatives. The key objectives and benefits include:",
+      "<b>Sports:</b> <ul><li>Promote physical fitness and a healthy lifestyle.</li><li>Develop teamwork, discipline, and sportsmanship.</li><li>Provide and maintain sports infrastructure.</li><li>Organize intra- and inter-college sports events.</li><li>Encourage participation in university and national-level competitions.</li><li>Balance academics with sports activities.</li><li>Foster leadership through sports management roles.</li><li>Promote inclusive sports participation.</li></ul></li>",
+      "<b>Cultural:</b> <ul><li>Encourage creativity and artistic expression.</li><li>Organize cultural festivals and competitions.</li><li>Enhance communication and confidence through debates, drama, and music.</li><li>Preserve and promote Indian heritage and traditions.</li><li>Provide a platform for students to showcase talents.</li><li>Encourage participation in inter-collegiate cultural events.</li><li>Foster teamwork and collaboration in cultural activities.</li></ul></li>",
+      "<b>Social Service:</b> <ul><li>Promote community engagement and social responsibility.</li><li>Organize awareness campaigns on health, environment, and social issues.</li><li>Encourage student participation in volunteer activities.</li><li>Conduct blood donation camps and charity drives.</li><li>Collaborate with NGOs and local organizations for social impact.</li><li>Instill values of empathy, leadership, and civic duty.</li></ul></li></ul>"
     ],
     "SubObjImg": "",
-    "BulletPoints": [],
+    "BulletPoints": [
+      "Appointment of faculty coordinators and student representatives.",
+      "Division of responsibilities for sports, cultural, and social service activities.",
+      "Annual planning of events and budget allocation.",
+      "Preparing an annual calendar for sports, cultural, and social service activities.",
+      "Identifying venues and required resources for various events.",
+      "Coordinating with external bodies for inter-college competitions.",
+      "Inviting students to participate in various sports, cultural, and social service activities.",
+      "Conducting trials or auditions if required for specific events.",
+      "Assigning teams and practice schedules.",
+      "Maintaining and upgrading sports facilities (indoor/outdoor).",
+      "Arranging equipment and logistics for cultural and social activities.",
+      "Ensuring the availability of first aid and safety measures during events.",
+      "Organizing intra-college tournaments, cultural activities, and awareness campaigns.",
+      "Conducting training sessions, practice matches, and rehearsals.",
+      "Managing university-level and state participation.",
+      "Maintaining records of events, participation, and achievements.",
+      "Submitting an annual report to the college administration.",
+      "Reviewing performance and planning for the next academic year."
+    ],
     "BulletPointsImg": "",
     "PageFlyer": "",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“ Empowering Students, Inspiring Growth, <b>Shaping Futures.”</b></h1>",
@@ -484,7 +505,7 @@
       {
         "ID": 1,
         "Name": "Prof. G. A. Patel",
-        "Position": "President",
+        "Position": "Vice President",
         "Image": "~/images/Faculty/HOD/301.jpg",
         "Email": "hod.electrical@gecpatan.ac.in",
         "Department": "Electrical Engineering Department"
@@ -492,27 +513,62 @@
       {
         "ID": 2,
         "Name": "Dr. N. A. Patel",
-        "Position": "Member",
+        "Position": "Sports Coordinator",
         "Image": "~/images/Faculty/509.jpg",
         "Email": "narendra.patel@gecpatan.ac.in",
         "Department": "Mechanical Engineering Department"
       },
       {
         "ID": 3,
-        "Name": "Prof. Hiral Y. Rathod",
-        "Position": "Member",
+        "Name": "Prof. C. P . Kadiya",
+        "Position": "Sports Coordinator",
         "Image": "~/images/Faculty/1000.jpg",
         "Email": "",
-        "Department": "Computer Science & Engineering Department"
+        "Department": "Mechanical Engineering Department"
       },
       {
         "ID": 4,
         "Name": "Prof. Anju M. Vasdwani",
-        "Position": "Member",
+        "Position": "Cultural Coordinator",
         "Image": "~/images/Faculty/109.jpg",
         "Email": "amvgec@gmail.com",
         "Department": "Electronics & Communications Engineering Department"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. Hiral Y. Rathod",
+        "Position": "Cultural Coordinator",
+        "Image": "~/images/Faculty/1000.jpg",
+        "Email": "",
+        "Department": "Computer Science & Engineering Department"
       }
+    ],
+    "Activities": [
+      {
+        "ID": 1,
+        "Title": "Annual Events",
+        "Description": "GEC Patan organizes a range of events throughout the academic year, including annual festivals – Sports Week, fresher parties, and Navratri celebrations. These events provide students with opportunities to showcase their talents and engage with peers, enriching their college experience. ",
+        "EventDate": "",
+        "EventTime": "",
+        "Files": []
+      },
+      {
+        "ID": 1,
+        "Title": "Student Organizations",
+        "Description": "The campus hosts various student groups such as the National Service Scheme (NSS) and Fit India Group. These organizations coordinate numerous activities, including sports tournaments and cultural programs, promoting leadership and community involvement among students. ",
+        "EventDate": "",
+        "EventTime": "",
+        "Files": []
+      },
+      {
+        "ID": 1,
+        "Title": "Thalessemia Test Camp",
+        "Description": "While specific details about thalassemia test camps at GEC Patan are not readily available, the college is known for its commitment to social welfare initiatives. Regular blood donation camps are organized on campus, reflecting the institution's dedication to community health and student awareness.",
+        "EventDate": "",
+        "EventTime": "",
+        "Files": []
+      }
+
     ]
   },
     //Student Section
