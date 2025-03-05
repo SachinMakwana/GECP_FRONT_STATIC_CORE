@@ -50,7 +50,7 @@
 
             <img src="@Url.Content("~/images/Home/icon1.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="100" />
 
-            <h4 class="color2">Five different courses provided</h4>
+            <h4 class="color2">Five UG Engineering Programs</h4>
 
             <br /><br />
             @*<a href="#" class="but_calendar">Read More</a>*@
@@ -62,7 +62,7 @@
 
             <img src="@Url.Content("~/images/Home/icon2.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="200" />
 
-            <h4 class="color2">Highly Educated Faculties</h4>
+            <h4 class="color2">Well Qualified Faculties</h4>
 
             <br /><br />
             @*<a href="#" class="but_calendar">Read More</a>*@
@@ -74,7 +74,7 @@
 
             <img src="@Url.Content("~/images/Home/icon3.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="300" />
 
-            <h4 class="color2">Library with books across nation</h4>
+            <h4 class="color2">Center of Excellence</h4>
 
             <br /><br />
             @*<a href="#" class="but_calendar">Read More</a>*@
@@ -86,7 +86,7 @@
 
             <img src="@Url.Content("~/images/Home/icon4.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="400" />
 
-            <h4 class="color2">Different Committees to help you grow</h4>
+            <h4 class="color2">Holistic Development of Students</h4>
 
             <br /><br />
             @*<a href="#" class="but_calendar">Read More</a>*@
@@ -104,21 +104,21 @@
 
         <div class="one_half stcode_title4">
 
-        <h3><span class="line"></span><span class="text"><i class="fa fa fa-institution" aria-hidden="true"></i><strong>  VISION</strong></span></h3>
+        <h3 class="text-center"><span class="text"><i class="fa fa fa-institution" aria-hidden="true"></i><strong>  VISION</strong></span></h3>
 
 
-            <div class="vision-container">
+          @*   <div class="vision-container">
             <i class="fa fa-university" aria-hidden="true"></i><i class="fa fa-bullseye" aria-hidden="true"></i><i class="fa fa-university" aria-hidden="true"></i>
-            </div>
+            </div> *@
 
-            <p class="large-text">
+            <p class="large-text text-justify">
                 To prepare human resources with value-based competency for technical advancements and growth of society.
             </p>
         </div>
 
         <div class="one_half last stcode_title4">
 
-        <h3><span class="line"></span><span class="text"><i class="fa fa fa-mortar-board (alias)" aria-hidden="true"></i><strong>  MISSION</strong></span></h3>
+        <h3 class="text-center"><span class="text"><i class="fa fa fa-mortar-board (alias)" aria-hidden="true"></i><strong>  MISSION</strong></span></h3>
             <ul class="text-justify">
             <li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> To Deliver technical programs and services to cater the current needs of society and industry.</li>
             <li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> Helping industries in solving challenges by means of providing best technical human resources.</li>
@@ -134,7 +134,7 @@
 <div class="featured_section16">
     <div class="container">
 
-        <h2>Departments</h2>
+        <h1 class="caps text-center">Departments</h1>
 
         <div class="box">
             <a href="@Url.Action("DepartmentDetails","Department",new{@id=8})">
@@ -177,7 +177,7 @@
             <a href="@Url.Action("DepartmentDetails","Department",new{@id=6})">
                 <div class="hexagon five animate" data-anim-type="spinRight" data-anim-delay="300">
                     <i class="fa fa-cogs"></i>
-                    <h6>General</h6>
+                    <h6>Science & Humanities</h6>
                 </div>
             </a>
 
@@ -370,6 +370,7 @@
     
         .large-text {
             font-size: 20px;
+            width:98%;
         }
 
         .one_half ul {

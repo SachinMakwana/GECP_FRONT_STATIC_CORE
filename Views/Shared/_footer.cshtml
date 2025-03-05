@@ -1,35 +1,113 @@
-﻿
+﻿@model HeaderVM
 <div class="clearfix"></div>
 
 
-<footer class="footer4">
+<footer class="footer2">
     <div class="container">
 
-        <div class="fmlinks">
-            <a href="@Url.Action("Index","Home")">Home</a>
-            <a href="@Url.Action("AboutUs","Institute")">Institute</a>
-            <a href="@Url.Action("Gallery","CampusLife")">Gallery</a>
-            <a href="@Url.Action("NewsLetter","Institute")">Newsletter</a>
-            <a href="@Url.Action("Tenders","Institute")">Tenders</a>
-            <a href="@Url.Action("Index","ContactUs")">Contact</a>
-            <a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=8})">Student Section</a>
+        <div class="one_third animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
+            <div class="qlinks two">
+
+                <h5>Important Links</h5>
+                <ul>
+                    <li>
+                        <a href="https://www.gtu.ac.in/" target="_blank">
+                            <i class="fa fa-circle"></i> Gujarat Technological University (GTU)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.aicte-india.org/" target="_blank">
+                            <i class="fa fa-circle"></i> AICTE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nbaind.org/" target="_blank">
+                            <i class="fa fa-circle"></i> NBA
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dte.gujarat.gov.in/" target="_blank">
+                            <i class="fa fa-circle"></i> Directorate of Technical Education
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dst.gov.in/" target="_blank">
+                            <i class="fa fa-circle"></i> DST
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://gpsc.gujarat.gov.in/" target="_blank">
+                            <i class="fa fa-circle"></i> GPSC
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mariyojana.gujarat.gov.in/" target="_blank">
+                            <i class="fa fa-circle"></i> Mari Yojana
+                        </a>
+                    </li>
+                </ul>
+               
+            </div>
+        </div><!-- end section -->
+
+        <div class="one_third animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="200">
+            <div class="qlinks two">
+
+                <h5>&nbsp;</h5>
+
+                <ul>
+                    <li><a href="@Url.Action("AboutUs","Institute")"><i class="fa fa-circle"></i> Institute</a></li>
+                    <li><a href="@Url.Action("Gallery","CampusLife")"><i class="fa fa-circle"></i> Gallery</a></li>
+                    <li><a href="@Url.Action("Tenders","Institute")"><i class="fa fa-circle"></i> Tenders</a></li>
+                    <li><a href="@Url.Action("NewsLetter","Institute")"><i class="fa fa-circle"></i> NEWSLETTER</a></li>
+                    <li><a href="@Url.Action("CommitteePage","CampusCommittee",new{@id=2})"><i class="fa fa-circle"></i> Student Section</a></li>
+                    <li><a href="@Url.Action("Index","Alumni")"><i class="fa fa-circle"></i> Alumni</a></li>
+                    <li><a href="@Url.Action("Index","ContactUs")"><i class="fa fa-circle"></i> Contact</a></li>
+
+                </ul>
+
+            </div>
+        </div><!-- end section -->
+
+       
+
+        <div class="one_third last animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="500">
+            <ul class="faddress">
+                <li><i class="fa fa-map-marker fa-lg"></i> GOVERNMENT ENGINEERING COLLEGE,AT. KATPUR, PATAN<br />At & Post. Katpur, Patan, Gujarat-384265</li>
+                <li><i class="fa fa-phone"></i>&nbsp; @Model.ContactNo</li>
+                <li><a href="mailto:@Model.ContactEmail">@Model.ContactEmail</a></li>
+            </ul>
+        </div><!-- end address -->
+
+
+    </div><!-- end footer -->
+
+    <div class="clearfix"></div>
+
+    <div class="copyright_info2">
+        <div class="container">
+
+            <div class="clearfix divider_dashed10"></div>
+
+            <div class="one_half">
+
+                <ul class="footer_social_links2">
+                    <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://www.facebook.com/profile.php?id=100083065583941" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://x.com/geckatpurpatan" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://www.linkedin.com/school/government-engineering-college-patan-022/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://www.instagram.com/gec_patan__official/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+
+            <div class="one_half last animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="300">
+
+                Copyright © @DateTime.Now.Year gecpatan.ac.in. All rights reserved.
+
+            </div>
+
         </div>
-
-        Copyright © @DateTime.Now.Year Government Engineering College. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
-
-        <div class="footer_social_links4">
-
-            <a href=" https://www.facebook.com/groups/196556128399328/" class="animate" data-anim-type="zoomIn" data-anim-delay="100" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            @*<a href="https://www.facebook.com/Government-Engineering-College-Patan-109104388275262" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fab fa-facebook-f"></i></a>*@
-            <a href="https://twitter.com/geckatpurpatan" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fab fa-twitter"></i></a>
-            @*<a href="#" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fab fa-google-plus-g"></i></a>*@
-            <a href="https://www.linkedin.com/school/government-engineering-college-patan-022/" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            @*<a href="#" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fas fa-rss"></i></a>*@
-            <a href="https://www.instagram.com/gec_patan__official/" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fab fa-instagram"></i></a>
-            @*<a href="#" class="animate" data-anim-type="zoomIn" data-anim-delay="100"><i class="fas fa-rss"></i></a>*@
-        </div>
+    </div><!-- end copyright info -->
 
 
-    </div>
-    <!-- end footer -->
 </footer>
