@@ -119,17 +119,74 @@
       "IsDynamic": false
     },
     {
-      "ID": 2,
-      "Icon": "../../images/Club/codehives.jpeg",
-      "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
-      "Title": "Code Hives",
-      "ActionName": "",
-      "ControllerName": "",
-      "SubObjectives": [],
-      "BlogLink": "",
-      "Images": [],
-      "Activities": [],
-      "IsDynamic": true
+        "ID": 2,
+        "Icon": "../../images/Club/codehives.jpeg",
+        "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
+        "Title": "Code Hives",
+        "ActionName": "",
+        "ControllerName": "",
+        "SubObjectives": [
+            "Learning and Development: Providing opportunities for members to learn programming languages, tools, and technologies through structured courses, workshops, and hands-on projects.",
+            "Community Building: Fostering a supportive and inclusive community where tech enthusiasts of all skill levels can connect, share knowledge, and collaborate on various coding projects.",
+            "Skill Enhancement: Offering a variety of events such as hackathons, coding challenges, and seminars that enable members to practice and improve their coding skills in a real-world setting.",
+            "Networking Opportunities: Creating a platform for members to network with industry professionals, mentors, and peers, thereby facilitating career growth and professional development.",
+            "Innovation and Creativity: Encouraging members to think creatively and innovate by providing them with the resources and environment to work on unique and challenging coding projects.",
+            "Career Support: Assisting members in their career journey by offering guidance, resume building workshops, interview preparation sessions, and job placement opportunities."
+        ],
+        "BlogLink": "",
+        "Images": [],
+        "Activities": [],
+        "IsDynamic": true,
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Dr. H. N. Panchal",
+                "Position": "Converner",
+                "Department": "Mechanical Engineering Department",
+                "Image": "~/images/Faculty/519.jpg",
+                "Email": "hitesh.panchal@gecpatan.ac.in"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. H. L. Chaudhari",
+                "Position": "Converner",
+                "Department": "Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/214.jpg",
+                "Email": "harshad.chaudhary@gecpatan.ac.in"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. M. I. Baliya",
+                "Position": "Member",
+                "Department": "Civil Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "manjurali.baliya@gecpatan.ac.in"
+            },
+            {
+                "ID": 4,
+                "Name": "Dr. P. D. Patel",
+                "Position": "Member",
+                "Department": "Electrical Engineering Department",
+                "Image": "~/images/Faculty/306.jpg",
+                "Email": "pravin.patel@gecpatan.ac.in"
+            },
+            {
+                "ID": 5,
+                "Name": "Dr. M. B. Patel",
+                "Position": "Member",
+                "Department": "Electronics & Communication Engineering Department",
+                "Image": "~/images/Faculty/108.jpg",
+                "Email": "maulik.patel@gecpatan.ac.in"
+            },
+            {
+                "ID": 6,
+                "Name": "Prof. M. J. Vasava",
+                "Position": "Member",
+                "Department": "Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/211.jpg",
+                "Email": "mehul.vasava@gecpatan.ac.in"
+            }
+        ]
     },
     {
       "ID": 3,
