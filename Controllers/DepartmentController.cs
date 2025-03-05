@@ -16,7 +16,9 @@ namespace GECP_Front_End_Static.Controllers
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
         public List<DepartmentVM>  DepartmentData = new List<DepartmentVM>();
         public List<Labs> LabsData = new List<Labs>();
-        public DepartmentController(IWebHostEnvironment hostingEnvironment)
+		public List<AchievementsVM> AchievementsVM = new List<AchievementsVM>();
+		public AchievementsWrapperVM achievementsWrapperVM = new AchievementsWrapperVM();
+		public DepartmentController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
@@ -38,9 +40,12 @@ namespace GECP_Front_End_Static.Controllers
             // Deserialize directly into a List<Labs>
             LabsData = JsonConvert.DeserializeObject<List<Labs>>(json);
 
+			jsonpath = webRootPath + @"\Data\Achievements\Achievements.json";
+			webClient = new WebClient();
+			json = webClient.DownloadString(jsonpath);
+			achievementsWrapperVM = JsonConvert.DeserializeObject<AchievementsWrapperVM>(json);
 
-
-        }
+		}
 
         public IActionResult DepartmentDetails(int id=0)
         {
@@ -49,13 +54,25 @@ namespace GECP_Front_End_Static.Controllers
             if (data != null)
             {
                 data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
-                //data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
-            }
+				data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == id).OrderBy(m => m.ID).ToList();
+				//data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
+			}
 
             return View(data);
         }
 
-        public IActionResult EC()
+		//public IActionResult AchievementsByDept(int deptId = 0)
+		//{
+		//	AchievementsWrapperVM data = new AchievementsWrapperVM();
+		//	data = achievementsWrapperVM;
+		//	if (deptId > 0)
+		//	{
+		//		data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == deptId).ToList();
+		//	}
+
+		//	return View("_Achievements", data);
+		//}
+		public IActionResult EC()
         {
             var ecData = FacultyData.Where(m => m.Dept_ID == 1).OrderBy(m => m.ID).ToList();
             return View(ecData);

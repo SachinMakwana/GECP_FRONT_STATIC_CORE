@@ -32,7 +32,8 @@ namespace GECP_Front_End_Static.Models
         public List<FacultyDetailsVM> FacultyList { get; set; } = new List<FacultyDetailsVM>();
 
         public List<CommitteeActivity> Activities { get; set; }
-    }
+		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
+	}
 
     public class Labs
     {

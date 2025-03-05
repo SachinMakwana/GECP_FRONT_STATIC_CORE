@@ -79,16 +79,16 @@ namespace GECP_Front_End_Static.Controllers
         }
 
         //send data departmentwise
-        public IActionResult AchievementsByDept(int deptId = 0) {
-            AchievementsWrapperVM data = new AchievementsWrapperVM();
-            data = achievementsWrapperVM;
-            if (deptId > 0)
-            {
-                data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == deptId).ToList();
-            }
+        //public IActionResult AchievementsByDept(int deptId = 0) {
+        //    AchievementsWrapperVM data = new AchievementsWrapperVM();
+        //    data = achievementsWrapperVM;
+        //    if (deptId > 0)
+        //    {
+        //        data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == deptId).ToList();
+        //    }
 
-            return View("_Achievements", data);
-        }
+        //    return View("_Achievements", data);
+        //}
 
         public IActionResult SSIPDocuments()
         {
