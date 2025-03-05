@@ -25,7 +25,7 @@
 
 [
   {
-    "Id": 1,
+    "Id": 50,
     "Title": "Memorandum of Understanding",
     "YearSection": [
       {
@@ -87,7 +87,7 @@
 
 
   {
-    "Id": 2,
+    "Id": 30,
     "Title": "Mandatory Disclosure",
     "YearSection": [
       {
@@ -149,7 +149,7 @@
 
 
   {
-    "Id": 3,
+    "Id": 40,
     "Title": "Tenders",
     "YearSection": [
       {
@@ -171,7 +171,7 @@
 
 
   {
-    "Id": 4,
+    "Id": 60,
     "Title": "Time Table",
     "YearSection": [
       {
@@ -208,6 +208,22 @@
                 "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2024_2025.pdf",
                 "isShow": true,
                 "UploadDate": "01-03-2025"
+            },
+            {
+                "ID": 5,
+                "Title": "EC ODD 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
+                "isShow": true,
+                "UploadDate": "04-03-2025"
+            },
+            {
+                "ID": 6,
+                "Title": "EC EVEN 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
+                "isShow": true,
+                "UploadDate": "04-03-2025"
             }
         ]
       }
@@ -216,23 +232,77 @@
 
 
 
-  {
-    "Id": 5,
-    "Title": "Enrollment Details",
-    "YearSection": [
-      {
-        "Year": "2024",
-        "Documents": [
+    {
+        "Id": 5,
+        "Title": "Enrollment Details",
+        "YearSection": [
             {
-                "ID": 1,
-                "Title": "Enrollment Student List 2024",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/ENROLLMENT/Enrolled Students List 2024_BE First Semester and D2D_Final.pdf",
-                "isShow": true,
-                "UploadDate": "01-03-2025"
+                "Year": "2024",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Enrollment Student List 2024",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/Enrolled Students List 2024_BE First Semester and D2D_Final.pdf",
+                        "isShow": true,
+                        "UploadDate": "01-03-2025"
+                    }
+                ]
             }
         ]
-      }
-    ]
-  }
+    },
+    {
+        "Id": 9, //committee id
+        "Title": "Training & Placement",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Placement Data",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Placement Data Graphs",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData_Graph_View.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 2, //committee id
+        "Title": "Student Startup & Innovation Policy",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Placement Data",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Placement Data Graphs",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData_Graph_View.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    }
+                ]
+            }
+        ]
+    }
 ]

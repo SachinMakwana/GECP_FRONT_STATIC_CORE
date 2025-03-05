@@ -174,7 +174,7 @@
             {
                 "ID": 27,
                 "MenuText": "Mandatory Disclosure",
-                "dynamicID": 2,
+                "dynamicID": 30,
                 "ParentID": 2,
                 "ControllerName": "Documents",
                 "ActionName": "Index",
@@ -185,7 +185,7 @@
             {
                 "ID": 28,
                 "MenuText": "MoUs",
-                "dynamicID": 1,
+                "dynamicID": 50,
                 "ParentID": 2,
                 "ControllerName": "Documents",
                 "ActionName": "Index",
@@ -689,7 +689,7 @@
                 "ID": 62,
                 "MenuText": "Time Table",
                 "ParentID": 6,
-                "dynamicID": 4,
+                "dynamicID": 60,
                 "ControllerName": "Documents",
                 "ActionName": "Index",
                 "position": 12,

@@ -152,7 +152,12 @@
 
                 ]
             }
-        ]
+        ],
+        "ShowDocument": true,
+        "TabTitles": {
+            "SubObjectives": "Objectives",
+            "Documents": "Important Documents"
+        }
     },
 
     //NSS
@@ -352,30 +357,30 @@
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Fostering Trust Through <b>Transparency.”</b></h1>",
         "BlogLink": "",
         "Members": [
-          {
-            "ID": 1,
-            "Name": "Dr. B. J. Shah",
-            "Position": "Principal (PRIMARY APPELLATE)",
-            "Image": "~/images/Faculty/701.jpg",
-            "Email": "principal@gecpatan.ac.in",
-            "Department": "Administrative"
-          },
-          {
-            "ID": 1,
-            "Name": "Dr. D. K. Patel",
-            "Position": "RTI Officer",
-            "Image": "~/images/Faculty/502.jpg",
-            "Email": "dinesh.patel@gecpatan.ac.in",
-            "Department": "Mechanical Engineering Department"
-          },
-          {
-            "ID": 2,
-            "Name": "Prof. V. K. Patel",
-            "Position": "Member",
-            "Image": "~/images/Faculty/512.jpg",
-            "Email": "vipul.patel@gecpatan.ac.in",
-            "Department": "Mechanical Engineering Department"
-          }
+            {
+                "ID": 1,
+                "Name": "Dr. B. J. Shah",
+                "Position": "Principal (PRIMARY APPELLATE)",
+                "Image": "~/images/Faculty/701.jpg",
+                "Email": "principal@gecpatan.ac.in",
+                "Department": "Administrative"
+            },
+            {
+                "ID": 1,
+                "Name": "Dr. D. K. Patel",
+                "Position": "RTI Officer",
+                "Image": "~/images/Faculty/502.jpg",
+                "Email": "dinesh.patel@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. V. K. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/512.jpg",
+                "Email": "vipul.patel@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            }
         ]
     },
 
@@ -454,123 +459,126 @@
             }
         ]
     },
+    // gymkhana
+    {
+        "ID": 10,
+        "Title": "Gymkhana",
+        "TitleImage": "",
+        "TitleImageCSSClass": "anti_ragging_title",
+        "About": "Government Engineering College, Patan (GEC Patan) offers a vibrant campus life enriched with various sports and cultural activities, fostering holistic development among its students.",
+        "Measures": "At Government Engineering College, Patan (GEC Patan), the gymkhana plays a pivotal role in enriching student life by facilitating a wide array of extracurricular activities. This dedicated space is designed to promote holistic development through various measures: <ul><li><b>Sports and Indoor Games:</b> <ul><li><b>Facilities:</b> The gymkhana is equipped to host numerous indoor games, providing students with opportunities to engage in physical activities that foster teamwork and healthy competition.</li><li><b>Events:</b> Annual sports weeks are organized, during which students participate in diverse sports and games, enhancing their physical well-being and camaraderie.</li></ul></li><li><b>Cultural Activities:</b> <ul><li><b>Celebrations:</b> The gymkhana serves as the central venue for cultural events, including festivals and annual functions, allowing students to showcase their talents in music, dance, drama, and more.</li><li><b>Clubs and Committees:</b> Various student-led groups, such as the Cultural Committee, utilize the gymkhana to plan and execute events that enrich the campus's cultural landscape.</li></ul></li><li><b>Social Services:</b> <ul><li><b>Community Engagement:</b> The gymkhana is a hub for organizing social service initiatives, including thalassemia test camps, blood donation camps, and health awareness programs, encouraging students to contribute positively to society.</li></ul></li></ul>",
+        "Measure_Image": "~/images/CampusCommittee/Gymkhana/Gymkhana.png",
+        "Vision": [
+            "To foster a vibrant and inclusive environment that promotes physical fitness, teamwork, creativity, and cultural enrichment, empowering students to achieve excellence in sports and cultural activities while nurturing their overall personality development. "
+        ],
+        "Mission": [
+            "To promote holistic student development by encouraging active participation in sports and cultural activities, fostering teamwork, discipline, and creativity.",
+            "To provide an inclusive platform that nurtures talent, enhances leadership skills, and strengthens the spirit of sportsmanship and cultural excellence."
+        ],
+        "SubObjectives": [
+            "The gymkhana at Government Engineering College, Patan (GEC Patan) plays a vital role in fostering overall student development through various initiatives. The key objectives and benefits include:",
+            "<b>Sports:</b> <ul><li>Promote physical fitness and a healthy lifestyle.</li><li>Develop teamwork, discipline, and sportsmanship.</li><li>Provide and maintain sports infrastructure.</li><li>Organize intra- and inter-college sports events.</li><li>Encourage participation in university and national-level competitions.</li><li>Balance academics with sports activities.</li><li>Foster leadership through sports management roles.</li><li>Promote inclusive sports participation.</li></ul></li>",
+            "<b>Cultural:</b> <ul><li>Encourage creativity and artistic expression.</li><li>Organize cultural festivals and competitions.</li><li>Enhance communication and confidence through debates, drama, and music.</li><li>Preserve and promote Indian heritage and traditions.</li><li>Provide a platform for students to showcase talents.</li><li>Encourage participation in inter-collegiate cultural events.</li><li>Foster teamwork and collaboration in cultural activities.</li></ul></li>",
+            "<b>Social Service:</b> <ul><li>Promote community engagement and social responsibility.</li><li>Organize awareness campaigns on health, environment, and social issues.</li><li>Encourage student participation in volunteer activities.</li><li>Conduct blood donation camps and charity drives.</li><li>Collaborate with NGOs and local organizations for social impact.</li><li>Instill values of empathy, leadership, and civic duty.</li></ul></li></ul>"
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [
+            "Appointment of faculty coordinators and student representatives.",
+            "Division of responsibilities for sports, cultural, and social service activities.",
+            "Annual planning of events and budget allocation.",
+            "Preparing an annual calendar for sports, cultural, and social service activities.",
+            "Identifying venues and required resources for various events.",
+            "Coordinating with external bodies for inter-college competitions.",
+            "Inviting students to participate in various sports, cultural, and social service activities.",
+            "Conducting trials or auditions if required for specific events.",
+            "Assigning teams and practice schedules.",
+            "Maintaining and upgrading sports facilities (indoor/outdoor).",
+            "Arranging equipment and logistics for cultural and social activities.",
+            "Ensuring the availability of first aid and safety measures during events.",
+            "Organizing intra-college tournaments, cultural activities, and awareness campaigns.",
+            "Conducting training sessions, practice matches, and rehearsals.",
+            "Managing university-level and state participation.",
+            "Maintaining records of events, participation, and achievements.",
+            "Submitting an annual report to the college administration.",
+            "Reviewing performance and planning for the next academic year."
+        ],
+        "BulletPointsImg": "",
+        "PageFlyer": "",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“ Empowering Students, Inspiring Growth, <b>Shaping Futures.”</b></h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. G. A. Patel",
+                "Position": "Vice President",
+                "Image": "~/images/Faculty/HOD/301.jpg",
+                "Email": "hod.electrical@gecpatan.ac.in",
+                "Department": "Electrical Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Dr. N. A. Patel",
+                "Position": "Sports Coordinator",
+                "Image": "~/images/Faculty/509.jpg",
+                "Email": "narendra.patel@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. C. P . Kadiya",
+                "Position": "Sports Coordinator",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. Anju M. Vasdwani",
+                "Position": "Cultural Coordinator",
+                "Image": "~/images/Faculty/109.jpg",
+                "Email": "amvgec@gmail.com",
+                "Department": "Electronics & Communications Engineering Department"
+            },
+            {
+                "ID": 5,
+                "Name": "Prof. Hiral Y. Rathod",
+                "Position": "Cultural Coordinator",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "",
+                "Department": "Computer Science & Engineering Department"
+            }
+        ],
+        "Activities": [
+            {
+                "ID": 1,
+                "Title": "Annual Events",
+                "Description": "GEC Patan organizes a range of events throughout the academic year, including annual festivals – Sports Week, fresher parties, and Navratri celebrations. These events provide students with opportunities to showcase their talents and engage with peers, enriching their college experience. ",
+                "EventDate": "",
+                "EventTime": "",
+                "Files": []
+            },
+            {
+                "ID": 1,
+                "Title": "Student Organizations",
+                "Description": "The campus hosts various student groups such as the National Service Scheme (NSS) and Fit India Group. These organizations coordinate numerous activities, including sports tournaments and cultural programs, promoting leadership and community involvement among students. ",
+                "EventDate": "",
+                "EventTime": "",
+                "Files": []
+            },
+            {
+                "ID": 1,
+                "Title": "Thalessemia Test Camp",
+                "Description": "While specific details about thalassemia test camps at GEC Patan are not readily available, the college is known for its commitment to social welfare initiatives. Regular blood donation camps are organized on campus, reflecting the institution's dedication to community health and student awareness.",
+                "EventDate": "",
+                "EventTime": "",
+                "Files": []
+            }
 
-  {
-    "ID": 10,
-    "Title": "Gymkhana",
-    "TitleImage": "",
-    "TitleImageCSSClass": "anti_ragging_title",
-    "About": "Government Engineering College, Patan (GEC Patan) offers a vibrant campus life enriched with various sports and cultural activities, fostering holistic development among its students.",
-    "Measures": "At Government Engineering College, Patan (GEC Patan), the gymkhana plays a pivotal role in enriching student life by facilitating a wide array of extracurricular activities. This dedicated space is designed to promote holistic development through various measures: <ul><li><b>Sports and Indoor Games:</b> <ul><li><b>Facilities:</b> The gymkhana is equipped to host numerous indoor games, providing students with opportunities to engage in physical activities that foster teamwork and healthy competition.</li><li><b>Events:</b> Annual sports weeks are organized, during which students participate in diverse sports and games, enhancing their physical well-being and camaraderie.</li></ul></li><li><b>Cultural Activities:</b> <ul><li><b>Celebrations:</b> The gymkhana serves as the central venue for cultural events, including festivals and annual functions, allowing students to showcase their talents in music, dance, drama, and more.</li><li><b>Clubs and Committees:</b> Various student-led groups, such as the Cultural Committee, utilize the gymkhana to plan and execute events that enrich the campus's cultural landscape.</li></ul></li><li><b>Social Services:</b> <ul><li><b>Community Engagement:</b> The gymkhana is a hub for organizing social service initiatives, including thalassemia test camps, blood donation camps, and health awareness programs, encouraging students to contribute positively to society.</li></ul></li></ul>",
-    "Measure_Image": "~/images/CampusCommittee/Gymkhana/Gymkhana.png",
-    "Vision": [
-      "To foster a vibrant and inclusive environment that promotes physical fitness, teamwork, creativity, and cultural enrichment, empowering students to achieve excellence in sports and cultural activities while nurturing their overall personality development. "
-    ],
-    "Mission": [
-      "To promote holistic student development by encouraging active participation in sports and cultural activities, fostering teamwork, discipline, and creativity.",
-      "To provide an inclusive platform that nurtures talent, enhances leadership skills, and strengthens the spirit of sportsmanship and cultural excellence."
-    ],
-    "SubObjectives": [
-      "The gymkhana at Government Engineering College, Patan (GEC Patan) plays a vital role in fostering overall student development through various initiatives. The key objectives and benefits include:",
-      "<b>Sports:</b> <ul><li>Promote physical fitness and a healthy lifestyle.</li><li>Develop teamwork, discipline, and sportsmanship.</li><li>Provide and maintain sports infrastructure.</li><li>Organize intra- and inter-college sports events.</li><li>Encourage participation in university and national-level competitions.</li><li>Balance academics with sports activities.</li><li>Foster leadership through sports management roles.</li><li>Promote inclusive sports participation.</li></ul></li>",
-      "<b>Cultural:</b> <ul><li>Encourage creativity and artistic expression.</li><li>Organize cultural festivals and competitions.</li><li>Enhance communication and confidence through debates, drama, and music.</li><li>Preserve and promote Indian heritage and traditions.</li><li>Provide a platform for students to showcase talents.</li><li>Encourage participation in inter-collegiate cultural events.</li><li>Foster teamwork and collaboration in cultural activities.</li></ul></li>",
-      "<b>Social Service:</b> <ul><li>Promote community engagement and social responsibility.</li><li>Organize awareness campaigns on health, environment, and social issues.</li><li>Encourage student participation in volunteer activities.</li><li>Conduct blood donation camps and charity drives.</li><li>Collaborate with NGOs and local organizations for social impact.</li><li>Instill values of empathy, leadership, and civic duty.</li></ul></li></ul>"
-    ],
-    "SubObjImg": "",
-    "BulletPoints": [
-      "Appointment of faculty coordinators and student representatives.",
-      "Division of responsibilities for sports, cultural, and social service activities.",
-      "Annual planning of events and budget allocation.",
-      "Preparing an annual calendar for sports, cultural, and social service activities.",
-      "Identifying venues and required resources for various events.",
-      "Coordinating with external bodies for inter-college competitions.",
-      "Inviting students to participate in various sports, cultural, and social service activities.",
-      "Conducting trials or auditions if required for specific events.",
-      "Assigning teams and practice schedules.",
-      "Maintaining and upgrading sports facilities (indoor/outdoor).",
-      "Arranging equipment and logistics for cultural and social activities.",
-      "Ensuring the availability of first aid and safety measures during events.",
-      "Organizing intra-college tournaments, cultural activities, and awareness campaigns.",
-      "Conducting training sessions, practice matches, and rehearsals.",
-      "Managing university-level and state participation.",
-      "Maintaining records of events, participation, and achievements.",
-      "Submitting an annual report to the college administration.",
-      "Reviewing performance and planning for the next academic year."
-    ],
-    "BulletPointsImg": "",
-    "PageFlyer": "",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“ Empowering Students, Inspiring Growth, <b>Shaping Futures.”</b></h1>",
-    "BlogLink": "",
-    "Members": [
-      {
-        "ID": 1,
-        "Name": "Prof. G. A. Patel",
-        "Position": "Vice President",
-        "Image": "~/images/Faculty/HOD/301.jpg",
-        "Email": "hod.electrical@gecpatan.ac.in",
-        "Department": "Electrical Engineering Department"
-      },
-      {
-        "ID": 2,
-        "Name": "Dr. N. A. Patel",
-        "Position": "Sports Coordinator",
-        "Image": "~/images/Faculty/509.jpg",
-        "Email": "narendra.patel@gecpatan.ac.in",
-        "Department": "Mechanical Engineering Department"
-      },
-      {
-        "ID": 3,
-        "Name": "Prof. C. P . Kadiya",
-        "Position": "Sports Coordinator",
-        "Image": "~/images/Faculty/1000.jpg",
-        "Email": "",
-        "Department": "Mechanical Engineering Department"
-      },
-      {
-        "ID": 4,
-        "Name": "Prof. Anju M. Vasdwani",
-        "Position": "Cultural Coordinator",
-        "Image": "~/images/Faculty/109.jpg",
-        "Email": "amvgec@gmail.com",
-        "Department": "Electronics & Communications Engineering Department"
-      },
-      {
-        "ID": 5,
-        "Name": "Prof. Hiral Y. Rathod",
-        "Position": "Cultural Coordinator",
-        "Image": "~/images/Faculty/1000.jpg",
-        "Email": "",
-        "Department": "Computer Science & Engineering Department"
-      }
-    ],
-    "Activities": [
-      {
-        "ID": 1,
-        "Title": "Annual Events",
-        "Description": "GEC Patan organizes a range of events throughout the academic year, including annual festivals – Sports Week, fresher parties, and Navratri celebrations. These events provide students with opportunities to showcase their talents and engage with peers, enriching their college experience. ",
-        "EventDate": "",
-        "EventTime": "",
-        "Files": []
-      },
-      {
-        "ID": 1,
-        "Title": "Student Organizations",
-        "Description": "The campus hosts various student groups such as the National Service Scheme (NSS) and Fit India Group. These organizations coordinate numerous activities, including sports tournaments and cultural programs, promoting leadership and community involvement among students. ",
-        "EventDate": "",
-        "EventTime": "",
-        "Files": []
-      },
-      {
-        "ID": 1,
-        "Title": "Thalessemia Test Camp",
-        "Description": "While specific details about thalassemia test camps at GEC Patan are not readily available, the college is known for its commitment to social welfare initiatives. Regular blood donation camps are organized on campus, reflecting the institution's dedication to community health and student awareness.",
-        "EventDate": "",
-        "EventTime": "",
-        "Files": []
-      }
-
-    ]
-  },
+        ],
+        "TabTitles": {
+            "SubObjectives": "Objectives"
+        }
+    },
     //Student Section
     {
         "ID": 8,
@@ -703,6 +711,7 @@
             }
         ]
     },
+    //TPO
     {
         "ID": 9,
         "Title": "Training and Placement Cell",
@@ -710,7 +719,7 @@
         "TitleImageCSSClass": "placement_title",
         "About": "Training and Placement of Government Engineering College, Patan is an essential foundation of the Institute. It plays a crucial role for student's future by assist students in achieving their career objectives by developing employment-seeking skills and finally securing desired positions. This is achieved by continues interaction of alumni, and industries.",
         "Measures": "Training and Placement Committee measures its success by tracking metrics like placement rate, average salary of placed students, student satisfaction with the placement process, number of companies visiting campus, pre-placement training effectiveness, student preparedness for interviews, and employer feedback on recruit.",
-        "Measure_Image": "~/images/site-img226.png",
+        "Measure_Image": "~/images/T&P.png",
         "Vision": [
             "<b>Developing industry-ready students: </b>Equipping students with technical expertise, soft skills, and relevant industry knowledge through training programs and workshops. ",
             "<b>Building strong industry connections: </b>Actively engaging with companies to create diverse placement opportunities and maintain positive relationships with recruiters. ",
@@ -725,7 +734,8 @@
         ],
         "SubObjectives": [
             "Guide the students in terms of their job, study, and business scope in engineering.",
-            "Preparing students for placement by arranging mock interviews and arranging campus placement drives to provide the best opportunities to students"
+            "Preparing students for placement by arranging mock interviews.",
+            "Arranging campus placement drives to provide the best opportunities to students"
         ],
         "SubObjImg": "",
         "BulletPoints": [
@@ -743,15 +753,15 @@
         "BulletPointsImg": "",
         "PageFlyer": "",
         "Tagline": "<div class=\"featured_section38\"> <div class=\"container\"> <h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“In the middle of difficulty lies <b>opportunity.”</b></h1> </div> </div>",
-        "BlogLink": "http://tpogecp.blogspot.com/",
+        "BlogLink": "",
         "Members": [
             {
                 "ID": 1,
                 "Name": "Dr. S. G. Prajapati",
-                "Position": "TPO",
+                "Position": "Placement In-charge",
                 "Department": "Electrical Engineering",
                 "Image": "~/images/Faculty/307.jpg",
-                "Email": "soham.prajapati@gecpatan.ac.in" //" tnp.gecp@gmail.com"
+                "Email": "tnp.gecp@gmail.com" //" tnp.gecp@gmail.com"
             },
             {
                 "ID": 2,
@@ -775,29 +785,23 @@
                 "Position": "Member",
                 "Department": "Computer Science and Engineering",
                 "Image": "~/images/Faculty/210.jpg",
-                "Email": "divyesh.bavisa@gecpatan.ac.in"
+                "Email": "tnp.gecp@gmail.com"
+            },
+            {
+                "ID": 5,
+                "Name": "Dr. J. C. Prajapati",
+                "Position": "Member",
+                "Department": "Electronics and Communication Engineering",
+                "Image": "~/images/Faculty/103.jpg",
+                "Email": "tnp.gecp@gmail.com"
             }
         ],
         "Activities": [
+
             {
                 "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
                 "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
                 "EventDate": "13/02/2025",
                 "EventTime": "10:30 AM to 12:30 PM",
                 "Files": [
@@ -805,13 +809,7 @@
                         "ID": 1,
                         "Title": "Career Guidance Seminar",
                         "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+                        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
                     }
                 ]
             },
@@ -824,19 +822,110 @@
                 "Files": [
                     {
                         "ID": 1,
-                        "Title": "Career Guidance Seminar",
+                        "Title": "Mock interviews",
                         "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
+                        "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
+                    }
+                ]
+
+            },
+            {
+                "ID": 3,
+                "Title": "Career Guidance  & Counseling",
+                "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
+                "EventDate": "13/03/2024",
+                "EventTime": "1:00 p.m. to 3:00 p.m.",
+                "Files": [
                     {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+                        "ID": 1,
+                        "Title": "Career Guidance  & Counseling",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
+                    }
+                ]
+            },
+            {
+                "ID": 4,
+                "Title": "Career Guidance Awareness",
+                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+                "EventDate": "14/02/2024",
+                "EventTime": "10.30am  to 12.30pm",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Career Guidance Awareness",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/Career Guidance Awareness-14-2-2024.pdf"
+                    }
+                ]
+            },
+            {
+                "ID": 5,
+                "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
+                "EventDate": "02/03/2023",
+                "EventTime": "1:00 p.m. to 3:00 p.m.",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
+                    }
+                ]
+            },
+            {
+                "ID": 6,
+                "Title": "Entrepreneurship after Engineering",
+                "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
+                "EventDate": "23/02/2023",
+                "EventTime": "10.30am  to 12.30pm",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Entrepreneurship after Engineering",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/ENTREPRENIOR-23-2-2023.pdf"
+                    }
+                ]
+            },
+
+            {
+                "ID": 7,
+                "Title": "Career Guidance Seminar",
+                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+                "EventDate": "28/02/2023",
+                "EventTime": "1:00 p.m. to 3:00 p.m.",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Entrepreneurship after Engineering",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/Career Guidance-28-2-2023.pdf"
+                    }
+                ]
+            },
+            {
+                "ID": 8,
+                "Title": "Entrepreneurship Awareness Seminar",
+                "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
+                "EventDate": "24/12/2021",
+                "EventTime": "10.30am  to 12.30pm",
+                "Files": [
+                    {
+                        "ID": 1,
+                        "Title": "Entrepreneurship Awareness Seminar",
+                        "FileType": "PDF",
+                        "FilePath": "~/PlacementCell/ENTREPRENIOR-24-12-2021.pdf"
                     }
                 ]
             }
-        ]
+        ],
+        "ShowDocument": true,
+        "TabTitles": {
+            "SubObjectives": "Objectives",
+            "Documents": "Reports"
+        }
     }
 ]
 // use below template to add a committee
