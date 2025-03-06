@@ -229,7 +229,7 @@
     "Qualification": "Ph.D. Next Generation Wireless System",
     "Area_of_Interest": "Digital Communication,Wireless Communication and DSP",
     "IsTeaching": true,
-    "SeniorityOrder": ,
+    "SeniorityOrder":,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Hareshkumar Judal</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E.(Communication Systems Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Digital Communication,Wireless Communication and DSP</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Judal Hareshkumar Laxmanbhai",
@@ -389,65 +389,65 @@
         "Date": "23-01-2023 to 17-03-2023"
       }
     ],
-  
-      "Publications": [
-        {
-          "SrNo": "1",
-          "Title": "Paper titled 'Implementation and Comparison of Linear Algorithms for CDMA based Multi-user detection Techniques using MATLAB' selected in National Conference on 'Smart Communication Technologies and Industrial Informatics' (SCTII) at National Institute of Technology, Rourkela from 3rd & 4th February 2007."
-        },
-        {
-          "SrNo": "2",
-          "Title": "Innovative idea titled 'Security System using Mobile' presented at National workshop on 'Igniting the Spirit of Innovation in Engineering Students', a faculty development program (under TEQIP) at Sreenidhi Institute of Science & Technology, Yamnampet, Ghatkesar, Hyderabad on 24th & 25th January 2008."
-        },
-        {
-          "SrNo": "3",
-          "Title": "Innovative idea titled 'Cell Stop Car' selected at National workshop on 'Igniting the Spirit of Innovation in Engineering Students', a faculty development program (under TEQIP) at Sreenidhi Institute of Science & Technology, Yamnampet, Ghatkesar, Hyderabad on 24th & 25th January 2008."
-        },
-        {
-          "SrNo": "4",
-          "Title": "Paper titled 'Implementation of Zero Forcing Linear Algorithm For CDMA Based Multiuser Detection Techniques Using MATLAB' in International Journal of Emerging Technologies and Application in Engineering, Technology and Sciences (IJ-ETA-ETS) July ’09 – December ’09."
-        },
-        {
-          "SrNo": "5",
-          "Title": "Paper titled 'Implementation of Zero Forcing Linear Algorithm for CDMA Based Multiuser Detection Technique Using MATLAB' in The IUP Journal of Telecommunications Vol. III No.4 November-2011."
-        },
-        {
-          "SrNo": "6",
-          "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Multiuser MIMO-OFDM for Next-Generation Wireless Systems' in National Conference-Computer Engineering, Information and Communication Technology (NCCICT)-2016 organized by Government Engineering College, Gandhinagar, SPFU, CTE-Gujarat, IPR under TEQIP II at GEC Gandhinagar on 15th-16th September 2016."
-        },
-        {
-          "SrNo": "7",
-          "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Linear Detection in Massive MIMO for Next Generation Wireless Systems' in International Journal of Research in Electronics and Computer Engineering (IJRECE), ISSN: 2393-9028 (PRINT) | ISSN: 2348-2281 (ONLINE), IJRECE VOL. 6 ISSUE 4, OCTOBER- DECEMBER 2018, Page no 1547-1549."
-        },
-        {
-          "SrNo": "8",
-          "Title": "Haresh L. Judal, Dr. K. G. Maradia, '5G Multi-Carrier Waveform Candidates and Linear MIMO Data Detection' in Proceedings of First Springer International Conference on Advances in Electrical and Computer Technologies 2019 (ICAECT - 2019), 26 - 27 April 2019, Volume 2, Page No.:680-689. [Springer Conference]"
-        },
-        {
-          "SrNo": "9",
-          "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Capacity Analysis and Linear Detection in Massive MIMO for 5G Wireless Systems' in ‘International Journal of Innovative Technology and Exploring Engineering (IJITEE)’, ISSN: 2278–3075 (Online), Volume-8 Issue-9, July 2019, Page No.:2938-2943."
-        },
-        {
-          "SrNo": "10",
-          "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Key Enabling Technologies for Next Generation Wireless Systems' in International Conference on VLSI, Signal Processing, Power Electronics, IoT, Communication, and Embedded Systems (VSPICE-2023) being held on 19th and 20th December 2023 at N. M. A. M. Institute of Technology, Nitte, India."
-        },
-        {
-          "SrNo": "11",
-          "Title": "Haresh L. Judal, Avani Vithalani, Shahid S. Modasiya, 'Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges' at the 3rd International Conference on 'Women in Science & Technology: Creating Sustainable Career' organized by Birla Vishvakarma Mahavidyalaya during 28-30 December 2023."
-        },
-        {
-          "SrNo": "12",
-          "Title": "Haresh L. Judal, Avani Vithalani, Shahid S. Modasiya, 'Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges' in Vol.14 / Issue 82 / Feb / 2024 Indian Journal of Natural Sciences ISSN: 0976 – 0997."
-        },
-        {
-          "SrNo": "13",
-          "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Towards 6G: Next Generation Wireless Systems' in Journal of Electrical Systems in Vol. 20 No. 3 (2024) ISSN: 1112-5209."
-        },
-        {
-          "SrNo": "14",
-          "Title": "Judal, H.L., Maradia, K.G. (2024). 'Key Enabling Technologies for Next-Generation Wireless Systems'. Recent Advances in Signals and Systems. VSPICE 2023. Lecture Notes in Electrical Engineering, vol 1227. Springer, Singapore. https://doi.org/10.1007/978-981-97-4657-6_24 pp 331-346."
-        }
-      ]
+
+    "Publications": [
+      {
+        "SrNo": "1",
+        "Title": "Paper titled 'Implementation and Comparison of Linear Algorithms for CDMA based Multi-user detection Techniques using MATLAB' selected in National Conference on 'Smart Communication Technologies and Industrial Informatics' (SCTII) at National Institute of Technology, Rourkela from 3rd & 4th February 2007."
+      },
+      {
+        "SrNo": "2",
+        "Title": "Innovative idea titled 'Security System using Mobile' presented at National workshop on 'Igniting the Spirit of Innovation in Engineering Students', a faculty development program (under TEQIP) at Sreenidhi Institute of Science & Technology, Yamnampet, Ghatkesar, Hyderabad on 24th & 25th January 2008."
+      },
+      {
+        "SrNo": "3",
+        "Title": "Innovative idea titled 'Cell Stop Car' selected at National workshop on 'Igniting the Spirit of Innovation in Engineering Students', a faculty development program (under TEQIP) at Sreenidhi Institute of Science & Technology, Yamnampet, Ghatkesar, Hyderabad on 24th & 25th January 2008."
+      },
+      {
+        "SrNo": "4",
+        "Title": "Paper titled 'Implementation of Zero Forcing Linear Algorithm For CDMA Based Multiuser Detection Techniques Using MATLAB' in International Journal of Emerging Technologies and Application in Engineering, Technology and Sciences (IJ-ETA-ETS) July ’09 – December ’09."
+      },
+      {
+        "SrNo": "5",
+        "Title": "Paper titled 'Implementation of Zero Forcing Linear Algorithm for CDMA Based Multiuser Detection Technique Using MATLAB' in The IUP Journal of Telecommunications Vol. III No.4 November-2011."
+      },
+      {
+        "SrNo": "6",
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Multiuser MIMO-OFDM for Next-Generation Wireless Systems' in National Conference-Computer Engineering, Information and Communication Technology (NCCICT)-2016 organized by Government Engineering College, Gandhinagar, SPFU, CTE-Gujarat, IPR under TEQIP II at GEC Gandhinagar on 15th-16th September 2016."
+      },
+      {
+        "SrNo": "7",
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Linear Detection in Massive MIMO for Next Generation Wireless Systems' in International Journal of Research in Electronics and Computer Engineering (IJRECE), ISSN: 2393-9028 (PRINT) | ISSN: 2348-2281 (ONLINE), IJRECE VOL. 6 ISSUE 4, OCTOBER- DECEMBER 2018, Page no 1547-1549."
+      },
+      {
+        "SrNo": "8",
+        "Title": "Haresh L. Judal, Dr. K. G. Maradia, '5G Multi-Carrier Waveform Candidates and Linear MIMO Data Detection' in Proceedings of First Springer International Conference on Advances in Electrical and Computer Technologies 2019 (ICAECT - 2019), 26 - 27 April 2019, Volume 2, Page No.:680-689. [Springer Conference]"
+      },
+      {
+        "SrNo": "9",
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Capacity Analysis and Linear Detection in Massive MIMO for 5G Wireless Systems' in ‘International Journal of Innovative Technology and Exploring Engineering (IJITEE)’, ISSN: 2278–3075 (Online), Volume-8 Issue-9, July 2019, Page No.:2938-2943."
+      },
+      {
+        "SrNo": "10",
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Key Enabling Technologies for Next Generation Wireless Systems' in International Conference on VLSI, Signal Processing, Power Electronics, IoT, Communication, and Embedded Systems (VSPICE-2023) being held on 19th and 20th December 2023 at N. M. A. M. Institute of Technology, Nitte, India."
+      },
+      {
+        "SrNo": "11",
+        "Title": "Haresh L. Judal, Avani Vithalani, Shahid S. Modasiya, 'Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges' at the 3rd International Conference on 'Women in Science & Technology: Creating Sustainable Career' organized by Birla Vishvakarma Mahavidyalaya during 28-30 December 2023."
+      },
+      {
+        "SrNo": "12",
+        "Title": "Haresh L. Judal, Avani Vithalani, Shahid S. Modasiya, 'Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges' in Vol.14 / Issue 82 / Feb / 2024 Indian Journal of Natural Sciences ISSN: 0976 – 0997."
+      },
+      {
+        "SrNo": "13",
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Towards 6G: Next Generation Wireless Systems' in Journal of Electrical Systems in Vol. 20 No. 3 (2024) ISSN: 1112-5209."
+      },
+      {
+        "SrNo": "14",
+        "Title": "Judal, H.L., Maradia, K.G. (2024). 'Key Enabling Technologies for Next-Generation Wireless Systems'. Recent Advances in Signals and Systems. VSPICE 2023. Lecture Notes in Electrical Engineering, vol 1227. Springer, Singapore. https://doi.org/10.1007/978-981-97-4657-6_24 pp 331-346."
+      }
+    ]
 
   },
   {
@@ -8410,6 +8410,31 @@
     ]
   },
 
+  //7xx
+
+  {
+    "ID": "701",
+    "Name": "Dr. B. J. Shah",
+    "Designation": "Principal",
+    "image": "",
+    "Dept_ID": "7",
+    "Date_of_Joining": "",
+    "Qualification": "",
+    "Area_of_Interest": "",
+    "Isteaching": ,
+    "SeniorityOrder": "",
+    "PersonalDetails": {
+      "Name": "Dr. B.J. Shah",
+      "Designation": "",
+      "Department": "",
+      "Contact": "",
+      "Email": ""
+    },
+    "EducationalQualifications": [],
+    "ProfessionalExperiences": [],
+    "TrainingAndWorkshops": [],
+    "Publications": []
+  }
 
 
   //8xx

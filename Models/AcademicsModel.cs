@@ -17,6 +17,7 @@ namespace GECP_Front_End_Static.Models
         public int Type { get; set; }
         public string Dept { get; set; }
         public int DeptID {  get; set; }
+        public int CommitteId {  get; set; }
         public string Keywords {  get; set; }
         public int Year {  get; set; }
     }

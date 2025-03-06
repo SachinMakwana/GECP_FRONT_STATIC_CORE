@@ -9,27 +9,256 @@
         "Yoddhha"
 
     ],
-    "Years": [
-        2025,
-        2024
-    ],
-    "Achievements": [
-        /*
+  "Years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021
+  ],
+
+  "Achievements": [
+    /*
     Type: 0 for Student |   1 for Faculty
     Department: 1 EC | 2 CSE | 3 EE | 4 Civil | 5 Mechanical | 6 General | 7 Admin | 8 Applied
-    */
-        {
-            "ID": 1,
-            "Title": "Ashray Joshi, 7th sem CSE<br/>Young Change Maker on International Youth Day",
-            "Image": "/images/Achievements/01.jpg",
-            "Date": "12/08/2024",
-            "Description": "Joshi Ashray Ashok a Student of CSE 7th Semester got selected as a Young Change Maker and was invited in National Youth Conclave to share his journey and achievements of his unit under his leadership, Also Ashray submitted the Manifesto of MyBharat Portal to Hon. Union Cabinet Minister Shri Mansukh Mandavya Sir on behalf of Gujarat Youth . He was awarded by Mansukh Mandavya Sir as a Young Change Maker in field of Social Change through NSS This event was organized by UNICEF India, United Nations and Ministry of Sports and Youth Affairs.",
-            "Type": 0,
-            "Dept": "CSE",
-            "DeptID": 2,
-            "Keywords": "CSE, NSS",
-            "Year": 2024
-        }
+    Committee: 1 Women cell | 2 SSIP | 3 NSS | 4 Anti Ragging | 5 Grivence cell | 6 RTI | 7 SC/ST committtee | 8 Student Section | 9 TPO | 10 GymKhana
+        */
+    {
+      "ID": 1,
+      "Title": "Ashray Joshi, 7th sem CSE<br/>Young Change Maker on International Youth Day",
+      "Image": "/images/Achievements/01.jpg",
+      "Date": "12/08/2024",
+      "Description": "Joshi Ashray Ashok a Student of CSE 7th Semester got selected as a Young Change Maker and was invited in National Youth Conclave to share his journey and achievements of his unit under his leadership, Also Ashray submitted the Manifesto of MyBharat Portal to Hon. Union Cabinet Minister Shri Mansukh Mandavya Sir on behalf of Gujarat Youth . He was awarded by Mansukh Mandavya Sir as a Young Change Maker in field of Social Change through NSS This event was organized by UNICEF India, United Nations and Ministry of Sports and Youth Affairs.",
+      "Type": 0,
+      "Dept": "CSE",
+      "DeptID": 2,
+      "CommitteId": 3,
+      "Keywords": "CSE, NSS",
+      "Year": 2024
+    },
+    {
+      "ID": 2,
+      "Title": "YASH RANA,<br/>Won Gold medal in WRESTLING GTU Inter-College Tournament",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "9/4/2023 ",
+      "Description": "Yash Rana secured a gold medal in wrestling at the GTU Inter-College Tournament, showcasing exceptional strength, skill, and determination. Representing GEC Patan, he dominated the competition with his impressive techniques and resilience. His victory is a testament to his hard work and dedication, bringing pride to his college",
+      "Type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 3,
+      "Title": "YASH RANA,<br/>Judo Gold Interzonal tournaments GTU",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "8/26/2023",
+      "Description": "Yash Rana secured a gold medal in judo at the GTU Interzonal Tournament, showcasing exceptional strength, technique, and determination. Representing GEC Patan, he outperformed his opponents with strategic moves and unwavering focus. His remarkable achievement reflects his dedication, hard work, and passion for the sport, bringing immense pride and recognition to his college.",
+      "Type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 4,
+      "Title": "Goswami Devanshl,<br/>Represent GTU YOGA Team Woman for participating in the All India Inter",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "10/27/2023",
+      "Description": "A talented athlete from GTU has been selected to represent the GTU Yoga Team in the All India Inter-University Championship. Her dedication, discipline, and exceptional yoga skills have earned her this prestigious opportunity. Competing at the national level, she aims to showcase her talent, grace, and resilience against top contenders. Her achievement highlights her hard work and commitment, bringing immense pride to GTU and inspiring fellow students.",
+      "Type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 5,
+      "Title": "Anika Rehan,<br/>1st rank and selected to represent GTU at West zone AIU Event of elocution",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "7/17/2023",
+      "Description": "Anika Rehan secured the 1st rank in elocution, earning the honor of representing GTU at the West Zone AIU Event. Her exceptional speaking skills, confidence, and clarity distinguished her from the competition. With a passion for public speaking and a commanding presence, she has showcased remarkable talent. This achievement is a testament to her dedication and hard work. As she prepares to compete at the zonal level, she brings immense pride to GTU, inspiring others to pursue excellence in communication and leadership.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 6,
+      "Title": "Prerna Solanki,<br/>Judo - Gold Interzonal tournaments GTU",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "8/26/2023",
+      "Description": "Prerna Solanki showcased exceptional strength and skill by winning the gold medal in judo at the GTU Interzonal Tournament. Her dedication, agility, and strategic techniques set her apart from the competition. Representing GEC Patan, she displayed remarkable determination and resilience. This outstanding achievement highlights her hard work and passion for the sport, bringing immense pride to her college and GTU.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 7,
+      "Title": "Anika Rehan,<br/>Judo Gold Interzonal tournaments GTU",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "8/26/2023",
+      "Description": "Anika Rehan demonstrated outstanding strength, skill, and determination by winning the gold medal in judo at the GTU Interzonal Tournament. Her agility, strategic techniques, and relentless dedication set her apart from the competition. Representing GEC Patan, she showcased remarkable perseverance and passion for the sport, bringing immense pride to her college and GTU with this exceptional achievement.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 8,
+      "Title": "Rutu Patel,<br/>Won Gold medal in karate GTU Inter-College Tournament",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "9/1/2023",
+      "Description": "Rutu Patel displayed exceptional skill and determination by winning the gold medal in karate at the GTU Inter-College Tournament. Her agility, precision, and unwavering dedication set her apart from the competition. Representing GEC Patan, she showcased remarkable discipline and perseverance, bringing immense pride to her college and GTU with this outstanding achievement.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 9,
+      "Title": "Diya Patel,<br/>Won SILVER medal in karate GTU Inter-College Tournament",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "09/01/2023 ",
+      "Description": "Diya Patel showcased remarkable skill and determination by winning the silver medal in karate at the GTU Inter-College Tournament. Her agility, precision, and dedication set her apart as a strong competitor. Representing GEC Patan, she demonstrated resilience and excellence, bringing pride to her college and GTU with this impressive achievement.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 10,
+      "Title": "Yash Prajapati,<br/>Won SILVER medal in Taekwondo GTU Inter-College Tournament",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "08/28/2023",
+      "Description": "Yash Prajapati displayed exceptional skill and determination by winning the silver medal in taekwondo at the GTU Inter-College Tournament. His agility, precision, and strategic techniques set him apart as a strong competitor. Representing GEC Patan, he demonstrated remarkable perseverance and sportsmanship throughout the tournament. His hard work and dedication have earned him this well-deserved achievement, bringing immense pride to his college and inspiring fellow athletes to strive for excellence.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 11,
+      "Title": "Vraj Patel,<br/>Badminton - Zonal Runnerups",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "08/17/2023",
+      "Description": "Vraj Patel showcased exceptional skill and determination in badminton, securing the runner-up position in the GTU Zonal Tournament. His agility, precision, and strategic gameplay set him apart as a formidable competitor. Representing GEC Patan, he demonstrated outstanding perseverance and sportsmanship throughout the tournament. His dedication and hard work have earned him this remarkable achievement, bringing pride to his college and inspiring fellow athletes to strive for excellence.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 12,
+      "Title": "Ayush Rajput,<br> Best-Physique Zonal WON Bronze Medal",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "08/22/2023",
+      "Description": "Ayush Rajput showcased outstanding strength and dedication, securing the bronze medal in the Best Physique category at the GTU Zonal Tournament. His commitment to fitness, discipline, and perseverance set him apart from the competition. Representing GEC Patan, he demonstrated exceptional determination, hard work, and passion for bodybuilding. His remarkable achievement brings immense pride to his college, inspiring fellow students to pursue excellence in fitness and sports..",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    },
+    {
+      "ID": 13,
+      "Title": "Helly Pandya,<br> WON AIU Westzone Chess Tournamnet",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "04/13/2022",
+      "Description": "Helly Pandya, a 4th-semester Civil Engineering student, was selected to compete in the AIU West Zone Chess Tournament held at AURA University, Surat, from April 9th to 13th, 2022. The prestigious event featured participants from 50 universities across seven states. Her selection reflects exceptional strategic thinking and dedication to the sport, bringing pride to her college and inspiring fellow students with her remarkable achievement in chess.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2022
+    },
+    {
+      "ID": 14,
+      "Title": "Meet Chaudhry, 8th Sem Mechanical<br> Represents GTU in West Zone Inter-University Basketball Championship",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "03/08/2022",
+      "Description": "Meet Chaudhry, an 8th-semester Mechanical Engineering student, participated in the West Zone Inter-University (AIU) Basketball Men’s Championship 2021-22, organized by Jiwaji University, Gwalior, from March 8th to 14th, 2022. Competing at this prestigious tournament showcased his dedication, teamwork, and exceptional skills in basketball. His participation brought pride to his college, inspiring fellow students to excel in sports and represent their institution at higher levels.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2022
+    },
+    {
+      "ID": 15,
+      "Title": "Bhutadiya Raj and Thakor Jayesh <br>Represent GTU in AIU West Zone Handball Championship",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "03/20/2022",
+      "Description": "Bhutadiya Raj and Thakor Jayesh from Government Engineering College, Patan, were selected to represent Gujarat Technological University in the AIU West Zone Handball Championship for Men. The tournament was held at Pacific University, Udaipur, from March 20th to 23rd, 2022. Their selection highlights their dedication, teamwork, and excellence in handball, bringing pride to their college and inspiring fellow athletes to strive for success at higher levels.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2022
+    },
+    {
+      "ID": 16,
+      "Title": "Meet Chaudhry <br>Wins Bronze at 36th National Games in Netball",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "09/30/2021",
+      "Description": "Meet Chaudhry from the Mechanical Engineering Department represented Gujarat at the 36th National Games in Netball, held from September 29th to 30th, 2021. Showcasing exceptional skill, teamwork, and determination, he played a crucial role in securing a bronze medal for the state. His remarkable achievement brings immense pride to his college and serves as an inspiration for aspiring athletes.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2021
+    },
+    {
+      "ID": 17,
+      "Title": "Rajbhar Dipakkumar<br> Wins Gold in Best Physique at GTU Sports Spirit",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "12/03/2021",
+      "Description": "Rajbhar Dipakkumar, a 5th-semester Mechanical Engineering student, showcased exceptional strength and dedication by winning the gold medal in the Best Physique (60-65kg) category at GTU Sports Spirit. The event was held at SS Agarawal Institute of Engineering, Navsari, on December 3rd, 2021. His hard work, discipline, and passion for fitness earned him this prestigious achievement, bringing immense pride to his college and inspiring fellow students.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2021
+    }
 
-    ]
+    /*
+    {
+      "ID": 0,
+      "Title": ",<br/>",
+      "Image": "/images/Achievements/1000.jpg",
+      "Date": "",
+      "Description": "",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 0,
+      "CommitteId": 10,
+      "Keywords": "",
+      "Year": 2023
+    }
+    */
+  ]
 }
