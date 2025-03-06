@@ -35,5 +35,11 @@ namespace GECP_Front_End_Static.Controllers
             return View(data);
         }
 
+        public IActionResult TableView(int id = 0)
+        {
+            var data = DocumentsVms.Where(m => m.Id == id).FirstOrDefault();
+            return View (data);
+        }
+
     }
 }

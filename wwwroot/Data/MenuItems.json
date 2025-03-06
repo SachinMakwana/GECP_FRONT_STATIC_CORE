@@ -188,7 +188,7 @@
                 "dynamicID": 50,
                 "ParentID": 2,
                 "ControllerName": "Documents",
-                "ActionName": "Index",
+                "ActionName": "TableView",
                 "position": 7,
                 "isVisible": true,
                 "ChildMenuVMs": []

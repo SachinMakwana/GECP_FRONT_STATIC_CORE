@@ -16,6 +16,7 @@ namespace GECP_Front_End_Static.Models
         public bool isShow { get; set; }
         public string FileType { get; set; }
         public string UploadDate { get; set; }
+        public string MonthYear { get; set; } = "";
     }
 
     public class DocumentsVm
@@ -29,7 +30,7 @@ namespace GECP_Front_End_Static.Models
     {
         public string Year { get; set; }
         public int Order { get; set; }
-        public List<Document> Documents { get; set; }
+        public List<Document> Documents { get; set; } = new List<Document>();
     }
 
 

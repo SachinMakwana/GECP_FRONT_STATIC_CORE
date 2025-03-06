@@ -1,131 +1,143 @@
-﻿@model IList<GECP_Front_End_Static.Models.MOUModel>
+﻿@model DocumentsVm
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Memorandum of Understanding";
-    int count = 1;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Memorandum of Understanding";
+	int count = 1;
 }
 
 <div class="page_title3 placement_title">
-    <div class="container">
+	<div class="container">
 
-        <h1>
-            <br> Memorandum of Understanding<em>Government Engineering College</em>
-            <div class="line"></div>
-            <br>
-        </h1>
+		<h1>
+			<br> Memorandum of Understanding<em>Government Engineering College</em>
+			<div class="line"></div>
+			<br>
+		</h1>
 
-    </div>
+	</div>
 </div>
 <div class="clearfix margin_bottom6"></div>
 <div class="content_fullwidth less">
-    <div class="featured_section77 two">
-        <div class="full-container">
-            <div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
+	<div class="featured_section77 two">
+		<div class="full-container">
+			<table class="table table-responsive table-striped table-bordered">
+				<thead>
+					<tr>
+						<td class="text-center">Sr No</td>
+						<td>Title</td>
+						<td class="text-center">Month/Year</td>
+						<td>View</td>
+					</tr>
+				</thead>
+				<tbody>
+					@if (Model.YearSection.Count() > 0)
+					{
+						foreach (var item in Model.YearSection)
+						{
+							@foreach (var yearItem in item.Documents)
+							{
+								<tr>
+									<td class="text-center">@count</td>
+									<td>@yearItem.Title</td>
+									<td class="text-center">@yearItem.MonthYear</td>
+									<td>
+										@if (yearItem.FileType.ToLower()=="pdf"){
+										<a href="javascript:void(0)" onclick="loadPdf('@yearItem.File','@yearItem.Title')">
+											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+											@yearItem.Title
+										</a>
+										}
+										else{
+											<a href="@Url.Content(yearItem.File)" target="_blank">
+												<i class="fa fa-file-@yearItem.FileType.ToLower()-o" aria-hidden="true"></i>
+												@yearItem.Title
+											</a>
+										}
+									</td>
+								</tr>
+								count++;
+							}
+						}
+					}
+					else
+					{
+						<tr><td><h2 class="text-center">NO DATA AVAILABLE</h2></td></tr>
+					}
+				</tbody>
+			</table>
 
-                <ul>
-
-                    @*  <li class="minheight">
-                    <a href="@Url.Content("~/MOU/Kachhua.pdf")" target="_blank">
-                    <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
-                    Kachchua Solutions Pvt. Ltd.
-                    </a>
-                    </li> *@
-                    @foreach (var item in Model)
-                    {
-                        if(count%5==0){
-                        <li class="minheight last">
-                                <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
-                                <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
-                                @item.Title
-                            </a>
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="minheight">
-                                <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
-                                    <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
-                                    @item.Title
-                                </a>
-                            </li>
-                        }
-                        count++;
-                    }
-                </ul>
-
-            </div>
-        </div>
-    </div>
+		</div>
+	</div>
 </div>
 <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
 <div id="popup" class="popup">
-    <h2 id="newsname"></h2>
-    <!-- <div class="popup-text"> -->
-    <div id="pdfreader" style="height:600px">
-    </div>
-    <!-- </div> -->
-    <span class="popup-btn-close">&times;</span>
+	<h2 id="newsname"></h2>
+	<!-- <div class="popup-text"> -->
+	<div id="pdfreader" style="height:600px">
+	</div>
+	<!-- </div> -->
+	<span class="popup-btn-close">&times;</span>
 </div>
 
 
 <div class="clearfix"></div>
 
 @section scripts {
-    <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
-    <script>
-        function loadPdf(path,name) {
-            if (path !== '') {
-                path = path.replace("~", "");
-                if (PDFObject.supportsPDFs) {
-                    PDFObject.embed(path, "#pdfreader");
-                    $("#newsname").text(name);
-                    $("#lnkPopup").click();
-                } else {
-                    window.location.href = path;
-                }
-            }
-        }
-    </script>
+	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+	<script>
+		function loadPdf(path,name) {
+			if (path !== '') {
+				path = path.replace("~", "");
+				if (PDFObject.supportsPDFs) {
+					PDFObject.embed(path, "#pdfreader");
+					$("#newsname").text(name);
+					$("#lnkPopup").click();
+				} else {
+					window.location.href = path;
+				}
+			}
+		}
+	</script>
 
 
-    <script>
-        function popupOpenClose(popup) {
+	<script>
+		function popupOpenClose(popup) {
 
-            /* Add div inside popup for layout if one doesn't exist */
-            if ($(".wrapper", popup).length == 0) {
-                $(popup).wrapInner("<div class='wrapper'></div>");
-            }
+			/* Add div inside popup for layout if one doesn't exist */
+			if ($(".wrapper", popup).length == 0) {
+				$(popup).wrapInner("<div class='wrapper'></div>");
+			}
 
-            /* Open popup */
-            $(popup).show();
+			/* Open popup */
+			$(popup).show();
 
-            /* Close popup if user clicks on background */
-            $(popup).click(function (e) {
-                if (e.target == this) {
-                    if ($(popup).is(':visible')) {
-                        $(popup).hide();
-                    }
-                }
-            });
+			/* Close popup if user clicks on background */
+			$(popup).click(function (e) {
+				if (e.target == this) {
+					if ($(popup).is(':visible')) {
+						$(popup).hide();
+					}
+				}
+			});
 
-            /* Close popup and remove errors if user clicks on cancel or close buttons */
-            $(popup).find(".popup-btn-close").on("click", function () {
-                if ($(".formElementError").is(':visible')) {
-                    $(".formElementError").remove();
-                }
-                $(popup).hide();
-            });
-        }
+			/* Close popup and remove errors if user clicks on cancel or close buttons */
+			$(popup).find(".popup-btn-close").on("click", function () {
+				if ($(".formElementError").is(':visible')) {
+					$(".formElementError").remove();
+				}
+				$(popup).hide();
+			});
+		}
 
-        $(document).ready(function () {
-            $(".popup-trigger").on("click", function () {
-                var target = $(this).data('target');
-                popupOpenClose($(target));
-            });
-        });
-    </script>
+		$(document).ready(function () {
+			$(".popup-trigger").on("click", function () {
+				var target = $(this).data('target');
+				popupOpenClose($(target));
+			});
+		});
+	</script>
 }
 
 @section styles {
-    <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
 }
