@@ -123,8 +123,8 @@
         "Icon": "../../images/Club/codehives.jpeg",
         "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
         "Title": "Code Hives",
-        "ActionName": "",
-        "ControllerName": "",
+        "ActionName": "ClubDetails",
+        "ControllerName": "StudentCorner",
         "SubObjectives": [
             "Learning and Development: Providing opportunities for members to learn programming languages, tools, and technologies through structured courses, workshops, and hands-on projects.",
             "Community Building: Fostering a supportive and inclusive community where tech enthusiasts of all skill levels can connect, share knowledge, and collaborate on various coding projects.",
@@ -136,84 +136,93 @@
         "BlogLink": "",
         "Images": [],
         "Activities": [],
-        "IsDynamic": true,
+        "IsDynamic": false,
         "Members": [
             {
                 "ID": 1,
-                "Name": "Dr. H. N. Panchal",
-                "Position": "Converner",
-                "Department": "Mechanical Engineering Department",
-                "Image": "~/images/Faculty/519.jpg",
-                "Email": "hitesh.panchal@gecpatan.ac.in"
+                "Name": "Prof. S. H. Makwana",
+                "Position": "Mentor",
+                "Department": "Computer Science & Engineering Department",
+                "Image": "~/images/Faculty/207.jpg",
+                "Email": "sachin.makwana@gecpatan.ac.in"
             },
             {
                 "ID": 2,
-                "Name": "Prof. H. L. Chaudhari",
+                "Name": "Prof. J. P. Patel",
                 "Position": "Converner",
                 "Department": "Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/214.jpg",
-                "Email": "harshad.chaudhary@gecpatan.ac.in"
+                "Image": "~/images/Faculty/208.jpg",
+                "Email": "jay.patel@gecpatan.ac.in"
             },
             {
                 "ID": 3,
-                "Name": "Prof. M. I. Baliya",
-                "Position": "Member",
-                "Department": "Civil Engineering Department",
+                "Name": "Miss. Krisha Panchal",
+                "Position": "Lead",
+                "Department": "6th Sem, Computer Scence & Engineering Department",
                 "Image": "~/images/Faculty/1000.jpg",
-                "Email": "manjurali.baliya@gecpatan.ac.in"
+                "Email": "r.krisshhaa.2005@gmail.com"
             },
             {
                 "ID": 4,
-                "Name": "Dr. P. D. Patel",
+                "Name": "Mr. Kabir Dafda",
                 "Position": "Member",
-                "Department": "Electrical Engineering Department",
-                "Image": "~/images/Faculty/306.jpg",
-                "Email": "pravin.patel@gecpatan.ac.in"
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "kabirdafda082@gmail.com"
             },
             {
                 "ID": 5,
-                "Name": "Dr. M. B. Patel",
+                "Name": "Mr. Priyanshu Tandel",
                 "Position": "Member",
-                "Department": "Electronics & Communication Engineering Department",
-                "Image": "~/images/Faculty/108.jpg",
-                "Email": "maulik.patel@gecpatan.ac.in"
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "tandelpriyanshu24072004@gmail.com"
             },
             {
                 "ID": 6,
-                "Name": "Prof. M. J. Vasava",
+                "Name": "Miss. Disha Patel ",
                 "Position": "Member",
-                "Department": "Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/211.jpg",
-                "Email": "mehul.vasava@gecpatan.ac.in"
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "dishapatel4700@gmail.com"
+            },
+            {
+                "ID": 7,
+                "Name": "Miss. Anju Rajput",
+                "Position": "Member",
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "anju29104@gmail.com"
             }
         ]
-    },
-    {
-      "ID": 3,
-      "Icon": "../../images/Club/animfx.jpeg",
-      "About": "AnimFX Club is a community focused on animation and visual effects (VFX). It offers workshops, collaborative projects, and networking opportunities for members interested in animation, 3D modeling, and VFX. It's a great place to learn, create, and connect with others in the field",
-      "Title": "AnimFx",
-      "ActionName": "",
-      "ControllerName": "",
-      "SubObjectives": [],
-      "BlogLink": "",
-      "Images": [],
-      "Activities": [],
-      "IsDynamic": true
-    },
-    {
-      "ID": 4,
-      "Icon": "../../images/Club/algozenith.jpeg",
-      "About": "AlgoZenith Club is a community focused on competitive programming and algorithms. It offers coding competitions, workshops, and collaborative learning opportunities to help members improve their problem-solving skills.",
-      "Title": "AlgoZenith",
-      "ActionName": "",
-      "ControllerName": "",
-      "SubObjectives": [],
-      "BlogLink": "",
-      "Images": [],
-      "Activities": [],
-      "IsDynamic": true
     }
+    //,
+    //{
+    //  "ID": 3,
+    //  "Icon": "../../images/Club/animfx.jpeg",
+    //  "About": "AnimFX Club is a community focused on animation and visual effects (VFX). It offers workshops, collaborative projects, and networking opportunities for members interested in animation, 3D modeling, and VFX. It's a great place to learn, create, and connect with others in the field",
+    //  "Title": "AnimFx",
+    //  "ActionName": "",
+    //  "ControllerName": "",
+    //  "SubObjectives": [],
+    //  "BlogLink": "",
+    //  "Images": [],
+    //  "Activities": [],
+    //  "IsDynamic": true
+    //},
+    //{
+    //  "ID": 4,
+    //  "Icon": "../../images/Club/algozenith.jpeg",
+    //  "About": "AlgoZenith Club is a community focused on competitive programming and algorithms. It offers coding competitions, workshops, and collaborative learning opportunities to help members improve their problem-solving skills.",
+    //  "Title": "AlgoZenith",
+    //  "ActionName": "",
+    //  "ControllerName": "",
+    //  "SubObjectives": [],
+    //  "BlogLink": "",
+    //  "Images": [],
+    //  "Activities": [],
+    //  "IsDynamic": true
+    //}
   ]
 
 
