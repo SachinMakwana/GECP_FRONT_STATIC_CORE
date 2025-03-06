@@ -1,0 +1,106 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Message of Principal";
+}
+<div class="clearfix"></div>
+
+<div class="page_title3 engg_title">
+    <div class="container">
+
+        <h1>
+            Message of Principal 
+            <div class="line"></div>
+        </h1>
+
+    </div>
+</div>
+<!-- end page title -->
+
+
+<div class="clearfix margin_top2"></div>
+
+
+
+<div class="content_fullwidth">
+
+    <div class="featured_section19">
+        <div class="full-container text-justify">
+
+            <div class="who animate" data-anim-type="fadeInLeft" data-anim-delay="400">
+                <img src="@Url.Content("~/images/Department/Civil/app_BJS.jpg")" alt="" style="margin: auto; width: 85%;">
+            </div>
+            <div data-anim-type="fadeIn" data-anim-delay="500">
+                <br /><br /><br />
+                <h1>Principal's Message</h1>
+
+                <p>
+                    I am delighted to welcome you to Government Engineering College.  I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn.
+                    <br />
+                    In order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience.
+                    <br />
+                    I wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities.
+                    <br /> <br />
+                    - Dr. B J Shah
+                    <div class="clearfix margin_top5"></div>
+                    <div class="read-more-container">
+                        <div class="clearfix margin_top5"></div>
+                        <a href="javascript:void(0)" class="btn btn-success" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = 701 })')" class="read-more-button">
+                            KNOW MORE
+                        </a>
+                    </div>
+                </p>
+                <div class="clearfix"></div>
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- end featured section 19 -->
+    @section styles {
+        <style>
+            .text-center {
+                text-align: center !important;
+            }
+
+            .large-text {
+                font-size: 20px;
+            }
+
+            .one_half ul {
+                list-style: none; /* Removes default bullets */
+                padding-left: 0;
+            }
+
+                .one_half ul li {
+                    display: flex;
+                    align-items: center; /* Aligns text with the icon */
+                    gap: 10px; /* Adds space between the icon and text */
+                    margin-bottom: 8px; /* Adds spacing between list items */
+                }
+
+                    .one_half ul li i {
+                        color: #007bff; /* Change color as needed */
+                        font-size: 18px; /* Adjust icon size */
+                    }
+
+            .vision-container {
+                text-align: center; /* Centers inline elements like <i> */
+                margin-top: 10px;
+            }
+
+                .vision-container i {
+                    font-size: 60px; /* Adjust the size as needed */
+                    color: #007bff; /* Blue color */
+                }
+
+            .large-text {
+                font-size: 25px;
+                text-align: center; /* Centers the paragraph text */
+            }
+
+            .text-justify {
+                font-size: 18px;
+            }
+        </style>
+
+    }
