@@ -881,9 +881,15 @@ table.dataTable thead .sorting_desc_disabled:before {
     .vision_section .last {
         border-right: none;
     }
-/*responsive goes here*/
-@media only screen and (max-width: 479px) {
-    .client_logos3 .minheight {
+#style-selector{
+    top:212px;
+}
+    #style-selector a.close {
+        background: white url(arrow.jpg) no-repeat 8px 5px;
+    }
+    /*responsive goes here*/
+    @media only screen and (max-width: 479px) {
+        .client_logos3 .minheight {
         width: 60%;
     }
 }
