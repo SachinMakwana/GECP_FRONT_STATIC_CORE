@@ -166,7 +166,7 @@
                 "MenuText": "Tenders",
                 "ParentID": 2,
                 "ControllerName": "Institute",
-                "ActionName": "Tenders",
+                "ActionName": "TendersTableView",
                 "position": 6,
                 "isVisible": true,
                 "ChildMenuVMs": []

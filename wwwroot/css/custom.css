@@ -889,6 +889,11 @@ table.dataTable thead .sorting_desc_disabled:before {
 .footer2 {
     padding: 50px 0px 0px 0px;
 }
+
+.vcenter {
+    vertical-align: middle !important;
+    float: none;
+}
     /*responsive goes here*/
     @media only screen and (max-width: 479px) {
         .client_logos3 .minheight {

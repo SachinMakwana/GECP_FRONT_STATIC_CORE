@@ -38,8 +38,8 @@
                     {
                         "ID": 2,
                         "Title": "કબુલાતનામું",
-                        "FileType": "WORD",
-                        "File": "~/Tenders/WriteOff/2025/કબુલાતનામું.docx",
+                        "FileType": "pdf",
+                        "File": "~/Tenders/WriteOff/2025/કબુલાતનામું.pdf",
                         "isShow": true,
                         "UploadDate": "18/02/2025"
                     },
@@ -47,7 +47,7 @@
                         "ID": 3,
                         "Title": "નિયત ટેન્ડર ફોર્મ",
                         "FileType": "PDF",
-                        "File": "~/Tenders/WriteOff/2025/નિયત ટેન્ડર ફોર્મ.docx",
+                        "File": "~/Tenders/WriteOff/2025/નિયત ટેન્ડર ફોર્મ.pdf",
                         "isShow": true,
                         "UploadDate": "18/02/2025"
                     },
@@ -55,7 +55,7 @@
                         "ID": 4,
                         "Title": "માલ સંભાળ્યા નું પ્રમાણ પત્ર  પેઢી ના લેટરપેડ પર",
                         "FileType": "PDF",
-                        "File": "~/Tenders/WriteOff/2025/માલ સંભાળ્યા નું પ્રમાણ પત્ર  પેઢી ના લેટરપેડ પર.docx",
+                        "File": "~/Tenders/WriteOff/2025/માલ સંભાળ્યા નું પ્રમાણ પત્ર  પેઢી ના લેટરપેડ પર.pdf",
                         "isShow": true,
                         "UploadDate": "18/02/2025"
                     }

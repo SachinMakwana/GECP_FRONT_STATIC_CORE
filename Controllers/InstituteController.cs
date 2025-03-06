@@ -73,6 +73,12 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View(TendersVM);
         }
+
+        public IActionResult TendersTableView()
+        {
+            return View(TendersVM);
+        }
+
         [HttpPost]
         public IActionResult TendersList(int id = 0)
         {
