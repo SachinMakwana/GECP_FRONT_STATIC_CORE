@@ -56,7 +56,9 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'NoticeBoard')">Notice Board</button>
 		}
-		<a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="tablinks">Achievements</button></a>
+		@* <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="tablinks">Achievements</button></a> *@
+		@* <button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByDept","Department",new{@deptId=Model.ID})')">Achievements</button> *@
+		<button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="full-container">
@@ -240,7 +242,7 @@
 
 
 
-			@foreach (var data in Model.FacultyList)
+			@foreach (var data in Model.FacultyList.OrderBy(m=>m.SeniorityOrder))
 			{
 				@if (data.IsTeaching)
 				{
@@ -316,7 +318,7 @@
 
 
 
-			@foreach (var data in Model.FacultyList)
+			@foreach (var data in Model.FacultyList.OrderBy(m => m.SeniorityOrder))
 			{
 				@if (!data.IsTeaching)
 				{
@@ -344,14 +346,14 @@
 										{
 											<li><strong>Designation:</strong> @data.Designation</li>
 										}
-										@if (!string.IsNullOrEmpty(data.Qualification))
+										@* @if (!string.IsNullOrEmpty(data.Qualification))
 										{
 											<li><strong>Qualification:</strong> @data.Qualification</li>
 										}
-										@if (data.YearsOfExperience > 0)
-										{
-											<li><strong>Experience:</strong> @data.YearsOfExperience Years</li>
-										}
+										 @if (data.YearsOfExperience > 0)
+										 {
+										 	<li><strong>Experience:</strong> @data.YearsOfExperience Years</li>
+										 } *@
 										@if (!string.IsNullOrEmpty(data.Area_of_Interest))
 										{
 											<li><strong>Area Of Interest:</strong> @data.Area_of_Interest</li>
@@ -521,7 +523,55 @@
 		}
 	</div>
 
-	<div id="Achievements" class="tabcontent">
+	<div id="achDiv" class="tabcontent">
+		
+		@if (Model.Achievements != null && Model.Achievements.Count() > 0)
+		{
+			count = 1;
+			@foreach (var item in Model.Achievements)
+			{
+				<div class="one_third @(count % 3 == 0 ? " last" : "" )">
+					<div class="box">
+						<div class="cbp-caption">
+							<div class="cbp-caption-defaultWrap">
+								<div class="blog_post">
+									<div class="blog_postcontent">
+										<div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt="" class="height180"></a></div>
+										<h3>@Html.Raw(item.Title)</h3>
+										<ul class="post_meta_links">
+											<li><a href="#" class="date">@item.Date</a></li>
+											@if (!string.IsNullOrWhiteSpace(item.Keywords))
+											{
+												foreach (string key in item.Keywords.Split(','))
+												{
+													<li class="post_categoty">@key</li>
+												}
+											}
+										</ul>
+										<div class="clearfix"></div>
+										<div class="margin_top1"></div>
+										<p class="text-justify">@item.Description</p>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				if (count % 3 == 0)
+				{
+					<div class="clearfix margin_bottom2"></div>
+				}
+				count++;
+				
+			}
+		}
+		else
+		{
+			<h2>No Achievement Available</h2>
+		}
+		
 	</div>
 </div>
 
@@ -702,6 +752,34 @@
 	</script>
 
 }
+
+
+@* @section tabs {
+	<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/gecp_cubeportfolio_custom.js")"></script>
+	<script>
+		// $(document).ready(function(){
+		// 	$("#achDiv").load("@Url.Action("AchievementsByYear", "Academics", new { @year = 0 })");
+		// 	reInit();
+		// })
+		function loadAchievements(evt, url) {
+			$("#achDiv").load(url);
+
+			setTimeout(function () {
+				if (Boolean($('#grid-container').data('cubeportfolio'))) {
+					destroyGrid();
+				}
+				reInit();
+			}, 100);
+
+			var tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			evt.currentTarget.className += " active";
+		}
+	</script>
+} *@
+
 
 @section styles {
 	<style>

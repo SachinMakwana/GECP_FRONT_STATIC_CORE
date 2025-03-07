@@ -182,7 +182,7 @@
     "Title": "Time Table",
     "YearSection": [
       {
-        "Year": "2024-2024",
+        "Year": "2024-2025",
         "Documents": [
             {
                 "ID": 1,
@@ -222,7 +222,9 @@
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
                 "isShow": true,
+
                 "UploadDate": "04-03-2025"
+
             },
             {
                 "ID": 6,
@@ -230,7 +232,9 @@
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
                 "isShow": true,
+
                 "UploadDate": "04-03-2025"
+
             }
         ]
       }

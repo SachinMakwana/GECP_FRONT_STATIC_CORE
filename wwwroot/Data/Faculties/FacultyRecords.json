@@ -7,7 +7,7 @@
 
   {
     "ID": 101,
-    "Name": "Mr. Sanjaykumar Joshi",
+    "Name": "Prof. Sanjaykumar Joshi",
     "Designation": "Associate Professor",
     "image": "images/Faculty/HOD/101.jpg",
     "Dept_ID": 1,
@@ -15,8 +15,9 @@
     "Qualification": "M.E. Electronics",
     "Area_of_Interest": "EC",
     "Isteaching": true,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
-      "Name": "Mr. Sanjaykumar D. Joshi",
+      "Name": "Prof. Sanjaykumar D. Joshi",
       "Designation": "Associate Professor",
       "Department": "Electronics and Communication",
       "Contact": "+91-8141409541",
@@ -38,7 +39,7 @@
       {
         "Position": "Associate Professor",
         "Organization": "Govt.Engg.College,Patan",
-        "Duration": "28-15-2015 to Present"
+        "Duration": "28-05-2015 to Present"
       },
       {
         "Position": "Associate Professor",
@@ -225,9 +226,10 @@
     "image": "images/Faculty/102.jpg",
     "Dept_ID": 1,
     "Date_of_Joining": "2011-05-27",
-    "Qualification": "M.E.Communication Systems Engineering",
+    "Qualification": "Ph.D. Next Generation Wireless System",
     "Area_of_Interest": "Digital Communication,Wireless Communication and DSP",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Hareshkumar Judal</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E.(Communication Systems Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Digital Communication,Wireless Communication and DSP</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Judal Hareshkumar Laxmanbhai",
@@ -387,70 +389,70 @@
         "Date": "23-01-2023 to 17-03-2023"
       }
     ],
+
     "Publications": [
       {
         "SrNo": "1",
-        "Title": "Implementation and Comparison of Linear Algorithms for CDMA based Multi-user detection Techniques using MATLAB, National Conference on Smart Communication Technologies and Industrial Informatics, NIT Rourkela, 3-4 Feb 2007"
+        "Title": "Paper titled 'Implementation and Comparison of Linear Algorithms for CDMA based Multi-user detection Techniques using MATLAB' selected in National Conference on 'Smart Communication Technologies and Industrial Informatics' (SCTII) at National Institute of Technology, Rourkela from 3rd & 4th February 2007."
       },
       {
         "SrNo": "2",
-        "Title": "Security System using Mobile, National workshop on Igniting the Spirit of Innovation in Engineering Students, Sreenidhi Institute of Science & Technology, Hyderabad, 24-25 Jan 2008"
+        "Title": "Innovative idea titled 'Security System using Mobile' presented at National workshop on 'Igniting the Spirit of Innovation in Engineering Students', a faculty development program (under TEQIP) at Sreenidhi Institute of Science & Technology, Yamnampet, Ghatkesar, Hyderabad on 24th & 25th January 2008."
       },
       {
         "SrNo": "3",
-        "Title": "Cell Stop Car, National workshop on Igniting the Spirit of Innovation in Engineering Students, Sreenidhi Institute of Science & Technology, Hyderabad, 24-25 Jan 2008"
+        "Title": "Innovative idea titled 'Cell Stop Car' selected at National workshop on 'Igniting the Spirit of Innovation in Engineering Students', a faculty development program (under TEQIP) at Sreenidhi Institute of Science & Technology, Yamnampet, Ghatkesar, Hyderabad on 24th & 25th January 2008."
       },
       {
         "SrNo": "4",
-        "Title": "Implementation of Zero Forcing Linear Algorithm For CDMA Based Multiuser Detection Techniques Using MATLAB, International Journal of Emerging Technologies and Application in Engineering, Technology and Sciences, July-Dec 2009"
+        "Title": "Paper titled 'Implementation of Zero Forcing Linear Algorithm For CDMA Based Multiuser Detection Techniques Using MATLAB' in International Journal of Emerging Technologies and Application in Engineering, Technology and Sciences (IJ-ETA-ETS) July ’09 – December ’09."
       },
       {
         "SrNo": "5",
-        "Title": "Implementation of Zero Forcing Linear Algorithm for CDMA Based Multiuser Detection Technique Using MATLAB, The IUP Journal of Telecommunications, Vol. III No.4, Nov 2011"
+        "Title": "Paper titled 'Implementation of Zero Forcing Linear Algorithm for CDMA Based Multiuser Detection Technique Using MATLAB' in The IUP Journal of Telecommunications Vol. III No.4 November-2011."
       },
       {
         "SrNo": "6",
-        "Title": "Multiuser MIMO-OFDM for Next-Generation Wireless Systems, National Conference NCCICT-2016, GEC Gandhinagar, 15-16 Sept 2016"
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Multiuser MIMO-OFDM for Next-Generation Wireless Systems' in National Conference-Computer Engineering, Information and Communication Technology (NCCICT)-2016 organized by Government Engineering College, Gandhinagar, SPFU, CTE-Gujarat, IPR under TEQIP II at GEC Gandhinagar on 15th-16th September 2016."
       },
       {
         "SrNo": "7",
-        "Title": "Linear Detection in Massive MIMO for Next Generation Wireless Systems, International Journal of Research in Electronics and Computer Engineering, Vol. 6 Issue 4, Oct-Dec 2018"
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Linear Detection in Massive MIMO for Next Generation Wireless Systems' in International Journal of Research in Electronics and Computer Engineering (IJRECE), ISSN: 2393-9028 (PRINT) | ISSN: 2348-2281 (ONLINE), IJRECE VOL. 6 ISSUE 4, OCTOBER- DECEMBER 2018, Page no 1547-1549."
       },
       {
         "SrNo": "8",
-        "Title": "5G Multi-Carrier Waveform Candidates and Linear MIMO Data Detection, Springer International Conference ICAECT - 2019, 26-27 April 2019"
+        "Title": "Haresh L. Judal, Dr. K. G. Maradia, '5G Multi-Carrier Waveform Candidates and Linear MIMO Data Detection' in Proceedings of First Springer International Conference on Advances in Electrical and Computer Technologies 2019 (ICAECT - 2019), 26 - 27 April 2019, Volume 2, Page No.:680-689. [Springer Conference]"
       },
       {
         "SrNo": "9",
-        "Title": "Capacity Analysis and Linear Detection in Massive MIMO for 5G Wireless Systems, International Journal of Innovative Technology and Exploring Engineering (IJITEE), Vol-8 Issue-9, July 2019"
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Capacity Analysis and Linear Detection in Massive MIMO for 5G Wireless Systems' in ‘International Journal of Innovative Technology and Exploring Engineering (IJITEE)’, ISSN: 2278–3075 (Online), Volume-8 Issue-9, July 2019, Page No.:2938-2943."
       },
       {
         "SrNo": "10",
-        "Title": "Key Enabling Technologies for Next Generation Wireless Systems, International Conference VSPICE-2023, N. M. A. M. Institute of Technology, 19-20 Dec 2023"
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Key Enabling Technologies for Next Generation Wireless Systems' in International Conference on VLSI, Signal Processing, Power Electronics, IoT, Communication, and Embedded Systems (VSPICE-2023) being held on 19th and 20th December 2023 at N. M. A. M. Institute of Technology, Nitte, India."
       },
       {
         "SrNo": "11",
-        "Title": "Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges, International Conference on Women in Science & Technology, BVM, 28-30 Dec 2023"
+        "Title": "Haresh L. Judal, Avani Vithalani, Shahid S. Modasiya, 'Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges' at the 3rd International Conference on 'Women in Science & Technology: Creating Sustainable Career' organized by Birla Vishvakarma Mahavidyalaya during 28-30 December 2023."
       },
       {
         "SrNo": "12",
-        "Title": "Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges, Indian Journal of Natural Sciences, Vol.14 Issue 82, Feb 2024"
+        "Title": "Haresh L. Judal, Avani Vithalani, Shahid S. Modasiya, 'Next Generation Technologies for 5G and Beyond Networks: Overview, Recent Trends, and Challenges' in Vol.14 / Issue 82 / Feb / 2024 Indian Journal of Natural Sciences ISSN: 0976 – 0997."
       },
       {
         "SrNo": "13",
-        "Title": "Towards 6G: Next Generation Wireless Systems, Journal of Electrical Systems, Vol. 20 No. 3 (2024)"
+        "Title": "Haresh L. Judal, Dr.K.G.Maradia, 'Towards 6G: Next Generation Wireless Systems' in Journal of Electrical Systems in Vol. 20 No. 3 (2024) ISSN: 1112-5209."
       },
       {
         "SrNo": "14",
-        "Title": "Key Enabling Technologies for Next-Generation Wireless Systems, Recent Advances in Signals and Systems, VSPICE 2023, Lecture Notes in Electrical Engineering, Vol 1227, Springer, 2024"
+        "Title": "Judal, H.L., Maradia, K.G. (2024). 'Key Enabling Technologies for Next-Generation Wireless Systems'. Recent Advances in Signals and Systems. VSPICE 2023. Lecture Notes in Electrical Engineering, vol 1227. Springer, Singapore. https://doi.org/10.1007/978-981-97-4657-6_24 pp 331-346."
       }
     ]
-
 
   },
   {
     "ID": 103,
-    "Name": "Mr. JAYESHKUMAR PRAJAPATI",
+    "Name": "Prof. JAYESHKUMAR PRAJAPATI",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/103.jpg",
     "Dept_ID": 1,
@@ -458,8 +460,9 @@
     "Qualification": "M.Tech Communication Systems ",
     "Area_of_Interest": "Communication Engg, Microwave Engg, Optical Fiber Communication",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
-      "Name": "Mr. JAYESHKUMAR PRAJAPATI",
+      "Name": "Prof. JAYESHKUMAR PRAJAPATI",
       "Designation": "Assistant Professor",
       "Department": "Electronics And Communication",
       "Contact": "",
@@ -517,7 +520,7 @@
 
   {
     "ID": 104,
-    "Name": "Mr. Mihirkumar Patel",
+    "Name": "Prof. Mihirkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/104.jpg",
     "Dept_ID": 1,
@@ -525,9 +528,10 @@
     "Qualification": "M.Tech Communication Engineering",
     "Area_of_Interest": "DSP, COMMUNICATION SYSTEMS",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MIHIRKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">B.Tech (EC)  And M.Tech in  (Communication Engineering) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DSP, COMMUNICATION SYSTEMS</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Mihirkumar Mahendrabhai Patel",
+      "Name": "Prof. Mihirkumar Mahendrabhai Patel",
       "Designation": "Assistant Professor",
       "Department": "Electronics and Communication",
       "Contact": "+91-9979922437",
@@ -595,7 +599,7 @@
   },
   {
     "ID": 105,
-    "Name": "Dr. Mehulkumar Patel",
+    "Name": "Prof. Mehulkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/105.jpg",
     "Dept_ID": 1,
@@ -603,6 +607,7 @@
     "Qualification": "M.Tech",
     "Area_of_Interest": "VLSI Design",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">VLSI Design</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "personal detail", "education Qualification", "Work Experience", "skill and knowledge", "course taught", "training and workshop", "portfolios", "research and project", "publication", "academic project", "patent field", "personal institution membership", "expert lectures", "award" ],
@@ -624,7 +629,7 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Dr. Mehulkumar Laxmanbhai Patel",
+      "Name": "Prof. Mehulkumar Laxmanbhai Patel",
       "Designation": "Assistant Professor",
       "Department": "E&C",
       "Contact": "+91-9426488155",
@@ -651,37 +656,37 @@
       {
         "Position": "Lecturer (Adhoc basis)",
         "Organization": "S.S.P.C, Visnagar",
-        "Duration": "29-Jul-2002 to 30-Apr-2003"
+        "Duration": "29-07-2002 to 30-04-2003"
       },
       {
         "Position": "Lecturer (Adhoc basis)",
         "Organization": "S.S.P.C, Visnagar",
-        "Duration": "1-Jul-2003 to 13-Apr-2004"
+        "Duration": "01-07-2003 to 13-04-2004"
       },
       {
         "Position": "Lecturer (Adhoc basis)",
         "Organization": "L.C.I.T, Bhandu",
-        "Duration": "1-Jul-2004 to 30-Apr-2005"
+        "Duration": "01-07-2004 to 30-04-2005"
       },
       {
         "Position": "Lecturer",
         "Organization": "L.C.I.T, Bhandu",
-        "Duration": "2-May-2005 to 22-Aug-2008"
+        "Duration": "02-05-2005 to 22-08-2008"
       },
       {
         "Position": "Assistant Professor/HOD",
         "Organization": "L.C.I.T, Bhandu",
-        "Duration": "23-Aug-2008 to 30-Jun-2015"
+        "Duration": "23-08-2008 to 30-06-2015"
       },
       {
         "Position": "Senior Assistant Professor",
         "Organization": "F.O.T, M.E.F.G.I, Rajkot",
-        "Duration": "1-Jul-2015 to 30-May-2017"
+        "Duration": "01-07-2015 to 30-05-2017"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "GEC, Patan",
-        "Duration": "13-Jul-2017 to Present"
+        "Duration": "13-07-2017 to Present"
       }
     ],
     "TrainingAndWorkshops": [
@@ -771,7 +776,7 @@
   },
   {
     "ID": 106,
-    "Name": "Mr.Shyamkumar Pankhaniya",
+    "Name": "Prof.Shyamkumar Pankhaniya",
     "Designation": "Assistant Professor",
     "image": "../../images/Faculty/106.jpg",
     "Dept_ID": 1,
@@ -779,6 +784,7 @@
     "Qualification": "ME Signal processing and VLSI Technology",
     "Area_of_Interest": "Embedded system design, VLSI technology",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SHYAMKUMAR PANKHANIYA</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\">                                                  <div class=\"b-information-box f-information-box f-primary-b\">                                                         <ul>                                                             <li>                                                                 <strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">BE(EC), ME Signal processing and VLSI Technology(EC)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Embedded system design, VLSI technology</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "Work Experience", "skill and knowledge", "training and workshop", "research and project", "publication" ],
@@ -791,7 +797,7 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Mr. SHYAMKUMAR PANKHANIYA",
+      "Name": "PROF. SHYAMKUMAR PANKHANIYA",
       "Designation": "Assistant Professor",
       "Department": "Electronics And Communication",
       "Contact": "",
@@ -870,7 +876,7 @@
   },
   {
     "ID": 107,
-    "Name": "Ms. Roshniben Chaudhari",
+    "Name": "Prof. Roshniben Chaudhari",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/107.jpg",
     "Dept_ID": 1,
@@ -878,9 +884,10 @@
     "Qualification": "M.E Signal Processing & Communication",
     "Area_of_Interest": "Antenna, RF & Microwave Engineering, Wireless Communication, Basic Electronics",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Ms. ROSHNIBEN CHAUDHARI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E Signal Processing &amp; Communication</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Antenna, RF &amp; Microwave Engineering, Wireless Communication, Basic Electronics</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "MS. ROSHNI CHAUDHARI",
+      "Name": "Prof. Roshan Chaudhari",
       "Designation": "Assistant Professor",
       "Department": "Electronics And Communication",
       "Contact": "+91-9099556266",
@@ -966,7 +973,7 @@
   },
   {
     "ID": 108,
-    "Name": "Mr. Maulikkumar Patel",
+    "Name": "Dr. Maulikkumar Patel",
     "Designation": "Assistant Professor",
     "url": "/faculty/FacultyInfo/108",
     "image": "images/Faculty/108.jpg",
@@ -975,6 +982,7 @@
     "Qualification": "Ph.D. EC",
     "Area_of_Interest": "MICROWAVE, ANTENNA, ELECTRONICS",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MAULIKKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH(MICROWAVE &amp; MILLIMETER ENGINEERING)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MICROWAVE, ANTENNA, ELECTRONICS</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "DR. MAULIKKUMAR BHARATBHAI PATEL ",
@@ -1086,7 +1094,7 @@
   },
   {
     "ID": 109,
-    "Name": "Ms. ANJU VASDEWANI",
+    "Name": "PROF. ANJU VASDEWANI",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/109.jpg",
     "Dept_ID": 1,
@@ -1094,9 +1102,10 @@
     "Qualification": "ME EC",
     "Area_of_Interest": "EMBEDDED SYSTEMS, DIGITAL CIRCUITS AND DESIGNING, MICROPROCESSOR, MICRO CONTROLLER & INTERFACING, PROGRAMMING USING C, BASIC ELECTRONICS,",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Ms. ANJU VASDEWANI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MASTER OF ENGINEERING</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">02 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EMBEDDED SYSTEMS, DIGITAL CIRCUITS AND DESIGNING, MICROPROCESSOR, MICRO CONTROLLER & INTERFACING, PROGRAMMING USING C, BASIC ELECTRONICS,</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Ms. Anju Murlibhai Vasdewani",
+      "Name": "Prof. Anju Murlibhai Vasdewani",
       "Designation": "Assistant Professor",
       "Department": "Electronics and Communication",
       "Contact": "+91-9428467722",
@@ -1169,6 +1178,7 @@
     "Qualification": "PhD.",
     "Area_of_Interest": "Machine Learning",
     "Isteaching": true,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Dr. Harikrishna Jethva",
       "Designation": "Associate Professor",
@@ -1497,7 +1507,7 @@
 
   {
     "ID": 204,
-    "Name": "Mr. Pinesh Darji",
+    "Name": "Prof. Pinesh Darji",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/204.jpg",
     "Dept_ID": 2,
@@ -1505,8 +1515,9 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "COMPUTER NETWORKS",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
-      "Name": "Mr. Pinesh Arvindbhai Darji",
+      "Name": "Prof. Pinesh Arvindbhai Darji",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-9904177949",
@@ -1670,7 +1681,7 @@
 
   {
     "ID": 205,
-    "Name": "Mr. Adesh Panchal",
+    "Name": "Prof. Adesh Panchal",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/205.jpg",
     "Dept_ID": 2,
@@ -1678,8 +1689,9 @@
     "Qualification": "M.Tech. CE",
     "Area_of_Interest": "Routing in Wireless Sensor Network",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
-      "Name": "MR. ADESH V PANCHAL",
+      "Name": "PROF. ADESH V PANCHAL",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-9909293409",
@@ -1702,12 +1714,12 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GEC Patan",
-        "Duration": "2016 - Present"
+        "Duration": "01-10-2016 - Present"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "SMT S R Patel College of Engineering",
-        "Duration": "2012 to 2016"
+        "Duration": "10-01-2012 to 30-09-2016"
       }
     ],
     "TrainingAndWorkshops": [
@@ -1785,7 +1797,7 @@
 
   {
     "ID": 206,
-    "Name": "Mr. Mitul Patel",
+    "Name": "Prof. Mitul Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/206.jpg",
     "Date_of_Joining": "2020-06-06",
@@ -1793,8 +1805,9 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
-      "Name": "MR.MITUL JAYANTIBHAI PATEL",
+      "Name": "PROF. MITUL JAYANTIBHAI PATEL",
       "Designation": "Assistant Professor",
       "Department": "Computer Engineering",
       "Contact": "+91-7779014455",
@@ -1816,8 +1829,8 @@
     "ProfessionalExperiences": [
       {
         "Position": "Assistant Professor",
-        "Organization": "D A Degree Engineering and Technology, Mahemdabad",
-        "Duration": "16-01-2016 to 24-06-2017"
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "06-06-2020 to Present"
       },
       {
         "Position": "Assistant Professor",
@@ -1826,8 +1839,8 @@
       },
       {
         "Position": "Assistant Professor",
-        "Organization": "Government Engineering College, Patan",
-        "Duration": "06-06-2020 to Present"
+        "Organization": "D A Degree Engineering and Technology, Mahemdabad",
+        "Duration": "16-01-2016 to 24-06-2017"
       }
     ],
     "TrainingAndWorkshops": [
@@ -1886,7 +1899,7 @@
 
   {
     "ID": 207,
-    "Name": "Mr. Sachin Makwana",
+    "Name": "Prof. Sachin Makwana",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/207.jpg",
     "Dept_ID": 2,
@@ -1894,9 +1907,10 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Python",
     "Isteaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "MR.SACHINKUMAR HARSHADBHAI MAKWANA",
+      "Name": "PROF. SACHINKUMAR HARSHADBHAI MAKWANA",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-7405450827",
@@ -2002,7 +2016,7 @@
 
   {
     "ID": 208,
-    "Name": "Mr. Jay Patel",
+    "Name": "Prof. Jay Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/208.jpg",
     "Dept_ID": 2,
@@ -2010,9 +2024,10 @@
     "Qualification": "ME IT",
     "Area_of_Interest": "Cloud computing",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JAY PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME/Mtech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Cloud computing </span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Jay Prakashbhai Patel",
+      "Name": "Prof. Jay Prakashbhai Patel",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "9409689213",
@@ -2088,7 +2103,7 @@
 
   {
     "ID": 209,
-    "Name": "Mr. Yogesh Patel",
+    "Name": "Prof. Yogesh Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/209.jpg",
     "Dept_ID": 2,
@@ -2096,9 +2111,10 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Yogesh Patel</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Yogeshkumar Bharatbhai Patel",
+      "Name": "Prof. Yogeshkumar Bharatbhai Patel",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-7801806459",
@@ -2125,17 +2141,17 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GEC Patan",
-        "Duration": "2022 - Present"
+        "Duration": "02/11/2022 - Present"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "LDCE, Ahmedabad",
-        "Duration": "2020 - 2022"
+        "Duration": "06/06/2020 to 01/11/2022"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "GPERI, Mahesana",
-        "Duration": "2020"
+        "Duration": "03/01/2020 to 30/04/2020"
       }
     ],
     "TrainingAndWorkshops": [
@@ -2198,7 +2214,7 @@
 
   {
     "ID": 210,
-    "Name": "Mr. Divyeshkumar Bavisa",
+    "Name": "Prof. Divyeshkumar Bavisa",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/210.jpg",
     "Dept_ID": 2,
@@ -2206,10 +2222,11 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "Android",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIVYESHKUMAR BAVISA</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Android</span></li></ul></div></div></div>",
 
     "PersonalDetails": {
-      "Name": "Mr. Divyeshkumar Umeshbhai Bavisa",
+      "Name": "Prof. Divyeshkumar Umeshbhai Bavisa",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-9974623421",
@@ -2280,7 +2297,7 @@
 
   {
     "ID": 211,
-    "Name": "Mr. Mehulkumar Vasava",
+    "Name": "Prof. Mehulkumar Vasava",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/211.jpg",
     "Dept_ID": 2,
@@ -2289,9 +2306,10 @@
     "Qualification": "M.E. IT",
     "Area_of_Interest": "Data Structures & Algorithm, DBMS, Data Mining, Computer Networks",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR VASAVA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (I.T.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Structures &amp; Algorithm, DBMS, Data Mining, Computer Networks</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Mehulkumar Vasava",
+      "Name": "Prof. Mehulkumar Vasava",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-8460227447",
@@ -2366,6 +2384,7 @@
 
     "Area_of_Interest": "Data Security, Cloud Computing, Privacy Preservation, Language Programming",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. KRUNAL SUTHAR</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph. D. Computer Engineering, NET</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Security, Cloud Computing, Privacy Preservation, Language Programming</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education Qualification", "Work Experience", "department portfolio", "research publications" ],
@@ -2392,12 +2411,12 @@
       {
         "Degree": "M.Tech.",
         "Year": "2013",
-        "Specialization": "Computer Engineering"
+        "Specialization": "Computer Science And Engineering"
       },
       {
         "Degree": "B.E.",
         "Year": "2007",
-        "Specialization": "Computer Engineering"
+        "Specialization": "Cloud Computing"
       }
     ],
     "ProfessionalExperiences": [
@@ -2412,9 +2431,9 @@
         "Duration": "29-11-2019 to 11-06-2020"
       },
       {
-        "Position": "Lecturer/Assistant Professor",
+        "Position": "Assistant Professor",
         "Organization": "Sankalchand Patel college of engineering",
-        "Duration": "21-08-2006 to 11-09-2017"
+        "Duration": "27-08-2008 to 25-11-2019"
       }
     ],
     "TrainingAndWorkshops": [
@@ -2473,7 +2492,7 @@
 
   {
     "ID": 213,
-    "Name": "Mr. Haresh Chande",
+    "Name": "Prof. Haresh Chande",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/213.jpg",
     "Dept_ID": 2,
@@ -2481,9 +2500,10 @@
     "Qualification": "M.E CE",
     "Area_of_Interest": "Image Processing, Machine Learning",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARESH CHANDE</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E - Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Image Processing, Machine Learning</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Haresh Dhanji Chande",
+      "Name": "Prof. Haresh Dhanji Chande",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-9725179795",
@@ -2592,17 +2612,18 @@
 
   {
     "ID": 214,
-    "Name": "Mr. Harshad Chaudhary",
+    "Name": "Prof. Harshad Chaudhary",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/214.jpg",
     "Dept_ID": 2,
-    "Date_of_Joining": "2020-06-08",
+    "Date_of_Joining": "2020-10-14",
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "DTN / IOT",
     "isTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHAD CHAUDHARY</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DTN / IOT</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr.Harshad L Chaudhary",
+      "Name": "Prof.Harshad L Chaudhary",
       "Designation": "Assistant Professor",
       "Department": "Computer Science",
       "Contact": "+91-9909969912",
@@ -2611,13 +2632,11 @@
     "EducationalQualifications": [
       {
         "Degree": "M.Tech",
-
         "Year": "2013",
         "Specialization": "Computer Engineering"
       },
       {
         "Degree": "B.E",
-
         "Year": "2005",
         "Specialization": "Computer Engineering"
       }
@@ -2626,17 +2645,17 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GEC Patan",
-        "Duration": "2016 - Present"
+        "Duration": "14-10-2016 - Present"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "GPERI",
-        "Duration": "2013 - 2016"
+        "Duration": "11-06-2013 to 13-10-2016"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "LCIT,Bhandu",
-        "Duration": "2010 - 2011"
+        "Duration": "11-10-2010 to 28-08-2011"
       }
     ],
     "TrainingAndWorkshops": [
@@ -2689,6 +2708,7 @@
     "Qualification": "",
     "Area_of_Interest": "",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Miss. HIRALBEN RATHOD</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>"
 
   },
@@ -2703,6 +2723,7 @@
     "Qualification": "M.Tech CSE",
     "Area_of_Interest": "CSE",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Mr. Bhaveshkumar Patel",
@@ -2791,6 +2812,7 @@
     "Qualification": "M.E. CE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Viral Pansiniya</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Shri Viral B Pansiniya",
@@ -2833,8 +2855,8 @@
   },
 
   {
-    "ID": 219, 
-    "Name": "Prajapati Reenaben Dasharathbhai",
+    "ID": 219,
+    "Name": "Ms. Reenaben Dasharathbhai Prajapati",
     "Designation": "LAB ASSISTANT",
     "image": "images/Faculty/219.png",
     "Dept_ID": 2,
@@ -2842,6 +2864,7 @@
     "Qualification": "BE CSE ",
     "Area_of_Interest": "Computer Science and Engineering",
     "IsTeaching": false,
+    "SeniorityOrder": 0,
     "personal_details": "",
     "PersonalDetails": {
       "Name": "Prajapati Reenaben Dasharathbhai",
@@ -2865,26 +2888,26 @@
       }
     ],
     "TrainingAndWorkshops": [
-        {
-          "Title": "Training of lab technicians in computer and allied branches",
-          "OrganizedBy": "NITTTR, Bhopal",
-          "Date": "26-05-2014 To 30-05-2014"
-        },
-        {
-          "Title": "Karmayogi Residential Training",
-          "OrganizedBy": "Swaminarayan Dham, Gandhinagar",
-          "Date": "06-02-2014 To 08-02-2014"
-        },
-        {
-          "Title": "One day workshop on communication skill",
-          "OrganizedBy": "GEC, Patan",
-          "Date": "10-04-2014 To 10-04-2014"
-        },
-        {
-          "Title": "Basic Computer Networking",
-          "OrganizedBy": "NITTTR, Bhopal",
-          "Date": "21-08-2023 To 25-08-2023"
-        }
+      {
+        "Title": "Training of lab technicians in computer and allied branches",
+        "OrganizedBy": "NITTTR, Bhopal",
+        "Date": "26-05-2014 To 30-05-2014"
+      },
+      {
+        "Title": "Karmayogi Residential Training",
+        "OrganizedBy": "Swaminarayan Dham, Gandhinagar",
+        "Date": "06-02-2014 To 08-02-2014"
+      },
+      {
+        "Title": "One day workshop on communication skill",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "10-04-2014 To 10-04-2014"
+      },
+      {
+        "Title": "Basic Computer Networking",
+        "OrganizedBy": "NITTTR, Bhopal",
+        "Date": "21-08-2023 To 25-08-2023"
+      }
     ],
     "Publications": [
     ]
@@ -2900,7 +2923,7 @@
 
   {
     "ID": 301,
-    "Name": "Mr. Gunvantbhai Patel",
+    "Name": "Prof. Gunvantbhai Patel",
     "Designation": "Associate Professor",
     "image": "images/Faculty/HOD/301.jpg",
     "Dept_ID": 3,
@@ -2908,6 +2931,7 @@
     "Qualification": "ME Electrical",
     "Area_of_Interest": "Electrical Machines, Power Systems",
     "Isteaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. GUNVANTBHAI PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME Electrical</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">23 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical Machines,Power Systems</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "educational qualification", "work experience", "course taught" ],
@@ -2918,7 +2942,7 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Mr. Gunvantbhai Patel",
+      "Name": "Prof. Gunvantbhai Patel",
       "Designation": "Associate Professor",
       "Department": "Electrical",
       "Contact": "",
@@ -2950,6 +2974,7 @@
     "Qualification": "M.E. Electrical ", //Pursuing Ph.D at IIT Roorkee
     "Area_of_Interest": "Electrical power system, Renewable energy",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHADKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.(Electrical) Pursuing Ph.D at IIT Roorkee</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">25 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical power system, Renewable energy</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "Work Experience", "portfolio", "education qualification", "research and projects", "training workshop", "course tought" ],
@@ -3015,116 +3040,116 @@
     "TrainingAndWorkshops": [
       {
         "Title": "MATLAB for Electrical Engineering",
-        "OrganizedBy": "AICTE",
+        "OrganizedBy": "LDCE Ahmedabad",
         "Date": "18-07-2005 To 22-07-2005"
       },
       {
         "Title": "Modern trends in electrical power system operation and control",
-        "OrganizedBy": "AICTE",
+        "OrganizedBy": "LDRP Gandhinagar",
         "Date": "05-01-2009 To 10-01-2009"
       },
       {
         "Title": "Recent trends on power system operation, control and protection",
-        "OrganizedBy": "AICTE",
-        "Date": "25-05-2009 To 29-05-2009"
+        "OrganizedBy": "VGEC Ahmedabad",
+        "Date": "25-05-2009 To 30-05-2009"
       },
       {
         "Title": "Induction Training program Phase-I",
-        "OrganizedBy": "NITTTR",
+        "OrganizedBy": "NITTTR Bhopal",
         "Date": "16-08-2011 To 26-08-2011"
       },
       {
         "Title": "Induction Training program Phase-II",
-        "OrganizedBy": "NITTTR",
+        "OrganizedBy": "NITTTR Bhopal",
         "Date": "03-09-2012 To 14-09-2012"
       },
       {
         "Title": "STTP On Entrepreneurship Development",
-        "OrganizedBy": "Other",
+        "OrganizedBy": "EDI Ahmedabad",
         "Date": "18-11-2013 To 03-12-2013"
       },
       {
         "Title": "Modelling and Analysis of Electrical System",
-        "OrganizedBy": "AICTE",
+        "OrganizedBy": "LDCE Ahmedabad",
         "Date": "12-05-2014 To 16-05-2014"
       },
       {
-        "Title": "CAD, ADVANCE SIMULATION AND MANUFACTURING USING NX SOFTWARE, COE, LDCE, Ahmedabad",
-        "OrganizedBy": "AICTE",
+        "Title": "CAD, Advance Simulation and Manufacturing Using NX Software",
+        "OrganizedBy": "LDCE Ahmedabad",
         "Date": "25-05-2015 To 06-06-2015"
       },
       {
-        "Title": "Circuit design and smart grid STTP at EED, LDCE, Ahmedabad",
-        "OrganizedBy": "AICTE",
+        "Title": "Circuit design and smart grid",
+        "OrganizedBy": "LDCE Ahmedabad",
         "Date": "08-06-2015 To 12-06-2015"
       },
       {
         "Title": "PLC and Process Instrumentation",
-        "OrganizedBy": "AICTE",
+        "OrganizedBy": "LDCE Ahmedabad",
         "Date": "15-06-2015 To 19-06-2015"
       },
       {
         "Title": "Electro Mechanical design of SHP",
-        "OrganizedBy": "IIT",
+        "OrganizedBy": "IIT Roorkee",
         "Date": "16-11-2015 To 20-11-2015"
       },
       {
         "Title": "Performance testing and evaluation of SHP",
-        "OrganizedBy": "IIT",
+        "OrganizedBy": "IIT Roorkee",
         "Date": "14-12-2015 To 18-12-2015"
       },
       {
         "Title": "SHP Development",
-        "OrganizedBy": "IIT",
+        "OrganizedBy": "IIT Roorkee",
         "Date": "15-02-2016 To 19-02-2016"
       },
       {
-        "Title": "Summer school (Speech modelling) at DAIICT Gandhinagar",
-        "OrganizedBy": "Other",
+        "Title": "Summer school (Speech modelling)",
+        "OrganizedBy": "DAIICT Gandhinagar",
         "Date": "04-07-2016 To 08-07-2016"
       },
       {
-        "Title": "STTP On Operation and Maintenance of SHP STATION",
-        "OrganizedBy": "IIT",
+        "Title": "STTP On Operation and Maintenance of SHP Station",
+        "OrganizedBy": "IIT Roorkee",
         "Date": "19-09-2016 To 22-09-2016"
       },
       {
-        "Title": "STTP ON WIND POWER TECHNOLOGY at NITTTR Bhopal",
-        "OrganizedBy": "NITTTR",
+        "Title": "STTP On Wind Power Technology",
+        "OrganizedBy": "NITTTR Bhopal",
         "Date": "21-11-2016 To 03-12-2016"
       },
       {
-        "Title": "ELECTRIC AND SMART VEHICLE",
+        "Title": "Electric and Smart Vehicle",
         "OrganizedBy": "LDCE Ahmedabad",
         "Date": "11-03-2019 To 15-03-2019"
       },
       {
-        "Title": "NBA for degree and diploma engineering colleges, NITTTR Bhopal",
-        "OrganizedBy": "IITRAM, Ahmedabad",
+        "Title": "NBA for degree and diploma engineering colleges",
+        "OrganizedBy": "IITRAM Ahmedabad",
         "Date": "09-09-2019 To 13-09-2019"
       },
       {
-        "Title": "ATAL FDP “Smart energy system”",
-        "OrganizedBy": "IITRAM, Ahmedabad",
+        "Title": "ATAL FDP Smart Energy System",
+        "OrganizedBy": "IITRAM Ahmedabad",
         "Date": "04-10-2021 To 08-10-2021"
       },
       {
-        "Title": "ATAL FDP \"Electric Vehicles (EV) Technologies\"",
+        "Title": "ATAL FDP Electric Vehicles (EV) Technologies",
         "OrganizedBy": "GEC Bhuj",
         "Date": "28-06-2021 To 02-07-2021"
       },
       {
-        "Title": "Role of AI in modern power system protection",
+        "Title": "Role of AI in Modern Power System Protection",
         "OrganizedBy": "LDCE Ahmedabad",
         "Date": "16-10-2023 To 21-10-2023"
       },
       {
-        "Title": "ATAL FDP \"Recent Advancement in Power System with RE Sources\"",
+        "Title": "ATAL FDP Recent Advancement in Power System with RE Sources",
         "OrganizedBy": "GEC Patan",
         "Date": "17-01-2022 To 21-01-2022"
       },
       {
-        "Title": "Intellectual property rights",
+        "Title": "Intellectual Property Rights",
         "OrganizedBy": "KCG Ahmedabad",
         "Date": "06-07-2020 To 14-07-2020"
       },
@@ -3134,32 +3159,32 @@
         "Date": "28-07-2020 To 08-08-2020"
       },
       {
-        "Title": "ATAL FDP \"Distributed energy system modelling and control\"",
+        "Title": "ATAL FDP Distributed Energy System Modelling and Control",
         "OrganizedBy": "GEC Bharuch",
         "Date": "21-06-2021 To 25-06-2021"
       },
       {
-        "Title": "ATAL FDP \"Role of Renewable Energy Sources in Power System\"",
+        "Title": "ATAL FDP Role of Renewable Energy Sources in Power System",
         "OrganizedBy": "GEC Patan",
         "Date": "05-07-2021 To 09-07-2021"
       },
       {
-        "Title": "ATAL FDP Assessment and evaluation of renewable energy resources",
+        "Title": "ATAL FDP Assessment and Evaluation of Renewable Energy Resources",
         "OrganizedBy": "GEC Palanpur",
         "Date": "13-09-2021 To 17-09-2021"
       },
       {
-        "Title": "Futuristic Innovations on Solar technologies",
+        "Title": "Futuristic Innovations on Solar Technologies",
         "OrganizedBy": "GEC Patan",
         "Date": "08-02-2021 To 12-02-2021"
       },
       {
-        "Title": "Industrial Training at Australian Premium Solar (India) Limited company",
+        "Title": "Industrial Training at Australian Premium Solar (India) Limited Company",
         "OrganizedBy": "Tajpur, Prantij, Gujarat",
         "Date": "17-06-2024 To 29-06-2024"
       },
       {
-        "Title": "Industrial Training at GETCO Baroda-Mahesana division",
+        "Title": "Industrial Training at GETCO Baroda-Mahesana Division",
         "OrganizedBy": "Mahesana, Gujarat",
         "Date": "08-07-2024 To 20-07-2024"
       }
@@ -3221,6 +3246,7 @@
     "Qualification": "M.E. Power System",
     "Area_of_Interest": "Power System analysis, High Voltage Engineering, Power System Protection",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. ANILKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.Power System</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Power System analysis , High Voltage Engineering, Power System Protection</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "Work Experience", "course taught", "training and Workshop", "institute portfolio", "personal institution membership" ],
@@ -3236,7 +3262,7 @@
   },
   {
     "ID": 304,
-    "Name": "Mr. Naran Dabhi",
+    "Name": "Prof. Naran Dabhi",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/304.jpg",
     "Dept_ID": 3,
@@ -3244,6 +3270,7 @@
     "Qualification": "M.E. Power System",
     "Area_of_Interest": "Electrical Engineering",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARAN DABHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E. (Electrical)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">22 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical Engineering </span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "educational qualification", "educational qualification", "Work Experience", "Work Experience", "skills and knowledge", "course taught", "training and workshop", "portfolios", "research project", "publications", "academic project", "patent filed", "professional institution membership", "expert lectures", "award" ],
@@ -3266,7 +3293,7 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Mr. Naran K. Dabhi",
+      "Name": "Prof. Naran K. Dabhi",
       "Designation": "Assistant Professor",
       "Department": "Electrical",
       "Contact": "+91-9510681795",
@@ -3364,7 +3391,7 @@
   },
   {
     "ID": 305,
-    "Name": "Mr. Manishkumar Patel",
+    "Name": "Prof. Manishkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/305.jpg",
     "Dept_ID": 3,
@@ -3372,6 +3399,7 @@
     "Qualification": "B.E (ELECTRICAL), M.E (ELECTRICAL POWER SYSTEM)",
     "Area_of_Interest": "ELECTRICAL POWER SYSTEM, ELECTRICAL MACHINE",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MANISHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E(ELECTRICAL) M.E (ELECTRICAL POWER SYSTEM)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ELECTRICAL POWER SYSTEM,ELECTRICAL MACHINE </span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "educational qualification", "work exprience", "skills and knowledge", "Courses taught", "training and workshop" ],
@@ -3395,6 +3423,7 @@
     "Qualification": "Ph.D. Electrical", // B.E. Electrical from L.D. College of Engineering, M.Tech. Electrical     (Power apparatus and systems) from Nirma University
     "Area_of_Interest": "Electrical drives, Power Electronics, Electrical Machines",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. PRAVINKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E. Electrical from L.D.College of Engineering, M.Tech. Electrical (Power  apparatus and systems) from Nirma University</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">9 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical drives,Power Electronics,Electrical Machines.</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Pravinkumar D. Patel",
@@ -3470,13 +3499,13 @@
         "OrganizedBy": "SPIPA, Gandhinagar"
       },
       {
-        "Title": "Circuit Design and Smart grid",
+        "Title": "Circuit Design and Smart Grid",
         "Date": "08-06-2015 to 12-06-2015",
         "OrganizedBy": "L.D.C.E., Ahmedabad"
       },
       {
         "Title": "Summerschool on Power Electronics",
-        "Date": "20-06-2016 to 2-07-2016",
+        "Date": "20-06-2016 to 02-07-2016",
         "OrganizedBy": "IIT Gandhinagar."
       },
       {
@@ -3486,7 +3515,7 @@
       },
       {
         "Title": "Wind Power Technology",
-        "Date": "21-11-2016 to 2-12-2016",
+        "Date": "21-11-2016 to 02-12-2016",
         "OrganizedBy": "NITTTR Bhopal"
       },
       {
@@ -3497,7 +3526,7 @@
       {
         "Title": "Cyber Physical Systems",
         "Date": "08-04-2017 to 12-04-2017",
-        "OrganizedBy": "DAIICT,Gandhinagar"
+        "OrganizedBy": "DAIICT, Gandhinagar"
       },
       {
         "Title": "Recent Technical Innovation and Development in Electrical Engineering",
@@ -3505,32 +3534,32 @@
         "OrganizedBy": "DTE organised VC STTP at GEC PATAN"
       },
       {
-        "Title": "AICTE Training And Learning (ATAL) Academy Online Elementary FDP on \"Role of Renewable Energy Sources in Power System\" from 2021-07-05 to 2021-07-09 at Government Engineering College, Patan.",
-        "Date": "05-07-2021 to 09-07-2021",
-        "OrganizedBy": "Government Engineering College, Patan."
-      },
-      {
-        "Title": "Power Electronics For Distribution syatem and Electrical Drives",
+        "Title": "Power Electronics For Distribution System and Electrical Drives",
         "Date": "25-06-2018 to 04-07-2018",
         "OrganizedBy": "SVNIT"
       },
       {
-        "Title": "AICTE Training And Learning (ATAL) Academy Online Elementary FDP on 'smart energy systems",
+        "Title": "AICTE Training And Learning (ATAL) Academy Online Elementary FDP on 'Role of Renewable Energy Sources in Power System'",
+        "Date": "05-07-2021 to 09-07-2021",
+        "OrganizedBy": "Government Engineering College, Patan."
+      },
+      {
+        "Title": "AICTE Training And Learning (ATAL) Academy Online Elementary FDP on 'Smart Energy Systems'",
         "Date": "04-10-2021 to 08-10-2021",
         "OrganizedBy": "IITRAM, Ahmedabad"
       },
       {
-        "Title": "AICTE Training And Learning (ATAL) Academy Online Elementary FDP on\" Recent Advancement in Power system with Renewable Energy Sources \" from 17/01/2022 to 21/01/2022 at GOVERNMENT ENGINEERING COLLEGE PATAN.",
+        "Title": "AICTE Training And Learning (ATAL) Academy Online Elementary FDP on 'Recent Advancement in Power System with Renewable Energy Sources'",
         "Date": "17-01-2022 to 21-01-2022",
         "OrganizedBy": "Government Engineering College, Patan."
       },
       {
-        "Title": "Applications of AI techniques in Electrical Machines and Power System",
+        "Title": "Applications of AI Techniques in Electrical Machines and Power System",
         "Date": "27-06-2022 to 01-07-2022",
-        "OrganizedBy": "Vishwakarma Government Engineering College,"
+        "OrganizedBy": "Vishwakarma Government Engineering College"
       },
       {
-        "Title": "Advanced power electronics and control ",
+        "Title": "Advanced Power Electronics and Control",
         "Date": "JUL-2022 to OCT-2022",
         "OrganizedBy": "SWAYAM MOOC NPTEL ONLINE FDP"
       },
@@ -3540,19 +3569,19 @@
         "OrganizedBy": "SWAYAM MOOC NPTEL ONLINE FDP"
       },
       {
-        "Title": "AI ROLE IN POWER SYSTEM PROTECTION",
+        "Title": "AI Role in Power System Protection",
         "Date": "16-10-2023 to 21-10-2023",
-        "OrganizedBy": "ATAL FDP, LDCE AHMEDABAD"
+        "OrganizedBy": "ATAL FDP, LDCE Ahmedabad"
       },
       {
-        "Title": "Two week industrial training.",
+        "Title": "Two Week Industrial Training at Australian Premium Solar Pvt(I) Ltd., Tajpur, Prantij",
         "Date": "17-06-2024 to 29-06-2024",
-        "OrganizedBy": "Australian Premium Solar Pvt(I) Ltd.,Tajpur,Prantij"
+        "OrganizedBy": "Australian Premium Solar Pvt(I) Ltd., Tajpur, Prantij"
       },
       {
-        "Title": "Two week industrial training.",
-        "Date": "17-06-2024 to 29-06-2024",
-        "OrganizedBy": "GETCO,MEHSANA 220 KV SUBSTATION "
+        "Title": "Two Week Industrial Training at GETCO, Mehsana 220 KV Substation",
+        "Date": "08-07-2024 to 20-07-2024",
+        "OrganizedBy": "GETCO, Mehsana 220 KV Substation"
       }
     ],
     "Publications": [
@@ -3609,6 +3638,7 @@
     "Qualification": "Ph.D. Electrical",
     "Area_of_Interest": "POWER SYSTEM",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Sohankumar  Prajapati</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E (ELECTRICAL)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">POWER SYSTEM</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Sohankumar Gordhanbhai Prajapati",
@@ -3806,7 +3836,7 @@
 
   {
     "ID": 401,
-    "Name": "Mr. Vipul Patel",
+    "Name": "Prof. Vipul Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/401.jpg",
     "Dept_ID": 4,
@@ -3814,9 +3844,10 @@
     "Qualification": "M.E.",
     "Area_of_Interest": "CIVIL ENGINEERING",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. VIPUL PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.Civil</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Water Resources Engineering</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. VIPUL DASHRATHBHAI PATEL",
+      "Name": "Prof. VIPUL DASHRATHBHAI PATEL",
       "Designation": "Assistant Professor",
       "Department": "Civil",
       "Contact": "+91-9825317322",
@@ -4019,7 +4050,7 @@
   },
   {
     "ID": 402,
-    "Name": "Dr. V. M. Patel",
+    "Name": "Dr. Vijendrakumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/402.jpg",
     "Dept_ID": 4,
@@ -4027,6 +4058,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Civil Engineering",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJENDRAKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Civil Engineering</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijendrakumar M. Patel",
@@ -4059,17 +4091,17 @@
         "Duration": "18-04-2017 - Present"
       },
       {
-        "Position": "Lecturer Civil Engineering",
+        "Position": "Lecturer",
         "Organization": "Government Polytechnic, Palanpur",
         "Duration": "06-07-2011 to 17-04-2017"
       },
       {
-        "Position": "Assistant Professor Civil Engineeringr",
+        "Position": "Assistant Professor",
         "Organization": " PDPU (Pandit Deendayal Petroleum University ,Gandhinagar)",
         "Duration": "02-06-2010 to 06-06-2011"
       },
       {
-        "Position": "Lecturer Civil Engineering",
+        "Position": "Lecturer",
         "Organization": "BSPatel Polytechnic, Ganpat University,Kherva",
         "Duration": "13-06-2005 to 01-06-2010"
       },
@@ -4333,6 +4365,7 @@
     "Qualification": "Ph.D. Civil Engineering",
     "Area_of_Interest": "Civil Engineering",
     "Isteaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. MANJURALI BALYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D. (Civil Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Transportation Engineering</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education qualification", "Work Experience", "course taught", "training and workshop", "portfolios", "publication", "expert lectures" ],
@@ -4442,6 +4475,7 @@
     "Qualification": "Diploma Civil",
     "Area_of_Interest": "Civil",
     "IsTeaching": false,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "MR. MAYANKKUMAR AMRUTLAL PATEL",
@@ -4510,7 +4544,8 @@
     "Qualification": "Diploma Electrical Engineering",
     "Area_of_Interest": "Electrical Engineering",
     "IsTeaching": false,
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
+    "SeniorityOrder": 0,
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "MR. ANKITKUMAR B. DARJI",
       "Designation": "LAB ASSISTANT",
@@ -4548,6 +4583,7 @@
     "Qualification": "Ph.D.", //IITD
     "Area_of_Interest": "cad, cam, metal forming, automobile engg, manufacturing engg",
     "IsTeaching": true,
+    "SeniorityOrder": 1,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. ANAND DHRUV</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D. (IITD)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">26 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">cad, cam, metal forming, automobile engg, manufacturing engg</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "publication details", "training details", "other details" ],
@@ -4697,6 +4733,7 @@
     "Area_of_Interest": "Solar Energy",
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. DINESHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD (Mechanical Engineering) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">25 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Solar Energy</span></li></ul></div></div></div>",
     "IsTeaching": true,
+    "SeniorityOrder": 2,
     "PersonalDetails": {
       "Name": "Mr. DINESHKUMAR PATEL",
       "Designation": "Assistant Professor",
@@ -4748,12 +4785,40 @@
       {
         "SrNo": 9,
         "Title": "Analysis and Performance Investigations on a Solar Air Heater with Compound Parabolic Concentrator | Published: March 2015 | ISSN: 2278-5469"
+      },
+      {
+        "SrNo": 10,
+        "Title": "Investigation of varying tip clearance gap and operating conditions on the fulfilment of low-speed axial flow fan | International Journal of Turbo & Jet-Engines | 1.082 (WOS) | DOI: 10.1515/tjj-2024-0067 | 03340082, 21910332 | Germany | SCOPUS (SCI) | 1st Oct. 2024"
+      },
+      {
+        "SrNo": 11,
+        "Title": "Numerical Investigation of Blade tip with different Groove effect and its Dynamic Analysis of Axial flow fan | International Journal of Ambient Energy | 2.539 (SCOPUS) | DOI: 10.1080/01430750.2019.1614993 | ISSN: 0143-0750 (Print), 2162-8246 (Online) | United Kingdom | SCOPUS | 9th May 2019 (Vol-42, Issue-15)"
+      },
+      {
+        "SrNo": 12,
+        "Title": "Numerical and Experimental Analysis of Tip Clearance Effect of Low-Speed Axial Flow Fan | SAE International | 0.641 | DOI: 10.4271/2024-01-6009 | 01487191, 26883627 | United States | SCOPUS | 20th Dec. 2024"
+      },
+      {
+        "SrNo": 13,
+        "Title": "Design and Development of an Aerofoil Using Bézier Curve | SAE International | 0.641 | DOI: 10.4271/2024-01-6007 | 01487191, 26883627 | United States | SCOPUS | 29th Oct. 2024"
+      },
+      {
+        "SrNo": 14,
+        "Title": "Extensive Review on Blade Profile, Tip Clearance Gap and Vane Casing on Axial Flow Fan | IJSRD - International Journal for Scientific Research & Development | 4.396 | DOI | ISSN (online): 2321-0613 | India | (IJSRD/Vol. 12/Issue 8/2024/002) | 15th Oct. 2024"
+      },
+      {
+        "SrNo": 15,
+        "Title": "Artificially roughened solar air heating technology – A comprehensive review | Applied Thermal Engineering | 6.1 | DOI: 10.1016/j.applthermaleng.2022.118817 | Print ISSN: 1359-4311, Online ISSN: 1873-5606 | United Kingdom | SCOPUS (SCI) | 13th Jun. 2024"
+      },
+      {
+        "SrNo": 16,
+        "Title": "Heat transfer enhancement in a solar air heater utilizing novel rotating spiral baffles | Journal of Renewable Sustainable Energy | 1.9 | DOI: 10.1063/5.0226491 | Online ISSN: 1941-7012 | United States | SCOPUS (SCI) | 1st Nov. 2024"
       }
     ]
   },
   {
     "ID": 503,
-    "Name": "Mr. Chiragkumar Patel",
+    "Name": "Prof. Chiragkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/503.jpg",
     "Dept_ID": 5,
@@ -4761,9 +4826,10 @@
     "Qualification": "M.E Thermal Science and Engineering ",
     "Area_of_Interest": "Mechanical Engineering",
     "IsTeaching": true,
+    "SeniorityOrder": 4,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. CHIRAGKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Chiragkumar C. Patel",
+      "Name": "Prof. Chiragkumar C. Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical Engineering",
       "Contact": "+91-9427788854",
@@ -4869,7 +4935,7 @@
   },
   {
     "ID": 504,
-    "Name": "Mr. DIPAK PARMAR",
+    "Name": "Prof. DIPAK PARMAR",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/504.jpg",
     "Dept_ID": 5,
@@ -4877,9 +4943,10 @@
     "Qualification": "M.E. Jet Propulsion and Gas Turbine ",
     "Area_of_Interest": "Jet propulsion and gas turbine",
     "IsTeaching": true,
+    "SeniorityOrder": 3,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIPAK PARMAR</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Master of Engineering </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">12 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Jet propulsion and gas turbine</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Dipak J. Parmar",
+      "Name": "Prof. Dipak J. Parmar",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "8511166277",
@@ -5074,6 +5141,11 @@
         "Title": "Two week summer school on Fluid Mechanics",
         "OrganizedBy": "IIT Gandhinagar",
         "Date": "06-06-2016 to 18-06-2016"
+      },
+      {
+        "Title": "Advances in Automobile Engineering",
+        "OrganizedBy": "NITTTR, BHOPAL",
+        "Date": "12-12-2016 to 16-12-2016"
       },
       {
         "Title": "Advanced computer added manufacturing techniques",
@@ -5273,6 +5345,7 @@
     "Qualification": "Ph.D. Mechanical",
     "Area_of_Interest": "production",
     "IsTeaching": true,
+    "SeniorityOrder": 5,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MITESHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.MECHANICAL (PROD. ENGG.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">production</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Miteshkumar Govindbhai Patel",
@@ -5302,111 +5375,112 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GEC Patan",
-        "Duration": "2011 - Present"
+        "Duration": "04/05/2011 - Present"
       }
     ],
     "TrainingAndWorkshops": [
       {
         "Title": "Recent trends in Automobile Engineering",
         "OrganizedBy": "LDCE, Ahmedabad",
-        "Date": "May 2013"
+        "Date": "13/05/2013 - 18/05/2013"
       },
       {
         "Title": "Induction Phase-I",
         "OrganizedBy": "NITTTR Extension Centre, Ahmedabad",
-        "Date": "Sep 2013"
+        "Date": "16/09/2013 - 27/09/2013"
       },
       {
         "Title": "Advanced Engineering Optimization Through Intelligent Techniques",
         "OrganizedBy": "SVNIT, Surat",
-        "Date": "Mar 2014"
+        "Date": "24/03/2014 - 28/03/2014"
       },
       {
-        "Title": "Fundamentals and special topics in heat transfer",
+        "Title": "Fundamentals and Special Topics in Heat Transfer",
         "OrganizedBy": "SVNIT, Surat",
-        "Date": "Jun 2014"
+        "Date": "23/06/2014 - 27/06/2014"
       },
       {
-        "Title": "INDUCTION PHASE-2",
+        "Title": "Induction Phase-2",
         "OrganizedBy": "NITTTR Extension Centre, Ahmedabad",
-        "Date": "Sep 2019"
+        "Date": "01/09/2014 - 12/09/2014"
       },
       {
         "Title": "Advance Manufacturing Processes",
         "OrganizedBy": "SVNIT, Surat",
-        "Date": "Jan 2015"
+        "Date": "08/06/2015 - 12/06/2015"
       },
       {
         "Title": "CAD using NX",
         "OrganizedBy": "GEC, Patan",
-        "Date": "Apr 2016"
+        "Date": "25/04/2016 - 30/04/2016"
       },
       {
-        "Title": "Additive  manufacturing - Theory and Applications",
+        "Title": "Additive Manufacturing - Theory and Applications",
         "OrganizedBy": "SVNIT, Surat",
-        "Date": "Jan 2019"
+        "Date": "10/06/2019 - 14/06/2019"
       },
       {
         "Title": "Academic and Research Paper Writing",
         "OrganizedBy": "NITTTR Regional Centre, Ahmedabad",
-        "Date": "Mar 2020"
+        "Date": "09/03/2020 - 13/03/2020"
       },
       {
-        "Title": "Metal cutting and machine tools",
+        "Title": "Metal Cutting and Machine Tools",
         "OrganizedBy": "Swayam Mooc",
-        "Date": "Feb 2020 - Mar 2020"
+        "Date": "24/02/2020 - 20/03/2020"
       },
       {
         "Title": "UDAYAM (Unlimited Digital Advanced Yearlong Academic Method of Learning) E-Content Development",
         "OrganizedBy": "Knowledge Consortium of Gujarat, Ahmedabad and HRDC, Gujarat University",
-        "Date": "Jul 2020 - Aug 2020"
+        "Date": "28/07/2020 - 18/08/2020"
       },
       {
         "Title": "Comprehensive Online Intellectual Property Rights (IPR)",
-        "OrganizedBy": "Gujarat Student Startup and Innovation Hub ( i - Hub )",
-        "Date": "Jul 2020 - Sep 2020"
+        "OrganizedBy": "Gujarat Student Startup and Innovation Hub (i-Hub)",
+        "Date": "06/07/2020 - 14/09/2020"
       },
       {
         "Title": "Advanced Research Methodology and Analytics",
-        "OrganizedBy": "GEC. Patan",
-        "Date": "Mar 2021"
+        "OrganizedBy": "GEC, Patan",
+        "Date": "22/03/2021 - 26/03/2021"
       },
       {
-        "Title": "Advanced in Manufactring",
+        "Title": "Advances in Manufacturing",
         "OrganizedBy": "SVNIT, Surat",
-        "Date": "Jul 2021"
+        "Date": "26/07/2021 - 30/07/2021"
       },
       {
-        "Title": "Data science and machine learning",
+        "Title": "Data Science and Machine Learning",
         "OrganizedBy": "SITAICS, RRU",
-        "Date": "Oct 2021"
+        "Date": "04/10/2021 - 14/10/2021"
       },
       {
         "Title": "Document Preparation on Latex",
         "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "Dec 2022"
+        "Date": "19/12/2022 - 23/12/2022"
       },
       {
         "Title": "E-Content Development",
         "OrganizedBy": "Swayam Mooc",
-        "Date": "Jul 2022 - Nov 2022"
+        "Date": "01/07/2022 - 11/2022"
       },
       {
         "Title": "Leadership and Team Effectiveness",
         "OrganizedBy": "Swayam Mooc",
-        "Date": "Jan 2024 - Apr 2024"
+        "Date": "01/01/2024 - 04/2024"
       },
       {
         "Title": "Industrial Training - 1",
         "OrganizedBy": "MDFPL",
-        "Date": "Jul 2024"
+        "Date": "01/07/2024 - 13/07/2024"
       },
       {
         "Title": "Industrial Training - 2",
         "OrganizedBy": "APS Ltd",
-        "Date": "Jul 2024"
+        "Date": "15/07/2024 - 26/07/2024"
       }
     ],
+
     "Publications": [
       {
         "SrNo": 1,
@@ -5417,7 +5491,7 @@
   },
   {
     "ID": 506,
-    "Name": "Mr. Bhargavkumar Patel",
+    "Name": "Prof. Bhargavkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/506.jpg",
     "Dept_ID": 5,
@@ -5425,6 +5499,7 @@
     "Qualification": "M.E CAD/CAM",
     "Area_of_Interest": "Parametric Optimization, Non Conventional Machining Processes, Finite Element modelling.",
     "IsTeaching": true,
+    "SeniorityOrder": 10,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHARGAVKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E CAD/CAM</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Parametric Optimization, Non Conventional Machining Processes, Finite Element modelling.</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "college level duties", "Deparatmental duties", "college level duties" ],
@@ -5435,24 +5510,182 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Mr. Bhargavkumar Patel",
+      "Name": "Prof. Bhargavkumar B. Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical Engineering",
-      "Contact": "+91-8347055235",
+      "Contact": "",
       "Email": "bhargav.patel@geccpatan.ac.in"
     },
     "EducationalQualifications": [
-
+      {
+        "Degree": "PhD",
+        "Year": "Pursuing",
+        "Specialization": ""
+      },
+      {
+        "Degree": "M.E.",
+        "Year": "2012",
+        "Specialization": "CAD/CAM"
+      },
+      {
+        "Degree": "B.E.",
+        "Year": "2007",
+        "Specialization": ""
+      }
     ],
     "ProfessionalExperiences": [
-
+      {
+        "Position": "Assistant Professor",
+        "Organization": "GEC Patan",
+        "Duration": "10-06-2016 to Present"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Sankalchang Patel College of Engineering, Visnagar",
+        "Duration": "27-07-2007 to 20-05-2016"
+      }
     ],
-    "TrainingAndWorkshops": [],
-    "Publications": []
+    "TrainingAndWorkshops": [
+      {
+        "Title": "Computer Aided Engineering Using NX",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "07/11/2016 to 19/11/2016"
+      },
+      {
+        "Title": "Digital Manufacturing Using Rob CAD",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "17/10/2016 to 21/10/2016"
+      },
+      {
+        "Title": "Recent Trends in Automation & Control",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "24/10/2016 to 28/10/2016"
+      },
+      {
+        "Title": "I-FDP International Faculty Development Program",
+        "OrganizedBy": "GEC, Patan & Mahatma Mandir",
+        "Date": "03/10/2017, 14/10/2017, 27/10/2017"
+      },
+      {
+        "Title": "Latex for Academic Writing",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "20/03/2017 to 24/03/2017"
+      },
+      {
+        "Title": "Advance Computer Aided Manufacturing Techniques",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "22/05/2017 to 02/06/2017"
+      },
+      {
+        "Title": "Induction Training Programme Phase-1",
+        "OrganizedBy": "NITTTR, Ahmedabad",
+        "Date": "21/08/2017 to 01/09/2017"
+      },
+      {
+        "Title": "Induction Training Programme Phase-2",
+        "OrganizedBy": "NITTTR, Ahmedabad",
+        "Date": "10/06/2019 to 21/06/2019"
+      },
+      {
+        "Title": "Comprehensive Online Intellectual Property Rights (IPR)",
+        "OrganizedBy": "Online",
+        "Date": "06/07/2020 to 14/09/2020"
+      },
+      {
+        "Title": "UDAYAM E-Content Development Course",
+        "OrganizedBy": "Online",
+        "Date": "28/07/2020 to 18/08/2020"
+      },
+      {
+        "Title": "ICT in Teaching and Learning",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2020 to 05/2020"
+      },
+      {
+        "Title": "Technology Enabled Learning",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2022 to 05/2022"
+      },
+      {
+        "Title": "Impactful Pedagogical Skills and Restructuring of Collaborations",
+        "OrganizedBy": "GEC, Patan (Online)",
+        "Date": "17/01/2022 to 21/01/2022"
+      },
+      {
+        "Title": "Leadership and Team Effectiveness",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2024 to 04/2024"
+      },
+      {
+        "Title": "Student Assessment",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2024 to 06/2024"
+      },
+      {
+        "Title": "Industrial Training at Suchi Foams",
+        "OrganizedBy": "Suchi Foams Pvt. Ltd.",
+        "Date": "17/06/2024 to 29/06/2024"
+      },
+      {
+        "Title": "Industrial Training at Royal Castor Products Limited",
+        "OrganizedBy": "Royal Castor Products Limited",
+        "Date": "08/07/2024 to 21/07/2024"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "B. B. Patel, K. B. Rathod, “Optimization of process parameters for SS 304 using taguchi method for fuzzy control based EDM” Journal of information knowledge and research in mechanical engineering, Nov-2011 Vol. 2 issue 1."
+      },
+      {
+        "SrNo": 2,
+        "Title": "B. B. Patel, V. M. Prajapati, “Review on the conventional EDM of silicon carbide material” National conference on technology and management 2012, SPCE Visnagar."
+      },
+      {
+        "SrNo": 3,
+        "Title": "B. B. Patel, G. D. Mistry, “Investigation for effective methodology for teaching CAD software” International journal of computer applications in engineering technology and sciences, April – September 2012 Vol. 4 issue 2."
+      },
+      {
+        "SrNo": 4,
+        "Title": "B. B. Patel, K. B. Rathod, “Multi parameter analysis and modeling of SR in EDM of AISI D2 steel” International journal of scientific & engineering research, March 2012 Vol. 3 issue 3."
+      },
+      {
+        "SrNo": 5,
+        "Title": "B. B. Patel, K. B. Rathod, Multi parameter analysis and modeling of AISI D2 steel in Electro discharge machining."
+      },
+      {
+        "SrNo": 6,
+        "Title": "B. B. Patel, “Application of response surface methodology for determining MRR and TWR model in die sinking EDM of AISI 1045 steel”, International journal of engineering research and applications, Vol.2 issue 6 Nov-Dec 2012."
+      },
+      {
+        "SrNo": 7,
+        "Title": "B. B. Patel, “Multi objective optimization of die sinking electro discharge machining process using taguchi,” International journal of engineering research and applications, Vol.2 issue 6 Nov-Dec 2012."
+      },
+      {
+        "SrNo": 8,
+        "Title": "B. B. Patel, P.R. Patel, V. A. Patel, “Effect of machining parameters on surface roughness for 6063 al-tic (5 & 10 %) metal matrix composite using RSM” International journal of engineering research and Technology, Vol. 2 issue 1 Jan 2013."
+      },
+      {
+        "SrNo": 9,
+        "Title": "B. B. Patel, V A Patel, Dr. K. M. Patel, “Investigation of mechanical properties of aluminum based particle reinforced hybrid composite manufactured by stir casting” BIOINFO Mechanical Engineering, Volume 3, Issue 1, 2014, pp.-024-028."
+      },
+      {
+        "SrNo": 10,
+        "Title": "B. B. Patel, Nidhi D. Patel, “Fracture Analysis of FDM Manufactured Acrylonitrile Butadiene Styrene Using Fem” International Journal of Recent Research in Civil and Mechanical Engineering (IJRRCME) Vol. 2, Issue 1, pp: (84-90), Month: April 2015 – September 2015."
+      },
+      {
+        "SrNo": 11,
+        "Title": "Bhargav Patel, Fabrication of Copper Reinforced Aluminium 6061-T6 Surface Composite using Friction Stir Processing \"International Conference on Futuristic Advances in Mechatronics Engineering for Aerospace and Defence (ICFAMEAD 2024) October 04-05, 2024.\""
+      },
+      {
+        "SrNo": 12,
+        "Title": "Bhargav Patel, A review of friction stirred aluminium graphene surface composite (FSAGSC): Microstructure evolution, properties improvement \"International Conference on Futuristic Advances in Mechatronics Engineering for Aerospace and Defence (ICFAMEAD 2024) October 04-05, 2024.\""
+      }
+    ]
   },
   {
     "ID": 507,
-    "Name": "Mr. Kirankumar Rabari",
+    "Name": "Prof. Kirankumar Rabari",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/507.jpg",
     "Dept_ID": 5,
@@ -5460,9 +5693,10 @@
     "Qualification": "M.E CAD-CAM",
     "Area_of_Interest": "CAD-CAM",
     "IsTeaching": true,
+    "SeniorityOrder": 17,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KIRANKUMAR RABARI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD-CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. KIRANKUMAR   KANJIBHAI   RABARI",
+      "Name": "Prof. KIRANKUMAR   KANJIBHAI   RABARI",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9426875710",
@@ -5553,7 +5787,7 @@
 
   {
     "ID": 508,
-    "Name": "Mr. Chirag Kadiya",
+    "Name": "Prof. Chirag Kadiya",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/508.jpg",
     "Dept_ID": 5,
@@ -5561,9 +5795,10 @@
     "Qualification": "B.E. MECHANICAL",
     "Area_of_Interest": "POWER PLANT ENGINEERING",
     "IsTeaching": true,
+    "SeniorityOrder": 16,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. CHIRAG KADIYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li>=<li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">BE MECHANICAL</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">13 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">POWER PLANT ENGINEERING</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. CHIRAG PRAVINBHAI KADIYA",
+      "Name": "Prof. CHIRAG PRAVINBHAI KADIYA",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9824528645",
@@ -5612,6 +5847,7 @@
     "Qualification": "Ph. D. Mechanical",
     "Area_of_Interest": "Adaptive Control, CAD/CAM, Production, Robotics, Automation",
     "IsTeaching": true,
+    "SeniorityOrder": 7,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARENDRAKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Ph. D. Mechanical</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Experience</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                                                                                  <span class=\"f-information_data\">12 Years</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Adaptive Control, CAD/CAM, Production, Robotics, Automation</span>                                                              </li>                                                          </ul>                                                      </div>                                              </div>                                          </div>",
     "tabs": {
       "Head": [ "Educational Qualification", "Skill and Knowledge", "Course Taught", "Portfolios", "Research Projects", "Training and Workshop", "Publications", "Academic Projects", "Patent Filed", "Professional Institution Membership", "Expert Lectures", "Awards", "Work_Experience", "STTP/SEMINAR/Workshop Organized" ],
@@ -5876,7 +6112,7 @@
   },
   {
     "ID": 510,
-    "Name": "Mr. Kamlesh Thakkar",
+    "Name": "Prof. Kamlesh Thakkar",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/510.jpg",
     "Dept_ID": 5,
@@ -5884,9 +6120,10 @@
     "Qualification": "M.TECH CAD/CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
+    "SeniorityOrder": 9,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAMLESH THAKKAR</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div>                                         </div>",
     "PersonalDetails": {
-      "Name": "Mr. KAMLESH HASMUKHLAL THAKKAR",
+      "Name": "PROF. KAMLESH HASMUKHLAL THAKKAR",
       "THAKKAR\",": null,
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
@@ -6090,6 +6327,7 @@
     "Qualification": "Ph.D. Design And Dynamics",
     "Area_of_Interest": "Design, Dynamics and Manufacturing",
     "IsTeaching": true,
+    "SeniorityOrder": 15,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">                                              <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HIRENKUMAR  PRAJAPATI</a></div>                                             <hr>                                              <div class=\"b-portfolio_info_description f-portfolio_info_description\">                                                   <div class=\"b-information-box f-information-box f-primary-b\">                                                          <ul>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Designation</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Assistant Professor</span>                                                              </li>                                                                <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">M.Tech</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Experience</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                                                                                  <span class=\"f-information_data\">7 Years</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Design, Dynamics and Manufacturing</span>                                                              </li>                                                          </ul>                                                      </div>                                              </div>                                          </div>",
     "PersonalDetails": {
       "Name": "Dr. Hirenkumar Rameshbhai Prajapati",
@@ -6187,6 +6425,11 @@
         "Title": "Experimental Stress Analysis (FDP) -12 week course",
         "OrganizedBy": "MOOC Course",
         "Date": "27-01-2020 to 17-04-2020"
+      },
+      {
+        "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
+        "OrganizedBy": "Gujarat Student Startup and Innovation Hub ( i - Hub )",
+        "Date": "06/07/2020 to 17/09/2020"
       },
       {
         "Title": "Online ATAL FDP on Robotics and Automation",
@@ -6297,7 +6540,7 @@
   },
   {
     "ID": 512,
-    "Name": "Mr. Vipulkumar Patel",
+    "Name": "Prof. Vipulkumar Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/512.jpg",
     "Dept_ID": 5,
@@ -6305,9 +6548,10 @@
     "Qualification": "M.E CAD/CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
+    "SeniorityOrder": 11,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. VIPULKUMAR PATEL</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Vipulkumar Kashirambhai Patel",
+      "Name": "Prof. Vipulkumar Kashirambhai Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "9427283696",
@@ -6468,7 +6712,7 @@
   },
   {
     "ID": 514,
-    "Name": "Mr. Narendrasinh Makvana",
+    "Name": "Prof. Narendrasinh Makvana",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/514.jpg",
     "Dept_ID": 5,
@@ -6476,9 +6720,10 @@
     "Qualification": "M.E. IC Engine & Automobile",
     "Area_of_Interest": "I. C. Engines & Automobile",
     "IsTeaching": true,
+    "SeniorityOrder": 12,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARENDRASINH MAKVANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M. E. (Mechanical)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">I. C. Engines &amp; Automobile</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Narendrasinh Ramjibhai Makvana ",
+      "Name": "Prof. Narendrasinh Ramjibhai Makvana ",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9033659239",
@@ -6602,7 +6847,7 @@
   },
   {
     "ID": 515,
-    "Name": "Mr. Rakeshkumar Oza",
+    "Name": "Prof. Rakeshkumar Oza",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/515.jpg",
     "Dept_ID": 5,
@@ -6610,9 +6855,10 @@
     "Qualification": "M.E. CAD-CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
+    "SeniorityOrder": 14,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. RAKESHKUMAR OZA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Rakesh A. Oza",
+      "Name": "Prof. Rakesh A. Oza",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-7698873200",
@@ -6719,6 +6965,11 @@
         "Date": "06-07-2020 to 14-09-2020"
       },
       {
+        "Title": "Solar Energy Application in Present Era",
+        "OrganizedBy": "Government Engineering College,Patan (online)",
+        "Date": "16-10-2020"
+      },
+      {
         "Title": "Webinar on NBA Accreditation",
         "OrganizedBy": "Online",
         "Date": "11-06-2020"
@@ -6794,6 +7045,7 @@
     "Qualification": "Ph.D Mechanical",
     "Area_of_Interest": "Machine Design",
     "IsTeaching": true,
+    "SeniorityOrder": 8,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAUSHIKKUMAR PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education qualification", "Work Experience", "patent publication", "subject taught", "training and workshop", "portfolio", "research project", "publication", "faculty training Monitoring cell" ],
@@ -7050,12 +7302,16 @@
       {
         "SrNo": 23,
         "Title": "Manufacturing Process-I - Sub Code: 2131903, For Second Year Degree Students as per GTU Syllabus, Atul Prakashan, ISBN 978-93-85138-48-5 (2016-17) Revised Edition"
+      },
+      {
+        "SrNo": 24,
+        "Title": "“Optimization Of Four-Bar Linkages In Variable Input Speed With Kinematic And Dynamic Synthesis Using MatLab” By K.V. Patel & S .J. Patel at International Conference on “Advance In Mechanical Engineering” on 15-17 Dec, 2008 at SVNIT, Surat, Gujarat."
       }
     ]
   },
   {
     "ID": 517,
-    "Name": "Mr. Dharmesh Patel",
+    "Name": "Prof. Dharmesh Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/517.jpg",
     "Dept_ID": 5,
@@ -7063,9 +7319,10 @@
     "Qualification": "M.TECH AMT",
     "Area_of_Interest": "MANUFACTURING",
     "IsTeaching": true,
+    "SeniorityOrder": 18,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">   <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DHARMESH PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH (AMT) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">7 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MANUFACTURING</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Dharmesh Kantilal Patel",
+      "Name": "Prof. Dharmesh Kantilal Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91 8347055235",
@@ -7087,7 +7344,7 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GEC PATAN",
-        "Duration": "10/21/2014 to Present"
+        "Duration": "21/10/2014 to Present"
       }
     ],
     "TrainingAndWorkshops": [],
@@ -7096,7 +7353,7 @@
   },
   {
     "ID": 518,
-    "Name": "Mr. Sachin Patel",
+    "Name": "Prof. Sachin Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/518.jpg",
     "Dept_ID": 5,
@@ -7104,9 +7361,10 @@
     "Qualification": "M.E. Mechanical Machine Design",
     "Area_of_Interest": "Machine Design",
     "IsTeaching": true,
+    "SeniorityOrder": 6,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN PATEL</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. Mechanical Machine Design</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Mr. Sachin Patel",
+      "Name": "Prof. Sachin Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "",
@@ -7129,6 +7387,7 @@
     "Qualification": "Ph.D. Renewable Energy",
     "Area_of_Interest": "Solar Thermal, Solar Photovoltaic, IC Engine",
     "IsTeaching": true,
+    "SeniorityOrder": 13,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HITESH PANCHAL</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Solar Thermal, Solar Photovoltaic, IC Engine</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Hitesh Panchal",
@@ -7158,7 +7417,7 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GOVERNMENT ENGINEERING COLLEGE, PATAN",
-        "Duration": "07-01-2016 - Present"
+        "Duration": "01-07-2016 - Present"
       }
     ],
     "TrainingAndWorkshops": [
@@ -7191,26 +7450,94 @@
     "Publications": [
       {
         "SrNo": 1,
-        "Title": "Enhancing the performance of tubular solar stills for water purification: A comprehensive review and comparative analysis of methodologies and materials, Results in Engineering, Volume 21, 2024, 101722, ISSN 2590-1230."
+        "Title": "A.S. Abdullah, Fadl A. Essa, Hitesh Panchal, Wissam H. Alawee, Ammar H. Elsheikh,. Enhancing the performance of tubular solar stills for water purification: A comprehensive review and comparative analysis of methodologies and materials, Results in Engineering, Volume 21, 2024, 101722, ISSN 2590-1230."
       },
       {
         "SrNo": 2,
-        "Title": "A Novel Approach to Breast Tumor Detection: Enhanced Speckle Reduction and Hybrid Classification in Ultrasound Imaging, Computers, Materials and Continua, Volume 79, Issue 2, 2024, Pages 1875-1901, ISSN 1546-2218."
+        "Title": "K. Umapathi, S. Shobana, Anand Nayyar, Judith Justin, R. Vanithamani, Miguel Villagómez Galindo, Mushtaq Ahmad Ansari, Hitesh Panchal,. A Novel Approach to Breast Tumor Detection: Enhanced Speckle Reduction and Hybrid Classification in Ultrasound Imaging, Computers, Materials and Continua, Volume 79, Issue 2, 2024, Pages 1875-1901, ISSN 1546-2218,"
       },
       {
         "SrNo": 3,
-        "Title": "Twisted tape inserts in parabolic trough solar collectors: Assessment of Energy, Exergy, and Environmental impacts, Applied Thermal Engineering, Volume 250, 2024, 123566, ISSN 1359-4311."
+        "Title": "Bhavin Mehta, Dattatraya Subhedar, Hitesh Panchal, Zafar Said, Kamal Sharma, Md Irfanul Haque Siddiqui, L Natrayan, Marc A. Rosen. Twisted tape inserts in parabolic trough solar collectors: Assessment of Energy, Exergy, and Environmental impacts, Applied Thermal Engineering, Volume 250, 2024, 123566, ISSN 1359-4311"
       },
       {
         "SrNo": 4,
-        "Title": "Experimental study, modeling, and parametric optimization on abrasive waterjet drilling of YSZ-coated Inconel 718 superalloy, Journal of Materials Research and Technology, Volume 29, 2024, Pages 4662-4675, ISSN 2238-7854."
+        "Title": "Balaji Vasudevan, Lenin Nagarajan, Natrayan L, Alagar Karthick, Siva Kumar Mahalingam, Chander Prakash, Choon Kit Chan, Hitesh Panchal, Md Irfanul Haque Siddiqui. Experimental study, modeling, and parametric optimization on abrasive waterjet drilling of YSZ-coated Inconel 718 superalloy, Journal of Materials Research and Technology, Volume 29, 2024, Pages 4662-4675, ISSN 2238-7854."
       },
       {
         "SrNo": 5,
-        "Title": "A comprehensive review of portable cold storage: Technologies, applications, and future trends, Alexandria Engineering Journal, Volume 94, 2024, Pages 23-33, ISSN 1110-0168."
+        "Title": "Raju R. Yenare, Chandrakant R. Sonawane, Anirban Sur, Bharat Singh, Hitesh Panchal, Abhinav Kumar, Kishor Kumar Sadasivuni, Md Irfanul Haque Siddiqui, Yogesh Bhalerao. A comprehensive review of portable cold storage: Technologies, applications, and future trends, Alexandria Engineering Journal, Volume 94, 2024, Pages 23-33, ISSN 1110-0168,"
       }
     ]
+  },
+  {
+    "ID": 520,
+    "Name": "MS. PRIYANKA J. PATEL",
+    "Designation": "LAB ASSISTANT",
+    "image": "images/Faculty/520.jpg",
+    "Dept_ID": 5,
+    "Date_of_Joining": "1000-12-31",
+    "Qualification": "B.E. Mechatronics",
+    "Area_of_Interest": "Mechanical Engineering",
+    "IsTeaching": false,
+    "SeniorityOrder": 20,
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
+    "PersonalDetails": {
+      "Name": "MS. PRIYANKA J. PATEL",
+      "Designation": "LAB ASSISTANT",
+      "Department": "Mechanical",
+      "Contact": "+91-8141616711",
+      "Email": "priyankapatel116@gmail.com"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "B.E.",
+        "Year": "2014",
+        "Specialization": "Mechatroncs"
+      }
+    ],
+    "ProfessionalExperiences": [
 
+    ],
+    "TrainingAndWorkshops": [
+    ],
+    "Publications": [
+    ]
+
+  },
+  {
+    "ID": 521,
+    "Name": "MR. RAKESHKUMAR V. PATEL",
+    "Designation": "LAB ASSISTANT",
+    "image": "images/Faculty/521.jpg",
+    "Dept_ID": 5,
+    "Date_of_Joining": "1000-12-31",
+    "Qualification": "Diploma Mechanical ",
+    "Area_of_Interest": "Mechanical Engineering",
+    "IsTeaching": false,
+    "SeniorityOrder": 19,
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
+    "PersonalDetails": {
+      "Name": "MR. RAKESHKUMAR VISHNUBHAI PATEL",
+      "Designation": "LAB ASSISTANT",
+      "Department": "Mechanical",
+      "Contact": "+91-9726037705",
+      "Email": "rakeshpatel2021@gmail.com"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "Diploma",
+        "Year": "2005",
+        "Specialization": "Mechanical"
+      }
+    ],
+    "ProfessionalExperiences": [
+
+    ],
+    "TrainingAndWorkshops": [
+    ],
+    "Publications": [
+    ]
 
   },
 
@@ -7220,7 +7547,7 @@
 
   {
     "ID": 601,
-    "Name": "Dr. Vijay Soni",
+    "Name": "Dr. Vijay P. Soni",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/601.jpg",
     "Dept_ID": 6,
@@ -7228,6 +7555,7 @@
     "Qualification": "M.Phil, CSIR- UGC NET, Ph.D.",
     "Area_of_Interest": "Fuzzy Mathematics",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY SONI</a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Phil, CSIR- UGC NET, Ph.D. </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijay P. Soni",
@@ -7431,7 +7759,7 @@
   },
   {
     "ID": 602,
-    "Name": "Dr. Ashokkumar Chaudhari",
+    "Name": "Dr. Ashokkumar K. Chaudhari",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/602.jpg",
     "Dept_ID": 6,
@@ -7439,6 +7767,7 @@
     "Qualification": "Ph.D",
     "Area_of_Interest": "Atomic and Molecular Physics",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. ASHOKKUMAR CHAUDHARI </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic and Molecular Physics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr.Ashok K.Chaudhari",
@@ -7469,7 +7798,7 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GOVERNMENT ENGINEERING COLLEGE, PATAN",
-        "Duration": "07-05-2011 - Present"
+        "Duration": "07-05-2011 to 01-01-2025"
       }
     ],
     "TrainingAndWorkshops": [
@@ -7614,7 +7943,7 @@
 
   {
     "ID": 603,
-    "Name": "Dr. Vijay Makwana",
+    "Name": "Dr. Vijay C. Makwana",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/603.jpg",
     "Dept_ID": 6,
@@ -7622,6 +7951,7 @@
     "Qualification": "M.Sc. PhD CSIR-UGC NET",
     "Area_of_Interest": "Fuzzy Mathematics & Linear algebra",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY MAKWANA </a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Sc. PhD </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics &amp; Linear algebra</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijay C. Makwana",
@@ -7637,24 +7967,24 @@
         "Year": "2017",
         "Specialization": "Fuzzy Mathematics"
       },
-      //{
-      //  "Degree": "",
-      //  "Year": "2009",
-      //  "Specialization": ""
-      //},
       {
-        "Degree": "M.Phil",
-        "Year": "2007",
-        "Specialization": "Mathematics"
+        "Degree": "CSIR NET",
+        "Year": "2009,2010",
+        "Specialization": "With JRF"
+      },
+      {
+        "Degree": "B.ED",
+        "Year": "2005",
+        "Specialization": "Mathematics Science"
       },
       {
         "Degree": "M.Sc.",
-        "Year": "2002",
+        "Year": "2004",
         "Specialization": "Mathematics"
       },
       {
         "Degree": "B.Sc.",
-        "Year": "2000",
+        "Year": "2002",
         "Specialization": "Mathematics"
       }
     ],
@@ -7833,7 +8163,7 @@
   },
   {
     "ID": 604,
-    "Name": "Dr. Bhavin Patel",
+    "Name": "Dr. Bhavin S. Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/604.jpg",
     "Dept_ID": 6,
@@ -7841,6 +8171,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Queuing Theory",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Dr. Bhavin S. Patel",
       "Designation": "Assistant Professor",
@@ -7874,8 +8205,8 @@
     "ProfessionalExperiences": [
       {
         "Position": "Assistant Professor",
-        "Organization": "Sankalchand Patel College of Engineering, Visnagar",
-        "Duration": "21/06/2005 - 22/01/2019"
+        "Organization": "Government Engineering College ,Patan",
+        "Duration": "18/09/2019 - Present"
       },
       {
         "Position": "Visiting Professor",
@@ -7884,9 +8215,10 @@
       },
       {
         "Position": "Assistant Professor",
-        "Organization": "Government Engineering College ,Patan",
-        "Duration": "18/09/2019 - Present"
+        "Organization": "Sankalchand Patel College of Engineering, Visnagar",
+        "Duration": "21/06/2005 - 22/01/2019"
       }
+
     ],
     "TrainingAndWorkshops": [
       {
@@ -8023,7 +8355,7 @@
   },
   {
     "ID": 605,
-    "Name": "Dr. Harshadkumar Bhutadia",
+    "Name": "Dr. Harshadkumar S. Bhutadia",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/605.jpg",
     "Dept_ID": 6,
@@ -8031,6 +8363,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Atomic and Molecular Physics",
     "Isteaching": true,
+    "SeniorityOrder": 0,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HARSHADKUMAR BHUTADIA </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.(Physics) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic andMolecular Physics</span></li></ul></div></div></div>"
 
     "PersonalDetails": {
@@ -8303,6 +8636,31 @@
     ]
   },
 
+  //7xx
+
+  //{
+  //  "ID": "701",
+  //  "Name": "Dr. B. J. Shah",
+  //  "Designation": "Principal",
+  //  "image": "",
+  //  "Dept_ID": "7",
+  //  "Date_of_Joining": "",
+  //  "Qualification": "",
+  //  "Area_of_Interest": "",
+  //  "Isteaching":,
+  //  "SeniorityOrder": "",
+  //  "PersonalDetails": {
+  //    "Name": "Dr. B.J. Shah",
+  //    "Designation": "Principal",
+  //    "Department": "Admin",
+  //    "Contact": "",
+  //    "Email": ""
+  //  },
+  //  "EducationalQualifications": [],
+  //  "ProfessionalExperiences": [],
+  //  "TrainingAndWorkshops": [],
+  //  "Publications": []
+  //},
 
 
   //8xx
@@ -8316,11 +8674,11 @@
     "Designation": "Assistant Professor",
     "image": "images/Faculty/803.jpg",
     "Dept_ID": 8,
-    "Date_of_Joining": "2017-07-01",
+    "Date_of_Joining": "2015-07-01",
     "Qualification": "Ph.D. Civil",
     "Area_of_Interest": "Concrete Technology, Structural Analysis & Design, Earthquake Engineering",
     "IsTeaching": true,
-
+    "SeniorityOrder": 0,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. PARESHKUMAR NIMODIYA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.Tech. (Structural Engineering)</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">10 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Concrete Technology,Structural Analysis &amp; Design, Earthquake Engineering</span> </li> </ul> </div> </div> </div>"
     "PersonalDetails": {
       "Name": "Dr. Pareshkumar N. Nimodiya",
@@ -8349,13 +8707,13 @@
     "ProfessionalExperiences": [
       {
         "Position": "Assistant Professor",
-        "Organization": "Vishwakarma Government Engineering College, Chandkheda",
-        "Duration": "12/5/2011 to 30/06/2015"
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "01-07-2015 to Present"
       },
       {
         "Position": "Assistant Professor",
-        "Organization": "Government Engineering College, Patan",
-        "Duration": "01/07/2015 to Present"
+        "Organization": "Vishwakarma Government Engineering College, Chandkheda",
+        "Duration": "12-5-2011 to 30-06-2015"
       }
     ],
     "TrainingAndWorkshops": [
@@ -8512,7 +8870,7 @@
   },
   {
     "ID": 804,
-    "Name": "Mr. Hardik Trivedi",
+    "Name": "Prof. Hardik Trivedi",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/804.jpg",
     "Dept_ID": 8,
@@ -8520,9 +8878,10 @@
     "Qualification": "M.E.Civil ",
     "Area_of_Interest": "Structural Analysis & Design",
     "IsTeaching": true,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARDIK TRIVEDI</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E.Civil (CASAD)</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">10 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Structural Analysis &amp; Design</span> </li> </ul> </div> </div> </div>",
     "PersonalDetails": {
-      "Name": "Mr. Hardik R. Trivedi",
+      "Name": "Prof. Hardik R. Trivedi",
       "Designation": "Assistant Professor",
       "Department": "Applied Mechanics",
       "Contact": "+91-9722335587",
@@ -8549,7 +8908,7 @@
       {
         "Position": "Assistant Professor",
         "Organization": "VGEC, Chandkheda",
-        "Duration": "25-04-2011 to 31-07-2015"
+        "Duration": "25-04-2011 to 30-06-2015"
       },
       {
         "Position": "Assistant Professor",
@@ -8687,7 +9046,7 @@
     "Qualification": "Ph.D. Civil",
     "Area_of_Interest": "Characterization and production of different types of concrete",
     "IsTeaching": true,
-
+    "SeniorityOrder": 0,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JIGNESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Master in Structural Engineering</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">5 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">characterization and production of different types of concrete</span> </li> </ul> </div> </div> </div>"
     "PersonalDetails": {
       "Name": "Dr. Jigeshkumar Mahendrabhai Patel",
@@ -8715,14 +9074,9 @@
     ],
     "ProfessionalExperiences": [
       {
-        "Position": "Site Engineer",
-        "Organization": "Savvy Infra. Pvt. Ltd., Ahmedabad",
-        "Duration": "01-10-2009 to 27-06-2010"
-      },
-      {
         "Position": "Assistant Professor",
-        "Organization": "U.V.Patel College of Engineering, Mehsana",
-        "Duration": "26-07-2012 to 20-03-2013"
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "20-06-2016 to 18-01-2025"
       },
       {
         "Position": "Assistant Professor",
@@ -8731,8 +9085,13 @@
       },
       {
         "Position": "Assistant Professor",
-        "Organization": "Government Engineering College, Patan",
-        "Duration": "20-06-2016 to 18-01-2025"
+        "Organization": "U.V.Patel College of Engineering, Mehsana",
+        "Duration": "26-07-2012 to 20-03-2013"
+      },
+      {
+        "Position": "Site Engineer",
+        "Organization": "Savvy Infra. Pvt. Ltd., Ahmedabad",
+        "Duration": "01-10-2009 to 27-06-2010"
       }
     ],
     "TrainingAndWorkshops": [

@@ -47,11 +47,13 @@ namespace GECP_Front_End_Static.Models
         public int Dept_ID { get; set; }
         public Tabs tabs { get; set; }
 
-        public PersonalDetails PersonalDetails { get; set; }
-        public List<EducationalQualification> EducationalQualifications { get; set; }
-        public List<ProfessionalExperience> ProfessionalExperiences { get; set; }
-        public List<TrainingAndWorkshop> TrainingAndWorkshops { get; set; }
-        public List<Publication> Publications { get; set; }
+        public PersonalDetails PersonalDetails { get; set; } = new PersonalDetails();
+        public List<EducationalQualification> EducationalQualifications { get; set; }= new List<EducationalQualification>();
+        public List<ProfessionalExperience> ProfessionalExperiences { get; set; }=new List<ProfessionalExperience>();
+        public List<TrainingAndWorkshop> TrainingAndWorkshops { get; set; }=new List<TrainingAndWorkshop>();
+        public List<Publication> Publications { get; set; } =new List<Publication>();
+
+        public int SeniorityOrder { get; set; } = 0;
     }
 
     public class PersonalDetails

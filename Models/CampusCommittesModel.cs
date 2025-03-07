@@ -38,10 +38,11 @@ namespace GECP_Front_End_Static.Models
         public List<Members> Members { get; set; }= new List<Members>();
         public List<CommitteeActivity> Activities { get; set; } = new List<CommitteeActivity>();
         public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
-
+    		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
         public bool ShowDocument { get; set; } = false;
         public TabTitles TabTitles { get; set; } = new TabTitles();
     }
+
 
     public class AdditionalMembers
     {

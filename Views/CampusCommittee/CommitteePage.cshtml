@@ -53,7 +53,7 @@
 		{
 			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
 		}
-
+		<button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
@@ -268,6 +268,56 @@
 		{
 			<h2>No Activities Available</h2>
 		}
+	</div>
+	<div id="achDiv" class="tabcontent">
+
+		@if (Model.Achievements != null && Model.Achievements.Count() > 0)
+		{
+			count = 1;
+			@foreach (var item in Model.Achievements)
+			{
+				<div class="one_third @(count % 3 == 0 ? " last" : "" )">
+					<div class="box">
+						<div class="cbp-caption">
+							<div class="cbp-caption-defaultWrap">
+								<div class="blog_post">
+									<div class="blog_postcontent">
+										<div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt="" class="height180"></a></div>
+										<h3>@Html.Raw(item.Title)</h3>
+										<ul class="post_meta_links">
+											<li><a href="#" class="date">@item.Date</a></li>
+											@if (!string.IsNullOrWhiteSpace(item.Keywords))
+											{
+												foreach (string key in item.Keywords.Split(','))
+												{
+													<li class="post_categoty">@key</li>
+												}
+											}
+										</ul>
+										<div class="clearfix"></div>
+										<div class="margin_top1"></div>
+										<p class="text-justify">@item.Description</p>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				if (count % 3 == 0)
+				{
+					<div class="clearfix margin_bottom2"></div>
+				}
+				count++;
+
+			}
+		}
+		else
+		{
+			<h2>No Achievement Available</h2>
+		}
+
 	</div>
 </div>
 

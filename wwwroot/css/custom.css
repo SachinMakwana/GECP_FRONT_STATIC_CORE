@@ -882,6 +882,16 @@ table.dataTable thead .sorting_desc_disabled:before {
         border-right: none;
     }
 
+
+.blog_postcontent .image_frame .height180 {
+    height: 180px;
+}
+
+.box .blog_post .blog_postcontent {
+    height: 663px;
+    overflow:scroll:
+}
+
 .copyright_info2 {
     margin: 50px 0px 0px 0px;
 }
