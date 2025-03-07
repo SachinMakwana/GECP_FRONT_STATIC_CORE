@@ -111,12 +111,12 @@
         ],
         "Mission": [
             "To produce graduates according to the need of industry, government, society and scientific community.",
-            " To develop partnership with industries, government agencies and R &amp; D organizations for knowledge sharing and overall development of faculties and students.",
-            " To solve industrial, government agencies, societal and political issues by applying computing techniques. ",
-            " To motivate students to be entrepreneurs. ",
-            " To motivate students to participate in reputed conferences, workshops, symposiums, seminars and related technical activities. ",
-            " To impart human and ethical values in our students for better serving of society.",
-            " To create awareness among students and inculcate affection for free and open source software. "
+            "To develop partnership with industries, government agencies and R &amp; D organizations for knowledge sharing and overall development of faculties and students.",
+            "To solve industrial, government agencies, societal and political issues by applying computing techniques. ",
+            "To motivate students to be entrepreneurs. ",
+            "To motivate students to participate in reputed conferences, workshops, symposiums, seminars and related technical activities. ",
+            "To impart human and ethical values in our students for better serving of society.",
+            "To create awareness among students and inculcate affection for free and open source software. "
         ],
         "HODMessage": "Greetings! On behalf of the faculty members, staff, and students of the Department of Computer Science and Engineering of Government Engineering College Patan, I welcome you all to the creative world of CSE. Our primary objective of this programme is to develop Computer Engineers with knowledge of software and hardware, responsible for wide range of computer system design and development, built them as dedicated and competent professionals for challenging world of varying requirements of automation. During the course, students are able to mould their career, polish their technical skills and also inculcate team spirit with good oral and written communication. Students are supported technically and financially to participate in competitions, hackathons at state, national and international level platforms. Faculty members are encouraged to acquire higher degree and conduct investigation on research in the interest of the technical community. Faculty members are also supported to conduct workshops, symposium and conferences at national and international levels. They are motivated to adopt innovative teaching methodologies and best practices to make classroom a pursuit of learning. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
         "HODName": "Dr. Harikrishna Jethva",
@@ -399,8 +399,16 @@
         "HODName": "Prof. Anand Dhruv",
         "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
-        "PEOs": [],
-        "PSOs": [],
+        "PEOs": [
+            "To prepare graduates with a technical knowledge of mathematical, scientific, engineering, technology, management, humanities and various other interdisciplinary subjects for a successful career.",
+            "Graduates will apply the knowledge of Mechanical Engineering to solve real Engineering problems for sustainable development.",
+            "To inculcate graduates with leadership skills with high level of integrity, Professional personality and ethical values.",
+            "To equip graduates with modern tools, technology and advanced software for deliberating engineering solutions."
+        ],
+        "PSOs": [
+            "Apply the advanced software skills to Model, simulate, analyze and optimize Mechanical systems and Processes",
+            "Acquire technical and managerial skill for innovative activities."
+        ],
         "Labs": [
 
         ],
@@ -417,10 +425,10 @@
             }
         ],
         "Activities": [
-            
+
         ],
         "NoticeBoard": [
-            
+
         ]
     },
     {
