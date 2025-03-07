@@ -38,8 +38,11 @@ namespace GECP_Front_End_Static.Models
         public List<Members> Members { get; set; }= new List<Members>();
         public List<CommitteeActivity> Activities { get; set; } = new List<CommitteeActivity>();
         public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
-		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
-	}
+    		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
+        public bool ShowDocument { get; set; } = false;
+        public TabTitles TabTitles { get; set; } = new TabTitles();
+    }
+
 
     public class AdditionalMembers
     {
@@ -69,4 +72,17 @@ namespace GECP_Front_End_Static.Models
         public string FileType { get; set; }
         public string FilePath { get; set; }
     }
+
+    public class TabTitles
+    {
+        public string About { get; set; } = "About";
+        public string VisionMission { get; set; } = "Vision & Mission";
+        public string SubObjectives { get; set; } = "Sub Objectives";
+        public string Procedure { get; set; } = "Procedure";
+        public string Members { get; set; } = "Members";
+        public string Activities { get; set; } = "Activities";
+        public string Blogspot { get; set; } = "Blogspot";
+        public string Documents { get; set; } = "Documents";
+    }
+
 }

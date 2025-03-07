@@ -5,6 +5,8 @@
         public int ID { get; set; }
         public string Title { get; set; }
         public string File { get; set; }
+
+        public string MonthYear { get; set; } = "";
     }
 
     public class TendersVM

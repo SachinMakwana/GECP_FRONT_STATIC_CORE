@@ -72,6 +72,11 @@ namespace GECP_Front_End_Static.Controllers
         {
             return PartialView(@"~/Views/Shared/_topHeader.cshtml", headerVM);
         }
+
+        public PartialViewResult Footer()
+        {
+            return PartialView(@"~/Views/Shared/_footer.cshtml", headerVM);
+        }
         public PartialViewResult Menu(string currentController, string currentAction, int? dynamicID)
         {
             if (currentController == null || currentAction == null)

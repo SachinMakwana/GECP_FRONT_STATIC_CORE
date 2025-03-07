@@ -119,44 +119,110 @@
       "IsDynamic": false
     },
     {
-      "ID": 2,
-      "Icon": "../../images/Club/codehives.jpeg",
-      "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
-      "Title": "Code Hives",
-      "ActionName": "",
-      "ControllerName": "",
-      "SubObjectives": [],
-      "BlogLink": "",
-      "Images": [],
-      "Activities": [],
-      "IsDynamic": true
-    },
-    {
-      "ID": 3,
-      "Icon": "../../images/Club/animfx.jpeg",
-      "About": "AnimFX Club is a community focused on animation and visual effects (VFX). It offers workshops, collaborative projects, and networking opportunities for members interested in animation, 3D modeling, and VFX. It's a great place to learn, create, and connect with others in the field",
-      "Title": "AnimFx",
-      "ActionName": "",
-      "ControllerName": "",
-      "SubObjectives": [],
-      "BlogLink": "",
-      "Images": [],
-      "Activities": [],
-      "IsDynamic": true
-    },
-    {
-      "ID": 4,
-      "Icon": "../../images/Club/algozenith.jpeg",
-      "About": "AlgoZenith Club is a community focused on competitive programming and algorithms. It offers coding competitions, workshops, and collaborative learning opportunities to help members improve their problem-solving skills.",
-      "Title": "AlgoZenith",
-      "ActionName": "",
-      "ControllerName": "",
-      "SubObjectives": [],
-      "BlogLink": "",
-      "Images": [],
-      "Activities": [],
-      "IsDynamic": true
+        "ID": 2,
+        "Icon": "../../images/Club/codehives.jpeg",
+        "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
+        "Title": "Code Hives",
+        "ActionName": "ClubDetails",
+        "ControllerName": "StudentCorner",
+        "SubObjectives": [
+            "Learning and Development: Providing opportunities for members to learn programming languages, tools, and technologies through structured courses, workshops, and hands-on projects.",
+            "Community Building: Fostering a supportive and inclusive community where tech enthusiasts of all skill levels can connect, share knowledge, and collaborate on various coding projects.",
+            "Skill Enhancement: Offering a variety of events such as hackathons, coding challenges, and seminars that enable members to practice and improve their coding skills in a real-world setting.",
+            "Networking Opportunities: Creating a platform for members to network with industry professionals, mentors, and peers, thereby facilitating career growth and professional development.",
+            "Innovation and Creativity: Encouraging members to think creatively and innovate by providing them with the resources and environment to work on unique and challenging coding projects.",
+            "Career Support: Assisting members in their career journey by offering guidance, resume building workshops, interview preparation sessions, and job placement opportunities."
+        ],
+        "BlogLink": "",
+        "Images": [],
+        "Activities": [],
+        "IsDynamic": false,
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. S. H. Makwana",
+                "Position": "Mentor",
+                "Department": "Computer Science & Engineering Department",
+                "Image": "~/images/Faculty/207.jpg",
+                "Email": "sachin.makwana@gecpatan.ac.in"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. J. P. Patel",
+                "Position": "Converner",
+                "Department": "Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/208.jpg",
+                "Email": "jay.patel@gecpatan.ac.in"
+            },
+            {
+                "ID": 3,
+                "Name": "Miss. Krisha Panchal",
+                "Position": "Lead",
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "r.krisshhaa.2005@gmail.com"
+            },
+            {
+                "ID": 4,
+                "Name": "Mr. Kabir Dafda",
+                "Position": "Member",
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "kabirdafda082@gmail.com"
+            },
+            {
+                "ID": 5,
+                "Name": "Mr. Priyanshu Tandel",
+                "Position": "Member",
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "tandelpriyanshu24072004@gmail.com"
+            },
+            {
+                "ID": 6,
+                "Name": "Miss. Disha Patel ",
+                "Position": "Member",
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "dishapatel4700@gmail.com"
+            },
+            {
+                "ID": 7,
+                "Name": "Miss. Anju Rajput",
+                "Position": "Member",
+                "Department": "6th Sem, Computer Scence & Engineering Department",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "anju29104@gmail.com"
+            }
+        ]
     }
+    //,
+    //{
+    //  "ID": 3,
+    //  "Icon": "../../images/Club/animfx.jpeg",
+    //  "About": "AnimFX Club is a community focused on animation and visual effects (VFX). It offers workshops, collaborative projects, and networking opportunities for members interested in animation, 3D modeling, and VFX. It's a great place to learn, create, and connect with others in the field",
+    //  "Title": "AnimFx",
+    //  "ActionName": "",
+    //  "ControllerName": "",
+    //  "SubObjectives": [],
+    //  "BlogLink": "",
+    //  "Images": [],
+    //  "Activities": [],
+    //  "IsDynamic": true
+    //},
+    //{
+    //  "ID": 4,
+    //  "Icon": "../../images/Club/algozenith.jpeg",
+    //  "About": "AlgoZenith Club is a community focused on competitive programming and algorithms. It offers coding competitions, workshops, and collaborative learning opportunities to help members improve their problem-solving skills.",
+    //  "Title": "AlgoZenith",
+    //  "ActionName": "",
+    //  "ControllerName": "",
+    //  "SubObjectives": [],
+    //  "BlogLink": "",
+    //  "Images": [],
+    //  "Activities": [],
+    //  "IsDynamic": true
+    //}
   ]
 
 

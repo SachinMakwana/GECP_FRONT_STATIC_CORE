@@ -882,6 +882,7 @@ table.dataTable thead .sorting_desc_disabled:before {
         border-right: none;
     }
 
+
 .blog_postcontent .image_frame .height180 {
     height: 180px;
 }
@@ -890,40 +891,53 @@ table.dataTable thead .sorting_desc_disabled:before {
     height: 663px;
     overflow:scroll:
 }
-/*responsive goes here*/
-@media only screen and (max-width: 479px) {
-    .client_logos3 .minheight {
-        width: 60%;
-    }
+
+.copyright_info2 {
+    margin: 50px 0px 0px 0px;
 }
 
-@media (max-width: 768px) {
-    .logo_section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .gecp_logo {
-        flex-direction: column;
-    }
-
-    .gecp_name {
-        font-size: 1.2rem;
-    }
-
-    .gecp_logo img,
-    .gecp_gov_emblame img {
-        max-width: 60px; /* Smaller images for mobile */
-    }
-
-    .gecp_logo h1 {
-        display: inline;
-        margin: auto;
-        font-size: 29px;
-        top: -19px;
-        position: relative;
-        /*left: 3%;*/
-        font-variant: small-caps;
-    }
+.footer2 {
+    padding: 50px 0px 0px 0px;
 }
+
+.vcenter {
+    vertical-align: middle !important;
+    float: none;
+}
+    /*responsive goes here*/
+    @media only screen and (max-width: 479px) {
+        .client_logos3 .minheight {
+            width: 60%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .logo_section {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .gecp_logo {
+            flex-direction: column;
+        }
+
+        .gecp_name {
+            font-size: 1.2rem;
+        }
+
+        .gecp_logo img,
+        .gecp_gov_emblame img {
+            max-width: 60px; /* Smaller images for mobile */
+        }
+
+        .gecp_logo h1 {
+            display: inline;
+            margin: auto;
+            font-size: 29px;
+            top: -19px;
+            position: relative;
+            /*left: 3%;*/
+            font-variant: small-caps;
+        }
+    }

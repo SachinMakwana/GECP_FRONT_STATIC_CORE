@@ -25,60 +25,67 @@
 
 [
   {
-    "Id": 1,
+    "Id": 50,
     "Title": "Memorandum of Understanding",
     "YearSection": [
       {
         "Year": "2025",
         "Documents": [
-          {
-            "ID": 1,
-            "Title": "Kachchua Solutions Pvt. Ltd.",
-            "FileType": "PDF",
-            "File": "~/MOU/Kachhua.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          },
-          {
-            "ID": 2,
-            "Title": "Mahakali Engineering works",
-            "FileType": "PDF",
-            "File": "~/MOU/Mahakali.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          },
-          {
-            "ID": 3,
-            "Title": "Sai Sunrise Consultancy",
-            "FileType": "PDF",
-            "File": "~/MOU/SaiSunrise.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          },
-          {
-            "ID": 4,
-            "Title": "Silvertouch Technologies Ltd.",
-            "FileType": "PDF",
-            "File": "~/MOU/Silvertouch.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          },
-          {
-            "ID": 5,
-            "Title": "Edunet Foundation",
-            "FileType": "PDF",
-            "File": "~/MOU/techsaksham.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          },
-          {
-            "ID": 6,
-            "Title": "Unik Industries",
-            "FileType": "Word",
-            "File": "~/MOU/UNIK.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          }
+            {
+                "ID": 1,
+                "Title": "Kachchua Solutions Pvt. Ltd.",
+                "FileType": "PDF",
+                "File": "~/MOU/Kachhua.pdf",
+                "isShow": true,
+                "UploadDate": "",
+                "MonthYear": "Jan/2024"
+            },
+            {
+                "ID": 2,
+                "Title": "Mahakali Engineering works",
+                "FileType": "PDF",
+                "File": "~/MOU/Mahakali.pdf",
+                "isShow": true,
+                "MonthYear": "Jan/2024",
+                "UploadDate": ""
+            },
+            {
+                "ID": 3,
+                "Title": "Sai Sunrise Consultancy",
+                "FileType": "PDF",
+                "File": "~/MOU/SaiSunrise.pdf",
+                "isShow": true,
+                "MonthYear": "Jan/2024",
+                "UploadDate": ""
+            },
+
+            {
+                "ID": 4,
+                "Title": "Unik Industries",
+                "FileType": "PDF",
+                "File": "~/MOU/UNIK.pdf",
+                "isShow": true,
+                "MonthYear": "Jan/2024",
+                "UploadDate": ""
+            },
+            {
+                "ID": 5,
+                "Title": "Silvertouch Technologies Ltd.",
+                "FileType": "PDF",
+                "File": "~/MOU/Silvertouch.pdf",
+                "isShow": true,
+                "MonthYear": "Sept/2024",
+                "UploadDate": ""
+            },
+            {
+                "ID": 6,
+                "Title": "Edunet Foundation",
+                "FileType": "PDF",
+                "File": "~/MOU/techsaksham.pdf",
+                "isShow": true,
+                "MonthYear": "July/2022",
+                "UploadDate": ""
+            }
         ]
       }
     ]
@@ -87,7 +94,7 @@
 
 
   {
-    "Id": 2,
+    "Id": 30,
     "Title": "Mandatory Disclosure",
     "YearSection": [
       {
@@ -149,7 +156,7 @@
 
 
   {
-    "Id": 3,
+    "Id": 40,
     "Title": "Tenders",
     "YearSection": [
       {
@@ -171,7 +178,7 @@
 
 
   {
-    "Id": 4,
+    "Id": 60,
     "Title": "Time Table",
     "YearSection": [
       {
@@ -215,7 +222,9 @@
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
                 "isShow": true,
-                "UploadDate": "01-03-2025"
+
+                "UploadDate": "04-03-2025"
+
             },
             {
                 "ID": 6,
@@ -223,7 +232,9 @@
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
                 "isShow": true,
-                "UploadDate": "01-03-2025"
+
+                "UploadDate": "04-03-2025"
+
             }
         ]
       }
@@ -232,23 +243,77 @@
 
 
 
-  {
-    "Id": 5,
-    "Title": "Enrollment Details",
-    "YearSection": [
-      {
-        "Year": "2024",
-        "Documents": [
+    {
+        "Id": 5,
+        "Title": "Enrollment Details",
+        "YearSection": [
             {
-                "ID": 1,
-                "Title": "Enrollment Student List 2024",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/ENROLLMENT/Enrolled Students List 2024_BE First Semester and D2D_Final.pdf",
-                "isShow": true,
-                "UploadDate": "01-03-2025"
+                "Year": "2024",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Enrollment Student List 2024",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/Enrolled Students List 2024_BE First Semester and D2D_Final.pdf",
+                        "isShow": true,
+                        "UploadDate": "01-03-2025"
+                    }
+                ]
             }
         ]
-      }
-    ]
-  }
+    },
+    {
+        "Id": 9, //committee id
+        "Title": "Training & Placement",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Placement Data",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Placement Data Graphs",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData_Graph_View.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 2, //committee id
+        "Title": "Student Startup & Innovation Policy",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Placement Data",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Placement Data Graphs",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData_Graph_View.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    }
+                ]
+            }
+        ]
+    }
 ]

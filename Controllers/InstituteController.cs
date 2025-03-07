@@ -20,18 +20,22 @@ namespace GECP_Front_End_Static.Controllers
         public List<DocumentsVm> TendersVM = new List<DocumentsVm>();
         public List<TendersVM> ImpDocuments = new List<TendersVM>();
 
+        public List<DocumentsVm> DocumentsVms = new List<DocumentsVm>();
+
         public InstituteController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string jsonpath = webRootPath + @"\MOU\MPU.json";
+            //string jsonpath = webRootPath + @"\MOU\MPU.json";
+            string jsonpath = webRootPath + @"\Data\Documents\Documents.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";
             string tendersjsonpath = webRootPath + @"\Data\Tenders\Tenders.json";
             string impDocsJsonpath = webRootPath + @"\Data\ImportantDocuments\documentItems.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
-            MOUModelVM = JsonConvert.DeserializeObject<List<MOUModel>>(json);
+            //MOUModelVM = JsonConvert.DeserializeObject<List<MOUModel>>(json);
+            DocumentsVms = JsonConvert.DeserializeObject<List<DocumentsVm>>(json);
 
             jsonpath = webRootPath + @"\news\NewsLetters.json";
 
@@ -69,6 +73,12 @@ namespace GECP_Front_End_Static.Controllers
         {
             return View(TendersVM);
         }
+
+        public IActionResult TendersTableView()
+        {
+            return View(TendersVM);
+        }
+
         [HttpPost]
         public IActionResult TendersList(int id = 0)
         {
@@ -86,9 +96,13 @@ namespace GECP_Front_End_Static.Controllers
             return View(ImpDocuments.Where(m => m.isShow == true).ToList());
         }
 
-        public IActionResult MoU()
+        public IActionResult MoU() //document id 50
         {
-            return View(MOUModelVM);
+            DocumentsVm data = new DocumentsVm();
+
+            data = DocumentsVms.Where(m => m.Id == 50).FirstOrDefault();
+            data.YearSection = data.YearSection.OrderByDescending(m => m.Order).ToList();
+            return View(data);
         }
 
         public IActionResult RTI()
