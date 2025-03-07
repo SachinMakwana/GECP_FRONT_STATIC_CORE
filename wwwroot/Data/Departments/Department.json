@@ -88,80 +88,10 @@
             }
         ],
         "Activities": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ],
         "NoticeBoard": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ]
     },
     {
@@ -266,80 +196,10 @@
             }
         ],
         "Activities": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ],
         "NoticeBoard": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ]
     },
     {
@@ -428,80 +288,10 @@
             }
         ],
         "Activities": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ],
         "NoticeBoard": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ]
     },
     {
@@ -581,80 +371,10 @@
             }
         ],
         "Activities": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ],
         "NoticeBoard": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ]
     },
     {
@@ -697,80 +417,10 @@
             }
         ],
         "Activities": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ],
         "NoticeBoard": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ]
     },
     {
@@ -809,80 +459,10 @@
             }
         ],
         "Activities": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ],
         "NoticeBoard": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ]
     },
     {
@@ -960,80 +540,10 @@
             }
         ],
         "Activities": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ],
         "NoticeBoard": [
-            {
-                "ID": 1,
-                "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "",
-                "EventTime": "",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Placement Activities",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ActivityPoster.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Career Guidance Seminar",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    },
-                    {
-                        "ID": 2,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "Word",
-                        "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-                    }
-                ]
-            }
+            
         ]
     }
 ]

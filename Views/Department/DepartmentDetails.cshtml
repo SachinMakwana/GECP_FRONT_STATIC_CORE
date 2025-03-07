@@ -242,7 +242,7 @@
 
 
 
-			@foreach (var data in Model.FacultyList)
+			@foreach (var data in Model.FacultyList.OrderBy(m=>m.SeniorityOrder))
 			{
 				@if (data.IsTeaching)
 				{
@@ -318,7 +318,7 @@
 
 
 
-			@foreach (var data in Model.FacultyList)
+			@foreach (var data in Model.FacultyList.OrderBy(m => m.SeniorityOrder))
 			{
 				@if (!data.IsTeaching)
 				{

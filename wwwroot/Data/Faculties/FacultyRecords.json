@@ -15,7 +15,7 @@
     "Qualification": "M.E. Electronics",
     "Area_of_Interest": "EC",
     "Isteaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Prof. Sanjaykumar D. Joshi",
       "Designation": "Associate Professor",
@@ -229,7 +229,7 @@
     "Qualification": "Ph.D. Next Generation Wireless System",
     "Area_of_Interest": "Digital Communication,Wireless Communication and DSP",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Hareshkumar Judal</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E.(Communication Systems Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Digital Communication,Wireless Communication and DSP</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Judal Hareshkumar Laxmanbhai",
@@ -460,7 +460,7 @@
     "Qualification": "M.Tech Communication Systems ",
     "Area_of_Interest": "Communication Engg, Microwave Engg, Optical Fiber Communication",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Prof. JAYESHKUMAR PRAJAPATI",
       "Designation": "Assistant Professor",
@@ -528,7 +528,7 @@
     "Qualification": "M.Tech Communication Engineering",
     "Area_of_Interest": "DSP, COMMUNICATION SYSTEMS",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MIHIRKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">B.Tech (EC)  And M.Tech in  (Communication Engineering) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DSP, COMMUNICATION SYSTEMS</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Mihirkumar Mahendrabhai Patel",
@@ -607,7 +607,7 @@
     "Qualification": "M.Tech",
     "Area_of_Interest": "VLSI Design",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">VLSI Design</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "personal detail", "education Qualification", "Work Experience", "skill and knowledge", "course taught", "training and workshop", "portfolios", "research and project", "publication", "academic project", "patent field", "personal institution membership", "expert lectures", "award" ],
@@ -784,7 +784,7 @@
     "Qualification": "ME Signal processing and VLSI Technology",
     "Area_of_Interest": "Embedded system design, VLSI technology",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SHYAMKUMAR PANKHANIYA</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\">                                                  <div class=\"b-information-box f-information-box f-primary-b\">                                                         <ul>                                                             <li>                                                                 <strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">BE(EC), ME Signal processing and VLSI Technology(EC)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Embedded system design, VLSI technology</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "Work Experience", "skill and knowledge", "training and workshop", "research and project", "publication" ],
@@ -884,7 +884,7 @@
     "Qualification": "M.E Signal Processing & Communication",
     "Area_of_Interest": "Antenna, RF & Microwave Engineering, Wireless Communication, Basic Electronics",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Ms. ROSHNIBEN CHAUDHARI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E Signal Processing &amp; Communication</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Antenna, RF &amp; Microwave Engineering, Wireless Communication, Basic Electronics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Roshan Chaudhari",
@@ -982,7 +982,7 @@
     "Qualification": "Ph.D. EC",
     "Area_of_Interest": "MICROWAVE, ANTENNA, ELECTRONICS",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MAULIKKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH(MICROWAVE &amp; MILLIMETER ENGINEERING)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MICROWAVE, ANTENNA, ELECTRONICS</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "DR. MAULIKKUMAR BHARATBHAI PATEL ",
@@ -1102,7 +1102,7 @@
     "Qualification": "ME EC",
     "Area_of_Interest": "EMBEDDED SYSTEMS, DIGITAL CIRCUITS AND DESIGNING, MICROPROCESSOR, MICRO CONTROLLER & INTERFACING, PROGRAMMING USING C, BASIC ELECTRONICS,",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Ms. ANJU VASDEWANI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MASTER OF ENGINEERING</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">02 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EMBEDDED SYSTEMS, DIGITAL CIRCUITS AND DESIGNING, MICROPROCESSOR, MICRO CONTROLLER & INTERFACING, PROGRAMMING USING C, BASIC ELECTRONICS,</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Anju Murlibhai Vasdewani",
@@ -1178,7 +1178,7 @@
     "Qualification": "PhD.",
     "Area_of_Interest": "Machine Learning",
     "Isteaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Dr. Harikrishna Jethva",
       "Designation": "Associate Professor",
@@ -1515,7 +1515,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "COMPUTER NETWORKS",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Prof. Pinesh Arvindbhai Darji",
       "Designation": "Assistant Professor",
@@ -1689,7 +1689,7 @@
     "Qualification": "M.Tech. CE",
     "Area_of_Interest": "Routing in Wireless Sensor Network",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "PROF. ADESH V PANCHAL",
       "Designation": "Assistant Professor",
@@ -1805,7 +1805,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "PROF. MITUL JAYANTIBHAI PATEL",
       "Designation": "Assistant Professor",
@@ -1907,7 +1907,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Python",
     "Isteaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "PROF. SACHINKUMAR HARSHADBHAI MAKWANA",
@@ -2024,7 +2024,7 @@
     "Qualification": "ME IT",
     "Area_of_Interest": "Cloud computing",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JAY PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME/Mtech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Cloud computing </span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Jay Prakashbhai Patel",
@@ -2111,7 +2111,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Yogesh Patel</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Yogeshkumar Bharatbhai Patel",
@@ -2222,7 +2222,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "Android",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIVYESHKUMAR BAVISA</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Android</span></li></ul></div></div></div>",
 
     "PersonalDetails": {
@@ -2306,7 +2306,7 @@
     "Qualification": "M.E. IT",
     "Area_of_Interest": "Data Structures & Algorithm, DBMS, Data Mining, Computer Networks",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR VASAVA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (I.T.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Structures &amp; Algorithm, DBMS, Data Mining, Computer Networks</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Mehulkumar Vasava",
@@ -2384,7 +2384,7 @@
 
     "Area_of_Interest": "Data Security, Cloud Computing, Privacy Preservation, Language Programming",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. KRUNAL SUTHAR</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph. D. Computer Engineering, NET</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Security, Cloud Computing, Privacy Preservation, Language Programming</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education Qualification", "Work Experience", "department portfolio", "research publications" ],
@@ -2500,7 +2500,7 @@
     "Qualification": "M.E CE",
     "Area_of_Interest": "Image Processing, Machine Learning",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARESH CHANDE</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E - Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Image Processing, Machine Learning</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Haresh Dhanji Chande",
@@ -2620,7 +2620,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "DTN / IOT",
     "isTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHAD CHAUDHARY</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DTN / IOT</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof.Harshad L Chaudhary",
@@ -2708,7 +2708,7 @@
     "Qualification": "",
     "Area_of_Interest": "",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Miss. HIRALBEN RATHOD</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>"
 
   },
@@ -2723,7 +2723,7 @@
     "Qualification": "M.Tech CSE",
     "Area_of_Interest": "CSE",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Mr. Bhaveshkumar Patel",
@@ -2812,7 +2812,7 @@
     "Qualification": "M.E. CE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Viral Pansiniya</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Shri Viral B Pansiniya",
@@ -2864,7 +2864,7 @@
     "Qualification": "BE CSE ",
     "Area_of_Interest": "Computer Science and Engineering",
     "IsTeaching": false,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "",
     "PersonalDetails": {
       "Name": "Prajapati Reenaben Dasharathbhai",
@@ -2931,7 +2931,7 @@
     "Qualification": "ME Electrical",
     "Area_of_Interest": "Electrical Machines, Power Systems",
     "Isteaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. GUNVANTBHAI PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME Electrical</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">23 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical Machines,Power Systems</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "educational qualification", "work experience", "course taught" ],
@@ -2974,7 +2974,7 @@
     "Qualification": "M.E. Electrical ", //Pursuing Ph.D at IIT Roorkee
     "Area_of_Interest": "Electrical power system, Renewable energy",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHADKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.(Electrical) Pursuing Ph.D at IIT Roorkee</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">25 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical power system, Renewable energy</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "Work Experience", "portfolio", "education qualification", "research and projects", "training workshop", "course tought" ],
@@ -3246,7 +3246,7 @@
     "Qualification": "M.E. Power System",
     "Area_of_Interest": "Power System analysis, High Voltage Engineering, Power System Protection",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. ANILKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.Power System</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Power System analysis , High Voltage Engineering, Power System Protection</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "Work Experience", "course taught", "training and Workshop", "institute portfolio", "personal institution membership" ],
@@ -3270,7 +3270,7 @@
     "Qualification": "M.E. Power System",
     "Area_of_Interest": "Electrical Engineering",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARAN DABHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E. (Electrical)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">22 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical Engineering </span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "educational qualification", "educational qualification", "Work Experience", "Work Experience", "skills and knowledge", "course taught", "training and workshop", "portfolios", "research project", "publications", "academic project", "patent filed", "professional institution membership", "expert lectures", "award" ],
@@ -3399,7 +3399,7 @@
     "Qualification": "B.E (ELECTRICAL), M.E (ELECTRICAL POWER SYSTEM)",
     "Area_of_Interest": "ELECTRICAL POWER SYSTEM, ELECTRICAL MACHINE",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MANISHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E(ELECTRICAL) M.E (ELECTRICAL POWER SYSTEM)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ELECTRICAL POWER SYSTEM,ELECTRICAL MACHINE </span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "educational qualification", "work exprience", "skills and knowledge", "Courses taught", "training and workshop" ],
@@ -3423,7 +3423,7 @@
     "Qualification": "Ph.D. Electrical", // B.E. Electrical from L.D. College of Engineering, M.Tech. Electrical     (Power apparatus and systems) from Nirma University
     "Area_of_Interest": "Electrical drives, Power Electronics, Electrical Machines",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. PRAVINKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">B.E. Electrical from L.D.College of Engineering, M.Tech. Electrical (Power  apparatus and systems) from Nirma University</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">9 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical drives,Power Electronics,Electrical Machines.</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Pravinkumar D. Patel",
@@ -3638,7 +3638,7 @@
     "Qualification": "Ph.D. Electrical",
     "Area_of_Interest": "POWER SYSTEM",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Sohankumar  Prajapati</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E (ELECTRICAL)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">POWER SYSTEM</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Sohankumar Gordhanbhai Prajapati",
@@ -3844,7 +3844,7 @@
     "Qualification": "M.E.",
     "Area_of_Interest": "CIVIL ENGINEERING",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. VIPUL PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.Civil</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Water Resources Engineering</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. VIPUL DASHRATHBHAI PATEL",
@@ -4058,7 +4058,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Civil Engineering",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJENDRAKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Civil Engineering</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijendrakumar M. Patel",
@@ -4365,7 +4365,7 @@
     "Qualification": "Ph.D. Civil Engineering",
     "Area_of_Interest": "Civil Engineering",
     "Isteaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. MANJURALI BALYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D. (Civil Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Transportation Engineering</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education qualification", "Work Experience", "course taught", "training and workshop", "portfolios", "publication", "expert lectures" ],
@@ -4475,7 +4475,7 @@
     "Qualification": "Diploma Civil",
     "Area_of_Interest": "Civil",
     "IsTeaching": false,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "MR. MAYANKKUMAR AMRUTLAL PATEL",
@@ -4544,7 +4544,7 @@
     "Qualification": "Diploma Electrical Engineering",
     "Area_of_Interest": "Electrical Engineering",
     "IsTeaching": false,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "MR. ANKITKUMAR B. DARJI",
@@ -4583,7 +4583,7 @@
     "Qualification": "Ph.D.", //IITD
     "Area_of_Interest": "cad, cam, metal forming, automobile engg, manufacturing engg",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 1,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. ANAND DHRUV</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D. (IITD)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">26 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">cad, cam, metal forming, automobile engg, manufacturing engg</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "publication details", "training details", "other details" ],
@@ -4733,7 +4733,7 @@
     "Area_of_Interest": "Solar Energy",
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. DINESHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD (Mechanical Engineering) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">25 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Solar Energy</span></li></ul></div></div></div>",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 2,
     "PersonalDetails": {
       "Name": "Mr. DINESHKUMAR PATEL",
       "Designation": "Assistant Professor",
@@ -4826,7 +4826,7 @@
     "Qualification": "M.E Thermal Science and Engineering ",
     "Area_of_Interest": "Mechanical Engineering",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 4,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. CHIRAGKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Chiragkumar C. Patel",
@@ -4943,7 +4943,7 @@
     "Qualification": "M.E. Jet Propulsion and Gas Turbine ",
     "Area_of_Interest": "Jet propulsion and gas turbine",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 3,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIPAK PARMAR</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Master of Engineering </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">12 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Jet propulsion and gas turbine</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Dipak J. Parmar",
@@ -5345,7 +5345,7 @@
     "Qualification": "Ph.D. Mechanical",
     "Area_of_Interest": "production",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 5,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MITESHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.MECHANICAL (PROD. ENGG.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">production</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Miteshkumar Govindbhai Patel",
@@ -5499,7 +5499,7 @@
     "Qualification": "M.E CAD/CAM",
     "Area_of_Interest": "Parametric Optimization, Non Conventional Machining Processes, Finite Element modelling.",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 10,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHARGAVKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E CAD/CAM</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Parametric Optimization, Non Conventional Machining Processes, Finite Element modelling.</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "college level duties", "Deparatmental duties", "college level duties" ],
@@ -5693,7 +5693,7 @@
     "Qualification": "M.E CAD-CAM",
     "Area_of_Interest": "CAD-CAM",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 17,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KIRANKUMAR RABARI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD-CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. KIRANKUMAR   KANJIBHAI   RABARI",
@@ -5795,7 +5795,7 @@
     "Qualification": "B.E. MECHANICAL",
     "Area_of_Interest": "POWER PLANT ENGINEERING",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 16,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. CHIRAG KADIYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li>=<li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">BE MECHANICAL</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">13 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">POWER PLANT ENGINEERING</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. CHIRAG PRAVINBHAI KADIYA",
@@ -5847,7 +5847,7 @@
     "Qualification": "Ph. D. Mechanical",
     "Area_of_Interest": "Adaptive Control, CAD/CAM, Production, Robotics, Automation",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 7,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARENDRAKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Ph. D. Mechanical</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Experience</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                                                                                  <span class=\"f-information_data\">12 Years</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Adaptive Control, CAD/CAM, Production, Robotics, Automation</span>                                                              </li>                                                          </ul>                                                      </div>                                              </div>                                          </div>",
     "tabs": {
       "Head": [ "Educational Qualification", "Skill and Knowledge", "Course Taught", "Portfolios", "Research Projects", "Training and Workshop", "Publications", "Academic Projects", "Patent Filed", "Professional Institution Membership", "Expert Lectures", "Awards", "Work_Experience", "STTP/SEMINAR/Workshop Organized" ],
@@ -6120,7 +6120,7 @@
     "Qualification": "M.TECH CAD/CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 9,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAMLESH THAKKAR</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div>                                         </div>",
     "PersonalDetails": {
       "Name": "PROF. KAMLESH HASMUKHLAL THAKKAR",
@@ -6327,7 +6327,7 @@
     "Qualification": "Ph.D. Design And Dynamics",
     "Area_of_Interest": "Design, Dynamics and Manufacturing",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 15,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">                                              <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HIRENKUMAR  PRAJAPATI</a></div>                                             <hr>                                              <div class=\"b-portfolio_info_description f-portfolio_info_description\">                                                   <div class=\"b-information-box f-information-box f-primary-b\">                                                          <ul>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Designation</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Assistant Professor</span>                                                              </li>                                                                <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">M.Tech</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Experience</strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                                                                                  <span class=\"f-information_data\">7 Years</span>                                                              </li>                                                              <li>                                                                  <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong>                                                                  <i class=\"b-dotted f-dotted\">:</i>                                                                  <span class=\"f-information_data\">Design, Dynamics and Manufacturing</span>                                                              </li>                                                          </ul>                                                      </div>                                              </div>                                          </div>",
     "PersonalDetails": {
       "Name": "Dr. Hirenkumar Rameshbhai Prajapati",
@@ -6548,7 +6548,7 @@
     "Qualification": "M.E CAD/CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 11,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. VIPULKUMAR PATEL</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Vipulkumar Kashirambhai Patel",
@@ -6720,7 +6720,7 @@
     "Qualification": "M.E. IC Engine & Automobile",
     "Area_of_Interest": "I. C. Engines & Automobile",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 12,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. NARENDRASINH MAKVANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M. E. (Mechanical)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">I. C. Engines &amp; Automobile</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Narendrasinh Ramjibhai Makvana ",
@@ -6855,7 +6855,7 @@
     "Qualification": "M.E. CAD-CAM",
     "Area_of_Interest": "CAD/CAM",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 14,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. RAKESHKUMAR OZA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">CAD/CAM</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Rakesh A. Oza",
@@ -7045,7 +7045,7 @@
     "Qualification": "Ph.D Mechanical",
     "Area_of_Interest": "Machine Design",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 8,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. KAUSHIKKUMAR PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education qualification", "Work Experience", "patent publication", "subject taught", "training and workshop", "portfolio", "research project", "publication", "faculty training Monitoring cell" ],
@@ -7319,7 +7319,7 @@
     "Qualification": "M.TECH AMT",
     "Area_of_Interest": "MANUFACTURING",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 18,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">   <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DHARMESH PATEL</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH (AMT) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">7 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MANUFACTURING</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Dharmesh Kantilal Patel",
@@ -7361,7 +7361,7 @@
     "Qualification": "M.E. Mechanical Machine Design",
     "Area_of_Interest": "Machine Design",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 6,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN PATEL</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. Mechanical Machine Design</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Sachin Patel",
@@ -7387,7 +7387,7 @@
     "Qualification": "Ph.D. Renewable Energy",
     "Area_of_Interest": "Solar Thermal, Solar Photovoltaic, IC Engine",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 13,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HITESH PANCHAL</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Solar Thermal, Solar Photovoltaic, IC Engine</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Hitesh Panchal",
@@ -7480,7 +7480,7 @@
     "Qualification": "B.E. Mechatronics",
     "Area_of_Interest": "Mechanical Engineering",
     "IsTeaching": false,
-    "SeniorityOrder":,
+    "SeniorityOrder": 20,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "MS. PRIYANKA J. PATEL",
@@ -7515,7 +7515,7 @@
     "Qualification": "Diploma Mechanical ",
     "Area_of_Interest": "Mechanical Engineering",
     "IsTeaching": false,
-    "SeniorityOrder":,
+    "SeniorityOrder": 19,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "MR. RAKESHKUMAR VISHNUBHAI PATEL",
@@ -7555,7 +7555,7 @@
     "Qualification": "M.Phil, CSIR- UGC NET, Ph.D.",
     "Area_of_Interest": "Fuzzy Mathematics",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY SONI</a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Phil, CSIR- UGC NET, Ph.D. </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijay P. Soni",
@@ -7767,7 +7767,7 @@
     "Qualification": "Ph.D",
     "Area_of_Interest": "Atomic and Molecular Physics",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. ASHOKKUMAR CHAUDHARI </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic and Molecular Physics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr.Ashok K.Chaudhari",
@@ -7951,7 +7951,7 @@
     "Qualification": "M.Sc. PhD CSIR-UGC NET",
     "Area_of_Interest": "Fuzzy Mathematics & Linear algebra",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY MAKWANA </a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Sc. PhD </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics &amp; Linear algebra</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijay C. Makwana",
@@ -8171,7 +8171,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Queuing Theory",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Dr. Bhavin S. Patel",
       "Designation": "Assistant Professor",
@@ -8363,7 +8363,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Atomic and Molecular Physics",
     "Isteaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HARSHADKUMAR BHUTADIA </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.(Physics) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic andMolecular Physics</span></li></ul></div></div></div>"
 
     "PersonalDetails": {
@@ -8678,7 +8678,7 @@
     "Qualification": "Ph.D. Civil",
     "Area_of_Interest": "Concrete Technology, Structural Analysis & Design, Earthquake Engineering",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. PARESHKUMAR NIMODIYA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.Tech. (Structural Engineering)</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">10 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Concrete Technology,Structural Analysis &amp; Design, Earthquake Engineering</span> </li> </ul> </div> </div> </div>"
     "PersonalDetails": {
       "Name": "Dr. Pareshkumar N. Nimodiya",
@@ -8878,7 +8878,7 @@
     "Qualification": "M.E.Civil ",
     "Area_of_Interest": "Structural Analysis & Design",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARDIK TRIVEDI</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E.Civil (CASAD)</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">10 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Structural Analysis &amp; Design</span> </li> </ul> </div> </div> </div>",
     "PersonalDetails": {
       "Name": "Prof. Hardik R. Trivedi",
@@ -9046,7 +9046,7 @@
     "Qualification": "Ph.D. Civil",
     "Area_of_Interest": "Characterization and production of different types of concrete",
     "IsTeaching": true,
-    "SeniorityOrder":,
+    "SeniorityOrder": 0,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JIGNESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"> <div class=\"b-information-box f-information-box f-primary-b\"> <ul> <li> <strong class=\"f-information-box__name b-information-box__name\">Designation</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Assistant Professor</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Qualification</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">Master in Structural Engineering</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Experience</strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">5 Years</span> </li> <li> <strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong> <i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">characterization and production of different types of concrete</span> </li> </ul> </div> </div> </div>"
     "PersonalDetails": {
       "Name": "Dr. Jigeshkumar Mahendrabhai Patel",
