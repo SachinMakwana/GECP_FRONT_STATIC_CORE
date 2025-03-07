@@ -54,6 +54,7 @@ namespace GECP_Front_End_Static.Models
         public string ActionName { get; set; }
         public string ControllerName { get; set; }
         public bool IsDynamic { get; set; }
+        public int? dynamicID { get; set; }
         public List<Members> Members { get; set; }
         public List<string> SubObjectives { get; set; }
         public string BlogLink { get; set; }

@@ -14,7 +14,7 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public Hostel HostelVM = new Hostel();
         //public List<Student> Students = new List<Student>();
-        public List<Student> StudentVMs = new List<Student>();
+        public Student CentralFacilitie = new Student();
         public List<Medical> MedicalVMs = new List<Medical>();
         public Library LibraryVM = new Library();
         public COE COEVM = new COE();
@@ -26,7 +26,7 @@ namespace GECP_Front_End_Static.Controllers
             string jsonpath1 = webRootPath + @"\Data\Facilities\Medical.json";
             string jsonpath3 = webRootPath + @"\Data\Facilities\Library.json";
             // string jasonpath1 = webRootPath + @"\Data\Facilities\Student.json";
-            string jsonpath2 = webRootPath + @"\Data\Facilities\Student.json";
+            string jsonpath2 = webRootPath + @"\Data\Facilities\CentralFacilities.json";
             string jsonpath4 = webRootPath + @"\Data\Facilities\COE.json";
 
             var webClient = new WebClient();
@@ -39,7 +39,7 @@ namespace GECP_Front_End_Static.Controllers
             // string json1 = webClient.DownloadString(jasonpath1);
             HostelVM = JsonConvert.DeserializeObject<Hostel>(json);
             // Students = JsonConvert.DeserializeObject<List<Student>>(json1);
-            StudentVMs = JsonConvert.DeserializeObject<List<Student>>(json2);
+            CentralFacilitie = JsonConvert.DeserializeObject<Student>(json2);
             MedicalVMs = JsonConvert.DeserializeObject<List<Medical>>(json1);
             LibraryVM = JsonConvert.DeserializeObject<Library>(json3);
             COEVM = JsonConvert.DeserializeObject<COE>(json4);
@@ -73,20 +73,13 @@ namespace GECP_Front_End_Static.Controllers
         }
         public IActionResult CentralFacilities()
         {
-            return View();
+            return View(CentralFacilitie);
         }
         public IActionResult MedicalFacility(int id)
         {
             var medical = MedicalVMs.Where(m => m.ID == id).FirstOrDefault();
             return View(medical);
         }
-        public IActionResult StudentClub(int id)
-        {
-            var student = StudentVMs.Where(m => m.ID == id).FirstOrDefault();
-            // var Stud = Students.Where(m => m.ID == id).FirstOrDefault();
-            return View(student);
-        }
-		
 
 		public IActionResult CenterOfExcellence()
         {

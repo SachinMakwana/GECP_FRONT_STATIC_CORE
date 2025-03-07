@@ -235,6 +235,26 @@
 
                 "UploadDate": "04-03-2025"
 
+            },
+            {
+                "ID": 7,
+                "Title": "MECHANICAL ODD 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2024_2025.pdf",
+                "isShow": true,
+
+                "UploadDate": "07-03-2025"
+
+            },
+            {
+                "ID": 8,
+                "Title": "MECHANICAL EVEN 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2024_2025.pdf",
+                "isShow": true,
+
+                "UploadDate": "07-03-2025"
+
             }
         ]
       }
@@ -298,19 +318,35 @@
                 "Documents": [
                     {
                         "ID": 1,
-                        "Title": "Placement Data",
+                        "Title": "Guidelines for IPR Support in SSIP_2.O",
+                        "File": "~/AcademicCalender/Guidelines_for_IPR_Support_in_SSIP_2.O.pdf",
                         "FileType": "PDF",
-                        "File": "~/DataFiles/Documents/TPO/PlacementData.pdf",
-                        "isShow": true,
-                        "UploadDate": "04-03-2025"
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
                     },
                     {
                         "ID": 2,
-                        "Title": "Placement Data Graphs",
+                        "Title": "SSIP 2.0 GR",
+                        "File": "~/AcademicCalender/SSIP 2.0 GR.pdf",
                         "FileType": "PDF",
-                        "File": "~/DataFiles/Documents/TPO/PlacementData_Graph_View.pdf",
-                        "isShow": true,
-                        "UploadDate": "04-03-2025"
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "FinancialGuideline SSIP2.0",
+                        "File": "~/AcademicCalender/FinancialGuideline_SSIP2.0.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "TRL Explantion",
+                        "File": "~/AcademicCalender/TRLExplantion.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
                     }
                 ]
             }

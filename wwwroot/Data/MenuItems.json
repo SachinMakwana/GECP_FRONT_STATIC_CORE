@@ -296,7 +296,7 @@
                         "ParentID": 5,
                         "dynamicID": 2,
                         "ControllerName": "Facilities",
-                        "ActionName": "StudentClub",
+                        "ActionName": "CentralFacilities",
                         "position": 6,
                         "isVisible": true,
                         "ChildMenuVMs": []
@@ -630,18 +630,18 @@
             },
             {
                 "ID": 102,
-                "MenuText": "SSIP Documents",
+                "MenuText": "SSIP",
                 "ParentID": 10,
-                "dynamicID": null,
-                "ControllerName": "Academics",
-                "ActionName": "SSIPDocuments",
+                "dynamicID": 2,
+                "ControllerName": "CampusCommittee",
+                "ActionName": "CommitteePage",
                 "position": 2,
                 "isVisible": true,
                 "ChildMenuVMs": []
             },
             {
                 "ID": 102,
-                "MenuText": "Design Lab",
+                "MenuText": "Design & Tinkiering Lab",
                 "ParentID": 10,
                 "dynamicID": null,
                 "ControllerName": "Research",
