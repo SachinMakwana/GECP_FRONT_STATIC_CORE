@@ -4545,7 +4545,7 @@
     "Area_of_Interest": "Electrical Engineering",
     "IsTeaching": false,
     "SeniorityOrder":,
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "MR. ANKITKUMAR B. DARJI",
       "Designation": "LAB ASSISTANT",
@@ -5510,20 +5510,178 @@
       ]
     },
     "PersonalDetails": {
-      "Name": "Prof. Bhargavkumar Patel",
+      "Name": "Prof. Bhargavkumar B. Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical Engineering",
-      "Contact": "+91-8347055235",
+      "Contact": "",
       "Email": "bhargav.patel@geccpatan.ac.in"
     },
     "EducationalQualifications": [
-
+      {
+        "Degree": "PhD",
+        "Year": "Pursuing",
+        "Specialization": ""
+      },
+      {
+        "Degree": "M.E.",
+        "Year": "2012",
+        "Specialization": "CAD/CAM"
+      },
+      {
+        "Degree": "B.E.",
+        "Year": "2007",
+        "Specialization": ""
+      }
     ],
     "ProfessionalExperiences": [
-
+      {
+        "Position": "Assistant Professor",
+        "Organization": "GEC Patan",
+        "Duration": "10-06-2016 to Present"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Sankalchang Patel College of Engineering, Visnagar",
+        "Duration": "27-07-2007 to 20-05-2016"
+      }
     ],
-    "TrainingAndWorkshops": [],
-    "Publications": []
+    "TrainingAndWorkshops": [
+      {
+        "Title": "Computer Aided Engineering Using NX",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "07/11/2016 to 19/11/2016"
+      },
+      {
+        "Title": "Digital Manufacturing Using Rob CAD",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "17/10/2016 to 21/10/2016"
+      },
+      {
+        "Title": "Recent Trends in Automation & Control",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "24/10/2016 to 28/10/2016"
+      },
+      {
+        "Title": "I-FDP International Faculty Development Program",
+        "OrganizedBy": "GEC, Patan & Mahatma Mandir",
+        "Date": "03/10/2017, 14/10/2017, 27/10/2017"
+      },
+      {
+        "Title": "Latex for Academic Writing",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "20/03/2017 to 24/03/2017"
+      },
+      {
+        "Title": "Advance Computer Aided Manufacturing Techniques",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "22/05/2017 to 02/06/2017"
+      },
+      {
+        "Title": "Induction Training Programme Phase-1",
+        "OrganizedBy": "NITTTR, Ahmedabad",
+        "Date": "21/08/2017 to 01/09/2017"
+      },
+      {
+        "Title": "Induction Training Programme Phase-2",
+        "OrganizedBy": "NITTTR, Ahmedabad",
+        "Date": "10/06/2019 to 21/06/2019"
+      },
+      {
+        "Title": "Comprehensive Online Intellectual Property Rights (IPR)",
+        "OrganizedBy": "Online",
+        "Date": "06/07/2020 to 14/09/2020"
+      },
+      {
+        "Title": "UDAYAM E-Content Development Course",
+        "OrganizedBy": "Online",
+        "Date": "28/07/2020 to 18/08/2020"
+      },
+      {
+        "Title": "ICT in Teaching and Learning",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2020 to 05/2020"
+      },
+      {
+        "Title": "Technology Enabled Learning",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2022 to 05/2022"
+      },
+      {
+        "Title": "Impactful Pedagogical Skills and Restructuring of Collaborations",
+        "OrganizedBy": "GEC, Patan (Online)",
+        "Date": "17/01/2022 to 21/01/2022"
+      },
+      {
+        "Title": "Leadership and Team Effectiveness",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2024 to 04/2024"
+      },
+      {
+        "Title": "Student Assessment",
+        "OrganizedBy": "MOOC (Online)",
+        "Date": "01/2024 to 06/2024"
+      },
+      {
+        "Title": "Industrial Training at Suchi Foams",
+        "OrganizedBy": "Suchi Foams Pvt. Ltd.",
+        "Date": "17/06/2024 to 29/06/2024"
+      },
+      {
+        "Title": "Industrial Training at Royal Castor Products Limited",
+        "OrganizedBy": "Royal Castor Products Limited",
+        "Date": "08/07/2024 to 21/07/2024"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "B. B. Patel, K. B. Rathod, “Optimization of process parameters for SS 304 using taguchi method for fuzzy control based EDM” Journal of information knowledge and research in mechanical engineering, Nov-2011 Vol. 2 issue 1."
+      },
+      {
+        "SrNo": 2,
+        "Title": "B. B. Patel, V. M. Prajapati, “Review on the conventional EDM of silicon carbide material” National conference on technology and management 2012, SPCE Visnagar."
+      },
+      {
+        "SrNo": 3,
+        "Title": "B. B. Patel, G. D. Mistry, “Investigation for effective methodology for teaching CAD software” International journal of computer applications in engineering technology and sciences, April – September 2012 Vol. 4 issue 2."
+      },
+      {
+        "SrNo": 4,
+        "Title": "B. B. Patel, K. B. Rathod, “Multi parameter analysis and modeling of SR in EDM of AISI D2 steel” International journal of scientific & engineering research, March 2012 Vol. 3 issue 3."
+      },
+      {
+        "SrNo": 5,
+        "Title": "B. B. Patel, K. B. Rathod, Multi parameter analysis and modeling of AISI D2 steel in Electro discharge machining."
+      },
+      {
+        "SrNo": 6,
+        "Title": "B. B. Patel, “Application of response surface methodology for determining MRR and TWR model in die sinking EDM of AISI 1045 steel”, International journal of engineering research and applications, Vol.2 issue 6 Nov-Dec 2012."
+      },
+      {
+        "SrNo": 7,
+        "Title": "B. B. Patel, “Multi objective optimization of die sinking electro discharge machining process using taguchi,” International journal of engineering research and applications, Vol.2 issue 6 Nov-Dec 2012."
+      },
+      {
+        "SrNo": 8,
+        "Title": "B. B. Patel, P.R. Patel, V. A. Patel, “Effect of machining parameters on surface roughness for 6063 al-tic (5 & 10 %) metal matrix composite using RSM” International journal of engineering research and Technology, Vol. 2 issue 1 Jan 2013."
+      },
+      {
+        "SrNo": 9,
+        "Title": "B. B. Patel, V A Patel, Dr. K. M. Patel, “Investigation of mechanical properties of aluminum based particle reinforced hybrid composite manufactured by stir casting” BIOINFO Mechanical Engineering, Volume 3, Issue 1, 2014, pp.-024-028."
+      },
+      {
+        "SrNo": 10,
+        "Title": "B. B. Patel, Nidhi D. Patel, “Fracture Analysis of FDM Manufactured Acrylonitrile Butadiene Styrene Using Fem” International Journal of Recent Research in Civil and Mechanical Engineering (IJRRCME) Vol. 2, Issue 1, pp: (84-90), Month: April 2015 – September 2015."
+      },
+      {
+        "SrNo": 11,
+        "Title": "Bhargav Patel, Fabrication of Copper Reinforced Aluminium 6061-T6 Surface Composite using Friction Stir Processing \"International Conference on Futuristic Advances in Mechatronics Engineering for Aerospace and Defence (ICFAMEAD 2024) October 04-05, 2024.\""
+      },
+      {
+        "SrNo": 12,
+        "Title": "Bhargav Patel, A review of friction stirred aluminium graphene surface composite (FSAGSC): Microstructure evolution, properties improvement \"International Conference on Futuristic Advances in Mechatronics Engineering for Aerospace and Defence (ICFAMEAD 2024) October 04-05, 2024.\""
+      }
+    ]
   },
   {
     "ID": 507,
@@ -7311,7 +7469,75 @@
         "Title": "Raju R. Yenare, Chandrakant R. Sonawane, Anirban Sur, Bharat Singh, Hitesh Panchal, Abhinav Kumar, Kishor Kumar Sadasivuni, Md Irfanul Haque Siddiqui, Yogesh Bhalerao. A comprehensive review of portable cold storage: Technologies, applications, and future trends, Alexandria Engineering Journal, Volume 94, 2024, Pages 23-33, ISSN 1110-0168,"
       }
     ]
+  },
+  {
+    "ID": 520,
+    "Name": "MS. PRIYANKA J. PATEL",
+    "Designation": "LAB ASSISTANT",
+    "image": "images/Faculty/520.jpg",
+    "Dept_ID": 5,
+    "Date_of_Joining": "1000-12-31",
+    "Qualification": "B.E. Mechatronics",
+    "Area_of_Interest": "Mechanical Engineering",
+    "IsTeaching": false,
+    "SeniorityOrder":,
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
+    "PersonalDetails": {
+      "Name": "MS. PRIYANKA J. PATEL",
+      "Designation": "LAB ASSISTANT",
+      "Department": "Mechanical",
+      "Contact": "+91-8141616711",
+      "Email": "priyankapatel116@gmail.com"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "B.E.",
+        "Year": "2014",
+        "Specialization": "Mechatroncs"
+      }
+    ],
+    "ProfessionalExperiences": [
 
+    ],
+    "TrainingAndWorkshops": [
+    ],
+    "Publications": [
+    ]
+
+  },
+  {
+    "ID": 521,
+    "Name": "MR. RAKESHKUMAR V. PATEL",
+    "Designation": "LAB ASSISTANT",
+    "image": "images/Faculty/521.jpg",
+    "Dept_ID": 5,
+    "Date_of_Joining": "1000-12-31",
+    "Qualification": "Diploma Mechanical ",
+    "Area_of_Interest": "Mechanical Engineering",
+    "IsTeaching": false,
+    "SeniorityOrder":,
+    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\"></a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
+    "PersonalDetails": {
+      "Name": "MR. RAKESHKUMAR VISHNUBHAI PATEL",
+      "Designation": "LAB ASSISTANT",
+      "Department": "Mechanical",
+      "Contact": "+91-9726037705",
+      "Email": "rakeshpatel2021@gmail.com"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "Diploma",
+        "Year": "2005",
+        "Specialization": "Mechanical"
+      }
+    ],
+    "ProfessionalExperiences": [
+
+    ],
+    "TrainingAndWorkshops": [
+    ],
+    "Publications": [
+    ]
 
   },
 
@@ -8412,29 +8638,29 @@
 
   //7xx
 
-  {
-    "ID": "701",
-    "Name": "Dr. B. J. Shah",
-    "Designation": "Principal",
-    "image": "",
-    "Dept_ID": "7",
-    "Date_of_Joining": "",
-    "Qualification": "",
-    "Area_of_Interest": "",
-    "Isteaching": ,
-    "SeniorityOrder": "",
-    "PersonalDetails": {
-      "Name": "Dr. B.J. Shah",
-      "Designation": "",
-      "Department": "",
-      "Contact": "",
-      "Email": ""
-    },
-    "EducationalQualifications": [],
-    "ProfessionalExperiences": [],
-    "TrainingAndWorkshops": [],
-    "Publications": []
-  }
+  //{
+  //  "ID": "701",
+  //  "Name": "Dr. B. J. Shah",
+  //  "Designation": "Principal",
+  //  "image": "",
+  //  "Dept_ID": "7",
+  //  "Date_of_Joining": "",
+  //  "Qualification": "",
+  //  "Area_of_Interest": "",
+  //  "Isteaching":,
+  //  "SeniorityOrder": "",
+  //  "PersonalDetails": {
+  //    "Name": "Dr. B.J. Shah",
+  //    "Designation": "Principal",
+  //    "Department": "Admin",
+  //    "Contact": "",
+  //    "Email": ""
+  //  },
+  //  "EducationalQualifications": [],
+  //  "ProfessionalExperiences": [],
+  //  "TrainingAndWorkshops": [],
+  //  "Publications": []
+  //},
 
 
   //8xx
