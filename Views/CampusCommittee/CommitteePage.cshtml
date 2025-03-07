@@ -1,324 +1,375 @@
 ﻿@model CampusCommittesVM
 @{
-	Layout = "~/Views/Shared/_Layout.cshtml";
-	ViewBag.Title = Model.Title;
-	int count = 1;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.Title;
+    int count = 1;
 }
 
 <div class="clearfix"></div>
 
 
 <div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;background-size: cover;">
-	<div class="container">
+    <div class="container">
 
-		<h1>
-			@Model.Title @* <em>Government Engineering College</em> *@
-			<div class="line"></div>
-		</h1>
+        <h1>
+            @Model.Title @* <em>Government Engineering College</em> *@
+            <div class="line"></div>
+        </h1>
 
-	</div>
+    </div>
 </div>
 <div class="clearfix"></div>
 
 <div class="margin_top10"></div>
 
 <div class="full-container">
-	<div class="tab">
-		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
-		@if (Model.Vision != null && Model.Mission != null)
-		{
-			<button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
-		}
-		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button>
-		}
-		@if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
-		}
-		@if (Model.Members != null && Model.Members.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
-		}
-		@if (Model.Activities != null && Model.Activities.Count()>0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'Activities')">@Model.TabTitles.Activities</button>
-		}
-		@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
-		{
-			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
-		}
-		@if (Model.ShowDocument)
-		{
-			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
-		}
-		<button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
-	</div>
-	<div id="About" class="tabcontent">
-		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
-			<div class="full-container">
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
+        @if (Model.Vision != null && Model.Mission != null)
+        {
+            <button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
+        }
+        @if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button>
+        }
+        @if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
+        }
+        @if (Model.Members != null && Model.Members.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
+        }
+        @if (Model.Activities != null && Model.Activities.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Activities')">@Model.TabTitles.Activities</button>
+        }
+        @if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+        {
+            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
+        }
+        @if (Model.ShowDocument)
+        {
+            <a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
+        }
+        @if (Model.Achievements != null && Model.Achievements.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
+        }
+    </div>
+    <div id="About" class="tabcontent">
+        <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
+            <div class="full-container">
 
 
-				<div class="container center-block">
+                <div class="container center-block">
 
-					@* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
-					<img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
+                    @* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
+                    <img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
 
-				</div>
-				<div class="clearfix margin_top1"></div>
-				<div class="text-justify">
+                </div>
+                <div class="clearfix margin_top1"></div>
+                <div class="text-justify">
 
-					<h4 class="color3 margin_bottom2">About @Model.Title</h4>
-					<p class="bigtfont text-justify overflowCommittes">
-						@Html.Raw(Model.About)
-					</p>
-					<div class="clearfix margin_top3"></div>
-					@if (!string.IsNullOrWhiteSpace(Model.Measures))
-					{
+                    <h4 class="color3 margin_bottom2">About @Model.Title</h4>
+                    <p class="bigtfont text-justify overflowCommittes">
+                        @Html.Raw(Model.About)
+                    </p>
+                    <div class="clearfix margin_top3"></div>
+                    @if (!string.IsNullOrWhiteSpace(Model.Measures))
+                    {
 
-						<h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
+                        <h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
 
-						<div class="bigtfont text-justify overflowCommittes">
-							@Html.Raw(Model.Measures)
-						</div>
-					}
-				</div>
-				<!-- end section -->
+                        <div class="bigtfont text-justify overflowCommittes">
+                            @Html.Raw(Model.Measures)
+                        </div>
+                    }
+                </div>
+                <!-- end section -->
 
 
-			</div>
-		</div>
-	</div>
-	<div id="VisionMission" class="tabcontent">
-		<div class="featured_section106" style="background-color:white">
-			<div style="padding-left:10px;">
+            </div>
+        </div>
+    </div>
+    <div id="VisionMission" class="tabcontent">
+        <div class="featured_section106" style="background-color:white">
+            <div style="padding-left:10px;">
 
-				<div class="margin_top2"></div>
-				<h2 class="roboto thin">Vision </h2>
-				<div class="hsmline7"></div>
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Vision </h2>
+                <div class="hsmline7"></div>
 
-				<br><br>
-				@foreach (var obj in Model.Vision)
-				{
-					<h4 class="roboto thin text-justify"> @Html.Raw(obj)</h4>
-				}
+                <br><br>
+                @foreach (var obj in Model.Vision)
+                {
+                    <h4 class="roboto thin text-justify"> @Html.Raw(obj)</h4>
+                }
 
-				<div class="margin_top2"></div>
-				<div class="clearfix margin_top2"></div>
-				<h2 class="roboto thin">Mission </h2>
-				<div class="hsmline7"></div>
+                <div class="margin_top2"></div>
+                <div class="clearfix margin_top2"></div>
+                <h2 class="roboto thin">Mission </h2>
+                <div class="hsmline7"></div>
 
-				<br><br>
-				@foreach (var obj in Model.Mission)
-				{
-					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
-				}
+                <br><br>
+                @foreach (var obj in Model.Mission)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+                }
 
-				<div class="margin_top2"></div>
+                <div class="margin_top2"></div>
 
-			</div>
-		</div>
-	</div>
-	<div id="SubObjectives" class="tabcontent">
-		<div class="featured_section106">
-			<div class="full-container">
+            </div>
+        </div>
+    </div>
+    <div id="SubObjectives" class="tabcontent">
+        <div class="featured_section106">
+            <div class="full-container">
 
-				<div class="margin_top2"></div>
-				<h2 class="roboto thin">Sub-Objectives </h2>
-				<div class="hsmline7"></div>
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Sub-Objectives </h2>
+                <div class="hsmline7"></div>
 
-				<br><br>
-				@foreach (var obj in Model.SubObjectives)
-				{
-					<h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
-				}
+                <br><br>
+                @foreach (var obj in Model.SubObjectives)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+                }
 
-				<div class="margin_top2"></div>
+                <div class="margin_top2"></div>
 
-			</div>
-		</div>
-	</div>
-	<div id="Members" class="tabcontent">
-		<div class="featured_section30">
-			<div class="full-container">
-				<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-					Committee Members
-				</h1>
-				@foreach (var item in Model.Members)
-				{
+            </div>
+        </div>
+    </div>
+    <div id="Members" class="tabcontent">
+        <div class="featured_section30">
+            <div class="full-container">
+                <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                    Committee Members
+                </h1>
+                @foreach (var item in Model.Members)
+                {
 
-					<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
+                    <div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
 
-						<img src="@Url.Content(item.Image)" alt="">
-						<h5>@item.Name <em>@item.Position</em></h5>
-						<text>@item.Department</text>
-						<text>@item.Email</text>
+                        <img src="@Url.Content(item.Image)" alt="">
+                        <h5>@item.Name <em>@item.Position</em></h5>
+                        <text>@item.Department</text>
+                        <text>@item.Email</text>
 
-					</div>
+                    </div>
 
-					<!-- end section -->
-					<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
-					count++;
-				}
-			</div>
-			@if (Model.AdditionalMembers.Count() > 0)
-			{
-				@foreach (var additionalMembers in Model.AdditionalMembers)
-				{
-					<div class="clearfix margin_top5"></div>
-					<div class="full-container">
-						<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-							@additionalMembers.CommitteeTitle
-						</h1>
-						@foreach (var item in additionalMembers.Members)
-						{
+                    <!-- end section -->
+                    <div class="@(count%2==0?"clearfix margin_top5":"")"></div>
+                    count++;
+                }
+            </div>
+            @if (Model.AdditionalMembers.Count() > 0)
+            {
+                @foreach (var additionalMembers in Model.AdditionalMembers)
+                {
+                    <div class="clearfix margin_top5"></div>
+                    <div class="full-container">
+                        <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                            @additionalMembers.CommitteeTitle
+                        </h1>
+                        @foreach (var item in additionalMembers.Members)
+                        {
 
-							<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
+                            <div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
 
-								<img src="@Url.Content(item.Image)" alt="">
-								<h5>@item.Name <em>@item.Position</em></h5>
-								<text>@item.Department</text>
-								<text>@item.Email</text>
+                                <img src="@Url.Content(item.Image)" alt="">
+                                <h5>@item.Name <em>@item.Position</em></h5>
+                                <text>@item.Department</text>
+                                <text>@item.Email</text>
 
-							</div>
+                            </div>
 
-							<!-- end section -->
-							<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
-							count++;
-						}
-					</div>
-				}
-			}
-		</div>
-	</div>
-	<div id="BulletPoints" class="tabcontent">
-		<div class="featured_section37">
-			<div class="full-container text-justify">
+                            <!-- end section -->
+                            <div class="@(count%2==0?"clearfix margin_top5":"")"></div>
+                            count++;
+                        }
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    <div id="BulletPoints" class="tabcontent">
+        <div class="featured_section37">
+            <div class="full-container text-justify">
 
-				@foreach (var item in Model.BulletPoints)
-				{
-					<div class="ibox animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
+                @foreach (var item in Model.BulletPoints)
+                {
+                    <div class="ibox animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
 
-						<i class="fa fa-check" aria-hidden="true"></i>
-						<h5>@Html.Raw(item)</h5>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <h5>@Html.Raw(item)</h5>
 
-					</div>
-					<!-- end section -->
-				}
-			</div>
-		</div>
-	</div>
-	<div id="Activities" class="tabcontent">
-		@if (Model.Activities != null && Model.Activities.Count() > 0)
-		{
-			foreach (var item in Model.Activities)
-			{
-				<div class="box">
-					<h2 class="boxtitle">@item.Title</h2>
-					<div class="boxinfo">
-						<ul class="post_meta_links">
-							<li class="post_categoty">@item.EventDate</li>
-							<li class="post_categoty">@item.EventTime</li>
-						</ul>
-						<div class="clearfix margin_top1"></div>
-						@if (item.Images.Count() > 0)
-						{
+                    </div>
+                    <!-- end section -->
+                }
+            </div>
+        </div>
+    </div>
+    <div id="Activities" class="tabcontent">
+        @if (Model.Activities != null && Model.Activities.Count() > 0)
+        {
+            foreach (var item in Model.Activities)
+            {
+                <div class="box">
+                    <h2 class="boxtitle">@item.Title</h2>
+                    <div class="boxinfo">
+                        <ul class="post_meta_links">
+                            <li class="post_categoty">@item.EventDate</li>
+                            <li class="post_categoty">@item.EventTime</li>
+                        </ul>
+                        <div class="clearfix margin_top1"></div>
+                        @if (item.Images.Count() > 0)
+                        {
 
-							<div class="image_section">
-								@foreach (var img in item.Images)
-								{
-									<div class="col-sm-2 ">
-										<img src="@img" class="rimg" />
-									</div>
-								}
-							</div>
-						}
-						@Html.Raw(item.Description)
-					</div>
-					<div class="clearfix margin_top1"></div>
-					<ul class="Activitesfile">
-						@foreach (var file in item.Files)
-						{
+                            <div class="image_section">
+                                @foreach (var img in item.Images)
+                                {
+                                    <div class="col-sm-2 ">
+                                        <img src="@img" class="rimg" />
+                                    </div>
+                                }
+                            </div>
+                        }
+                        @Html.Raw(item.Description)
+                    </div>
+                    <div class="clearfix margin_top1"></div>
+                    <ul class="Activitesfile">
+                        @foreach (var file in item.Files)
+                        {
 
-							<li>
-								@if (file.FileType.ToUpper() == "PDF")
-								{
-									<a href="javascript:void(0)" onclick="loadPdf('@file.FilePath','@file.Title')">
-										<i class="fa fa-file-pdf-o " aria-hidden="true"></i>
-										@file.Title
-									</a>
-								}
-								else
-								{
-									<a href="@Url.Content(file.FilePath)" target="_blank" download>
-										<i class="fa @(file.FileType.ToUpper()=="WORD"?"fa-file-word-o":"fa-file-excel-o")" aria-hidden="true"></i>
-										@file.Title
-									</a>
-								}
-							</li>
-						}
+                            <li>
+                                @if (file.FileType.ToUpper() == "PDF")
+                                {
+                                    <a href="javascript:void(0)" onclick="loadPdf('@file.FilePath','@file.Title')">
+                                        <i class="fa fa-file-pdf-o " aria-hidden="true"></i>
+                                        @file.Title
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Content(file.FilePath)" target="_blank" download>
+                                        <i class="fa @(file.FileType.ToUpper()=="WORD"?"fa-file-word-o":"fa-file-excel-o")" aria-hidden="true"></i>
+                                        @file.Title
+                                    </a>
+                                }
+                            </li>
+                        }
 
-					</ul>
-				</div>
-				<div class="clearfix margin_bottom1"></div>
-			}
-		}
-		else
-		{
-			<h2>No Activities Available</h2>
-		}
-	</div>
-	<div id="achDiv" class="tabcontent">
+                    </ul>
+                </div>
+                <div class="clearfix margin_bottom1"></div>
+            }
+        }
+        else
+        {
+            <h2>No Activities Available</h2>
+        }
+    </div>
+    <div id="achDiv" class="tabcontent">
 
-		@if (Model.Achievements != null && Model.Achievements.Count() > 0)
-		{
-			count = 1;
-			@foreach (var item in Model.Achievements)
-			{
-				<div class="one_third @(count % 3 == 0 ? " last" : "" )">
-					<div class="box">
-						<div class="cbp-caption">
-							<div class="cbp-caption-defaultWrap">
-								<div class="blog_post">
-									<div class="blog_postcontent">
-										<div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt="" class="height180"></a></div>
-										<h3>@Html.Raw(item.Title)</h3>
-										<ul class="post_meta_links">
-											<li><a href="#" class="date">@item.Date</a></li>
-											@if (!string.IsNullOrWhiteSpace(item.Keywords))
-											{
-												foreach (string key in item.Keywords.Split(','))
-												{
-													<li class="post_categoty">@key</li>
-												}
-											}
-										</ul>
-										<div class="clearfix"></div>
-										<div class="margin_top1"></div>
-										<p class="text-justify">@item.Description</p>
+        @if (Model.Achievements != null && Model.Achievements.Count() > 0)
+        {
+            count = 1;
+            <table id="myTable" class="display">
+                <thead>
+                    <tr>
+                        <th>Achievements</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Achievements)
+                    {
+                        @* <div class="one_third @(count % 3 == 0 ? " last" : "" )">
+                <div class="box">
+                <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                <div class="blog_post">
+                <div class="blog_postcontent">
+                <div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt="" class="height180"></a></div>
+                <h3>@Html.Raw(item.Title)</h3>
+                <ul class="post_meta_links">
+                <li><a href="#" class="date">@item.Date</a></li>
+                @if (!string.IsNullOrWhiteSpace(item.Keywords))
+                {
+                foreach (string key in item.Keywords.Split(','))
+                {
+                <li class="post_categoty">@key</li>
+                }
+                }
+                </ul>
+                <div class="clearfix"></div>
+                <div class="margin_top1"></div>
+                <p class="text-justify">@item.Description</p>
 
-									</div>
-								</div>
-							</div>
+                </div>
+                </div>
+                </div>
 
-						</div>
-					</div>
-				</div>
-				if (count % 3 == 0)
-				{
-					<div class="clearfix margin_bottom2"></div>
-				}
-				count++;
+                </div>
+                </div>
+                </div>
+                if (count % 3 == 0)
+                {
+                <div class="clearfix margin_bottom2"></div>
+                } *@
 
-			}
-		}
-		else
-		{
-			<h2>No Achievement Available</h2>
-		}
 
-	</div>
+                        <tr>
+                            <td>
+                                <div class="box" style="height:265px">
+                                    <h3 class="boxtitle">@Html.Raw(item.Title)</h3>
+                                    <div class="boxinfo">
+                                        <ul class="post_meta_links">
+
+                                            <li class="post_categoty">@item.Date</li>
+                                            @if (!string.IsNullOrWhiteSpace(item.Keywords))
+                                            {
+                                                foreach (string key in item.Keywords.Split(','))
+                                                {
+                                                    <li class="post_categoty">@key</li>
+                                                }
+                                            }
+                                        </ul>
+                                        <div class="clearfix margin_top1"></div>
+
+
+
+                                        <div class="image_section">
+
+
+                                            <div class="col-sm-2 ">
+                                                <img src="@Url.Content(item.Image)" alt="" class="height180">
+                                            </div>
+
+                                        </div>
+
+                                        @item.Description
+                                    </div>
+                                </div>
+                                <div class="clearfix margin_bottom1"></div>
+                            </td>
+                        </tr>
+
+
+                        count++;
+
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h2>No Achievement Available</h2>
+        }
+
+    </div>
 </div>
 
 
@@ -326,92 +377,98 @@
 
 @if (!string.IsNullOrWhiteSpace(Model.Tagline))
 {
-	<div class="featured_section38">
-		<div class="full-container">
-			@Html.Raw(Model.Tagline)
-		</div>
-	</div>
+    <div class="featured_section38">
+        <div class="full-container">
+            @Html.Raw(Model.Tagline)
+        </div>
+    </div>
 }
 
 <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
 <div id="popup" class="popup">
-	<div id="pdfreader" style="height:600px">
-	</div>
-	<span class="popup-btn-close">&times;</span>
+    <div id="pdfreader" style="height:600px">
+    </div>
+    <span class="popup-btn-close">&times;</span>
 </div>
 
 @section scripts {
-	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
-	<script>
-		function loadFacultyinfo(url) {
-				if (url !== '') {
-						$("#pdfreader").load(url);
-						$("#lnkPopup").click();
-				}
-			}
+    <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+    <script src="@Url.Content("~/cdn/DataTables/dataTables.js")"></script>
+    <script>
+        function loadFacultyinfo(url) {
+            if (url !== '') {
+                $("#pdfreader").load(url);
+                $("#lnkPopup").click();
+            }
+        }
 
-				function loadPdf(path, name) {
-				if (path !== '') {
-					path = path.replace("~", "");
-					if (PDFObject.supportsPDFs) {
-						PDFObject.embed(path, "#pdfreader");
-						$("#newsname").text(name);
-						$("#lnkPopup").click();
-					} else {
-						window.location.href = path;
-					}
-				}
-			}
-			function popupOpenClose(popup) {
+        function loadPdf(path, name) {
+            if (path !== '') {
+                path = path.replace("~", "");
+                if (PDFObject.supportsPDFs) {
+                    PDFObject.embed(path, "#pdfreader");
+                    $("#newsname").text(name);
+                    $("#lnkPopup").click();
+                } else {
+                    window.location.href = path;
+                }
+            }
+        }
+        function popupOpenClose(popup) {
 
-			/* Add div inside popup for layout if one doesn't exist */
-				if ($(".wrapper", popup).length == 0) {
-					$(popup).wrapInner("<div class='wrapper'></div>");
-				}
-			/* Open popup */
-				$(popup).show();
-			/* Close popup if user clicks on background */
-				$(popup).click(function (e) {
-					if (e.target == this) {
-						if ($(popup).is(':visible')) {
-							$(popup).hide();
-							resetPopUpScroll();
-						}
-					}
-				});
-			/* Close popup and remove errors if user clicks on cancel or close buttons */
-				$(popup).find(".popup-btn-close").on("click", function () {
-					if ($(".formElementError").is(':visible')) {
-						$(".formElementError").remove();
-					}
-					$(popup).hide();
-					resetPopUpScroll();
-				});
-			}
+            /* Add div inside popup for layout if one doesn't exist */
+            if ($(".wrapper", popup).length == 0) {
+                $(popup).wrapInner("<div class='wrapper'></div>");
+            }
+            /* Open popup */
+            $(popup).show();
+            /* Close popup if user clicks on background */
+            $(popup).click(function (e) {
+                if (e.target == this) {
+                    if ($(popup).is(':visible')) {
+                        $(popup).hide();
+                        resetPopUpScroll();
+                    }
+                }
+            });
+            /* Close popup and remove errors if user clicks on cancel or close buttons */
+            $(popup).find(".popup-btn-close").on("click", function () {
+                if ($(".formElementError").is(':visible')) {
+                    $(".formElementError").remove();
+                }
+                $(popup).hide();
+                resetPopUpScroll();
+            });
+        }
 
-			$(document).ready(function () {
-				$(".popup-trigger").on("click", function () {
-					var target = $(this).data('target');
-					popupOpenClose($(target));
-					resetPopUpScroll();
-				});
-			});
+        $(document).ready(function () {
+            $(".popup-trigger").on("click", function () {
+                var target = $(this).data('target');
+                popupOpenClose($(target));
+                resetPopUpScroll();
+            });
+        });
 
-		function resetPopUpScroll(){
-			$("#pdfreader").scrollTop(0);
-		}
-	</script>
+        function resetPopUpScroll() {
+            $("#pdfreader").scrollTop(0);
+        }
+
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        });
+    </script>
 }
 
 
 @section styles {
-	<style>
-		.Activitesfile > li {
-			display: block;
-			margin: auto;
-			float: left;
-			margin-right: 15px;
-		}
-	</style>
-	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+    <style>
+        .Activitesfile > li {
+            display: block;
+            margin: auto;
+            float: left;
+            margin-right: 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/cdn/DataTables/dataTables.css")" />
 }
