@@ -79,13 +79,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+           
         ],
         "Activities": [
             
@@ -178,22 +172,10 @@
             }
         ],
         "DeptAcademicCalender": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+            
         ],
         "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+            
         ],
         "Activities": [
             
@@ -279,13 +261,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+            
         ],
         "Activities": [
             
@@ -362,13 +338,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+            
         ],
         "Activities": [
             
@@ -379,7 +349,7 @@
     },
     {
         "ID": 5,
-        "Title": "Mechnanical Engineering",
+        "Title": "Mechanical Engineering",
         "TitleImage": "../../images/Title/me_banner.jpg",
         "TitleImageCSSClass": "me_title",
         "About": "Our strong academic performance in high school enables you to pursue a range of educational opportunities. One avenue you'll want to explore is mechanical engineering. Studying mechanical engineering at Government Engineering College Patan will equip you with a broad education, preparing you for a variety of career paths graduation and providing a solid foundation for continuing education. Mechanical engineering encompasses many areas. In short, anything that involves the design and or manufacturing of mechanical, thermal or electronic devices and or processes falls entrepreneurs, chief engineers, astronauts, faculty, physicians and patent attorneys, among other occupations. The field includes activities such as designing, developing, manufacturing, managing, researching and controlling engineering systems and their components.",
@@ -416,13 +386,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+            
         ],
         "Activities": [
 
@@ -458,13 +422,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+            
         ],
         "Activities": [
             
@@ -513,13 +471,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
+            
         ],
         "Labs": [
             {

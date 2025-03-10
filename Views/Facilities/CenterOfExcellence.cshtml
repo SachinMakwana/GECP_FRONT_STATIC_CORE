@@ -25,7 +25,7 @@
 <div class="full-container">
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
-		@if (Model.Vision != null && Model.Mission != null)
+		@if (Model.Vision.Count()>0 && Model.Mission.Count()>0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
 		}
@@ -53,7 +53,7 @@
 		{
 			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
 		}
-		<button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
+		@* <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button> *@
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">

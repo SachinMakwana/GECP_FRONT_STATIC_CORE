@@ -283,10 +283,8 @@
         "Measures": "The objective of the Grievance Cell in Government Engineering College, Patan is to develop a responsive and accountable attitude among all the students in order to maintain a harmonious educational atmosphere in the institute.",
         "Measure_Image": "/images/grievence.jpg",
         "Vision": [
-            "To develop a responsible and accountable attitude among all the students in order to maintain a harmonious educational ambience in the institute and uphold the dignity & divinity of the college."
         ],
         "Mission": [
-            "Advising students of the college to respect the right of dignity of one another. Encouraging the students to express their grievances/ suggestions freely for a smooth relationship and keep up the standard and discipline of the college."
         ],
         "SubObjectives": [
 
@@ -329,7 +327,8 @@
                 "Email": "roshni.chaudhari@gecpatan.ac.in",
                 "Department": "Electronics & Communication Engineering Department"
             }
-        ]
+        ],
+        "TableView": true
     },
 
     //RTI

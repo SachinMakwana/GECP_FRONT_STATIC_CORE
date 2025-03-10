@@ -41,6 +41,7 @@ namespace GECP_Front_End_Static.Models
     		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
         public bool ShowDocument { get; set; } = false;
         public TabTitles TabTitles { get; set; } = new TabTitles();
+        public bool TableView { get; set; } = false;
     }
 
 
