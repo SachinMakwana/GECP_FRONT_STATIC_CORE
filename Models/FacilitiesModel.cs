@@ -139,6 +139,8 @@ namespace GECP_Front_End_Static.Models
         public TabTitles TabTitles { get; set; } = new TabTitles();
         public List<Benefit> Benefits { get; set; } = new List<Benefit>();
         public List<Labs> Labs { get; set; } = new List<Labs>();
-    }
+		public List<File> Files { get; set; } = new List<File>();
+
+	}
 
 }

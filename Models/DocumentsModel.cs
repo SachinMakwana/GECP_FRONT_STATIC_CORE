@@ -15,7 +15,9 @@ namespace GECP_Front_End_Static.Models
         public string File { get; set; }
         public bool isShow { get; set; }
         public string FileType { get; set; }
-        public string UploadDate { get; set; }
+
+		public string FilePath { get; set; }
+		public string UploadDate { get; set; }
         public string MonthYear { get; set; } = "";
     }
 
