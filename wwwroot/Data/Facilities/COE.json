@@ -1,79 +1,147 @@
 ﻿{
+    "Title": "Center of Excellence",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "About": "<p style=\"text-align:justify;\">Siemens, in collaboration with the Government of Gujarat, has established Center of Excellence (COE) at various Government Engineering Colleges across the state. One such COE is located at the Government Engineering College in Patan. This centre focuses on Industrial Automation and comprises nine specialized laboratories equipped with advanced machinery and licensed software, including NX Academic, CAD, CAM, Technomatix, and Rob Cad. The laboratories are designed to enhance the skills of engineering students and professionals in areas such as Product Design, Validation, and Electrical Machine Automation.</p> <p style=\"text-align:justify;\">These Center of Excellence play a crucial role in bridging the gap between academia and industry, ensuring that students and professionals in Gujarat have access to the latest technological advancements and training opportunities. Center of Excellence (COE) Patan provide specialized laboratories equipped with advanced tools and software to train students and professionals in automation.</p> <p style=\"text-align:justify;\">List of Various Automation Laboratories in Siemens COE:</p> <ul> <li> <p style=\"text-align:justify;\"><b>1. Additive Manufacturing (3D Printing) Lab</b></p> <ul> <li>Explores rapid prototyping and advanced manufacturing techniques.</li> <li>Equipped with SST 1200ES 3D printers for additive manufacturing, this lab facilitates rapid prototyping and the creation of complex geometries</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>2. Electrical Automation Lab</b></p> <ul> <li>Deals with smart grids, energy distribution, and automation of electrical machines.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>3. Mechatronics and Robotics Lab</b></p> <ul> <li>Focuses on robotic automation, motion control, and mechatronics system design.</li> <li>Provides training with modular automation production systems (MAPS 6S), Siemens S7- 1200 PLCs, and diagnostic kits, focusing on the integration of mechanical, electronic, and control systems.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>4. Process Instrumentation &amp;amp; Control Lab</b></p> <ul> <li>Covers sensor technology, control systems, and industrial process monitoring.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>5. Computer Integrated Manufacturing (CIM) Laboratory</b></p> <ul> <li>Integrates CNC milling and turning machines, automatic guided vehicles (AGVs), industrial robots, and vision inspection systems to simulate and study automated manufacturing processes.</li> <li>Features 2-axis CNC turning machines with 8-tool turrets and 3-axis CNC vertical milling machines with automatic tool changers, providing practical training in CNC machining operations.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>6. Product Design and Validation Lab</b></p> <ul> <li>Focuses on CAD, CAE, and simulation technologies using Siemens NX software.</li> <li>Employs Siemens NX for comprehensive training in product design, modeling, and simulation, enhancing skills in creating and validating complex engineering designs.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>7. CNC Programming Laboratory</b></p> <ul> <li>Covers CNC programming, virtual machining, and manufacturing process automation.</li> <li>Utilizes Siemens NX software for training in advanced manufacturing techniques, including digital manufacturing and virtual machining simulations.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>8. Advanced Manufacturing Lab</b></p> <ul> <li>Covers CNC programming, virtual machining, and manufacturing process automation.</li> <li>Utilizes Siemens NX software for training in advanced manufacturing techniques, including digital manufacturing and virtual machining simulations.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>9. Industrial Automation Lab</b></p> <ul> <li>Provides hands-on experience with PLC, SCADA, HMI, and industrial networking.</li> </ul> </li> </ul>",
+    "Measures": "",
+    "Measure_Image": "~/images/Institute/CoE/CoE.jpg",
+    "Vision": [
 
-  "Title": "Center of Excellence",
-  "Titleimage": "../../images/ssip_banner.jpg",
-  "TitleImageCSSClass": "ssip_title",
-  "SideImage": "../../images/Institute/CoE/CoE.jpg",
-  "Vision": [ "To be a beacon of academic excellence and innovation, empowering students, faculty, and communities to drive positive societal change through research, knowledge, and sustainable development." ],
-  "Mission": [ "To provide a dynamic environment for academic growth, fostering research, collaboration, and skill development. The CoE will enhance educational practices, promote interdisciplinary learning, and create solutions that address real-world challenges in partnership with government, industry, and the community." ],
-  "About": "Government Engineering College has initiated to build Centre of Excellence (COE) with an objective of developing industry institute partnership in the field of Automation, Mobile Hydraulic, Automobile, and Mobile Electronics Technologies to bridge technology gaps between industry and academia to foster research and knowledge among the students. The main goal would be to improve the technical competence, employability and entrepreneurship of students who train at the centre and encourage students to pursue PG programs. The centre of competence is established to bridge the gap between industry expectations and theoretical deficiencies with the objectives, to provide hands on experience to the students of engineering and polytechnics institutes to the recent technologies practiced in the industry and to enable all the students in different regions and rural areas to have exposure to industry and technologies, by the concept of center of excellence.",
-  "Benefits": [
-    {
-      "Icon": "fas fa-tools",
-      "Time": "100",
-      "Text": "Skills and Expertise"
-    },
-    {
-      "Icon": "fas fa-users",
-      "Time": "200",
-      "Text": "An implementation approach"
-    },
-    {
-      "Icon": "fas fa-gavel",
-      "Time": "300",
-      "Text": "Direction and Governance"
-    },
-    {
-      "Icon": "fas fa-database",
-      "Time": "400",
-      "Text": "Data Governance and Integration"
-    },
-    {
-      "Icon": "fas fa-brain",
-      "Time": "500",
-      "Text": "Access to Knowledge and Best Practices"
-    },
-    {
-      "Icon": "fas fa-laptop",
-      "Time": "600",
-      "Text": "Tech-savy"
-    },
-    {
-      "Icon": "fas fa-headset",
-      "Time": "700",
-      "Text": "Access to support"
-    },
-    {
-      "Icon": "fas fa-tasks",
-      "Time": "800",
-      "Text": "Easy management"
-    }
-  ],
-  "Members": [
-    {
-      "ID": 1,
-      "Name": "Dr. K. V. Patel",
-      "Position": "Convener",
-      "Department": "Mechanical",
-      "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": "vipul.patel@gecpatan.ac.in"
-    },
-    {
-      "ID": 2,
-      "Name": "Dr. P. D. Patel",
-      "Position": "Menber",
-      "Department": "Electrical",
-      "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": "pravin.patel@gecpata.ac.in"
-    },
-    {
-      "ID": 3,
-      "Name": "Dr. J. C. Prajapati",
-      "Position": "Menber",
-      "Department": "Electronics & Communication",
-      "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": "jayesh.prajapati@gecpatan.ac.in"
-    }
-  ]
+    ],
+    "Mission": [
 
+    ],
+    "SubObjectives": [
+
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "",
+    "Members": [
+        {
+            "ID": 1,
+            "Name": "Dr. K. V. Patel",
+            "Position": "Coordinator",
+            "Department": "Mechanical",
+            "Image": "~/images/Faculty/1000.jpg",
+            "Email": "kaushik.patel@gecpatan.ac.in"
+        },
+        {
+            "ID": 2,
+            "Name": "Dr. P. D. Patel",
+            "Position": "Member",
+            "Department": "Electrical",
+            "Image": "~/images/Faculty/1000.jpg",
+            "Email": "pravin.patel@gecpata.ac.in"
+        },
+        {
+            "ID": 3,
+            "Name": "Dr. J. C. Prajapati",
+            "Position": "Member",
+            "Department": "Electronics & Communication",
+            "Image": "~/images/Faculty/1000.jpg",
+            "Email": "jayesh.prajapati@gecpatan.ac.in"
+        }
+    ],
+    "Benefits": [
+        {
+            "Icon": "fas fa-tools",
+            "Time": "100",
+            "Text": "Skills and Expertise"
+        },
+        {
+            "Icon": "fas fa-users",
+            "Time": "200",
+            "Text": "An implementation approach"
+        },
+        {
+            "Icon": "fas fa-gavel",
+            "Time": "300",
+            "Text": "Direction and Governance"
+        },
+        {
+            "Icon": "fas fa-database",
+            "Time": "400",
+            "Text": "Data Governance and Integration"
+        },
+        {
+            "Icon": "fas fa-brain",
+            "Time": "500",
+            "Text": "Access to Knowledge and Best Practices"
+        },
+        {
+            "Icon": "fas fa-laptop",
+            "Time": "600",
+            "Text": "Tech-savy"
+        },
+        {
+            "Icon": "fas fa-headset",
+            "Time": "700",
+            "Text": "Access to support"
+        },
+        {
+            "Icon": "fas fa-tasks",
+            "Time": "800",
+            "Text": "Easy management"
+        }
+    ],
+    "Labs": [
+        {
+            "LabID": 1,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 2,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 3,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 4,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 5,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 6,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 7,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 8,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        },
+        {
+            "LabID": 9,
+            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
+            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+        }
+    ]
 }
