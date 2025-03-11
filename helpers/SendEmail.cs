@@ -32,8 +32,9 @@ namespace GECP_Front_End_Static.helpers
             using (var smtp = new SmtpClient())
             {
 
-                //smtp.Connect("smtp.gmail.com", 465, SecureSocketOptions.SslOnConnect);
+                smtp.Connect("smtp.gmail.com", 465, SecureSocketOptions.SslOnConnect);
                 //smtp.Authenticate(credentials: new NetworkCredential("gecpatcse.common@gmail.com", "Admin@123"));
+                smtp.Authenticate("gecpatcse.common@gmail.com", "vfog owli eiek cqfq"); //
 
                 //MILES WEB HOSTING
                 //smtp.Connect("beyond.herosite.pro", 587, SecureSocketOptions.None);
@@ -41,8 +42,8 @@ namespace GECP_Front_End_Static.helpers
 
 
                 //sendinblue
-                smtp.Connect("smtp-relay.sendinblue.com", 587, SecureSocketOptions.None);
-                smtp.Authenticate(credentials: new NetworkCredential("sachingec26@gmail.com", "pTSxOZBV35YEK2C4"));
+                //smtp.Connect("smtp-relay.brevo.com", 587, SecureSocketOptions.None);
+                //smtp.Authenticate(credentials: new NetworkCredential("87b654002@smtp-brevo.com", "fzGB6kwcpC42PqKD"));
                 smtp.Send(msg, CancellationToken.None);
                 smtp.Disconnect(true, CancellationToken.None);
             }
