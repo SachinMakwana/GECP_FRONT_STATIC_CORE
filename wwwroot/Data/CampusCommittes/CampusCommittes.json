@@ -45,7 +45,7 @@
                 "Name": "Prof. H. Y. Rathod",
                 "Position": "Member",
                 "Department": "Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
+                "Image": "/images/Faculty/215.jpg",
                 "Email": "hiral.rathod@gecpatan.ac.in"
             },
             {
@@ -53,7 +53,7 @@
                 "Name": "Smt. P. J. Patel",
                 "Position": "Member",
                 "Department": "Mechanical Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
+                "Image": "~/images/Faculty/520.jpg",
                 "Email": "priyanka.patel@gecpatan.ac.in"
             }
         ]
@@ -112,7 +112,7 @@
                 "Name": "Prof. M. I. Baliya",
                 "Position": "Member",
                 "Department": "Civil Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
+                "Image": "~/images/Faculty/403.jpg",
                 "Email": "manjurali.baliya@gecpatan.ac.in"
             },
             {
@@ -265,7 +265,7 @@
                 "ID": 2,
                 "Name": "Prof. B. P. Patel",
                 "Position": "Member",
-                "Image": "~/images/Faculty/1000.jpg",
+                "Image": "~/images/Faculty/216.jpg",
                 "Email": "bhavesh.patel@gecpatan.ac.in",
                 "Department": "Computer Science & Engineering Department"
             }
@@ -326,7 +326,7 @@
         "ID": 3,
         "Name": "Prof. B. P. Patel",
         "Position": "Member",
-        "Image": "~/images/Faculty/1000.jpg",
+        "Image": "~/images/Faculty/216.jpg",
         "Email": "bhavesh.patel@gecpatan.ac.in",
         "Department": "Computer Science & Engineering Department"
       },
@@ -553,7 +553,7 @@
                 "ID": 5,
                 "Name": "Prof. Hiral Y. Rathod",
                 "Position": "Cultural Coordinator",
-                "Image": "~/images/Faculty/1000.jpg",
+                "Image": "~/images/Faculty/215.jpg",
                 "Email": "",
                 "Department": "Computer Science & Engineering Department"
             }
