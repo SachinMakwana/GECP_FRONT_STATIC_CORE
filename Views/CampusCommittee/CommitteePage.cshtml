@@ -25,7 +25,7 @@
 <div class="full-container">
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
-		@if (Model.Vision != null && Model.Mission != null)
+		@if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
 		}
@@ -41,7 +41,7 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
 		}
-		@if (Model.Activities != null && Model.Activities.Count()>0)
+		@if (Model.Activities != null && Model.Activities.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Activities')">@Model.TabTitles.Activities</button>
 		}
@@ -53,7 +53,10 @@
 		{
 			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
 		}
-		<button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
+		@if (Model.Achievements.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
+		}
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
@@ -140,57 +143,131 @@
 		</div>
 	</div>
 	<div id="Members" class="tabcontent">
-		<div class="featured_section30">
-			<div class="full-container">
-				<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-					Committee Members
-				</h1>
-				@foreach (var item in Model.Members)
+		@if (!Model.TableView)
+		{
+			<div class="featured_section30">
+				<div class="full-container">
+					<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+						@Model.Title Members
+					</h1>
+					@foreach (var item in Model.Members)
+					{
+
+						<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
+
+							<img src="@Url.Content(item.Image)" alt="">
+							<h5>@item.Name <em>@item.Position</em></h5>
+							<text>@item.Department</text>
+							<text>@item.Email</text>
+
+						</div>
+
+						<!-- end section -->
+						<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
+						count++;
+					}
+				</div>
+				@if (Model.AdditionalMembers.Count() > 0)
 				{
+					@foreach (var additionalMembers in Model.AdditionalMembers)
+					{
+						<div class="clearfix margin_top5"></div>
+						<div class="full-container">
+							<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+								@additionalMembers.CommitteeTitle
+							</h1>
+							@foreach (var item in additionalMembers.Members)
+							{
 
-					<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
+								<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
 
-						<img src="@Url.Content(item.Image)" alt="">
-						<h5>@item.Name <em>@item.Position</em></h5>
-						<text>@item.Department</text>
-						<text>@item.Email</text>
+									<img src="@Url.Content(item.Image)" alt="">
+									<h5>@item.Name <em>@item.Position</em></h5>
+									<text>@item.Department</text>
+									<text>@item.Email</text>
 
-					</div>
+								</div>
 
-					<!-- end section -->
-					<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
-					count++;
+								<!-- end section -->
+								<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
+								count++;
+							}
+						</div>
+					}
 				}
 			</div>
-			@if (Model.AdditionalMembers.Count() > 0)
-			{
-				@foreach (var additionalMembers in Model.AdditionalMembers)
-				{
-					<div class="clearfix margin_top5"></div>
-					<div class="full-container">
-						<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-							@additionalMembers.CommitteeTitle
-						</h1>
-						@foreach (var item in additionalMembers.Members)
+		}
+		else
+		{
+			<div class="featured_section30">
+				<div class="full-container">
+					<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+						@Model.Title Members
+					</h1>
+					<table class="table table-responsive table-bordered table-striped">
+						<thead>
+							<tr>
+								<td>Sr. No</td>
+								<td>Name</td>
+								<td>Department</td>
+								<td>Position</td>
+								<td>Email</td>
+							</tr>
+						</thead>
+						@foreach (var item in Model.Members)
 						{
+							<tr>
+								<td>@count</td>
+								<td>@item.Name</td>
+								<td>@item.Department</td>
+								<td>@item.Position</td>
+								<td>@item.Email</td>
+							</tr>
 
-							<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
-
-								<img src="@Url.Content(item.Image)" alt="">
-								<h5>@item.Name <em>@item.Position</em></h5>
-								<text>@item.Department</text>
-								<text>@item.Email</text>
-
-							</div>
-
-							<!-- end section -->
-							<div class="@(count%2==0?"clearfix margin_top5":"")"></div>
 							count++;
 						}
-					</div>
+					</table>
+				</div>
+				@if (Model.AdditionalMembers.Count() > 0)
+				{
+					@foreach (var additionalMembers in Model.AdditionalMembers)
+					{
+						<div class="clearfix margin_top5"></div>
+						<div class="full-container">
+							<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+								@additionalMembers.CommitteeTitle
+							</h1>
+							<table class="table table-responsive table-bordered table-striped">
+								<thead>
+									<tr>
+										<td>Sr. No</td>
+										<td>Name</td>
+										<td>Department</td>
+										<td>Position</td>
+										<td>Email</td>
+									</tr>
+								</thead>
+								@{
+									count = 1;
+								}
+								@foreach (var item in additionalMembers.Members)
+								{
+									<tr>
+										<td>@count</td>
+										<td>@item.Name</td>
+										<td>@item.Department</td>
+										<td>@item.Position</td>
+										<td>@item.Email</td>
+									</tr>
+
+									count++;
+								}
+							</table>
+						</div>
+					}
 				}
-			}
-		</div>
+			</div>
+		}
 	</div>
 	<div id="BulletPoints" class="tabcontent">
 		<div class="featured_section37">
