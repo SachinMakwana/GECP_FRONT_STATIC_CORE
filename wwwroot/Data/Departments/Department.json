@@ -34,7 +34,7 @@
         "Labs": [
             {
                 "LabID": 11,
-                "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.png",
                 "Lab_Name": "L 201 Analog/Digital Electronics Lab",
                 "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
             },
@@ -58,7 +58,7 @@
             },
             {
                 "LabID": 15,
-                "Lab_Image": "~/images/Department/EC/L213_-_ANJU_VASDEWANI_optimized.png",
+                "Lab_Image": "~/images/Department/EC/L213_-_ANJU_VASDEWANI_optimized.jpg",
                 "Lab_Name": "L 213 VLSI and DSP lab",
                 "Lab_Details": "This lab consists of trainers for DSP processor and VLSI."
             },
@@ -70,7 +70,7 @@
             },
             {
                 "LabID": 17,
-                "Lab_Image": "~/images/Department/EC/R213_-_ANJU_VASDEWANI_600x400.jpg",
+                "Lab_Image": "~/images/Department/EC/R213_-_ANJU_VASDEWANI_600x400.png",
                 "Lab_Name": "R213 Audio video system lab",
                 "Lab_Details": "This lab consist of tv trainer (CRT), microphones, loudspeaker, set top box trainer, equalizers and filter trainer."
             }
