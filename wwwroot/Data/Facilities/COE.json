@@ -1,147 +1,214 @@
 ﻿{
-    "Title": "Center of Excellence",
-    "Titleimage": "../../images/ssip_banner.jpg",
-    "TitleImageCSSClass": "ssip_title",
-    "About": "<p style=\"text-align:justify;\">Siemens, in collaboration with the Government of Gujarat, has established Center of Excellence (COE) at various Government Engineering Colleges across the state. One such COE is located at the Government Engineering College in Patan. This centre focuses on Industrial Automation and comprises nine specialized laboratories equipped with advanced machinery and licensed software, including NX Academic, CAD, CAM, Technomatix, and Rob Cad. The laboratories are designed to enhance the skills of engineering students and professionals in areas such as Product Design, Validation, and Electrical Machine Automation.</p> <p style=\"text-align:justify;\">These Center of Excellence play a crucial role in bridging the gap between academia and industry, ensuring that students and professionals in Gujarat have access to the latest technological advancements and training opportunities. Center of Excellence (COE) Patan provide specialized laboratories equipped with advanced tools and software to train students and professionals in automation.</p> <p style=\"text-align:justify;\">List of Various Automation Laboratories in Siemens COE:</p> <ul> <li> <p style=\"text-align:justify;\"><b>1. Additive Manufacturing (3D Printing) Lab</b></p> <ul> <li>Explores rapid prototyping and advanced manufacturing techniques.</li> <li>Equipped with SST 1200ES 3D printers for additive manufacturing, this lab facilitates rapid prototyping and the creation of complex geometries</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>2. Electrical Automation Lab</b></p> <ul> <li>Deals with smart grids, energy distribution, and automation of electrical machines.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>3. Mechatronics and Robotics Lab</b></p> <ul> <li>Focuses on robotic automation, motion control, and mechatronics system design.</li> <li>Provides training with modular automation production systems (MAPS 6S), Siemens S7- 1200 PLCs, and diagnostic kits, focusing on the integration of mechanical, electronic, and control systems.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>4. Process Instrumentation &amp;amp; Control Lab</b></p> <ul> <li>Covers sensor technology, control systems, and industrial process monitoring.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>5. Computer Integrated Manufacturing (CIM) Laboratory</b></p> <ul> <li>Integrates CNC milling and turning machines, automatic guided vehicles (AGVs), industrial robots, and vision inspection systems to simulate and study automated manufacturing processes.</li> <li>Features 2-axis CNC turning machines with 8-tool turrets and 3-axis CNC vertical milling machines with automatic tool changers, providing practical training in CNC machining operations.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>6. Product Design and Validation Lab</b></p> <ul> <li>Focuses on CAD, CAE, and simulation technologies using Siemens NX software.</li> <li>Employs Siemens NX for comprehensive training in product design, modeling, and simulation, enhancing skills in creating and validating complex engineering designs.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>7. CNC Programming Laboratory</b></p> <ul> <li>Covers CNC programming, virtual machining, and manufacturing process automation.</li> <li>Utilizes Siemens NX software for training in advanced manufacturing techniques, including digital manufacturing and virtual machining simulations.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>8. Advanced Manufacturing Lab</b></p> <ul> <li>Covers CNC programming, virtual machining, and manufacturing process automation.</li> <li>Utilizes Siemens NX software for training in advanced manufacturing techniques, including digital manufacturing and virtual machining simulations.</li> </ul> </li> <li> <p style=\"text-align:justify;\"><b>9. Industrial Automation Lab</b></p> <ul> <li>Provides hands-on experience with PLC, SCADA, HMI, and industrial networking.</li> </ul> </li> </ul>",
-    "Measures": "",
-    "Measure_Image": "~/images/Institute/CoE/CoE.jpg",
-    "Vision": [
+  "Title": "Center of Excellence",
+  "Titleimage": "../../images/ssip_banner.jpg",
+  "TitleImageCSSClass": "ssip_title",
+  "About": "<style> span { color: grey !important; } </style> <p style=\"text-align:justify; color:grey; display:inline;\">Siemens, in collaboration with the Government of Gujarat, has established Center of Excellence (COE) at various Government Engineering Colleges across the state. One such COE is located at the Government Engineering College in Patan. This centre focuses on Industrial Automation and comprises nine specialized laboratories equipped with advanced machinery and licensed software, including NX Academic, CAD, CAM, Technomatix, and Rob Cad. The laboratories are designed to enhance the skills of engineering students and professionals in areas such as Product Design, Validation, and Electrical Machine Automation. <p> Read the Detailed COE Course Plan here : <a href=\"javascript:void(0)\" onclick=\"loadPdf('~/DataFiles/Documents/COE/Course_plan_COE.pdf','COE Course Plan')\" class=\"read-more-button\" style=\"color:blue; margin-left:10px;\">COE Course Plan</a></p> <p style=\"text-align:justify; color:grey;\">These Center of Excellence play a crucial role in bridging the gap between academia and industry, ensuring that students and professionals in Gujarat have access to the latest technological advancements and training opportunities. Center of Excellence (COE) Patan provides specialized laboratories equipped with advanced tools and software to train students and professionals in automation.</p>",
+  "Measures": "",
+  "Measure_Image": "~/images/Institute/CoE/CoE.jpg",
+  "SubObjectives": [
 
-    ],
-    "Mission": [
-
-    ],
-    "SubObjectives": [
-
-    ],
-    "SubObjImg": "",
-    "BulletPoints": [],
-    "BulletPointsImg": "",
-    "PageFlyer": "",
-    "Tagline": "",
-    "BlogLink": "",
-    "Members": [
+  ],
+  "SubObjImg": "",
+  "BulletPoints": [],
+  "BulletPointsImg": "",
+  "PageFlyer": "",
+  "Tagline": "",
+  "BlogLink": "",
+  "Members": [
+    {
+      "ID": 1,
+      "Name": "Dr. K. V. Patel",
+      "Position": "Coordinator",
+      "Department": "Mechanical",
+      "Image": "~/images/Faculty/516.jpg",
+      "Email": "kaushik.patel@gecpatan.ac.in"
+    },
+    {
+      "ID": 2,
+      "Name": "Dr. P. D. Patel",
+      "Position": "Member",
+      "Department": "Electrical",
+      "Image": "~/images/Faculty/306.jpg",
+      "Email": "pravin.patel@gecpata.ac.in"
+    },
+    {
+      "ID": 3,
+      "Name": "Dr. J. C. Prajapati",
+      "Position": "Member",
+      "Department": "Electronics & Communication",
+      "Image": "~/images/Faculty/103.jpg",
+      "Email": "jayesh.prajapati@gecpatan.ac.in"
+    }
+  ],
+  "Benefits": [
+    {
+      "Icon": "fas fa-tools",
+      "Time": "100",
+      "Text": "Skills and Expertise"
+    },
+    {
+      "Icon": "fas fa-users",
+      "Time": "200",
+      "Text": "An implementation approach"
+    },
+    {
+      "Icon": "fas fa-gavel",
+      "Time": "300",
+      "Text": "Direction and Governance"
+    },
+    {
+      "Icon": "fas fa-database",
+      "Time": "400",
+      "Text": "Data Governance and Integration"
+    },
+    {
+      "Icon": "fas fa-brain",
+      "Time": "500",
+      "Text": "Access to Knowledge and Best Practices"
+    },
+    {
+      "Icon": "fas fa-laptop",
+      "Time": "600",
+      "Text": "Tech-savy"
+    },
+    {
+      "Icon": "fas fa-headset",
+      "Time": "700",
+      "Text": "Access to support"
+    },
+    {
+      "Icon": "fas fa-tasks",
+      "Time": "800",
+      "Text": "Easy management"
+    }
+  ],
+  "Labs": [
+    {
+      "LabID": 1,
+      "Lab_Image": "~/images/COE/COE1.jpg",
+      "Lab_Name": "Additive Manufacturing (3D Printing) Lab",
+      "Lab_Details": "Explores rapid prototyping and advanced manufacturing techniques. Equipped with SST 1200ES 3D printers for additive manufacturing, this lab facilitates rapid prototyping and the creation of complex geometries.",
+      "Files": [
         {
-            "ID": 1,
-            "Name": "Dr. K. V. Patel",
-            "Position": "Coordinator",
-            "Department": "Mechanical",
-            "Image": "~/images/Faculty/1000.jpg",
-            "Email": "kaushik.patel@gecpatan.ac.in"
-        },
-        {
-            "ID": 2,
-            "Name": "Dr. P. D. Patel",
-            "Position": "Member",
-            "Department": "Electrical",
-            "Image": "~/images/Faculty/1000.jpg",
-            "Email": "pravin.patel@gecpata.ac.in"
-        },
-        {
-            "ID": 3,
-            "Name": "Dr. J. C. Prajapati",
-            "Position": "Member",
-            "Department": "Electronics & Communication",
-            "Image": "~/images/Faculty/1000.jpg",
-            "Email": "jayesh.prajapati@gecpatan.ac.in"
+          "ID": 1,
+          "Title": "Additive Manufacturing (3D Printing) Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE1.pdf"
         }
-    ],
-    "Benefits": [
+      ]
+    },
+    {
+      "LabID": 2,
+      "Lab_Image": "~/images/COE/COE2.jpg",
+      "Lab_Name": "Electrical Automation Lab",
+      "Lab_Details": "Deals with smart grids, energy distribution, and automation of electrical machines.",
+      "Files": [
         {
-            "Icon": "fas fa-tools",
-            "Time": "100",
-            "Text": "Skills and Expertise"
-        },
-        {
-            "Icon": "fas fa-users",
-            "Time": "200",
-            "Text": "An implementation approach"
-        },
-        {
-            "Icon": "fas fa-gavel",
-            "Time": "300",
-            "Text": "Direction and Governance"
-        },
-        {
-            "Icon": "fas fa-database",
-            "Time": "400",
-            "Text": "Data Governance and Integration"
-        },
-        {
-            "Icon": "fas fa-brain",
-            "Time": "500",
-            "Text": "Access to Knowledge and Best Practices"
-        },
-        {
-            "Icon": "fas fa-laptop",
-            "Time": "600",
-            "Text": "Tech-savy"
-        },
-        {
-            "Icon": "fas fa-headset",
-            "Time": "700",
-            "Text": "Access to support"
-        },
-        {
-            "Icon": "fas fa-tasks",
-            "Time": "800",
-            "Text": "Easy management"
+          "ID": 1,
+          "Title": "Electrical Automation Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE2.pdf"
         }
-    ],
-    "Labs": [
+      ]
+    },
+    {
+      "LabID": 3,
+      "Lab_Image": "~/images/COE/COE3.jpg",
+      "Lab_Name": "Mechatronics and Robotics Lab",
+      "Lab_Details": "Focuses on robotic automation, motion control, and mechatronics system design. Provides training with modular automation production systems (MAPS 6S), Siemens S7-1200 PLCs, and diagnostic kits, focusing on the integration of mechanical, electronic, and control systems.",
+      "Files": [
         {
-            "LabID": 1,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 2,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 3,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 4,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 5,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 6,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 7,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 8,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
-        },
-        {
-            "LabID": 9,
-            "Lab_Image": "~/images/Department/EC/L201_-_ANJU_VASDEWANI_600x400.jpg",
-            "Lab_Name": "L 201 Analog/Digital Electronics Lab",
-            "Lab_Details": "This lab is equipped with analog and digital electronics trainers viz amplifier, common emitter configuration, common collector configuration, oscillators, multivibrators, power supply, trainers using 555 IC, digital gates, flip flops, counters, registers."
+          "ID": 1,
+          "Title": "Mechatronics and Robotics Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE3.pdf"
         }
-    ]
+      ]
+    },
+    {
+      "LabID": 4,
+      "Lab_Image": "~/images/COE/COE4.png",
+      "Lab_Name": "Process Instrumentation & Control Lab",
+      "Lab_Details": "Covers sensor technology, control systems, and industrial process monitoring.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Process Instrumentation & Control Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE4.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 5,
+      "Lab_Image": "~/images/COE/COE5.jpg",
+      "Lab_Name": "Computer Integrated Manufacturing (CIM) Laboratory",
+      "Lab_Details": "Integrates CNC milling and turning machines, automatic guided vehicles (AGVs), industrial robots, and vision inspection systems to simulate and study automated manufacturing processes. Features 2-axis CNC turning machines with 8-tool turrets and 3-axis CNC vertical milling machines with automatic tool changers, providing practical training in CNC machining operations.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Computer Integrated Manufacturing (CIM) Laboratory",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE5.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 6,
+      "Lab_Image": "~/images/COE/COE6.jpg",
+      "Lab_Name": "Product Design and Validation Lab",
+      "Lab_Details": "Focuses on CAD, CAE, and simulation technologies using Siemens NX software. Employs Siemens NX for comprehensive training in product design, modeling, and simulation, enhancing skills in creating and validating complex engineering designs.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Product Design and Validation Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE6.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 7,
+      "Lab_Image": "~/images/COE/COE7.jpg",
+      "Lab_Name": "CNC Programming Laboratory",
+      "Lab_Details": "Equipped with SINUMERIK 808D and 828D controllers for both turning and milling operations, this lab focuses on numerical control programming and simulation of toolpath generation.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "CNC Programming Laboratory",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE7.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 8,
+      "Lab_Image": "~/images/COE/COE8.jpg",
+      "Lab_Name": "Advanced Manufacturing Lab",
+      "Lab_Details": "Covers CNC programming, virtual machining, and manufacturing process automation. Utilizes Siemens NX software for training in advanced manufacturing techniques, including digital manufacturing and virtual machining simulations.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Advanced Manufacturing Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE8.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 9,
+      "Lab_Image": "~/images/COE/COE9.jpg",
+      "Lab_Name": "Industrial Automation Lab",
+      "Lab_Details": "Provides hands-on experience with PLC, SCADA, HMI, and industrial networking.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Industrial Automation Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE9.pdf"
+        }
+      ]
+    }
+  ]
+  
 }

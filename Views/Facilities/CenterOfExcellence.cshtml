@@ -25,6 +25,7 @@
 <div class="full-container">
 	<div class="tab">
 		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
+
 		@if (Model.Vision.Count()>0 && Model.Mission.Count()>0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
@@ -37,14 +38,15 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
 		}
+		@if (Model.Labs != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
+		}
 		@if (Model.Members != null && Model.Members.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
 		}
-		@if (Model.Activities != null && Model.Activities.Count()>0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'Activities')">@Model.TabTitles.Activities</button>
-		}
+		
 		@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
 		{
 			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
@@ -53,7 +55,9 @@
 		{
 			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
 		}
+
 		@* <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button> *@
+
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
@@ -70,7 +74,7 @@
 				<div class="text-justify">
 
 					<h4 class="color3 margin_bottom2">About @Model.Title</h4>
-					<p class="bigtfont text-justify overflowCommittes">
+					<p class="bigtfont text-justify" color="grey">
 						@Html.Raw(Model.About)
 					</p>
 					<div class="clearfix margin_top3"></div>
@@ -119,6 +123,57 @@
 
 			</div>
 		</div>
+	</div>
+	<div id="Labs" class="tabcontent">
+		@if (Model.Labs != null)
+		{
+			@foreach (var lab in Model.Labs)
+			{
+				<div class="boxdetail">
+					<h2 class="boxtitle">@lab.Lab_Name</h2>
+					<div class="one_third">
+						<img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
+					</div>
+					<div class="two_third last">
+						<div class="lab-content">
+							<p class="text-justify">
+								@if (!string.IsNullOrEmpty(lab.Lab_Details))
+								{
+									@Html.Raw(lab.Lab_Details)
+								}
+							</p>
+							<ul class="lab-content">
+								@foreach (var file in lab.Files)
+								{
+
+									<li>
+										@if (file.FileType.ToUpper() == "PDF")
+										{
+											<div class="read-more-container">
+												<a href="javascript:void(0)" onclick="loadPdf('@file.FilePath','@file.Title')" class="read-more-button">
+													READ MORE Lab Details
+												</a>
+											</div>
+												
+										}
+										else
+										{
+											<div class="read-more-container">
+												<a href="@Url.Content(file.FilePath)" target="_blank" download class="read-more-button">
+													READ MORE Lab Details
+												</a>
+											</div>
+										}
+									</li>
+								}
+
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			}
+		}
 	</div>
 	<div id="SubObjectives" class="tabcontent">
 		<div class="featured_section106">
@@ -173,14 +228,13 @@
 						</h1>
 						@foreach (var item in additionalMembers.Members)
 						{
-
-							<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
-
-								<img src="@Url.Content(item.Image)" alt="">
+							<div class="one_half @(count % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
+								<div class="faculties_img_div">
+									<img src="@Url.Content("~/" + item.Image)" alt="@item.Name" />
 								<h5>@item.Name <em>@item.Position</em></h5>
 								<text>@item.Department</text>
 								<text>@item.Email</text>
-
+								</div>
 							</div>
 
 							<!-- end section -->
@@ -406,13 +460,45 @@
 
 @section styles {
 	<style>
-		.Activitesfile > li {
+		.faculties_img_div img {
+			margin-right: 0px;
+			width: 100%;
+			margin-bottom: 20px;
+			border-radius: 15px;
+		}
+
+		#pdfreader {
+			max-height: 600px;
+			overflow-y: scroll;
+			scrollbar-width: thin;
+		}
+
+		.read-more-button {
+			display: inline-block;
+			background-color: #5076bb;
+			color: white !important;
+			text-align: center;
+			padding: 10px 20px;
+			font-size: 16px;
+			font-weight: bold;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: background 0.3s ease-in-out;
+		}
+
+			.read-more-button:hover {
+				background-color: #0056b3;
+			}
+
+		.lab-content > li {
 			display: block;
 			margin: auto;
 			float: left;
 			margin-right: 15px;
 		}
 	</style>
+
+	<link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
 	<link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
 }
 
