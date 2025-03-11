@@ -377,60 +377,132 @@
             
         ]
     },
-    {
-        "ID": 5,
-        "Title": "Mechnanical Engineering",
-        "TitleImage": "../../images/Title/me_banner.jpg",
-        "TitleImageCSSClass": "me_title",
-        "About": "Our strong academic performance in high school enables you to pursue a range of educational opportunities. One avenue you'll want to explore is mechanical engineering. Studying mechanical engineering at Government Engineering College Patan will equip you with a broad education, preparing you for a variety of career paths graduation and providing a solid foundation for continuing education. Mechanical engineering encompasses many areas. In short, anything that involves the design and or manufacturing of mechanical, thermal or electronic devices and or processes falls entrepreneurs, chief engineers, astronauts, faculty, physicians and patent attorneys, among other occupations. The field includes activities such as designing, developing, manufacturing, managing, researching and controlling engineering systems and their components.",
-        "About_Images": [ "~/images/Department/Mechanical/mech1.png" ],
-        "showIntake": true,
-        "Intake": 60,
-        "FacultyCount": 19,
-        "AnnualPlacementCount": 15,
-        "LabWorkshop": 0,
-        "Vision": [ "To create a centre of excellence for imparting education in mechanical engineering field to meet the current and future challenges of technological and sustainable development." ],
-        "Mission": [
-            "To build enabling environment for excellent teaching, learning and research in order to produce entrepreneurs and innovators in the field of Mechanical Engineering for sustainable improvement.",
-            "To impart adequate fundamental knowledge, technical and soft skills to students.",
-            "To develop Mechanical Engineering solutions for the problems of industry and society."
-        ],
-        "HODMessage": "Welcome to the Department of Mechanical Engineering at Government Engineering College Patan. The primary focus of our curriculum is to impart technical know-how to students, promote their problem-solving skills and innovation of new technologies. In today’s fast-changing world with ever-growing challenges of limited resources and rapid climate changes, a new generation of Mechanical Engineers nurtured with necessary skills and innovative spirit is needed. Students are encouraged to undertake various research projects. The course contents are periodically updated for introducing new scientific and technological developments. Undergraduate students are encouraged to undertake various research projects and encouraged to spend time in neighbouring industry. Faculty members have excellent academic credentials and are highly regarded. We hope that whether you are a prospective undergraduate or graduate student, or work in the industry, or another university, or a visitor, you will find this website to be informative. Welcome to this world of machines.",
-        "HODName": "Prof. Anand Dhruv",
-        "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
-        "PEOs": [
-            "To prepare graduates with a technical knowledge of mathematical, scientific, engineering, technology, management, humanities and various other interdisciplinary subjects for a successful career.",
-            "Graduates will apply the knowledge of Mechanical Engineering to solve real Engineering problems for sustainable development.",
-            "To inculcate graduates with leadership skills with high level of integrity, Professional personality and ethical values.",
-            "To equip graduates with modern tools, technology and advanced software for deliberating engineering solutions."
-        ],
-        "PSOs": [
-            "Apply the advanced software skills to Model, simulate, analyze and optimize Mechanical systems and Processes",
-            "Acquire technical and managerial skill for innovative activities."
-        ],
-        "Labs": [
+  {
+    "ID": 5,
+    "Title": "Mechnanical Engineering",
+    "TitleImage": "../../images/Title/me_banner.jpg",
+    "TitleImageCSSClass": "me_title",
+    "About": "Our strong academic performance in high school enables you to pursue a range of educational opportunities. One avenue you'll want to explore is mechanical engineering. Studying mechanical engineering at Government Engineering College Patan will equip you with a broad education, preparing you for a variety of career paths graduation and providing a solid foundation for continuing education. Mechanical engineering encompasses many areas. In short, anything that involves the design and or manufacturing of mechanical, thermal or electronic devices and or processes falls entrepreneurs, chief engineers, astronauts, faculty, physicians and patent attorneys, among other occupations. The field includes activities such as designing, developing, manufacturing, managing, researching and controlling engineering systems and their components.",
+    "About_Images": [ "~/images/Department/Mechanical/mech1.png" ],
+    "showIntake": true,
+    "Intake": 60,
+    "FacultyCount": 19,
+    "AnnualPlacementCount": 15,
+    "LabWorkshop": 0,
+    "Vision": [ "To create a centre of excellence for imparting education in mechanical engineering field to meet the current and future challenges of technological and sustainable development." ],
+    "Mission": [
+      "To build enabling environment for excellent teaching, learning and research in order to produce entrepreneurs and innovators in the field of Mechanical Engineering for sustainable improvement.",
+      "To impart adequate fundamental knowledge, technical and soft skills to students.",
+      "To develop Mechanical Engineering solutions for the problems of industry and society."
+    ],
+    "HODMessage": "Welcome to the Department of Mechanical Engineering at Government Engineering College Patan. The primary focus of our curriculum is to impart technical know-how to students, promote their problem-solving skills and innovation of new technologies. In today’s fast-changing world with ever-growing challenges of limited resources and rapid climate changes, a new generation of Mechanical Engineers nurtured with necessary skills and innovative spirit is needed. Students are encouraged to undertake various research projects. The course contents are periodically updated for introducing new scientific and technological developments. Undergraduate students are encouraged to undertake various research projects and encouraged to spend time in neighbouring industry. Faculty members have excellent academic credentials and are highly regarded. We hope that whether you are a prospective undergraduate or graduate student, or work in the industry, or another university, or a visitor, you will find this website to be informative. Welcome to this world of machines.",
+    "HODName": "Prof. Anand Dhruv",
+    "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
+    "PEOs": [
+      "To prepare graduates with a technical knowledge of mathematical, scientific, engineering, technology, management, humanities and various other interdisciplinary subjects for a successful career.",
+      "Graduates will apply the knowledge of Mechanical Engineering to solve real Engineering problems for sustainable development.",
+      "To inculcate graduates with leadership skills with high level of integrity, Professional personality and ethical values.",
+      "To equip graduates with modern tools, technology and advanced software for deliberating engineering solutions."
+    ],
+    "PSOs": [
+      "Apply the advanced software skills to Model, simulate, analyze and optimize Mechanical systems and Processes",
+      "Acquire technical and managerial skill for innovative activities."
+    ],
+    "Labs": [
+      {
+        "LabID": 1,
+        "Lab_Image": "~/images/Department/Mechanical/ME1.jpg",
+        "Lab_Name": "AIM Lab",
+        "Lab_Details": "The laboratory component of the Automation in Manufacturing course aims to provide hands-on experience with automation technologies used in manufacturing industries. Through practical experiments, students will explore industrial robotics, flexible manufacturing systems (FMS), and automation machinery. The lab exercises are designed to reinforce theoretical concepts and develop problem-solving skills for real-world automation challenges."
+      },
+      {
+        "LabID": 2,
+        "Lab_Image": "~/images/Department/Mechanical/ME2.jpg",
+        "Lab_Name": "Basic Mechanical Engineering",
+        "Lab_Details": "The Basic Mechanical Engineering Laboratory provides practical exposure to fundamental mechanical systems and components. It includes models of boilers along with their mountings and accessories, helping students understand steam generation and safety mechanisms. The laboratory also features internal combustion (IC) engine models, including four-stroke and two-stroke petrol and diesel engines, enabling students to study engine components, working principles, and thermodynamic cycles."
+      },
+      {
+        "LabID": 3,
+        "Lab_Image": "~/images/Department/Mechanical/ME3.jpg",
+        "Lab_Name": "Computer-Aided Design (CAD) Lab",
+        "Lab_Details": "It is having computer systems with high-end configurations to ensure seamless performance to support students in design, simulation and analysis tools essential for modern engineering applications. The CAD Lab has 30 computers, with 12 PCs equipped with ANSYS for simulation and analysis, while all have Autodesk software for drafting and design."
+      },
+      {
+        "LabID": 4,
+        "Lab_Image": "~/images/Department/Mechanical/ME4.jpg",
+        "Lab_Name": "Computer Aided Manufacturing",
+        "Lab_Details": "The laboratory component of the Computer Aided Manufacturing (CAM) course provides practical exposure to modern manufacturing automation technologies. The lab focuses on CNC machining, programmable logic controllers (PLCs), flexible manufacturing systems (FMS), robotics, and computer-integrated manufacturing (CIM)."
+      },
+      {
+        "LabID": 5,
+        "Lab_Image": "~/images/Department/Mechanical/ME5.jpg",
+        "Lab_Name": "The Dynamics of Machinery Lab",
+        "Lab_Details": "It is a specialized laboratory in mechanical engineering that focuses on studying the behavior of machines and mechanical systems under dynamic loads and forces. The purpose of this lab is to analyze and test various components of machines to understand their response to vibrations, motion, rotational dynamics, and feedback control systems."
+      },
+      {
+        "LabID": 6,
+        "Lab_Image": "~/images/Department/Mechanical/ME6.jpg",
+        "Lab_Name": "Engineering Graphics & Design",
+        "Lab_Details": "Engineering Graphics & Design (EGD) is a vital subject that enables students to communicate engineering ideas, designs, and concepts in a clear and precise manner. The laboratory has several shapes of 2D & 3D models, which will be helpful in the visualization and understanding of the subject."
+      },
+      {
+        "LabID": 7,
+        "Lab_Image": "~/images/Department/Mechanical/ME7.png",
+        "Lab_Name": "Fluid Mechanics and Hydraulic Machines Laboratory",
+        "Lab_Details": "The Fluid Mechanics and Hydraulic Machines Laboratory helps students to understand the principles of fluid behavior and hydraulic machinery operations. It offers hands-on experience with devices like flow meters, pumps, turbines, and hydraulic systems."
+      },
+      {
+        "LabID": 8,
+        "Lab_Image": "~/images/Department/Mechanical/ME8.png",
+        "Lab_Name": "I C Engine Lab",
+        "Lab_Details": "The Internal Combustion Engine (ICE) Laboratory is a state-of-the-art facility designed to provide practical experience and in-depth knowledge of various types of internal combustion engines used in automotive and industrial applications."
+      },
+      {
+        "LabID": 9,
+        "Lab_Image": "~/images/Department/Mechanical/ME9.jpg",
+        "Lab_Name": "Material Science and Metallurgy Laboratory",
+        "Lab_Details": "A Material Science and Metallurgy Laboratory is a facility dedicated to studying the properties, structure, and behavior of materials, particularly metals and alloys. It is equipped with instruments like the Metallurgical Microscope and Muffle Furnace for detailed analysis."
+      },
+      {
+        "LabID": 10,
+        "Lab_Image": "~/images/Department/Mechanical/ME10.jpg",
+        "Lab_Name": "Mechanical Measurement and Metrology Laboratory",
+        "Lab_Details": "Our Mechanical Measurement and Metrology laboratory offers hands-on experience with a wide range of essential measurement tools. Through practical experiments, students develop a deeper understanding of metrology principles and their real-world applications."
+      },
+      {
+        "LabID": 11,
+        "Lab_Image": "~/images/Department/Mechanical/ME11.jpg",
+        "Lab_Name": "Renewable Energy Engineering Laboratory",
+        "Lab_Details": "A Renewable Energy Engineering Laboratory is a specialized facility for studying and testing sustainable energy technologies, including solar, wind, and bioenergy systems. One essential instrument in the lab is the Pyranometer, which measures solar radiation intensity."
+      },
+      {
+        "LabID": 12,
+        "Lab_Image": "~/images/Department/Mechanical/ME12.jpg",
+        "Lab_Name": "Workshop/Manufacturing Process Laboratory",
+        "Lab_Details": "The Mechanical Workshop Laboratory emphasizes hands-on practice in manufacturing and fabrication, enhancing students' technical skills through real-world applications. It includes machining, welding, carpentry, fitting, and plumbing shops."
+      }
+    ],
+    "DeptAcademicCalender": [
 
-        ],
-        "DeptAcademicCalender": [
+    ],
+    "TimeTable": [ //tender vm object
+      {
+        "ID": 1,
+        "Title": "Hostel mess and cantine tender GECP 2024-25",
+        "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+        "isShow": true,
+        "UploadDate": ""
+      }
+    ],
 
-        ],
-        "TimeTable": [ //tender vm object
-            {
-                "ID": 1,
-                "Title": "Hostel mess and cantine tender GECP 2024-25",
-                "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            }
-        ],
-        "Activities": [
+    "Activities": [
 
-        ],
-        "NoticeBoard": [
+    ],
+    "NoticeBoard": [
 
-        ]
-    },
+    ]
+  },
     {
         "ID": 6,
         "Title": "General",
