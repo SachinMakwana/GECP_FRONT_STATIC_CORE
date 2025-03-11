@@ -5798,11 +5798,11 @@
     "SeniorityOrder": 16,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. CHIRAG KADIYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li>=<li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">BE MECHANICAL</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">13 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">POWER PLANT ENGINEERING</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Prof. CHIRAG PRAVINBHAI KADIYA",
+      "Name": "PROF. CHIRAG PRAVINBHAI KADIYA",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
       "Contact": "+91-9824528645",
-      "Email": "chirag.kadiya@gecpatan.ac.in"
+      "Email": "cpkadiya@gmail.com"
     },
     "EducationalQualifications": [
       {
@@ -5815,25 +5815,76 @@
       {
         "Position": "Assistant Professor",
         "Organization": "GEC Patan",
-        "Duration": "21-06-2011 to Present"
+        "Duration": "21-05-2011 to Present"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "GEC Godhara",
-        "Duration": "14-04-2011 to 20-06-2011"
+        "Duration": "17-04-2011 to 20-05-2011"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "VGEC Chandkheda",
-        "Duration": "10-03-2008 to 13-04-2011"
-      },
-      {
-        "Position": "Senior Engineer",
-        "Organization": "Bisazza Pvt Ltd",
-        "Duration": "01-07-2004 to 30-09-2008"
+        "Duration": "10-03-2008 to 16-04-2011"
       }
     ],
-    "TrainingAndWorkshops": [],
+    "TrainingAndWorkshops": [
+         {
+            "Title": "Industrial experience as a Production Engineer at KHS Pvt. Ltd Ahmedabad",
+            "OrganizedBy": "KHS Pvt. Ltd Ahmedabad",
+            "Date": "01/06/2004 to 30/09/2008"
+          },
+          {
+            "Title": "Faculty Development Program under TEQIP-II on Research Opportunities at Different National Institutes",
+            "OrganizedBy": "GEC, Patan",
+            "Date": "13/12/2013 to 13/12/2013"
+          },
+          {
+            "Title": "Karmayogi Residential Training for Quality Improvement Program in Technical Education",
+            "OrganizedBy": "Swaminarayan Dham, Gandhinagar",
+            "Date": "06/02/2014 to 08/02/2014"
+          },
+          {
+            "Title": "AICTE recognized short-term course on Core Teaching Skills",
+            "OrganizedBy": "KDP, Patan",
+            "Date": "17/02/2014 to 22/02/2014"
+          },
+          {
+            "Title": "Workshop on Energy Conservation Awareness organized by GEDA",
+            "OrganizedBy": "GEC, Patan",
+            "Date": "17/03/2016 to 17/03/2016"
+          },
+          {
+            "Title": "Workshop on Energy Conservation Awareness organized by GEDA",
+            "OrganizedBy": "GEC, Patan",
+            "Date": "24/01/2017 to 24/01/2017"
+          },
+          {
+            "Title": "FDP - International Faculty Development Program",
+            "OrganizedBy": "GEC, Patan",
+            "Date": "3 Days"
+          },
+          {
+            "Title": "Workshop on English Communication",
+            "OrganizedBy": "IIT Gandhinagar",
+            "Date": "19/03/2014 to 20/03/2014"
+          },
+          {
+            "Title": "Workshop on Design & Innovation",
+            "OrganizedBy": "IIT Gandhinagar",
+            "Date": "13/08/2014 to 14/08/2014"
+          },
+          {
+            "Title": "TEQIP-II Sponsored Research Development Program on Mechanical Engineering Research Scholar's MEET",
+            "OrganizedBy": "GEC, Patan",
+            "Date": "30/06/2015 to 30/06/2015"
+          },
+          {
+            "Title": "FDP - Fundamental of Semiconductor Package Manufacturing & Test",
+            "OrganizedBy": "GTU, Ahmedabad",
+            "Date": "15/05/2024 to 15/06/2024"
+          }     
+    ],
     "Publications": []
   },
 
@@ -7353,29 +7404,191 @@
   },
   {
     "ID": 518,
-    "Name": "Prof. Sachin Patel",
+    "Name": "Dr.Sachin Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/518.jpg",
     "Dept_ID": 5,
     "Date_of_Joining": "2011-04-21",
-    "Qualification": "M.E. Mechanical Machine Design",
+    "Qualification": "PhD. Mechanical Engineering",
     "Area_of_Interest": "Machine Design",
     "IsTeaching": true,
     "SeniorityOrder": 6,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN PATEL</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. Mechanical Machine Design</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Design</span></li></ul></div></div></div>",
     "PersonalDetails": {
-      "Name": "Prof. Sachin Patel",
+      "Name": "Dr. Sachin P. Patel",
       "Designation": "Assistant Professor",
       "Department": "Mechanical",
-      "Contact": "",
+      "Contact": "+91-8780194309",
       "Email": "sachin.patel@gecpatan.ac.in"
     },
     "EducationalQualifications": [
+      {
+        "Degree": "PhD.",
+        "Year": "2022",
+        "Specialization": "Mechanical Engineering"
+      },
+      {
+        "Degree": "M.E.",
+        "Year": "2008",
+        "Specialization": "Machine Design"
+      },
+      {
+        "Degree": "B.E. ",
+        "Year": "2005",
+        "Specialization": "Mechanical Engineering"
+      }
     ],
     "ProfessionalExperiences": [
+      {
+        "Position": "Assistant Professor",
+        "Organization": "GOVERNMENT ENGINEERING COLLEGE, PATAN",
+        "Duration": "21-04-2011 to Present"
+      }
     ],
-    "TrainingAndWorkshops": [],
-    "Publications": []
+    "TrainingAndWorkshops": [
+      {
+        "Title": "Research Methodology",
+        "OrganizedBy": "IIT Gandhinagar",
+        "Date": "18/11/2014 to 22/11/2014"
+      },
+      {
+        "Title": "Computing Techniques for Solving Engineering Problems",
+        "OrganizedBy": "IIT Bombay",
+        "Date": "23/12/2013 to 27/12/2013"
+      },
+      {
+        "Title": "Piping Engineering",
+        "OrganizedBy": "Online",
+        "Date": "Dec-13 to Mar-14"
+      },
+      {
+        "Title": "Induction Training Programme Phase - I",
+        "OrganizedBy": "RCTI, Ahmedabad",
+        "Date": "26/05/2014 to 06/06/2014"
+      },
+      {
+        "Title": "CAD, Advance Simulation and Manufacturing Using NX Software",
+        "OrganizedBy": "LDCE Ahmedabad",
+        "Date": "25/05/2015 to 06/06/2015"
+      },
+      {
+        "Title": "CAD using NX",
+        "OrganizedBy": "GEC Patan",
+        "Date": "25/04/2016 to 30/04/2016"
+      },
+      {
+        "Title": "Digital Manufacturing using RobCAD",
+        "OrganizedBy": "GEC Patan",
+        "Date": "17/10/2016 to 21/10/2016"
+      },
+      {
+        "Title": "Advanced Engineering Optimization Through Intelligent Techniques (AEOTIT)",
+        "OrganizedBy": "SVNIT Surat",
+        "Date": "06/02/2017 to 10/02/2017"
+      },
+      {
+        "Title": "LaTex For Academic Writing",
+        "OrganizedBy": "GEC Patan",
+        "Date": "20/03/2017 to 24/03/2017"
+      },
+      {
+        "Title": "Advanced Computer Aided Manufacturing Techniques",
+        "OrganizedBy": "GEC Patan",
+        "Date": "22/05/2017 to 02/06/2017"
+      },
+      {
+        "Title": "Vibration Mitigation Systems Analysis and Design",
+        "OrganizedBy": "IIT Roorkee",
+        "Date": "27/05/2019 to 31/05/2019"
+      },
+      {
+        "Title": "Train the Trainer Program on - Machining Technology",
+        "OrganizedBy": "iACE Gandhinagar",
+        "Date": "20/09/2021 to 24/09/2021"
+      },
+      {
+        "Title": "Advanced Pedagogy",
+        "OrganizedBy": "RCTI Ahmedabad",
+        "Date": "08/05/2023 to 12/05/2023"
+      },
+      {
+        "Title": "Training of Trainers Program on Solar PV Installers",
+        "OrganizedBy": "GPERI Mehsana",
+        "Date": "01/11/2023 to 07/11/2023"
+      },
+      {
+        "Title": "Emerging Trends & Practices in Optimization and Sustainable Technology",
+        "OrganizedBy": "RCTI Ahmedabad",
+        "Date": "20/11/2023 to 01/12/2023"
+      },
+      {
+        "Title": "NPTEL based MOOC training on Nonlinear Vibration",
+        "OrganizedBy": "Online",
+        "Date": "22/01/2024 to 12/04/2024"
+      },
+      {
+        "Title": "NPTEL based MOOC training on Leadership & Team Effectiveness",
+        "OrganizedBy": "Online",
+        "Date": "22/01/2024 to 12/04/2024"
+      },
+      {
+        "Title": "Industrial Training Gujarat Apollo Industries Limited",
+        "OrganizedBy": "Dholasan, Near Sankus Waterpark, State Highway, Mehsana-382732, Gujarat",
+        "Date": "01/07/2024 to 13/07/2024"
+      },
+      {
+        "Title": "Industrial Training Mehsana Dairy & Food Products Limited",
+        "OrganizedBy": "Survey No. 423, At: Aloda, Near Chhatthiyarda Railway Cross, Ta. & Dist: Mehsana-384205, Gujarat",
+        "Date": "15/07/2024 to 27/07/2024"
+      }
+    ],
+
+    "Publications": [
+        {
+          "SrNo": 1,
+          "Title": "Design & Analysis of Belt for Belt Conveyor System having Guaranteed Capacity of 1000 mtph | International Conference on Advances in Mechanical Engineering (ICAME) | SVNIT, Surat | 9/23/2010 - 9/25/2010"
+        },
+        {
+          "SrNo": 2,
+          "Title": "Experimental Investigation of Cylindrical Roller Bearing for Inner Race Defect under Varying Speed | 1st International Conference on Recent Advancements in Design and Manufacturing (ICRADM-2020) | SVNIT, Surat | 7/16/2020 - 7/17/2020"
+        },
+        {
+          "SrNo": 3,
+          "Title": "Prediction of Weld Strength of Metal Active Gas (MAG) Welding using Artificial Neural Network | International Journal of Engineering Research and Applications (IJERA) | Vol.1, Issue 1 | May-June 2011"
+        },
+        {
+          "SrNo": 4,
+          "Title": "Analysis and Optimization of Drive Shaft in Eccentric Mechanical Press | International Journal of Engineering Research and Applications (IJERA) | Vol.1, Issue 2 | July-Aug 2011"
+        },
+        {
+          "SrNo": 5,
+          "Title": "Development of Rectilinear Path for a Limbless Robot | International Journal of Engineering Research and Applications (IJERA) | Vol.1, Issue 1 | May-June 2011"
+        },
+        {
+          "SrNo": 6,
+          "Title": "Design and Analysis of CNC Milling Machine Bed with Composite Material through CAE Package | Technix International Journal for Engineering Research (TIJER) | Vol.1, Issue 4"
+        },
+        {
+          "SrNo": 7,
+          "Title": "Nonlinear analysis of cylindrical roller bearing under the influence of defect on individual and coupled inner-outer race | Proceedings of the Institution of Mechanical Engineers, Part K: Journal of Multi-body Dynamics (SAGE) | Vol. 233, Issue: 2 (404-428) | 2018 | DOI: https://doi.org/10.1177/1464419318798290"
+        },
+        {
+          "SrNo": 8,
+          "Title": "Influence of roller defect and coupled roller-inner-outer race defects on the performance of cylindrical roller bearing | Proceedings of the Institution of Mechanical Engineers, Part K: Journal of Multi-body Dynamics (SAGE) | Vol. 233, Issue: 3 (731-746) | 2019 | DOI: https://doi.org/10.1177/1464419318819332"
+        },
+        {
+          "SrNo": 9,
+          "Title": "Euclidean distance based feature ranking and subset selection for bearing fault diagnosis | Expert Systems With Applications (Elsevier) | Vol. 154, (2020) 113400 | DOI: https://doi.org/10.1016/j.eswa.2020.113400"
+        },
+        {
+          "SrNo": 10,
+          "Title": "Experimental Investigation of Cylindrical Roller Bearing for Inner Race Defect under Varying Speed | IOP Conference Series: Materials Science and Engineering | 1004 (2020) 012022 | DOI: 10.1088/1757-899X/1004/1/012022"
+        },
+        {
+          "SrNo": 11,
+          "Title": "Ranking and selection of optimum alternatives based on linear scale transformation for cylindrical roller bearing | Engineering Failure Analysis (Elsevier) | Vol. 134, (2022) 106083 | DOI: https://doi.org/10.1016/j.engfailanal.2022.106083"
+        }
+    ]
   },
   {
     "ID": 519,
