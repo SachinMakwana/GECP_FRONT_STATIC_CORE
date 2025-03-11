@@ -38,7 +38,7 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
 		}
-		@if (Model.Labs != null)
+		@if (Model.Labs != null && Model.Labs.Count() > 0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
 		}
