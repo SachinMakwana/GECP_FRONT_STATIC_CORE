@@ -274,63 +274,64 @@
     },
 
     //Grievence Cell
-    {
-        "ID": 5,
-        "Title": "Grievence Cell",
-        "TitleImage": "../../images/grievence_banner.jpg",
-        "TitleImageCSSClass": "grievance_title",
-        "About": "The Grievance Cell at Government Engineering College, Patan, is established to address and resolve issues faced by students, faculty, and staff in a fair and transparent manner. The cell ensures a supportive environment by handling complaints related to academic, administrative, or personal concerns. It works in compliance with institutional policies to promote a harmonious and inclusive campus atmosphere. Students and staff can submit their grievances through the designated channels, and the cell strives to provide timely resolutions while maintaining confidentiality.<br> <br>For more details or to submit a grievance, fill out this form or contact the Grievance Cell at GEC Patan.",
-        "Measures": "The objective of the Grievance Cell in Government Engineering College, Patan is to develop a responsive and accountable attitude among all the students in order to maintain a harmonious educational atmosphere in the institute.",
-        "Measure_Image": "/images/grievence.jpg",
-        "Vision": [
-            "To develop a responsible and accountable attitude among all the students in order to maintain a harmonious educational ambience in the institute and uphold the dignity & divinity of the college."
-        ],
-        "Mission": [
-            "Advising students of the college to respect the right of dignity of one another. Encouraging the students to express their grievances/ suggestions freely for a smooth relationship and keep up the standard and discipline of the college."
-        ],
-        "SubObjectives": [
+  {
+    "ID": 5,
+    "Title": "Grievence Cell",
+    "TitleImage": "../../images/grievence_banner.jpg",
+    "TitleImageCSSClass": "grievance_title",
+    "About": "The Grievance Cell at Government Engineering College, Patan, is established to address and resolve issues faced by students, faculty, and staff in a fair and transparent manner. The cell ensures a supportive environment by handling complaints related to academic, administrative, or personal concerns. It works in compliance with institutional policies to promote a harmonious and inclusive campus atmosphere. Students and staff can submit their grievances through the designated channels, and the cell strives to provide timely resolutions while maintaining confidentiality.",
+    "Measures": "The objective of the Grievance Cell in Government Engineering College, Patan is to develop a responsive and accountable attitude among all the students in order to maintain a harmonious educational atmosphere in the institute.",
+    "Measure_Image": "/images/grievence.jpg",
+    "Vision": [
+      "To develop a responsible and accountable attitude among all the students in order to maintain a harmonious educational ambience in the institute and uphold the dignity & divinity of the college."
+    ],
+    "Mission": [
+      "Advising students of the college to respect the right of dignity of one another. Encouraging the students to express their grievances/ suggestions freely for a smooth relationship and keep up the standard and discipline of the college."
+    ],
+    "SubObjectives": [
 
-        ],
-        "SubObjImg": "",
-        "BulletPoints": [],
-        "BulletPointsImg": "",
-        "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Prof. A. B. Dhruv",
-                "Position": "Chairman",
-                "Image": "~/images/Faculty/HOD/501.jpg",
-                "Email": "anand.dhruv@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. V. P. Soni",
-                "Position": "Member",
-                "Image": "~/images/Faculty/601.jpg",
-                "Email": "vijay.soni@gecpatan.ac.in",
-                "Department": "Science & Humanities Engineering Department"
-            },
-            {
-                "ID": 3,
-                "Name": "Prof. B. P. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/1000.jpg",
-                "Email": "bhavesh.patel@gecpatan.ac.in",
-                "Department": "Computer Science & Engineering Department"
-            },
-            {
-                "ID": 4,
-                "Name": "Prof. R. A. Chaudhari",
-                "Position": "Member",
-                "Image": "~/images/Faculty/107.jpg",
-                "Email": "roshni.chaudhari@gecpatan.ac.in",
-                "Department": "Electronics & Communication Engineering Department"
-            }
-        ]
-    },
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. A. B. Dhruv",
+        "Position": "Chairman",
+        "Image": "~/images/Faculty/HOD/501.jpg",
+        "Email": "anand.dhruv@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Prof. V. P. Soni",
+        "Position": "Member",
+        "Image": "~/images/Faculty/601.jpg",
+        "Email": "vijay.soni@gecpatan.ac.in",
+        "Department": "Science & Humanities Engineering Department"
+      },
+      {
+        "ID": 3,
+        "Name": "Prof. B. P. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/1000.jpg",
+        "Email": "bhavesh.patel@gecpatan.ac.in",
+        "Department": "Computer Science & Engineering Department"
+      },
+      {
+        "ID": 4,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Member",
+        "Image": "~/images/Faculty/107.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in",
+        "Department": "Electronics & Communication Engineering Department"
+      }
+    ],
+    "Link": "https://docs.google.com/forms/d/e/1FAIpQLSflgceQZ01Kp9FpBNFAdI_78pLVyDoGfRoLpmlUgvFcwRqagQ/viewform"
+  },
 
     //RTI
     {
