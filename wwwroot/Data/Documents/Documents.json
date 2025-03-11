@@ -164,7 +164,7 @@
         "Documents": [
           {
             "ID": 1,
-            "Title": "Hostel mess and cantine tender GECP 2024-25",
+            "Title": "Hostel Mess and Canteen tender GECP 2024-25",
             "FileType": "PDF",
             "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
             "isShow": true,
@@ -254,6 +254,26 @@
                 "isShow": true,
 
                 "UploadDate": "07-03-2025"
+
+            },
+            {
+                "ID": 9,
+                "Title": "ELECTRICAL ODD 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2024_2025.pdf",
+                "isShow": true,
+
+                "UploadDate": "10-03-2025"
+
+            },
+            {
+                "ID": 10,
+                "Title": "ELECTRICAL EVEN 2024-2025",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2024_2025.pdf",
+                "isShow": true,
+
+                "UploadDate": "10-03-2025"
 
             }
         ]
