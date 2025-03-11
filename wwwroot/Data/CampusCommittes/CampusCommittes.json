@@ -273,74 +273,76 @@
     },
 
     //Grievence Cell
-  {
-    "ID": 5,
-    "Title": "Grievence Cell",
-    "TitleImage": "../../images/grievence_banner.jpg",
-    "TitleImageCSSClass": "grievance_title",
-    "About": "The Grievance Cell at Government Engineering College, Patan, is dedicated to addressing and resolving concerns raised by students, faculty, and staff in a fair, transparent, and timely manner. The cell ensures a supportive and unbiased educational environment by handling complaints related to academic, administrative, infrastructure, or personal issues.<br> The cell functions as a bridge between the complainant and the administration, ensuring that every grievance is analyzed, investigated, and resolved in accordance with institutional policies. It operates with a strict confidentiality policy, ensuring that sensitive matters are disclosed only to those directly involved in the resolution process.",
-    "Measures": "The objective of the Grievance Cell in Government Engineering College, Patan is to develop a responsive and accountable attitude among all the students in order to maintain a harmonious educational atmosphere in the institute.",
-    "Measure_Image": "/images/grievence.jpg",
-    "Vision": [
-      "To develop a responsible and accountable attitude among all the students in order to maintain a harmonious educational ambience in the institute and uphold the dignity & divinity of the college."
-    ],
-    "Mission": [
-      "Advising students of the college to respect the right of dignity of one another. Encouraging the students to express their grievances/ suggestions freely for a smooth relationship and keep up the standard and discipline of the college."
-    ],
-    "SubObjectives": [
-      "To support students and faculty who have been deprived of the services they are entitled to.",
-      "To make college officials more responsive, accountable, and courteous in dealing with grievances.",
-      "To ensure a fair and effective resolution process with impartiality."
-      //"Address grievances impartially while upholding procedural fairness and institutional policies.",
-      //"Encourage college authorities to handle grievances responsibly and take necessary corrective actions.",
-      //"Maintain strict confidentiality of complaints while ensuring ethical grievance resolution.",
-      //"Bridge the gap between students, faculty, and administration for effective problem-solving.",
-      //"Analyze grievance patterns to suggest policy improvements and prevent future issues."
+    {
+        "ID": 5,
+        "Title": "Grievence Cell",
+        "TitleImage": "../../images/grievence_banner.jpg",
+        "TitleImageCSSClass": "grievance_title",
+        "About": "The Grievance Cell at Government Engineering College, Patan, is dedicated to addressing and resolving concerns raised by students, faculty, and staff in a fair, transparent, and timely manner. The cell ensures a supportive and unbiased educational environment by handling complaints related to academic, administrative, infrastructure, or personal issues.<br> The cell functions as a bridge between the complainant and the administration, ensuring that every grievance is analyzed, investigated, and resolved in accordance with institutional policies. It operates with a strict confidentiality policy, ensuring that sensitive matters are disclosed only to those directly involved in the resolution process.",
+        "Measures": "The objective of the Grievance Cell in Government Engineering College, Patan is to develop a responsive and accountable attitude among all the students in order to maintain a harmonious educational atmosphere in the institute.",
+        "Measure_Image": "/images/grievence.jpg",
+        "Vision": [
+        ],
+        "Mission": [
+        ],
+        "SubObjectives": [
+            "To support students and faculty who have been deprived of the services they are entitled to.",
+            "To make college officials more responsive, accountable, and courteous in dealing with grievances.",
+            "To ensure a fair and effective resolution process with impartiality."
+            //"Address grievances impartially while upholding procedural fairness and institutional policies.",
+            //"Encourage college authorities to handle grievances responsibly and take necessary corrective actions.",
+            //"Maintain strict confidentiality of complaints while ensuring ethical grievance resolution.",
+            //"Bridge the gap between students, faculty, and administration for effective problem-solving.",
+            //"Analyze grievance patterns to suggest policy improvements and prevent future issues."
 
-    ],
-    "SubObjImg": "",
-    "BulletPoints": [
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [
 
-    ],
-    "BulletPointsImg": "",
-    "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
-    "Members": [
-      {
-        "ID": 1,
-        "Name": "Prof. A. B. Dhruv",
-        "Position": "Chairman",
-        "Image": "~/images/Faculty/HOD/501.jpg",
-        "Email": "anand.dhruv@gecpatan.ac.in",
-        "Department": "Mechanical Engineering Department"
-      },
-      {
-        "ID": 2,
-        "Name": "Prof. V. P. Soni",
-        "Position": "Member",
-        "Image": "~/images/Faculty/601.jpg",
-        "Email": "vijay.soni@gecpatan.ac.in",
-        "Department": "Science & Humanities Engineering Department"
-      },
-      {
-        "ID": 3,
-        "Name": "Prof. B. P. Patel",
-        "Position": "Member",
-        "Image": "~/images/Faculty/216.jpg",
-        "Email": "bhavesh.patel@gecpatan.ac.in",
-        "Department": "Computer Science & Engineering Department"
-      },
-      {
-        "ID": 4,
-        "Name": "Prof. R. A. Chaudhari",
-        "Position": "Member",
-        "Image": "~/images/Faculty/107.jpg",
-        "Email": "roshni.chaudhari@gecpatan.ac.in",
-        "Department": "Electronics & Communication Engineering Department"
-      }
-    ],
-    "Link": "https://docs.google.com/forms/d/e/1FAIpQLSflgceQZ01Kp9FpBNFAdI_78pLVyDoGfRoLpmlUgvFcwRqagQ/viewform"
-  },
+        ],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. A. B. Dhruv",
+                "Position": "Chairman",
+                "Image": "~/images/Faculty/HOD/501.jpg",
+                "Email": "anand.dhruv@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. V. P. Soni",
+                "Position": "Member",
+                "Image": "~/images/Faculty/601.jpg",
+                "Email": "vijay.soni@gecpatan.ac.in",
+                "Department": "Science & Humanities Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. B. P. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/216.jpg",
+                "Email": "bhavesh.patel@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. R. A. Chaudhari",
+                "Position": "Member",
+                "Image": "~/images/Faculty/107.jpg",
+                "Email": "roshni.chaudhari@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            }
+        ],
+        "Link": "https://docs.google.com/forms/d/e/1FAIpQLSflgceQZ01Kp9FpBNFAdI_78pLVyDoGfRoLpmlUgvFcwRqagQ/viewform",
+        "TabTitles": {
+            "SubObjectives": "Objectives"
+        },
+        "TableView": true
+    },
 
 
     //RTI

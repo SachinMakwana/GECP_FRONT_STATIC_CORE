@@ -1178,7 +1178,7 @@
     "Qualification": "PhD.",
     "Area_of_Interest": "Machine Learning",
     "Isteaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 1,
     "PersonalDetails": {
       "Name": "Dr. Harikrishna Jethva",
       "Designation": "Associate Professor",
@@ -1515,7 +1515,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "COMPUTER NETWORKS",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 4,
     "PersonalDetails": {
       "Name": "Prof. Pinesh Arvindbhai Darji",
       "Designation": "Assistant Professor",
@@ -1689,7 +1689,7 @@
     "Qualification": "M.Tech. CE",
     "Area_of_Interest": "Routing in Wireless Sensor Network",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 3,
     "PersonalDetails": {
       "Name": "PROF. ADESH V PANCHAL",
       "Designation": "Assistant Professor",
@@ -1805,7 +1805,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 7,
     "PersonalDetails": {
       "Name": "PROF. MITUL JAYANTIBHAI PATEL",
       "Designation": "Assistant Professor",
@@ -1907,7 +1907,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Python",
     "Isteaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 13,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "PROF. SACHINKUMAR HARSHADBHAI MAKWANA",
@@ -2024,7 +2024,7 @@
     "Qualification": "ME IT",
     "Area_of_Interest": "Cloud computing",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 10,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JAY PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME/Mtech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Cloud computing </span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Jay Prakashbhai Patel",
@@ -2111,7 +2111,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 9,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Yogesh Patel</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Yogeshkumar Bharatbhai Patel",
@@ -2222,7 +2222,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "Android",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 11,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIVYESHKUMAR BAVISA</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Android</span></li></ul></div></div></div>",
 
     "PersonalDetails": {
@@ -2306,7 +2306,7 @@
     "Qualification": "M.E. IT",
     "Area_of_Interest": "Data Structures & Algorithm, DBMS, Data Mining, Computer Networks",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 12,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR VASAVA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (I.T.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Structures &amp; Algorithm, DBMS, Data Mining, Computer Networks</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Mehulkumar Vasava",
@@ -2384,7 +2384,7 @@
 
     "Area_of_Interest": "Data Security, Cloud Computing, Privacy Preservation, Language Programming",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 8,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. KRUNAL SUTHAR</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph. D. Computer Engineering, NET</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Security, Cloud Computing, Privacy Preservation, Language Programming</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education Qualification", "Work Experience", "department portfolio", "research publications" ],
@@ -2500,7 +2500,7 @@
     "Qualification": "M.E CE",
     "Area_of_Interest": "Image Processing, Machine Learning",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 14,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARESH CHANDE</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E - Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Image Processing, Machine Learning</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Haresh Dhanji Chande",
@@ -2620,7 +2620,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "DTN / IOT",
     "isTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 2,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHAD CHAUDHARY</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DTN / IOT</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof.Harshad L Chaudhary",
@@ -2708,7 +2708,7 @@
     "Qualification": "",
     "Area_of_Interest": "",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 15,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Miss. HIRALBEN RATHOD</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>"
 
   },
@@ -2723,7 +2723,7 @@
     "Qualification": "M.Tech CSE",
     "Area_of_Interest": "CSE",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 5,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Mr. Bhavesh Patel",
@@ -2812,7 +2812,7 @@
     "Qualification": "M.E. CE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 16,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Viral Pansiniya</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Shri Viral B Pansiniya",
@@ -2864,7 +2864,7 @@
     "Qualification": "BE CSE ",
     "Area_of_Interest": "Computer Science and Engineering",
     "IsTeaching": false,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 17,
     "personal_details": "",
     "PersonalDetails": {
       "Name": "Prajapati Reenaben Dasharathbhai",
@@ -7768,7 +7768,7 @@
     "Qualification": "M.Phil, CSIR- UGC NET, Ph.D.",
     "Area_of_Interest": "Fuzzy Mathematics",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 1,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY SONI</a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Phil, CSIR- UGC NET, Ph.D. </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijay P. Soni",
@@ -7980,7 +7980,7 @@
     "Qualification": "Ph.D",
     "Area_of_Interest": "Atomic and Molecular Physics",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 3,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. ASHOKKUMAR CHAUDHARI </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic and Molecular Physics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr.Ashok K.Chaudhari",
@@ -8164,7 +8164,7 @@
     "Qualification": "M.Sc. PhD CSIR-UGC NET",
     "Area_of_Interest": "Fuzzy Mathematics & Linear algebra",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 2,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJAY MAKWANA </a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Sc. PhD </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Fuzzy Mathematics &amp; Linear algebra</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Vijay C. Makwana",
@@ -8384,7 +8384,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Queuing Theory",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 5,
     "PersonalDetails": {
       "Name": "Dr. Bhavin S. Patel",
       "Designation": "Assistant Professor",
@@ -8576,7 +8576,7 @@
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Atomic and Molecular Physics",
     "Isteaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 4,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HARSHADKUMAR BHUTADIA </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.(Physics) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic andMolecular Physics</span></li></ul></div></div></div>"
 
     "PersonalDetails": {
