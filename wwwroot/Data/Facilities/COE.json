@@ -1,12 +1,45 @@
 ﻿{
-
   "Title": "Center of Excellence",
   "Titleimage": "../../images/ssip_banner.jpg",
   "TitleImageCSSClass": "ssip_title",
-  "SideImage": "../../images/Institute/CoE/CoE.jpg",
-  "Vision": [ "To be a beacon of academic excellence and innovation, empowering students, faculty, and communities to drive positive societal change through research, knowledge, and sustainable development." ],
-  "Mission": [ "To provide a dynamic environment for academic growth, fostering research, collaboration, and skill development. The CoE will enhance educational practices, promote interdisciplinary learning, and create solutions that address real-world challenges in partnership with government, industry, and the community." ],
-  "About": "Government Engineering College has initiated to build Centre of Excellence (COE) with an objective of developing industry institute partnership in the field of Automation, Mobile Hydraulic, Automobile, and Mobile Electronics Technologies to bridge technology gaps between industry and academia to foster research and knowledge among the students. The main goal would be to improve the technical competence, employability and entrepreneurship of students who train at the centre and encourage students to pursue PG programs. The centre of competence is established to bridge the gap between industry expectations and theoretical deficiencies with the objectives, to provide hands on experience to the students of engineering and polytechnics institutes to the recent technologies practiced in the industry and to enable all the students in different regions and rural areas to have exposure to industry and technologies, by the concept of center of excellence.",
+  "About": "<style> span { color: grey !important; } </style> <p style=\"text-align:justify; color:grey; display:inline;\">Siemens, in collaboration with the Government of Gujarat, has established Center of Excellence (COE) at various Government Engineering Colleges across the state. One such COE is located at the Government Engineering College in Patan. This centre focuses on Industrial Automation and comprises nine specialized laboratories equipped with advanced machinery and licensed software, including NX Academic, CAD, CAM, Technomatix, and Rob Cad. The laboratories are designed to enhance the skills of engineering students and professionals in areas such as Product Design, Validation, and Electrical Machine Automation. <p> Read the Detailed COE Course Plan here : <a href=\"javascript:void(0)\" onclick=\"loadPdf('~/DataFiles/Documents/COE/Course_plan_COE.pdf','COE Course Plan')\" class=\"read-more-button\" style=\"color:blue; margin-left:10px;\">COE Course Plan</a></p> <p style=\"text-align:justify; color:grey;\">These Center of Excellence play a crucial role in bridging the gap between academia and industry, ensuring that students and professionals in Gujarat have access to the latest technological advancements and training opportunities. Center of Excellence (COE) Patan provides specialized laboratories equipped with advanced tools and software to train students and professionals in automation.</p>",
+  "Measures": "",
+  "Measure_Image": "~/images/Institute/CoE/CoE.jpg",
+  "SubObjectives": [
+
+  ],
+  "SubObjImg": "",
+  "BulletPoints": [],
+  "BulletPointsImg": "",
+  "PageFlyer": "",
+  "Tagline": "",
+  "BlogLink": "",
+  "Members": [
+    {
+      "ID": 1,
+      "Name": "Dr. K. V. Patel",
+      "Position": "Coordinator",
+      "Department": "Mechanical",
+      "Image": "~/images/Faculty/516.jpg",
+      "Email": "kaushik.patel@gecpatan.ac.in"
+    },
+    {
+      "ID": 2,
+      "Name": "Dr. P. D. Patel",
+      "Position": "Member",
+      "Department": "Electrical",
+      "Image": "~/images/Faculty/306.jpg",
+      "Email": "pravin.patel@gecpata.ac.in"
+    },
+    {
+      "ID": 3,
+      "Name": "Dr. J. C. Prajapati",
+      "Position": "Member",
+      "Department": "Electronics & Communication",
+      "Image": "~/images/Faculty/103.jpg",
+      "Email": "jayesh.prajapati@gecpatan.ac.in"
+    }
+  ],
   "Benefits": [
     {
       "Icon": "fas fa-tools",
@@ -49,31 +82,133 @@
       "Text": "Easy management"
     }
   ],
-  "Members": [
+  "Labs": [
     {
-      "ID": 1,
-      "Name": "Dr. K. V. Patel",
-      "Position": "Convener",
-      "Department": "Mechanical",
-      "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": "vipul.patel@gecpatan.ac.in"
+      "LabID": 1,
+      "Lab_Image": "~/images/COE/COE1.jpg",
+      "Lab_Name": "Additive Manufacturing (3D Printing) Lab",
+      "Lab_Details": "Explores rapid prototyping and advanced manufacturing techniques. Equipped with SST 1200ES 3D printers for additive manufacturing, this lab facilitates rapid prototyping and the creation of complex geometries.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Additive Manufacturing (3D Printing) Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE1.pdf"
+        }
+      ]
     },
     {
-      "ID": 2,
-      "Name": "Dr. P. D. Patel",
-      "Position": "Menber",
-      "Department": "Electrical",
-      "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": "pravin.patel@gecpata.ac.in"
+      "LabID": 2,
+      "Lab_Image": "~/images/COE/COE2.jpg",
+      "Lab_Name": "Electrical Automation Lab",
+      "Lab_Details": "Deals with smart grids, energy distribution, and automation of electrical machines.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Electrical Automation Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE2.pdf"
+        }
+      ]
     },
     {
-      "ID": 3,
-      "Name": "Dr. J. C. Prajapati",
-      "Position": "Menber",
-      "Department": "Electronics & Communication",
-      "Image": "~/images/Faculty/Computer/dummy.jpg",
-      "Email": "jayesh.prajapati@gecpatan.ac.in"
+      "LabID": 3,
+      "Lab_Image": "~/images/COE/COE3.jpg",
+      "Lab_Name": "Mechatronics and Robotics Lab",
+      "Lab_Details": "Focuses on robotic automation, motion control, and mechatronics system design. Provides training with modular automation production systems (MAPS 6S), Siemens S7-1200 PLCs, and diagnostic kits, focusing on the integration of mechanical, electronic, and control systems.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Mechatronics and Robotics Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE3.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 4,
+      "Lab_Image": "~/images/COE/COE4.png",
+      "Lab_Name": "Process Instrumentation & Control Lab",
+      "Lab_Details": "Covers sensor technology, control systems, and industrial process monitoring.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Process Instrumentation & Control Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE4.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 5,
+      "Lab_Image": "~/images/COE/COE5.jpg",
+      "Lab_Name": "Computer Integrated Manufacturing (CIM) Laboratory",
+      "Lab_Details": "Integrates CNC milling and turning machines, automatic guided vehicles (AGVs), industrial robots, and vision inspection systems to simulate and study automated manufacturing processes. Features 2-axis CNC turning machines with 8-tool turrets and 3-axis CNC vertical milling machines with automatic tool changers, providing practical training in CNC machining operations.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Computer Integrated Manufacturing (CIM) Laboratory",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE5.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 6,
+      "Lab_Image": "~/images/COE/COE6.jpg",
+      "Lab_Name": "Product Design and Validation Lab",
+      "Lab_Details": "Focuses on CAD, CAE, and simulation technologies using Siemens NX software. Employs Siemens NX for comprehensive training in product design, modeling, and simulation, enhancing skills in creating and validating complex engineering designs.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Product Design and Validation Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE6.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 7,
+      "Lab_Image": "~/images/COE/COE7.jpg",
+      "Lab_Name": "CNC Programming Laboratory",
+      "Lab_Details": "Equipped with SINUMERIK 808D and 828D controllers for both turning and milling operations, this lab focuses on numerical control programming and simulation of toolpath generation.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "CNC Programming Laboratory",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE7.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 8,
+      "Lab_Image": "~/images/COE/COE8.jpg",
+      "Lab_Name": "Advanced Manufacturing Lab",
+      "Lab_Details": "Covers CNC programming, virtual machining, and manufacturing process automation. Utilizes Siemens NX software for training in advanced manufacturing techniques, including digital manufacturing and virtual machining simulations.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Advanced Manufacturing Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE8.pdf"
+        }
+      ]
+    },
+    {
+      "LabID": 9,
+      "Lab_Image": "~/images/COE/COE9.jpg",
+      "Lab_Name": "Industrial Automation Lab",
+      "Lab_Details": "Provides hands-on experience with PLC, SCADA, HMI, and industrial networking.",
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Industrial Automation Lab",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Documents/COE/COE9.pdf"
+        }
+      ]
     }
   ]
-
+  
 }

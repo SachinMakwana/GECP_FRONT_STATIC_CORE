@@ -804,8 +804,8 @@
                 "MenuText": "Establishment Office",
                 "ParentID": null,
                 "dynamicID": null,
-                "ControllerName": "",
-                "ActionName": "",
+                "ControllerName": "Administration",
+                "ActionName": "Esta",
                 "position": 2,
                 "isVisible": true,
                 "ChildMenuVMs": []

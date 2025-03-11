@@ -42,6 +42,9 @@ namespace GECP_Front_End_Static.Models
         public string Lab_Name { get; set; }
         public string Lab_Image { get; set; }
         public string Lab_Details { get; set; }
-    }
+
+		public List<File> Files { get; set; } = new List<File>();
+
+	}
 
 }
