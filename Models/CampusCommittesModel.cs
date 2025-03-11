@@ -35,7 +35,10 @@ namespace GECP_Front_End_Static.Models
         public string PageFlyer { get; set; }
         public string Tagline { get; set; }
         public string BlogLink { get; set; }
-        public List<Members> Members { get; set; }= new List<Members>();
+
+		public string Link { get; set; }
+
+		public List<Members> Members { get; set; }= new List<Members>();
         public List<CommitteeActivity> Activities { get; set; } = new List<CommitteeActivity>();
         public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
     		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
@@ -84,6 +87,8 @@ namespace GECP_Front_End_Static.Models
         public string Activities { get; set; } = "Activities";
         public string Blogspot { get; set; } = "Blogspot";
         public string Documents { get; set; } = "Documents";
-    }
+
+		public string Link { get; set; } = "Register Grievance";
+	}
 
 }

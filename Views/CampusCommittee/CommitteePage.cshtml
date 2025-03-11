@@ -49,6 +49,10 @@
 		{
 			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
 		}
+		@if (!string.IsNullOrWhiteSpace(Model.Link))
+		{
+			<a href="@Model.Link" target="_blank"><button class="tablinks">@Model.TabTitles.Link</button></a>
+		}
 		@if (Model.ShowDocument)
 		{
 			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
