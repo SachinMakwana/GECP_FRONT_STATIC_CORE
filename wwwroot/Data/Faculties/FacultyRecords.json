@@ -4048,313 +4048,313 @@
       }
     ]
   },
-  {
-    "ID": 402,
-    "Name": "Dr. Vijendrakumar Patel",
-    "Designation": "Assistant Professor",
-    "image": "images/Faculty/402.jpg",
-    "Dept_ID": 4,
-    "Date_of_Joining": "2017-04-18",
-    "Qualification": "Ph.D.",
-    "Area_of_Interest": "Civil Engineering",
-    "IsTeaching": true,
-    "SeniorityOrder": 0,
-    "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJENDRAKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Civil Engineering</span></li></ul></div></div></div>",
-    "PersonalDetails": {
-      "Name": "Dr. V. M. Patel",
-      "Designation": "Assistant Professor",
-      "Department": "Civil",
-      "Contact": "7990885704",
-      "Email": "vijendrakumar.patel@gujgov.edu.in"
-    },
-    "EducationalQualifications": [
-      {
-        "Degree": "Ph.D",
-        "Year": "2016",
-        "Specialization": "Tsunami Modeling,RS,GIS"
-      },
-      {
-        "Degree": "M.E",
-        "Year": "2006",
-        "Specialization": "WRM"
-      },
-      {
-        "Degree": "B.E",
-        "Year": "2003",
-        "Specialization": "Civil Engineering"
-      }
-    ],
-    "ProfessionalExperiences": [
-      {
-        "Position": "Assistant Professor",
-        "Organization": "GEC Patan",
-        "Duration": "18-04-2017 - Present"
-      },
-      {
-        "Position": "Lecturer",
-        "Organization": "Government Polytechnic, Palanpur",
-        "Duration": "06-07-2011 to 17-04-2017"
-      },
-      {
-        "Position": "Assistant Professor",
-        "Organization": " PDPU (Pandit Deendayal Petroleum University ,Gandhinagar)",
-        "Duration": "02-06-2010 to 06-06-2011"
-      },
-      {
-        "Position": "Lecturer",
-        "Organization": "BSPatel Polytechnic, Ganpat University,Kherva",
-        "Duration": "13-06-2005 to 01-06-2010"
-      },
-      {
-        "Position": "Research Trainee",
-        "Organization": "ISRO (SAC ,Ahmedabad)",
-        "Duration": "02-08-2004 to 06-06-2005"
-      }
-    ],
-    "TrainingAndWorkshops": [
-      {
-        "Title": "MOOC Training Programme on “Remote Sensing Essentials”",
-        "OrganizedBy": "MOOC",
-        "Date": "Jan-24 to Apr-24"
-      },
-      {
-        "Title": "MOOC Training Programme on \"Project Planning and Control\"",
-        "OrganizedBy": "MOOC",
-        "Date": "May-23 to Jul-23"
-      },
-      {
-        "Title": "MOOC Training Programme on “Geographic information Systems”",
-        "OrganizedBy": "MOOC",
-        "Date": "Jan-22 to Apr-22"
-      },
-      {
-        "Title": "MOOC Training Programme on \"NBA Accreditation and Teaching Learning in Engineering (NATE)\"",
-        "OrganizedBy": "MOOC",
-        "Date": "27-01-2020 to 17-04-2020"
-      },
-      {
-        "Title": "MOOC Training Programme on \"Introduction to Geographic Information Systems\"",
-        "OrganizedBy": "MOOC",
-        "Date": "27-01-2020 to 21-02-2020"
-      },
-      {
-        "Title": "MOOC Training Programme on \"Remote Sensing and GIS\"",
-        "OrganizedBy": "MOOC",
-        "Date": "Sep-20 to Nov-20"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on “Design of Rubrics”",
-        "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "28-03-2022 to 01-04-2022"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"Advanced Technology in Infrastructure Development\"",
-        "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "21-01-2019 to 25-01-2019"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"Governance and management of institutions\"",
-        "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "29-08-2022 to 02-09-2022"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"Life Assessment, Repair and Restoration of Structures\"",
-        "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "06-08-2019 to 10-08-2019"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"Advances in Concrete Technology\"",
-        "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "23-07-2018 to 27-07-2018"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"3D Animation\"",
-        "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "26-06-2016 to 08-07-2016"
-      },
-      {
-        "Title": "ISTE FDP Training program on \"MATLAB and GIS Applications\"",
-        "OrganizedBy": "GP Gandhinagar",
-        "Date": "27-04-2015 to 08-05-2015"
-      },
-      {
-        "Title": "NITTTR, EX. Centre Ahmedabad FDP Training program on \"Managing People and Stress at Work\"",
-        "OrganizedBy": "NITTTR, Ex Center Ahmedabad",
-        "Date": "11-05-2015 to 15-05-2015"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"Application of Remote Sensing & Geographical Information System (GIS)\"",
-        "OrganizedBy": "NITTTR, Bhopal",
-        "Date": "07-07-2014 to 11-07-2014"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"Induction Phase - II\"",
-        "OrganizedBy": "NITTTR, Bhopal Remote Centre Patan",
-        "Date": "02-12-2013 to 13-12-2013"
-      },
-      {
-        "Title": "NITTTR, Bhopal FDP Training program on \"Induction Phase - I\"",
-        "OrganizedBy": "NITTTR, Bhopal Remote Centre Patan",
-        "Date": "13-05-2013 to 23-05-2013"
-      },
-      {
-        "Title": "QIP-CDEEP Short Term Course on “Soft Computing Techniques in Water Resources Management”",
-        "OrganizedBy": "IIT, Bombay",
-        "Date": "-"
-      },
-      {
-        "Title": "AICTE-ISTE sponsored STTP on “EARTHQUAKE: System, Behavior & Design”",
-        "OrganizedBy": "BBIT, V.V.Nagar",
-        "Date": "-"
-      },
-      {
-        "Title": "AICTE-ISTE sponsored STTP on “Approaches & Practices in Urban Transportation Planning”",
-        "OrganizedBy": "SVNIT, Surat",
-        "Date": "-"
-      },
-      {
-        "Title": "STTP on “Advanced Soft Modeling Techniques in Watershed Management”",
-        "OrganizedBy": "LDRP-ITR, Gandhinagar",
-        "Date": "-"
-      },
-      {
-        "Title": "STTP on “Application of GIS, Remote Sensing & GPS in Civil Engineering”",
-        "OrganizedBy": "L.D. College of Engineering",
-        "Date": "-"
-      },
-      {
-        "Title": "STTP on “Critical Issues in 21st Century for Civil Engineers”",
-        "OrganizedBy": "L.D. College of Engineering",
-        "Date": "-"
-      },
-      {
-        "Title": "One day Workshop on “Water Resources Management Issues in Gujarat”",
-        "OrganizedBy": "CEPT, Ahmedabad",
-        "Date": "-"
-      },
-      {
-        "Title": "Testing of construction materials at Gujarat Engineering Research Institute",
-        "OrganizedBy": "GERI, Gandhinagar",
-        "Date": "-"
-      }
-      //{
-      //  "Title": "Research Trainee",
-      //  "OrganizedBy": "Online",
-      //  "Date": "Jul-2020 to Sep-2020"
-      //}
-    ],
-    "Publications": [
-      {
-        "SrNo": 1,
-        "Title": "Emergency preparedness in the case of Makran tsunami: a case study on tsunami risk visualization for the western parts of Gujarat, India (2016). Taylor & Francis, Geomatics Natural Hazard and Risk, (SCI Journal Taylor & Francis) https://doi.org/10.1080/19475705.2014.983188"
-      },
-      {
-        "SrNo": 2,
-        "Title": "Simulation of 1945 Makran Tsunami in the Arabian Sea and Tsunami Risk along Coast of Gujarat (India) International Symposium on “Advances in Earthquake Science (AES-2013)” Institute of Seismological Research, Gandhinagar, Gujarat, India."
-      },
-      {
-        "SrNo": 3,
-        "Title": "Remote sensing techniques for land use/land cover mapping in Mahi Right Bank Canal command area, Gujarat (2015) Journal of Civil Engineering and Technology."
-      },
-      {
-        "SrNo": 4,
-        "Title": "Tsunami Risk 3D Visualizations of Okha Coast, Gujarat (India), International Journal of Engineering Science and Innovative Technology."
-      },
-      {
-        "SrNo": 5,
-        "Title": "\"Tsunami Evacuation Planning and Mapping along Coastal Area of Porbandar City Gujarat, India (2016) International Journal of Advance Research in Engineering, Science & Technology.\""
-      },
-      {
-        "SrNo": 6,
-        "Title": "Development of Tsunami Emergency Response System Along Coastal Area of Dwarka Gujarat, India (2016) International Journal of Advance Research in Engineering, Science & Technology."
-      },
-      {
-        "SrNo": 7,
-        "Title": "Assessing the Tsunami Hazards on the Western Coast of India: A Systematic Review."
-      },
-      {
-        "SrNo": 8,
-        "Title": "The Concept of Zero Energy Buildings (ZEB) - A Literature Study (2019), International Journal of Innovative Research In Technology."
-      },
-      {
-        "SrNo": 9,
-        "Title": "Tsunami Emergency Response System Using Geo-Information Technology Along The Western Coast of India (2019) International Journal of Civil Engineering and Technology (IJCIET)."
-      },
-      {
-        "SrNo": 10,
-        "Title": "GIS Based 3D Urban Mapping of Mehsana City (2021) GIS Science Journal."
-      },
-      {
-        "SrNo": 11,
-        "Title": "Nested Modeling Framework for Assessing Tsunami Wave Impact on the Coastal Region of Gujarat, West Coast of India: A Hypothetical Approach (2024). Nanotechnology Perceptions -Environmental Science, Geology, Geography."
-      },
-      {
-        "SrNo": 12,
-        "Title": "Remote Sensing Techniques for Mapping Degraded Land (2015) International Journal of Innovative Research in Science, Engineering and Technology."
-      },
-      {
-        "SrNo": 13,
-        "Title": "Tsunami Early Warning System Along The Gujarat Coast, India (2015) International Journal of Civil Engineering and Technology."
-      },
-      {
-        "SrNo": 14,
-        "Title": "Geo-Information Technology for Coastal Disaster Risk Reduction (2015) International Journal of Innovative Research in Science, Engineering and Technology."
-      },
-      {
-        "SrNo": 15,
-        "Title": "Tsunami Wave Forces On Coastal Structure. International Conference on Emerging Technologies and Applications in Engineering, Technology and Sciences (ICETAETS-2008) ISBN No: 978 – 81 – 906220 – 1 – 1."
-      },
-      {
-        "SrNo": 16,
-        "Title": "Remote Sensing Technique for Waterlogged and Salt Affected Area Detection. International Conference on Emerging Technologies and Applications in Engineering, Technology and Sciences (ICETAETS-2008) ISBN No: 978 – 81 – 906220 – 0 – 4."
-      },
-      {
-        "SrNo": 17,
-        "Title": "Using Satellite, Aerial Imagery Generate 3D Model of Urban Buildings. International Conference on Emerging Technologies and Applications in Engineering, Technology and Sciences (ICETAETS-2008) ISBN No: 978 – 81 – 906220 – 1 – 1."
-      },
-      {
-        "SrNo": 18,
-        "Title": "Delineation Of Degraded Land Due To Waterlogging And Salinization In The MRBC Command Area, Gujarat, Using Remote Sensing Technique. 6th International R&D Conference (Sustainable Development of Water and Energy Resources-Need and Challenges, Luknow - India)."
-      },
-      {
-        "SrNo": 19,
-        "Title": "Updating Land Use/Land Cover Maps Using IRS-P6/1D LISS-III Satellite Data. 6th International R&D Conference (Sustainable Development of Water and Energy Resources-Need and Challenges, Luknow - India)."
-      },
-      {
-        "SrNo": 20,
-        "Title": "Role of Remote Sensing & GIS Technique in Water Resources Management. National Conference on Hydraulics and Water Resources (HYDRO-2007). Surat, Gujarat. ISBN No: 81 – 88901 – 32 – 6."
-      },
-      {
-        "SrNo": 21,
-        "Title": "Optimization Techniques in Water Resources Management. National Conference on Infrastructure Development in Civil Engineering (IDCE-2008). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 81 – 906531 – 3 – 8."
-      },
-      {
-        "SrNo": 22,
-        "Title": "Yield and Water Productivity Impact of Pressurized Irrigation Technology on Alfalfa Crop over Flood Irrigation Technique. National Conference on Infrastructure Development in Civil Engineering (IDCE-2008). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 81 – 906531 – 3 – 8."
-      },
-      {
-        "SrNo": 23,
-        "Title": "Solution of Gradually Varied Flow Profile by Numerical Method. National Conference on Innovations & Applications of Mathematical Modeling Techniques in Engineering System. ADIT, New V.V.Nagar."
-      },
-      {
-        "SrNo": 24,
-        "Title": "A Review on Modeling of Tsunami Waves. National Conference on Innovations & Applications of Mathematical Modeling Techniques in Engineering Systems. ADIT, New V.V.Nagar."
-      },
-      {
-        "SrNo": 25,
-        "Title": "Reuse of Waste Water for Irrigation. National Conference on Hydraulics and Water Resources (HYDRO-2007), Surat, Gujarat. ISBN No: 978 – 81 – 203 – 2230 – 1."
-      },
-      {
-        "SrNo": 26,
-        "Title": "Remote Sensing - A Decision Making Tools for Civil Engineer. National Conference on Civil Engineering Challenges (CEC-09). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 93 – 80043 – 34 – 0."
-      },
-      {
-        "SrNo": 27,
-        "Title": "Tsunami Hazard from Earthquakes in the Western Indian Ocean. National Conference on Civil Engineering Challenges (CEC-09). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 93 – 80043."
-      }
-    ]
+    {
+        "ID": 402,
+        "Name": "Dr. V. M. Patel",
+        "Designation": "Assistant Professor",
+        "image": "images/Faculty/402.jpg",
+        "Dept_ID": 4,
+        "Date_of_Joining": "2017-04-18",
+        "Qualification": "Ph.D.",
+        "Area_of_Interest": "Civil Engineering",
+        "IsTeaching": true,
+        "SeniorityOrder": 0,
+        "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. VIJENDRAKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Civil Engineering</span></li></ul></div></div></div>",
+        "PersonalDetails": {
+            "Name": "Dr. Vijendrakumar M. Patel",
+            "Designation": "Assistant Professor",
+            "Department": "Civil",
+            "Contact": "7990885704",
+            "Email": "vijendrakumar.patel@gujgov.edu.in"
+        },
+        "EducationalQualifications": [
+            {
+                "Degree": "Ph.D",
+                "Year": "2016",
+                "Specialization": "Tsunami Modeling,RS,GIS"
+            },
+            {
+                "Degree": "M.E",
+                "Year": "2006",
+                "Specialization": "WRM"
+            },
+            {
+                "Degree": "B.E",
+                "Year": "2003",
+                "Specialization": "Civil Engineering"
+            }
+        ],
+        "ProfessionalExperiences": [
+            {
+                "Position": "Assistant Professor",
+                "Organization": "GEC Patan",
+                "Duration": "18-04-2017 - Present"
+            },
+            {
+                "Position": "Lecturer",
+                "Organization": "Government Polytechnic, Palanpur",
+                "Duration": "06-07-2011 to 17-04-2017"
+            },
+            {
+                "Position": "Assistant Professor",
+                "Organization": " PDPU (Pandit Deendayal Petroleum University ,Gandhinagar)",
+                "Duration": "02-06-2010 to 06-06-2011"
+            },
+            {
+                "Position": "Lecturer",
+                "Organization": "BSPatel Polytechnic, Ganpat University,Kherva",
+                "Duration": "13-06-2005 to 01-06-2010"
+            },
+            {
+                "Position": "Research Trainee",
+                "Organization": "ISRO (SAC ,Ahmedabad)",
+                "Duration": "02-08-2004 to 06-06-2005"
+            }
+        ],
+        "TrainingAndWorkshops": [
+            {
+                "Title": "MOOC Training Programme on “Remote Sensing Essentials”",
+                "OrganizedBy": "MOOC",
+                "Date": "Jan-24 to Apr-24"
+            },
+            {
+                "Title": "MOOC Training Programme on \"Project Planning and Control\"",
+                "OrganizedBy": "MOOC",
+                "Date": "May-23 to Jul-23"
+            },
+            {
+                "Title": "MOOC Training Programme on “Geographic information Systems”",
+                "OrganizedBy": "MOOC",
+                "Date": "Jan-22 to Apr-22"
+            },
+            {
+                "Title": "MOOC Training Programme on \"NBA Accreditation and Teaching Learning in Engineering (NATE)\"",
+                "OrganizedBy": "MOOC",
+                "Date": "27-01-2020 to 17-04-2020"
+            },
+            {
+                "Title": "MOOC Training Programme on \"Introduction to Geographic Information Systems\"",
+                "OrganizedBy": "MOOC",
+                "Date": "27-01-2020 to 21-02-2020"
+            },
+            {
+                "Title": "MOOC Training Programme on \"Remote Sensing and GIS\"",
+                "OrganizedBy": "MOOC",
+                "Date": "Sep-20 to Nov-20"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on “Design of Rubrics”",
+                "OrganizedBy": "NITTTR, Bhopal",
+                "Date": "28-03-2022 to 01-04-2022"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"Advanced Technology in Infrastructure Development\"",
+                "OrganizedBy": "NITTTR, Bhopal",
+                "Date": "21-01-2019 to 25-01-2019"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"Governance and management of institutions\"",
+                "OrganizedBy": "NITTTR, Bhopal",
+                "Date": "29-08-2022 to 02-09-2022"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"Life Assessment, Repair and Restoration of Structures\"",
+                "OrganizedBy": "NITTTR, Bhopal",
+                "Date": "06-08-2019 to 10-08-2019"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"Advances in Concrete Technology\"",
+                "OrganizedBy": "NITTTR, Bhopal",
+                "Date": "23-07-2018 to 27-07-2018"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"3D Animation\"",
+                "OrganizedBy": "NITTTR, Bhopal",
+                "Date": "26-06-2016 to 08-07-2016"
+            },
+            {
+                "Title": "ISTE FDP Training program on \"MATLAB and GIS Applications\"",
+                "OrganizedBy": "GP Gandhinagar",
+                "Date": "27-04-2015 to 08-05-2015"
+            },
+            {
+                "Title": "NITTTR, EX. Centre Ahmedabad FDP Training program on \"Managing People and Stress at Work\"",
+                "OrganizedBy": "NITTTR, Ex Center Ahmedabad",
+                "Date": "11-05-2015 to 15-05-2015"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"Application of Remote Sensing & Geographical Information System (GIS)\"",
+                "OrganizedBy": "NITTTR, Bhopal",
+                "Date": "07-07-2014 to 11-07-2014"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"Induction Phase - II\"",
+                "OrganizedBy": "NITTTR, Bhopal Remote Centre Patan",
+                "Date": "02-12-2013 to 13-12-2013"
+            },
+            {
+                "Title": "NITTTR, Bhopal FDP Training program on \"Induction Phase - I\"",
+                "OrganizedBy": "NITTTR, Bhopal Remote Centre Patan",
+                "Date": "13-05-2013 to 23-05-2013"
+            },
+            {
+                "Title": "QIP-CDEEP Short Term Course on “Soft Computing Techniques in Water Resources Management”",
+                "OrganizedBy": "IIT, Bombay",
+                "Date": "-"
+            },
+            {
+                "Title": "AICTE-ISTE sponsored STTP on “EARTHQUAKE: System, Behavior & Design”",
+                "OrganizedBy": "BBIT, V.V.Nagar",
+                "Date": "-"
+            },
+            {
+                "Title": "AICTE-ISTE sponsored STTP on “Approaches & Practices in Urban Transportation Planning”",
+                "OrganizedBy": "SVNIT, Surat",
+                "Date": "-"
+            },
+            {
+                "Title": "STTP on “Advanced Soft Modeling Techniques in Watershed Management”",
+                "OrganizedBy": "LDRP-ITR, Gandhinagar",
+                "Date": "-"
+            },
+            {
+                "Title": "STTP on “Application of GIS, Remote Sensing & GPS in Civil Engineering”",
+                "OrganizedBy": "L.D. College of Engineering",
+                "Date": "-"
+            },
+            {
+                "Title": "STTP on “Critical Issues in 21st Century for Civil Engineers”",
+                "OrganizedBy": "L.D. College of Engineering",
+                "Date": "-"
+            },
+            {
+                "Title": "One day Workshop on “Water Resources Management Issues in Gujarat”",
+                "OrganizedBy": "CEPT, Ahmedabad",
+                "Date": "-"
+            },
+            {
+                "Title": "Testing of construction materials at Gujarat Engineering Research Institute",
+                "OrganizedBy": "GERI, Gandhinagar",
+                "Date": "-"
+            }
+            //{
+            //  "Title": "Research Trainee",
+            //  "OrganizedBy": "Online",
+            //  "Date": "Jul-2020 to Sep-2020"
+            //}
+        ],
+        "Publications": [
+            {
+                "SrNo": 1,
+                "Title": "Emergency preparedness in the case of Makran tsunami: a case study on tsunami risk visualization for the western parts of Gujarat, India (2016). Taylor & Francis, Geomatics Natural Hazard and Risk, (SCI Journal Taylor & Francis) https://doi.org/10.1080/19475705.2014.983188"
+            },
+            {
+                "SrNo": 2,
+                "Title": "Simulation of 1945 Makran Tsunami in the Arabian Sea and Tsunami Risk along Coast of Gujarat (India) International Symposium on “Advances in Earthquake Science (AES-2013)” Institute of Seismological Research, Gandhinagar, Gujarat, India."
+            },
+            {
+                "SrNo": 3,
+                "Title": "Remote sensing techniques for land use/land cover mapping in Mahi Right Bank Canal command area, Gujarat (2015) Journal of Civil Engineering and Technology."
+            },
+            {
+                "SrNo": 4,
+                "Title": "Tsunami Risk 3D Visualizations of Okha Coast, Gujarat (India), International Journal of Engineering Science and Innovative Technology."
+            },
+            {
+                "SrNo": 5,
+                "Title": "\"Tsunami Evacuation Planning and Mapping along Coastal Area of Porbandar City Gujarat, India (2016) International Journal of Advance Research in Engineering, Science & Technology.\""
+            },
+            {
+                "SrNo": 6,
+                "Title": "Development of Tsunami Emergency Response System Along Coastal Area of Dwarka Gujarat, India (2016) International Journal of Advance Research in Engineering, Science & Technology."
+            },
+            {
+                "SrNo": 7,
+                "Title": "Assessing the Tsunami Hazards on the Western Coast of India: A Systematic Review."
+            },
+            {
+                "SrNo": 8,
+                "Title": "The Concept of Zero Energy Buildings (ZEB) - A Literature Study (2019), International Journal of Innovative Research In Technology."
+            },
+            {
+                "SrNo": 9,
+                "Title": "Tsunami Emergency Response System Using Geo-Information Technology Along The Western Coast of India (2019) International Journal of Civil Engineering and Technology (IJCIET)."
+            },
+            {
+                "SrNo": 10,
+                "Title": "GIS Based 3D Urban Mapping of Mehsana City (2021) GIS Science Journal."
+            },
+            {
+                "SrNo": 11,
+                "Title": "Nested Modeling Framework for Assessing Tsunami Wave Impact on the Coastal Region of Gujarat, West Coast of India: A Hypothetical Approach (2024). Nanotechnology Perceptions -Environmental Science, Geology, Geography."
+            },
+            {
+                "SrNo": 12,
+                "Title": "Remote Sensing Techniques for Mapping Degraded Land (2015) International Journal of Innovative Research in Science, Engineering and Technology."
+            },
+            {
+                "SrNo": 13,
+                "Title": "Tsunami Early Warning System Along The Gujarat Coast, India (2015) International Journal of Civil Engineering and Technology."
+            },
+            {
+                "SrNo": 14,
+                "Title": "Geo-Information Technology for Coastal Disaster Risk Reduction (2015) International Journal of Innovative Research in Science, Engineering and Technology."
+            },
+            {
+                "SrNo": 15,
+                "Title": "Tsunami Wave Forces On Coastal Structure. International Conference on Emerging Technologies and Applications in Engineering, Technology and Sciences (ICETAETS-2008) ISBN No: 978 – 81 – 906220 – 1 – 1."
+            },
+            {
+                "SrNo": 16,
+                "Title": "Remote Sensing Technique for Waterlogged and Salt Affected Area Detection. International Conference on Emerging Technologies and Applications in Engineering, Technology and Sciences (ICETAETS-2008) ISBN No: 978 – 81 – 906220 – 0 – 4."
+            },
+            {
+                "SrNo": 17,
+                "Title": "Using Satellite, Aerial Imagery Generate 3D Model of Urban Buildings. International Conference on Emerging Technologies and Applications in Engineering, Technology and Sciences (ICETAETS-2008) ISBN No: 978 – 81 – 906220 – 1 – 1."
+            },
+            {
+                "SrNo": 18,
+                "Title": "Delineation Of Degraded Land Due To Waterlogging And Salinization In The MRBC Command Area, Gujarat, Using Remote Sensing Technique. 6th International R&D Conference (Sustainable Development of Water and Energy Resources-Need and Challenges, Luknow - India)."
+            },
+            {
+                "SrNo": 19,
+                "Title": "Updating Land Use/Land Cover Maps Using IRS-P6/1D LISS-III Satellite Data. 6th International R&D Conference (Sustainable Development of Water and Energy Resources-Need and Challenges, Luknow - India)."
+            },
+            {
+                "SrNo": 20,
+                "Title": "Role of Remote Sensing & GIS Technique in Water Resources Management. National Conference on Hydraulics and Water Resources (HYDRO-2007). Surat, Gujarat. ISBN No: 81 – 88901 – 32 – 6."
+            },
+            {
+                "SrNo": 21,
+                "Title": "Optimization Techniques in Water Resources Management. National Conference on Infrastructure Development in Civil Engineering (IDCE-2008). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 81 – 906531 – 3 – 8."
+            },
+            {
+                "SrNo": 22,
+                "Title": "Yield and Water Productivity Impact of Pressurized Irrigation Technology on Alfalfa Crop over Flood Irrigation Technique. National Conference on Infrastructure Development in Civil Engineering (IDCE-2008). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 81 – 906531 – 3 – 8."
+            },
+            {
+                "SrNo": 23,
+                "Title": "Solution of Gradually Varied Flow Profile by Numerical Method. National Conference on Innovations & Applications of Mathematical Modeling Techniques in Engineering System. ADIT, New V.V.Nagar."
+            },
+            {
+                "SrNo": 24,
+                "Title": "A Review on Modeling of Tsunami Waves. National Conference on Innovations & Applications of Mathematical Modeling Techniques in Engineering Systems. ADIT, New V.V.Nagar."
+            },
+            {
+                "SrNo": 25,
+                "Title": "Reuse of Waste Water for Irrigation. National Conference on Hydraulics and Water Resources (HYDRO-2007), Surat, Gujarat. ISBN No: 978 – 81 – 203 – 2230 – 1."
+            },
+            {
+                "SrNo": 26,
+                "Title": "Remote Sensing - A Decision Making Tools for Civil Engineer. National Conference on Civil Engineering Challenges (CEC-09). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 93 – 80043 – 34 – 0."
+            },
+            {
+                "SrNo": 27,
+                "Title": "Tsunami Hazard from Earthquakes in the Western Indian Ocean. National Conference on Civil Engineering Challenges (CEC-09). NIT, Hamirpur, Himachal Pradesh. ISBN No: 978 – 93 – 80043."
+            }
+        ]
 
-  },
+    },
   {
     "ID": 403,
     "Name": "Dr. Manjurali Balya",
