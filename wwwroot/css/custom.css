@@ -904,6 +904,21 @@ table.dataTable thead .sorting_desc_disabled:before {
     vertical-align: middle !important;
     float: none;
 }
+#style-selector {
+    top: 212px;
+}
+
+    #style-selector a.close {
+        background: white url(arrow.jpg) no-repeat 8px 5px;
+    }
+.button1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    width: 100%;
+    padding: 3px;
+    background-color: grey;
+}
     /*responsive goes here*/
     @media only screen and (max-width: 479px) {
         .client_logos3 .minheight {
