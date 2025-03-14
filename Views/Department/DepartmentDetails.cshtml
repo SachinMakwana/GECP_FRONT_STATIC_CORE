@@ -265,16 +265,16 @@
                     <div class="one_third">
                         <img src="@Url.Content(lab.Lab_Image)" alt="@lab.Lab_Name" />
                     </div>
-                    <div class="two_third last">
-                        <div class="lab-content">
-                            <p class="text-justify">
+                    <div class="two_third last table-responsive">
+                        
+                            
                                 @if (!string.IsNullOrEmpty(lab.Lab_Details))
                                 {
                                     @Html.Raw(lab.Lab_Details)
 
                                 }
-                            </p>
-                        </div>
+                            
+                        
                     </div>
                     <div class="clearfix"></div>
                 </div>
