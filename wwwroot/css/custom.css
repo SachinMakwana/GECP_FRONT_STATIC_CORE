@@ -1001,6 +1001,9 @@ table.dataTable thead .sorting_desc_disabled:before {
         /*left: 3%;*/
         font-variant: small-caps;
     }
+    .tabcontent{
+        width:101%;
+    }
 }
 
 @media (max-width: 1024px) {
