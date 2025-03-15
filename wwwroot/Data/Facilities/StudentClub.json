@@ -7,20 +7,20 @@
     {
       "ID": 1,
       "Icon": "../../images/Club/gdgp.jpeg",
-      "About": "GDG Patan is a local chapter of Google Developer Groups in Patan, Gujarat, India. It brings together developers to learn about and collaborate on Google technologies like Android, Firebase, and Google Cloud. They organize workshops, meetups, hackathons, and events such as Google I/O Extended. To get involved, you can join their events via Meetup, follow them on social media, or attend their workshops and networking events. It's a great way to connect with like-minded tech enthusiasts and learn from experts!",
-      "Title": "GDGP",
+      "About": "GDGoC GEC Patan (Google Developer Groups on Campus) is the official on-campus chapter at Government Engineering College, Patan. It serves as a platform for students to explore, learn, and collaborate on Google technologies like Android, Firebase, Google Cloud, and more. The club organizes various events including workshops, meetups, hackathons, and flagship events like Google I/O Extended. Students can participate by attending these events, following the club on social media, or engaging in hands-on learning experiences. GDGoC GEC Patan offers a vibrant community for aspiring developers to connect, grow, and enhance their skills under expert guidance.",
+      "Title": "GDGoC",
       "ActionName": "ClubDetails",
       "ControllerName": "StudentCorner",
       "SubObjectives": [
-        "Encourage Innovation: Promote a culture of creative thinking and problem-solving among students.",
-        "Support Startups: Facilitate student-led startups by providing mentorship, funding, and resources.",
-        "Bridge Academia and Industry: Connect with industries to ensure practical exposure and project validation.",
-        "Enable Prototyping: Support students in developing prototypes and proof-of-concept models.",
-        "Promote Skill Development: Conduct training sessions to enhance entrepreneurial and technical skills.",
-        "Raise Awareness: Educate students about intellectual property rights and commercialization opportunities.",
-        "Encourage Participation: Motivate students to engage in state, national, and international innovation competitions and exhibitions."
+        "Foster Learning: Encourage continuous learning and exploration of Google technologies through workshops, study jams, and hands-on sessions.",
+        "Promote Collaboration: Build a vibrant community where students can share ideas, collaborate on projects, and solve real-world problems together.",
+        "Enhance Skill Development: Offer training and resources to improve technical skills in areas like web development, cloud computing, AI/ML, and app development.",
+        "Encourage Open Source Contribution: Motivate students to contribute to open-source projects and participate in programs like Google Summer of Code.",
+        "Build Networking Opportunities: Connect students with industry experts and experienced developers through talks, webinars, and mentorship.",
+        "Organize Engaging Events: Host events such as Google I/O Extended, hackathons, and tech meetups to broaden exposure and inspire innovation.",
+        "Promote Diversity & Inclusion: Create an inclusive environment where everyone feels welcome to learn, share, and grow."
       ],
-      "BlogLink": "http://nssgecpatan.blogspot.com/",
+      "BlogLink": "https://gdg.community.dev/gdg-on-campus-government-engineering-college-patan-india/",
       "Images": [
         "../../images/Club/gdgp.jpeg",
         "../../images/Club/gdgp.jpeg",
@@ -31,170 +31,331 @@
       "Members": [
         {
           "ID": 1,
-          "Name": "Dr. H. N. Panchal",
-          "Position": "Converner",
-          "Department": "Mechanical Engineering Department",
-          "Image": "~/images/Faculty/519.jpg",
-          "Email": "hitesh.panchal@gecpatan.ac.in"
+          "Name": "Khushali Raval",
+          "Position": "Mentor",
+          "Department": "Computer Science and Engineering",
+          "Email": "khushali.raval@gecpatan.ac.in"
         },
         {
           "ID": 2,
-          "Name": "Prof. H. L. Chaudhari",
-          "Position": "Converner",
-          "Department": "Computer Scence & Engineering Department",
-          "Image": "~/images/Faculty/214.jpg",
-          "Email": "harshad.chaudhary@gecpatan.ac.in"
+          "Name": "Hiral Rathod",
+          "Position": "Mentor",
+          "Department": "Computer Science and Engineering",
+          "Email": "Rathod.hiral26@gmail.com"
         },
         {
           "ID": 3,
-          "Name": "Prof. M. I. Baliya",
-          "Position": "Member",
-          "Department": "Civil Engineering Department",
-          "Image": "~/images/Faculty/1000.jpg",
-          "Email": "manjurali.baliya@gecpatan.ac.in"
+          "Name": "Kamlesh Suthar",
+          "Position": "Lead",
+          "Department": "Computer Science and Engineering",
+          "Email": "kamleshsuthar240725@gmail.com"
         },
         {
           "ID": 4,
-          "Name": "Dr. P. D. Patel",
-          "Position": "Member",
-          "Department": "Electrical Engineering Department",
-          "Image": "~/images/Faculty/306.jpg",
-          "Email": "pravin.patel@gecpatan.ac.in"
+          "Name": "Abhishek Mehta",
+          "Position": "Co-Lead",
+          "Department": "Computer Science and Engineering",
+          "Email": "abhishekmehta1285@gmail.com"
         },
         {
           "ID": 5,
-          "Name": "Dr. M. B. Patel",
-          "Position": "Member",
-          "Department": "Electronics & Communication Engineering Department",
-          "Image": "~/images/Faculty/108.jpg",
-          "Email": "maulik.patel@gecpatan.ac.in"
+          "Name": "Manus Limbachiya",
+          "Position": "UI/UX Facilitator",
+          "Department": "Computer Science and Engineering",
+          "Email": "limbachiyapinky95@gmail.com"
         },
         {
           "ID": 6,
-          "Name": "Prof. M. J. Vasava",
-          "Position": "Member",
-          "Department": "Computer Scence & Engineering Department",
-          "Image": "~/images/Faculty/211.jpg",
-          "Email": "mehul.vasava@gecpatan.ac.in"
+          "Name": "Kabir Dafda",
+          "Position": "Cyber Security Facilitator",
+          "Department": "Computer Science and Engineering",
+          "Email": "kabirdafda082@gmail.com"
+        },
+        {
+          "ID": 7,
+          "Name": "Sujal Solanki",
+          "Position": "Event Management Lead",
+          "Department": "Computer Science and Engineering",
+          "Email": "sujalkumarsolanki2005@gmail.com"
+        },
+        {
+          "ID": 8,
+          "Name": "Drashti Solanki",
+          "Position": "Social Media Management Lead",
+          "Department": "Computer Science and Engineering",
+          "Email": "drashtitakhtsinhsolanki@gmail.com"
+        },
+        {
+          "ID": 9,
+          "Name": "Banti Saini",
+          "Position": "Web Development Facilitator",
+          "Department": "Computer Science and Engineering",
+          "Email": "bantysaini28072005@gmail.com"
+        },
+        {
+          "ID": 10,
+          "Name": "Arman Hingora",
+          "Position": "App Development Facilitator",
+          "Department": "Computer Science and Engineering",
+          "Email": "armanhingora2005@gmail.com"
+        },
+        {
+          "ID": 11,
+          "Name": "Krish Patel",
+          "Position": "Robotics & Mechatronics Facilitator",
+          "Department": "Computer Science and Engineering",
+          "Email": "krish2409kisu@gmail.com"
+        },
+        {
+          "ID": 12,
+          "Name": "Man Bheda",
+          "Position": "IoT Facilitator",
+          "Department": "Computer Science and Engineering",
+          "Email": "bhedaman102004@gmail.com"
+        },
+        {
+          "ID": 13,
+          "Name": "Poorv Khatri",
+          "Position": "Cloud Facilitator",
+          "Department": "Computer Science and Engineering",
+          "Email": "kpoorv32@gmail.com"
+        },
+        {
+          "ID": 14,
+          "Name": "Pray Patel",
+          "Position": "Graphic Designer",
+          "Department": "Computer Science and Engineering",
+          "Email": "prayvijaybhai10@gmail.com"
+        },
+        {
+          "ID": 15,
+          "Name": "Sneha Sukhadiya",
+          "Position": "Graphic Designer",
+          "Department": "Computer Science and Engineering",
+          "Email": "sneha2006sukhadiya@gmail.com"
+        },
+        {
+          "ID": 16,
+          "Name": "Niraj Singh",
+          "Position": "Graphic Designer",
+          "Department": "Computer Science and Engineering",
+          "Email": "nirajtsingh@gmail.com"
+        },
+        {
+          "ID": 17,
+          "Name": "Rahul Varma",
+          "Position": "Graphic Designer",
+          "Department": "Computer Science and Engineering",
+          "Email": "rahulvarma1797@gmail.com"
+        },
+        {
+          "ID": 18,
+          "Name": "Sujal Prajapati",
+          "Position": "Management Team Member",
+          "Department": "Computer Science and Engineering",
+          "Email": "sujalprajapati057@gmail.com"
+        },
+        {
+          "ID": 19,
+          "Name": "Parth Raval",
+          "Position": "Management Team Member",
+          "Department": "Computer Science and Engineering",
+          "Email": "parthr240906@gmail.com"
+        },
+        {
+          "ID": 20,
+          "Name": "Falguni Thakor",
+          "Position": "Video Editor",
+          "Department": "Computer Science and Engineering",
+          "Email": "thakorfalguni783@gmail.com"
+        },
+        {
+          "ID": 21,
+          "Name": "Parv Joshi",
+          "Position": "Video Editor",
+          "Department": "Electronics and Communication Engineering",
+          "Email": "joshiparv@gmail.com"
+        },
+        {
+          "ID": 22,
+          "Name": "Trupti Parmar",
+          "Position": "Content Writer",
+          "Department": "Computer Science and Engineering",
+          "Email": "truptipanch@gmail.com"
+        },
+        {
+          "ID": 23,
+          "Name": "Dhruvika Padheriya",
+          "Position": "Content Writer",
+          "Department": "Computer Science and Engineering",
+          "Email": "padheriyadhruvikaba@gmail.com"
         }
       ],
+
       "Activities": [
         {
           "ID": 1,
-          "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-          "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-          "EventDate": "",
-          "EventTime": "",
+          "Title": "GDG on Campus Orientation Session",
+          "Description": "Google Developer Groups(GDG) intro session started with our mentor Khushali Raval welcoming everyone and talking about why joining developer communities matters. The core team then showed how big GDG is worldwide and how students of G.E.C. Patan can tap into tech-related activities. We talked about building connections with industry professionals and other tech-loving students. We were introduced to some helpful Google tools. The session concluded with students asking lots of questions about GDG activities and technical skills. The whole event got first-year students excited to become a part of our GDG family.",
+          "EventDate": "11/09/2024",
+          "EventTime": "03:00 p.m. to 5:00 p.m.",
           "Files": [
             {
               "ID": 1,
-              "Title": "Placement Activities",
+              "Title": "Orientation Session",
               "FileType": "PDF",
-              "FilePath": "~/PlacementCell/ActivityPoster.pdf"
+              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Orientation Session.pdf"
             }
           ]
         },
         {
           "ID": 2,
-          "Title": "Career Guidance Seminar",
-          "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-          "EventDate": "13/02/2025",
-          "EventTime": "10:30 AM to 12:30 PM",
+          "Title": "Unlocking the Future with Machine Learning",
+          "Description": "Mr. Sumit Chawla led an AI/ML workshop which was organised in collaboration with four universities-ITM SLS Baroda University, Karnavati University, Marwadi University, and Birla Vishwakarma University. AI/ML fundamentals with their real-world applications were introduced. The session emphasized the importance of hands-on experience and practical implementation. Career opportunities, skill development strategies and open-source contributions were also discussed. The workshop concluded with an interactive Q&A session that offered expert insights to participants.",
+          "EventDate": "09/11/2024",
+          "EventTime": "05:00 p.m. ",
           "Files": [
             {
               "ID": 1,
-              "Title": "Career Guidance Seminar",
+              "Title": "AI/ML Workshop",
               "FileType": "PDF",
-              "FilePath": "~/PlacementCell/career guidance seminar.pdf"
-            },
-            {
-              "ID": 2,
-              "Title": "Career Guidance Seminar",
-              "FileType": "Word",
-              "FilePath": "~/PlacementCell/career guidance seminar.pdf"
+              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/AI_ML_Workshop.pdf"
             }
           ]
+        },
+        {
+          "ID": 3,
+          "Title": "Basics of Git-Github & Linux",
+          "Description": "The workshop on Basics of Git, GitHub, and Linux by Kuber Jaydeep at GDG on campus covered Git commands like git init, git add, git commit, git push, and git pull for version control and branching. It explained GitHub’s role in storing and collaborating on code through pull requests and branch management. The Linux section covered basic commands like ls, cd, mkdir, rm, and chmod, along with package management using apt-get and text editing with nano and vim. The workshop highlighted how Git, GitHub, and Linux streamline development and collaboration.",
+          "EventDate": "14/12/2024",
+          "EventTime": "05:00 p.m. to 7:00 p.m.",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Git, GitHub and Linux",
+              "FileType": "PDF",
+              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Git_Github_and_Linux.pdf"
+            }
+          ]
+        },
+        {
+          "ID": 4,
+          "Title": "Tech Winter Break",
+          "Description": "The workshop on Web Development conducted by Yogesh Vasisth at GDG on campus covered the basics of building websites and web applications. It introduced HTML for structuring web pages, CSS for styling, and JavaScript for adding interactivity. Key concepts like responsive design, the DOM (Document Object Model), and event handling were discussed. The session also touched on modern frameworks and libraries like React for building dynamic user interfaces and managing state. Best practices for performance optimization, accessibility, and cross-browser compatibility were highlighted, providing a solid foundation for developing modern web applications.",
+          "EventDate": "30/12/2024",
+          "EventTime": "05:00 p.m. to 7:00 p.m.",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Tech Winter Break",
+              "FileType": "PDF",
+              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Tech_Winter_Break.pdf"
+            }
+          ]
+        },
+        {
+          "ID": 5,
+          "Title": "Introduction to Robotics",
+          "Description": "The workshop on Introduction to Robotics conducted by Krish Patel at GDG on campus covered the fundamental concepts of robotics, including the design, programming, and control of robots. It introduced key components such as sensors, actuators, and microcontrollers, explaining how they work together to enable robotic movement and interaction with the environment. The session discussed different types of robots, including autonomous and remote-controlled models, and explored programming techniques used to control robotic behavior. Practical examples and demonstrations helped illustrate how to build and program simple robots, providing a solid foundation for further exploration in the field of robotics.",
+          "EventDate": "03/02/2025",
+          "EventTime": "03:00 p.m. to 5:00 p.m.",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Robotics Workshop",
+              "FileType": "PDF",
+              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Robotics_Workshop.pdf"
+            }
+          ]
+        },
+        {
+          "ID": 6,
+          "Title": "Dive into Java Development",
+          "Description": "The 2-day Java Bootcamp conducted by Kunal Awasthi at GDG on campus covered the fundamentals of Java programming, focusing on both theory and practical applications. It started with the basics of Java syntax, data types, and control structures, followed by object-oriented programming (OOP) concepts like classes, objects, inheritance, polymorphism, and encapsulation. The bootcamp also introduced exception handling, file handling, and Java collections such as lists, sets, and maps. Participants worked on hands-on coding exercises and small projects to reinforce their understanding. The session concluded with best practices for writing efficient Java code and tips for solving common programming challenges.",
+          "EventDate": "",
+          "EventTime": "",
+          "Files": []
         }
       ],
       "IsDynamic": false
     },
     {
-        "ID": 2,
-        "Icon": "../../images/Club/codehives.jpeg",
-        "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
-        "Title": "Code Hives",
-        "ActionName": "ClubDetails",
-        "ControllerName": "StudentCorner",
-        "SubObjectives": [
-            "Learning and Development: Providing opportunities for members to learn programming languages, tools, and technologies through structured courses, workshops, and hands-on projects.",
-            "Community Building: Fostering a supportive and inclusive community where tech enthusiasts of all skill levels can connect, share knowledge, and collaborate on various coding projects.",
-            "Skill Enhancement: Offering a variety of events such as hackathons, coding challenges, and seminars that enable members to practice and improve their coding skills in a real-world setting.",
-            "Networking Opportunities: Creating a platform for members to network with industry professionals, mentors, and peers, thereby facilitating career growth and professional development.",
-            "Innovation and Creativity: Encouraging members to think creatively and innovate by providing them with the resources and environment to work on unique and challenging coding projects.",
-            "Career Support: Assisting members in their career journey by offering guidance, resume building workshops, interview preparation sessions, and job placement opportunities."
-        ],
-        "BlogLink": "",
-        "Images": [],
-        "Activities": [],
-        "IsDynamic": false,
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Prof. S. H. Makwana",
-                "Position": "Mentor",
-                "Department": "Computer Science & Engineering Department",
-                "Image": "~/images/Faculty/207.jpg",
-                "Email": "sachin.makwana@gecpatan.ac.in"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. J. P. Patel",
-                "Position": "Converner",
-                "Department": "Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/208.jpg",
-                "Email": "jay.patel@gecpatan.ac.in"
-            },
-            {
-                "ID": 3,
-                "Name": "Miss. Krisha Panchal",
-                "Position": "Lead",
-                "Department": "6th Sem, Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
-                "Email": "r.krisshhaa.2005@gmail.com"
-            },
-            {
-                "ID": 4,
-                "Name": "Mr. Kabir Dafda",
-                "Position": "Member",
-                "Department": "6th Sem, Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
-                "Email": "kabirdafda082@gmail.com"
-            },
-            {
-                "ID": 5,
-                "Name": "Mr. Priyanshu Tandel",
-                "Position": "Member",
-                "Department": "6th Sem, Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
-                "Email": "tandelpriyanshu24072004@gmail.com"
-            },
-            {
-                "ID": 6,
-                "Name": "Miss. Disha Patel ",
-                "Position": "Member",
-                "Department": "6th Sem, Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
-                "Email": "dishapatel4700@gmail.com"
-            },
-            {
-                "ID": 7,
-                "Name": "Miss. Anju Rajput",
-                "Position": "Member",
-                "Department": "6th Sem, Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/1000.jpg",
-                "Email": "anju29104@gmail.com"
-            }
-        ]
+      "ID": 2,
+      "Icon": "../../images/Club/codehives.jpeg",
+      "About": "Code Hives Club is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
+      "Title": "Code Hives",
+      "ActionName": "ClubDetails",
+      "ControllerName": "StudentCorner",
+      "SubObjectives": [
+        "Learning and Development: Providing opportunities for members to learn programming languages, tools, and technologies through structured courses, workshops, and hands-on projects.",
+        "Community Building: Fostering a supportive and inclusive community where tech enthusiasts of all skill levels can connect, share knowledge, and collaborate on various coding projects.",
+        "Skill Enhancement: Offering a variety of events such as hackathons, coding challenges, and seminars that enable members to practice and improve their coding skills in a real-world setting.",
+        "Networking Opportunities: Creating a platform for members to network with industry professionals, mentors, and peers, thereby facilitating career growth and professional development.",
+        "Innovation and Creativity: Encouraging members to think creatively and innovate by providing them with the resources and environment to work on unique and challenging coding projects.",
+        "Career Support: Assisting members in their career journey by offering guidance, resume building workshops, interview preparation sessions, and job placement opportunities."
+      ],
+      "BlogLink": "",
+      "Images": [],
+      "Activities": [],
+      "IsDynamic": false,
+      "Members": [
+        {
+          "ID": 1,
+          "Name": "Prof. S. H. Makwana",
+          "Position": "Mentor",
+          "Department": "Computer Science & Engineering Department",
+          "Image": "~/images/Faculty/207.jpg",
+          "Email": "sachin.makwana@gecpatan.ac.in"
+        },
+        {
+          "ID": 2,
+          "Name": "Prof. J. P. Patel",
+          "Position": "Converner",
+          "Department": "Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/208.jpg",
+          "Email": "jay.patel@gecpatan.ac.in"
+        },
+        {
+          "ID": 3,
+          "Name": "Miss. Krisha Panchal",
+          "Position": "Lead",
+          "Department": "6th Sem, Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/1000.jpg",
+          "Email": "r.krisshhaa.2005@gmail.com"
+        },
+        {
+          "ID": 4,
+          "Name": "Mr. Kabir Dafda",
+          "Position": "Member",
+          "Department": "6th Sem, Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/1000.jpg",
+          "Email": "kabirdafda082@gmail.com"
+        },
+        {
+          "ID": 5,
+          "Name": "Mr. Priyanshu Tandel",
+          "Position": "Member",
+          "Department": "6th Sem, Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/1000.jpg",
+          "Email": "tandelpriyanshu24072004@gmail.com"
+        },
+        {
+          "ID": 6,
+          "Name": "Miss. Disha Patel ",
+          "Position": "Member",
+          "Department": "6th Sem, Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/1000.jpg",
+          "Email": "dishapatel4700@gmail.com"
+        },
+        {
+          "ID": 7,
+          "Name": "Miss. Anju Rajput",
+          "Position": "Member",
+          "Department": "6th Sem, Computer Scence & Engineering Department",
+          "Image": "~/images/Faculty/1000.jpg",
+          "Email": "anju29104@gmail.com"
+        }
+      ]
     }
     //,
     //{
