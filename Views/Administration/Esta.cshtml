@@ -22,7 +22,7 @@
 
 <<div class="margin_top2"></div>
 <div class="featured_section30">
-    <div class="container">
+    <div class="full-container">
         @foreach (var data in Model)
         {
             <div class="one_half @((Model.IndexOf(data) + 1) % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
@@ -48,20 +48,20 @@
                                     <i class="b-dotted f-dotted">:</i>
                                     <span class="f-information_data">@data.Designation</span>
                                 </li>
-                                <li>
+                              @*   <li>
                                     <strong class="f-information-box__name b-information-box__name">Qualification</strong>
                                     <i class="b-dotted f-dotted">:</i>
                                     <span class="f-information_data">@data.Qualification</span>
-                                </li>
+                                </li> *@
                                 <li>
                                     <strong class="f-information-box__name b-information-box__name">Experience</strong>
                                     <i class="b-dotted f-dotted">:</i>
                                     <span class="f-information_data">@data.YearsOfExperience Years</span>
                                 </li>
                                 <li>
-                                    <strong class="f-information-box__name b-information-box__name">Area Of Interest</strong>
+                                    <strong class="f-information-box__name b-information-box__name">Email</strong>
                                     <i class="b-dotted f-dotted">:</i>
-                                    <span class="f-information_data">@data.Area_of_Interest</span>
+                                    <span class="f-information_data">@data.PersonalDetails.Email</span>
                                 </li>
                             </ul>
                         </div>

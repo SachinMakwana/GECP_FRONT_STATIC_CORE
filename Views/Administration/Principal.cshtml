@@ -27,7 +27,7 @@
         <div class="full-container text-justify">
 
             <div class="who animate" data-anim-type="fadeInLeft" data-anim-delay="400">
-                <img src="@Url.Content("~/images/Department/Civil/app_BJS.jpg")" alt="" style="margin: auto; width: 85%;">
+                <img src="@Url.Content("~/images/Department/Civil/app_BJS.jpg")" alt="" style="margin: auto; /* width: 85%; */">
             </div>
             <div data-anim-type="fadeIn" data-anim-delay="500">
                 <br /><br /><br />
@@ -41,13 +41,14 @@
                     I wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities.
                     <br /> <br />
                     - Dr. B J Shah
-                    <div class="clearfix margin_top5"></div>
-                    <div class="read-more-container">
+                    <div class="clearfix"></div>
+                     <div class="margin_top5"></div>
+                    @* <div class="read-more-container">
                         <div class="clearfix margin_top5"></div>
                         <a href="javascript:void(0)" class="btn btn-success" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = 701 })')" class="read-more-button">
                             KNOW MORE
                         </a>
-                    </div>
+                    </div> *@
                 </p>
                 <div class="clearfix"></div>
                 
