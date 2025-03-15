@@ -34,6 +34,7 @@
           "Name": "Khushali Raval",
           "Position": "Mentor",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "khushali.raval@gecpatan.ac.in"
         },
         {
@@ -41,6 +42,7 @@
           "Name": "Hiral Rathod",
           "Position": "Mentor",
           "Department": "Computer Science and Engineering",
+          "image": "~/images/Faculty/215.jpg",
           "Email": "Rathod.hiral26@gmail.com"
         },
         {
@@ -48,6 +50,7 @@
           "Name": "Kamlesh Suthar",
           "Position": "Lead",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "kamleshsuthar240725@gmail.com"
         },
         {
@@ -55,6 +58,7 @@
           "Name": "Abhishek Mehta",
           "Position": "Co-Lead",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "abhishekmehta1285@gmail.com"
         },
         {
@@ -62,6 +66,7 @@
           "Name": "Manus Limbachiya",
           "Position": "UI/UX Facilitator",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "limbachiyapinky95@gmail.com"
         },
         {
@@ -69,6 +74,7 @@
           "Name": "Kabir Dafda",
           "Position": "Cyber Security Facilitator",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "kabirdafda082@gmail.com"
         },
         {
@@ -76,6 +82,7 @@
           "Name": "Sujal Solanki",
           "Position": "Event Management Lead",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "sujalkumarsolanki2005@gmail.com"
         },
         {
@@ -83,6 +90,7 @@
           "Name": "Drashti Solanki",
           "Position": "Social Media Management Lead",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "drashtitakhtsinhsolanki@gmail.com"
         },
         {
@@ -90,6 +98,7 @@
           "Name": "Banti Saini",
           "Position": "Web Development Facilitator",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "bantysaini28072005@gmail.com"
         },
         {
@@ -97,6 +106,7 @@
           "Name": "Arman Hingora",
           "Position": "App Development Facilitator",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "armanhingora2005@gmail.com"
         },
         {
@@ -104,6 +114,7 @@
           "Name": "Krish Patel",
           "Position": "Robotics & Mechatronics Facilitator",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "krish2409kisu@gmail.com"
         },
         {
@@ -111,6 +122,7 @@
           "Name": "Man Bheda",
           "Position": "IoT Facilitator",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "bhedaman102004@gmail.com"
         },
         {
@@ -118,6 +130,7 @@
           "Name": "Poorv Khatri",
           "Position": "Cloud Facilitator",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "kpoorv32@gmail.com"
         },
         {
@@ -125,6 +138,7 @@
           "Name": "Pray Patel",
           "Position": "Graphic Designer",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "prayvijaybhai10@gmail.com"
         },
         {
@@ -132,6 +146,7 @@
           "Name": "Sneha Sukhadiya",
           "Position": "Graphic Designer",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "sneha2006sukhadiya@gmail.com"
         },
         {
@@ -139,6 +154,7 @@
           "Name": "Niraj Singh",
           "Position": "Graphic Designer",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "nirajtsingh@gmail.com"
         },
         {
@@ -146,6 +162,7 @@
           "Name": "Rahul Varma",
           "Position": "Graphic Designer",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "rahulvarma1797@gmail.com"
         },
         {
@@ -153,6 +170,7 @@
           "Name": "Sujal Prajapati",
           "Position": "Management Team Member",
           "Department": "Computer Science and Engineering",
+          "image": "images/Faculty/1000.jpg",
           "Email": "sujalprajapati057@gmail.com"
         },
         {
@@ -160,6 +178,7 @@
           "Name": "Parth Raval",
           "Position": "Management Team Member",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "parthr240906@gmail.com"
         },
         {
@@ -167,6 +186,7 @@
           "Name": "Falguni Thakor",
           "Position": "Video Editor",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "thakorfalguni783@gmail.com"
         },
         {
@@ -174,6 +194,7 @@
           "Name": "Parv Joshi",
           "Position": "Video Editor",
           "Department": "Electronics and Communication Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "joshiparv@gmail.com"
         },
         {
@@ -181,6 +202,7 @@
           "Name": "Trupti Parmar",
           "Position": "Content Writer",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "truptipanch@gmail.com"
         },
         {
@@ -188,6 +210,7 @@
           "Name": "Dhruvika Padheriya",
           "Position": "Content Writer",
           "Department": "Computer Science and Engineering",
+          "Image": "~/images/Faculty/1000.jpg",
           "Email": "padheriyadhruvikaba@gmail.com"
         }
       ],

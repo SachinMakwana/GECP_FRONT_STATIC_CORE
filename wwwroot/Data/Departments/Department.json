@@ -486,9 +486,14 @@
         "Tagline": null,
         "PEOs": [],
         "PSOs": [],
-        "Labs": [
-
-        ],
+      "Labs": [
+        {
+          "LabID": "61",
+          "Lab_Image": "~/images/Department/General/Physics_Lab.jpg",
+          "Lab_Name": "Physics Lab",
+          "Lab_Details": "•	The first-year physics lab in our institute is designed to introduce students to the fundamental concepts of physics through hands-on experiments.<br>•	It focuses on providing practical knowledge of topics like Mechanics, Waves, Optics, Semiconductors, Nano technology, Solar energy, Electricity and Magnetism. Students learn to operate laboratory instruments, gather data, and analyze results, helping them develop essential skills for future engineering courses. <br>•	The lab experience also emphasizes the importance of scientific methodology, accuracy, and problem-solving in real-world applications."
+        }
+      ],
         "DeptAcademicCalender": [
 
         ],
