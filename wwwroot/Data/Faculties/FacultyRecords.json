@@ -15,7 +15,7 @@
     "Qualification": "M.E. Electronics",
     "Area_of_Interest": "EC",
     "Isteaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 1,
     "PersonalDetails": {
       "Name": "Prof. Sanjaykumar D. Joshi",
       "Designation": "Associate Professor",
@@ -229,7 +229,7 @@
     "Qualification": "Ph.D. Next Generation Wireless System",
     "Area_of_Interest": "Digital Communication,Wireless Communication and DSP",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 2,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Hareshkumar Judal</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">M.E.(Communication Systems Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Digital Communication,Wireless Communication and DSP</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Dr. Judal Hareshkumar Laxmanbhai",
@@ -460,7 +460,7 @@
     "Qualification": "M.Tech Communication Systems ",
     "Area_of_Interest": "Communication Engg, Microwave Engg, Optical Fiber Communication",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 5,
     "PersonalDetails": {
       "Name": "Prof. JAYESHKUMAR PRAJAPATI",
       "Designation": "Assistant Professor",
@@ -528,7 +528,7 @@
     "Qualification": "M.Tech Communication Engineering",
     "Area_of_Interest": "DSP, COMMUNICATION SYSTEMS",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 3,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MIHIRKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i> <span class=\"f-information_data\">B.Tech (EC)  And M.Tech in  (Communication Engineering) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DSP, COMMUNICATION SYSTEMS</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Mihirkumar Mahendrabhai Patel",
@@ -607,7 +607,7 @@
     "Qualification": "M.Tech",
     "Area_of_Interest": "VLSI Design",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 7,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">VLSI Design</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "personal detail", "education Qualification", "Work Experience", "skill and knowledge", "course taught", "training and workshop", "portfolios", "research and project", "publication", "academic project", "patent field", "personal institution membership", "expert lectures", "award" ],
@@ -784,7 +784,7 @@
     "Qualification": "ME Signal processing and VLSI Technology",
     "Area_of_Interest": "Embedded system design, VLSI technology",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 6,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SHYAMKUMAR PANKHANIYA</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\">                                                  <div class=\"b-information-box f-information-box f-primary-b\">                                                         <ul>                                                             <li>                                                                 <strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">BE(EC), ME Signal processing and VLSI Technology(EC)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Embedded system design, VLSI technology</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "Work Experience", "skill and knowledge", "training and workshop", "research and project", "publication" ],
@@ -884,7 +884,7 @@
     "Qualification": "M.E Signal Processing & Communication",
     "Area_of_Interest": "Antenna, RF & Microwave Engineering, Wireless Communication, Basic Electronics",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 8,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Ms. ROSHNIBEN CHAUDHARI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E Signal Processing &amp; Communication</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Antenna, RF &amp; Microwave Engineering, Wireless Communication, Basic Electronics</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Roshan Chaudhari",
@@ -982,7 +982,7 @@
     "Qualification": "Ph.D. EC",
     "Area_of_Interest": "MICROWAVE, ANTENNA, ELECTRONICS",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 4,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MAULIKKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.TECH(MICROWAVE &amp; MILLIMETER ENGINEERING)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MICROWAVE, ANTENNA, ELECTRONICS</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "DR. MAULIKKUMAR BHARATBHAI PATEL ",
@@ -1102,7 +1102,7 @@
     "Qualification": "ME EC",
     "Area_of_Interest": "EMBEDDED SYSTEMS, DIGITAL CIRCUITS AND DESIGNING, MICROPROCESSOR, MICRO CONTROLLER & INTERFACING, PROGRAMMING USING C, BASIC ELECTRONICS,",
     "IsTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 9,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Ms. ANJU VASDEWANI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">MASTER OF ENGINEERING</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">02 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EMBEDDED SYSTEMS, DIGITAL CIRCUITS AND DESIGNING, MICROPROCESSOR, MICRO CONTROLLER & INTERFACING, PROGRAMMING USING C, BASIC ELECTRONICS,</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Anju Murlibhai Vasdewani",
