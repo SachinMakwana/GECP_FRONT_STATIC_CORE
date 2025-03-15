@@ -4,7 +4,7 @@
 <div class="top_nav">
 	<div class="full-container">
 
-		<div class="left">
+		<div class="left hidden-xs">
 
 			<a href="mailto:@Model.ContactEmail"><i class="fa fa-envelope"></i>&nbsp; @Model.ContactEmail</a> <i class="fa fa-phone-square"></i>&nbsp; @Model.ContactNo
 
@@ -46,8 +46,8 @@
 
 	</div>
 </div><!-- end top navigation links -->
-<div class="clearfix margin_top5"></div>
-<div class="full-container">
+<div class="clearfix margin_top1"></div>
+<div class="full-container hidden-xs">
 	<div class="logo_section">
 		<div class="gecp_logo">
 			<a href="@Url.Action("Index","Home")">
@@ -86,3 +86,6 @@
         <!-- end right --> *@
 
 </div>
+<div class="full-container visible-xs">
+     <img src="@Url.Content("~/images/Dynamic/NameBanner.png")" class="visible-xs"/>
+     </div>

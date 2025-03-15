@@ -18,12 +18,37 @@
 <div class="margin_top10"></div>
 
 <div class="full-container">
-	<div class="tab">
+	<div class="tab hidden-xs">
 		<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=0})')" id="defaultOpen">All</button>
 		@foreach (var item in Model.Years)
 		{
 			<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=item})')">@item</button>
 		}
+	</div>
+	<div id="style-selector" style="left: 0px;" class="visible-xs">
+
+		<div class="style-selector-wrapper">
+			<span class="title">Menu</span>
+			<div>
+				<br><br>
+
+				<ul class="styles" style="border-bottom: none;">
+					<li class="button1 margin_top1"><button class="demolinks button1" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=0})')" id="defaultOpen">All</button></li>
+					@foreach (var item in Model.Years)
+					{
+						<li class="button1 margin_top1"><button class="demolinks button1" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=item})')">@item</button></li>
+					}
+					
+
+				</ul>
+
+
+
+
+				<a href="#" class="close icon-chevron-right"></a>
+
+			</div>
+		</div>
 	</div>
 	<div id="achDiv" class="tabcontent">
 	</div>
