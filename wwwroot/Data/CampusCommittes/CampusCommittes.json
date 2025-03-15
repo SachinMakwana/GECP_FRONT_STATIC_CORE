@@ -275,7 +275,7 @@
     //Grievence Cell
   {
     "ID": 5,
-    "Title": "Grievence Cell",
+    "Title": "Grievance Cell",
     "TitleImage": "../../images/grievence_banner.jpg",
     "TitleImageCSSClass": "grievance_title",
     "About": "The Grievance Redressal System at Government Engineering College, Patan is an institutional initiative aimed at addressing student and faculty concerns related to academic, administrative, and personal matters. This system ensures a transparent, fair, and unbiased process to resolve grievances effectively, maintaining a harmonious and inclusive environment within the institution. <br> The Grievance Redressal Committee (GRC) functions under the UGC guidelines and institutional policies, ensuring that complaints are addressed confidentially and impartially by a team of senior faculty members and administrators.",
@@ -309,9 +309,8 @@
       
     ],
     "BulletPoints": [
-      "Submit the complaint through the official Register Grievance Form.",
+      "Submit the complaint through the official Email: <strong><a href=\"mailto:grievance@gecpatan.ac.in\"><b>grievance@gecpatan.ac.in</b></a></strong>.",
       "Provide name, department, contact details, grievance category, and a detailed description with supporting documents if applicable.",
-      "Receive an automated confirmation email as proof of submission.",
       "The Grievance Redressal Committee (GRC) reviews, classifies, and investigates the complaint while ensuring confidentiality.",
       "The committee conducts inquiries, seeks clarifications, and determines an appropriate resolution in a fair and timely manner.",
       "The complainant is notified of the resolution via email or official communication channels.",
@@ -354,7 +353,6 @@
         "Department": "Electronics & Communication Engineering Department"
       }
     ],
-    "Link": "https://docs.google.com/forms/d/e/1FAIpQLSflgceQZ01Kp9FpBNFAdI_78pLVyDoGfRoLpmlUgvFcwRqagQ/viewform",
     "TabTitles": {
       "SubObjectives": "Objectives"
     },
