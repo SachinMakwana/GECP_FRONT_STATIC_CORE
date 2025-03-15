@@ -299,6 +299,9 @@
     ],
     "SubObjImg": "",
     "Procedure": [
+      
+    ],
+    "BulletPoints": [
       "Submit the complaint through the official Register Grievance Form.",
       "Provide name, department, contact details, grievance category, and a detailed description with supporting documents if applicable.",
       "Receive an automated confirmation email as proof of submission.",
@@ -306,9 +309,6 @@
       "The committee conducts inquiries, seeks clarifications, and determines an appropriate resolution in a fair and timely manner.",
       "The complainant is notified of the resolution via email or official communication channels.",
       "If dissatisfied, the complainant may formally appeal to higher authorities for further review."
-    ],
-    "BulletPoints": [
-
     ],
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
