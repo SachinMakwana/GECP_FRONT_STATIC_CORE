@@ -24,7 +24,7 @@
 
 <div class="margin_top10"></div>
 <div class="full-container">
-    <div class="tab">
+    <div class="tab hidden-xs">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
         @if (Model.Vision != null && Model.Mission != null)
         {
@@ -63,6 +63,60 @@
             <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
         }
     </div>
+
+    <div id="style-selector" style="left: 0px;" class="visible-xs">
+
+        <div class="style-selector-wrapper">
+            <span class="title">Menu</span>
+            <div>
+                <br><br>
+
+                <ul class="styles" style="border-bottom: none;">
+
+                    <li class="button1 margin_top1"><button onclick="openTab(event, 'About')" class="demolinks button1" id="defaultOpen"> About</button></li>
+                    @if (Model.Vision != null && Model.Mission != null)
+                    {
+                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'VisionMission') ">Vision & Mission</button></li>
+                    }
+                    @if (Model.PEOs != null && Model.PSOs != null)
+                    {
+                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button></li>
+                    }
+                    @if (Model.Labs != null)
+                    {
+                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Labs')">Labs</button></li>
+                    }
+                    @if (Model.FacultyList != null)
+                    {
+                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Staff')">Faculties And Staff</button></li>
+                    }
+                    <a href="@Url.Action("Index","Documents",new{@id=4})" target="_blank"><button class="demolinks button1 margin_top1 margin_bottom1">Time Table</button></a>
+                    @if (Model.DeptAcademicCalender != null && Model.DeptAcademicCalender.Count() > 0)
+                    {
+                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Calender')">Academic Calender</button></li>
+                    }
+                    @if (Model.Activities != null && Model.Activities.Count() > 0)
+                    {
+                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Activities')">Activities</button></li>
+                    }
+                    @if (Model.NoticeBoard != null && Model.NoticeBoard.Count() > 0)
+                    {
+                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'NoticeBoard')">Notice Board</button></li>
+                    }
+                    <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="demolinks button1 margin_top1">Achievements</button></a>
+
+
+                </ul>
+
+
+
+
+                <a href="#" class="close icon-chevron-right"></a>
+
+            </div>
+        </div>
+    </div>
+
     <div id="About" class="tabcontent">
         <div class="full-container">
 
@@ -275,13 +329,13 @@
                                             <li><strong>Designation:</strong> @data.Designation</li>
                                         }
                                         @*if (!string.IsNullOrEmpty(data.Qualification))
-                            {
-                            <li><strong>Qualification:</strong> @data.Qualification</li>
-                            }
-                            @if (data.YearsOfExperience > 0)
-                            {
-                            <li><strong>Experience:</strong> @data.YearsOfExperience Years</li>
-                            }*@
+                                        {
+                                        <li><strong>Qualification:</strong> @data.Qualification</li>
+                                        }
+                                        @if (data.YearsOfExperience > 0)
+                                        {
+                                        <li><strong>Experience:</strong> @data.YearsOfExperience Years</li>
+                                        }*@
                                         @if (!string.IsNullOrEmpty(data.Area_of_Interest))
                                         {
                                             <li><strong>Area Of Interest:</strong> @data.Area_of_Interest</li>
