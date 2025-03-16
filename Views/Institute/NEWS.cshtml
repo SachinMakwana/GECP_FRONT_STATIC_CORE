@@ -1,45 +1,50 @@
 ﻿@model IList<NEWSModel>
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "NEWS";
-    int count = 1;
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "NEWS";
+	int count = 1;
 }
 <div class="clearfix"></div>
 
 
 <div class="page_title3 " style="background: #999 url('') no-repeat center top;">
-    <div class="container">
+	<div class="container">
 
-        <h1>
-            NEWS <em>Government Engineering College</em>
-            <div class="line"></div>
-        </h1>
+		<h1>
+			NEWS <em>Government Engineering College</em>
+			<div class="line"></div>
+		</h1>
 
-    </div>
+	</div>
 </div>
 <div class="clearfix"></div>
 <div class="content_fullwidth less2">
-    <div class="container">
+	<div class="container">
 
+		<table class="table table-responsive table-bordered table-striped">
+			<thead>
+				<tr>
+					<td>Sr No</td>
+					<td>Title</td>
+					<td>Date</td>
+					<td>View</td>
+				</tr>
+			</thead>
+			<tbody>
 
-        @foreach (var item in Model)
-        {
-            <div class="content_halfsite @(count%2==0?"last":"")">
-                <div class="blog_post">
-                    <div class="blog_postcontent">
-                        <div class="image_frame"><a href="#"><img src="@Url.Content(item.BannerImage)" alt=""></a></div>
-                        <h3><a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">@item.Title</a></h3>
-                        <ul class="post_meta_links">
-                            <li><a href="#" class="date">@item.date</a></li>
-                        </ul>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@count</td>
+						<td>@item.Title</td>
+						<td>@item.date</td>
+						<td><a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})"><i class="fa fa-eye"></i></a></td>
+					</tr>
+					count++;
 
-            </div>
+				}
 
-            count++;
-
-        }
-    </div>
+			</tbody>
+		</table>
+	</div>
 </div>

@@ -23,7 +23,7 @@
 <div class="margin_top10"></div>
 
 <div class="full-container">
-	<div class="tab">
+	<div class="tab hidden-xs">
 		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
 
 		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
@@ -45,6 +45,44 @@
 		}
 
 
+	</div>
+	<div id="style-selector" style="left: 0px;" class="visible-xs">
+
+		<div class="style-selector-wrapper">
+			<span class="title">Menu</span>
+			<div>
+				<br><br>
+
+				<ul class="styles" style="border-bottom: none;">
+
+					<li class="button1 margin_top1"><button onclick="openTab(event, 'About')" class="demolinks button1" id="defaultOpen"> About</button></li>
+					@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
+					{
+						<li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'SubObjectives')">Sub Objectives</button></li>
+					}
+					@if (Model.Members != null)
+					{
+						<li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Members')">Members</button></li>
+					}
+					@if (Model.Activities != null)
+					{
+						<li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Activities')">Activities</button></li>
+					}
+					@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+					{
+						<a href="@Model.BlogLink" target="_blank"><button class="demolinks button1 margin_top1">Blogspot</button></a>
+					}
+					
+
+				</ul>
+
+
+
+
+				<a href="#" class="close icon-chevron-right"></a>
+
+			</div>
+		</div>
 	</div>
 	<div id="About" class="tabcontent">
 		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
