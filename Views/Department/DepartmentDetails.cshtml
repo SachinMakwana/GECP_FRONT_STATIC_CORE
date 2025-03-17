@@ -26,19 +26,19 @@
 <div class="full-container">
     <div class="tab hidden-xs">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-        @if (Model.Vision != null && Model.Mission != null)
+        @if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
         }
-        @if (Model.PEOs != null && Model.PSOs != null)
+        @if (Model.PEOs.Count() > 0 && Model.PSOs.Count() > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button>
         }
-        @if (Model.Labs != null)
+        @if (Model.Labs.Count() > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
         }
-        @if (Model.FacultyList != null)
+        @if (Model.FacultyList.Count() > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'Staff')">Faculties And Staff</button>
         }
@@ -75,19 +75,19 @@
                 <ul class="styles" style="border-bottom: none;">
 
                     <li class="button1 margin_top1"><button onclick="openTab(event, 'About')" class="demolinks button1" id="defaultOpen"> About</button></li>
-                    @if (Model.Vision != null && Model.Mission != null)
+                    @if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
                     {
                         <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'VisionMission') ">Vision & Mission</button></li>
                     }
-                    @if (Model.PEOs != null && Model.PSOs != null)
+                    @if (Model.PEOs.Count() > 0 && Model.PSOs.Count() > 0)
                     {
                         <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button></li>
                     }
-                    @if (Model.Labs != null)
+                    @if (Model.Labs.Count() > 0)
                     {
                         <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Labs')">Labs</button></li>
                     }
-                    @if (Model.FacultyList != null)
+                    @if (Model.FacultyList.Count() > 0)
                     {
                         <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Staff')">Faculties And Staff</button></li>
                     }
