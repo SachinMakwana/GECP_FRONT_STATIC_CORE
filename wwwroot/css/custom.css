@@ -919,7 +919,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     padding: 3px;
     background-color: grey;
 }
-*/ /*responsive goes here*/
+/*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {
             width: 60%;
