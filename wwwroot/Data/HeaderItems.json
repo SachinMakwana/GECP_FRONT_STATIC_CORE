@@ -8,9 +8,9 @@
             "ID": 10,
             "MenuText": "Alumni",
             "ParentID": null,
-            "dynamicID": null,
-            "ControllerName": "Alumni",
-            "ActionName": "Index",
+            "dynamicID": 11,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
             "position": 1,
             "isVisible": true,
             "ChildMenuVMs": []
