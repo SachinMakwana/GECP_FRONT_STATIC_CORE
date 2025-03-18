@@ -8851,29 +8851,220 @@
 
     //7xx Admin
 
-    //{
-    //    "ID": "701",
-    //    "Name": "Dr. B. J. Shah",
-    //    "Designation": "Principal",
-    //    "image": "",
-    //    "Dept_ID": "7",
-    //    "Date_of_Joining": "2015-07-01", //false date
-    //    "Qualification": "",
-    //    "Area_of_Interest": "",
-    //    "Isteaching":,
-    //    "SeniorityOrder": "",
-    //    "PersonalDetails": {
-    //        "Name": "Dr. B.J. Shah",
-    //        "Designation": "Principal",
-    //        "Department": "Admin",
-    //        "Contact": "",
-    //        "Email": ""
-    //    },
-    //    "EducationalQualifications": [],
-    //    "ProfessionalExperiences": [],
-    //    "TrainingAndWorkshops": [],
-    //    "Publications": []
-    //},
+  //{
+  //  "ID": 701,
+  //  "Name": "Dr. B. J. Shah",
+  //  "Designation": "Principal",
+  //  "image": "images/Department/Civil/app_BJS.jpg",
+  //  "Dept_ID": 7,
+  //  "Date_of_Joining": "2019-06-01",
+  //  "Qualification": "Ph.D. Civil",
+  //  "Area_of_Interest": "Civil Engineering",
+  //  "IsTeaching": true,
+  //  "SeniorityOrder": 1,
+  //  "PersonalDetails": {
+  //    "Name": "Dr. B.J. Shah",
+  //    "Designation": "Principal",
+  //    "Department": "Admin",
+  //    "Contact": "",
+  //    "Email": "bjshah.gecm@gmail.com"
+  //  },
+  //  "EducationalQualifications": [
+  //    {
+  //      "Degree": "Ph.D",
+  //      "Year": "2006",
+  //      "University": "Veer Narmad South Gujarat University",
+  //      "Specialization": "Civil - Structural Engineering"
+  //    },
+  //    {
+  //      "Degree": "M.E",
+  //      "Year": "1999",
+  //      "University": "Gujarat University",
+  //      "Specialization": "Civil - CASAD"
+  //    },
+  //    {
+  //      "Degree": "B.E",
+  //      "Year": "1988",
+  //      "University": "Sardar Patel University",
+  //      "Specialization": "Civil Engineering"
+  //    }
+  //  ],
+  //  "ProfessionalExperiences": [
+  //    {
+  //      "Position": "Principal",
+  //      "Organization": "Government Engineering College, Modasa",
+  //      "Duration": "01/07/2019 to Present"
+  //    },
+  //    {
+  //      "Position": "Professor",
+  //      "Organization": "Government Engineering College, Modasa",
+  //      "Duration": "28/05/2015 to 30/06/2019"
+  //    },
+  //    {
+  //      "Position": "Professor",
+  //      "Organization": "L. D. College of Engineering, Ahmedabad",
+  //      "Duration": "22/03/2013 to 27/05/2015"
+  //    },
+  //    {
+  //      "Position": "Associate Professor",
+  //      "Organization": "L. D. College of Engineering, Ahmedabad",
+  //      "Duration": "01/06/2007 to 21/03/2013"
+  //    },
+  //    {
+  //      "Position": "Associate Professor",
+  //      "Organization": "L. E. College, Morbi",
+  //      "Duration": "01/01/2006 to 31/05/2007"
+  //    },
+  //    {
+  //      "Position": "Assistant Professor [Class- I]",
+  //      "Organization": "L. E. College, Morbi",
+  //      "Duration": "15/12/2003 to 31/12/2006"
+  //    },
+  //    {
+  //      "Position": "Lecturer",
+  //      "Organization": "L. E. College, Morbi",
+  //      "Duration": "04/06/2002 to 14/12/2003"
+  //    },
+  //    {
+  //      "Position": "Lecturer",
+  //      "Organization": "L. D. College of Engineering, Ahmedabad",
+  //      "Duration": "18/08/1990 to 28/02/2002"
+  //    }
+  //  ],
+  //  "TrainingAndWorkshops": [
+  //  ],
+  //  "Publications": [
+  //    {
+  //      "SrNo": 1,
+  //      "Title": "Seismic fragility analysis of pile supported wharf using linear time history analysis | Journal of Structural Engineering | Vol. 43 | No.3 | pp 235-246 (National Journal)"
+  //    },
+  //    {
+  //      "SrNo": 2,
+  //      "Title": "Experimental investigation on shear capacity of RC beams with GFRP rebars & stirrups | Steel and Composite Structures | Vol.21 | No.6 | pp 1265-1285 (International Journal)"
+  //    },
+  //    {
+  //      "SrNo": 3,
+  //      "Title": "Study of deflection and crack patterns of RC beam strengthen in flexure with GFRP | 9th Biennial conference on Structural Engineering Convention-2014 (SEC-2014) | IIT-Delhi (International Conference)"
+  //    },
+  //    {
+  //      "SrNo": 4,
+  //      "Title": "Seismic fragility analysis of pile supported wharf - state of art | 9th Biennial conference on Structural Engineering Convention-2014 (SEC-2014)| IIT-Delhi (International Conference)"
+  //    },
+  //    {
+  //      "SrNo": 5,
+  //      "Title": "Progressive collapse assessment of Reinforced concrete frame structure with & without considering actual soil condition | International conference on Research and Innovation in Science, Engineering & Technology (ICRISET 2017) | BVM"
+  //    }
+  //  ],
+  //  "BookPublication": {
+  //    "Title": "Mechanics of Solid",
+  //    "Code": "RAZDRRBUDRRYC",
+  //    "University": "Gujarat Technological University",
+  //    "Branch": "Civil Engineering",
+  //    "Semester": "1, 2 & 3",
+  //    "ISBN Code": "ISBN-13 : 978-93-392-1414-2 ISBN-10 : 93-392-1414-5",
+  //    "Publisher": "McGraw Hill Education (India) Pvt. Ltd.",
+  //    "Content": [
+  //      "1. Introduction",
+  //      "2. Fundamental of statics",
+  //      "3. Analysis of Trusses",
+  //      "4. CG & MI",
+  //      "5. Frictions",
+  //      "6. Simple stresses & strains",
+  //      "7. Statically determinate beams",
+  //      "8. Stresses in homogeneous beams",
+  //      "9. Principal stresses",
+  //      "10. Torsion",
+  //      "A1. Simple lifting machines",
+  //      "A2. Physical & Mechanical properties of materials"
+  //    ]
+  //  },
+  //  "ExpertTalks": [
+  //    {
+  //      "SrNo": 1,
+  //      "Year": 2018,
+  //      "Subject": "State-of-the-Art in Bridge Engineering",
+  //      "Place": "Online VC based training",
+  //      "Details": "Training program on Emerging Trends in Structural & Geotechnical Engineering (ETSGE 2018) organized by Directorate of Technical Education, Gujarat State, Gandhinagar. (02/08/2018)"
+  //    },
+  //    {
+  //      "SrNo": 2,
+  //      "Year": 2019,
+  //      "Subject": "Earthquake resistant design of bridges",
+  //      "Place": "Faculty of Technology, Marwadi University, Rajkot",
+  //      "Details": "GUJCOST sponsored workshop on Advances in Earthquake Engineering (22/03/2019)"
+  //    },
+  //    {
+  //      "SrNo": 3,
+  //      "Year": 2019,
+  //      "Subject": "Advances in Concrete Construction",
+  //      "Place": "State Water Data Centre, Gandhinagar",
+  //      "Details": "Training programs for engineers of SWDC, Govt. of Gujarat, Gandhinagar (06/07/2019)"
+  //    },
+  //    {
+  //      "SrNo": 4,
+  //      "Year": 2020,
+  //      "Subject": "Design of RCC T-Girder type Bridge super structure",
+  //      "Place": "Online webinar",
+  //      "Details": "Online webinar conducted by L. D. College of Engineering, Ahmedabad (30/04/2020)"
+  //    },
+  //    {
+  //      "SrNo": 5,
+  //      "Year": 2020,
+  //      "Subject": "Fundamentals on Genetic Algorithm and Applications in Structural Engineering",
+  //      "Place": "Online webinar",
+  //      "Details": "Online webinar conducted by Govt. Engg. College, Surat (28/05/2020)"
+  //    },
+  //    {
+  //      "SrNo": 6,
+  //      "Year": 2020,
+  //      "Subject": "Advances in Concrete Technology",
+  //      "Place": "Online training",
+  //      "Details": "AICTE ATAL Online Training conducted by GEC, Dahod from 21-25/09/2020"
+  //    }
+  //  ],
+  //  "Achievements:": [
+  //    {
+  //      "No": 1,
+  //      "Title": "Nominated as Research Supervisor of Ph.D. Program at Gujarat Technological University."
+  //    },
+  //    {
+  //      "No": 2,
+  //      "Title": "Recipient of Principal S. B. Junarkar Gold Medal for achieving the highest marks in Design of Structures II & III (B.E. Civil, 1988) from Sardar Patel University, V. V. Nagar, Gujarat."
+  //    }
+
+  //  ],
+  //  "Memberships": [
+  //    {
+  //      "SrNo": 1,
+  //      "Title": "Life member, Association of Consulting Civil Engineers, India."
+  //    },
+  //    {
+  //      "SrNo": 2,
+  //      "Title": "Member, Alumni Association of L. D. College of Engineering (LAA), Ahmedabad, India."
+  //    },
+  //    {
+  //      "SrNo": 3,
+  //      "Title": "Fellow life member, Gujarat Institute of Civil Engineers & Architect (GICEA), India."
+  //    },
+  //    {
+  //      "SrNo": 4,
+  //      "Title": "Member, Indian Society of Earth Science, Indian Seismological Research Institute, Gujarat State, India."
+  //    },
+  //    {
+  //      "SrNo": 5,
+  //      "Title": "Member, Indian Geotechnical Society (Gujarat Chapter), India."
+  //    },
+  //    {
+  //      "SrNo": 6,
+  //      "Title": "Fellow life member, Indian Society of Technical Education (ISTE), India."
+  //    },
+  //    {
+  //      "SrNo": 7,
+  //      "Title": "Member, Institution of Engineers India."
+  //    }
+
+  //  ]
+  //},
     {
         "ID": "702",
         "Name": "Smt. Shilpaben Chaudhary",
