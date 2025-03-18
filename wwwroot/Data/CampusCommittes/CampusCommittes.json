@@ -1012,7 +1012,10 @@
                 "Image": "~/images/Faculty/HOD/301.jpg",
                 "Email": "gunvant.patel@gecpatan.ac.in"
             }
-        ]
+        ],
+        "TabTitles": {
+            "SubObjectives": "Objectives"
+        }
     }
 ]
 // use below template to add a committee
