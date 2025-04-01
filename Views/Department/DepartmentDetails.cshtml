@@ -107,9 +107,8 @@
                     @* <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="demolinks button1 margin_top1">Achievements</button></a>*@                        
                     @if (Model.Achievements != null && Model.Achievements.Count() > 0)
                     {
-                        <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="demolinks button1">Achievements</button></a>
-                        @* <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'achDiv')">Achievements</button></li> *@
-                    }
+@*                         <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="demolinks button1">Achievements</button></a>
+ *@                         <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'achDiv')">Achievements</button></li>                     }
 
 
                 </ul>
@@ -565,7 +564,7 @@
 
                         <tr>
                             <td>
-                                <div class="box" style="height:265px">
+                                <div class="box" style="">
                                     <h3 class="boxtitle">@Html.Raw(item.Title)</h3>
                                     <div class="boxinfo">
                                         <ul class="post_meta_links">
@@ -586,7 +585,7 @@
                                         <div class="image_section">
 
 
-                                            <div class="col-sm-2 ">
+                                            <div class="col-sm-3 ">
                                                 <img src="@Url.Content(item.Image)" alt="" class="height180">
                                             </div>
 
