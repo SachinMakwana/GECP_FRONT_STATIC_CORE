@@ -33,7 +33,7 @@
                 <br /><br /><br />
                 <h1>Principal's Message</h1>
 
-                <p>
+                <p class="text-justify">
                     I am delighted to welcome you to Government Engineering College.  I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn.
                     <br />
                     In order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience.
@@ -42,21 +42,32 @@
                     <br /> <br />
                     - Dr. B J Shah
                     <div class="clearfix"></div>
-                     <div class="margin_top5"></div>
-                    @* <div class="read-more-container">
-                        <div class="clearfix margin_top5"></div>
-                        <a href="javascript:void(0)" class="btn btn-success" onclick="loadFacultyinfo('@Url.Action("FacultyDatas", "faculty", new { id = 701 })')" class="read-more-button">
+                     <div class="margin_top2"></div>
+                     <div class="col-md-4"></div>
+                    <div class="col-md-8 col-sm-12">
+
+                    <div class="read-more-container">
+                        
+                        <a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf('@Url.Content("~/DataFiles/Documents/Principal/Dr. B. J. SHAH.pdf")','Dr. B. J. SHAH')" class="read-more-button">
                             KNOW MORE
                         </a>
-                    </div> *@
+                    </div>
+                    </div>
                 </p>
                 <div class="clearfix"></div>
-                
+                <div class="margin_top2"></div>
 
             </div>
         </div>
     </div>
     <!-- end featured section 19 -->
+
+    <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
+    <div id="popup" class="popup">
+        <div id="pdfreader" style="height:600px">
+        </div>
+        <span class="popup-btn-close">&times;</span>
+    </div>
     @section styles {
         <style>
             .text-center {
@@ -103,5 +114,68 @@
                 font-size: 18px;
             }
         </style>
+        <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+    }
+    @section scripts{
+        <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
+        <script>
 
+            function loadFacultyinfo(url) {
+                if (url !== '') {
+                    $("#pdfreader").load(url);
+                    $("#lnkPopup").click();
+                }
+            }
+
+            function loadPdf(path, name) {
+                if (path !== '') {
+                    path = path.replace("~", "");
+                    if (PDFObject.supportsPDFs) {
+                        PDFObject.embed(path, "#pdfreader");
+                        $("#newsname").text(name);
+                        $("#lnkPopup").click();
+                    } else {
+                        window.location.href = path;
+                    }
+                }
+            }
+            function popupOpenClose(popup) {
+
+                /* Add div inside popup for layout if one doesn't exist */
+                if ($(".wrapper", popup).length == 0) {
+                    $(popup).wrapInner("<div class='wrapper'></div>");
+                }
+                /* Open popup */
+                $(popup).show();
+                /* Close popup if user clicks on background */
+                $(popup).click(function (e) {
+                    if (e.target == this) {
+                        if ($(popup).is(':visible')) {
+                            $(popup).hide();
+                            resetPopUpScroll();
+                        }
+                    }
+                });
+                /* Close popup and remove errors if user clicks on cancel or close buttons */
+                $(popup).find(".popup-btn-close").on("click", function () {
+                    if ($(".formElementError").is(':visible')) {
+                        $(".formElementError").remove();
+                    }
+                    $(popup).hide();
+                    resetPopUpScroll();
+                });
+            }
+
+            $(document).ready(function () {
+                $(".popup-trigger").on("click", function () {
+                    var target = $(this).data('target');
+                    popupOpenClose($(target));
+                    resetPopUpScroll();
+                });
+            });
+
+            function resetPopUpScroll() {
+                $("#pdfreader").scrollTop(0);
+            }
+        </script>
     }

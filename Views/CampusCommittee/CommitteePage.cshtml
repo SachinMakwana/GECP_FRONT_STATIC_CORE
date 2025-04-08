@@ -37,7 +37,7 @@
 		{
 			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
 		}
-		@if (Model.Members != null && Model.Members.Count() > 0)
+		@if (Model.Members != null && Model.Members.Count() > 0 || Model.AdditionalMembers.Count()>0)
 		{
 			<button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
 		}
@@ -211,6 +211,7 @@
         @if (!Model.TableView)
         {
             <div class="featured_section30">
+                @if(Model.Members.Count()>0){
                 <div class="full-container">
                     <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
                         @Model.Title Members
@@ -231,7 +232,8 @@
                         <div class="@(count%2==0?"clearfix margin_top5":"")"></div>
                         count++;
                     }
-                </div>
+                    </div>
+                }
                 @if (Model.AdditionalMembers.Count() > 0)
                 {
                     @foreach (var additionalMembers in Model.AdditionalMembers)
@@ -265,6 +267,7 @@
         else
         {
             <div class="featured_section30">
+                @if(Model.Members.Count()>0){
                 <div class="full-container">
                     <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
                         @Model.Title Members
@@ -293,6 +296,7 @@
                         }
                     </table>
                 </div>
+                }
                 @if (Model.AdditionalMembers.Count() > 0)
                 {
                     @foreach (var additionalMembers in Model.AdditionalMembers)

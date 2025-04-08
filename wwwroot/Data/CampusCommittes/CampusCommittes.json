@@ -954,7 +954,7 @@
         "Title": "Alumni",
         "TitleImage": "../../images/alumni-banner.jpg",
         "TitleImageCSSClass": "alumni_cell_title",
-        "About": "Government Engineering College, Patan Alumni creates and maintains a life-long connection between the college and its alumni. In collaboration with an extremely dedicated volunteer alumni members and college staff, the Alumni Association works to connect alumni, supports students, and builds an unforgettable Institute experience through a diversity of events, programs, and services.",
+        "About": "Government Engineering College, Patan Alumni creates and maintains a life-long connection between the college and its alumni. In collaboration with an extremely dedicated volunteer alumni members and college staff, the Alumni Association works to connect alumni, supports students, and builds an unforgettable Institute experience through a diversity of events, programs, and services.<button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/Alumni_Association_Registration.pdf','GEC Patan Alumni Association Registration Certificate')\">Registration Certificate</button>",
         "Measures": "The Colleges’s alumni are its lasting legacy and strongest voice. Graduating from GEC,Patan gives you access to an exclusive global network of minded alumni. It has been an integral part of the GECP Alumni to constantly evolve, adapt, expand its reach, and find new ways to build.",
         "Measure_Image": "~/images/alumni.jpg", //"~/images/alumni-poster.jpg"
         "Vision": [
@@ -980,41 +980,50 @@
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"Engage, Connect, <b>Contribute.\"</b></h1>",
         "BlogLink": "",
         "Members": [
+        ],
+        "AdditionalMembers": [
             {
-                "ID": 1,
-                "Name": "Dr. H. B. Jethva",
-                "Position": "Coordinator",
-                "Department": "Computer Scence & Engineering Department",
-                "Image": "~/images/Faculty/HOD/201.jpg",
-                "Email": "hbjethva@gecpatan.ac.in"
-            },
-            {
-                "ID": 2,
-                "Name": "Dr. A. B. Dhruv",
-                "Position": "Member",
-                "Department": "Mechanical Engineering Department",
-                "Image": "~/images/Faculty/HOD/501.jpg",
-                "Email": "anand.dhruv@gecpatan.ac.in"
-            },
-            {
-                "ID": 3,
-                "Name": "Dr. D. K. Patel",
-                "Position": "Member",
-                "Department": "Mechanical Engineering Department",
-                "Image": "~/images/Faculty/502.jpg",
-                "Email": "dinesh.patel@gecpatan.ac.in"
-            },
-            {
-                "ID": 4,
-                "Name": "Prof. G. A. Patel",
-                "Position": "Member",
-                "Department": "Electrical Engineering Department",
-                "Image": "~/images/Faculty/HOD/301.jpg",
-                "Email": "gunvant.patel@gecpatan.ac.in"
+                "CommitteeTitle": "Alumni Committee",
+                "Members": [
+                    {
+                        "ID": 1,
+                        "Name": "Dr. H. B. Jethva",
+                        "Position": "Coordinator",
+                        "Department": "Computer Scence & Engineering Department",
+                        "Image": "~/images/Faculty/HOD/201.jpg",
+                        "Email": "hbjethva@gecpatan.ac.in"
+                    },
+                    {
+                        "ID": 2,
+                        "Name": "Dr. A. B. Dhruv",
+                        "Position": "Member",
+                        "Department": "Mechanical Engineering Department",
+                        "Image": "~/images/Faculty/HOD/501.jpg",
+                        "Email": "anand.dhruv@gecpatan.ac.in"
+                    },
+                    {
+                        "ID": 3,
+                        "Name": "Dr. D. K. Patel",
+                        "Position": "Member",
+                        "Department": "Mechanical Engineering Department",
+                        "Image": "~/images/Faculty/502.jpg",
+                        "Email": "dinesh.patel@gecpatan.ac.in"
+                    },
+                    {
+                        "ID": 4,
+                        "Name": "Prof. G. A. Patel",
+                        "Position": "Member",
+                        "Department": "Electrical Engineering Department",
+                        "Image": "~/images/Faculty/HOD/301.jpg",
+                        "Email": "gunvant.patel@gecpatan.ac.in"
+                    }
+                ]
             }
         ],
+        "ShowDocument": true,
         "TabTitles": {
-            "SubObjectives": "Objectives"
+            "SubObjectives": "Objectives",
+            "Documents": "Important Documents"
         }
     }
 ]

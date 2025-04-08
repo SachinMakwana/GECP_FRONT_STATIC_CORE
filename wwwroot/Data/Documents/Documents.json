@@ -379,5 +379,25 @@
                 ]
             }
         ]
+    },
+
+    {
+        "Id": 11, //committee id
+        "Title": "Alumni",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "GEC Patan Alumni Association Registration Certificate",
+                        "File": "~/DataFiles/Documents/Alumni/Alumni_Association_Registration.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "08-04-2025",
+                        "isShow": true
+                    }
+                ]
+            }
+        ]
     }
 ]
