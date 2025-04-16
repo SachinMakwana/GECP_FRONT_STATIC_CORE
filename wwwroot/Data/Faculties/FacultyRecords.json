@@ -4734,21 +4734,94 @@
         "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. DINESHKUMAR PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">PhD (Mechanical Engineering) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">25 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Solar Energy</span></li></ul></div></div></div>",
         "IsTeaching": true,
         "SeniorityOrder": 2,
-        "PersonalDetails": {
-            "Name": "Mr. DINESHKUMAR PATEL",
-            "Designation": "Professor",
-            "Department": "Mechanical",
-            "Contact": "",
-            "Email": "dinesh.patel@gecpatan.ac.in"
+      "PersonalDetails": {
+        "Name": "Mr. DINESHKUMAR PATEL",
+        "Designation": "Professor",
+        "Department": "Mechanical",
+        "Contact": "+91-9824032025",
+        "Email": "dinesh.patel@gecpatan.ac.in"
+      },
+      "EducationalQualifications": [
+        {
+          "Degree": "PhD",
+          "Year": "2017",
+          "Specialization": "Solar Energy"
         },
-        "EducationalQualifications": [
-        ],
-        "ProfessionalExperiences": [
-
-        ],
-        "TrainingAndWorkshops": [
-
-        ],
+        {
+          "Degree": "ME",
+          "Year": "2006",
+          "Specialization": "CAD/CAM"
+        },
+        {
+          "Degree": "BE",
+          "Year": "1992",
+          "Specialization": "Mechanical Engineering"
+        }
+      ],
+      "ProfessionalExperiences": [
+        {
+          "Position": "Professor",
+          "Organization": "Government Engineering College, Patan",
+          "Duration": "01/01/2021 to Present"
+        },
+        {
+          "Position": "Asssociate Professor",
+          "Organization": "Government Engineering College, Patan",
+          "Duration": "14/07/2010 to\t31/12/2020"
+        },
+        {
+          "Position": "Assistant Professor",
+          "Organization": "Government Engineering College, Patan",
+          "Duration": "17/11/2004 to 13/07/2010"
+        },
+        {
+          "Position": "Assistant Professor",
+          "Organization": "Government Engineering College, Chandkheda",
+          "Duration": "22/11/1996 to 16/11/2004"
+        }
+      ],
+      "TrainingAndWorkshops": [
+        {
+          "Title": "Concurrent Engineering for Product Life Cycle Cost Reduction",
+          "OrganizedBy": "Nirma Institute of Technology, Ahmedabad",
+          "Date": "18/06/2001 to 29/06/2001"
+        },
+        {
+          "Title": "Recent Trends in Nano Composite",
+          "OrganizedBy": "IIT Kanpur",
+          "Date": "06/11/2006 to 10/11/2006"
+        },
+        {
+          "Title": "Computational Fluid Dynamics & Heat Transfer",
+          "OrganizedBy": "L.D. College of Engineering, Ahmedabad",
+          "Date": "05/05/2008 to 09/05/2008"
+        },
+        {
+          "Title": "Engineering Drawing using CAD",
+          "OrganizedBy": "Indo-US Collaboration for Engineering Education",
+          "Date": "14/07/2008 to 18/07/2008"
+        },
+        {
+          "Title": "Advance Machine Design",
+          "OrganizedBy": "VJTI, Mumbai",
+          "Date": "02/12/2013 to 06/12/2013"
+        },
+        {
+          "Title": "A Winter School on Renewable Energy Sources with Emphasis on Wind and Solar Energy",
+          "OrganizedBy": "NITTTR Extension Centre, Ahmedabad",
+          "Date": "07/07/2014 to 18/07/2014"
+        },
+        {
+          "Title": "TEQIP-II Management Capacity Enhancement Programme",
+          "OrganizedBy": "IIM Tiruchirappalli",
+          "Date": "20/06/2016 to 24/06/2016"
+        },
+        {
+          "Title": "Alternate Fuels and Electric Vehicle",
+          "OrganizedBy": "L.D. College of Engineering, Ahmedabad",
+          "Date": "18/12/2023 to 23/12/2023"
+        }
+      ],
         "Publications": [
             {
                 "SrNo": 1,
