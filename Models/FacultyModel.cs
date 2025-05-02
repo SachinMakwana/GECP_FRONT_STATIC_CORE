@@ -31,6 +31,7 @@ namespace GECP_Front_End_Static.Models
         public string Area_of_Interest { get; set; }
         public bool IsTeaching { get; set; }
 
+        public string Website { get; set; }
         public string personal_details { get; set; }
 
         public string url { get; set; }

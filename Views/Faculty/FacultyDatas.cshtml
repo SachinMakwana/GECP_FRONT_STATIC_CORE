@@ -11,8 +11,8 @@
 		text-align: justify;
 	}
 
-	.title22{
-		color:black;
+	.title22 {
+		color: black;
 	}
 </style>
 <div class="box">
@@ -42,6 +42,12 @@
 				<li>
 					<strong>Email:</strong> <span class="text-secondary">@Model.PersonalDetails.Email</span>
 				</li>
+				@if (!string.IsNullOrWhiteSpace(Model.Website))
+				{
+					<li>
+						<strong>Website/Blogspot:</strong> <a href="@Model.Website" class="block" target="_blank">view</a>
+					</li>
+				}
 			</ul>
 		</div>
 	</div>
@@ -58,7 +64,7 @@
 						<tr class="success">
 							<th style="width:10% !important">Sr No</th>
 							<th>Degree</th>
-							
+
 							<th>Year</th>
 							<th>Specialization</th>
 						</tr>
@@ -70,7 +76,7 @@
 							<tr>
 								<td>@count</td>
 								<td>@qualification.Degree</td>
-								
+
 								<td>@qualification.Year</td>
 								<td>@qualification.Specialization</td>
 							</tr>
