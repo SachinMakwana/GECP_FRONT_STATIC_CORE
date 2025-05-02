@@ -138,7 +138,7 @@
                 "LabID": 22,
 
                 "Lab_Image": "~/images/Department/Computer/lab302_-_Sachin_Makwana_optimized.png",
-                "Lab_Name": "LAB-302 IOT LAB",
+                "Lab_Name": "LAB-302 IOT AND MACHINE LEARNING LAB",
                 "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>ACXXEL</td></tr><tr><td>PROCESSOR&nbsp;</td><td>11th Gen Intel® Core™ i7-11700</td></tr>      <tr> <td>RAM</td><td>8.00 GB</td></tr>      <tr>        <td>HDD</td>        <td>1TB</td>      </tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr>  <td>TOTAL PC</td><td>15</td></tr></tbody></table></figure>"
             },
             {
@@ -164,10 +164,18 @@
                 "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
 
             },
+            //{
+            //    "LabID": 26,
+
+            //    "Lab_Image": "~/images/Department/Computer/lab313_-_Sachin_Makwana_optimized.png",
+            //    "Lab_Name": "LAB-314  HARDWARE LAB",
+            //    "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
+
+            //},
             {
-                "LabID": 26,
+                "LabID": 27,
                 "Lab_Image": "~/images/Department/Computer/lab315_-_Sachin_Makwana_optimized.png",
-                "Lab_Name": "LAB-315 LOGIC  BUILDING  AND  R&D  LAB",
+                "Lab_Name": "LAB-315 ADVANCE COMPUTING LAB",
                 "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION</td></tr><tr><td>PC MODEL</td><td>Dell</td></tr><tr><td>PROCESSOR;</td><td>Intel(R) Core(TM) i7</td></tr><tr><td>RAM</td><td>8.00 GB</td></tr><tr><td>HDD</td><td>1TB HDD</td></tr><tr><td>GRAPHICS CARD</td><td>HP Z240 Tower Workstation</td></tr></tbody></table></figure>"
             }
         ],
