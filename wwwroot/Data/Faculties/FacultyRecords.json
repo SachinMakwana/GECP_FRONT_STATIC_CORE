@@ -7186,7 +7186,7 @@
         },
         "PersonalDetails": {
             "Name": "Dr.Kaushikkumar Vishnubhai Patel",
-            "Designation": "Assistant Professor",
+            "Designation": "Associate Professor",
             "Department": "Mechanical",
             "Contact": "+91-9913663600",
             "Email": "kaushik.patel@gecpatan.ac.in"
@@ -7222,12 +7222,12 @@
             {
                 "Position": "Assistant Professor",
                 "Organization": "Government Engineering College Patan",
-                "Duration": "06-12-2018 to 23-04-2025"
+                "Duration": "06-12-2018 to 22-04-2025"
             },
             {
                 "Position": "Associate Professor",
                 "Organization": "Government Engineering College Patan",
-                "Duration": "24-04-2025 to Present"
+                "Duration": "23-04-2025 to Present"
             }
         ],
         "TrainingAndWorkshops": [

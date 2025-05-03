@@ -486,8 +486,14 @@
         "FacultyCount": 0,
         "AnnualPlacementCount": 0,
         "LabWorkshop": 0,
-        "Vision": [ "To achieve excellence by providing overall development of the student." ],
-        "Mission": [ "To train graduates according to the needs of industry, government, society and scientific community." ],
+        "Vision": [ "Pursuit of excellence in technical education through quality pedagogy, character building and total development and to nurture responsible and valuable citizens." ],
+        "Mission": [
+            "By strengthening the teaching-learning process through, the institution will stimulate the spirit of systematic enquiry and discovery in academics.",
+            "To provide innovative and quality systems of learning to the young generation through innovative practices and quality management.",
+            "By strengthening the teaching-learning process through, the institution will stimulate the spirit of scientific enquiry and discovery in academics.",
+            "By providing state-of-the-art institutional infrastructure and excellent human resources, the department will foster a better educational environment.",
+            "To equip them to become scientific, prolific, productive, proactive human resources and responsible citizens of the nation."
+        ],
         "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the General Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. The department focuses on the overall development of the student by teaching the subjects related to Mathematics, English, Physics. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
         "HODName": "Prof. VIJAY SONI",
         "HOD_Pic": "~/images/Faculty/HOD/601.png",
