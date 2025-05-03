@@ -15,7 +15,7 @@
         "ParentID": null,
         "ControllerName": "Institute",
         "ActionName": "",
-        "position": 2,
+        "position": 3,
         "isVisible": true,
         "ChildMenuVMs": [
             {
@@ -751,7 +751,7 @@
         "dynamicID": null,
         "ControllerName": "",
         "ActionName": "",
-        "position": 8,
+        "position": 2,
         "isVisible": true,
         "ChildMenuVMs": [
             {
