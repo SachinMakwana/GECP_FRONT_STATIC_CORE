@@ -686,6 +686,18 @@
                 "ChildMenuVMs": []
             },
             {
+                "ID": 66,
+                "MenuText": "General Rules and Regulations for Students",
+                "ParentID": null,
+                "dynamicID": null,
+                "ControllerName": "",
+                "ActionName": "",
+                "position": 11,
+                "isVisible": true,
+                "Link": "/DataFiles/Documents/Rules/2 General Rules and Regulations for Students.pdf",
+                "ChildMenuVMs": []
+            },
+            {
                 "ID": 62,
                 "MenuText": "Time Table",
                 "ParentID": 6,
@@ -751,7 +763,7 @@
         "dynamicID": null,
         "ControllerName": "",
         "ActionName": "",
-        "position": 2,
+        "position": 8,
         "isVisible": true,
         "ChildMenuVMs": [
             {
@@ -820,6 +832,18 @@
                 "position": 3,
                 "isVisible": true,
                 "Link": "/DataFiles/Documents/Council/Council_of_Heads.pdf",
+                "ChildMenuVMs": []
+            },
+            {
+                "ID": 994,
+                "MenuText": "Institute Administration Rules",
+                "ParentID": null,
+                "dynamicID": null,
+                "ControllerName": "",
+                "ActionName": "",
+                "position": 4,
+                "isVisible": true,
+                "Link": "/DataFiles/Documents/Rules/1 Institute Administrative Rules.pdf",
                 "ChildMenuVMs": []
             }
         ]
