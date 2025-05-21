@@ -4,219 +4,316 @@
   //1xx
 
   //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SANJAYKUMAR JOSHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.E.C</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EC</span></li></ul></div></div></div>"
+  {
+    "ID": 101,
+    "Name": "Dr. Devendrakumar H. Patel",
+    "Designation": "Associate Professor",
+    "image": "images/Faculty/101.jpg",
+    "Dept_ID": 1,
+    "Date_of_Joining": "2025-04-24",
+    "Qualification": "Ph.D. Electronics & Communication Engineering",
+    "Area_of_Interest": "Multiband Antennas, Wireless Communication",
+    "Isteaching": true,
+    "SeniorityOrder": 0,
+    "PersonalDetails": {
+      "Name": "Dr. Devendrakumar H. Patel",
+      "Designation": "Associate Professor",
+      "Department": "Electronics and Communication",
+      "Contact": "+91-9725126006",
+      "Email": "devendra.patel@gecpatan.ac.in"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "PhD",
+        "Year": "2023",
+        "Specialization": "Electronics & Communication Engineering"
+      },
+      {
+        "Degree": "ME",
+        "Year": "2009",
+        "Specialization": "Communication Systems Engineering"
+      },
+      {
+        "Degree": "BE",
+        "Year": "2007",
+        "Specialization": "Electronics & Communication Engineering"
+      } 
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Associate Professor",
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "24-04-2025 to Present"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College, Gandhinagar",
+        "Duration": "12-05-2011 to 23-04-2025"
+      },
+      {
+        "Position": "Lecturer",
+        "Organization": "L.D.R.P. Institute of Technology and Research, Gandhinagar",
+        "Duration": "01-07-2009 to 11-05-2011"
+      }
+    ],  
+    "Publications":[
+      {
+        "SrNo": 1,
+        "Title": "Patel, Devendra & Dadhania, Shreya (2009). Image Enhancement of Magnetic Resonance Imaging. Second National Conference on Emerging Trends in Information Communication Technologies (NCETICT)"
+      },
+      {
+        "SrNo": 2,
+        "Title": "Patel, Devendra., Solanki, Mital., Wandra, Hitesh., Khandhar, Dharmesh. (2010). Effect of RICE Lossless Image Compression Algorithm on Different Image Formats. National Journal of Computer Science and Technology, S. V. Academy for Research, Innovation and Development (SV-ACRID)"
+      },
+      {
+        "SrNo": 3,
+        "Title": "Patel, D. H., & Makwana, G. D. (2022). A Comprehensive Review on Multi-band Microstrip Patch Antenna Comprising 5G Wireless Communication. International Journal of Computing and Digital Systems, 11(1), 941–953. https://doi.org/10.12785/ijcds/110177."
+      },
+      {
+        "SrNo": 4,
+        "Title": "Patel, D. H., & Makwana, G. D. (2023). Multiband Antenna for 2G/3G/4G and Sub-6 GHz 5G Applications Using Characteristic Mode Analysis. Progress in Electromagnetics Research M, 115, 107–117. https://doi.org/10.2528/pierm22122901."
+      },
+      {
+        "SrNo": 5,
+        "Title": "Patel, D. H., & Gautam Durlabhji Makwana. (2023). Multiband Antenna for GPS, IRNSS, Sub-6 GHz 5G and WLAN Applications. Progress in Electromagnetics Research M, 116, 53–63. https://doi.org/10.2528/pierm23020902."
+      },
+      {
+        "SrNo": 6,
+        "Title": "Dalvadi, P., Patel, A., Patel, D. H., & Makwana, G. D. (2021). Design of Wideband Bowtie Antenna using Tapered Balun for Industrial, Scientific and Medical Band Application. International Journal of Information Technology and Electrical Engineering (ITEE), 10(3), 61-66."
+      },
+      {
+        "SrNo": 7,
+        "Title": "D. H. Patel and G. D. Makwana, \"Triple-band antenna for GPS, Sub-6 GHz 5G and WLAN Wireless Applications,\" 2023 IEEE Wireless Antenna and Microwave Symposium (WAMS), Ahmedabad, India, 2023, pp. 1-5, doi: 10.1109/WAMS57261.2023.10242992."
+      },
+      {
+        "SrNo": 8,
+        "Title": "Patel, D. H., Bhatt, R. V., & Makwana, G. D. (2022). India Design Patent 368819-001, Class 14-03, Multiband Antenna, Aug. 5, 2022, Kolkata: India Office of Controller General of Patents, Designs & Trade Marks."
+      },
+      {
+        "SrNo": 9,
+        "Title": "Patel, D. H., & Makwana, G. D. (2023). India Design Patent 379247-001, Class 14-03, Multiband Antenna, Feb. 13, 2023, Kolkata: India Office of Controller General of Patents, Designs & Trade Marks."
+      },
+      {
+        "SrNo": 10,
+        "Title": "Bhatt, R. V., Makwana, G. D., & Patel, D. H. (2022). India Design Patent 370713-001, No. 124380, Class 14-03, Multiband Antenna, Sep. 12, 2022, Kolkata: India Office of Controller General of Patents, Designs & Trade Marks."
+      }
+    
 
-  //{
-  //    "ID": 101,
-  //    "Name": "Prof. Sanjaykumar Joshi",
-  //    "Designation": "Associate Professor",
-  //    "image": "images/Faculty/HOD/101.jpg",
-  //    "Dept_ID": 1,
-  //    "Date_of_Joining": "2015-05-28",
-  //    "Qualification": "M.E. Electronics",
-  //    "Area_of_Interest": "EC",
-  //    "Isteaching": true,
-  //    "SeniorityOrder": 1,
-  //    "PersonalDetails": {
-  //        "Name": "Prof. Sanjaykumar D. Joshi",
-  //        "Designation": "Associate Professor",
-  //        "Department": "Electronics and Communication",
-  //        "Contact": "+91-8141409541",
-  //        "Email": "sanjay.joshi@gecpatan.ac.in"
-  //    },
-  //    "EducationalQualifications": [
-  //        {
-  //            "Degree": "ME",
-  //            "Year": "2008",
-  //            "Specialization": "Electronics"
-  //        },
-  //        {
-  //            "Degree": "BE",
-  //            "Year": "1996",
-  //            "Specialization": "Electronics and Communication System"
-  //        }
-  //    ],
-  //    "ProfessionalExperiences": [
-  //        {
-  //            "Position": "Associate Professor",
-  //            "Organization": "Govt.Engg.College,Patan",
-  //            "Duration": "28-05-2015 to Present"
-  //        },
-  //        {
-  //            "Position": "Associate Professor",
-  //            "Organization": "VGEC,Chandkheda",
-  //            "Duration": "03-03-2009 to 27-07-2015"
-  //        },
-  //        {
-  //            "Position": "Assistant Professor",
-  //            "Organization": "LDCE,Ahmedabad",
-  //            "Duration": "02-08-2008 to 02-03-2009"
-  //        },
-  //        {
-  //            "Position": "Assistant Professor",
-  //            "Organization": "Govt.Engg.College,Modasa",
-  //            "Duration": "14-12-2000 to 01-08-2008"
-  //        },
-  //        {
-  //            "Position": "Lecturer",
-  //            "Organization": "Govt.Polytenic,Palanpur",
-  //            "Duration": "14-02-1997 to 13-12-2000"
-  //        }
-  //    ],
-  //    "TrainingAndWorkshops": [
-  //        {
-  //            "Title": "Bio-Medical Engineering",
-  //            "OrganizedBy": "Nirma Institue of Tech,Ahmedabad",
-  //            "Date": "30-12-2002 to 10-01-2003"
-  //        },
-  //        {
-  //            "Title": "Computer Science",
-  //            "OrganizedBy": "BBIT,V.V.Nagar",
-  //            "Date": "5-05-2003 to 17-05-2003"
-  //        },
-  //        {
-  //            "Title": "Microcontrollers and its Apllications",
-  //            "OrganizedBy": "GP Gandhinagar",
-  //            "Date": "8-12-2003 to 19-12-2003"
-  //        },
-  //        {
-  //            "Title": "Patent Awarness Workshop",
-  //            "OrganizedBy": "GUJCOST",
-  //            "Date": "30-01-2004 to 30-01-2004"
-  //        },
-  //        {
-  //            "Title": "Enchancing Skills Of Engineering Faculty",
-  //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
-  //            "Date": "28-07-2004 to 10-07-2004"
-  //        },
-  //        {
-  //            "Title": "Digital Design using FPGAs & CPLDs",
-  //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
-  //            "Date": "6-12-2004 to 18-12-2004"
-  //        },
-  //        {
-  //            "Title": "Recent Trends in Digital Signal & Image Processing",
-  //            "OrganizedBy": "UVPCE,Kherva",
-  //            "Date": "24-06-2008 to 28-06-2008"
-  //        },
-  //        {
-  //            "Title": "Faculty Awarness Camps on Entraprenuareship",
-  //            "OrganizedBy": "UVPCE,Kherva",
-  //            "Date": "28-06-2008 to 01-07-2008"
-  //        },
-  //        {
-  //            "Title": "Train the Trainer, Staff Development Program",
-  //            "OrganizedBy": "VGEC,Chandkheda",
-  //            "Date": "24-11-2008 to 06-12-2008"
-  //        },
-  //        {
-  //            "Title": "VLSI Prelab/ Image Tools",
-  //            "OrganizedBy": "LDCE,Ahemdabad",
-  //            "Date": "17-09-2009 to 19-09-2009"
-  //        },
-  //        {
-  //            "Title": "Circuit Simulation",
-  //            "OrganizedBy": "VGEC,Chandkheda",
-  //            "Date": "10-10-2009 to 11-10-2009"
-  //        },
-  //        {
-  //            "Title": "Embedded System ",
-  //            "OrganizedBy": "DDU,Nadiad",
-  //            "Date": "16-11-2009 to 28-11-2009"
-  //        },
-  //        {
-  //            "Title": "Embedded System Design",
-  //            "OrganizedBy": "GTU,LDCE,Ahmedabad",
-  //            "Date": "30-06-2014 to 30-06-2014"
-  //        },
-  //        {
-  //            "Title": "Administrative Rules & Procedures for Principals and Sr. Faculty",
-  //            "OrganizedBy": "NITTR,Ahmedabad",
-  //            "Date": "20-08-2014 to 22-08-2014"
-  //        },
-  //        {
-  //            "Title": "Nuvaton NuMicro ARM Cortex-M0 and its Appl.",
-  //            "OrganizedBy": "GTU,Chandkheda",
-  //            "Date": "06-09-2014 to 07-09-2014"
-  //        },
-  //        {
-  //            "Title": "Designing Embedded System",
-  //            "OrganizedBy": "IIT,Gandhinagar",
-  //            "Date": "11-05-2015 to 15-05-2015"
-  //        },
-  //        {
-  //            "Title": "Management  Capacity EnhancementProgram",
-  //            "OrganizedBy": "IIM, Indore",
-  //            "Date": "16-06-2015 to 22-06-2015"
-  //        },
-  //        {
-  //            "Title": "Academic Leadership & Best Practices",
-  //            "OrganizedBy": "IIT, Gandhinagar",
-  //            "Date": "19-09-2015 to 19-09-2015"
-  //        },
-  //        {
-  //            "Title": "APFA 2015 Conference",
-  //            "OrganizedBy": "IPR, Ahmedabad",
-  //            "Date": "14-09-2015 to 18-09-2015"
-  //        },
-  //        {
-  //            "Title": "Recent Trends in Instrumentation",
-  //            "OrganizedBy": "GEC, Gandhinagar",
-  //            "Date": "21-01-2016 to 22-01-2016"
-  //        },
-  //        {
-  //            "Title": "Emerging Research Trends In Computational Intelligence:Theory and Application",
-  //            "OrganizedBy": "DA-IICT, Gandhinagar",
-  //            "Date": "01-03-2016 to 05-03-2016"
-  //        },
-  //        {
-  //            "Title": "Video and Image Analysis: Fundamentals and Advances",
-  //            "OrganizedBy": "NIT, Goa",
-  //            "Date": "30-05-2016 to 04-06-2016"
-  //        },
-  //        {
-  //            "Title": "Summer School on \"Analog CMOS Integrated Circuit\" ",
-  //            "OrganizedBy": "IIT, Gandhinagar",
-  //            "Date": "06-06-2016 to 18-06-2016"
-  //        },
-  //        {
-  //            "Title": "Research Oppurtunities in Collaboration with Industries.",
-  //            "OrganizedBy": "VGEC,Chandkheda",
-  //            "Date": "24--10-2016 to 25-10-2016"
-  //        },
-  //        {
-  //            "Title": "Recent Advances in RF and Microwave Engineering",
-  //            "OrganizedBy": "LDCE, Ahmedabad",
-  //            "Date": "21-11-2016 to 25-11-2016"
-  //        },
-  //        {
-  //            "Title": "Internet of Things(IOT)",
-  //            "OrganizedBy": "GEC, Gandhinagar",
-  //            "Date": "27-12-2016 to 28-12-2016"
-  //        },
-  //        {
-  //            "Title": "Machines Learning and Deep Learning Fundamentas",
-  //            "OrganizedBy": "GTU, Chandkheda",
-  //            "Date": "16-12-2016 to 20-12-2016"
-  //        },
-  //        {
-  //            "Title": "Implementation of IoT Applications using ML and DL",
-  //            "OrganizedBy": "GTU, Chandkheda",
-  //            "Date": "27-12-2021 to 31-12-2021"
-  //        },
-  //        {
-  //            "Title": "NBA Accreditaion of Diploma/UG program",
-  //            "OrganizedBy": "NITTTR, Ext Center Ahmedabad",
-  //            "Date": "11-09-2023 to 15-09-2023"
-  //        },
-  //        {
-  //            "Title": "Train the Trainer programme on Effective Implementation of NEP 2020",
-  //            "OrganizedBy": "Samiksha kendra Gandhinagar",
-  //            "Date": "14-10-2024 to 18-10-2024"
-  //        }
-  //    ],
-  //    "Publications": []
-  //    //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SANJAYKUMAR JOSHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.E.C</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EC</span></li></ul></div></div></div>"
-  //},
+    ]
+  },
+
+    //{
+    //    "ID": 101,
+    //    "Name": "Prof. Sanjaykumar Joshi",
+    //    "Designation": "Associate Professor",
+    //    "image": "images/Faculty/HOD/101.jpg",
+    //    "Dept_ID": 1,
+    //    "Date_of_Joining": "2015-05-28",
+    //    "Qualification": "M.E. Electronics",
+    //    "Area_of_Interest": "EC",
+    //    "Isteaching": true,
+    //    "SeniorityOrder": 1,
+    //    "PersonalDetails": {
+    //        "Name": "Prof. Sanjaykumar D. Joshi",
+    //        "Designation": "Associate Professor",
+    //        "Department": "Electronics and Communication",
+    //        "Contact": "+91-8141409541",
+    //        "Email": "sanjay.joshi@gecpatan.ac.in"
+    //    },
+    //    "EducationalQualifications": [
+    //        {
+    //            "Degree": "ME",
+    //            "Year": "2008",
+    //            "Specialization": "Electronics"
+    //        },
+    //        {
+    //            "Degree": "BE",
+    //            "Year": "1996",
+    //            "Specialization": "Electronics and Communication System"
+    //        }
+    //    ],
+    //    "ProfessionalExperiences": [
+    //        {
+    //            "Position": "Associate Professor",
+    //            "Organization": "Govt.Engg.College,Patan",
+    //            "Duration": "28-05-2015 to Present"
+    //        },
+    //        {
+    //            "Position": "Associate Professor",
+    //            "Organization": "VGEC,Chandkheda",
+    //            "Duration": "03-03-2009 to 27-07-2015"
+    //        },
+    //        {
+    //            "Position": "Assistant Professor",
+    //            "Organization": "LDCE,Ahmedabad",
+    //            "Duration": "02-08-2008 to 02-03-2009"
+    //        },
+    //        {
+    //            "Position": "Assistant Professor",
+    //            "Organization": "Govt.Engg.College,Modasa",
+    //            "Duration": "14-12-2000 to 01-08-2008"
+    //        },
+    //        {
+    //            "Position": "Lecturer",
+    //            "Organization": "Govt.Polytenic,Palanpur",
+    //            "Duration": "14-02-1997 to 13-12-2000"
+    //        }
+    //    ],
+    //    "TrainingAndWorkshops": [
+    //        {
+    //            "Title": "Bio-Medical Engineering",
+    //            "OrganizedBy": "Nirma Institue of Tech,Ahmedabad",
+    //            "Date": "30-12-2002 to 10-01-2003"
+    //        },
+    //        {
+    //            "Title": "Computer Science",
+    //            "OrganizedBy": "BBIT,V.V.Nagar",
+    //            "Date": "5-05-2003 to 17-05-2003"
+    //        },
+    //        {
+    //            "Title": "Microcontrollers and its Apllications",
+    //            "OrganizedBy": "GP Gandhinagar",
+    //            "Date": "8-12-2003 to 19-12-2003"
+    //        },
+    //        {
+    //            "Title": "Patent Awarness Workshop",
+    //            "OrganizedBy": "GUJCOST",
+    //            "Date": "30-01-2004 to 30-01-2004"
+    //        },
+    //        {
+    //            "Title": "Enchancing Skills Of Engineering Faculty",
+    //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
+    //            "Date": "28-07-2004 to 10-07-2004"
+    //        },
+    //        {
+    //            "Title": "Digital Design using FPGAs & CPLDs",
+    //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
+    //            "Date": "6-12-2004 to 18-12-2004"
+    //        },
+    //        {
+    //            "Title": "Recent Trends in Digital Signal & Image Processing",
+    //            "OrganizedBy": "UVPCE,Kherva",
+    //            "Date": "24-06-2008 to 28-06-2008"
+    //        },
+    //        {
+    //            "Title": "Faculty Awarness Camps on Entraprenuareship",
+    //            "OrganizedBy": "UVPCE,Kherva",
+    //            "Date": "28-06-2008 to 01-07-2008"
+    //        },
+    //        {
+    //            "Title": "Train the Trainer, Staff Development Program",
+    //            "OrganizedBy": "VGEC,Chandkheda",
+    //            "Date": "24-11-2008 to 06-12-2008"
+    //        },
+    //        {
+    //            "Title": "VLSI Prelab/ Image Tools",
+    //            "OrganizedBy": "LDCE,Ahemdabad",
+    //            "Date": "17-09-2009 to 19-09-2009"
+    //        },
+    //        {
+    //            "Title": "Circuit Simulation",
+    //            "OrganizedBy": "VGEC,Chandkheda",
+    //            "Date": "10-10-2009 to 11-10-2009"
+    //        },
+    //        {
+    //            "Title": "Embedded System ",
+    //            "OrganizedBy": "DDU,Nadiad",
+    //            "Date": "16-11-2009 to 28-11-2009"
+    //        },
+    //        {
+    //            "Title": "Embedded System Design",
+    //            "OrganizedBy": "GTU,LDCE,Ahmedabad",
+    //            "Date": "30-06-2014 to 30-06-2014"
+    //        },
+    //        {
+    //            "Title": "Administrative Rules & Procedures for Principals and Sr. Faculty",
+    //            "OrganizedBy": "NITTR,Ahmedabad",
+    //            "Date": "20-08-2014 to 22-08-2014"
+    //        },
+    //        {
+    //            "Title": "Nuvaton NuMicro ARM Cortex-M0 and its Appl.",
+    //            "OrganizedBy": "GTU,Chandkheda",
+    //            "Date": "06-09-2014 to 07-09-2014"
+    //        },
+    //        {
+    //            "Title": "Designing Embedded System",
+    //            "OrganizedBy": "IIT,Gandhinagar",
+    //            "Date": "11-05-2015 to 15-05-2015"
+    //        },
+    //        {
+    //            "Title": "Management  Capacity EnhancementProgram",
+    //            "OrganizedBy": "IIM, Indore",
+    //            "Date": "16-06-2015 to 22-06-2015"
+    //        },
+    //        {
+    //            "Title": "Academic Leadership & Best Practices",
+    //            "OrganizedBy": "IIT, Gandhinagar",
+    //            "Date": "19-09-2015 to 19-09-2015"
+    //        },
+    //        {
+    //            "Title": "APFA 2015 Conference",
+    //            "OrganizedBy": "IPR, Ahmedabad",
+    //            "Date": "14-09-2015 to 18-09-2015"
+    //        },
+    //        {
+    //            "Title": "Recent Trends in Instrumentation",
+    //            "OrganizedBy": "GEC, Gandhinagar",
+    //            "Date": "21-01-2016 to 22-01-2016"
+    //        },
+    //        {
+    //            "Title": "Emerging Research Trends In Computational Intelligence:Theory and Application",
+    //            "OrganizedBy": "DA-IICT, Gandhinagar",
+    //            "Date": "01-03-2016 to 05-03-2016"
+    //        },
+    //        {
+    //            "Title": "Video and Image Analysis: Fundamentals and Advances",
+    //            "OrganizedBy": "NIT, Goa",
+    //            "Date": "30-05-2016 to 04-06-2016"
+    //        },
+    //        {
+    //            "Title": "Summer School on \"Analog CMOS Integrated Circuit\" ",
+    //            "OrganizedBy": "IIT, Gandhinagar",
+    //            "Date": "06-06-2016 to 18-06-2016"
+    //        },
+    //        {
+    //            "Title": "Research Oppurtunities in Collaboration with Industries.",
+    //            "OrganizedBy": "VGEC,Chandkheda",
+    //            "Date": "24--10-2016 to 25-10-2016"
+    //        },
+    //        {
+    //            "Title": "Recent Advances in RF and Microwave Engineering",
+    //            "OrganizedBy": "LDCE, Ahmedabad",
+    //            "Date": "21-11-2016 to 25-11-2016"
+    //        },
+    //        {
+    //            "Title": "Internet of Things(IOT)",
+    //            "OrganizedBy": "GEC, Gandhinagar",
+    //            "Date": "27-12-2016 to 28-12-2016"
+    //        },
+    //        {
+    //            "Title": "Machines Learning and Deep Learning Fundamentas",
+    //            "OrganizedBy": "GTU, Chandkheda",
+    //            "Date": "16-12-2016 to 20-12-2016"
+    //        },
+    //        {
+    //            "Title": "Implementation of IoT Applications using ML and DL",
+    //            "OrganizedBy": "GTU, Chandkheda",
+    //            "Date": "27-12-2021 to 31-12-2021"
+    //        },
+    //        {
+    //            "Title": "NBA Accreditaion of Diploma/UG program",
+    //            "OrganizedBy": "NITTTR, Ext Center Ahmedabad",
+    //            "Date": "11-09-2023 to 15-09-2023"
+    //        },
+    //        {
+    //            "Title": "Train the Trainer programme on Effective Implementation of NEP 2020",
+    //            "OrganizedBy": "Samiksha kendra Gandhinagar",
+    //            "Date": "14-10-2024 to 18-10-2024"
+    //        }
+    //    ],
+    //    "Publications": []
+    //    //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SANJAYKUMAR JOSHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.E.C</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EC</span></li></ul></div></div></div>"
+    //},
   {
     "ID": 102,
     "Name": "Dr. Hareshkumar judal",
@@ -1534,39 +1631,39 @@
       //  "Organization": "",
       //  "Duration": ""
       //},
-      
+
     ],
     "TrainingAndWorkshops": [
-        {
-          "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
-          "OrganizedBy": "Gujarat Student Startup and Innovation Hub (i-Hub)",
-          "Date": "-"
-        },
-        {
-          "Title": "Recent Trends and future directions in information security",
-          "OrganizedBy": "Computer Engineering Department, LD College of Engineering",
-          "Date": "-"
-        },
-        {
-          "Title": "Trends in industrial automation: Refreshing past and Focusing future",
-          "OrganizedBy": "GEC Gandhinagar",
-          "Date": "-"
-        },
-        {
-          "Title": "Computer Networks and Internet Protocol",
-          "OrganizedBy": "Organized by NPTEL and conducted by IIT Kharagpur",
-          "Date": "-"
-        },
-        {
-          "Title": "Biomedical Advancement in Engineering",
-          "OrganizedBy": "Organized by NITTTR, Bhopal and GEC Gandhinagar",
-          "Date": "-"
-        },
-        {
-          "Title": "MOOC training on Intellectual Property Rights",
-          "OrganizedBy": "Organized by NPTEL",
-          "Date": "-"
-        }
+      {
+        "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
+        "OrganizedBy": "Gujarat Student Startup and Innovation Hub (i-Hub)",
+        "Date": "-"
+      },
+      {
+        "Title": "Recent Trends and future directions in information security",
+        "OrganizedBy": "Computer Engineering Department, LD College of Engineering",
+        "Date": "-"
+      },
+      {
+        "Title": "Trends in industrial automation: Refreshing past and Focusing future",
+        "OrganizedBy": "GEC Gandhinagar",
+        "Date": "-"
+      },
+      {
+        "Title": "Computer Networks and Internet Protocol",
+        "OrganizedBy": "Organized by NPTEL and conducted by IIT Kharagpur",
+        "Date": "-"
+      },
+      {
+        "Title": "Biomedical Advancement in Engineering",
+        "OrganizedBy": "Organized by NITTTR, Bhopal and GEC Gandhinagar",
+        "Date": "-"
+      },
+      {
+        "Title": "MOOC training on Intellectual Property Rights",
+        "OrganizedBy": "Organized by NPTEL",
+        "Date": "-"
+      }
     ],
     "Publications": []
   },
@@ -2980,7 +3077,34 @@
 
   },
 
-
+  //{
+  //  "ID": 223,
+  //  "Name": "Dr. Sunil A Patel",
+  //  "Designation": "Associate Professor",
+  //  "image": "images/Faculty/223.png",
+  //  "Dept_ID": 2,
+  //  "Date_of_Joining": "",
+  //  "Qualification": "",
+  //  "Area_of_Interest": "",
+  //  "Isteaching": true,
+  //  "SeniorityOrder": 0,
+  //  "personal_details": "",
+  //  "tabs": {
+  //    "Head": [],
+  //    "Values": []
+  //  },
+  //  "PersonalDetails": {
+  //    "Name": "Dr. Sunil A Patel",
+  //    "Designation": "Associate Professor",
+  //    "Department": "Computer",
+  //    "Contact": "",
+  //    "Email": ""
+  //  },
+  //  "EducationQualification": [],
+  //  "ProfessionalExperience": [],
+  //  "TrainingAndWorkshops": [],
+  //  "Publications": []
+  //},
 
 
   //3xx
@@ -10327,5 +10451,5 @@
     ]
 
   }
- 
+
 ]
