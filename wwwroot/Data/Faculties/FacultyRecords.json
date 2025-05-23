@@ -37,7 +37,7 @@
         "Degree": "BE",
         "Year": "2007",
         "Specialization": "Electronics & Communication Engineering"
-      } 
+      }
     ],
     "ProfessionalExperiences": [
       {
@@ -55,8 +55,8 @@
         "Organization": "L.D.R.P. Institute of Technology and Research, Gandhinagar",
         "Duration": "01-07-2009 to 11-05-2011"
       }
-    ],  
-    "Publications":[
+    ],
+    "Publications": [
       {
         "SrNo": 1,
         "Title": "Patel, Devendra & Dadhania, Shreya (2009). Image Enhancement of Magnetic Resonance Imaging. Second National Conference on Emerging Trends in Information Communication Technologies (NCETICT)"
@@ -97,223 +97,223 @@
         "SrNo": 10,
         "Title": "Bhatt, R. V., Makwana, G. D., & Patel, D. H. (2022). India Design Patent 370713-001, No. 124380, Class 14-03, Multiband Antenna, Sep. 12, 2022, Kolkata: India Office of Controller General of Patents, Designs & Trade Marks."
       }
-    
+
 
     ]
   },
 
-    //{
-    //    "ID": 101,
-    //    "Name": "Prof. Sanjaykumar Joshi",
-    //    "Designation": "Associate Professor",
-    //    "image": "images/Faculty/HOD/101.jpg",
-    //    "Dept_ID": 1,
-    //    "Date_of_Joining": "2015-05-28",
-    //    "Qualification": "M.E. Electronics",
-    //    "Area_of_Interest": "EC",
-    //    "Isteaching": true,
-    //    "SeniorityOrder": 1,
-    //    "PersonalDetails": {
-    //        "Name": "Prof. Sanjaykumar D. Joshi",
-    //        "Designation": "Associate Professor",
-    //        "Department": "Electronics and Communication",
-    //        "Contact": "+91-8141409541",
-    //        "Email": "sanjay.joshi@gecpatan.ac.in"
-    //    },
-    //    "EducationalQualifications": [
-    //        {
-    //            "Degree": "ME",
-    //            "Year": "2008",
-    //            "Specialization": "Electronics"
-    //        },
-    //        {
-    //            "Degree": "BE",
-    //            "Year": "1996",
-    //            "Specialization": "Electronics and Communication System"
-    //        }
-    //    ],
-    //    "ProfessionalExperiences": [
-    //        {
-    //            "Position": "Associate Professor",
-    //            "Organization": "Govt.Engg.College,Patan",
-    //            "Duration": "28-05-2015 to Present"
-    //        },
-    //        {
-    //            "Position": "Associate Professor",
-    //            "Organization": "VGEC,Chandkheda",
-    //            "Duration": "03-03-2009 to 27-07-2015"
-    //        },
-    //        {
-    //            "Position": "Assistant Professor",
-    //            "Organization": "LDCE,Ahmedabad",
-    //            "Duration": "02-08-2008 to 02-03-2009"
-    //        },
-    //        {
-    //            "Position": "Assistant Professor",
-    //            "Organization": "Govt.Engg.College,Modasa",
-    //            "Duration": "14-12-2000 to 01-08-2008"
-    //        },
-    //        {
-    //            "Position": "Lecturer",
-    //            "Organization": "Govt.Polytenic,Palanpur",
-    //            "Duration": "14-02-1997 to 13-12-2000"
-    //        }
-    //    ],
-    //    "TrainingAndWorkshops": [
-    //        {
-    //            "Title": "Bio-Medical Engineering",
-    //            "OrganizedBy": "Nirma Institue of Tech,Ahmedabad",
-    //            "Date": "30-12-2002 to 10-01-2003"
-    //        },
-    //        {
-    //            "Title": "Computer Science",
-    //            "OrganizedBy": "BBIT,V.V.Nagar",
-    //            "Date": "5-05-2003 to 17-05-2003"
-    //        },
-    //        {
-    //            "Title": "Microcontrollers and its Apllications",
-    //            "OrganizedBy": "GP Gandhinagar",
-    //            "Date": "8-12-2003 to 19-12-2003"
-    //        },
-    //        {
-    //            "Title": "Patent Awarness Workshop",
-    //            "OrganizedBy": "GUJCOST",
-    //            "Date": "30-01-2004 to 30-01-2004"
-    //        },
-    //        {
-    //            "Title": "Enchancing Skills Of Engineering Faculty",
-    //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
-    //            "Date": "28-07-2004 to 10-07-2004"
-    //        },
-    //        {
-    //            "Title": "Digital Design using FPGAs & CPLDs",
-    //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
-    //            "Date": "6-12-2004 to 18-12-2004"
-    //        },
-    //        {
-    //            "Title": "Recent Trends in Digital Signal & Image Processing",
-    //            "OrganizedBy": "UVPCE,Kherva",
-    //            "Date": "24-06-2008 to 28-06-2008"
-    //        },
-    //        {
-    //            "Title": "Faculty Awarness Camps on Entraprenuareship",
-    //            "OrganizedBy": "UVPCE,Kherva",
-    //            "Date": "28-06-2008 to 01-07-2008"
-    //        },
-    //        {
-    //            "Title": "Train the Trainer, Staff Development Program",
-    //            "OrganizedBy": "VGEC,Chandkheda",
-    //            "Date": "24-11-2008 to 06-12-2008"
-    //        },
-    //        {
-    //            "Title": "VLSI Prelab/ Image Tools",
-    //            "OrganizedBy": "LDCE,Ahemdabad",
-    //            "Date": "17-09-2009 to 19-09-2009"
-    //        },
-    //        {
-    //            "Title": "Circuit Simulation",
-    //            "OrganizedBy": "VGEC,Chandkheda",
-    //            "Date": "10-10-2009 to 11-10-2009"
-    //        },
-    //        {
-    //            "Title": "Embedded System ",
-    //            "OrganizedBy": "DDU,Nadiad",
-    //            "Date": "16-11-2009 to 28-11-2009"
-    //        },
-    //        {
-    //            "Title": "Embedded System Design",
-    //            "OrganizedBy": "GTU,LDCE,Ahmedabad",
-    //            "Date": "30-06-2014 to 30-06-2014"
-    //        },
-    //        {
-    //            "Title": "Administrative Rules & Procedures for Principals and Sr. Faculty",
-    //            "OrganizedBy": "NITTR,Ahmedabad",
-    //            "Date": "20-08-2014 to 22-08-2014"
-    //        },
-    //        {
-    //            "Title": "Nuvaton NuMicro ARM Cortex-M0 and its Appl.",
-    //            "OrganizedBy": "GTU,Chandkheda",
-    //            "Date": "06-09-2014 to 07-09-2014"
-    //        },
-    //        {
-    //            "Title": "Designing Embedded System",
-    //            "OrganizedBy": "IIT,Gandhinagar",
-    //            "Date": "11-05-2015 to 15-05-2015"
-    //        },
-    //        {
-    //            "Title": "Management  Capacity EnhancementProgram",
-    //            "OrganizedBy": "IIM, Indore",
-    //            "Date": "16-06-2015 to 22-06-2015"
-    //        },
-    //        {
-    //            "Title": "Academic Leadership & Best Practices",
-    //            "OrganizedBy": "IIT, Gandhinagar",
-    //            "Date": "19-09-2015 to 19-09-2015"
-    //        },
-    //        {
-    //            "Title": "APFA 2015 Conference",
-    //            "OrganizedBy": "IPR, Ahmedabad",
-    //            "Date": "14-09-2015 to 18-09-2015"
-    //        },
-    //        {
-    //            "Title": "Recent Trends in Instrumentation",
-    //            "OrganizedBy": "GEC, Gandhinagar",
-    //            "Date": "21-01-2016 to 22-01-2016"
-    //        },
-    //        {
-    //            "Title": "Emerging Research Trends In Computational Intelligence:Theory and Application",
-    //            "OrganizedBy": "DA-IICT, Gandhinagar",
-    //            "Date": "01-03-2016 to 05-03-2016"
-    //        },
-    //        {
-    //            "Title": "Video and Image Analysis: Fundamentals and Advances",
-    //            "OrganizedBy": "NIT, Goa",
-    //            "Date": "30-05-2016 to 04-06-2016"
-    //        },
-    //        {
-    //            "Title": "Summer School on \"Analog CMOS Integrated Circuit\" ",
-    //            "OrganizedBy": "IIT, Gandhinagar",
-    //            "Date": "06-06-2016 to 18-06-2016"
-    //        },
-    //        {
-    //            "Title": "Research Oppurtunities in Collaboration with Industries.",
-    //            "OrganizedBy": "VGEC,Chandkheda",
-    //            "Date": "24--10-2016 to 25-10-2016"
-    //        },
-    //        {
-    //            "Title": "Recent Advances in RF and Microwave Engineering",
-    //            "OrganizedBy": "LDCE, Ahmedabad",
-    //            "Date": "21-11-2016 to 25-11-2016"
-    //        },
-    //        {
-    //            "Title": "Internet of Things(IOT)",
-    //            "OrganizedBy": "GEC, Gandhinagar",
-    //            "Date": "27-12-2016 to 28-12-2016"
-    //        },
-    //        {
-    //            "Title": "Machines Learning and Deep Learning Fundamentas",
-    //            "OrganizedBy": "GTU, Chandkheda",
-    //            "Date": "16-12-2016 to 20-12-2016"
-    //        },
-    //        {
-    //            "Title": "Implementation of IoT Applications using ML and DL",
-    //            "OrganizedBy": "GTU, Chandkheda",
-    //            "Date": "27-12-2021 to 31-12-2021"
-    //        },
-    //        {
-    //            "Title": "NBA Accreditaion of Diploma/UG program",
-    //            "OrganizedBy": "NITTTR, Ext Center Ahmedabad",
-    //            "Date": "11-09-2023 to 15-09-2023"
-    //        },
-    //        {
-    //            "Title": "Train the Trainer programme on Effective Implementation of NEP 2020",
-    //            "OrganizedBy": "Samiksha kendra Gandhinagar",
-    //            "Date": "14-10-2024 to 18-10-2024"
-    //        }
-    //    ],
-    //    "Publications": []
-    //    //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SANJAYKUMAR JOSHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.E.C</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EC</span></li></ul></div></div></div>"
-    //},
+  //{
+  //    "ID": 101,
+  //    "Name": "Prof. Sanjaykumar Joshi",
+  //    "Designation": "Associate Professor",
+  //    "image": "images/Faculty/HOD/101.jpg",
+  //    "Dept_ID": 1,
+  //    "Date_of_Joining": "2015-05-28",
+  //    "Qualification": "M.E. Electronics",
+  //    "Area_of_Interest": "EC",
+  //    "Isteaching": true,
+  //    "SeniorityOrder": 1,
+  //    "PersonalDetails": {
+  //        "Name": "Prof. Sanjaykumar D. Joshi",
+  //        "Designation": "Associate Professor",
+  //        "Department": "Electronics and Communication",
+  //        "Contact": "+91-8141409541",
+  //        "Email": "sanjay.joshi@gecpatan.ac.in"
+  //    },
+  //    "EducationalQualifications": [
+  //        {
+  //            "Degree": "ME",
+  //            "Year": "2008",
+  //            "Specialization": "Electronics"
+  //        },
+  //        {
+  //            "Degree": "BE",
+  //            "Year": "1996",
+  //            "Specialization": "Electronics and Communication System"
+  //        }
+  //    ],
+  //    "ProfessionalExperiences": [
+  //        {
+  //            "Position": "Associate Professor",
+  //            "Organization": "Govt.Engg.College,Patan",
+  //            "Duration": "28-05-2015 to Present"
+  //        },
+  //        {
+  //            "Position": "Associate Professor",
+  //            "Organization": "VGEC,Chandkheda",
+  //            "Duration": "03-03-2009 to 27-07-2015"
+  //        },
+  //        {
+  //            "Position": "Assistant Professor",
+  //            "Organization": "LDCE,Ahmedabad",
+  //            "Duration": "02-08-2008 to 02-03-2009"
+  //        },
+  //        {
+  //            "Position": "Assistant Professor",
+  //            "Organization": "Govt.Engg.College,Modasa",
+  //            "Duration": "14-12-2000 to 01-08-2008"
+  //        },
+  //        {
+  //            "Position": "Lecturer",
+  //            "Organization": "Govt.Polytenic,Palanpur",
+  //            "Duration": "14-02-1997 to 13-12-2000"
+  //        }
+  //    ],
+  //    "TrainingAndWorkshops": [
+  //        {
+  //            "Title": "Bio-Medical Engineering",
+  //            "OrganizedBy": "Nirma Institue of Tech,Ahmedabad",
+  //            "Date": "30-12-2002 to 10-01-2003"
+  //        },
+  //        {
+  //            "Title": "Computer Science",
+  //            "OrganizedBy": "BBIT,V.V.Nagar",
+  //            "Date": "5-05-2003 to 17-05-2003"
+  //        },
+  //        {
+  //            "Title": "Microcontrollers and its Apllications",
+  //            "OrganizedBy": "GP Gandhinagar",
+  //            "Date": "8-12-2003 to 19-12-2003"
+  //        },
+  //        {
+  //            "Title": "Patent Awarness Workshop",
+  //            "OrganizedBy": "GUJCOST",
+  //            "Date": "30-01-2004 to 30-01-2004"
+  //        },
+  //        {
+  //            "Title": "Enchancing Skills Of Engineering Faculty",
+  //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
+  //            "Date": "28-07-2004 to 10-07-2004"
+  //        },
+  //        {
+  //            "Title": "Digital Design using FPGAs & CPLDs",
+  //            "OrganizedBy": "Nirma Institute of Tech. ,Ahmedabad",
+  //            "Date": "6-12-2004 to 18-12-2004"
+  //        },
+  //        {
+  //            "Title": "Recent Trends in Digital Signal & Image Processing",
+  //            "OrganizedBy": "UVPCE,Kherva",
+  //            "Date": "24-06-2008 to 28-06-2008"
+  //        },
+  //        {
+  //            "Title": "Faculty Awarness Camps on Entraprenuareship",
+  //            "OrganizedBy": "UVPCE,Kherva",
+  //            "Date": "28-06-2008 to 01-07-2008"
+  //        },
+  //        {
+  //            "Title": "Train the Trainer, Staff Development Program",
+  //            "OrganizedBy": "VGEC,Chandkheda",
+  //            "Date": "24-11-2008 to 06-12-2008"
+  //        },
+  //        {
+  //            "Title": "VLSI Prelab/ Image Tools",
+  //            "OrganizedBy": "LDCE,Ahemdabad",
+  //            "Date": "17-09-2009 to 19-09-2009"
+  //        },
+  //        {
+  //            "Title": "Circuit Simulation",
+  //            "OrganizedBy": "VGEC,Chandkheda",
+  //            "Date": "10-10-2009 to 11-10-2009"
+  //        },
+  //        {
+  //            "Title": "Embedded System ",
+  //            "OrganizedBy": "DDU,Nadiad",
+  //            "Date": "16-11-2009 to 28-11-2009"
+  //        },
+  //        {
+  //            "Title": "Embedded System Design",
+  //            "OrganizedBy": "GTU,LDCE,Ahmedabad",
+  //            "Date": "30-06-2014 to 30-06-2014"
+  //        },
+  //        {
+  //            "Title": "Administrative Rules & Procedures for Principals and Sr. Faculty",
+  //            "OrganizedBy": "NITTR,Ahmedabad",
+  //            "Date": "20-08-2014 to 22-08-2014"
+  //        },
+  //        {
+  //            "Title": "Nuvaton NuMicro ARM Cortex-M0 and its Appl.",
+  //            "OrganizedBy": "GTU,Chandkheda",
+  //            "Date": "06-09-2014 to 07-09-2014"
+  //        },
+  //        {
+  //            "Title": "Designing Embedded System",
+  //            "OrganizedBy": "IIT,Gandhinagar",
+  //            "Date": "11-05-2015 to 15-05-2015"
+  //        },
+  //        {
+  //            "Title": "Management  Capacity EnhancementProgram",
+  //            "OrganizedBy": "IIM, Indore",
+  //            "Date": "16-06-2015 to 22-06-2015"
+  //        },
+  //        {
+  //            "Title": "Academic Leadership & Best Practices",
+  //            "OrganizedBy": "IIT, Gandhinagar",
+  //            "Date": "19-09-2015 to 19-09-2015"
+  //        },
+  //        {
+  //            "Title": "APFA 2015 Conference",
+  //            "OrganizedBy": "IPR, Ahmedabad",
+  //            "Date": "14-09-2015 to 18-09-2015"
+  //        },
+  //        {
+  //            "Title": "Recent Trends in Instrumentation",
+  //            "OrganizedBy": "GEC, Gandhinagar",
+  //            "Date": "21-01-2016 to 22-01-2016"
+  //        },
+  //        {
+  //            "Title": "Emerging Research Trends In Computational Intelligence:Theory and Application",
+  //            "OrganizedBy": "DA-IICT, Gandhinagar",
+  //            "Date": "01-03-2016 to 05-03-2016"
+  //        },
+  //        {
+  //            "Title": "Video and Image Analysis: Fundamentals and Advances",
+  //            "OrganizedBy": "NIT, Goa",
+  //            "Date": "30-05-2016 to 04-06-2016"
+  //        },
+  //        {
+  //            "Title": "Summer School on \"Analog CMOS Integrated Circuit\" ",
+  //            "OrganizedBy": "IIT, Gandhinagar",
+  //            "Date": "06-06-2016 to 18-06-2016"
+  //        },
+  //        {
+  //            "Title": "Research Oppurtunities in Collaboration with Industries.",
+  //            "OrganizedBy": "VGEC,Chandkheda",
+  //            "Date": "24--10-2016 to 25-10-2016"
+  //        },
+  //        {
+  //            "Title": "Recent Advances in RF and Microwave Engineering",
+  //            "OrganizedBy": "LDCE, Ahmedabad",
+  //            "Date": "21-11-2016 to 25-11-2016"
+  //        },
+  //        {
+  //            "Title": "Internet of Things(IOT)",
+  //            "OrganizedBy": "GEC, Gandhinagar",
+  //            "Date": "27-12-2016 to 28-12-2016"
+  //        },
+  //        {
+  //            "Title": "Machines Learning and Deep Learning Fundamentas",
+  //            "OrganizedBy": "GTU, Chandkheda",
+  //            "Date": "16-12-2016 to 20-12-2016"
+  //        },
+  //        {
+  //            "Title": "Implementation of IoT Applications using ML and DL",
+  //            "OrganizedBy": "GTU, Chandkheda",
+  //            "Date": "27-12-2021 to 31-12-2021"
+  //        },
+  //        {
+  //            "Title": "NBA Accreditaion of Diploma/UG program",
+  //            "OrganizedBy": "NITTTR, Ext Center Ahmedabad",
+  //            "Date": "11-09-2023 to 15-09-2023"
+  //        },
+  //        {
+  //            "Title": "Train the Trainer programme on Effective Implementation of NEP 2020",
+  //            "OrganizedBy": "Samiksha kendra Gandhinagar",
+  //            "Date": "14-10-2024 to 18-10-2024"
+  //        }
+  //    ],
+  //    "Publications": []
+  //    //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SANJAYKUMAR JOSHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.E.C</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EC</span></li></ul></div></div></div>"
+  //},
   {
     "ID": 102,
     "Name": "Dr. Hareshkumar judal",
@@ -1609,7 +1609,7 @@
     "Qualification": "-",
     "Area_of_Interest": "-",
     "isTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 1,
     "personal_details": "",
     "PersonalDetails": {
       "Name": "Prof. Pratik Barot",
@@ -1667,7 +1667,37 @@
     ],
     "Publications": []
   },
+  {
+    "ID": 203,
+    "Name": "Dr. Sunil A Patel",
+    "Designation": "Associate Professor",
+    "image": "images/Faculty/203.png",
+    "Dept_ID": 2,
+    "Date_of_Joining": "2025-04-23",
+    "Qualification": "Ph.D.",
+    "Area_of_Interest": "Computer Science ",
+    "Isteaching": true,
+    "SeniorityOrder": 2,
+    "personal_details": "-",
 
+    "PersonalDetails": {
+      "Name": "Dr. Sunil A Patel",
+      "Designation": "Associate Professor",
+      "Department": "Computer Science",
+      "Contact": "+91- ",
+      "Email": "sunil.patel@gecpatan.ac.in"
+    },
+    "EducationQualification": [
+      {
+        "Degree": "",
+        "Year": "",
+        "Specialization": ""
+      }
+    ],
+    "ProfessionalExperience": [],
+    "TrainingAndWorkshops": [],
+    "Publications": []
+  },
   {
     "ID": 204,
     "Name": "Prof. Pinesh Darji",
@@ -1678,7 +1708,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "COMPUTER NETWORKS",
     "IsTeaching": true,
-    "SeniorityOrder": 4,
+    "SeniorityOrder": 5,
     "PersonalDetails": {
       "Name": "Prof. Pinesh Arvindbhai Darji",
       "Designation": "Assistant Professor",
@@ -1852,7 +1882,7 @@
     "Qualification": "M.Tech. CE",
     "Area_of_Interest": "Routing in Wireless Sensor Network",
     "IsTeaching": true,
-    "SeniorityOrder": 3,
+    "SeniorityOrder": 4,
     "PersonalDetails": {
       "Name": "PROF. ADESH V PANCHAL",
       "Designation": "Assistant Professor",
@@ -1968,7 +1998,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
     "IsTeaching": true,
-    "SeniorityOrder": 7,
+    "SeniorityOrder": 8,
     "PersonalDetails": {
       "Name": "PROF. MITUL JAYANTIBHAI PATEL",
       "Designation": "Assistant Professor",
@@ -2070,7 +2100,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Python",
     "Isteaching": true,
-    "SeniorityOrder": 13,
+    "SeniorityOrder": 14,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "PROF. SACHINKUMAR HARSHADBHAI MAKWANA",
@@ -2187,7 +2217,7 @@
     "Qualification": "ME IT",
     "Area_of_Interest": "Cloud computing",
     "IsTeaching": true,
-    "SeniorityOrder": 10,
+    "SeniorityOrder": 11,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JAY PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME/Mtech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Cloud computing </span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Jay Prakashbhai Patel",
@@ -2274,7 +2304,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder": 9,
+    "SeniorityOrder": 10,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Yogesh Patel</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Yogeshkumar Bharatbhai Patel",
@@ -2385,7 +2415,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "Android",
     "IsTeaching": true,
-    "SeniorityOrder": 11,
+    "SeniorityOrder": 12,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIVYESHKUMAR BAVISA</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Android</span></li></ul></div></div></div>",
 
     "PersonalDetails": {
@@ -2469,7 +2499,7 @@
     "Qualification": "M.E. IT",
     "Area_of_Interest": "Data Structures & Algorithm, DBMS, Data Mining, Computer Networks",
     "IsTeaching": true,
-    "SeniorityOrder": 12,
+    "SeniorityOrder": 13,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR VASAVA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (I.T.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Structures &amp; Algorithm, DBMS, Data Mining, Computer Networks</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Mehulkumar Vasava",
@@ -2547,7 +2577,7 @@
 
     "Area_of_Interest": "Data Security, Cloud Computing, Privacy Preservation, Language Programming",
     "IsTeaching": true,
-    "SeniorityOrder": 8,
+    "SeniorityOrder": 9,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. KRUNAL SUTHAR</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph. D. Computer Engineering, NET</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Security, Cloud Computing, Privacy Preservation, Language Programming</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education Qualification", "Work Experience", "department portfolio", "research publications" ],
@@ -2663,7 +2693,7 @@
     "Qualification": "M.E CE",
     "Area_of_Interest": "Image Processing, Machine Learning",
     "IsTeaching": true,
-    "SeniorityOrder": 14,
+    "SeniorityOrder": 15,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARESH CHANDE</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E - Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Image Processing, Machine Learning</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Haresh Dhanji Chande",
@@ -2783,7 +2813,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "DTN / IOT",
     "isTeaching": true,
-    "SeniorityOrder": 2,
+    "SeniorityOrder": 3,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHAD CHAUDHARY</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DTN / IOT</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof.Harshad L Chaudhary",
@@ -2871,7 +2901,7 @@
     "Qualification": "",
     "Area_of_Interest": "",
     "IsTeaching": true,
-    "SeniorityOrder": 15,
+    "SeniorityOrder": 16,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Miss. HIRALBEN RATHOD</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>"
 
   },
@@ -2886,7 +2916,7 @@
     "Qualification": "M.Tech CSE",
     "Area_of_Interest": "CSE",
     "IsTeaching": true,
-    "SeniorityOrder": 5,
+    "SeniorityOrder": 6,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Mr. Bhavesh Patel",
@@ -2975,7 +3005,7 @@
     "Qualification": "M.E. CE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder": 16,
+    "SeniorityOrder": 17,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Viral Pansiniya</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Shri Viral B Pansiniya",
@@ -3027,7 +3057,7 @@
     "Qualification": "BE CSE ",
     "Area_of_Interest": "Computer Science and Engineering",
     "IsTeaching": false,
-    "SeniorityOrder": 17,
+    "SeniorityOrder": 18,
     "personal_details": "",
     "PersonalDetails": {
       "Name": "Prajapati Reenaben Dasharathbhai",
@@ -3077,34 +3107,7 @@
 
   },
 
-  //{
-  //  "ID": 223,
-  //  "Name": "Dr. Sunil A Patel",
-  //  "Designation": "Associate Professor",
-  //  "image": "images/Faculty/223.png",
-  //  "Dept_ID": 2,
-  //  "Date_of_Joining": "",
-  //  "Qualification": "",
-  //  "Area_of_Interest": "",
-  //  "Isteaching": true,
-  //  "SeniorityOrder": 0,
-  //  "personal_details": "",
-  //  "tabs": {
-  //    "Head": [],
-  //    "Values": []
-  //  },
-  //  "PersonalDetails": {
-  //    "Name": "Dr. Sunil A Patel",
-  //    "Designation": "Associate Professor",
-  //    "Department": "Computer",
-  //    "Contact": "",
-  //    "Email": ""
-  //  },
-  //  "EducationQualification": [],
-  //  "ProfessionalExperience": [],
-  //  "TrainingAndWorkshops": [],
-  //  "Publications": []
-  //},
+
 
 
   //3xx
