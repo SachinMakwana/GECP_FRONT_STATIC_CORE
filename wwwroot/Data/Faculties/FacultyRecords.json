@@ -4,6 +4,103 @@
   //1xx
 
   //"personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SANJAYKUMAR JOSHI</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E.E.C</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">0 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">EC</span></li></ul></div></div></div>"
+  {
+    "ID": 101,
+    "Name": "Dr. Devendrakumar H. Patel",
+    "Designation": "Associate Professor",
+    "image": "images/Faculty/101.jpg",
+    "Dept_ID": 1,
+    "Date_of_Joining": "2025-04-24",
+    "Qualification": "Ph.D. Electronics & Communication Engineering",
+    "Area_of_Interest": "Multiband Antennas, Wireless Communication",
+    "Isteaching": true,
+    "SeniorityOrder": 0,
+    "PersonalDetails": {
+      "Name": "Dr. Devendrakumar H. Patel",
+      "Designation": "Associate Professor",
+      "Department": "Electronics and Communication",
+      "Contact": "+91-9725126006",
+      "Email": "devendra.patel@gecpatan.ac.in"
+    },
+    "EducationalQualifications": [
+      {
+        "Degree": "PhD",
+        "Year": "2023",
+        "Specialization": "Electronics & Communication Engineering"
+      },
+      {
+        "Degree": "ME",
+        "Year": "2009",
+        "Specialization": "Communication Systems Engineering"
+      },
+      {
+        "Degree": "BE",
+        "Year": "2007",
+        "Specialization": "Electronics & Communication Engineering"
+      }
+    ],
+    "ProfessionalExperiences": [
+      {
+        "Position": "Associate Professor",
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "24-04-2025 to Present"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College, Gandhinagar",
+        "Duration": "12-05-2011 to 23-04-2025"
+      },
+      {
+        "Position": "Lecturer",
+        "Organization": "L.D.R.P. Institute of Technology and Research, Gandhinagar",
+        "Duration": "01-07-2009 to 11-05-2011"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "Patel, Devendra & Dadhania, Shreya (2009). Image Enhancement of Magnetic Resonance Imaging. Second National Conference on Emerging Trends in Information Communication Technologies (NCETICT)"
+      },
+      {
+        "SrNo": 2,
+        "Title": "Patel, Devendra., Solanki, Mital., Wandra, Hitesh., Khandhar, Dharmesh. (2010). Effect of RICE Lossless Image Compression Algorithm on Different Image Formats. National Journal of Computer Science and Technology, S. V. Academy for Research, Innovation and Development (SV-ACRID)"
+      },
+      {
+        "SrNo": 3,
+        "Title": "Patel, D. H., & Makwana, G. D. (2022). A Comprehensive Review on Multi-band Microstrip Patch Antenna Comprising 5G Wireless Communication. International Journal of Computing and Digital Systems, 11(1), 941–953. https://doi.org/10.12785/ijcds/110177."
+      },
+      {
+        "SrNo": 4,
+        "Title": "Patel, D. H., & Makwana, G. D. (2023). Multiband Antenna for 2G/3G/4G and Sub-6 GHz 5G Applications Using Characteristic Mode Analysis. Progress in Electromagnetics Research M, 115, 107–117. https://doi.org/10.2528/pierm22122901."
+      },
+      {
+        "SrNo": 5,
+        "Title": "Patel, D. H., & Gautam Durlabhji Makwana. (2023). Multiband Antenna for GPS, IRNSS, Sub-6 GHz 5G and WLAN Applications. Progress in Electromagnetics Research M, 116, 53–63. https://doi.org/10.2528/pierm23020902."
+      },
+      {
+        "SrNo": 6,
+        "Title": "Dalvadi, P., Patel, A., Patel, D. H., & Makwana, G. D. (2021). Design of Wideband Bowtie Antenna using Tapered Balun for Industrial, Scientific and Medical Band Application. International Journal of Information Technology and Electrical Engineering (ITEE), 10(3), 61-66."
+      },
+      {
+        "SrNo": 7,
+        "Title": "D. H. Patel and G. D. Makwana, \"Triple-band antenna for GPS, Sub-6 GHz 5G and WLAN Wireless Applications,\" 2023 IEEE Wireless Antenna and Microwave Symposium (WAMS), Ahmedabad, India, 2023, pp. 1-5, doi: 10.1109/WAMS57261.2023.10242992."
+      },
+      {
+        "SrNo": 8,
+        "Title": "Patel, D. H., Bhatt, R. V., & Makwana, G. D. (2022). India Design Patent 368819-001, Class 14-03, Multiband Antenna, Aug. 5, 2022, Kolkata: India Office of Controller General of Patents, Designs & Trade Marks."
+      },
+      {
+        "SrNo": 9,
+        "Title": "Patel, D. H., & Makwana, G. D. (2023). India Design Patent 379247-001, Class 14-03, Multiband Antenna, Feb. 13, 2023, Kolkata: India Office of Controller General of Patents, Designs & Trade Marks."
+      },
+      {
+        "SrNo": 10,
+        "Title": "Bhatt, R. V., Makwana, G. D., & Patel, D. H. (2022). India Design Patent 370713-001, No. 124380, Class 14-03, Multiband Antenna, Sep. 12, 2022, Kolkata: India Office of Controller General of Patents, Designs & Trade Marks."
+      }
+
+
+    ]
+  },
 
   //{
   //    "ID": 101,
@@ -1512,7 +1609,7 @@
     "Qualification": "-",
     "Area_of_Interest": "-",
     "isTeaching": true,
-    "SeniorityOrder": 0,
+    "SeniorityOrder": 1,
     "personal_details": "",
     "PersonalDetails": {
       "Name": "Prof. Pratik Barot",
@@ -1534,43 +1631,73 @@
       //  "Organization": "",
       //  "Duration": ""
       //},
-      
+
     ],
     "TrainingAndWorkshops": [
-        {
-          "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
-          "OrganizedBy": "Gujarat Student Startup and Innovation Hub (i-Hub)",
-          "Date": "-"
-        },
-        {
-          "Title": "Recent Trends and future directions in information security",
-          "OrganizedBy": "Computer Engineering Department, LD College of Engineering",
-          "Date": "-"
-        },
-        {
-          "Title": "Trends in industrial automation: Refreshing past and Focusing future",
-          "OrganizedBy": "GEC Gandhinagar",
-          "Date": "-"
-        },
-        {
-          "Title": "Computer Networks and Internet Protocol",
-          "OrganizedBy": "Organized by NPTEL and conducted by IIT Kharagpur",
-          "Date": "-"
-        },
-        {
-          "Title": "Biomedical Advancement in Engineering",
-          "OrganizedBy": "Organized by NITTTR, Bhopal and GEC Gandhinagar",
-          "Date": "-"
-        },
-        {
-          "Title": "MOOC training on Intellectual Property Rights",
-          "OrganizedBy": "Organized by NPTEL",
-          "Date": "-"
-        }
+      {
+        "Title": "COMPREHENSIVE ONLINE INTELLECTUAL PROPERTY RIGHTS (IPR)",
+        "OrganizedBy": "Gujarat Student Startup and Innovation Hub (i-Hub)",
+        "Date": "-"
+      },
+      {
+        "Title": "Recent Trends and future directions in information security",
+        "OrganizedBy": "Computer Engineering Department, LD College of Engineering",
+        "Date": "-"
+      },
+      {
+        "Title": "Trends in industrial automation: Refreshing past and Focusing future",
+        "OrganizedBy": "GEC Gandhinagar",
+        "Date": "-"
+      },
+      {
+        "Title": "Computer Networks and Internet Protocol",
+        "OrganizedBy": "Organized by NPTEL and conducted by IIT Kharagpur",
+        "Date": "-"
+      },
+      {
+        "Title": "Biomedical Advancement in Engineering",
+        "OrganizedBy": "Organized by NITTTR, Bhopal and GEC Gandhinagar",
+        "Date": "-"
+      },
+      {
+        "Title": "MOOC training on Intellectual Property Rights",
+        "OrganizedBy": "Organized by NPTEL",
+        "Date": "-"
+      }
     ],
     "Publications": []
   },
+  {
+    "ID": 203,
+    "Name": "Dr. Sunil A Patel",
+    "Designation": "Associate Professor",
+    "image": "images/Faculty/203.png",
+    "Dept_ID": 2,
+    "Date_of_Joining": "2025-04-23",
+    "Qualification": "Ph.D.",
+    "Area_of_Interest": "Computer Science ",
+    "Isteaching": true,
+    "SeniorityOrder": 2,
+    "personal_details": "-",
 
+    "PersonalDetails": {
+      "Name": "Dr. Sunil A Patel",
+      "Designation": "Associate Professor",
+      "Department": "Computer Science",
+      "Contact": "+91- ",
+      "Email": "sunil.patel@gecpatan.ac.in"
+    },
+    "EducationQualification": [
+      {
+        "Degree": "",
+        "Year": "",
+        "Specialization": ""
+      }
+    ],
+    "ProfessionalExperience": [],
+    "TrainingAndWorkshops": [],
+    "Publications": []
+  },
   {
     "ID": 204,
     "Name": "Prof. Pinesh Darji",
@@ -1581,7 +1708,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "COMPUTER NETWORKS",
     "IsTeaching": true,
-    "SeniorityOrder": 4,
+    "SeniorityOrder": 5,
     "PersonalDetails": {
       "Name": "Prof. Pinesh Arvindbhai Darji",
       "Designation": "Assistant Professor",
@@ -1755,7 +1882,7 @@
     "Qualification": "M.Tech. CE",
     "Area_of_Interest": "Routing in Wireless Sensor Network",
     "IsTeaching": true,
-    "SeniorityOrder": 3,
+    "SeniorityOrder": 4,
     "PersonalDetails": {
       "Name": "PROF. ADESH V PANCHAL",
       "Designation": "Assistant Professor",
@@ -1871,7 +1998,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Data Structures & Algorithms, Theory of Computation, Compiler Design",
     "IsTeaching": true,
-    "SeniorityOrder": 7,
+    "SeniorityOrder": 8,
     "PersonalDetails": {
       "Name": "PROF. MITUL JAYANTIBHAI PATEL",
       "Designation": "Assistant Professor",
@@ -1973,7 +2100,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Python",
     "Isteaching": true,
-    "SeniorityOrder": 13,
+    "SeniorityOrder": 14,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "PROF. SACHINKUMAR HARSHADBHAI MAKWANA",
@@ -2090,7 +2217,7 @@
     "Qualification": "ME IT",
     "Area_of_Interest": "Cloud computing",
     "IsTeaching": true,
-    "SeniorityOrder": 10,
+    "SeniorityOrder": 11,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. JAY PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME/Mtech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Cloud computing </span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Jay Prakashbhai Patel",
@@ -2177,7 +2304,7 @@
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder": 9,
+    "SeniorityOrder": 10,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Yogesh Patel</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Yogeshkumar Bharatbhai Patel",
@@ -2288,7 +2415,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "Android",
     "IsTeaching": true,
-    "SeniorityOrder": 11,
+    "SeniorityOrder": 12,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. DIVYESHKUMAR BAVISA</a></div> <hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Android</span></li></ul></div></div></div>",
 
     "PersonalDetails": {
@@ -2372,7 +2499,7 @@
     "Qualification": "M.E. IT",
     "Area_of_Interest": "Data Structures & Algorithm, DBMS, Data Mining, Computer Networks",
     "IsTeaching": true,
-    "SeniorityOrder": 12,
+    "SeniorityOrder": 13,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. MEHULKUMAR VASAVA</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (I.T.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Structures &amp; Algorithm, DBMS, Data Mining, Computer Networks</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Mehulkumar Vasava",
@@ -2450,7 +2577,7 @@
 
     "Area_of_Interest": "Data Security, Cloud Computing, Privacy Preservation, Language Programming",
     "IsTeaching": true,
-    "SeniorityOrder": 8,
+    "SeniorityOrder": 9,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. KRUNAL SUTHAR</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph. D. Computer Engineering, NET</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Data Security, Cloud Computing, Privacy Preservation, Language Programming</span></li></ul></div></div></div>",
     "tabs": {
       "Head": [ "education Qualification", "Work Experience", "department portfolio", "research publications" ],
@@ -2566,7 +2693,7 @@
     "Qualification": "M.E CE",
     "Area_of_Interest": "Image Processing, Machine Learning",
     "IsTeaching": true,
-    "SeniorityOrder": 14,
+    "SeniorityOrder": 15,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARESH CHANDE</a></div>  <hr>   <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E - Computer Engineering</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Image Processing, Machine Learning</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof. Haresh Dhanji Chande",
@@ -2686,7 +2813,7 @@
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "DTN / IOT",
     "isTeaching": true,
-    "SeniorityOrder": 2,
+    "SeniorityOrder": 3,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHAD CHAUDHARY</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DTN / IOT</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Prof.Harshad L Chaudhary",
@@ -2774,7 +2901,7 @@
     "Qualification": "",
     "Area_of_Interest": "",
     "IsTeaching": true,
-    "SeniorityOrder": 15,
+    "SeniorityOrder": 16,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Miss. HIRALBEN RATHOD</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>"
 
   },
@@ -2789,7 +2916,7 @@
     "Qualification": "M.Tech CSE",
     "Area_of_Interest": "CSE",
     "IsTeaching": true,
-    "SeniorityOrder": 5,
+    "SeniorityOrder": 6,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"> <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. BHAVESHKUMAR PATEL</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\"></span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Mr. Bhavesh Patel",
@@ -2878,7 +3005,7 @@
     "Qualification": "M.E. CE",
     "Area_of_Interest": "Machine Learning, Natural Language Processing",
     "IsTeaching": true,
-    "SeniorityOrder": 16,
+    "SeniorityOrder": 17,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. Viral Pansiniya</a></div>  <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech.</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Machine Learning, Natural Language Processing</span></li></ul></div></div></div>",
     "PersonalDetails": {
       "Name": "Shri Viral B Pansiniya",
@@ -2930,7 +3057,7 @@
     "Qualification": "BE CSE ",
     "Area_of_Interest": "Computer Science and Engineering",
     "IsTeaching": false,
-    "SeniorityOrder": 17,
+    "SeniorityOrder": 18,
     "personal_details": "",
     "PersonalDetails": {
       "Name": "Prajapati Reenaben Dasharathbhai",
@@ -10327,5 +10454,5 @@
     ]
 
   }
- 
+
 ]
