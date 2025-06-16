@@ -27,7 +27,10 @@
                         <ul class="newssection">
                             @foreach (var item in Model.marqueeModelVM)
                             {
-                                if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                                if(item.IsFile){
+                                    <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
+                                }
+                                else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                                 {
                                     <li><a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">@item.Title</a></li>
                                 }
