@@ -28,7 +28,7 @@
             "Name": "Dr. D. K. Patel",
             "Position": "Rector",
             "Department": "Mechanical Department",
-            "Image": "~/images/Faculty/Mechanical/502_DKP.jpg",
+            "Image": "~/images/Faculty/502.jpg",
             "Email": "dinesh.patel@gecpatan.ac.in"
         },
         {
@@ -36,33 +36,60 @@
             "Name": "Prof. B. B. Patel",
             "Position": "Wardan (Boys)",
             "Department": "Mechanical Department",
-            "Image": "~/images/Faculty/Mechanical/506_BP.jpg",
+            "Image": "~/images/Faculty/506.jpg",
             "Email": "bhargav.patel@gecpatan.ac.in"
         },
         {
             "ID": 3,
-            "Name": "Prof. K. R. Raval",
+            "Name": "Prof. R. A. Chaudhari",
             "Position": "Warden (Girls)",
-            "Department": "Computer Science Department",
-            "Image": "~/images/Faculty/Computer/dummy.jpg",
-            "Email": "khushali.raval@gecpatan.ac.in"
+            "Department": "Electronics and Communication Department",
+            "Image": "~/images/Faculty/107.jpg",
+            "Email": "roshni.chaudhari@gecpatan.ac.in"
         },
         {
             "ID": 4,
             "Name": "Prof. J. P. Patel",
             "Position": "Asst. Warden (Boys)",
             "Department": "Computer Science Department",
-            "Image": "~/images/Faculty/Computer/jay.jpg",
+            "Image": "~/images/Faculty/208.jpg",
             "Email": "jay.patel@gecpatan.ac.in"
         },
 
         {
             "ID": 5,
-            "Name": "Smt. R.D. Prajapati",
+            "Name": "Prof. H. Y. Rathod",
             "Position": "Asst. Warden (Girls)",
             "Department": "Computer Science Department",
-            "Image": "~/images/Faculty/Computer/dummy.jpg",
-            "Email": "reena.prajapati@gecpatan.ac.in"
+            "Image": "~/images/Faculty/215.jpg",
+            "Email": "hiral.rathod@gecpatan.ac.in"
+        },
+
+        {
+            "ID": 6,
+            "Name": "Shri. V. B. Patel",
+            "Position": "Team Member (Boys)",
+            "Department": "Computer Science & Engineering Department",
+            "Image": "~/images/Faculty/1000.jpg",
+            "Email": ""
+        },
+
+        {
+            "ID": 7,
+            "Name": "Shri. M. A. Patel",
+            "Position": "Team Member (Boys)",
+            "Department": "Civil Engineering Department",
+            "Image": "~/images/Faculty/405.jpg",
+            "Email": "mayank.patel@gecpatan.ac.in"
+        },
+
+        {
+            "ID": 8,
+            "Name": "Smt. P. J. Patel",
+            "Position": "Asst. Warden (Girls)",
+            "Department": "Mechanical Engineering Department",
+            "Image": "~/images/Faculty/520.jpg",
+            "Email": "priyanka.patel@gecpatan.ac.in"
         }
 
     ]

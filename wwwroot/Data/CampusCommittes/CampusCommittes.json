@@ -34,27 +34,27 @@
         "Members": [
             {
                 "ID": 1,
-                "Name": "Prof. R. A. Chaudhari",
+                "Name": "Dr. Neelam Jainik Dalal",
                 "Position": "Coordinator",
-                "Department": "Electronics & Communication Engineering Department",
-                "Image": "~/images/Faculty/107.jpg",
-                "Email": "roshni.chaudhari@gecpatan.ac.in"
+                "Department": "Civil Engineering Department",
+                "Image": "~/images/Faculty/407.jpg",
+                "Email": "dalalneelam@gmail.com"
             },
             {
                 "ID": 2,
-                "Name": "Prof. H. Y. Rathod",
+                "Name": "PROF. ANJU VASDEWANI",
                 "Position": "Member",
-                "Department": "Computer Scence & Engineering Department",
-                "Image": "/images/Faculty/215.jpg",
-                "Email": "hiral.rathod@gecpatan.ac.in"
+                "Department": "Electronics and Communication Engineering Department",
+                "Image": "/images/Faculty/109.jpg",
+                "Email": "amvgec@gmail.com"
             },
             {
                 "ID": 3,
-                "Name": "Smt. P. J. Patel",
+                "Name": "Ms. Reenaben Dasharathbhai Prajapati",
                 "Position": "Member",
-                "Department": "Mechanical Engineering Department",
-                "Image": "~/images/Faculty/520.jpg",
-                "Email": "priyanka.patel@gecpatan.ac.in"
+                "Department": "Computer Science & Engineering Department",
+                "Image": "~/images/Faculty/219.png",
+                "Email": "reena.prajapati@gecpatan.ac.in"
             }
         ]
     },
@@ -94,7 +94,7 @@
             {
                 "ID": 1,
                 "Name": "Dr. H. N. Panchal",
-                "Position": "Converner",
+                "Position": "Coordinator",
                 "Department": "Mechanical Engineering Department",
                 "Image": "~/images/Faculty/519.jpg",
                 "Email": "hitesh.panchal@gecpatan.ac.in"
@@ -102,7 +102,7 @@
             {
                 "ID": 2,
                 "Name": "Prof. H. L. Chaudhari",
-                "Position": "Converner",
+                "Position": "Coordinator",
                 "Department": "Computer Scence & Engineering Department",
                 "Image": "~/images/Faculty/214.jpg",
                 "Email": "harshad.chaudhary@gecpatan.ac.in"
@@ -256,7 +256,7 @@
             {
                 "ID": 1,
                 "Name": "Prof. H. L. Chaudhary",
-                "Position": "Converner",
+                "Position": "Coordinator",
                 "Image": "~/images/Faculty/214.jpg",
                 "Email": "harshad.chaudhary@gecpatan.ac.in",
                 "Department": "Computer Science & Engineering Department"
@@ -445,14 +445,14 @@
                 "Image": "~/images/Department/Administrative/principal.jpg",
                 "Email": "principal@gecpatan.ac.in"
             },
-            {
-                "ID": 2,
-                "Name": "Dr. V. C. Makwana",
-                "Position": "Member",
-                "Image": "~/images/Faculty/603.jpg",
-                "Email": "vijay.makwana@gecpatan.ac.in",
-                "Department": "Science & Humanities Department"
-            },
+            //{
+            //    "ID": 2,
+            //    "Name": "Dr. V. C. Makwana",
+            //    "Position": "Member",
+            //    "Image": "~/images/Faculty/603.jpg",
+            //    "Email": "vijay.makwana@gecpatan.ac.in",
+            //    "Department": "Science & Humanities Department"
+            //},
             {
                 "ID": 3,
                 "Name": "Prof. M. J. Vasava",
@@ -538,11 +538,11 @@
             },
             {
                 "ID": 2,
-                "Name": "Dr. N. A. Patel",
+                "Name": "Prof. M. D. Patel",
                 "Position": "Sports Coordinator",
-                "Image": "~/images/Faculty/509.jpg",
-                "Email": "narendra.patel@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
+                "Image": "~/images/Faculty/305.jpg",
+                "Email": "manish.patel@gecpatan.ac.in",
+                "Department": "Electrical Engineering Department"
             },
             {
                 "ID": 3,
@@ -780,7 +780,7 @@
                 "ID": 1,
                 "Name": "Dr. S. G. Prajapati",
                 "Position": "Placement In-charge",
-                "Department": "Electrical Engineering",
+                "Department": "Electrical Engineering Department",
                 "Image": "~/images/Faculty/307.jpg",
                 "Email": "tnp.gecp@gmail.com" //" tnp.gecp@gmail.com"
             },
@@ -788,17 +788,17 @@
                 "ID": 2,
                 "Name": "Prof. H. R. Trivedi",
                 "Position": "Member",
-                "Department": "Applied Sciecne",
+                "Department": "Applied Science",
                 "Image": "~/images/Faculty/804.jpg",
                 "Email": "hardik.trivedi@gecpatan.ac.in"
             },
             {
                 "ID": 3,
-                "Name": "Dr. N. A. Patel",
+                "Name": "Dr. U. A. Patel",
                 "Position": "Member",
                 "Department": "Mechanical Engineering",
-                "Image": "~/images/Faculty/509.jpg",
-                "Email": "narendra.patel@gecpatan.ac.in"
+                "Image": "~/images/Faculty/522.jpg",
+                "Email": "utkarsh671975@gmaail.com"
             },
             {
                 "ID": 4,
@@ -807,15 +807,8 @@
                 "Department": "Computer Science and Engineering",
                 "Image": "~/images/Faculty/210.jpg",
                 "Email": "tnp.gecp@gmail.com"
-            },
-            {
-                "ID": 5,
-                "Name": "Dr. J. C. Prajapati",
-                "Position": "Member",
-                "Department": "Electronics and Communication Engineering",
-                "Image": "~/images/Faculty/103.jpg",
-                "Email": "tnp.gecp@gmail.com"
             }
+            
         ],
         "Activities": [
 
@@ -987,36 +980,45 @@
                 "Members": [
                     {
                         "ID": 1,
-                        "Name": "Dr. H. B. Jethva",
+                        "Name": "Dr. P. A. Barot",
                         "Position": "Coordinator",
                         "Department": "Computer Scence & Engineering Department",
-                        "Image": "~/images/Faculty/HOD/201.jpg",
-                        "Email": "hbjethva@gecpatan.ac.in"
+                        "Image": "~/images/Faculty/202.jpg",
+                        "Email": "pratik.barot@gecpatan.ac.in"
                     },
                     {
-                        "ID": 2,
-                        "Name": "Dr. A. B. Dhruv",
+                        "ID": 1,
+                        "Name": "Prof. H. D. Chande",
                         "Position": "Member",
-                        "Department": "Mechanical Engineering Department",
-                        "Image": "~/images/Faculty/HOD/501.jpg",
-                        "Email": "anand.dhruv@gecpatan.ac.in"
-                    },
-                    {
-                        "ID": 3,
-                        "Name": "Dr. D. K. Patel",
-                        "Position": "Member",
-                        "Department": "Mechanical Engineering Department",
-                        "Image": "~/images/Faculty/502.jpg",
-                        "Email": "dinesh.patel@gecpatan.ac.in"
-                    },
-                    {
-                        "ID": 4,
-                        "Name": "Prof. G. A. Patel",
-                        "Position": "Member",
-                        "Department": "Electrical Engineering Department",
-                        "Image": "~/images/Faculty/HOD/301.jpg",
-                        "Email": "gunvant.patel@gecpatan.ac.in"
+                        "Department": "Computer Scence & Engineering Department",
+                        "Image": "~/images/Faculty/213.jpg",
+                        "Email": "haresh.chande@gecpatan.ac.in"
                     }
+                    //,
+                    //{
+                    //    "ID": 2,
+                    //    "Name": "Dr. A. B. Dhruv",
+                    //    "Position": "Member",
+                    //    "Department": "Mechanical Engineering Department",
+                    //    "Image": "~/images/Faculty/HOD/501.jpg",
+                    //    "Email": "anand.dhruv@gecpatan.ac.in"
+                    //},
+                    //{
+                    //    "ID": 3,
+                    //    "Name": "Dr. D. K. Patel",
+                    //    "Position": "Member",
+                    //    "Department": "Mechanical Engineering Department",
+                    //    "Image": "~/images/Faculty/502.jpg",
+                    //    "Email": "dinesh.patel@gecpatan.ac.in"
+                    //},
+                    //{
+                    //    "ID": 4,
+                    //    "Name": "Prof. G. A. Patel",
+                    //    "Position": "Member",
+                    //    "Department": "Electrical Engineering Department",
+                    //    "Image": "~/images/Faculty/HOD/301.jpg",
+                    //    "Email": "gunvant.patel@gecpatan.ac.in"
+                    //}
                 ]
             }
         ],

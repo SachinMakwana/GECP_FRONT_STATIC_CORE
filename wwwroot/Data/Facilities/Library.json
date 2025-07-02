@@ -13,19 +13,27 @@
   "Members": [
     {
       "ID": 1,
-      "Name": "Dr. S.P. Patel",
+      "Name": "Dr. U.A. Patel",
       "Position": "Convener",
       "Department": "Mechanical Engineering",
-      "Image": "~/images/Faculty/518.jpg",
-      "Email": "sachin.patel@gecpatan.ac.in"
+      "Image": "~/images/Faculty/522.jpg",
+      "Email": "utkarshkumar.patel@gecpatan.ac.in"
     },
     {
-      "ID": 2,
-      "Name": "Prof. Y.P. Patel",
-      "Position": "Member",
-      "Department": "Computer Science & Engineering",
-      "Image": "~/images/Faculty/209.jpg",
-      "Email": "yogesh.patel.@gecpatan.ac.in"
+        "ID": 2,
+        "Name": "Prof. Y.B. Patel",
+        "Position": "Member",
+        "Department": "Computer Science & Engineering",
+        "Image": "~/images/Faculty/209.jpg",
+        "Email": "yogesh.patel.@gecpatan.ac.in"
+    },
+    {
+        "ID": 3,
+        "Name": "Ms. Reenaben Dasharathbhai Prajapati",
+        "Position": "Member",
+        "Department": "Computer Science & Engineering",
+        "Image": "~/images/Faculty/219.png",
+        "Email": "reena.prajapati@gecpatan.ac.in"
     }
 
   ]
