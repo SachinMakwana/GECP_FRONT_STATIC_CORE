@@ -21,11 +21,11 @@
     },
     {
         "ID": 2,
-        "Name": "Prof. Y.B. Patel",
+        "Name": "Prof. Y. B. Patel",
         "Position": "Member",
         "Department": "Computer Science & Engineering",
         "Image": "~/images/Faculty/209.jpg",
-        "Email": "yogesh.patel.@gecpatan.ac.in"
+        "Email": "yogesh.patel@gecpatan.ac.in"
     },
     {
         "ID": 3,

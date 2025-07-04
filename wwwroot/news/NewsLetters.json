@@ -96,5 +96,12 @@
         "File": "~/news/NEWSLETTER GEC PATAN  OCT-DEC  2024.pdf",
         "download_name": "Oct_Dec_2024",
         "Thumb": "~/news/NEWSLETTER GEC PATAN  OCT-DEC  2024.PNG"
+    },
+    {
+        "ID": 15,
+        "Title": "JANUARY TO MARCH 2025",
+        "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2025.pdf",
+        "download_name": "Jan_Mar_2025",
+        "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2025.PNG"
     }
 ]

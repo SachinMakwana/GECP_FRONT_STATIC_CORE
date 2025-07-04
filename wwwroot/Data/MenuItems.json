@@ -51,107 +51,6 @@
                 "ChildMenuVMs": []
             },
             {
-                "ID": 9,
-                "MenuText": "Committees / Cell",
-                "ParentID": 2,
-                "dynamicID": null,
-                "ControllerName": "",
-                "ActionName": "",
-                "position": 5,
-                "isVisible": true,
-                "ChildMenuVMs": [
-                    {
-                        "ID": 71,
-                        "MenuText": "Women Development Cell",
-                        "ParentID": 7,
-                        "dynamicID": 1,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 1,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    },
-                    {
-                        "ID": 72,
-                        "MenuText": "SSIP",
-                        "ParentID": 7,
-                        "dynamicID": 2,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 2,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    },
-                    {
-                        "ID": 73,
-                        "MenuText": "National Service Scheme(NSS)",
-                        "ParentID": 7,
-                        "dynamicID": 3,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 3,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    },
-                    {
-                        "ID": 74,
-                        "MenuText": "Anti Ragging Cell",
-                        "ParentID": 7,
-                        "dynamicID": 4,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 4,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    },
-                    {
-                        "ID": 75,
-                        "MenuText": "Grievence Cell",
-                        "ParentID": 7,
-                        "dynamicID": 5,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 5,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    },
-
-                    {
-                        "ID": 76,
-                        "MenuText": "SC/ST Committee",
-                        "ParentID": 7,
-                        "dynamicID": 7,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 6,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    },
-                    {
-                        "ID": 77,
-                        "MenuText": "Student Section",
-                        "ParentID": 7,
-                        "dynamicID": 8,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 7,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    },
-                    {
-                        "ID": 78,
-                        "MenuText": "Gymkhana",
-                        "ParentID": 7,
-                        "dynamicID": 10,
-                        "ControllerName": "CampusCommittee",
-                        "ActionName": "CommitteePage",
-                        "position": 8,
-                        "isVisible": true,
-                        "ChildMenuVMs": []
-                    }
-                ]
-            },
-            {
                 "ID": 25,
                 "MenuText": "Newsletter",
                 "ParentID": 2,
@@ -845,6 +744,107 @@
                 "isVisible": true,
                 "Link": "/DataFiles/Documents/Rules/1 Institute Administrative Rules.pdf",
                 "ChildMenuVMs": []
+            },
+            {
+                "ID": 9,
+                "MenuText": "Committees / Cell",
+                "ParentID": 99,
+                "dynamicID": null,
+                "ControllerName": "",
+                "ActionName": "",
+                "position": 5,
+                "isVisible": true,
+                "ChildMenuVMs": [
+                    {
+                        "ID": 71,
+                        "MenuText": "Women Development Cell",
+                        "ParentID": 7,
+                        "dynamicID": 1,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 1,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    },
+                    {
+                        "ID": 72,
+                        "MenuText": "SSIP",
+                        "ParentID": 7,
+                        "dynamicID": 2,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 2,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    },
+                    {
+                        "ID": 73,
+                        "MenuText": "National Service Scheme(NSS)",
+                        "ParentID": 7,
+                        "dynamicID": 3,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 3,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    },
+                    {
+                        "ID": 74,
+                        "MenuText": "Anti Ragging Cell",
+                        "ParentID": 7,
+                        "dynamicID": 4,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 4,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    },
+                    {
+                        "ID": 75,
+                        "MenuText": "Grievence Cell",
+                        "ParentID": 7,
+                        "dynamicID": 5,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 5,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    },
+
+                    {
+                        "ID": 76,
+                        "MenuText": "SC/ST Committee",
+                        "ParentID": 7,
+                        "dynamicID": 7,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 6,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    },
+                    {
+                        "ID": 77,
+                        "MenuText": "Student Section",
+                        "ParentID": 7,
+                        "dynamicID": 8,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 7,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    },
+                    {
+                        "ID": 78,
+                        "MenuText": "Gymkhana",
+                        "ParentID": 7,
+                        "dynamicID": 10,
+                        "ControllerName": "CampusCommittee",
+                        "ActionName": "CommitteePage",
+                        "position": 8,
+                        "isVisible": true,
+                        "ChildMenuVMs": []
+                    }
+                ]
             }
         ]
     }
