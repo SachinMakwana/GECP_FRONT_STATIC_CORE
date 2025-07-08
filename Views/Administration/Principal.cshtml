@@ -10,7 +10,7 @@
     <div class="container">
 
         <h1>
-            Message of Principal 
+             Principal 
             <div class="line"></div>
         </h1>
 
@@ -23,227 +23,203 @@
 
 <div class="clearfix margin-bottom3"></div>
 <div class="container py-5">
-    <div class="clearfix margin-bottom3"></div>
-    <div class="row align-items-center">
-        <!-- Principal Image -->
-        <div class="col-md-4 text-center">
-            <div class="principalimage">
-                <img src="/images/Faculty/701.jpg" alt="Principal Photo" />
+    <div class="nopadding border">
+        <div class="p-3 row align-items-center bg-dark text-white">
+            <div class="col-md-auto ">
+                <img src="/images/Faculty/Principal.png" class="img-thumbnail ">
             </div>
-            <h4 class="principalname">Dr. Bharat J. Shah</h4>
-            <p class="principaldesignation">PRINCIPAL</p>
-            <p class="principaldesignation">Government Engineering College, Patan</p>
-        </div>
-
-        <!-- Principal Message -->
-        <div class="col-md-8">
-            <div class="principalmessage">
-                <h2 class="mb-3">Personal Details</h2>
-                
-                    <p style="text-align: justify; font-size: 1.1rem;">
-                        <ul class="principalpd">
-                            <li><strong>Name:</strong> @Model.Name</li>
-                            <li><strong>Designation:</strong> @Model.Designation</li>
-                            <li><strong>Qualification:</strong> @Model.Qualification</li>
-                            <li><strong>Experience:</strong> @Model.Experience</li>
-                            <li><strong>Date of Joining:</strong> @Model.DateOfJoining.ToString("dd-MM-yyyy")</li>
-                            <li><strong>Area of Interest:</strong> @Model.AreaOfInterest</li>
-                            <li><strong>Email:</strong> @Model.Email</li>
-                        </ul>
-                
-                </p>
+            <div class="col">
+                <h3>Dr. BHARAT J. SHAH</h3>
+                <p>  PRINCIPAL, GECP</p>
             </div>
         </div>
-    </div>
-</div>
-
-
-<div class="content_fullwidth">
-
-    <!-- Tab Navigation -->
-    <ul class="tabs3">
-        @*<li class="tab-link current" data-tab="tab-0">Principal's Message</li>*@
-        @* <li class="tab-link" data-tab="tab-1">Personal Details</li> *@
-        <li class="tab-link" data-tab="tab-5">Experience</li>
-        <li class="tab-link" data-tab="tab-2">Educational Qualifications</li>
-        <li class="tab-link" data-tab="tab-3">Publications Summary</li>
-        <li class="tab-link" data-tab="tab-4">Selected Publications</li>
-        <li class="tab-link" data-tab="tab-6">Achievements</li>
-        <li class="tab-link" data-tab="tab-7">Book Publication</li>
-        <li class="tab-link" data-tab="tab-8">Expert Talks</li>
-        <li class="tab-link" data-tab="tab-9">Memberships</li>
-    </ul>
-
-    <!-- Tab Content -->
-    <div class="tabs-content3">
-        <!-- Tab 0: Message and Image -->
-        <div id="tab-0" class="tab-content">
-            <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start;">
-				@foreach (var item in Model.PrincipalMessages)
-                {
-                    <div style="flex: 1 1 300px; max-width: 300px;">
-                        <img src="@Url.Content(item.ImagePath)" alt="Principal Photo" style="width: 100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
-                    </div>
-                    <div style="flex: 2 1 500px;">
-                        <h3 style="margin-bottom: 15px;">Message from the Principal</h3>
-                        <p style="font-size: 18px; text-align: justify; line-height: 1.6;">@Html.Raw(item.Message)</p>
-                    </div>
-                }
-            </div>
-        </div>
-
-        <!-- Tab 1: Personal Details -->
-        <div id="tab-1" class="tab-content">
-            <ul>
-                <li><strong>Name:</strong> @Model.Name</li>
-                <li><strong>Designation:</strong> @Model.Designation</li>
-                <li><strong>Qualification:</strong> @Model.Qualification</li>
-                <li><strong>Experience:</strong> @Model.Experience</li>
-                <li><strong>Date of Joining:</strong> @Model.DateOfJoining.ToString("dd-MM-yyyy")</li>
-                <li><strong>Area of Interest:</strong> @Model.AreaOfInterest</li>
-                <li><strong>Email:</strong> @Model.Email</li>
+        
+        <!-- Tab Navigation -->
+        <div class="p-4">
+            <ul class="tabs3">
+                @*<li class="tab-link current" data-tab="tab-0">Principal's Message</li>*@
+                <li class="tab-link" data-tab="tab-1">Personal Details</li>
+                <li class="tab-link" data-tab="tab-5">Experience</li>
+                <li class="tab-link" data-tab="tab-2">Educational Qualifications</li>
+                <li class="tab-link" data-tab="tab-3">Publications Summary</li>
+                <li class="tab-link" data-tab="tab-4">Selected Publications</li>
+                <li class="tab-link" data-tab="tab-6">Achievements</li>
+                <li class="tab-link" data-tab="tab-7">Book Publication</li>
+                <li class="tab-link" data-tab="tab-8">Expert Talks</li>
+                <li class="tab-link" data-tab="tab-9">Memberships</li>
             </ul>
-        </div>
-
-        <!-- Tab 2: Educational Qualifications -->
-        <div id="tab-2" class="tab-content">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Qualification</th>
-                        <th>University / Board</th>
-                        <th>Year of Passing</th>
-                        <th>Result</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var edu in Model.EducationalQualifications)
-                    {
-                        <tr>
-                            <td>@edu.Qualification</td>
-                            <td>@edu.University</td>
-                            <td>@edu.Year</td>
-                            <td>@edu.Result</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Tab 3: Publications Summary -->
-        <div id="tab-3" class="tab-content">
-            <ul>
-                @foreach (var pub in Model.PublicationsSummary)
-                {
-                    <li><strong>@pub.Category:</strong> @pub.Count</li>
-                }
-            </ul>
-        </div>
-
-        <!-- Tab 4: Selected Publications -->
-        <div id="tab-4" class="tab-content">
-            <ul>
-                @foreach (var sp in Model.SelectedPublications)
-                {
-                    <li><strong>@sp.Type:</strong> @sp.Title — <em>@sp.JournalOrConference</em></li>
-                }
-            </ul>
-        </div>
-
-        <!-- Tab 5: Experience -->
-        <div id="tab-5" class="tab-content">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Designation</th>
-                        <th>From</th>
-                        <th>To</th>
-                        <th>Department</th>
-                        <th>Duration</th>
-                        <th>Place</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var exp in Model.Experiences)
-                    {
-                        <tr>
-                            <td>@exp.Designation</td>
-                            <td>@exp.DateOfJoining</td>
-                            <td>@exp.DateOfLeave</td>
-                            <td>@exp.Department</td>
-                            <td>@exp.Duration</td>
-                            <td>@exp.Place</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Tab 6: Achievements -->
-        <div id="tab-6" class="tab-content">
-            <ul>
-                @foreach (var ach in Model.Achievements)
-                {
-                    <li>@ach</li>
-                }
-            </ul>
-        </div>
-
-        <!-- Tab 7: Book Publication -->
-        <div id="tab-7" class="tab-content">
-            <ul>
-                <li><strong>Title:</strong> @Model.Book.Title</li>
-                <li><strong>Book Code:</strong> @Model.Book.BookCode</li>
-                <li><strong>University:</strong> @Model.Book.University</li>
-                <li><strong>Branch:</strong> @Model.Book.Branch</li>
-                <li><strong>Semester:</strong> @Model.Book.Semester</li>
-                <li><strong>ISBN:</strong> @Model.Book.ISBN</li>
-                <li><strong>Publisher:</strong> @Model.Book.Publisher</li>
-                <li>
-                    <strong>Contents:</strong>
-                    <ul>
-                        @foreach (var topic in Model.Book.ContentTopics)
+        
+            <!-- Tab Content -->
+            <div class="tabs-content3">
+                <!-- Tab 0: Message and Image -->
+                <div id="tab-0" class="tab-content">
+                    <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start;">
+				        @foreach (var item in Model.PrincipalMessages)
                         {
-                            <li>@topic</li>
+                            <div style="flex: 1 1 300px; max-width: 300px;">
+                                <img src="@Url.Content(item.ImagePath)" alt="Principal Photo" style="width: 100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+                            </div>
+                            <div style="flex: 2 1 500px;">
+                                <h3 style="margin-bottom: 15px;">Message from the Principal</h3>
+                                <p style="font-size: 18px; text-align: justify; line-height: 1.6;">@Html.Raw(item.Message)</p>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <!-- Tab 1: Personal Details -->
+                <div id="tab-1" class="tab-content">
+                    <ul>
+                        <li><strong>Name:</strong> @Model.Name</li>
+                        <li><strong>Designation:</strong> @Model.Designation</li>
+                        <li><strong>Qualification:</strong> @Model.Qualification</li>
+                        <li><strong>Experience:</strong> @Model.Experience</li>
+                        <li><strong>Date of Joining:</strong> @Model.DateOfJoining.ToString("dd-MM-yyyy")</li>
+                        <li><strong>Area of Interest:</strong> @Model.AreaOfInterest</li>
+                        <li><strong>Email:</strong> @Model.Email</li>
+                    </ul>
+                </div>
+
+                <!-- Tab 2: Educational Qualifications -->
+                <div id="tab-2" class="tab-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Qualification</th>
+                                <th>University / Board</th>
+                                <th>Year of Passing</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var edu in Model.EducationalQualifications)
+                            {
+                                <tr>
+                                    <td>@edu.Qualification</td>
+                                    <td>@edu.University</td>
+                                    <td>@edu.Year</td>
+                                    <td>@edu.Result</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tab 3: Publications Summary -->
+                <div id="tab-3" class="tab-content">
+                    <ul>
+                        @foreach (var pub in Model.PublicationsSummary)
+                        {
+                            <li><strong>@pub.Category:</strong> @pub.Count</li>
                         }
                     </ul>
-                </li>
-            </ul>
-        </div>
+                </div>
 
-        <!-- Tab 8: Expert Talks -->
-        <div id="tab-8" class="tab-content">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Year</th>
-                        <th>Subject</th>
-                        <th>Place</th>
-                        <th>Details</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var talk in Model.ExpertTalks)
-                    {
-                        <tr>
-                            <td>@talk.Year</td>
-                            <td>@talk.Subject</td>
-                            <td>@talk.Place</td>
-                            <td>@talk.Details</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
+                <!-- Tab 4: Selected Publications -->
+                <div id="tab-4" class="tab-content">
+                    <ul>
+                        @foreach (var sp in Model.SelectedPublications)
+                        {
+                            <li><strong>@sp.Type:</strong> @sp.Title — <em>@sp.JournalOrConference</em></li>
+                        }
+                    </ul>
+                </div>
 
-        <!-- Tab 9: Memberships -->
-        <div id="tab-9" class="tab-content current">
-            <ul>
-                @foreach (var mem in Model.Memberships)
-                {
-                    <li>@mem</li>
-                }
-            </ul>
+                <!-- Tab 5: Experience -->
+                <div id="tab-5" class="tab-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Designation</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Department</th>
+                                <th>Duration</th>
+                                <th>Place</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var exp in Model.Experiences)
+                            {
+                                <tr>
+                                    <td>@exp.Designation</td>
+                                    <td>@exp.DateOfJoining</td>
+                                    <td>@exp.DateOfLeave</td>
+                                    <td>@exp.Department</td>
+                                    <td>@exp.Duration</td>
+                                    <td>@exp.Place</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tab 6: Achievements -->
+                <div id="tab-6" class="tab-content">
+                    <ul>
+                        @foreach (var ach in Model.Achievements)
+                        {
+                            <li>@ach</li>
+                        }
+                    </ul>
+                </div>
+
+                <!-- Tab 7: Book Publication -->
+                <div id="tab-7" class="tab-content">
+                    <ul>
+                        <li><strong>Title:</strong> @Model.Book.Title</li>
+                        <li><strong>Book Code:</strong> @Model.Book.BookCode</li>
+                        <li><strong>University:</strong> @Model.Book.University</li>
+                        <li><strong>Branch:</strong> @Model.Book.Branch</li>
+                        <li><strong>Semester:</strong> @Model.Book.Semester</li>
+                        <li><strong>ISBN:</strong> @Model.Book.ISBN</li>
+                        <li><strong>Publisher:</strong> @Model.Book.Publisher</li>
+                        <li>
+                            <strong>Contents:</strong>
+                            <ul>
+                                @foreach (var topic in Model.Book.ContentTopics)
+                                {
+                                    <li>@topic</li>
+                                }
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tab 8: Expert Talks -->
+                <div id="tab-8" class="tab-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Subject</th>
+                                <th>Place</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var talk in Model.ExpertTalks)
+                            {
+                                <tr>
+                                    <td>@talk.Year</td>
+                                    <td>@talk.Subject</td>
+                                    <td>@talk.Place</td>
+                                    <td>@talk.Details</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tab 9: Memberships -->
+                <div id="tab-9" class="tab-content current">
+                    <ul>
+                        @foreach (var mem in Model.Memberships)
+                        {
+                            <li>@mem</li>
+                        }
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -377,17 +353,18 @@
 
     .principalimage img {
         max-height: 375px;
-        border-radius: 50px;
+       
         border: 3px solid #5076bb;
         box-shadow: 10px 10px 5px grey;
     }
 
     .principalimage {
         padding-top: 5%;
+        padding-bottom: 10%;
     }
 
     .principalname {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 25px;
         margin-bottom: 20px;
         font-style: italic;
@@ -410,7 +387,104 @@
         line-height: 30px;
     }
 
-    
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .border {
+        border: 1px solid #dee2e6 !important;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .text-white {
+        color: #fff !important;
+    }
+
+    .p-3 {
+        padding: 1rem !important;
+    }
+
+    .align-items-center {
+        -ms-flex-align: center !important;
+        align-items: center !important;
+    }
+
+    .bg-dark {
+        background-color: #343a40 !important;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+
+    .bg-light {
+        background-color: #f8f9fa !important;
+    }
+
+    h3 {
+        font-size: 40px;
+        line-height: 28px;
+        margin-bottom: 18px;
+        padding-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+    p {
+        font: 14px 'Open Sans', sans-serif;
+        font-weight: normal;
+        line-height: 23px;
+        padding-left: 20px;
+    }
+    .img-thumbnail {
+        border: 3px solid white;
+    }
+
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
+    .tabs3 li.current {
+        background: #000;
+        border: 2px solid #ddd;
+        border-bottom: 2px solid #dddddd;
+        color: #fff;
+    }
+
+    .tabs3 li {
+        padding: 12px 20px;
+        margin-right: 5px;
+        cursor: pointer;
+        background: #f0f0f0;
+        font-weight: 600;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        transition: all 0.3s ease;
+        color: #333;
+        user-select: none;
+        margin-bottom: 5px;
+    }
+        
 </style>
 
 @section tabs {
