@@ -65,62 +65,45 @@
         }
     </div>
 
-    <div id="style-selector" style="left: 0px;" class="visible-xs">
+    <div class="tab-xs visible-xs">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        @if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+        }
+        @if (Model.PEOs.Count() > 0 && Model.PSOs.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button>
+        }
+        @if (Model.Labs.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
+        }
+        @if (Model.FacultyList.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Staff')">Faculties And Staff</button>
+        }
 
-        <div class="style-selector-wrapper">
-            <span class="title">Menu</span>
-            <div>
-                <br><br>
+        <a href="@Url.Action("Index","Documents",new{@id=60})" target="_blank"><button class="tablinks">Time Table</button></a>
+        @if (Model.DeptAcademicCalender != null && Model.DeptAcademicCalender.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Calender')">Academic Calender</button>
+        }
+        @if (Model.Activities != null && Model.Activities.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Activities')">Activities</button>
+        }
+        @if (Model.NoticeBoard != null && Model.NoticeBoard.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'NoticeBoard')">Notice Board</button>
+        }
+        @* <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="tablinks">Achievements</button></a> *@
+        @* <button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByDept","Department",new{@deptId=Model.ID})')">Achievements</button> *@
+        @if (Model.Achievements != null && Model.Achievements.Count() > 0)
+        {
 
-                <ul class="styles" style="border-bottom: none;">
-
-                    <li class="button1 margin_top1"><button onclick="openTab(event, 'About')" class="demolinks button1" id="defaultOpen"> About</button></li>
-                    @if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
-                    {
-                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'VisionMission') ">Vision & Mission</button></li>
-                    }
-                    @if (Model.PEOs.Count() > 0 && Model.PSOs.Count() > 0)
-                    {
-                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'PeoPso')">PEOs & PSOs</button></li>
-                    }
-                    @if (Model.Labs.Count() > 0)
-                    {
-                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Labs')">Labs</button></li>
-                    }
-                    @if (Model.FacultyList.Count() > 0)
-                    {
-                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Staff')">Faculties And Staff</button></li>
-                    }
-                    <a href="@Url.Action("Index","Documents",new{@id=4})" target="_blank"><button class="demolinks button1 margin_top1 margin_bottom1">Time Table</button></a>
-                    @if (Model.DeptAcademicCalender != null && Model.DeptAcademicCalender.Count() > 0)
-                    {
-                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Calender')">Academic Calender</button></li>
-                    }
-                    @if (Model.Activities != null && Model.Activities.Count() > 0)
-                    {
-                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Activities')">Activities</button></li>
-                    }
-                    @if (Model.NoticeBoard != null && Model.NoticeBoard.Count() > 0)
-                    {
-                        <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'NoticeBoard')">Notice Board</button></li>
-                    }
-                    @* <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="demolinks button1 margin_top1">Achievements</button></a>*@                        
-                    @if (Model.Achievements != null && Model.Achievements.Count() > 0)
-                    {
-                        <a href="@Url.Action("Achievements","Academics")" target="_blank"><button class="demolinks button1">Achievements</button></a>
-                        @* <li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'achDiv')">Achievements</button></li> *@
-                    }
-
-
-                </ul>
-
-
-
-
-                <a href="#" class="close icon-chevron-right"></a>
-
-            </div>
-        </div>
+            <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
+        }
     </div>
 
     <div id="About" class="tabcontent">
@@ -602,44 +585,39 @@
                 <tbody>
                     @foreach (var item in Model.Achievements)
                     {
-                        @* <div class="one_third @(count % 3 == 0 ? " last" : "" )">
-                <div class="box">
-                <div class="cbp-caption">
-                <div class="cbp-caption-defaultWrap">
-                <div class="blog_post">
-                <div class="blog_postcontent">
-                <div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt="" class="height180"></a></div>
-                <h3>@Html.Raw(item.Title)</h3>
-                <ul class="post_meta_links">
-                <li><a href="#" class="date">@item.Date</a></li>
-                @if (!string.IsNullOrWhiteSpace(item.Keywords))
-                {
-                foreach (string key in item.Keywords.Split(','))
-                {
-                <li class="post_categoty">@key</li>
-                }
-                }
-                </ul>
-                <div class="clearfix"></div>
-                <div class="margin_top1"></div>
-                <p class="text-justify">@item.Description</p>
-
-                </div>
-                </div>
-                </div>
-
-                </div>
-                </div>
-                </div>
-                if (count % 3 == 0)
-                {
-                <div class="clearfix margin_bottom2"></div>
-                } *@
-
-
                         <tr>
                             <td>
-                                <div class="box" style="height:265px">
+                                <div class="box hidden-xs" style="height:265px">
+                                    <h3 class="boxtitle">@Html.Raw(item.Title)</h3>
+                                    <div class="boxinfo">
+                                        <ul class="post_meta_links">
+
+                                            <li class="post_categoty">@item.Date</li>
+                                            @if (!string.IsNullOrWhiteSpace(item.Keywords))
+                                            {
+                                                foreach (string key in item.Keywords.Split(','))
+                                                {
+                                                    <li class="post_categoty">@key</li>
+                                                }
+                                            }
+                                        </ul>
+                                        <div class="clearfix margin_top1"></div>
+
+
+
+                                        <div class="image_section">
+
+
+                                            <div class="col-sm-2 ">
+                                                <img src="@Url.Content(item.Image)" alt="" class="height180">
+                                            </div>
+
+                                        </div>
+
+                                        @item.Description
+                                    </div>
+                                </div>
+                                <div class="box visible-xs" style="height:auto">
                                     <h3 class="boxtitle">@Html.Raw(item.Title)</h3>
                                     <div class="boxinfo">
                                         <ul class="post_meta_links">
@@ -942,9 +920,12 @@
             float: left;
             margin-right: 15px;
         }
+        
     </style>
 
     <link type="text/css" rel="stylesheet" href="@Url.Content("~/js/loopslider/style.css")">
     <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
     <link rel="stylesheet" href="@Url.Content("~/cdn1/DataTables/datatables.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/reset.css")" />
+    
 }
