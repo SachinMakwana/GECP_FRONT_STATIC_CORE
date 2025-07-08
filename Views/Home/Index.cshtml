@@ -9,93 +9,145 @@
 <div class="clearfix margin_top5"></div>
 <div class="featured_section13">
     <div class="full-container">
-        <h1 class=" animate" data-anim-type="fadeIn" data-anim-delay="100">
-            Welcome to Government Engineering College,Patan
-            <div class="clearfix margin_top5"></div>
-            @* <div class="divider_line11belownews"></div> *@
-        </h1>
-        <div class="one_third">
+        
+            <h1 class=" animate" data-anim-type="fadeIn" data-anim-delay="100">
+                Welcome to Government Engineering College,Patan
+                <div class="clearfix margin_top5"></div>
+                @* <div class="divider_line11belownews"></div> *@
+            </h1>
+
+        <div class="New_container">
+
+            <div class="updates_section">
            
 
-                <ul class="tabs3">
-                    <li><a href="#tab1">UPDATES</a></li>
+                <ul>
+                    <li class="tab-heading">UPDATES</li>
                 </ul><!-- /# end tab links -->
 
-            <div class="tabs-content3 two" style="min-height:270px;">
-                    <div id="tab3" class="tabs-panel3">
-                    <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:225px;">
-                        <ul class="newssection">
-                            @foreach (var item in Model.marqueeModelVM)
-                            {
-                                if(item.IsFile){
-                                    <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
-                                }
-                                else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                <div style="min-height:270px;">
+                    <div>
+                        <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:225px;">
+                            <ul class="newssection">
+                                @if (Model.marqueeModelVM == null || !Model.marqueeModelVM.Any())
                                 {
-                                    <li><a href="@Url.Action("NEWSDetail","Institute",new{@id=item.ID})">@item.Title</a></li>
+                                    <li><strong>NO UPDATES FOUND</strong></li>
                                 }
                                 else
                                 {
-                                    <li><a href="@Url.Action(item.ActionName,item.ControllerName)"> @item.Title </a></li>
+                                    foreach (var item in Model.marqueeModelVM)
+                                    {
+                                        if (item.IsFile)
+                                        {
+                                            <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
+                                        }
+                                        else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                                        {
+                                            <li><a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a></li>
+                                        }
+                                    }
                                 }
-                            }
-                        </ul>
+                            </ul>
                         </marquee>
-                    </div><!-- end popular posts -->
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="one_halfs">
+                <div class="one_fourth">
+
+                    <img src="@Url.Content("~/images/Home/icon1.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="100" />
+
+                    <h4 class="color2">Five UG Engineering Programs</h4>
+
+                    <br /><br />
+                    @*<a href="#" class="but_calendar">Read More</a>*@
+
+                </div>
+                <!-- end section -->
+
+                <div class="one_fourth">
+
+                    <img src="@Url.Content("~/images/Home/icon2.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="200" />
+
+                    <h4 class="color2">Well Qualified Faculties</h4>
+
+                    <br /><br />
+                    @*<a href="#" class="but_calendar">Read More</a>*@
+
+                </div>
+                <!-- end section -->
+
+                <div class="one_fourth">
+
+                    <img src="@Url.Content("~/images/Home/icon3.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="300" />
+
+                    <h4 class="color2">Center of Excellence</h4>
+
+                    <br /><br />
+                    @*<a href="#" class="but_calendar">Read More</a>*@
+
+                </div>
+                <!-- end section -->
+
+                <div class="one_fourth last">
+
+                    <img src="@Url.Content("~/images/Home/icon4.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="400" />
+
+                    <h4 class="color2">Holistic Development of Students</h4>
+
+                    <br /><br />
+                    @*<a href="#" class="but_calendar">Read More</a>*@
+
+                </div>
+            <!-- end section -->
+            </div>
+
+            <div class="updates_section">
+
+
+                <ul>
+                    <li class="tab-heading">ACTIVITIES</li>
+                </ul>
+
+                <div style="min-height:270px;">
+                    <div>
+                        <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:225px;">
+                            <ul class="newssection">
+                                @if (Model.activitymarqueeModelVM == null || !Model.activitymarqueeModelVM.Any())
+                                {
+                                    <li><strong>NO ACTIVITIES FOUND</strong></li>
+                                }
+                                else
+                                {
+                                    foreach (var item in Model.activitymarqueeModelVM)
+                                    {
+                                        if (item.IsFile)
+                                        {
+                                            <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
+                                        }
+                                        else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                                        {
+                                            <li><a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a></li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </marquee>
+                    </div>
                 </div>
 
-        </div><!-- end section -->
-        
-        <div class="two_third last">
-       
 
-        <div class="one_fourth">
-
-            <img src="@Url.Content("~/images/Home/icon1.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="100" />
-
-            <h4 class="color2">Five UG Engineering Programs</h4>
-
-            <br /><br />
-            @*<a href="#" class="but_calendar">Read More</a>*@
-
-        </div>
-        <!-- end section -->
-
-        <div class="one_fourth">
-
-            <img src="@Url.Content("~/images/Home/icon2.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="200" />
-
-            <h4 class="color2">Well Qualified Faculties</h4>
-
-            <br /><br />
-            @*<a href="#" class="but_calendar">Read More</a>*@
-
-        </div>
-        <!-- end section -->
-
-        <div class="one_fourth">
-
-            <img src="@Url.Content("~/images/Home/icon3.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="300" />
-
-            <h4 class="color2">Center of Excellence</h4>
-
-            <br /><br />
-            @*<a href="#" class="but_calendar">Read More</a>*@
-
-        </div>
-        <!-- end section -->
-
-        <div class="one_fourth last">
-
-            <img src="@Url.Content("~/images/Home/icon4.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="400" />
-
-            <h4 class="color2">Holistic Development of Students</h4>
-
-            <br /><br />
-            @*<a href="#" class="but_calendar">Read More</a>*@
-
-        </div>
-        <!-- end section -->
+            </div><!-- end section -->
         </div>
     </div>
 </div>
@@ -130,6 +182,33 @@
         </div>
     <div class="clearfix margin-top5"></div>
 
+</div>
+<div class="clearfix margin-bottom3"></div>
+<div class="container py-5">
+    <div class="clearfix margin-bottom3"></div>
+    <div class="row align-items-center">
+        <!-- Principal Image -->
+        <div class="col-md-4 text-center">
+            <div class="principalimage">
+                <img src="/images/Faculty/701.jpg" alt="Principal Photo"/>
+            </div>
+                <h4 class="principalname">Dr. Bharat J. Shah</h4>
+                <p class="principaldesignation">PRINCIPAL</p>
+                <p class="principaldesignation">Government Engineering College, Patan</p>
+        </div>
+
+        <!-- Principal Message -->
+        <div class="col-md-8">
+            <div class="principalmessage">
+                <h2 class="mb-3">Message from the Principal</h2>
+                <div class="border-left pl-3" style="border-color: #007bff;">
+                    <p style="text-align: justify; font-size: 1.1rem;">
+                        "I am delighted to welcome you to Government Engineering College. I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn. In order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state-of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience. I wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities.",
+            </div>
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- end featured section 14 -->
@@ -229,6 +308,8 @@
 
     </div>
 </div>
+
+
 
 @*<div class="clearfix"></div>
 <div class="parallax_section1">
@@ -366,6 +447,7 @@
 
     <!-- modal window -->
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/modalwindow/style.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
     <style>
         .text-center {
             text-align: center !important;
@@ -411,10 +493,71 @@
         .text-justify{
             font-size : 18px;
         }
+        .one_half {
+            margin-right : 2%;
+        }
+
+
+       
+
+        .tab-heading {
+            background-color: #4f75ba;
+            font-display: block;
+            color: white;
+            padding: 10px;
+        }
+        .New_container {
+            display: inline-flex;
+            gap: 1%;
+            flex-wrap: wrap; /* Optional: Helps for responsiveness */
+        }
+        .updates_section {
+            width : 25%;
+            padding : 0%;
+            border-left: 1px solid #000;
+            border-bottom: 1px solid #000;
+            border-top: 1px solid #000;
+            border-right: 1px solid #000;
+        }
+
+        .one_halfs {
+            width: 48%;
+            position: relative;
+            float: left;
+        }
+        .principalimage img{
+            max-height: 375px;
+            border-radius: 50px;
+            border: 3px solid #5076bb;
+            box-shadow: 10px 10px 5px grey;
+        }
+        .principalimage{
+            padding-top: 5%;
+        }
+        .principalname{
+            font-size: 30px;
+            line-height: 25px;
+            margin-bottom: 20px;
+            font-style: italic;
+            font-family: emoji;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        .principaldesignation{
+            font: 16px 'Open Sans', sans-serif;
+            font-weight: bold;
+            line-height: 23px;
+        }
+        .principalmessage{
+            padding-top: 4%;
+        }
+        .vision_section{
+            padding: 2% 4%;
+        }
     </style>
 
 
     @* <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/tabwidget/tabwidget.css")"> *@
-     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/custom.css")">
 }
 

@@ -919,6 +919,14 @@ table.dataTable thead .sorting_desc_disabled:before {
     padding: 3px;
     background-color: grey;
 }
+
+.featured_section13 .updates_section {
+    width: 25%;
+    padding: 0%;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {
