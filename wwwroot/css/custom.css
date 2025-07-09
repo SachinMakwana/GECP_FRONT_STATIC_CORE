@@ -963,6 +963,16 @@ table.dataTable thead .sorting_desc_disabled:before {
             /*left: 3%;*/
             font-variant: small-caps;
         }
+        .New_container {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .body {
+            overflow-x: hidden;
+        }
+    }
+
     }
 @media (max-width: 1024px) {
     .logo_section {
@@ -1042,6 +1052,25 @@ table.dataTable thead .sorting_desc_disabled:before {
     .gecp_gov_emblame img {
         width: 105px; /* Adjusted for small screens */
     }
+
+
+    .New_container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .body {
+        overflow-x: hidden;
+    }
+
+    .featured_section13 .updates_section {
+        width: 96%;
+        /*padding: 0%;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;*/
+    }
+
 }
 
 
