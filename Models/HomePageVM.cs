@@ -13,6 +13,16 @@ namespace GECP_Front_End_Static.Models
         public string ActionName { get; set; }
     }
 
+    public class ActivityMarqueeModelVM
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public bool IsFile { get; set; }
+        public string FileLink { get; set; }
+        public string ControllerName { get; set; }
+        public string ActionName { get; set; }
+    }
+
     public class TestimonialModelVM
     {
         public int ID { get; set; }
@@ -39,6 +49,8 @@ namespace GECP_Front_End_Static.Models
     public class HomePageModelVM
     {
         public IList<MarqueeModelVM> marqueeModelVM { get; set; }
+
+        public IList<ActivityMarqueeModelVM> activitymarqueeModelVM { get; set; }
         public IList<TestimonialModelVM> testimonialModelVM { get; set; }
 
         public IList<NEWSModel> newsModelVM { get; set; }
@@ -48,6 +60,7 @@ namespace GECP_Front_End_Static.Models
         public HomePageModelVM()
         {
             marqueeModelVM = new List<MarqueeModelVM>();
+            activitymarqueeModelVM = new List<ActivityMarqueeModelVM>();
             testimonialModelVM = new List<TestimonialModelVM>();
             newsModelVM = new List<NEWSModel>();
             masterSliderVM = new List<MasterSliderVM>();

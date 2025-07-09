@@ -12,21 +12,27 @@ namespace GECP_Front_End_Static.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
+        public List<PrincipalViewModel> PrincipalData = new List<PrincipalViewModel>();
 
         public AdministrationController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
             string jsonpath = webRootPath + @"\Data\Faculties\FacultyRecords.json";
+            string jsonpath2 = webRootPath + @"\Data\Principal.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             FacultyData = JsonConvert.DeserializeObject<List<FacultyDetailsVM>>(json);
 
+            string json2 = webClient.DownloadString(jsonpath2);
+            PrincipalData = JsonConvert.DeserializeObject<List<PrincipalViewModel>>(json2);
+
         }
         public IActionResult Principal()
         {
-            return View();
+            var principal = PrincipalData.FirstOrDefault();
+            return View(principal);
         }
 
         public IActionResult Esta()

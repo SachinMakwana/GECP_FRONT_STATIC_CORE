@@ -872,7 +872,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     float: left;
     width: 100%;
     background: #f3f3f3;
-    padding: 7% 4%;
+    padding: 2% 4%;
 }
 
     .vision_section .one_half {
@@ -919,6 +919,17 @@ table.dataTable thead .sorting_desc_disabled:before {
     padding: 3px;
     background-color: grey;
 }
+
+.featured_section13 .updates_section {
+    width: 25%;
+    padding: 0%;
+    border: 1px solid #5076bb;
+}
+
+.pri_message {
+    background-color: #bfd1f2;
+    color: #2e2e2e;
+}
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {
@@ -955,6 +966,16 @@ table.dataTable thead .sorting_desc_disabled:before {
             /*left: 3%;*/
             font-variant: small-caps;
         }
+        .New_container {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .body {
+            overflow-x: hidden;
+        }
+    }
+
     }
 @media (max-width: 1024px) {
     .logo_section {
@@ -1034,6 +1055,25 @@ table.dataTable thead .sorting_desc_disabled:before {
     .gecp_gov_emblame img {
         width: 105px; /* Adjusted for small screens */
     }
+
+
+    .New_container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .body {
+        overflow-x: hidden;
+    }
+
+    .featured_section13 .updates_section {
+        width: 96%;
+        /*padding: 0%;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;*/
+    }
+
 }
 
 

@@ -1,0 +1,239 @@
+﻿[
+  {
+    "Name": "Dr. B. J. Shah",
+    "Designation": "Principal",
+    "Qualification": "Ph.D. [Civil Engineering]",
+    "Experience": "30 Years",
+    "DateOfJoining": "2024-06-07T00:00:00",
+    "AreaOfInterest": "Structural Engineering",
+    "Email": "principal@gecpatan.ac.in",
+
+    "PrincipalMessages": [
+      {
+        "Message": "I am delighted to welcome you to Government Engineering College. I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn.\nIn order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state-of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience.\nI wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities.",
+        "ImagePath": "~/images/Faculty/701.jpg"
+      }
+    ],
+    "EducationalQualifications": [
+      {
+        "Qualification": "Ph.D. (Civil - Structural Engg.)",
+        "University": "Veer Narmad South Gujarat University",
+        "Year": "2006",
+        "Result": "Awarded"
+      },
+      {
+        "Qualification": "M.E. (Civil - CASAD)",
+        "University": "Gujarat University",
+        "Year": "1999",
+        "Result": "First class with distinction"
+      },
+      {
+        "Qualification": "B.E. (Civil)",
+        "University": "Sardar Patel University",
+        "Year": "1988",
+        "Result": "First class with distinction"
+      }
+    ],
+
+    "PublicationsSummary": [
+      {
+        "Category": "International Journal",
+        "Count": 1
+      },
+      {
+        "Category": "International Conference",
+        "Count": 3
+      },
+      {
+        "Category": "National Journal",
+        "Count": 1
+      },
+      {
+        "Category": "National Conference",
+        "Count": 1
+      }
+    ],
+
+    "SelectedPublications": [
+      {
+        "Title": "Seismic fragility analysis of pile supported wharf using linear time history analysis",
+        "JournalOrConference": "Journal of Structural Engineering, Vol. 43, No.3, pp 235-246",
+        "Type": "National Journal"
+      },
+      {
+        "Title": "Experimental investigation on shear capacity of RC beams with GFRP rebars & stirrups",
+        "JournalOrConference": "Steel and Composite Structures, Vol.21, No.6, pp 1265-1285",
+        "Type": "International Journal"
+      },
+      {
+        "Title": "Study of deflection and crack patterns of RC beam strengthen in flexure with GFRP",
+        "JournalOrConference": "SEC-2014, IIT-Delhi",
+        "Type": "International Conference"
+      },
+      {
+        "Title": "Seismic fragility analysis of pile supported wharf - state of art",
+        "JournalOrConference": "SEC-2014, IIT-Delhi",
+        "Type": "International Conference"
+      },
+      {
+        "Title": "Progressive collapse assessment of RC frame with & without considering soil",
+        "JournalOrConference": "ICRISET 2017, BVM",
+        "Type": "International Conference"
+      }
+    ],
+
+    "Experiences": [
+      {
+        "Designation": "Principal",
+        "DateOfJoining": "2024-06-07",
+        "DateOfLeave": "Till date",
+        "Department": "---",
+        "Duration": "---",
+        "Place": "Govt. Engg. College, Patan"
+      },
+      {
+        "Designation": "Principal",
+        "DateOfJoining": "2019-07-01",
+        "DateOfLeave": "2024-06-06",
+        "Department": "---",
+        "Duration": "4 years 11 months",
+        "Place": "Govt. Engg. College, Modasa"
+      },
+      {
+        "Designation": "Professor",
+        "DateOfJoining": "2015-05-28",
+        "DateOfLeave": "2019-06-30",
+        "Department": "Applied Mechanics Deptt.",
+        "Duration": "4 years 1 month",
+        "Place": "Govt. Engg. College, Modasa"
+      },
+      {
+        "Designation": "Professor",
+        "DateOfJoining": "2013-03-22",
+        "DateOfLeave": "2015-05-27",
+        "Department": "Applied Mechanics Deptt.",
+        "Duration": "2 years 2 months",
+        "Place": "L. D. College of Engg., Ahmedabad"
+      },
+      {
+        "Designation": "Associate Professor",
+        "DateOfJoining": "2007-06-01",
+        "DateOfLeave": "2013-03-21",
+        "Department": "Applied Mechanics Deptt.",
+        "Duration": "5 years 9 months",
+        "Place": "L. D. College of Engg., Ahmedabad"
+      },
+      {
+        "Designation": "Associate Professor",
+        "DateOfJoining": "2006-01-01",
+        "DateOfLeave": "2007-05-31",
+        "Department": "Applied Mechanics Deptt.",
+        "Duration": "1 year 5 months",
+        "Place": "L. E. College, Morbi"
+      },
+      {
+        "Designation": "Assistant Professor (Class-I)",
+        "DateOfJoining": "2003-12-15",
+        "DateOfLeave": "2006-12-31",
+        "Department": "Applied Mechanics Deptt.",
+        "Duration": "3 years",
+        "Place": "L. E. College, Morbi"
+      },
+      {
+        "Designation": "Lecturer",
+        "DateOfJoining": "2002-06-04",
+        "DateOfLeave": "2003-12-14",
+        "Department": "Applied Mechanics Deptt.",
+        "Duration": "1 year 6 months",
+        "Place": "L. E. College, Morbi"
+      },
+      {
+        "Designation": "Lecturer",
+        "DateOfJoining": "1990-08-18",
+        "DateOfLeave": "2002-02-28",
+        "Department": "Applied Mechanics Deptt.",
+        "Duration": "11 years 4 months",
+        "Place": "L. D. College of Engg., Ahmedabad"
+      }
+    ],
+
+    "Achievements": [
+      "Nominated as Research Supervisor of Ph.D. Program at Gujarat Technological University.",
+      "Recipient of Principal S. B. Junarkar Gold Medal for highest marks in Design of Structures II & III (B.E. Civil, 1988), Sardar Patel University"
+    ],
+
+    "Book": {
+      "Title": "Mechanics of Solid",
+      "BookCode": "RAZDRRBUDRRYC",
+      "University": "Gujarat Technological University",
+      "Branch": "Civil Engineering",
+      "Semester": "1, 2 & 3",
+      "ISBN": "ISBN-13: 978-93-392-1414-2, ISBN-10: 93-392-1414-5",
+      "Publisher": "McGraw Hill Education (India) Pvt. Ltd.",
+      "ContentTopics": [
+        "Introduction",
+        "Fundamental of statics",
+        "Analysis of Trusses",
+        "CG & MI",
+        "Frictions",
+        "Simple stresses & strains",
+        "Statically determinate beams",
+        "Stresses in homogeneous beams",
+        "Principal stresses",
+        "Torsion",
+        "Simple lifting machines",
+        "Physical & Mechanical properties of materials"
+      ]
+    },
+
+    "ExpertTalks": [
+      {
+        "Year": "2018",
+        "Subject": "State-of-the-Art in Bridge Engineering",
+        "Place": "Online VC training",
+        "Details": "ETSGE 2018, Directorate of Technical Education, Gujarat (02/08/2018)"
+      },
+      {
+        "Year": "2019",
+        "Subject": "Earthquake resistant design of bridges",
+        "Place": "Marwadi University, Rajkot",
+        "Details": "GUJCOST workshop on Advances in Earthquake Engineering (22/03/2019)"
+      },
+      {
+        "Year": "2019",
+        "Subject": "Advances in Concrete Construction",
+        "Place": "State Water Data Centre, Gandhinagar",
+        "Details": "SWDC Training Program, Govt. of Gujarat (06/07/2019)"
+      },
+      {
+        "Year": "2020",
+        "Subject": "Design of RCC T-Girder type Bridge super structure",
+        "Place": "Online webinar",
+        "Details": "L. D. College of Engineering, Ahmedabad (30/04/2020)"
+      },
+      {
+        "Year": "2020",
+        "Subject": "Genetic Algorithm in Structural Engineering",
+        "Place": "Online webinar",
+        "Details": "Govt. Engg. College, Surat (28/05/2020)"
+      },
+      {
+        "Year": "2020",
+        "Subject": "Advances in Concrete Technology",
+        "Place": "Online training",
+        "Details": "AICTE ATAL Online Training by GEC Dahod (21-25/09/2020)"
+      }
+    ],
+
+    "Memberships": [
+      "Life member, Association of Consulting Civil Engineers, India",
+      "Member, Alumni Association of L. D. College of Engineering (LAA), Ahmedabad",
+      "Fellow life member, Gujarat Institute of Civil Engineers & Architect (GICEA), India",
+      "Member, Indian Society of Earth Science, Indian Seismological Research Institute, Gujarat",
+      "Member, Indian Geotechnical Society (Gujarat Chapter), India",
+      "Fellow life member, Indian Society of Technical Education (ISTE), India",
+      "Member, Institution of Engineers India"
+    ]
+  }
+]
+

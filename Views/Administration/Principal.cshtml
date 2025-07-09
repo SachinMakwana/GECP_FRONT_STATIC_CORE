@@ -1,6 +1,8 @@
-﻿@{
+﻿@model GECP_Front_End_Static.Models.PrincipalViewModel
+
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Message of Principal";
+    ViewBag.Title = "PRINCIPAL - Dr. Bharat J. Shah";
 }
 <div class="clearfix"></div>
 
@@ -8,7 +10,7 @@
     <div class="container">
 
         <h1>
-            Message of Principal 
+             Principal 
             <div class="line"></div>
         </h1>
 
@@ -17,109 +19,507 @@
 <!-- end page title -->
 
 
-<div class="clearfix margin_top2"></div>
+<div class="margin_top2"></div>
 
+<div class="clearfix"></div>
 
-
-<div class="content_fullwidth">
-
-    <div class="featured_section19">
-        <div class="full-container text-justify">
-
-            <div class="who animate" data-anim-type="fadeInLeft" data-anim-delay="400">
-                <img src="@Url.Content("~/images/Department/Civil/app_BJS.jpg")" alt="" style="margin: auto; /* width: 85%; */">
+<div class="full-container">
+    <div class="nopadding border">
+        <div class="p-3 row align-items-center bg-dark text-white">
+            <div class="col-md-auto ">
+                <img src="/images/Faculty/Principal.jpg" class="img-thumbnail ">
             </div>
-            <div data-anim-type="fadeIn" data-anim-delay="500">
-                <br /><br /><br />
-                <h1>Principal's Message</h1>
-
-                <p class="text-justify">
-                    I am delighted to welcome you to Government Engineering College.  I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn.
-                    <br />
-                    In order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience.
-                    <br />
-                    I wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities.
-                    <br /> <br />
-                    - Dr. B J Shah
-                    <div class="clearfix"></div>
-                     <div class="margin_top2"></div>
-                     <div class="col-md-4"></div>
-                    <div class="col-md-8 col-sm-12">
-
-                    <div class="read-more-container">
-                        
-                        <a href="javascript:void(0)" class="btn btn-success" onclick="loadPdf('@Url.Content("~/DataFiles/Documents/Principal/Dr. B. J. SHAH.pdf")','Dr. B. J. SHAH')" class="read-more-button">
-                            KNOW MORE
-                        </a>
+            <div class="col">
+                <h3>Dr. BHARAT J. SHAH</h3>
+                <p>  PRINCIPAL </p>
+            </div>
+        </div>
+        
+        <!-- Tab Navigation -->
+        <div class="p-4">
+            <ul class="tabs3">
+                @*<li class="tab-link current" data-tab="tab-0">Principal's Message</li>*@
+                <li class="tab-link" data-tab="tab-1">Personal Details</li>
+                <li class="tab-link" data-tab="tab-5">Experience</li>
+                <li class="tab-link" data-tab="tab-2">Educational Qualifications</li>
+                <li class="tab-link" data-tab="tab-3">Publications Summary</li>
+                <li class="tab-link" data-tab="tab-4">Selected Publications</li>
+                <li class="tab-link" data-tab="tab-6">Achievements</li>
+                <li class="tab-link" data-tab="tab-7">Book Publication</li>
+                <li class="tab-link" data-tab="tab-8">Expert Talks</li>
+                <li class="tab-link" data-tab="tab-9">Memberships</li>
+            </ul>
+        
+            <!-- Tab Content -->
+            <div class="tabs-content3">
+                <!-- Tab 0: Message and Image -->
+                <div id="tab-0" class="tab-content">
+                    <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start;">
+				        @foreach (var item in Model.PrincipalMessages)
+                        {
+                            <div style="flex: 1 1 300px; max-width: 300px;">
+                                <img src="@Url.Content(item.ImagePath)" alt="Principal Photo" style="width: 100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+                            </div>
+                            <div style="flex: 2 1 500px;">
+                                <h3 style="margin-bottom: 15px;">Message from the Principal</h3>
+                                <p style="font-size: 18px; text-align: justify; line-height: 1.6;">@Html.Raw(item.Message)</p>
+                            </div>
+                        }
                     </div>
-                    </div>
-                </p>
-                <div class="clearfix"></div>
-                <div class="margin_top2"></div>
+                </div>
+                <!-- Tab 1: Personal Details -->
+                <div id="tab-1" class="tab-content">
+                    <ul>
+                        <li><strong>Name:</strong> @Model.Name</li>
+                        <li><strong>Designation:</strong> @Model.Designation</li>
+                        <li><strong>Qualification:</strong> @Model.Qualification</li>
+                        <li><strong>Experience:</strong> @Model.Experience</li>
+                        <li><strong>Date of Joining:</strong> @Model.DateOfJoining.ToString("dd-MM-yyyy")</li>
+                        <li><strong>Area of Interest:</strong> @Model.AreaOfInterest</li>
+                        <li><strong>Email:</strong> @Model.Email</li>
+                    </ul>
+                </div>
 
+                <!-- Tab 2: Educational Qualifications -->
+                <div id="tab-2" class="tab-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Qualification</th>
+                                <th>University / Board</th>
+                                <th>Year of Passing</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var edu in Model.EducationalQualifications)
+                            {
+                                <tr>
+                                    <td>@edu.Qualification</td>
+                                    <td>@edu.University</td>
+                                    <td>@edu.Year</td>
+                                    <td>@edu.Result</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tab 3: Publications Summary -->
+                <div id="tab-3" class="tab-content">
+                    <ul>
+                        @foreach (var pub in Model.PublicationsSummary)
+                        {
+                            <li><strong>@pub.Category:</strong> @pub.Count</li>
+                        }
+                    </ul>
+                </div>
+
+                <!-- Tab 4: Selected Publications -->
+                <div id="tab-4" class="tab-content">
+                    <ul>
+                        @foreach (var sp in Model.SelectedPublications)
+                        {
+                            <li><strong>@sp.Type:</strong> @sp.Title — <em>@sp.JournalOrConference</em></li>
+                        }
+                    </ul>
+                </div>
+
+                <!-- Tab 5: Experience -->
+                <div id="tab-5" class="tab-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Designation</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Department</th>
+                                <th>Duration</th>
+                                <th>Place</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var exp in Model.Experiences)
+                            {
+                                <tr>
+                                    <td>@exp.Designation</td>
+                                    <td>@exp.DateOfJoining</td>
+                                    <td>@exp.DateOfLeave</td>
+                                    <td>@exp.Department</td>
+                                    <td>@exp.Duration</td>
+                                    <td>@exp.Place</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tab 6: Achievements -->
+                <div id="tab-6" class="tab-content">
+                    <ul>
+                        @foreach (var ach in Model.Achievements)
+                        {
+                            <li>@ach</li>
+                        }
+                    </ul>
+                </div>
+
+                <!-- Tab 7: Book Publication -->
+                <div id="tab-7" class="tab-content">
+                    <ul>
+                        <li><strong>Title:</strong> @Model.Book.Title</li>
+                        <li><strong>Book Code:</strong> @Model.Book.BookCode</li>
+                        <li><strong>University:</strong> @Model.Book.University</li>
+                        <li><strong>Branch:</strong> @Model.Book.Branch</li>
+                        <li><strong>Semester:</strong> @Model.Book.Semester</li>
+                        <li><strong>ISBN:</strong> @Model.Book.ISBN</li>
+                        <li><strong>Publisher:</strong> @Model.Book.Publisher</li>
+                        <li>
+                            <strong>Contents:</strong>
+                            <ul>
+                                @foreach (var topic in Model.Book.ContentTopics)
+                                {
+                                    <li>@topic</li>
+                                }
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tab 8: Expert Talks -->
+                <div id="tab-8" class="tab-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Subject</th>
+                                <th>Place</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var talk in Model.ExpertTalks)
+                            {
+                                <tr>
+                                    <td>@talk.Year</td>
+                                    <td>@talk.Subject</td>
+                                    <td>@talk.Place</td>
+                                    <td>@talk.Details</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tab 9: Memberships -->
+                <div id="tab-9" class="tab-content current">
+                    <ul>
+                        @foreach (var mem in Model.Memberships)
+                        {
+                            <li>@mem</li>
+                        }
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+</div>
+<div class="clearfix margin_bottom2"></div>
     <!-- end featured section 19 -->
-
-    <a id="lnkPopup" href="#animatedModal" class="popup-trigger hidden" data-target="#popup"></a>
-    <div id="popup" class="popup">
-        <div id="pdfreader" style="height:600px">
-        </div>
-        <span class="popup-btn-close">&times;</span>
-    </div>
-    @section styles {
-        <style>
-            .text-center {
-                text-align: center !important;
-            }
-
-            .large-text {
-                font-size: 20px;
-            }
-
-            .one_half ul {
-                list-style: none; /* Removes default bullets */
-                padding-left: 0;
-            }
-
-                .one_half ul li {
-                    display: flex;
-                    align-items: center; /* Aligns text with the icon */
-                    gap: 10px; /* Adds space between the icon and text */
-                    margin-bottom: 8px; /* Adds spacing between list items */
-                }
-
-                    .one_half ul li i {
-                        color: #007bff; /* Change color as needed */
-                        font-size: 18px; /* Adjust icon size */
-                    }
-
-            .vision-container {
-                text-align: center; /* Centers inline elements like <i> */
-                margin-top: 10px;
-            }
-
-                .vision-container i {
-                    font-size: 60px; /* Adjust the size as needed */
-                    color: #007bff; /* Blue color */
-                }
-
-            .large-text {
-                font-size: 25px;
-                text-align: center; /* Centers the paragraph text */
-            }
-
-            .text-justify {
-                font-size: 18px;
-            }
-        </style>
-        <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+<style>
+    /* --- Global Reset for the Section --- */
+    .content_fullwidth {
+        padding: 30px;
+        background-color: #f9f9f9;
     }
+
+    /* --- Tab Navigation --- */
+    .tabs3 {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 30px;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 2px solid #ddd;
+        background: #fff;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+        .tabs3 li {
+            padding: 12px 20px;
+            margin-right: 2px;
+            cursor: pointer;
+            background: #f0f0f0;
+            font-weight: 600;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            transition: all 0.3s ease;
+            color: #333;
+            user-select: none;
+        }
+
+            .tabs3 li:hover {
+                background: #e0e0e0;
+            }
+
+            .tabs3 li.current {
+                background: #ffffff;
+                border: 2px solid #ddd;
+                border-bottom: 2px solid #ffffff;
+                color: #007bff;
+            }
+
+    /* --- Tab Content Container --- */
+    .tabs-content3 {
+        background: #ffffff;
+        border: 2px solid #ddd;
+        border-radius: 0 0 8px 8px;
+        padding: 25px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .tab-content {
+        display: none;
+        animation: fadeIn 0.4s ease-in-out;
+    }
+
+        .tab-content.current {
+            display: block;
+        }
+
+    /* --- Fade-in Animation --- */
+    
+    /* --- Principal Image and Message Layout --- */
+    #tab-0 > div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    #tab-0 img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #tab-0 h3 {
+        margin-bottom: 15px;
+        color: #007bff;
+        font-weight: 600;
+    }
+
+    #tab-0 p {
+        font-size: 18px;
+        line-height: 1.7;
+        text-align: justify;
+    }
+
+    /* --- Tables --- */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            color: #333;
+        }
+
+    /* --- Lists --- */
+    .tab-content ul {
+        list-style-type: disc;
+        padding-left: 25px;
+        font-size: 16px;
+    }
+
+        .tab-content ul li {
+            margin-bottom: 8px;
+        }
+
+    .principalimage img {
+        max-height: 375px;
+       
+        border: 3px solid #5076bb;
+        box-shadow: 10px 10px 5px grey;
+    }
+
+    .principalimage {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    .principalname {
+        font-size: 40px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        font-style: italic;
+        font-family: emoji;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .principaldesignation {
+        font: 16px 'Open Sans', sans-serif;
+        font-weight: bold;
+        line-height: 23px;
+    }
+
+    .principalmessage {
+        padding-top: 4%;
+    }
+    .principalpd{
+        font-size:15px;
+        line-height: 30px;
+    }
+
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .border {
+        border: 1px solid #dee2e6 !important;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .text-white {
+        color: #fff !important;
+    }
+
+    .p-3 {
+        padding: 1rem !important;
+    }
+
+    .align-items-center {
+        -ms-flex-align: center !important;
+        align-items: center !important;
+    }
+
+    .bg-dark {
+        background-color: #343a40 !important;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+
+    .bg-light {
+        background-color: #f8f9fa !important;
+    }
+
+    h3 {
+        font-size: 40px;
+        line-height: 28px;
+        margin-bottom: 18px;
+        padding-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+    p {
+        font: 25px 'Open Sans', sans-serif;
+        font-weight: normal;
+        line-height: 23px;
+        padding-left: 20px;
+    }
+    .img-thumbnail {
+        border: 3px solid white;
+    }
+
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
+    .tabs3 li.current {
+        background: #000;
+        border: 2px solid #ddd;
+        border-bottom: 2px solid #dddddd;
+        color: #fff;
+    }
+
+    .tabs3 li {
+        padding: 12px 20px;
+        margin-right: 5px;
+        cursor: pointer;
+        background: #f0f0f0;
+        font-weight: 600;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        transition: all 0.3s ease;
+        color: #333;
+        user-select: none;
+        margin-bottom: 5px;
+    }
+        
+</style>
+
+@section tabs {
+
+    <script src="@Url.Content("~/js/tabs2/index.js")"></script>
+    <script>
+        $('.accordion, .tabs').TabsAccordion({
+            hashWatch: true,
+            pauseMedia: true,
+            responsiveSwitch: 'tablist',
+            saveState: sessionStorage,
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+                    const tabs = document.querySelectorAll(".tab-link");
+                    const contents = document.querySelectorAll(".tab-content");
+
+                    tabs.forEach(tab => {
+                        tab.addEventListener("click", function () {
+                            const tabId = this.getAttribute("data-tab");
+
+                            tabs.forEach(t => t.classList.remove("current"));
+                            this.classList.add("current");
+
+                            contents.forEach(c => c.classList.remove("current"));
+                            document.getElementById(tabId).classList.add("current");
+                        });
+                    });
+                });
+    </script>
+    <script defer src="@Url.Content("~/js/flexslider/jquery.flexslider.js")"></script>
+    <script defer src="@Url.Content("~/js/flexslider/custom.js")"></script>
+    @* <script type="text/javascript" src="@Url.Content("~/js/tabs/tabwidget/tabwidget.js")"></script> *@
+    <script src="@Url.Content("~/js/tabs/assets/js/responsive-tabs.min.js")" type="text/javascript"></script>
+}
     @section scripts{
         <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
         <script>
-
+                
             function loadFacultyinfo(url) {
                 if (url !== '') {
                     $("#pdfreader").load(url);

@@ -47,7 +47,7 @@
                 "ActionName": "",
                 "position": 2,
                 "isVisible": true,
-                "Link": "/ImpDocs/Goverence.pdf",
+                "Link": "/ImpDocs/GEC_Organizational_Chart.pdf",
                 "ChildMenuVMs": []
             },
             {
@@ -701,7 +701,7 @@
         "ChildMenuVMs": [
             {
                 "ID": 991,
-                "MenuText": "Message of Principal",
+                "MenuText": "Principal",
                 "ParentID": 99,
                 "dynamicID": null,
                 "ControllerName": "Administration",
