@@ -12,7 +12,7 @@ namespace GECP_Front_End_Static.Models
         public string ControllerName { get; set; }
         public string ActionName { get; set; }
     }
-
+   
     public class ActivityMarqueeModelVM
     {
         public int ID { get; set; }
@@ -50,7 +50,7 @@ namespace GECP_Front_End_Static.Models
     {
         public IList<MarqueeModelVM> marqueeModelVM { get; set; }
 
-        public IList<ActivityMarqueeModelVM> activitymarqueeModelVM { get; set; }
+        public IList<CommitteeActivity> activitymarqueeModelVM { get; set; }
         public IList<TestimonialModelVM> testimonialModelVM { get; set; }
 
         public IList<NEWSModel> newsModelVM { get; set; }
@@ -60,7 +60,7 @@ namespace GECP_Front_End_Static.Models
         public HomePageModelVM()
         {
             marqueeModelVM = new List<MarqueeModelVM>();
-            activitymarqueeModelVM = new List<ActivityMarqueeModelVM>();
+            activitymarqueeModelVM = new List<CommitteeActivity>();
             testimonialModelVM = new List<TestimonialModelVM>();
             newsModelVM = new List<NEWSModel>();
             masterSliderVM = new List<MasterSliderVM>();
