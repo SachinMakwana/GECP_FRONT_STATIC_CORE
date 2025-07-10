@@ -3,34 +3,14 @@
     "ID": 1,
     "Title": "Annual Events",
     "Description": "GEC Patan organizes a range of events throughout the academic year, including annual festivals – Sports Week, fresher parties, and Navratri celebrations. These events provide students with opportunities to showcase their talents and engage with peers, enriching their college experience. ",
-    "EventDate": "21/02/2025",
-    "EventTime": "02: 00 pm to 3: 15 pm",
+    "EventDate": "",
+    "EventTime": "",
     "CommitteId": 10,
     "Images": [
-      "/images/Achievements/4.png",
-      "/images/Achievements/01.jpg",
-      
-      "/images/Achievements/1000.jpg"
+     
     ],
     "Files": [
-      {
-        "ID": 1,
-        "Title": "Career Guidance Seminar",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
-      },
-      {
-        "ID": 1,
-        "Title": "Career Guidance Seminar",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
-      },
-      {
-        "ID": 1,
-        "Title": "Career Guidance Seminar",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
-      }
+      
     ]
   },
   {
