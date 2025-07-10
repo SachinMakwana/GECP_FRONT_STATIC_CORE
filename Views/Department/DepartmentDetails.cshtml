@@ -500,6 +500,13 @@
                         }
 
                     </ul>
+                    @if (item.Images.Count() > 1)
+                    {
+                        <a href="@Url.Action("Activities", "CampusCommittee", new { id = item.ID })" target="_blank">
+                            <button class="btn btn-outline-primary">More..</button>
+                        </a>
+
+                    }
                 </div>
                 <div class="clearfix margin_bottom1"></div>
             }
