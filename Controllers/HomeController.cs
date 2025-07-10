@@ -17,7 +17,7 @@ namespace GECP_Front_End_Static.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<MarqueeModelVM> MarqueeData = new List<MarqueeModelVM>();
-        public List<ActivityMarqueeModelVM> ActivityMarqueeData = new List<ActivityMarqueeModelVM>();
+        public List<CommitteeActivity> ActivityMarqueeData = new List<CommitteeActivity>();
         public List<TestimonialModelVM> TestimonialData = new List<TestimonialModelVM>();
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
@@ -28,7 +28,7 @@ namespace GECP_Front_End_Static.Controllers
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
             string marqueejsonpath = webRootPath + @"\js\MarqueeContent.json";
-            string actmarqueejsonpath = webRootPath + @"\js\ActivityMarquee.json";
+            string actmarqueejsonpath = webRootPath + @"\Data\Activities\Activities.json";
             string testimonialjsonpath = webRootPath + @"\js\TestimonialsData.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";
             string MSjsonpatah = webRootPath + @"\Data\MasterSlider.json";
@@ -41,7 +41,7 @@ namespace GECP_Front_End_Static.Controllers
 
             webClient = new WebClient();
             json = webClient.DownloadString(actmarqueejsonpath);
-            ActivityMarqueeData = JsonConvert.DeserializeObject<List<ActivityMarqueeModelVM>>(json);
+            ActivityMarqueeData = JsonConvert.DeserializeObject<List<CommitteeActivity>>(json);
 
             webClient = new WebClient();
             json = webClient.DownloadString(testimonialjsonpath);

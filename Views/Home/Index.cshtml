@@ -127,13 +127,10 @@
                                 {
                                     foreach (var item in Model.activitymarqueeModelVM)
                                     {
-                                        if (item.IsFile)
+                                        
+                                        if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                                         {
-                                            <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
-                                        }
-                                        else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
-                                        {
-                                            <li><a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a></li>
+                                            <li><a href="@Url.Action("Activities", "CampusCommittee", new { @id = item.ID })">@item.Title</a></li>
                                         }
                                         else
                                         {
@@ -564,6 +561,7 @@
             min-height: 225px;
             padding-left: 7px;
             padding-right: 7px;
+            height : 200px;
         }
         
     </style>

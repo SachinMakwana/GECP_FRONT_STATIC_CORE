@@ -717,7 +717,7 @@
                 "dynamicID": null,
                 "ControllerName": "Administration",
                 "ActionName": "Esta",
-                "position": 2,
+                "position": 4,
                 "isVisible": true,
                 "ChildMenuVMs": []
             },
@@ -740,7 +740,7 @@
                 "dynamicID": null,
                 "ControllerName": "",
                 "ActionName": "",
-                "position": 4,
+                "position": 5,
                 "isVisible": true,
                 "Link": "/DataFiles/Documents/Rules/1 Institute Administrative Rules.pdf",
                 "ChildMenuVMs": []
@@ -752,7 +752,7 @@
                 "dynamicID": null,
                 "ControllerName": "",
                 "ActionName": "",
-                "position": 5,
+                "position": 6,
                 "isVisible": true,
                 "ChildMenuVMs": [
                     {
@@ -845,6 +845,30 @@
                         "ChildMenuVMs": []
                     }
                 ]
+            },
+            {
+                "ID": 995,
+                "MenuText": "Faculty Data Management System",
+                "ParentID": 99,
+                "dynamicID": null,
+                "ControllerName": "",
+                "ActionName": "",
+                "Link": "/DataFiles/Documents/Rules/Standardized Data Management and Faculty Transparency.pdf",
+                "position": 7,
+                "isVisible": true,
+                "ChildMenuVMs": []
+            },
+            {
+                "ID": 996,
+                "MenuText": "IQAC",
+                "ParentID": 99,
+                "dynamicID": null,
+                "ControllerName": "",
+                "ActionName": "",
+                "Link": "/DataFiles/Documents/Rules/IQAC-GECP_2024.pdf",
+                "position": 2,
+                "isVisible": false,
+                "ChildMenuVMs": []
             }
         ]
     }

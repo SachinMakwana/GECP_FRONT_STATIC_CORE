@@ -17,6 +17,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<PlacementTeamVM> PlacementTeamVM = new List<PlacementTeamVM>();
         public List<CampusCommittesVM> CampusCommittesVMs = new List<CampusCommittesVM>();
 		public AchievementsWrapperVM achievementsWrapperVM = new AchievementsWrapperVM();
+		public List<CommitteeActivity> ActivitiesVM = new List<CommitteeActivity>();
 		public CampusCommitteeController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -41,13 +42,25 @@ namespace GECP_Front_End_Static.Controllers
 			webClient = new WebClient();
 			json = webClient.DownloadString(jsonpath);
 			achievementsWrapperVM = JsonConvert.DeserializeObject<AchievementsWrapperVM>(json);
-		}
+
+            jsonpath = webRootPath + @"\Data\Activities\Activities.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            ActivitiesVM = JsonConvert.DeserializeObject<List<CommitteeActivity>>(json);
+        }
 
         public IActionResult CommitteePage(int id)
         {
             var committee = CampusCommittesVMs.Where(m=>m.ID==id).FirstOrDefault();
 			committee.Achievements = achievementsWrapperVM.Achievements.Where(m => m.CommitteId == id).OrderBy(m => m.ID).ToList();
+			committee.Activities = ActivitiesVM.Where(m => m.CommitteId == id).OrderBy(m => m.ID).ToList();
 			return View(committee);
+        }
+
+        public IActionResult Activities (int id)
+        {
+            var activity = ActivitiesVM.Where(m => m.ID == id).FirstOrDefault();
+            return View(activity);
         }
         public IActionResult WomenCell()
         {

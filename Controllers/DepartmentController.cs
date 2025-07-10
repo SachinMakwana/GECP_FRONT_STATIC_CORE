@@ -18,7 +18,8 @@ namespace GECP_Front_End_Static.Controllers
         public List<Labs> LabsData = new List<Labs>();
 		public List<AchievementsVM> AchievementsVM = new List<AchievementsVM>();
 		public AchievementsWrapperVM achievementsWrapperVM = new AchievementsWrapperVM();
-		public DepartmentController(IWebHostEnvironment hostingEnvironment)
+        public List<CommitteeActivity> ActivitiesVM = new List<CommitteeActivity>();
+        public DepartmentController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
@@ -45,7 +46,12 @@ namespace GECP_Front_End_Static.Controllers
 			json = webClient.DownloadString(jsonpath);
 			achievementsWrapperVM = JsonConvert.DeserializeObject<AchievementsWrapperVM>(json);
 
-		}
+            jsonpath = webRootPath + @"\Data\Activities\Activities.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            ActivitiesVM = JsonConvert.DeserializeObject<List<CommitteeActivity>>(json);
+
+        }
 
         public IActionResult DepartmentDetails(int id=0)
         {
@@ -55,8 +61,9 @@ namespace GECP_Front_End_Static.Controllers
             {
                 data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
 				data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == id).OrderBy(m => m.ID).ToList();
-				//data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
-			}
+                data.Activities = ActivitiesVM.Where(m => m.CommitteId == id).OrderBy(m => m.ID).ToList();
+                //data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
+            }
 
             return View(data);
         }

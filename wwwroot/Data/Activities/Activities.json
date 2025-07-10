@@ -1,0 +1,196 @@
+﻿[
+  {
+    "ID": 1,
+    "Title": "Annual Events",
+    "Description": "GEC Patan organizes a range of events throughout the academic year, including annual festivals – Sports Week, fresher parties, and Navratri celebrations. These events provide students with opportunities to showcase their talents and engage with peers, enriching their college experience. ",
+    "EventDate": "21/02/2025",
+    "EventTime": "02: 00 pm to 3: 15 pm",
+    "CommitteId": 10,
+    "Images": [
+      "/images/Achievements/4.png",
+      "/images/Achievements/01.jpg",
+      
+      "/images/Achievements/1000.jpg"
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Career Guidance Seminar",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
+      },
+      {
+        "ID": 1,
+        "Title": "Career Guidance Seminar",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
+      },
+      {
+        "ID": 1,
+        "Title": "Career Guidance Seminar",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Title": "Student Organizations",
+    "Description": "The campus hosts various student groups such as the National Service Scheme (NSS) and Fit India Group. These organizations coordinate numerous activities, including sports tournaments and cultural programs, promoting leadership and community involvement among students. ",
+    "EventDate": "",
+    "EventTime": "",
+    "CommitteId": 10,
+    "Files": []
+  },
+  {
+    "ID": 3,
+    "Title": "Thalessemia Test Camp",
+    "Description": "While specific details about thalassemia test camps at GEC Patan are not readily available, the college is known for its commitment to social welfare initiatives. Regular blood donation camps are organized on campus, reflecting the institution's dedication to community health and student awareness.",
+    "EventDate": "",
+    "EventTime": "",
+    "CommitteId": 10,
+    "Files": []
+  },
+  {
+    "ID": 4,
+    "Title": "SSIP 2.0 sensitization program",
+    "Description": "The SSIP 2.0 Sensitization Program aims to create COMMITTEE DETAILS awareness among students, faculty, and stakeholders about the Student Startup and Innovation Policy (SSIP) 2.0. This initiative enhances the innovation ecosystem by providing financial, technical, and mentorship support for student-led projects, startups, and research. The program educates participants about funding opportunities, prototyping assistance, and industry collaborations. It also highlights advancements from SSIP 1.0, focusing on scalability, intellectual property rights (IPR), and commercialization. Through workshops, seminars, and interactive sessions, the sensitization program encourages students to actively participate in innovation and entrepreneurship, driving technological progress and self-reliance in Gujarat and beyond. 120 students of First year including all branches have participated in it.",
+    "EventDate": "21/02/2025",
+    "EventTime": "02: 00 pm to 3: 15 pm",
+    "CommitteId": 2,
+    "Images": [],
+    "Files": [
+
+    ]
+  },
+  {
+    "ID": 5,
+    "Title": "Career Guidance Seminar",
+    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
+    "EventDate": "13/02/2025",
+    "EventTime": "10:30 AM to 12:30 PM",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Career Guidance Seminar",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 6,
+    "Title": "Mock interviews ",
+    "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+    "EventDate": "1/1/2025",
+    "EventTime": "10.30am  to 12.30pm",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Mock interviews",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
+      }
+    ]
+
+  },
+  {
+    "ID": 7,
+    "Title": "Career Guidance  & Counseling",
+    "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
+    "EventDate": "13/03/2024",
+    "EventTime": "1:00 p.m. to 3:00 p.m.",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Career Guidance  & Counseling",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 10,
+    "Title": "Career Guidance Awareness",
+    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+    "EventDate": "14/02/2024",
+    "EventTime": "10.30am  to 12.30pm",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Career Guidance Awareness",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Guidance Awareness-14-2-2024.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 11,
+    "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
+    "EventDate": "02/03/2023",
+    "EventTime": "1:00 p.m. to 3:00 p.m.",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 12,
+    "Title": "Entrepreneurship after Engineering",
+    "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
+    "EventDate": "23/02/2023",
+    "EventTime": "10.30am  to 12.30pm",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Entrepreneurship after Engineering",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/ENTREPRENIOR-23-2-2023.pdf"
+      }
+    ]
+  },
+
+  {
+    "ID": 13,
+    "Title": "Career Guidance Seminar",
+    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+    "EventDate": "28/02/2023",
+    "EventTime": "1:00 p.m. to 3:00 p.m.",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Entrepreneurship after Engineering",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/Career Guidance-28-2-2023.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 14,
+    "Title": "Entrepreneurship Awareness Seminar",
+    "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
+    "EventDate": "24/12/2021",
+    "EventTime": "10.30am  to 12.30pm",
+    "CommitteId": 9,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Entrepreneurship Awareness Seminar",
+        "FileType": "PDF",
+        "FilePath": "~/PlacementCell/ENTREPRENIOR-24-12-2021.pdf"
+      }
+    ]
+  }
+]
