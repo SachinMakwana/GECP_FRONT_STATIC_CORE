@@ -865,9 +865,9 @@
                 "dynamicID": null,
                 "ControllerName": "",
                 "ActionName": "",
-                "Link": "/DataFiles/Documents/Rules/Standardized Data Management and Faculty Transparency.pdf",
+                "Link": "/DataFiles/Documents/Rules/IQAC-GECP_2024.pdf",
                 "position": 2,
-                "isVisible": true,
+                "isVisible": false,
                 "ChildMenuVMs": []
             }
         ]
