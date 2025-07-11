@@ -38,19 +38,19 @@
     "PublicationsSummary": [
       {
         "Category": "International Journal",
-        "Count": 1
+        "Count": 15
       },
       {
         "Category": "International Conference",
-        "Count": 3
+        "Count": 7
       },
       {
         "Category": "National Journal",
-        "Count": 1
+        "Count": 7
       },
       {
         "Category": "National Conference",
-        "Count": 1
+        "Count": 16
       }
     ],
 

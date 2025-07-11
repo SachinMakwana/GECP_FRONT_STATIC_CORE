@@ -865,9 +865,9 @@
                 "dynamicID": null,
                 "ControllerName": "",
                 "ActionName": "",
-                "Link": "/DataFiles/Documents/Rules/IQAC-GECP_2024.pdf",
+                "Link": "/DataFiles/Documents/Rules/IQAC_GECP_2024_SIGNED.pdf",
                 "position": 2,
-                "isVisible": false,
+                "isVisible": true,
                 "ChildMenuVMs": []
             }
         ]
