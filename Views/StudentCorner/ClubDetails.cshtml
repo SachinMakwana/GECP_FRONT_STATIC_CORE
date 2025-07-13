@@ -46,7 +46,30 @@
 
 
 	</div>
-	<div id="style-selector" style="left: 0px;" class="visible-xs">
+	<div class="tab-xs visible-xs">
+		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+
+		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">Sub Objectives</button>
+		}
+
+		@if (Model.Members != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
+		}
+		@if (Model.Activities != null)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Activities')">Activities</button>
+		}
+		@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+		{
+			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogspot</button></a>
+		}
+
+
+	</div>
+	@* <div id="style-selector" style="left: 0px;" class="visible-xs">
 
 		<div class="style-selector-wrapper">
 			<span class="title">Menu</span>
@@ -83,7 +106,7 @@
 
 			</div>
 		</div>
-	</div>
+	</div> *@
 	<div id="About" class="tabcontent">
 		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
 			<div class="full-container">
