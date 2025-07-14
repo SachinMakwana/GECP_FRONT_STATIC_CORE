@@ -61,6 +61,7 @@ namespace GECP_Front_End_Static.Models
         public string Description { get; set; }
         public string EventDate { get; set; }
         public string EventTime { get; set; }
+        public int Year { get; set; } 
         public List<File> Files { get; set; } = new List<File>();
         public List<string> Images { get; set; } = new List<string>();
         public int DeptID { get; set; }

@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "Home Page";
     int newscount = Model.newsModelVM.Count();
+    int currentYear = DateTime.Now.Year;
 }
 
 @Html.Partial("_slider",Model.masterSliderVM)
@@ -125,12 +126,12 @@
                                 }
                                 else
                                 {
-                                    foreach (var item in Model.activitymarqueeModelVM)
+                                    foreach (var item in Model.activitymarqueeModelVM.Where(m => m.Year == currentYear).ToList())
                                     {
                                         
                                         if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                                         {
-                                            <li><a href="@Url.Action("Activities", "CampusCommittee", new { @id = item.ID })">@item.Title</a></li>
+                                            <li><a href="@Url.Action("Activities", "CampusCommittee", new { @id = item.ID })" target="_blank">@item.Title</a></li>
                                         }
                                         else
                                         {
