@@ -6,7 +6,9 @@
     "EC",
     "Mechanical",
     "Civil",
-    "Yoddhha"
+    "Yoddhha",
+    "Gymkhana Sports",
+    "Gymkhana Cultural"
 
   ],
   "Years": [
@@ -40,7 +42,7 @@
     */
 
     {
-      "ID": 2504,
+      "ID": 2505,
       "Title": "Mr. Kiran Vaniya, Alumnus Mechanical Engineering 202-2016, UPSC Civil Services Examinations Mains - 607th Rank",
       "Image": "/images/Achievements/03.jpeg",
       "Date": "22/04/2025",
@@ -53,6 +55,18 @@
       "Year": 2025
     },
     {
+      "ID": 2504,
+      "Title": "Abhishek H. Mehta, 4th Sem CSE stood in Top 10 Speakers of Gujarat at Gujarat Vidhan Sabha for Viksit Bharat Youth Parliament 2025",
+      "Image": "/images/Achievements/AHM.jpg",
+      "Date": "29/03/2025",
+      "Description": "Abhishek H. Mehta, a 4th Semester student of Government Engineering College, Patan, made the institution proud by securing a place among the Top 10 Speakers of Gujarat at the prestigious Viksit Bharat Youth Parliament 2025. The event was held at the historic Vidhan Sabha - Vitthalbhai Patel Bhavan in Gandhinagar on 29th March 2025. His powerful oration and impactful thoughts on nation-building were recognized and appreciated by dignitaries present, marking a moment of immense pride for GEC Patan.",
+      "Type": 0,
+      "Dept": "CSE",
+      "DeptID": 2,
+      "Keywords": "CSE, NSS",
+      "Year": 2025
+    },
+    {
       "ID": 2503,
       "Title": "Diya Ashokkumar Patel, 4th Sem CSE, State-Level Karate Champion – 1st Place at Art of Karate Do Federation of India, 2025",
       "Image": "/images/Achievements/5.jpg",
@@ -62,7 +76,7 @@
       "Dept": "CSE",
       "DeptID": 2,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE , Gymkhana Sports",
       "Year": 2025
     },
     {
@@ -88,7 +102,7 @@
       "Dept": "CSE",
       "DeptID": 2,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, Gymkhana Sports",
       "Year": 2025
     },
     {
@@ -101,7 +115,7 @@
       "Dept": "CSE",
       "DeptID": 2,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, Gymkhana Sports",
       "Year": 2024
     },
     {
@@ -127,7 +141,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, Gymkhana Sports",
       "Year": 2023
     },
     {
@@ -140,7 +154,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, Gymkhana Sports",
       "Year": 2023
     },
     {
@@ -153,7 +167,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, NSS",
       "Year": 2023
     },
     {
@@ -166,7 +180,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Civil, Gymkhana Cultural",
       "Year": 2023
     },
     {
@@ -179,7 +193,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Civil, Gymkhana Sports",
       "Year": 2023
     },
     {
@@ -192,7 +206,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Civil, Gymkhana Cultural",
       "Year": 2023
     },
     {
@@ -205,7 +219,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, Gymkhana Sports",
       "Year": 2023
     },
     {
@@ -218,7 +232,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, Gymkhana Sports",
       "Year": 2023
     },
     {
@@ -231,7 +245,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "CSE, Gymkhana Sports",
       "Year": 2023
     },
     {
@@ -244,7 +258,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Electrical, Gymkhana Sports",
       "Year": 2023
     },
     {
@@ -270,7 +284,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Civil, NSS, Gymkhana Sports",
       "Year": 2022
     },
     {
@@ -283,7 +297,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Mechanical, Gymkhana Sports",
       "Year": 2022
     },
     {
@@ -296,7 +310,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Gymkhana Sports",
       "Year": 2022
     },
     {
@@ -309,7 +323,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Mechanical, Gymkhana Sports",
       "Year": 2021
     },
     {
@@ -322,7 +336,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "",
+      "Keywords": "Mechanical, Gymkhana Sports",
       "Year": 2021
     }
 
