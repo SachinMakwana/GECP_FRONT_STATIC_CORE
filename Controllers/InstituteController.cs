@@ -19,6 +19,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<DocumentsVm> TendersVM = new List<DocumentsVm>();
         public List<TendersVM> ImpDocuments = new List<TendersVM>();
+        public List<AboutUsVM> AboutUsVM = new List<AboutUsVM>();
 
         public List<DocumentsVm> DocumentsVms = new List<DocumentsVm>();
 
@@ -31,6 +32,7 @@ namespace GECP_Front_End_Static.Controllers
             string newsjsonpatah = webRootPath + @"\NEWS.json";
             string tendersjsonpath = webRootPath + @"\Data\Tenders\Tenders.json";
             string impDocsJsonpath = webRootPath + @"\Data\ImportantDocuments\documentItems.json";
+            string aboutusjsonpath = webRootPath + @"\Data\Institute\AboutUs.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
@@ -54,10 +56,14 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(impDocsJsonpath);
             ImpDocuments = JsonConvert.DeserializeObject<List<TendersVM>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(aboutusjsonpath);
+            AboutUsVM = JsonConvert.DeserializeObject<List<AboutUsVM>>(json);
         }
         public IActionResult AboutUs()
         {
-            return View();
+            return View(AboutUsVM);
         }
 
         public IActionResult CoE()

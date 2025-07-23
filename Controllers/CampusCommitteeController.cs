@@ -53,7 +53,7 @@ namespace GECP_Front_End_Static.Controllers
         {
             var committee = CampusCommittesVMs.Where(m=>m.ID==id).FirstOrDefault();
 			committee.Achievements = achievementsWrapperVM.Achievements.Where(m => m.CommitteId == id).OrderBy(m => m.ID).ToList();
-			committee.Activities = ActivitiesVM.Where(m => m.CommitteId == id).OrderBy(m => m.ID).ToList();
+			committee.Activities = ActivitiesVM.Where(m => m.CommitteId == id).OrderBy(m => m.OrderByDate).ToList();
 			return View(committee);
         }
 
