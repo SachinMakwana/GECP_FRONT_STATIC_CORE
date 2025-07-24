@@ -9,7 +9,7 @@
 
 
 <div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;background-size: cover;">
-    <div class="container">
+    <div class="full-container">
 
         <h1>
             @Model.Title @* <em>Government Engineering College</em> *@
@@ -188,12 +188,12 @@
             </div>
         </div>
     </div>
-    <div id="Members" class="tabcontent">
+    <div id="Members" class="tabcontent table-responsive">
         @if (!Model.TableView)
         {
             <div class="featured_section30">
                 @if(Model.Members.Count()>0){
-                <div class="full-container">
+                <div class="full-container table-responsive">
                     <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
                         @Model.Title Members
                     </h1>
@@ -339,7 +339,7 @@
     <div id="Activities" class="tabcontent">
         @if (Model.Activities != null && Model.Activities.Count() > 0)
         {
-            foreach (var item in Model.Activities)
+            foreach (var item in Model.Activities.OrderByDescending(m => m.Year).ToList())
             {
                 <div class="box">
                     <h2 class="boxtitle">@item.Title</h2>

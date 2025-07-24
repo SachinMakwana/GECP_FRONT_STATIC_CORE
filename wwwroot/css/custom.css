@@ -1075,6 +1075,9 @@ table.dataTable thead .sorting_desc_disabled:before {
     .featured_section13 .updates_section {
         width: 96%;
         }
+    .responsive-logo{
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 1366px) {

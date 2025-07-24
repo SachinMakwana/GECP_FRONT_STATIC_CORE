@@ -59,59 +59,43 @@
 		@* <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button> *@
 
 	</div>
-	<div id="style-selector" style="left: 0px;" class="visible-xs">
+	<div class="tab-xs visible-xs">
+		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
 
-		<div class="style-selector-wrapper">
-			<span class="title">Menu</span>
-			<div>
-				<br><br>
+		@if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
+		}
+		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button>
+		}
+		@if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
+		}
+		@if (Model.Labs != null && Model.Labs.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Labs')">Labs</button>
+		}
+		@if (Model.Members != null && Model.Members.Count() > 0)
+		{
+			<button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
+		}
 
-				<ul class="styles" style="border-bottom: none;">
+		@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+		{
+			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
+		}
+		@if (Model.ShowDocument)
+		{
+			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
+		}
 
-					<li class="button1 margin_top1"><button onclick="openTab(event, 'About')" class="demolinks button1" id="defaultOpen"> About</button></li>
-					@if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
-					{
-						<li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button></li>
-					}
-					@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
-					{
-						<li class="button1 margin_top1"><button class="demolinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button></li>
-					}
-					@if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
-					{
-						<li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button></li>
-					}
+		@* <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button> *@
 
-					@if (Model.Labs != null && Model.Labs.Count() > 0)
-					{
-						<li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Labs')">Labs</button></li>
-					}
-					@if (Model.Members != null && Model.Members.Count() > 0)
-					{
-						<li class="button1 margin_top1"><button class="demolinks button1" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button></li>
-					}
-
-					@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
-					{
-						<a href="@Model.BlogLink" target="_blank"><button class="demolinks button1 margin_top1">@Model.TabTitles.Blogspot</button></a>
-					}
-					@if (Model.ShowDocument)
-					{
-						<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="demolinks button1 margin_top1">@Model.TabTitles.Documents</button></a>
-					}
-
-
-				</ul>
-
-
-
-
-				<a href="#" class="close icon-chevron-right"></a>
-
-			</div>
-		</div>
 	</div>
-	<div id="About" class="tabcontent">
+		<div id="About" class="tabcontent">
 		<div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
 			<div class="full-container">
 

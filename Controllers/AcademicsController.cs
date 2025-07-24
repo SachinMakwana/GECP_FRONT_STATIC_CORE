@@ -72,7 +72,7 @@ namespace GECP_Front_End_Static.Controllers
             data = achievementsWrapperVM;
             if (year > 0)
             {
-                data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.Year == year).ToList();
+                data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.Year == year).OrderByDescending(m => m.ID).ToList();
             }
             
             return View("_Achievements", data);

@@ -464,7 +464,7 @@
     <div id="Activities" class="tabcontent">
         @if (Model.Activities != null && Model.Activities.Count() > 0)
         {
-            foreach (var item in Model.Activities)
+            foreach (var item in Model.Activities.OrderByDescending(m => m.Year).ToList())
             {
                 <div class="box">
                     <h2 class="boxtitle">@item.Title</h2>
