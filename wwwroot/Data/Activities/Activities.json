@@ -155,9 +155,9 @@
     "Files": [
       {
         "ID": 1,
-        "Title": "Entrepreneurship after Engineering",
+        "Title": "Career Guidance Seminar",
         "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career Guidance-28-2-2023.pdf"
+        "FilePath": "~/PlacementCell/career Guidance-28-2-2023.pdf"
       }
     ]
   },
@@ -185,29 +185,228 @@
     "EventTime": "10:00 AM - 4:00 PM",
     "Year": 2022,
     "CommitteId": 11,
-    "Images": [],
+    "Images": [
+      "/images/Activities/Alumni_2022/2.jpg",
+      "/images/Activities/Alumni_2022/1.jpg",
+      "/images/Activities/Alumni_2022/3.jpg",
+      "/images/Activities/Alumni_2022/4.jpg",
+      "/images/Activities/Alumni_2022/5.jpg",
+      "/images/Activities/Alumni_2022/6.jpg",
+      "/images/Activities/Alumni_2022/7.jpg",
+      "/images/Activities/Alumni_2022/8.jpg"
+    ],
     "Files": []
   },
   {
     "ID": 16,
     "Title": "Alumni Meet 2024",
-    "Description": "The Alumni Meet 2024 at GEC Patan brought together a vibrant community of past graduates. Key highlights included industry panel discussions, student-alumni interaction, felicitation of notable alumni, and cultural performances.",
+    "Description": "The Alumni Meet 2024 at GEC Patan, graced by Chief Guest Dr. H. S. Patel, celebrated lasting bonds and achievements. Highlights included industry discussions, student-alumni interactions, alumni felicitations, and cultural events. The event fostered connection, inspiration, and pride among graduates, students, and faculty, strengthening the GEC Patan community spirit.",
     "EventDate": "2024-12-23",
     "EventTime": "11:00 AM - 5:00 PM",
     "Year": 2024,
     "CommitteId": 11,
-    "Images": [],
+    "Images": [
+
+      "/images/Activities/Alumni_2024/2.jpg",
+      "/images/Activities/Alumni_2024/1.jpg",
+      "/images/Activities/Alumni_2024/3.jpg",
+      "/images/Activities/Alumni_2024/4.jpg",
+      "/images/Activities/Alumni_2024/5.jpg",
+      "/images/Activities/Alumni_2024/6.jpg",
+      "/images/Activities/Alumni_2024/7.jpg"
+    ],
     "Files": []
   },
   {
     "ID": 17,
     "Title": "Alumni Meet 2025",
-    "Description": "Alumni Meet 2025 focused on connecting alumni across generations through career mentorship, startup showcases, and tech talks. The event strengthened alumni-institute relations and inspired current students with real-world experiences.",
-    "EventDate": "2025-12-21",
+    "Description": "The Alumni Meet 2025 at GEC Patan, graced by Chief Guest Dr. K. B. Judal, Principal of GEC Palanpur, focused on connecting alumni across generations. With career mentorship, startup showcases, and tech talks, the event strengthened alumni-institute ties and inspired students through valuable real-world insights and experiences.",
+    "EventDate": "2025-04-05",
     "EventTime": "10:30 AM - 5:30 PM",
     "Year": 2025,
     "CommitteId": 11,
-    "Images": [],
+    "Images": [
+      "/images/Activities/Alumni_2025/1.jpg",
+      "/images/Activities/Alumni_2025/2.jpg",
+      "/images/Activities/Alumni_2025/3.jpg",
+      "/images/Activities/Alumni_2025/4.jpg",
+      "/images/Activities/Alumni_2025/5.jpg",
+      "/images/Activities/Alumni_2025/6.jpg",
+      "/images/Activities/Alumni_2025/7.jpg"
+    ],
     "Files": []
+  },
+  {
+    "ID": 18,
+    "Title": "PRAGATI 2025",
+    "Description": "PRAGATI 2025, the grand annual cultural fest of GEC Patan, was celebrated with unmatched enthusiasm on 5th April 2025. Featuring vibrant performances, student honors, and a tribute to Indian heritage, the event symbolized unity, talent, and tradition—making it a memorable evening for students, faculty, and alumni alike.",
+    "EventDate": "2025-04-05",
+    "EventTime": "2.00 PM - 5:30 PM",
+    "Year": 2025,
+    "CommitteId": 10,
+    "Images": [
+      "/images/Gymkhana/2.jpg",
+      "/images/Gymkhana/1.jpg",
+      "/images/Gymkhana/3.jpg",
+      "/images/Gymkhana/4.jpg",
+      "/images/Gymkhana/5.jpg",
+      "/images/Gymkhana/6.jpg",
+      "/images/Gymkhana/7.jpg",
+      "/images/Gymkhana/8.jpg",
+      "/images/Gymkhana/9.jpg",
+      "/images/Gymkhana/10.jpg"
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Pragati 2025",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/PRAGATI_2025_-_Report.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 19,
+    "Title": "THANGHANAAT 2024",
+    "Description": "Thanghanaat 2024 lit up the GEC Patan campus with colors, beats, and unstoppable energy! Held on 9th March, this grand Navratri celebration by the Gymkhana Cultural Committee brought students together in dazzling traditional attire for a night of Garba, joy, and cultural unity. Truly, an unforgettable evening of dance and celebration!",
+    "EventDate": "2024-10-09",
+    "EventTime": "",
+    "Year": 2024,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "THANGHANAAT 2024",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/Navratri_2024.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 20,
+    "Title": "Personal Development Training Camp 2024",
+    "Description": "Personality Development Camp 2024, organized by GTU from 18th to 21st July at Somnath Sanskrit University, offered GEC Patan students a transformative experience. Through leadership sessions, cultural exchanges, spiritual insights, and talent showcases, the camp nurtured confidence, creativity, and values—shaping future-ready individuals with purpose and positivity.",
+    "EventDate": "2024-07-18",
+    "EventTime": "",
+    "Year": 2024,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "PDMC 2024",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/PDMC_2024.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 21,
+    "Title": "Basic Rock Climbing Camp 2024",
+    "Description": "Basic Rock Climbing Camp 2024, held at SVIM Mount Abu from 16th–25th November, empowered GEC Patan students through adventure and discipline. Organized by GTU, the camp featured expert-led training in trekking, climbing, and survival skills—fostering physical fitness, confidence, and resilience through real-world challenges and team spirit.",
+    "EventDate": "2024-11-16",
+    "EventTime": "",
+    "Year": 2024,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Basic Rock Climbing Camp 2024",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/PDTC_2024.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 22,
+    "Title": "THANGHANAAT 2023",
+    "Description": "Thanghanaat 2023, GEC Patan’s spirited Navratri celebration, was held on 16th October with energetic Garba, Dandiya, and a soulful Aarti. Students and faculty in traditional attire danced in unity, filling the campus with joy, devotion, and cultural pride—creating a memorable evening of festivity, faith, and togetherness.",
+    "EventDate": "2023-10-16",
+    "EventTime": "",
+    "Year": 2023,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "THANGHANAAT 2023",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/Navratri_2023.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 23,
+    "Title": "Personality Development Training Camp 2023 ",
+    "Description": "Personality Development Camp 2023, organized by GTU at Somnath Sanskrit University from 7th–10th May, empowered selected GEC Patan students through expert-led sessions on leadership, communication, and career skills. The camp fostered confidence, personal growth, and clarity of purpose—leaving a lasting impact on participants' academic and professional journeys.",
+    "EventDate": "2023-05-07",
+    "EventTime": "",
+    "Year": 2023,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Personality Development Training Camp 2023",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/PDTC_2023.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 24,
+    "Title": "Drama Training Camp 2023",
+    "Description": "Drama Training Camp 2023, organized by GTU from 11th–17th May at Somnath Sanskrit University, gave GEC Patan students immersive exposure to acting, stagecraft, and expression. With expert mentorship and live performances, the camp boosted creativity, confidence, and cultural understanding—shaping students into expressive, confident, and collaborative performers.",
+    "EventDate": "2023-05-11",
+    "EventTime": "",
+    "Year": 2023,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Drama Training Camp 2023",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/Drama_TC_2023.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 25,
+    "Title": "Lok Nritya Training Camp 2024 ",
+    "Description": "Lok Nritya Training Camp 2024, held from 21st–27th July at Somnath Sanskrit University, celebrated Gujarat’s vibrant folk traditions. Four GEC Patan students mastered Garba, Raas, Hudo, and more under expert guidance. The camp nurtured cultural pride, artistic expression, and unity—earning praise for their authentic, energetic stage performances.",
+    "EventDate": "2024-07-21",
+    "EventTime": "",
+    "Year": 2024,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "LNTC 2024",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/LNTC_2024.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 26,
+    "Title": "Lok Nritya Training Camp 2023",
+    "Description": "GEC Patan students participated in GTU’s Lok Nritya Training Camp 2023 from April 11–17 at Somnath Sanskrit University, Veraval. The camp offered immersive training in folk dances like Garba and Hudo. Students gained rhythm, stage skills, and deep cultural insights—honoring Gujarat’s rich traditions through joyful learning and vibrant performances.",
+    "EventDate": "2024-04-11",
+    "EventTime": "",
+    "Year": 2023,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "LNTC 2023",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/LNTC_2023.pdf"
+      }
+    ]
   }
 ]
