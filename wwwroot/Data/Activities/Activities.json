@@ -144,7 +144,6 @@
       }
     ]
   },
-
   {
     "ID": 13,
     "Title": "Career Guidance Seminar",
@@ -295,9 +294,9 @@
     "Files": [
       {
         "ID": 1,
-        "Title": "PDMC 2024",
+        "Title": "PDTC 2024",
         "FileType": "PDF",
-        "FilePath": "~/Gymkhana/PDMC_2024.pdf"
+        "FilePath": "~/Gymkhana/PDTC_2024.pdf"
       }
     ]
   },
