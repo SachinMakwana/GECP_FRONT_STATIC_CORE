@@ -34,12 +34,28 @@
     //    "ActionName": "Tenders"
     //},
 
-  {
-    "ID": 5,
-    "Title": "વર્ષ ૨૦૨૫-૨૬ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
-    "IsFile": 1,
-    "FileLink": "~/ImpDocs/Important_Instructions_2025_26.pdf",
-    "ControllerName": "",
-    "ActionName": ""
-  }
+    {
+        "ID": 5,
+        "Title": "વર્ષ ૨૦૨૫-૨૬ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
+        "IsFile": 1,
+        "FileLink": "~/ImpDocs/Important_Instructions_2025_26.pdf",
+        "ControllerName": "",
+        "ActionName": ""
+    },
+    {
+        "ID": 6,
+        "Title": "Canteen Tender Notice, GEC Patan 2025-26",
+        "IsFile": 1,
+        "FileLink": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
+        "ControllerName": "",
+        "ActionName": ""
+    },
+    {
+        "ID": 7,
+        "Title": "Mess Tender Notice, GEC Patan 2025-26",
+        "IsFile": 1,
+        "FileLink": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
+        "ControllerName": "",
+        "ActionName": ""
+    }
 ]

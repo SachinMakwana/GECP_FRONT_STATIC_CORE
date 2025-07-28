@@ -92,7 +92,13 @@
                             else
                             {
                                 <li class="dropdown yamm-fw">
-                                    @if (string.IsNullOrWhiteSpace(item.ActionName))
+                                    @if (item.dynamicID != null)
+                                    {
+                                        <a href="@Url.Action(item.ActionName, item.ControllerName, new { id = item.dynamicID })">
+                                            @item.MenuText
+                                        </a>
+                                    }
+                                    else if (string.IsNullOrWhiteSpace(item.ActionName))
                                     {
                                         <a href="javascript:void(0)">
                                             @item.MenuText

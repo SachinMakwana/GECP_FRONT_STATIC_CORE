@@ -65,7 +65,7 @@
                     {
                         foreach (var item in Model.YearSection)
                         {
-                            @foreach (var yearItem in item.Documents)
+                            @foreach (var yearItem in item.Documents.Where(m=>m.isShow))
                             {
                                 <tr>
                                     <td class="text-center">@count</td>

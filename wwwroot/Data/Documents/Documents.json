@@ -399,5 +399,50 @@
                 ]
             }
         ]
+    },
+    {
+        "Id": 100, //committee id
+        "Title": "Downloads",
+        "YearSection": [
+            {
+                "Year": "July/2025",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
+                        "File": "~/DataFiles/Documents/Downloads/કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": true,
+                        "MonthYear": "July/2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
+                        "File": "~/DataFiles/Documents/Downloads/કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "MonthYear": "July/2025",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Canteen Tender Notice_GEC Patan_2025-26",
+                        "File": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Mess Tender Notice_GEC P_2025-26",
+                        "File": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false
+                    }
+                ]
+            }
+        ]
     }
 ]
