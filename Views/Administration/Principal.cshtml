@@ -39,7 +39,7 @@
         <div class="p-4">
             <ul class="tabs3">
                 @*<li class="tab-link current" data-tab="tab-0">Principal's Message</li>*@
-                <li class="tab-link" data-tab="tab-1">Personal Details</li>
+                <li class="tab-link current" data-tab="tab-1">Personal Details</li>
                 <li class="tab-link" data-tab="tab-5">Experience</li>
                 <li class="tab-link" data-tab="tab-2">Educational Qualifications</li>
                 <li class="tab-link" data-tab="tab-3">Publications Summary</li>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <!-- Tab 1: Personal Details -->
-                <div id="tab-1" class="tab-content">
+                <div id="tab-1" class="tab-content current">
                     <ul>
                         <li><strong>Name:</strong> @Model.Name</li>
                         <li><strong>Designation:</strong> @Model.Designation</li>
@@ -212,7 +212,7 @@
                 </div>
 
                 <!-- Tab 9: Memberships -->
-                <div id="tab-9" class="tab-content current">
+                <div id="tab-9" class="tab-content">
                     <ul>
                         @foreach (var mem in Model.Memberships)
                         {
