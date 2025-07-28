@@ -58,7 +58,7 @@
 
                     <ul>
 
-                        @foreach (var item in yearSec.Documents)
+                        @foreach (var item in yearSec.Documents.Where(m => m.isShow))
                         {
                             @if (count % 5 != 0)
                             {

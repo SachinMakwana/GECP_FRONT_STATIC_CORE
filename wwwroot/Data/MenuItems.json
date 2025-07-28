@@ -871,8 +871,18 @@
                 "ChildMenuVMs": []
             }
         ]
+    },
+    {
+        "ID": 101,
+        "MenuText": "Downloads",
+        "ParentID": null,
+        "dynamicID": 100,
+        "ControllerName": "Documents",
+        "ActionName": "TableView",
+        "position": 10,
+        "isVisible": true,
+        "ChildMenuVMs": []
     }
-  
-  
+
 
 ]
