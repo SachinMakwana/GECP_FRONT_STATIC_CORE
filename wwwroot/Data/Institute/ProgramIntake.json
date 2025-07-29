@@ -1,0 +1,27 @@
+﻿[
+  {
+    "ProgramName": "Electronics And Communication Engineering",
+    "Intake": 30,
+    "CourseCode": "11"
+  },
+  {
+    "ProgramName": "Civil Engineering",
+    "Intake": 60,
+    "CourseCode": "06"
+  },
+  {
+    "ProgramName": "Computer Science & Engineering",
+    "Intake": 120,
+    "CourseCode": "31"
+  },
+  {
+    "ProgramName": "Electrical Engineering",
+    "Intake": 60,
+    "CourseCode": "09"
+  },
+  {
+    "ProgramName": "Mechanical Engineering",
+    "Intake": 60,
+    "CourseCode": "19"
+  }
+]

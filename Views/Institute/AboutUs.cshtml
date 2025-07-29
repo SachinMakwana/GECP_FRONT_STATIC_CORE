@@ -1,4 +1,5 @@
-﻿@{
+﻿@model AboutUsVM
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "About Us";
 }
@@ -6,12 +7,10 @@
 
 <div class="page_title3 engg_title">
     <div class="container">
-
         <h1>
-            About Us 
+            @Model.Title
             <div class="line"></div>
         </h1>
-
     </div>
 </div>
 <!-- end page title -->
@@ -28,13 +27,10 @@
         <div class="one_half">
 
             <div id="owl-demo2" class="owl-carousel">
-
-                <div><img src="@Url.Content("~/images/Institute/AboutUs/clg3.jpeg")" alt="" class="rimg"></div>
-
-                <div><img src="@Url.Content("~/images/Institute/AboutUs/clg1.jpg")" alt="" class="rimg"></div>
-
-                @*<div><img src="@Url.Content("~/images/convocation.jpg")" alt="" class="rimg"></div>*@
-
+                @foreach (var imagePath in Model.ImagePaths)
+                {
+                    <div><img src="@Url.Content(imagePath)" alt="" class="rimg"></div>
+                }
             </div>
 
         </div>
@@ -48,61 +44,35 @@
 
             @*<h5 class="gray">Will cover many web sites still in their infancy various versions have evo packages over the years.</h5>*@
 
-            <p>
-                Government Engineering College, Patan was established in April 2004 with three branches Computer Engineering, Electronics and Communication Engineering and Mechanical Engineering each with intake of 60 totaling to 180. The institute was initially functioning in the premises of the K. D. Polytechnic, Patan temporarily. It was shifted to its own newly built up green premise in August 2008 at Katpur village on Chanasma- Patan road 8 kms before Patan. 
-                <br />
-                Two more branches of Electrical Engineering and Civil Engineering each with intake of 60 were introduced from June- 2009. The intake of Electronics and communication was reduced to 30 and Mechanical Engineering was reduced to 90 from 2020. Currently institute have total intake 330.
-            </p>
+            <p>@Html.Raw(Model.History)</p>
 
             <div class="clearfix marb12"></div>
             <table class="table table-striped table-bordered">
-                <tbody>
+                <thead>
                     <tr>
                         <th style="text-align:left;">Program</th>
-
                         <th style="text-align:center;">Present Intake</th>
                         <th style="text-align:center;">Course Code as per (GTU)</th>
                     </tr>
-                    <tr>
-                        <td align="left">Electronics And Communication Engineering</td>
-
-                        <td align="center">30</td>
-                        <td align="center">11</td>
-                    </tr>
-                    <tr>
-                        <td align="left">Civil Engineering</td>
-
-                        <td align="center">60</td>
-                        <td align="center">06</td>
-                    </tr>
-                    <tr>
-                        <td align="left">Computer Science & Engineering</td>
-
-                        <td align="center">120</td>
-                        <td align="center">31</td>
-                    </tr>
-
-                    <tr>
-                        <td align="left">Electrical Engineering</td>
-
-                        <td align="center">60</td>
-                        <td align="center">09</td>
-                    </tr>
-
-                    <tr style="border-bottom: 1px solid #e7e7e7;">
-                        <td align="left">Mechanical Engineering</td>
-
-                        <td align="center">60</td>
-                        <td align="center">19</td>
-                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var program in Model.Programs)
+                    {
+                        <tr>
+                            <td align="left">@program.ProgramName</td>
+                            <td align="center">@program.Intake</td>
+                            <td align="center">@program.CourseCode</td>
+                        </tr>
+                    }
                 </tbody>
             </table>
         </div>
         <!-- end section -->
 
     </div>
-    <!-- end all sections -->
-    @* <div class="margin_top7"></div>
+</div>
+<!-- end all sections -->
+@* <div class="margin_top7"></div>
 
     <div class="vision_section">
         <div class="clearfix margin-top5"></div>
@@ -134,11 +104,11 @@
 
     </div> *@
 
-    <!-- end featured section 14 -->
-    @* <div class="margin_top7"></div> *@
+<!-- end featured section 14 -->
+@* <div class="margin_top7"></div> *@
 
 
-   @*  <div class="featured_section19">
+@*  <div class="featured_section19">
         <div class="full-container text-justify">
 
             <div class="who animate" data-anim-type="fadeInLeft" data-anim-delay="400">
@@ -161,52 +131,52 @@
             </div>
         </div>
     </div> *@
-    <!-- end featured section 19 -->
-@section styles{
-        <style>
-            .text-center {
-                text-align: center !important;
+<!-- end featured section 19 -->
+@section styles {
+    <style>
+        .text-center {
+            text-align: center !important;
+        }
+
+        .large-text {
+            font-size: 20px;
+        }
+
+        .one_half ul {
+            list-style: none; /* Removes default bullets */
+            padding-left: 0;
+        }
+
+            .one_half ul li {
+                display: flex;
+                align-items: center; /* Aligns text with the icon */
+                gap: 10px; /* Adds space between the icon and text */
+                margin-bottom: 8px; /* Adds spacing between list items */
             }
 
-            .large-text {
-                font-size: 20px;
-            }
-
-            .one_half ul {
-                list-style: none; /* Removes default bullets */
-                padding-left: 0;
-            }
-
-                .one_half ul li {
-                    display: flex;
-                    align-items: center; /* Aligns text with the icon */
-                    gap: 10px; /* Adds space between the icon and text */
-                    margin-bottom: 8px; /* Adds spacing between list items */
+                .one_half ul li i {
+                    color: #007bff; /* Change color as needed */
+                    font-size: 18px; /* Adjust icon size */
                 }
 
-                    .one_half ul li i {
-                        color: #007bff; /* Change color as needed */
-                        font-size: 18px; /* Adjust icon size */
-                    }
+        .vision-container {
+            text-align: center; /* Centers inline elements like <i> */
+            margin-top: 10px;
+        }
 
-            .vision-container {
-                text-align: center; /* Centers inline elements like <i> */
-                margin-top: 10px;
+            .vision-container i {
+                font-size: 60px; /* Adjust the size as needed */
+                color: #007bff; /* Blue color */
             }
 
-                .vision-container i {
-                    font-size: 60px; /* Adjust the size as needed */
-                    color: #007bff; /* Blue color */
-                }
+        .large-text {
+            font-size: 25px;
+            text-align: center; /* Centers the paragraph text */
+        }
 
-            .large-text {
-                font-size: 25px;
-                text-align: center; /* Centers the paragraph text */
-            }
-
-            .text-justify {
-                font-size: 18px;
-            }
-        </style>
+        .text-justify {
+            font-size: 18px;
+        }
+    </style>
 
 }
