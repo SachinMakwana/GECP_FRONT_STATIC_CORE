@@ -63,7 +63,7 @@
         }
         @if (Model.Team?.Count > 0)
         {
-            <button class="tablinks" onclick="openTab(event, 'Team')">Team</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact Us</button>
         }
     </div>
 
@@ -168,7 +168,7 @@
                 <br><br>
                 <p class="text-justify">@Model.Functions.Description</p>
                 <br>
-                <img src="@Url.Content(Model.Functions.Image)" alt="Functions" class="img-responsive" />
+                <img class="rimg" src="@Url.Content(Model.Functions.Image)" alt="Functions" class="img-responsive" />
 
                 <div class="margin_top2"></div>
 
@@ -364,11 +364,12 @@
                     }
 
                     <!-- Internship Instructions -->
-                    @if (Model.StudentPolicy.InternshipInstructions?.Any() == true)
+                    @if (Model.StudentPolicy.InternshipOffers?.Any() == true)
                     {
-                        <h4 class="text-primary">Internship Instructions</h4>
+                        <h4 class="text-primary">Internship Offers
+                        </h4>
                         <ul>
-                            @foreach (var item in Model.StudentPolicy.InternshipInstructions)
+                            @foreach (var item in Model.StudentPolicy.InternshipOffers)
                             {
                                 <li><i class="fa fa-check text-success"></i> @item</li>
                             }
@@ -443,34 +444,20 @@
         </div>
     }
 
-    <!-- RECRUITER INFO -->
+    @* <!-- RECRUITER INFO -->
     <div id="RecruiterInfo" class="tabcontent">
         <div class="featured_section106">
             <div class="full-container">
                 <div class="margin_top2"></div>
-                <h2 class="roboto thin">Why Recruit From Us</h2>
+                <h2 class="roboto thin">For Recruiters/Industry HR</h2>
                 <div class="hsmline7"></div>
                 <br><br>
-                <ul>
-                    @foreach (var point in Model.RecruiterDetails.WhyRecruitFromUs)
-                    {
-                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(point)</li>
-                    }
-                </ul>
+                <div class="text-justify">
+                    <p class="bigtfont text-justify overflowCommittes">
+                        @Html.Raw(Model.RecruiterDetails.Content)
+                    </p>
 
-                <div class="margin_top2"></div>
-                <h2 class="roboto thin">Placement Policy</h2>
-                <div class="hsmline7"></div> <br><br>
-                <ul>
-                    @foreach (var rule in Model.RecruiterDetails.PlacementPolicy)
-                    {
-                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(rule)</li>
-                    }
-                </ul>
-                <div class="margin_top2"></div>
-                <h2 class="roboto thin">Program Intake</h2>
-                <div class="hsmline7"></div>
-                <br><br>
+                </div>
                 <ul>
                     @if (Model.RecruiterDetails.Courses != null && Model.RecruiterDetails.Courses.Count > 0)
                     {
@@ -495,6 +482,27 @@
                             </tbody>
                         </table>
                     }
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Why Recruit From Us</h2>
+                <div class="hsmline7"></div>
+                <br><br>
+                <ul>
+                    @foreach (var point in Model.RecruiterDetails.WhyRecruitFromUs)
+                    {
+                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(point)</li>
+                    }
+                </ul>
+
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Placement Policy for Recruiters</h2>
+                <div class="hsmline7"></div> <br><br>
+                <ul>
+                    @foreach (var rule in Model.RecruiterDetails.PlacementPolicy)
+                    {
+                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(rule)</li>
+                    }
+                </ul>
+                <br><br>
 
                     @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink) || !string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
                     {
@@ -507,18 +515,154 @@
                             </a>
                         </p>
                     }
+                    <br>
+                    <br>
+
+                    @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink) ||
+                                        !string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
+                    {
+                        <div class="mb-3">
+                            <p>
+                                <strong>Download TNP Cell Brochure:</strong>
+                                <a href="@Url.Content(Model.RecruiterDetails.BrochureLink)" target="_blank" class="btn btn-primary ms-2">
+                                    View Brochure
+                                </a>
+                            </p>
+
+                            <p>
+                                @Model.RecruiterDetails.ProposalInstruction
+                            </p>
+
+                            <a href="@Model.RecruiterDetails.ProposalFormLink" target="_blank" class="btn btn-success">
+                                Fill Placement Proposal
+                            </a>
+
+                            <p class="mt-2">
+                                OR contact a team member via our
+                                <a href="/ContactUs" class="text-decoration-underline">Contact Us</a> page.
+                            </p>
+                        </div>
+                    }
+
+            </div>
+        </div>
+    </div> *@
+    <div id="RecruiterInfo" class="tabcontent">
+        <div class="featured_section106">
+            <div class="full-container">
+
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">For Recruiters / Industry HR</h2>
+                <div class="hsmline7"></div>
+                <br><br>
+
+                <!-- Intro Content -->
+                <div class="text-justify">
+                    <p class="bigtfont text-justify overflowCommittes">
+                        @Html.Raw(Model.RecruiterDetails.Content)
+                    </p>
+                </div>
+
+                <!-- Courses Table -->
+                @if (Model.RecruiterDetails.Courses != null && Model.RecruiterDetails.Courses.Count > 0)
+                {
+                    <div class="margin_top2"></div>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Sr No</th>
+                                <th>Program Name</th>
+                                <th>Intake</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                var Coursecount = 1;
+                            }
+                            @foreach (var course in Model.RecruiterDetails.Courses)
+                            {
+                                <tr>
+                                    <td>@Coursecount</td>
+                                    <td>@course.ProgramName</td>
+                                    <td>@course.Intake</td>
+                                </tr>
+                                Coursecount++;
+                            }
+                        </tbody>
+                    </table>
+                }
+
+                <!-- Why Recruit From Us -->
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Why Recruit From Us</h2>
+                <div class="hsmline7"></div>
+                <br><br>
+                <ul>
+                    @foreach (var point in Model.RecruiterDetails.WhyRecruitFromUs)
+                    {
+                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(point)</li>
+                    }
+                </ul>
+
+                <!-- Placement Policy -->
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Placement Policy for Recruiters</h2>
+                <div class="hsmline7"></div>
+                <br><br>
+                <ul>
+                    @foreach (var rule in Model.RecruiterDetails.PlacementPolicy)
+                    {
+                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(rule)</li>
+                    }
+                </ul>
+
+               @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink) ||
+                                !string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
+                {
+                    <div class="margin_top2 mb-3">
+                        <p>
+                            @Model.RecruiterDetails.ProposalInstruction
+                        </p>
+
+                        <a href="@Model.RecruiterDetails.ProposalFormLink" target="_blank" class="btn btn-success">
+                            Fill Placement Proposal
+                        </a>
+                        <br><br>
+                        <p>
+                            <strong>Download TNP Cell Brochure:</strong>
+                            <a href="@Url.Content(Model.RecruiterDetails.BrochureLink)" target="_blank" class="btn btn-primary ms-2">
+                                View Brochure
+                            </a>
+                        </p>
+                        <br><br>
+                    </div>
+                }
             </div>
         </div>
     </div>
 
     <!-- Team -->
-    @* <div id="Team" class="tabcontent">
+    <div id="Contact" class="tabcontent table-responsive">
         <div class="featured_section30">
-            @if (Model.Team != null && Model.Team.Count() > 0)
+            @if (Model.Team != null && Model.Team.Any())
             {
                 <div class="full-container">
+                    <!-- Contact Us -->
                     <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-                        TNP Cell Team
+                        Contact Us
+                    </h1>
+                    <div class="text-justify mb-4">
+                        <p class="bigtfont text-justify overflowCommittes">
+                            <strong>Email:</strong> <a href="mailto:@Model.Contact.Email">@Model.Contact.Email</a>
+                        </p>
+                        <p class="bigtfont text-justify overflowCommittes">
+                            <strong>Address:</strong> @Html.Raw(Model.Contact.Address)
+                        </p>
+                    </div>
+
+                    <!-- Team Members -->
+                    <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                        Team Members
                     </h1>
 
                     @{
@@ -529,11 +673,7 @@
                     {
                         <div class="one_half animate @(teamcount % 2 == 0 ? "last" : "")" data-anim-type="fadeIn" data-anim-delay="400">
                             <img src="@Url.Content(item.Image)" alt="@item.Name" style="max-width: 150px; height: auto;" />
-                            <h5>@item.Name <em>@item.Position</em></h5>
-                            @if (!string.IsNullOrWhiteSpace(item.Contact))
-                            {
-                                <p><strong>Contact:</strong> @item.Contact</p>
-                            }
+                            <h5>@item.Name <em>@item.Position</em><em>@item.Email</em><em>@item.Contact</em></h5>
                         </div>
 
                         <div class="@(teamcount % 2 == 0 ? "clearfix margin_top5" : "")"></div>
@@ -542,49 +682,33 @@
                 </div>
             }
         </div>
-    </div> *@
-    <div id="Team" class="tabcontent">
+    </div>
+   @* <div id="Contact" class="tabcontent">
         <div class="featured_section30">
             @if (Model.Team != null && Model.Team.Count() > 0)
             {
                 <div class="full-container">
                     <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-                        TNP Cell Team
+                        Contact Us
                     </h1>
-
-                    <table class="table table-bordered table-striped">
-                        <thead>
-                            <tr>
-                                <th>Faculty Name</th>
-                                <th>Designation</th>
-                                <th>Contact</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var member in Model.Team)
-                            {
-                                <tr>
-                                    <td>@member.Name</td>
-                                    <td>
-                                        @if (!string.IsNullOrEmpty(member.Position))
-                                        {
-                                            @member.Position
-                                        }
-                                        else if (!string.IsNullOrEmpty(member.Position))
-                                        {
-                                            @member.Position
-                                        }
-                                    </td>
-                                    <td>@member.Contact</td>
-                                </tr>
-                            }
-                        </tbody>
-                    </table>
+                        <div class="text-justify">
+                            <p class="bigtfont text-justify overflowCommittes">
+                                <strong>Email:</strong> @Html.Raw(Model.Contact.Email)
+                            </p>
+                            <p class="bigtfont text-justify overflowCommittes">
+                                <strong>Address:</strong> @Html.Raw(Model.Contact.Address)
+                            </p>
+                        </div>
+                    
+                    <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                        Team Members
+                    </h1>
+                    
                 </div>
             }
         </div>
     </div>
-
+    *@
 </div>
 
 

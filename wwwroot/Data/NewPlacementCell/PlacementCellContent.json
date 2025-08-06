@@ -1,6 +1,6 @@
 {
   "ID": 1,
-  "Title": "Placement Cell",
+  "Title": "Training And Placement Cell",
   "TitleImage": "",
   "TitleImageCSSClass": "",
   "About": "Training and Placement of Government Engineering College, Patan is an essential foundation of the Institute. It plays a crucial role for student's future by assist students in achieving their career objectives by developing employment-seeking skills and finally securing desired positions. This is achieved by continues interaction of alumni, and industries.",
@@ -385,7 +385,7 @@
       "ReportLink": "~/NewPlacementCell/9. Civil Services Exam Seninar Report.pdf"
     },
     {
-      "SrNo": 10,
+      "SrNo": 10, 
       "ActivityName": "Technical Skill Workshop",
       "Period": "Jan/Feb Aug/Sept",
       "TargetStudents": "All semester",
@@ -394,15 +394,14 @@
   ],
   "StudentPolicy": {
     "PolicyText": [
-      "Students must participate in the company�s interview process for Internship or Job only if they are fully agreed with the company�s bond, terms and conditions mentioned in job proposal.",
-      "The institution or department faculties will not be responsible for any such matters. All decisions and agreements will be solely between the student and the company.",
-      "Once placed in a company, the student will be out of the placement process unless Institute placement coordinator allows it via bond-related NOC."
+      "Students must participate in the company’s interview process for Internship or Job only if they are fully agreed with the company’s bond, terms and conditions mentioned in job proposal. The institution or department faculties will not be responsible for any such matters. All decisions and agreements will be solely between the student and the company.",
+      "Once placed in a company, the student will be out of the placement process unless : Institute placement coordinator can allow student to appear for other company if student provide bond related NOC from the previous company."
     ],
-    "InternshipInstructions": [
+    "InternshipOffers": [
       "Contact Your Department Placement coordinator for Internship through institute",
       "Must Fill the Internship data in Link Provided by placement Coordinator."
     ],
-    "DressCode": [
+    "Dress Code & Behavior": [
       "Formal attire is mandatory during interviews or recruitment drives.",
       "Maintain professionalism and discipline throughout."
     ],
@@ -440,7 +439,7 @@
 
   },
   "RecruiterDetails": {
-    "Content": "The T&P Cell welcomes companies for campus recruitment of our talented engineering students. We cordially invite you for five Courses students� placement opportunities.",
+    "Content": "The T&P Cell welcomes companies for campus recruitment of our talented engineering students. We cordially invite you for five Courses students placement opportunities.",
     "WhyRecruitFromUs": [
       "Well-trained students in technologies",
       "Well Established Infrastructure for Interview Process"
@@ -451,6 +450,7 @@
       "Adhere to Bond, Training & Salary package as per mention in Placement Proposal."
     ],
     "BrochureLink": "~/NewPlacementCell/Broucher/Placement_Cell_Broucher.pdf",
+    "ProposalInstruction": "For any vacancies kindly fill out the Placement Proposal Form using the link below considering placement policies for recruiters mentioned on this website :",
     "ProposalFormLink": "https://forms.gle/P4e1WqM7S6F9DdTu5",
     "Email": "tnp.gecp@gmail.com"
   },
@@ -464,44 +464,50 @@
       "Name": "Dr. S.G. Prajapati",
       "Position": "TPO",
       "Image": "~/images/Faculty/307.jpg",
+      "Email": "sohan.prajapati@gecpatan.ac.in",
       "Contact": "9825564580"
-
     },
     {
       "Name": "Prof. Mehul Vasava",
       "Position": "Assistant TPO",
       "Image": "~/images/Faculty/211.jpg",
+      "Email": "mehul.vasava@gecpatan.ac.in",
       "Contact": "8460227447"
     },
     {
       "Name": "Prof. H.R Trivedi",
       "Position": "Member-Civil dept.",
       "Image": "~/images/Faculty/804.jpg",
+      "Email": "hardik.trivedi@gecpatan.ac.in",
       "Contact": "9722335587"
     },
     {
       "Name": "Dr. K.V. Patel",
       "Position": "Member-Mechanical dept.",
       "Image": "~/images/Faculty/516.jpg",
+      "Email": "kaushik.patel@gecpatan.ac.in",
       "Contact": "~"
     },
     {
       "Name": "Prof. Dharmesh.K. Patel",
       "Position": "Member-Mechanical Dept.",
       "Image": "~/images/Faculty/517.jpg",
-      "Contact": "83470 55235"
+      "Email": "dharmesh.patel@gecpatan.ac.in",
+      "Contact": "8347055235"
     },
     {
       "Name": "Prof. D.U. Bavisa",
       "Position": "Member-CSE Dept.",
       "Image": "~/images/Faculty/210.jpg",
-      "Contact": "99746 23421"
+      "Email": "divyesh.bavisa@gecpatan.ac.in",
+      "Contact": "9974623421"
     },
     {
       "Name": "Dr. J.C. Prajapati",
       "Position": "Member-EC Dept.",
       "Image": "~/images/Faculty/103.jpg",
-      "Contact": "98245 49615"
+      "Email": "jayesh.prajapati@gecpatan.ac.in",
+      "Contact": "9824549615"
     }
   ]
 }
