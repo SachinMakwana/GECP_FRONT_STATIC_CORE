@@ -89,6 +89,9 @@ namespace GECP_Front_End_Static.Models
 		public List<string> Vision { get; set; }
 		public List<string> Mission { get; set; }
 		public string Books { get; set; }
+        public string Books_Hyperlink { get; set; }
+        public string ONOS_IMG { get; set; }
+        public string ONOS_LINK { get; set; }
         public string Periodicals { get; set; }
         public string Reports { get; set; }
         public string Biography { get; set; }

@@ -1,40 +1,43 @@
 ﻿{
-  "Title": "Library",
-  "Titleimage": "../../images/ssip_banner.jpg",
-  "TitleImageCSSClass": "ssip_title",
-  "Content": "On the basis of quality education, the library of the institute has been developed quite efficiently by the supportive faculties and is being updated constantly in order to avail our student's maximum knowledge and provide them a base to explore the future. It helps to keep the students updated with the latest technology and trends.",
-  "Vision": [ "To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources." ],
-  "Mission": ["To develop, organize, provide access to and preserve materials to meet the needs of present and future generations of students and scholars."],
-  "Books": "11000+ Books",
-  "Periodicals": "14000+ Periodicals",
-  "Reports": "2400+ Research Reports",
-  "Biography": "87489+ Biography",
-  "TagLine": "<h1 class=\"animate\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“A Library is not Luxury its...<b>neccessity of Life.” ...</b></h1>",
-  "Members": [
-    {
-      "ID": 1,
-      "Name": "Dr. U.A. Patel",
-      "Position": "Convener",
-      "Department": "Mechanical Engineering",
-      "Image": "~/images/Faculty/522.jpg",
-      "Email": "utkarshkumar.patel@gecpatan.ac.in"
-    },
-    {
-        "ID": 2,
-        "Name": "Prof. Y. B. Patel",
-        "Position": "Member",
-        "Department": "Computer Science & Engineering",
-        "Image": "~/images/Faculty/209.jpg",
-        "Email": "yogesh.patel@gecpatan.ac.in"
-    },
-    {
-        "ID": 3,
-        "Name": "Ms. Reenaben Dasharathbhai Prajapati",
-        "Position": "Member",
-        "Department": "Computer Science & Engineering",
-        "Image": "~/images/Faculty/219.png",
-        "Email": "reena.prajapati@gecpatan.ac.in"
-    }
+    "Title": "Library",
+    "Titleimage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "ssip_title",
+    "Content": "On the basis of quality education, the library of the institute has been developed quite efficiently by the supportive faculties and is being updated constantly in order to avail our student's maximum knowledge and provide them a base to explore the future. It helps to keep the students updated with the latest technology and trends.",
+    "Vision": [ "To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources." ],
+    "Mission": [ "To develop, organize, provide access to and preserve materials to meet the needs of present and future generations of students and scholars." ],
+    "Books": "11011+ Books",
+    "Books_Hyperlink": "https://drive.google.com/file/d/1p7fU0vS_i3b86u_5T5RNOMwmaBeMJ5tO/view?usp=drive_link",
+    "ONOS_IMG": "~/images/Library/onos-logo.png",
+    "ONOS_LINK": "https://onos.gov.in/ums/check-access",
+    "Periodicals": "14000+ Periodicals",
+    "Reports": "2400+ Research Reports",
+    "Biography": "87489+ Biography",
+    "TagLine": "<h1 class=\"animate\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“A Library is not Luxury its...<b>neccessity of Life.” ...</b></h1>",
+    "Members": [
+        {
+            "ID": 1,
+            "Name": "Dr. U.A. Patel",
+            "Position": "Convener",
+            "Department": "Mechanical Engineering",
+            "Image": "~/images/Faculty/522.jpg",
+            "Email": "utkarshkumar.patel@gecpatan.ac.in"
+        },
+        {
+            "ID": 2,
+            "Name": "Prof. Y. B. Patel",
+            "Position": "Member",
+            "Department": "Computer Science & Engineering",
+            "Image": "~/images/Faculty/209.jpg",
+            "Email": "yogesh.patel@gecpatan.ac.in"
+        },
+        {
+            "ID": 3,
+            "Name": "Ms. Reenaben Dasharathbhai Prajapati",
+            "Position": "Member",
+            "Department": "Computer Science & Engineering",
+            "Image": "~/images/Faculty/219.png",
+            "Email": "reena.prajapati@gecpatan.ac.in"
+        }
 
-  ]
+    ]
 }

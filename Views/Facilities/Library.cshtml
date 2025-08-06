@@ -13,7 +13,7 @@
 	<div class="container">
 
 		<h1>
-			@Model.Title <em>Government Engineering College</em>
+			@Model.Title 
 			<div class="line"></div>
 		</h1>
 
@@ -40,33 +40,32 @@
 			<!-- end section -->
 
 			<div class="one_half last">
-
-				<div class="box animate" data-anim-type="fadeInUp" data-anim-delay="100">
-					<i class="fa fa-book"></i>
-					<h4 class="roboto">@Model.Books</h4>
-					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
+				<div class="clearfix margin_top5"></div>
+				<div class="box animate" data-anim-type="fadeInUp" data-anim-delay="100" style="min-height:170px">
+					<a href="@Model.Books_Hyperlink" target="_blank">
+						<h4 class="roboto">Access</h4>
+						<i class="fa fa-book"></i>
+						<h4 class="roboto">@Model.Books</h4>
+					</a>
 				</div>
-				<!-- end box -->
 
 				<div class="box two animate" data-anim-type="fadeInUp" data-anim-delay="150">
-					<i class="fa fa-book"></i>
-					<h4 class="roboto">@Model.Periodicals</h4>
-					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
+					<a href="@Model.ONOS_LINK" target="_blank">
+						<img src="@Url.Content(Model.ONOS_IMG)" class="rimg" />
+						@* <h4 class="roboto">@Model.Periodicals</h4> *@
+					</a>
 				</div>
-				<!-- end box -->
 
-				<div class="box three animate" data-anim-type="fadeInUp" data-anim-delay="200">
+				@* 	<div class="box three animate" data-anim-type="fadeInUp" data-anim-delay="200">
 					<i class="fa fa-bookmark"></i>
 					<h4 class="roboto">@Model.Reports</h4>
-					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
+					
 				</div>
-				<!-- end box -->
 
 				<div class="box four animate" data-anim-type="fadeInUp" data-anim-delay="250">
 					<i class="fa fa-user"></i>
 					<h4 class="roboto">@Model.Biography</h4>
-					@*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
-				</div>
+				</div> *@
 				<!-- end box -->
 
 			</div>
@@ -169,7 +168,7 @@
 <div class="clearfix"></div>
 
 <div class="content_fullwidth" style="padding: 0 !important">
-	<img src="@Url.Content("~/images/Library/lib.jpg")" alt="" class="rimg"/>
+	<img src="@Url.Content("~/images/Library/lib.jpg")" alt="" class="rimg" />
 </div>
 <div class="clearfix" style="background: #5076bb !important"></div>
 
