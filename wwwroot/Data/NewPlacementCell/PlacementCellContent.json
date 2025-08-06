@@ -1,0 +1,326 @@
+{
+  "ID": 1,
+  "Title": "Placement Cell",
+  "TitleImage": "",
+  "TitleImageCSSClass": "",
+  "About": "Training and Placement of Government Engineering College, Patan is an essential foundation of the Institute. It plays a crucial role for student's future by assist students in achieving their career objectives by developing employment-seeking skills and finally securing desired positions. This is achieved by continues interaction of alumni, and industries.",
+  "Measures": "Training and Placement Committee measures its success by tracking metrics like placement rate, average salary of placed students, student satisfaction with the placement process, number of companies visiting campus, pre-placement training effectiveness, student preparedness for interviews, and employer feedback on recruit.",
+  "Measure_Image": "~/images/T&P.png",
+  "Vision": [
+    "To guide and prepare students for their careers by providing knowledge about career opportunities, training for interviews, and organizing campus recruitment drives for a successful future."
+  ],
+  "Mission": [
+    "To educate students about various career options, assist them in setting career goals, and provide training to improve their employability.",
+    "To build strong industry connections by inviting companies for campus recruitment and understanding their hiring needs.",
+    "To enhance student's technical and soft skills through workshops, seminars, and interview preparation sessions.",
+    "To efficiently coordinate the entire placement process, from student registration to final interviews.",
+    "To continuously improve placement activities by collecting and analyzing feedback from recruiters and students."
+  ],
+  "Objectives": [
+    "To guide students about different career options.",
+    "To train students for interviews, group discussions, and aptitude tests.",
+    "To arrange campus recruitment drives by inviting companies.",
+    "To provide career counseling and support for students.",
+    "To help students get internships and industry exposure."
+  ],
+  "Functions": {
+    "Title": "Functions of TNP Cell",
+    "Description": "The TNP Cell of GEC Patan works strategically in three main directions for comprehensive placement support of students.",
+    "Image": "~/images/Placement/Function.png",
+    "FunctionsInform": [
+      "About jobs, higher studies, and business opportunities after B.E by Career Guidance Seminar.",
+      "About Civil Services Exam (UPSC, GPSC) Career Scope and Guidance.",
+      "About pathway to Entrepreneurship."
+    ],
+    "FunctionsPrepare": [
+      "By Conducting mock interviews and group discussions to build confidence",
+      "Finishing School programs to improve communication and soft skills",
+      "Organizing technical workshops to build practical knowledge"
+    ],
+    "FunctionsOrganize": [
+      "Industry HR meets for strengthen institute industry relations & signing MoUs for placement.",
+      "ON-OFF Campus Placement Drives",
+      "Mega Placement Camp"
+    ]
+  },
+  "Statistics": [
+    {
+      "Department": "Institute Students Placement",
+      "Graphs": [
+        {
+          "Image": "~/NewPlacementCell/Statistics/InstituteStatistics.png"
+        }
+      ]
+    },
+    {
+      "Department": "Electronics And Communication",
+      "Graphs": [
+        {
+          "Year": "2024-25",
+          "Image": "~/NewPlacementCell/Statistics/EC_2024-2025.png"
+        },
+        {
+          "Year": "2023-24",
+          "Image": "~/NewPlacementCell/Statistics/EC_2023-2024.png"
+        },
+        {
+          "Year": "2022-23",
+          "Image": "~/NewPlacementCell/Statistics/EC_2022-2023.png"
+        }
+      ]
+    },
+    {
+      "Department": "Computer Science",
+      "Graphs": [
+        {
+          "Year": "2024-25",
+          "Image": "~/NewPlacementCell/Statistics/CSE_2024-2025.png"
+        },
+        {
+          "Year": "2023-24",
+          "Image": "~/NewPlacementCell/Statistics/CSE_2023-2024.png"
+        },
+        {
+          "Year": "2022-23",
+          "Image": "~/NewPlacementCell/Statistics/CSE_2022-2023.png"
+        }
+      ]
+    },
+    {
+      "Department": "Electrical",
+      "Graphs": [
+        {
+          "Year": "2024-25",
+          "Image": "~/NewPlacementCell/Statistics/EE_2024-2025.png"
+        },
+        {
+          "Year": "2023-24",
+          "Image": "~/NewPlacementCell/Statistics/EE_2023-2024.png"
+        },
+        {
+          "Year": "2022-23",
+          "Image": "~/NewPlacementCell/Statistics/EE_2022-2023.png"
+        }
+      ]
+    },
+    {
+      "Department": "Mechanical",
+      "Graphs": [
+        {
+          "Year": "2024-25",
+          "Image": "~/NewPlacementCell/Statistics/ME_2024-2025.png"
+        },
+        {
+          "Year": "2023-24",
+          "Image": "~/NewPlacementCell/Statistics/ME_2023-2024.png"
+        },
+        {
+          "Year": "2022-23",
+          "Image": "~/NewPlacementCell/Statistics/ME_2022-2023.png"
+        }
+      ]
+    },
+    {
+      "Department": "Civil",
+      "Graphs": [
+        {
+          "Year": "2024-25",
+          "Image": "~/NewPlacementCell/Statistics/CE_2024-2025.png"
+        },
+        {
+          "Year": "2023-24",
+          "Image": "~/NewPlacementCell/Statistics/CE_2023-2024.png"
+        },
+        {
+          "Year": "2022-23",
+          "Image": "~/NewPlacementCell/Statistics/CE_2022-2023.png"
+        }
+      ]
+    }
+  ],
+  "TopRecruiters": [],
+  "ActivitiesCalendar": [
+    {
+      "SrNo": 1,
+      "ActivityName": "Career Guidance Seminar",
+      "Period": "February/Sept",
+      "TargetStudents": "All Sem",
+      "ReportLink": "~/NewPlacementCell/1. Career Gidance Report.pdf"
+    },
+    {
+      "SrNo": 2,
+      "ActivityName": "Entrepreneurship Awareness Program",
+      "Period": "Jan/Feb",
+      "TargetStudents": "Pre-Final Year",
+      "ReportLink": "~/NewPlacementCell/2. Entrepreneurship Awareness Program.pdf"
+    },
+    {
+      "SrNo": 3,
+      "ActivityName": "Mock Interview",
+      "Period": "August/April",
+      "TargetStudents": "Pre-Final Year",
+      "ReportLink": "~/NewPlacementCell/3. Mock Interview Reports.pdf"
+    },
+    {
+      "SrNo": 4,
+      "ActivityName": "Finishing School",
+      "Period": "Jan/Feb & July/Aug",
+      "TargetStudents": "Final and Pre-Final Year",
+      "ReportLink": "~/NewPlacementCell/4. Finishing School Report.pdf"
+    },
+    {
+      "SrNo": 5,
+      "ActivityName": "Mega Placement Camp",
+      "Period": "Feb/March",
+      "TargetStudents": "Final Year",
+      "ReportLink": "~/NewPlacementCell/5. Placement Camp-Reports.pdf"
+    },
+    {
+      "SrNo": 6,
+      "ActivityName": "Placement Drive",
+      "Period": "Sept/Oct",
+      "TargetStudents": "Final Year",
+      "ReportLink": "~/NewPlacementCell/6. Placement Drive.pdf"
+    },
+    {
+      "SrNo": 7,
+      "ActivityName": "On Campus Placement",
+      "Period": "July to Dec",
+      "TargetStudents": "Final Year & Pass out",
+      "ReportLink": ""
+    },
+    {
+      "SrNo": 8,
+      "ActivityName": "Off-Campus Placement",
+      "Period": "Year",
+      "TargetStudents": "Final Year & Pass out",
+      "ReportLink": ""
+    },
+    {
+      "SrNo": 9,
+      "ActivityName": "Civil Services Exam Seminar",
+      "Period": "August/Sept",
+      "TargetStudents": "Final Year",
+      "ReportLink": "~/NewPlacementCell/9. Civil Services Exam Seninar Report.pdf"
+    },
+    {
+      "SrNo": 10,
+      "ActivityName": "Technical Skill Workshop",
+      "Period": "Jan/Feb Aug/Sept",
+      "TargetStudents": "All semester",
+      "ReportLink": "~/NewPlacementCell/10. Technical Workshops.pdf"
+    }
+  ],
+  "StudentPolicy": {
+    "PolicyText": [
+      "Students must participate in the company�s interview process for Internship or Job only if they are fully agreed with the company�s bond, terms and conditions mentioned in job proposal.",
+      "The institution or department faculties will not be responsible for any such matters. All decisions and agreements will be solely between the student and the company.",
+      "Once placed in a company, the student will be out of the placement process unless Institute placement coordinator allows it via bond-related NOC."
+    ],
+    "InternshipInstructions": [
+      "Contact Your Department Placement coordinator for Internship through institute",
+      "Must Fill the Internship data in Link Provided by placement Coordinator."
+    ],
+    "DressCode": [
+      "Formal attire is mandatory during interviews or recruitment drives.",
+      "Maintain professionalism and discipline throughout."
+    ],
+    "OfferLetterPolicy": [
+      "Once students placed by TNP Cell, any offer accepted must be reported to TNP Cell",
+      "Students cannot directly contact the company without informing the cell.",
+      "If you received direct offer letter by recruiter, Send offer letter soft copy to TNP Cell Coordinator"
+    ],
+    "Downloads": [
+      {
+        "Name": "Application Form for Internship",
+        "Path": "~/NewPlacementCell/Templates/Application_Form.pdf"
+      },
+      {
+        "Name": "Resume Templates",
+        "Path": "~/NewPlacementCell/Templates/Resume_Templates.doc"
+      },
+      {
+        "Name": "Mock Interview Preparation Documents",
+        "Path": "~/NewPlacementCell/Templates/Mock_Interview_Docs.pdf"
+      },
+      {
+        "Name": "Video on Personal Interview Skill",
+        "Path": "~/NewPlacementCell/Templates/Personal_Interview_Skill.pdf"
+      },
+      {
+        "Name": "Previous Years Internship Data",
+        "Path": "~/NewPlacementCell/Templates/Previous_Year_Internship_Data.pdf"
+      },
+      {
+        "Name": "Alumni Placement Data",
+        "Path": "~/NewPlacementCell/Templates/Alumni_Placement_Data.pdf"
+      }
+    ]
+
+  },
+  "RecruiterDetails": {
+    "Content": "The T&P Cell welcomes companies for campus recruitment of our talented engineering students. We cordially invite you for five Courses students� placement opportunities.",
+    "WhyRecruitFromUs": [
+      "Well-trained students in technologies",
+      "Well Established Infrastructure for Interview Process"
+    ],
+    "PlacementPolicy": [
+      "Minimum Annual Salary package must be 3.0 Lac or More",
+      "Once students selected, must provide offer letter to placement coordinator.",
+      "Adhere to Bond, Training & Salary package as per mention in Placement Proposal."
+    ],
+    "BrochureLink": "~/NewPlacementCell/Broucher/Placement_Cell_Broucher.pdf",
+    "ProposalFormLink": "https://forms.gle/P4e1WqM7S6F9DdTu5",
+    "Email": "tnp.gecp@gmail.com"
+  },
+  "SuccessStoriesNote": "~/NewPlacementCell/Alumni_Success_Stories.pdf",
+  "Contact": {
+    "Address": "Training & Placement Cell, Government Engineering College, Patan, At Katpur, On Patan-Chansma Highway, Near Rajpur Circle, Ta & Dist: Patan",
+    "Email": "tnp.gecp@gmail.com"
+  },
+  "Team": [
+    {
+      "Name": "Dr. S.G. Prajapati",
+      "Position": "TPO",
+      "Image": "~/images/Faculty/307.jpg",
+      "Contact": "9825564580"
+
+    },
+    {
+      "Name": "Prof. Mehul Vasava",
+      "Position": "Assistant TPO",
+      "Image": "~/images/Faculty/211.jpg",
+      "Contact": "8460227447"
+    },
+    {
+      "Name": "Prof. H.R Trivedi",
+      "Position": "Member-Civil dept.",
+      "Image": "~/images/Faculty/804.jpg",
+      "Contact": "9722335587"
+    },
+    {
+      "Name": "Dr. K.V. Patel",
+      "Position": "Member-Mechanical dept.",
+      "Image": "~/images/Faculty/516.jpg",
+      "Contact": "~"
+    },
+    {
+      "Name": "Prof. Dharmesh.K. Patel",
+      "Position": "Member-Mechanical Dept.",
+      "Image": "~/images/Faculty/517.jpg",
+      "Contact": "83470 55235"
+    },
+    {
+      "Name": "Prof. D.U. Bavisa",
+      "Position": "Member-CSE Dept.",
+      "Image": "~/images/Faculty/210.jpg",
+      "Contact": "99746 23421"
+    },
+    {
+      "Name": "Dr. J.C. Prajapati",
+      "Position": "Member-EC Dept.",
+      "Image": "~/images/Faculty/103.jpg",
+      "Contact": "98245 49615"
+    }
+  ]
+}

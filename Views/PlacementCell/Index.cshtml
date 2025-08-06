@@ -1,0 +1,564 @@
+﻿@model GECP_Front_End_Static.Models.PlacementCellContent
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.Title;
+    int count = 1;
+}
+
+<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top; background-size: cover;">
+    <div class="full-container">
+        <h1>
+            @Model.Title
+            <div class="line"></div>
+        </h1>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+<div class="margin_top10"></div>
+
+<div class="full-container">
+    <div class="tab hidden-xs">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+        }
+        @if (Model.Objectives?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Objectives')">Objectives</button>
+        }
+        @if (Model.Functions != null)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Functions')">Functions</button>
+        }
+        @if (Model.Statistics?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Statistics')">Placement Statistics</button>
+        }
+        @if (Model.TopRecruiters?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'TopRecruiters')">TOP Recruiters</button>
+        }
+        @if (Model.ActivitiesCalendar?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'ActivitiesCalendar')">Activities Calendar & Reports</button>
+        }
+        @if (Model.StudentPolicy != null)
+        {
+            <button class="tablinks" onclick="openTab(event, 'StudentPlacementPolicy')">For Student</button>
+        }
+        @if (Model.RecruiterDetails != null)
+        {
+            <button class="tablinks" onclick="openTab(event, 'RecruiterInfo')">For Recruiters</button>
+        }
+        @if (Model.SuccessStoriesNote != null)
+        {
+            <a href="@Url.Content(@Model.SuccessStoriesNote)" target="_blank" class="tablinks">
+                <button class="tablinks">
+                    Success Stories
+                </button>
+            </a>
+        }
+        @if (Model.Team?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Team')">Team</button>
+        }
+    </div>
+
+    <!-- ABOUT TAB -->
+    <div id="About" class="tabcontent">
+        <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
+            <div class="full-container">
+
+
+                <div class="container center-block">
+
+                    @* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
+                    <img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
+
+                </div>
+                <div class="clearfix margin_top1"></div>
+                <div class="text-justify">
+
+                    <h4 class="color3 margin_bottom2">About @Model.Title</h4>
+                    <p class="bigtfont text-justify overflowCommittes">
+                        @Html.Raw(Model.About)
+                    </p>
+                    <div class="clearfix margin_top3"></div>
+                    @if (!string.IsNullOrWhiteSpace(Model.Measures))
+                    {
+
+                        <h4 class="color3 margin_bottom2">@Model.Title Measures</h4>
+
+                        <div class="bigtfont text-justify overflowCommittes">
+                            @Html.Raw(Model.Measures)
+                        </div>
+                    }
+                </div>
+                <!-- end section -->
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- VISION & MISSION -->
+    <div id="VisionMission" class="tabcontent">
+        <div class="featured_section106" style="background-color:white">
+            <div style="padding-left:10px;">
+
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Vision </h2>
+                <div class="hsmline7"></div>
+
+                <br><br>
+                @foreach (var obj in Model.Vision)
+                {
+                    <h4 class="roboto thin text-justify"> @obj</h4>
+                }
+
+                <div class="clearfix margin_top2"></div>
+
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Mission </h2>
+                <div class="hsmline7"></div>
+
+                <br><br>
+                @foreach (var obj in Model.Mission)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+                }
+
+                <div class="margin_top2"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- OBJECTIVES -->
+    <div id="Objectives" class="tabcontent">
+        <div class="featured_section106">
+            <div class="full-container">
+
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Objectives </h2>
+                <div class="hsmline7"></div>
+
+                <br><br>
+                @foreach (var obj in Model.Objectives)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+                }
+
+                <div class="margin_top2"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Functions -->
+    <div id="Functions" class="tabcontent">
+        <div class="featured_section106">
+            <div class="full-container">
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">@Model.Functions.Title</h2>
+                <div class="hsmline7"></div>
+                <br><br>
+                <p class="text-justify">@Model.Functions.Description</p>
+                <br>
+                <img src="@Url.Content(Model.Functions.Image)" alt="Functions" class="img-responsive" />
+
+                <div class="margin_top2"></div>
+
+                <!-- Inform -->
+                <h3 class="roboto thin">Inform</h3>
+                <div class="hsmline7"></div>
+                <br><br>
+                @foreach (var item in Model.Functions.FunctionsInform)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(item)</h4>
+                }
+
+                <div class="margin_top2"></div>
+
+                <!-- Prepare -->
+                <h3 class="roboto thin">Prepare</h3>
+                <div class="hsmline7"></div>
+                <br><br>
+                @foreach (var item in Model.Functions.FunctionsPrepare)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(item)</h4>
+                }
+
+                <div class="margin_top2"></div>
+
+                <!-- Organize -->
+                <h3 class="roboto thin">Organize</h3>
+                <div class="hsmline7"></div>
+                <br><br>
+                @foreach (var item in Model.Functions.FunctionsOrganize)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(item)</h4>
+                }
+
+                <div class="margin_top2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Placement Statistics -->
+    @if (Model.Statistics != null && Model.Statistics.Any())
+    {
+        <div id="Statistics" class="tabcontent">
+            <div class="featured_section106">
+                <div class="full-container">
+                    <div class="margin_top2"></div>
+                    <h2 class="roboto thin">Placement Statistics</h2>
+                    <div class="hsmline7"></div>
+                    <br><br>
+
+                    @foreach (var stat in Model.Statistics)
+                    {
+                        <div class="department-section">
+                            <h3>@stat.Department</h3>
+
+                            @if (stat.Graphs != null && stat.Graphs.Any())
+                            {
+                                <div class="graph-container">
+                                    @foreach (var graph in stat.Graphs)
+                                    {
+                                        <div class="graph-item" style="margin-bottom: 20px;">
+                                            @if (!string.IsNullOrEmpty(graph.Year))
+                                            {
+                                                <p><strong>Year:</strong> @graph.Year</p>
+                                            }
+                                            <img src="@Url.Content(graph.Image)" alt="Placement Graph" style="max-width: 100%; height: auto;" />
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Placement Activities Calendar -->
+    @if (Model.ActivitiesCalendar != null && Model.ActivitiesCalendar.Any())
+    {
+        <div id="ActivitiesCalendar" class="tabcontent">
+            <div class="featured_section106">
+                <div class="full-container">
+                    <div class="margin_top2"></div>
+                    <h2 class="roboto thin">Placement Activities Calendar</h2>
+                    <div class="hsmline7"></div>
+                    <br><br>
+
+                    <table style="width:100%; border-collapse:collapse; text-align:center;">
+                        <thead style="background-color:#2d2d2d; color:white">
+                            <tr>
+                                <th style="padding:10px; border:1px solid #aaa;">Sr. No.</th>
+                                <th style="padding:10px; border:1px solid #aaa;">Activity Name</th>
+                                <th style="padding:10px; border:1px solid #aaa;">Period</th>
+                                <th style="padding:10px; border:1px solid #aaa;">For Students</th>
+                                <th style="padding:10px; border:1px solid #aaa;">Download Reports</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var activity in Model.ActivitiesCalendar)
+                            {
+                                <tr>
+                                    <td style="padding:10px; border:1px solid #aaa;">@activity.SrNo</td>
+                                    <td style="padding:10px; border:1px solid #aaa;">@activity.ActivityName</td>
+                                    <td style="padding:10px; border:1px solid #aaa;">@activity.Period</td>
+                                    <td style="padding:10px; border:1px solid #aaa;">@activity.TargetStudents</td>
+                                    <td style="padding:10px; border:1px solid #aaa;">
+                                        @if (!string.IsNullOrEmpty(activity.ReportLink))
+                                        {
+                                            <a href="@Url.Content(activity.ReportLink)" target="_blank" style="color:deepskyblue; text-decoration: none;">
+                                                Click Here
+                                            </a>
+                                        }
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+  
+    @if (Model.StudentPolicy != null)
+    {
+        <div id="StudentPlacementPolicy" class="tabcontent">
+            <div class="featured_section106">
+                <div class="full-container">
+                    <div class="margin_top2"></div>
+                    <h2 class="roboto thin">Student Placement Policy</h2>
+                    <div class="hsmline7"></div>
+                    <br />
+
+                    <!-- General Policy -->
+                    @if (Model.StudentPolicy.PolicyText?.Any() == true)
+                    {
+                        <h4 class="text-primary">General Policy</h4>
+                        <ul>
+                            @foreach (var item in Model.StudentPolicy.PolicyText)
+                            {
+                                <li><i class="fa fa-check text-success"></i> @item</li>
+                            }
+                        </ul>
+                    }
+
+                    <!-- Internship Instructions -->
+                    @if (Model.StudentPolicy.InternshipInstructions?.Any() == true)
+                    {
+                        <h4 class="text-primary">Internship Instructions</h4>
+                        <ul>
+                            @foreach (var item in Model.StudentPolicy.InternshipInstructions)
+                            {
+                                <li><i class="fa fa-check text-success"></i> @item</li>
+                            }
+                        </ul>
+                    }
+
+                    <!-- Dress Code -->
+                    @if (Model.StudentPolicy.DressCode?.Any() == true)
+                    {
+                        <h4 class="text-primary">Dress Code</h4>
+                        <ul>
+                            @foreach (var item in Model.StudentPolicy.DressCode)
+                            {
+                                <li><i class="fa fa-check text-success"></i> @item</li>
+                            }
+                        </ul>
+                    }
+
+                    <!-- Offer Letter Policy -->
+                    @if (Model.StudentPolicy.OfferLetterPolicy?.Any() == true)
+                    {
+                        <h4 class="text-primary">Offer Letter Policy</h4>
+                        <ul>
+                            @foreach (var item in Model.StudentPolicy.OfferLetterPolicy)
+                            {
+                                <li><i class="fa fa-check text-success"></i> @item</li>
+                            }
+                        </ul>
+                    }
+                    @if (Model.StudentPolicy.Downloads?.Any() == true)
+                    {
+                        <h4 class="fw-bold text-white">Download Templates</h4>
+                        <ul class="list-unstyled ms-3">
+                            @foreach (var item in Model.StudentPolicy.Downloads)
+                            {
+                                <li class="mb-2">
+                                    <i class="fa fa-circle text-secondary me-2" style="font-size: 6px;"></i>
+                                    <a href="@Url.Content(item.Path)"
+                                       download
+                                       target="_blank"
+                                       class="text-decoration-none text-white">
+                                        @item.Name
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    }
+
+
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- RECRUITER INFO -->
+    <div id="RecruiterInfo" class="tabcontent">
+        <div class="featured_section106">
+            <div class="full-container">
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Why Recruit From Us</h2>
+                <div class="hsmline7"></div>
+                <br><br>
+                <ul>
+                    @foreach (var point in Model.RecruiterDetails.WhyRecruitFromUs)
+                    {
+                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(point)</li>
+                    }
+                </ul>
+
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Placement Policy</h2>
+                <div class="hsmline7"></div> <br><br>
+                <ul>
+                    @foreach (var rule in Model.RecruiterDetails.PlacementPolicy)
+                    {
+                        <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(rule)</li>
+                    }
+                </ul>
+
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Program Intake</h2>
+                <div class="hsmline7"></div>
+                <br><br>
+                <ul>
+                    @if (Model.RecruiterDetails.Courses != null && Model.RecruiterDetails.Courses.Count > 0)
+                    {
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Sr No</th>
+                                    <th>Program Name</th>
+                                    <th>Intake</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var course in Model.RecruiterDetails.Courses)
+                                {
+                                    <tr>
+                                        <td>@count</td>
+                                        <td>@course.ProgramName</td>
+                                        <td>@course.Intake</td>
+                                    </tr>
+                                    count++;
+                                }
+                            </tbody>
+                        </table>
+                    }
+
+                    @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink))
+                    {
+                        <p>
+                            <a href="@Url.Content(Model.RecruiterDetails.BrochureLink)" target="_blank" class="btn btn-primary">
+                                View Brochure
+                            </a>
+                        </p>
+                    }
+
+                    @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
+                    {
+                        <p><a href="@Model.RecruiterDetails.ProposalFormLink" target="_blank" class="btn btn-success">Fill Placement Proposal</a></p>
+                    }
+            </div>
+        </div>
+    </div>
+
+    <!-- Team -->
+    @* <div id="Team" class="tabcontent">
+        <div class="featured_section30">
+            @if (Model.Team != null && Model.Team.Count() > 0)
+            {
+                <div class="full-container">
+                    <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                        TNP Cell Team
+                    </h1>
+
+                    @{
+                        var teamcount = 1;
+                    }
+
+                    @foreach (var item in Model.Team)
+                    {
+                        <div class="one_half animate @(teamcount % 2 == 0 ? "last" : "")" data-anim-type="fadeIn" data-anim-delay="400">
+                            <img src="@Url.Content(item.Image)" alt="@item.Name" style="max-width: 150px; height: auto;" />
+                            <h5>@item.Name <em>@item.Position</em></h5>
+                            @if (!string.IsNullOrWhiteSpace(item.Contact))
+                            {
+                                <p><strong>Contact:</strong> @item.Contact</p>
+                            }
+                        </div>
+
+                        <div class="@(teamcount % 2 == 0 ? "clearfix margin_top5" : "")"></div>
+                        teamcount++;
+                    }
+                </div>
+            }
+        </div>
+    </div> *@
+    <div id="Team" class="tabcontent">
+        <div class="featured_section30">
+            @if (Model.Team != null && Model.Team.Count() > 0)
+            {
+                <div class="full-container">
+                    <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                        TNP Cell Team
+                    </h1>
+
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Faculty Name</th>
+                                <th>Designation</th>
+                                <th>Contact</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var member in Model.Team)
+                            {
+                                <tr>
+                                    <td>@member.Name</td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(member.Position))
+                                        {
+                                            @member.Position
+                                        }
+                                        else if (!string.IsNullOrEmpty(member.Position))
+                                        {
+                                            @member.Position
+                                        }
+                                    </td>
+                                    <td>@member.Contact</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+
+
+@section scripts {
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Set default tab
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("defaultOpen").click();
+        });
+    </script>
+}
+
+@section styles {
+        .department-section {
+        margin-bottom: 40px;
+    }
+    .graph-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .graph-item {
+        flex: 1 1 300px;
+    }
+
+}

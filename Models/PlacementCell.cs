@@ -14,16 +14,17 @@ namespace GECP_Front_End_Static.Models
         public string TitleImage { get; set; }
         public string TitleImageCSSClass { get; set; }
         public string About { get; set; }
+        public string Measures { get; set; }
+        public string Measure_Image { get; set; }
         public List<string> Vision { get; set; } = new List<string>();
         public List<string> Mission { get; set; } = new List<string>();
         public List<string> Objectives { get; set; }
         public FunctionTNPCell Functions { get; set; }
-
-        public PlacementStatistics Statistics { get; set; }
-
+        public List<PlacementStatistics> Statistics { get; set; }
+        public List<string> TopRecruiters { get; set; }
         public List<PlacementActivity> ActivitiesCalendar { get; set; }
 
-        public StudentPolicy StudentPlacementPolicy { get; set; }
+        public StudentPolicy StudentPolicy { get; set; }
 
         public RecruiterInfo RecruiterDetails { get; set; }
 
@@ -36,11 +37,14 @@ namespace GECP_Front_End_Static.Models
 
     public class PlacementStatistics
     {
-        public string Description { get; set; } // Placeholder since table was empty
-        public int TotalRecruitersVisited { get; set; }
-        public List<string> TopRecruiters { get; set; }
+        public string Department { get; set; }
+        public List<Graph> Graphs { get; set; }
     }
-
+    public class Graph
+    {
+        public string Year { get; set; }
+        public string Image { get; set; }
+    }
     public class PlacementActivity
     {
         public int SrNo { get; set; }
@@ -52,21 +56,25 @@ namespace GECP_Front_End_Static.Models
 
     public class StudentPolicy
     {
-        public string PolicyText { get; set; }
-        public string InternshipInstructions { get; set; }
-        public string DressCode { get; set; }
-        public string OfferLetterPolicy { get; set; }
-        public List<string> Downloads { get; set; }
+        public List<string> PolicyText { get; set; }
+        public List<string> InternshipInstructions { get; set; }
+        public List<string> DressCode { get; set; }
+        public List<string> OfferLetterPolicy { get; set; }
+        public List<DownloadItem> Downloads { get; set; }
+    }
+    public class DownloadItem
+    {
+        public string Name { get; set; }
+        public string Path { get; set; }
     }
 
     public class RecruiterInfo
     {
         public string Content { get; set; }
         public List<ProgramInfo> Courses { get; set; }
-        public string WhyRecruitFromUs { get; set; }
-        public string PlacementPolicy { get; set; }
+        public List<string> WhyRecruitFromUs { get; set; }
+        public List<string> PlacementPolicy { get; set; }
         public string BrochureLink { get; set; }
-        public string BrochureText { get; set; }
         public string ProposalFormLink { get; set; }
         public string Email { get; set; }
     }
@@ -75,6 +83,7 @@ namespace GECP_Front_End_Static.Models
     {
         public string Title { get; set; }
         public string Description { get; set; }
+        public string Image { get; set; }
         public List<string> FunctionsInform { get; set; }
         public List<string> FunctionsPrepare { get; set; }
         public List<string> FunctionsOrganize { get; set; }
