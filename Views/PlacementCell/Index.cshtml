@@ -223,7 +223,8 @@
                     {
                         <div class="department-section">
                             <h3>@stat.Department</h3>
-
+                            <div class="hsmline7"></div>
+                            <br><br>
                             @if (stat.Graphs != null && stat.Graphs.Any())
                             {
                                 <div class="graph-container">
@@ -232,7 +233,10 @@
                                         <div class="graph-item" style="margin-bottom: 20px;">
                                             @if (!string.IsNullOrEmpty(graph.Year))
                                             {
-                                                <p><strong>Year:</strong> @graph.Year</p>
+                                                <p><strong>Year:</strong> @graph.Year
+                                                    <div class="hsmline7"></div>
+                                                    <br><br>
+                                                </p>
                                             }
                                             <img src="@Url.Content(graph.Image)" alt="Placement Graph" style="max-width: 100%; height: auto;" />
                                         </div>
@@ -399,32 +403,41 @@
                     @if (Model.StudentPolicy.Downloads?.Any() == true)
                     {
                         <h4 class="fw-bold text-white">Download Templates</h4>
-                        <ul class="list-unstyled ms-3">
-                            @foreach (var item in Model.StudentPolicy.Downloads)
-                            {
-                                var extension = System.IO.Path.GetExtension(item.Path)?.ToLower();
-
-                                string fileIcon = "";
-                                if (extension == ".pdf")
-                                    fileIcon = "fa-file-pdf text-danger"; // PDF 
-                                else
-                                    fileIcon = "fa-file text-secondary"; // Generic file icon
-
-                                <li class="mb-2">
-                                    <i class="fa fa-circle text-secondary me-2" style="font-size: 6px;"></i>
-                                    <a href="@Url.Content(item.Path)"
-                                       download
-                                       target="_blank"
-                                       class="text-decoration-none text-white">
-                                        <i class="fa @fileIcon me-1"></i> @item.Name
-                                    </a>
-                                </li>
-                            }
-                        </ul>
+                        <table class="table table-bordered table-striped table-dark mt-2">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%">Sr No</th>
+                                    <th style="width: 60%">Title</th>
+                                    <th style="width: 30%">Download</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    int srNo = 1;
+                                }
+                                @foreach (var item in Model.StudentPolicy.Downloads)
+                                {
+                                    var extension = System.IO.Path.GetExtension(item.Path)?.ToLower();
+                                    string fileIcon = "";
+                                    if (extension == ".pdf")
+                                        fileIcon = "fa-file-download text-danger";                  
+                                    <tr>
+                                        <td>@srNo</td>
+                                        <td>@item.Name</td>
+                                        <td>
+                                            <a href="@Url.Content(item.Path)"
+                                               download
+                                               target="_blank"
+                                               class="btn btn-sm btn-primary">
+                                                <i class="fa @fileIcon me-1"></i> Download
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    srNo++;
+                                }
+                            </tbody>
+                        </table>
                     }
-
-
-
                 </div>
             </div>
         </div>
@@ -454,7 +467,6 @@
                         <li class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(rule)</li>
                     }
                 </ul>
-
                 <div class="margin_top2"></div>
                 <h2 class="roboto thin">Program Intake</h2>
                 <div class="hsmline7"></div>
@@ -484,18 +496,16 @@
                         </table>
                     }
 
-                    @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink))
+                    @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink) || !string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
                     {
                         <p>
                             <a href="@Url.Content(Model.RecruiterDetails.BrochureLink)" target="_blank" class="btn btn-primary">
                                 View Brochure
                             </a>
+                            <a href="@Model.RecruiterDetails.ProposalFormLink" target="_blank" class="btn btn-success">
+                                Fill Placement Proposal
+                            </a>
                         </p>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
-                    {
-                        <p><a href="@Model.RecruiterDetails.ProposalFormLink" target="_blank" class="btn btn-success">Fill Placement Proposal</a></p>
                     }
             </div>
         </div>
