@@ -298,9 +298,9 @@
     }
  <!--TOp Recruiters-->
 <div id="TopRecruiters" class="tabcontent">
-    @if (Model.TableView)
+    @if (Model.TopRecruitersTableView)
     {
-        <!-- Table View -->
+       <!-- Table View -->
         <div class="featured_section106">
             <div class="full-container">
                 <div class="margin_top2"></div>
@@ -314,17 +314,17 @@
                         <thead class="table-light">
                             <tr>
                                 <th style="width: 80px;">Sr. No</th>
-                                <th style="width: 250px;">Name</th>
-                                <th>Logo</th>
+                                <th style="width: 250px;">Company Name</th>
+                                <th>Company Logo</th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach (var recruiter in Model.TopRecruiters)
                             {
                                 <tr>
-                                    <td>@recruiter.SrNo</td>
-                                    <td>@recruiter.Name</td>
-                                    <td>
+                                    <td  class="text-center">@recruiter.SrNo</td>
+                                    <td  class="text-center">@recruiter.Name</td>
+                                    <td  class="text-center">
                                         <img src="@Url.Content(recruiter.LogoPath)"
                                              alt="@recruiter.Name Logo"
                                              style="max-height: 60px; object-fit: contain;" />
@@ -345,7 +345,7 @@
     }
     else
     {
-        <!-- Grid View -->
+       <!-- Grid View -->
         <div class="container">
             <div class="margin_top2"></div>
             <h2 class="roboto thin">Top Recruiters</h2>
@@ -365,10 +365,10 @@
                     </div>
                 }
             </div>
-        </div>
+        </div> 
     }
 </div>
-
+ 
 
     <!-- Placement Activities Calendar -->
     @if (Model.ActivitiesCalendar != null && Model.ActivitiesCalendar.Any())
@@ -637,7 +637,7 @@
     <!-- Contact Us -->
     <div id="Contact" class="tabcontent table-responsive">
       
-        @if (!Model.TableView)
+        @if (!Model.PlacementTeamTabelView)
         {
             <div class="featured_section30">
                 @if (Model.Team.Count() > 0)

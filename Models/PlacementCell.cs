@@ -35,6 +35,8 @@ namespace GECP_Front_End_Static.Models
         public List<Members> Team { get; set; }
 
         public bool TableView { get; set; } = false;
+        public bool TopRecruitersTableView { get; set; } = false;
+        public bool PlacementTeamTabelView { get; set; } = false;
     }
 
     public class PlacementStatistics
