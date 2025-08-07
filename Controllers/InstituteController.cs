@@ -21,8 +21,10 @@ namespace GECP_Front_End_Static.Controllers
         public List<TendersVM> ImpDocuments = new List<TendersVM>();
 
         public List<DocumentsVm> DocumentsVms = new List<DocumentsVm>();
+		public AboutUsVM AboutUsVM = new AboutUsVM();
+		public List<ProgramInfo> ProgramIntake = new List<ProgramInfo>();
 
-        public InstituteController(IWebHostEnvironment hostingEnvironment)
+		public InstituteController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
@@ -32,7 +34,7 @@ namespace GECP_Front_End_Static.Controllers
             string tendersjsonpath = webRootPath + @"\Data\Tenders\Tenders.json";
             string impDocsJsonpath = webRootPath + @"\Data\ImportantDocuments\documentItems.json";
 
-            var webClient = new WebClient();
+			var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
             //MOUModelVM = JsonConvert.DeserializeObject<List<MOUModel>>(json);
             DocumentsVms = JsonConvert.DeserializeObject<List<DocumentsVm>>(json);
@@ -54,10 +56,22 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(impDocsJsonpath);
             ImpDocuments = JsonConvert.DeserializeObject<List<TendersVM>>(json);
-        }
+
+			jsonpath = webRootPath + @"\Data\Institute\AboutUs.json";
+			webClient = new WebClient();
+			json = webClient.DownloadString(jsonpath);
+            AboutUsVM = JsonConvert.DeserializeObject<AboutUsVM>(json);
+
+			jsonpath = webRootPath + @"\Data\Institute\ProgramIntake.json";
+			webClient = new WebClient();
+			json = webClient.DownloadString(jsonpath);
+			ProgramIntake = JsonConvert.DeserializeObject<List<ProgramInfo>>(json);
+		}
         public IActionResult AboutUs()
         {
-            return View();
+            AboutUsVM.Programs = ProgramIntake;
+
+			return View(AboutUsVM);
         }
 
         public IActionResult CoE()

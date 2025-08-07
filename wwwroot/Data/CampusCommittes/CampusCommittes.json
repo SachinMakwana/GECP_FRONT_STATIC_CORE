@@ -733,214 +733,214 @@
         ]
     },
     //TPO
-    {
-        "ID": 9,
-        "Title": "Training and Placement Cell",
-        "TitleImage": "",
-        "TitleImageCSSClass": "placement_title",
-        "About": "Training and Placement of Government Engineering College, Patan is an essential foundation of the Institute. It plays a crucial role for student's future by assist students in achieving their career objectives by developing employment-seeking skills and finally securing desired positions. This is achieved by continues interaction of alumni, and industries.",
-        "Measures": "Training and Placement Committee measures its success by tracking metrics like placement rate, average salary of placed students, student satisfaction with the placement process, number of companies visiting campus, pre-placement training effectiveness, student preparedness for interviews, and employer feedback on recruit.",
-        "Measure_Image": "~/images/T&P.png",
-        "Vision": [
-            "<b>Developing industry-ready students: </b>Equipping students with technical expertise, soft skills, and relevant industry knowledge through training programs and workshops. ",
-            "<b>Building strong industry connections: </b>Actively engaging with companies to create diverse placement opportunities and maintain positive relationships with recruiters. ",
-            "<b>•\tPromoting career awareness: </b>Providing students with information about Job, study and Entrepreneurship opportunity after graduation in their field."
-        ],
-        "Mission": [
-            "Career development: Educate students about career options, help them identify their career goals, and provide necessary training to enhance their employability skills. ",
-            "Industry outreach: Actively engage with companies to invite them for campus recruitment drives, understand their hiring needs, and maintain positive relationships. ",
-            "Skill enhancement: Organize workshops, seminars, and training programs to develop students' technical, soft skills, and interview preparation abilities. ",
-            "Placement coordination: Manage the entire placement process, including student registration, company presentations, shortlisting candidates, and coordinating interviews. ",
-            "Feedback loop: Gather feedback from companies and students to continuously improve the training and placement process. "
-        ],
-        "SubObjectives": [
-            "Guide the students in terms of their job, study, and business scope in engineering.",
-            "Preparing students for placement by arranging mock interviews.",
-            "Arranging campus placement drives to provide the best opportunities to students"
-        ],
-        "SubObjImg": "",
-        "BulletPoints": [
-            "Industry was invited by email, personal visit, or telephone communication.",
-            "Industry may directly contact the placement officer through the website.",
-            "Industry data and links pertaining to vacancies were provided to the HR department of the industry. ",
-            "A Job Proposal for Students is created from the link response.",
-            "Response acquired from the list of interested students in the job proposal.",
-            "The list of students has been provided with Industry HR for reference.",
-            "Interviews may be conducted either on campus or at the industry location.",
-            "Arrangements at the campus include appropriate documentation and hospitality given by the Placement Cell. ",
-            "Feedback forms from the industry are collected. ",
-            "Offer letters are obtained from the industry."
-        ],
-        "BulletPointsImg": "",
-        "PageFlyer": "",
-        "Tagline": "<div class=\"featured_section38\"> <div class=\"container\"> <h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“In the middle of difficulty lies <b>opportunity.”</b></h1> </div> </div>",
-        "BlogLink": "",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Dr. S. G. Prajapati",
-                "Position": "Placement In-charge",
-                "Department": "Electrical Engineering Department",
-                "Image": "~/images/Faculty/307.jpg",
-                "Email": "tnp.gecp@gmail.com" //" tnp.gecp@gmail.com"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. H. R. Trivedi",
-                "Position": "Member",
-                "Department": "Applied Science",
-                "Image": "~/images/Faculty/804.jpg",
-                "Email": "hardik.trivedi@gecpatan.ac.in"
-            },
-            {
-                "ID": 3,
-                "Name": "Dr. U. A. Patel",
-                "Position": "Member",
-                "Department": "Mechanical Engineering",
-                "Image": "~/images/Faculty/522.jpg",
-                "Email": "utkarsh671975@gmaail.com"
-            },
-            {
-                "ID": 4,
-                "Name": "Prof. D. U. Bavisa",
-                "Position": "Member",
-                "Department": "Computer Science and Engineering",
-                "Image": "~/images/Faculty/210.jpg",
-                "Email": "tnp.gecp@gmail.com"
-            }
+    //{
+    //    "ID": 9,
+    //    "Title": "Training and Placement Cell",
+    //    "TitleImage": "",
+    //    "TitleImageCSSClass": "placement_title",
+    //    "About": "Training and Placement of Government Engineering College, Patan is an essential foundation of the Institute. It plays a crucial role for student's future by assist students in achieving their career objectives by developing employment-seeking skills and finally securing desired positions. This is achieved by continues interaction of alumni, and industries.",
+    //    "Measures": "Training and Placement Committee measures its success by tracking metrics like placement rate, average salary of placed students, student satisfaction with the placement process, number of companies visiting campus, pre-placement training effectiveness, student preparedness for interviews, and employer feedback on recruit.",
+    //    "Measure_Image": "~/images/T&P.png",
+    //    "Vision": [
+    //        "<b>Developing industry-ready students: </b>Equipping students with technical expertise, soft skills, and relevant industry knowledge through training programs and workshops. ",
+    //        "<b>Building strong industry connections: </b>Actively engaging with companies to create diverse placement opportunities and maintain positive relationships with recruiters. ",
+    //        "<b>•\tPromoting career awareness: </b>Providing students with information about Job, study and Entrepreneurship opportunity after graduation in their field."
+    //    ],
+    //    "Mission": [
+    //        "Career development: Educate students about career options, help them identify their career goals, and provide necessary training to enhance their employability skills. ",
+    //        "Industry outreach: Actively engage with companies to invite them for campus recruitment drives, understand their hiring needs, and maintain positive relationships. ",
+    //        "Skill enhancement: Organize workshops, seminars, and training programs to develop students' technical, soft skills, and interview preparation abilities. ",
+    //        "Placement coordination: Manage the entire placement process, including student registration, company presentations, shortlisting candidates, and coordinating interviews. ",
+    //        "Feedback loop: Gather feedback from companies and students to continuously improve the training and placement process. "
+    //    ],
+    //    "SubObjectives": [
+    //        "Guide the students in terms of their job, study, and business scope in engineering.",
+    //        "Preparing students for placement by arranging mock interviews.",
+    //        "Arranging campus placement drives to provide the best opportunities to students"
+    //    ],
+    //    "SubObjImg": "",
+    //    "BulletPoints": [
+    //        "Industry was invited by email, personal visit, or telephone communication.",
+    //        "Industry may directly contact the placement officer through the website.",
+    //        "Industry data and links pertaining to vacancies were provided to the HR department of the industry. ",
+    //        "A Job Proposal for Students is created from the link response.",
+    //        "Response acquired from the list of interested students in the job proposal.",
+    //        "The list of students has been provided with Industry HR for reference.",
+    //        "Interviews may be conducted either on campus or at the industry location.",
+    //        "Arrangements at the campus include appropriate documentation and hospitality given by the Placement Cell. ",
+    //        "Feedback forms from the industry are collected. ",
+    //        "Offer letters are obtained from the industry."
+    //    ],
+    //    "BulletPointsImg": "",
+    //    "PageFlyer": "",
+    //    "Tagline": "<div class=\"featured_section38\"> <div class=\"container\"> <h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“In the middle of difficulty lies <b>opportunity.”</b></h1> </div> </div>",
+    //    "BlogLink": "",
+    //    "Members": [
+    //        {
+    //            "ID": 1,
+    //            "Name": "Dr. S. G. Prajapati",
+    //            "Position": "Placement In-charge",
+    //            "Department": "Electrical Engineering Department",
+    //            "Image": "~/images/Faculty/307.jpg",
+    //            "Email": "tnp.gecp@gmail.com" //" tnp.gecp@gmail.com"
+    //        },
+    //        {
+    //            "ID": 2,
+    //            "Name": "Prof. H. R. Trivedi",
+    //            "Position": "Member",
+    //            "Department": "Applied Science",
+    //            "Image": "~/images/Faculty/804.jpg",
+    //            "Email": "hardik.trivedi@gecpatan.ac.in"
+    //        },
+    //        {
+    //            "ID": 3,
+    //            "Name": "Dr. U. A. Patel",
+    //            "Position": "Member",
+    //            "Department": "Mechanical Engineering",
+    //            "Image": "~/images/Faculty/522.jpg",
+    //            "Email": "utkarsh671975@gmaail.com"
+    //        },
+    //        {
+    //            "ID": 4,
+    //            "Name": "Prof. D. U. Bavisa",
+    //            "Position": "Member",
+    //            "Department": "Computer Science and Engineering",
+    //            "Image": "~/images/Faculty/210.jpg",
+    //            "Email": "tnp.gecp@gmail.com"
+    //        }
             
-        ],
-        "Activities": [
+    //    ],
+    //    "Activities": [
 
-            {
-                "ID": 1,
-                "Title": "Career Guidance Seminar",
-                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
-                "EventDate": "13/02/2025",
-                "EventTime": "10:30 AM to 12:30 PM",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 2,
-                "Title": "Mock interviews ",
-                "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-                "EventDate": "1/1/2025",
-                "EventTime": "10.30am  to 12.30pm",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Mock interviews",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
-                    }
-                ]
+    //        {
+    //            "ID": 1,
+    //            "Title": "Career Guidance Seminar",
+    //            "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
+    //            "EventDate": "13/02/2025",
+    //            "EventTime": "10:30 AM to 12:30 PM",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Career Guidance Seminar",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
+    //                }
+    //            ]
+    //        },
+    //        {
+    //            "ID": 2,
+    //            "Title": "Mock interviews ",
+    //            "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+    //            "EventDate": "1/1/2025",
+    //            "EventTime": "10.30am  to 12.30pm",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Mock interviews",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
+    //                }
+    //            ]
 
-            },
-            {
-                "ID": 3,
-                "Title": "Career Guidance  & Counseling",
-                "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
-                "EventDate": "13/03/2024",
-                "EventTime": "1:00 p.m. to 3:00 p.m.",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance  & Counseling",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 4,
-                "Title": "Career Guidance Awareness",
-                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
-                "EventDate": "14/02/2024",
-                "EventTime": "10.30am  to 12.30pm",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance Awareness",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/Career Guidance Awareness-14-2-2024.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 5,
-                "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
-                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
-                "EventDate": "02/03/2023",
-                "EventTime": "1:00 p.m. to 3:00 p.m.",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 6,
-                "Title": "Entrepreneurship after Engineering",
-                "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
-                "EventDate": "23/02/2023",
-                "EventTime": "10.30am  to 12.30pm",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Entrepreneurship after Engineering",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ENTREPRENIOR-23-2-2023.pdf"
-                    }
-                ]
-            },
+    //        },
+    //        {
+    //            "ID": 3,
+    //            "Title": "Career Guidance  & Counseling",
+    //            "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
+    //            "EventDate": "13/03/2024",
+    //            "EventTime": "1:00 p.m. to 3:00 p.m.",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Career Guidance  & Counseling",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
+    //                }
+    //            ]
+    //        },
+    //        {
+    //            "ID": 4,
+    //            "Title": "Career Guidance Awareness",
+    //            "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+    //            "EventDate": "14/02/2024",
+    //            "EventTime": "10.30am  to 12.30pm",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Career Guidance Awareness",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/Career Guidance Awareness-14-2-2024.pdf"
+    //                }
+    //            ]
+    //        },
+    //        {
+    //            "ID": 5,
+    //            "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+    //            "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
+    //            "EventDate": "02/03/2023",
+    //            "EventTime": "1:00 p.m. to 3:00 p.m.",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
+    //                }
+    //            ]
+    //        },
+    //        {
+    //            "ID": 6,
+    //            "Title": "Entrepreneurship after Engineering",
+    //            "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
+    //            "EventDate": "23/02/2023",
+    //            "EventTime": "10.30am  to 12.30pm",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Entrepreneurship after Engineering",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/ENTREPRENIOR-23-2-2023.pdf"
+    //                }
+    //            ]
+    //        },
 
-            {
-                "ID": 7,
-                "Title": "Career Guidance Seminar",
-                "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
-                "EventDate": "28/02/2023",
-                "EventTime": "1:00 p.m. to 3:00 p.m.",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Entrepreneurship after Engineering",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/Career Guidance-28-2-2023.pdf"
-                    }
-                ]
-            },
-            {
-                "ID": 8,
-                "Title": "Entrepreneurship Awareness Seminar",
-                "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
-                "EventDate": "24/12/2021",
-                "EventTime": "10.30am  to 12.30pm",
-                "Files": [
-                    {
-                        "ID": 1,
-                        "Title": "Entrepreneurship Awareness Seminar",
-                        "FileType": "PDF",
-                        "FilePath": "~/PlacementCell/ENTREPRENIOR-24-12-2021.pdf"
-                    }
-                ]
-            }
-        ],
-        "ShowDocument": true,
-        "TabTitles": {
-            "SubObjectives": "Objectives",
-            "Documents": "Reports"
-        }
-    },
+    //        {
+    //            "ID": 7,
+    //            "Title": "Career Guidance Seminar",
+    //            "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+    //            "EventDate": "28/02/2023",
+    //            "EventTime": "1:00 p.m. to 3:00 p.m.",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Entrepreneurship after Engineering",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/Career Guidance-28-2-2023.pdf"
+    //                }
+    //            ]
+    //        },
+    //        {
+    //            "ID": 8,
+    //            "Title": "Entrepreneurship Awareness Seminar",
+    //            "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
+    //            "EventDate": "24/12/2021",
+    //            "EventTime": "10.30am  to 12.30pm",
+    //            "Files": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Entrepreneurship Awareness Seminar",
+    //                    "FileType": "PDF",
+    //                    "FilePath": "~/PlacementCell/ENTREPRENIOR-24-12-2021.pdf"
+    //                }
+    //            ]
+    //        }
+    //    ],
+    //    "ShowDocument": true,
+    //    "TabTitles": {
+    //        "SubObjectives": "Objectives",
+    //        "Documents": "Reports"
+    //    }
+    //},
     //Alumni
     {
         "ID": 11,
