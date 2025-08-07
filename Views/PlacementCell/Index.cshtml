@@ -66,6 +66,54 @@
             <button class="tablinks" onclick="openTab(event, 'Contact')">Contact Us</button>
         }
     </div>
+    <!--Responsive for Mobile View-->
+    <div class="tab-xs visible-xs">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+        }
+        @if (Model.Objectives?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Objectives')">Objectives</button>
+        }
+        @if (Model.Functions != null)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Functions')">Functions</button>
+        }
+        @if (Model.Statistics?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Statistics')">Placement Statistics</button>
+        }
+        @if (Model.TopRecruiters?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'TopRecruiters')">TOP Recruiters</button>
+        }
+        @if (Model.ActivitiesCalendar?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'ActivitiesCalendar')">Activities Calendar & Reports</button>
+        }
+        @if (Model.StudentPolicy != null)
+        {
+            <button class="tablinks" onclick="openTab(event, 'StudentPlacementPolicy')">For Student</button>
+        }
+        @if (Model.RecruiterDetails != null)
+        {
+            <button class="tablinks" onclick="openTab(event, 'RecruiterInfo')">For Recruiters</button>
+        }
+        @if (Model.SuccessStoriesNote != null)
+        {
+            <a href="@Url.Content(@Model.SuccessStoriesNote)" target="_blank" class="tablinks">
+                <button class="tablinks">
+                    Success Stories
+                </button>
+            </a>
+        }
+        @if (Model.Team?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact Us</button>
+        }
+    </div>
 
     <!-- ABOUT TAB -->
     <div id="About" class="tabcontent">
