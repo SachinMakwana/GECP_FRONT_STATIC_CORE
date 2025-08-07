@@ -569,25 +569,36 @@
                     }
                 </ul>
 
-               @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink) ||
-                                !string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
+               @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink) || !string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
                 {
                     <div class="margin_top2 mb-3">
-                        <h4>
-                            @Model.RecruiterDetails.ProposalInstruction
-                            <a href="@Model.RecruiterDetails.ProposalFormLink" target="_blank" class="btn btn-success">
-                                Fill Placement Proposal
-                            </a>
-                        </h4>
+                        <table class="table table-bordered">
+                            <tbody>
+                                @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.ProposalFormLink))
+                                {
+                                    <tr>
+                                        <th>@Model.RecruiterDetails.ProposalInstruction</th>
+                                        <td>
+                                            <a href="@Model.RecruiterDetails.ProposalFormLink" target="_blank" class="btn btn-success">
+                                                Fill Placement Proposal
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
 
-                        <br>
-                        <h4>
-                            <strong>Download TNP Cell Brochure:</strong>
-                            <a href="@Url.Content(Model.RecruiterDetails.BrochureLink)" target="_blank" class="btn btn-primary ms-2">
-                                View Brochure
-                            </a>
-                        </h4>
-                        <br><br>
+                                @if (!string.IsNullOrWhiteSpace(Model.RecruiterDetails.BrochureLink))
+                                {
+                                    <tr>
+                                        <th>Download TNP Cell Brochure</th>
+                                        <td>
+                                            <a href="@Url.Content(Model.RecruiterDetails.BrochureLink)" target="_blank" class="btn btn-primary">
+                                                View Brochure
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
                     </div>
                 }
             </div>
