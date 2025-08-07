@@ -45,137 +45,137 @@
 
     ]
   },
-  {
-    "ID": 5,
-    "Title": "Career Guidance Seminar",
-    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
-    "EventDate": "13/02/2025",
-    "EventTime": "10:30 AM to 12:30 PM",
-    "Year": 2025,
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Career Guidance Seminar",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 6,
-    "Title": "Mock interviews ",
-    "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-    "EventDate": "1/1/2025",
-    "EventTime": "10.30am  to 12.30pm",
-    "Year": 2025,
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Mock interviews",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
-      }
-    ]
+  //{
+  //  "ID": 5,
+  //  "Title": "Career Guidance Seminar",
+  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
+  //  "EventDate": "13/02/2025",
+  //  "EventTime": "10:30 AM to 12:30 PM",
+  //  "Year": 2025,
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Career Guidance Seminar",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
+  //    }
+  //  ]
+  //},
+  //{
+  //  "ID": 6,
+  //  "Title": "Mock interviews ",
+  //  "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+  //  "EventDate": "1/1/2025",
+  //  "EventTime": "10.30am  to 12.30pm",
+  //  "Year": 2025,
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Mock interviews",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
+  //    }
+  //  ]
 
-  },
-  {
-    "ID": 7,
-    "Title": "Career Guidance  & Counseling",
-    "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
-    "EventDate": "13/03/2024",
-    "EventTime": "1:00 p.m. to 3:00 p.m.",
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Career Guidance  & Counseling",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 10,
-    "Title": "Career Guidance Awareness",
-    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
-    "EventDate": "14/02/2024",
-    "EventTime": "10.30am  to 12.30pm",
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Career Guidance Awareness",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career_Guidance_Awareness-14-2-2024.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 11,
-    "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
-    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
-    "EventDate": "02/03/2023",
-    "EventTime": "1:00 p.m. to 3:00 p.m.",
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 12,
-    "Title": "Entrepreneurship after Engineering",
-    "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
-    "EventDate": "23/02/2023",
-    "EventTime": "10.30am  to 12.30pm",
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Entrepreneurship after Engineering",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/ENTERPRENIOR-23-2-2023.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 13,
-    "Title": "Career Guidance Seminar",
-    "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
-    "EventDate": "28/02/2023",
-    "EventTime": "1:00 p.m. to 3:00 p.m.",
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Career Guidance Seminar",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/career Guidance-28-2-2023.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 14,
-    "Title": "Entrepreneurship Awareness Seminar",
-    "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
-    "EventDate": "24/12/2021",
-    "EventTime": "10.30am  to 12.30pm",
-    "CommitteId": 9,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Entrepreneurship Awareness Seminar",
-        "FileType": "PDF",
-        "FilePath": "~/PlacementCell/ENTERPRENIOR-24-12-2021.pdf"
-      }
-    ]
-  },
+  //},
+  //{
+  //  "ID": 7,
+  //  "Title": "Career Guidance  & Counseling",
+  //  "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
+  //  "EventDate": "13/03/2024",
+  //  "EventTime": "1:00 p.m. to 3:00 p.m.",
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Career Guidance  & Counseling",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
+  //    }
+  //  ]
+  //},
+  //{
+  //  "ID": 10,
+  //  "Title": "Career Guidance Awareness",
+  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+  //  "EventDate": "14/02/2024",
+  //  "EventTime": "10.30am  to 12.30pm",
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Career Guidance Awareness",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/Career_Guidance_Awareness-14-2-2024.pdf"
+  //    }
+  //  ]
+  //},
+  //{
+  //  "ID": 11,
+  //  "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
+  //  "EventDate": "02/03/2023",
+  //  "EventTime": "1:00 p.m. to 3:00 p.m.",
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
+  //    }
+  //  ]
+  //},
+  //{
+  //  "ID": 12,
+  //  "Title": "Entrepreneurship after Engineering",
+  //  "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
+  //  "EventDate": "23/02/2023",
+  //  "EventTime": "10.30am  to 12.30pm",
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Entrepreneurship after Engineering",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/ENTERPRENIOR-23-2-2023.pdf"
+  //    }
+  //  ]
+  //},
+  //{
+  //  "ID": 13,
+  //  "Title": "Career Guidance Seminar",
+  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+  //  "EventDate": "28/02/2023",
+  //  "EventTime": "1:00 p.m. to 3:00 p.m.",
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Career Guidance Seminar",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/career Guidance-28-2-2023.pdf"
+  //    }
+  //  ]
+  //},
+  //{
+  //  "ID": 14,
+  //  "Title": "Entrepreneurship Awareness Seminar",
+  //  "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
+  //  "EventDate": "24/12/2021",
+  //  "EventTime": "10.30am  to 12.30pm",
+  //  "CommitteId": 9,
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "Entrepreneurship Awareness Seminar",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/PlacementCell/ENTERPRENIOR-24-12-2021.pdf"
+  //    }
+  //  ]
+  //},
   {
     "ID": 15,
     "Title": "Alumni Meet 2022",
@@ -407,5 +407,169 @@
         "FilePath": "~/Gymkhana/LNTC_2023.pdf"
       }
     ]
+  },
+  {
+    "ID": 27,
+    "Title": "Career Guidance Seminar",
+    "Description": "The Career Guidance Seminar provided students with insights into diverse career paths, higher education opportunities, and industry demands. Expert speakers offered guidance on career planning, competitive exams, and essential skills for professional success.",
+    "EventDate": "February/Sept",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "All Sem",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Career Guidance Seminar Report",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/1. Career Gidance Report.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 28,
+    "Title": "Entrepreneurship Awareness Program",
+    "Description": "The Entrepreneurship Awareness Program encouraged innovation and self-reliance among students. Participants learned about business startup processes, funding opportunities, and entrepreneurial success stories from industry experts and startup founders.",
+    "EventDate": "Jan/Feb",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Pre-Final Year",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Entrepreneurship Awareness Program Report",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/2. Entrepreneurship Awareness Program.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 29,
+    "Title": "Mock Interview",
+    "Description": "The Mock Interview sessions simulated real recruitment scenarios, helping students refine their communication, technical, and problem-solving skills. Constructive feedback from experts boosted their confidence for actual job interviews.",
+    "EventDate": "August/April",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Pre-Final Year",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Mock Interview Reports",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/3. Mock Interview Reports.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 30,
+    "Title": "Finishing School",
+    "Description": "The Finishing School program focused on personality development, workplace etiquette, technical skills, and soft skills. It prepared students to transition smoothly from academic life to professional careers.",
+    "EventDate": "Jan/Feb & July/Aug",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Final and Pre-Final Year",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Finishing School Report",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/4. Finishing School Report.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 31,
+    "Title": "Mega Placement Camp",
+    "Description": "The Mega Placement Camp brought together multiple companies on a single platform, offering students a wide range of job opportunities. The event streamlined recruitment processes and increased placement prospects.",
+    "EventDate": "Feb/March",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Final Year",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Placement Camp Reports",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/5. Placement Camp-Reports.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 32,
+    "Title": "Placement Drive",
+    "Description": "The Placement Drive connected students with leading recruiters across various industries. It featured aptitude tests, group discussions, and interview rounds to facilitate campus hiring.",
+    "EventDate": "Sept/Oct",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Final Year",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Placement Drive Report",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/6. Placement Drive.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 33,
+    "Title": "On Campus Placement",
+    "Description": "On Campus Placement activities invited recruiters directly to the college, allowing students to participate in interviews and selection processes without leaving the campus.",
+    "EventDate": "July to Dec",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Final Year & Pass out",
+    "Files": [
+      {
+        "ID":1,
+        "Title": "",
+        "FileType": "",
+        "FilePath": ""
+      }
+    ]
+  },
+  {
+    "ID": 34,
+    "Title": "Off-Campus Placement",
+    "Description": "Off-Campus Placement opportunities connected students with companies recruiting outside the campus. The Placement Cell facilitated participation in these drives to expand career options.",
+    "EventDate": "Year",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Final Year & Pass out",
+    "Files": []
+  },
+  {
+    "ID": 35,
+    "Title": "Civil Services Exam Seminar",
+    "Description": "The Civil Services Exam Seminar guided students on UPSC and GPSC exam preparation strategies, eligibility criteria, and syllabus coverage. Experts shared valuable tips for success in competitive examinations.",
+    "EventDate": "August/Sept",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "Final Year",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Civil Services Exam Seminar Report",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/9. Civil Services Exam Seninar Report.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 36,
+    "Title": "Technical Skill Workshop",
+    "Description": "The Technical Skill Workshop enhanced students’ domain expertise through hands-on training in emerging technologies, programming languages, and industry tools, preparing them for technical job roles.",
+    "EventDate": "Jan/Feb Aug/Sept",
+    "EventTime": "",
+    "CommitteId": 9,
+    "TargetStudents": "All semester",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Technical Workshops Report",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/10. Technical Workshops.pdf"
+      }
+    ]
   }
 ]
+

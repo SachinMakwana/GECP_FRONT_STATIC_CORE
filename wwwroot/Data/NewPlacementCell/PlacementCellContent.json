@@ -320,78 +320,78 @@
       "LogoPath": "~/NewPlacementCell/TopRecruiters/36.png"
     }
   ],
-  "ActivitiesCalendar": [
-    {
-      "SrNo": 1,
-      "ActivityName": "Career Guidance Seminar",
-      "Period": "February/Sept",
-      "TargetStudents": "All Sem",
-      "ReportLink": "~/NewPlacementCell/1. Career Gidance Report.pdf"
-    },
-    {
-      "SrNo": 2,
-      "ActivityName": "Entrepreneurship Awareness Program",
-      "Period": "Jan/Feb",
-      "TargetStudents": "Pre-Final Year",
-      "ReportLink": "~/NewPlacementCell/2. Entrepreneurship Awareness Program.pdf"
-    },
-    {
-      "SrNo": 3,
-      "ActivityName": "Mock Interview",
-      "Period": "August/April",
-      "TargetStudents": "Pre-Final Year",
-      "ReportLink": "~/NewPlacementCell/3. Mock Interview Reports.pdf"
-    },
-    {
-      "SrNo": 4,
-      "ActivityName": "Finishing School",
-      "Period": "Jan/Feb & July/Aug",
-      "TargetStudents": "Final and Pre-Final Year",
-      "ReportLink": "~/NewPlacementCell/4. Finishing School Report.pdf"
-    },
-    {
-      "SrNo": 5,
-      "ActivityName": "Mega Placement Camp",
-      "Period": "Feb/March",
-      "TargetStudents": "Final Year",
-      "ReportLink": "~/NewPlacementCell/5. Placement Camp-Reports.pdf"
-    },
-    {
-      "SrNo": 6,
-      "ActivityName": "Placement Drive",
-      "Period": "Sept/Oct",
-      "TargetStudents": "Final Year",
-      "ReportLink": "~/NewPlacementCell/6. Placement Drive.pdf"
-    },
-    {
-      "SrNo": 7,
-      "ActivityName": "On Campus Placement",
-      "Period": "July to Dec",
-      "TargetStudents": "Final Year & Pass out",
-      "ReportLink": ""
-    },
-    {
-      "SrNo": 8,
-      "ActivityName": "Off-Campus Placement",
-      "Period": "Year",
-      "TargetStudents": "Final Year & Pass out",
-      "ReportLink": ""
-    },
-    {
-      "SrNo": 9,
-      "ActivityName": "Civil Services Exam Seminar",
-      "Period": "August/Sept",
-      "TargetStudents": "Final Year",
-      "ReportLink": "~/NewPlacementCell/9. Civil Services Exam Seninar Report.pdf"
-    },
-    {
-      "SrNo": 10, 
-      "ActivityName": "Technical Skill Workshop",
-      "Period": "Jan/Feb Aug/Sept",
-      "TargetStudents": "All semester",
-      "ReportLink": "~/NewPlacementCell/10. Technical Workshops.pdf"
-    }
-  ],
+  //"ActivitiesCalendar": [
+    //{
+    //  "SrNo": 1,
+    //  "ActivityName": "Career Guidance Seminar",
+    //  "Period": "February/Sept",
+    //  "TargetStudents": "All Sem",
+    //  "ReportLink": "~/NewPlacementCell/1. Career Gidance Report.pdf"
+    //},
+    //{
+    //  "SrNo": 2,
+    //  "ActivityName": "Entrepreneurship Awareness Program",
+    //  "Period": "Jan/Feb",
+    //  "TargetStudents": "Pre-Final Year",
+    //  "ReportLink": "~/NewPlacementCell/2. Entrepreneurship Awareness Program.pdf"
+    //},
+    //{
+    //  "SrNo": 3,
+    //  "ActivityName": "Mock Interview",
+    //  "Period": "August/April",
+    //  "TargetStudents": "Pre-Final Year",
+    //  "ReportLink": "~/NewPlacementCell/3. Mock Interview Reports.pdf"
+    //},
+    //{
+    //  "SrNo": 4,
+    //  "ActivityName": "Finishing School",
+    //  "Period": "Jan/Feb & July/Aug",
+    //  "TargetStudents": "Final and Pre-Final Year",
+    //  "ReportLink": "~/NewPlacementCell/4. Finishing School Report.pdf"
+    //},
+    //{
+    //  "SrNo": 5,
+    //  "ActivityName": "Mega Placement Camp",
+    //  "Period": "Feb/March",
+    //  "TargetStudents": "Final Year",
+    //  "ReportLink": "~/NewPlacementCell/5. Placement Camp-Reports.pdf"
+    //},
+    //{
+    //  "SrNo": 6,
+    //  "ActivityName": "Placement Drive",
+    //  "Period": "Sept/Oct",
+    //  "TargetStudents": "Final Year",
+    //  "ReportLink": "~/NewPlacementCell/6. Placement Drive.pdf"
+    //},
+    //{
+    //  "SrNo": 7,
+    //  "ActivityName": "On Campus Placement",
+    //  "Period": "July to Dec",
+    //  "TargetStudents": "Final Year & Pass out",
+    //  "ReportLink": ""
+    //},
+    //{
+    //  "SrNo": 8,
+    //  "ActivityName": "Off-Campus Placement",
+    //  "Period": "Year",
+    //  "TargetStudents": "Final Year & Pass out",
+    //  "ReportLink": ""
+    //},
+    //{
+    //  "SrNo": 9,
+    //  "ActivityName": "Civil Services Exam Seminar",
+    //  "Period": "August/Sept",
+    //  "TargetStudents": "Final Year",
+    //  "ReportLink": "~/NewPlacementCell/9. Civil Services Exam Seninar Report.pdf"
+    //},
+    //{
+    //  "SrNo": 10, 
+    //  "ActivityName": "Technical Skill Workshop",
+    //  "Period": "Jan/Feb Aug/Sept",
+    //  "TargetStudents": "All semester",
+    //  "ReportLink": "~/NewPlacementCell/10. Technical Workshops.pdf"
+    //}
+//  ],
   "StudentPolicy": {
     "PolicyText": [
       "Students must participate in the company’s interview process for Internship or Job only if they are fully agreed with the company’s bond, terms and conditions mentioned in job proposal. The institution or department faculties will not be responsible for any such matters. All decisions and agreements will be solely between the student and the company.",

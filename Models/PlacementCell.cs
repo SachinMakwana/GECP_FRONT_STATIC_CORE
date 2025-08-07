@@ -22,7 +22,7 @@ namespace GECP_Front_End_Static.Models
         public FunctionTNPCell Functions { get; set; }
         public List<PlacementStatistics> Statistics { get; set; }
         public List<Recruiter> TopRecruiters { get; set; }
-        public List<PlacementActivity> ActivitiesCalendar { get; set; }
+        public List<CommitteeActivity> ActivitiesCalendar { get; set; }
 
         public StudentPolicy StudentPolicy { get; set; }
 
@@ -33,6 +33,8 @@ namespace GECP_Front_End_Static.Models
         public ContactInfo Contact { get; set; }
 
         public List<Members> Team { get; set; }
+
+        public bool TableView { get; set; } = false;
     }
 
     public class PlacementStatistics
@@ -50,16 +52,6 @@ namespace GECP_Front_End_Static.Models
         public int SrNo { get; set; }
         public string Name { get; set; }
         public string LogoPath { get; set; }
-    }
-
-
-    public class PlacementActivity
-    {
-        public int SrNo { get; set; }
-        public string ActivityName { get; set; }
-        public string Period { get; set; }
-        public string TargetStudents { get; set; }
-        public string ReportLink { get; set; }
     }
 
     public class StudentPolicy

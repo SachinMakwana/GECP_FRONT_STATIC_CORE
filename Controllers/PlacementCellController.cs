@@ -16,6 +16,7 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public PlacementCellContent PlacementCellContent = new PlacementCellContent();
         public List<ProgramInfo> ProgramIntake = new List<ProgramInfo>();
+        public List<CommitteeActivity> ActivitiesCalendar = new List<CommitteeActivity>();
         public PlacementCellController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -30,10 +31,26 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             ProgramIntake = JsonConvert.DeserializeObject<List<ProgramInfo>>(json);
+
+            jsonpath = webRootPath + @"\Data\Activities\Activities.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            ActivitiesCalendar = JsonConvert.DeserializeObject<List<CommitteeActivity>>(json);
         }
         public IActionResult Index()
         {
+            var data = ActivitiesCalendar
+           .Where(x => x.CommitteId == 9
+                &&( x.Files != null
+                && x.Files.Any(f =>
+                       f.FileType.Equals("PDF", StringComparison.OrdinalIgnoreCase)
+                       && !string.IsNullOrWhiteSpace(f.FilePath)))
+            || (!string.IsNullOrWhiteSpace(x.TargetStudents)))
+                .ToList();
+          
             PlacementCellContent.RecruiterDetails.Courses = ProgramIntake;
+            PlacementCellContent.ActivitiesCalendar = data;
+
             return View(PlacementCellContent);
         }
     }
