@@ -32,19 +32,7 @@
     "CommitteId": 10,
     "Files": []
   },
-  {
-    "ID": 4,
-    "Title": "SSIP 2.0 sensitization program",
-    "Description": "The SSIP 2.0 Sensitization Program aims to create COMMITTEE DETAILS awareness among students, faculty, and stakeholders about the Student Startup and Innovation Policy (SSIP) 2.0. This initiative enhances the innovation ecosystem by providing financial, technical, and mentorship support for student-led projects, startups, and research. The program educates participants about funding opportunities, prototyping assistance, and industry collaborations. It also highlights advancements from SSIP 1.0, focusing on scalability, intellectual property rights (IPR), and commercialization. Through workshops, seminars, and interactive sessions, the sensitization program encourages students to actively participate in innovation and entrepreneurship, driving technological progress and self-reliance in Gujarat and beyond. 120 students of First year including all branches have participated in it.",
-    "EventDate": "21/02/2025",
-    "EventTime": "02: 00 pm to 3: 15 pm",
-    "Year": 2025,
-    "CommitteId": 2,
-    "Images": [],
-    "Files": [
 
-    ]
-  },
   //{
   //  "ID": 5,
   //  "Title": "Career Guidance Seminar",
@@ -569,6 +557,109 @@
         "FileType": "PDF",
         "FilePath": "~/NewPlacementCell/10. Technical Workshops.pdf"
       }
+    ]
+  },
+  {
+    "ID": 4,
+    "Title": "SSIP 2.0 Sensitization Program in Civil",
+    "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Civil Engineering students on 7th August 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about SSIP 2.0, including its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 71 students participated, engaging in discussions on innovation, funding, and team building. The program effectively motivated students to develop innovative solutions, strengthening the college’s innovation ecosystem and encouraging active participation in future SSIP activities.",
+    "EventDate": "07/08/2025",
+    "EventTime": "11:00 am to 12:15 pm",
+    "CommitteId": 2,
+    "TargetStudents": "",
+    "Year": "2025",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "SSIP 2.0 Sensitization Program Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/SSIP/Civil Engineering Sensitization program_07082025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 37,
+    "Title": "SSIP 2.0 Sensitization Program in CSE",
+    "Description": "The SSIP Cell of Government Engineering College, Patan, conducted an SSIP 2.0 Sensitization Program for Computer Science and Engineering students on 5th August 2025. Led by Prof. Harshad L. Chaudhary, the session introduced SSIP 2.0’s vision, objectives, PoC submission process, design thinking, and IPR guidelines. Over 75 students participated actively, engaging in discussions on innovation, funding, and patenting. The program effectively motivated students to transform their ideas into impactful projects, strengthening the innovation culture within the department.",
+    "EventDate": "05/08/2025",
+    "EventTime": "03:30 pm to 04:30 pm",
+    "CommitteId": 2,
+    "TargetStudents": "",
+    "Year": "2025",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "SSIP 2.0 Sensitization Program Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/SSIP/2025_08_08 SSIP SENSITISATION _Report_merge.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 38,
+    "Title": "SSIP 2.0 Sensitization Program",
+    "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Electrical Engineering students on 1st August 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about the Student Startup and Innovation Policy (SSIP) 2.0, covering its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 63 students participated, engaging in discussions on innovation, funding, and team building. The event inspired students to develop innovative solutions and strengthened the college’s innovation ecosystem.",
+    "EventDate": "01/08/2025",
+    "EventTime": "11:30am to 12:45pm",
+    "CommitteId": 2,
+    "TargetStudents": "",
+    "Year": "2025",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "SSIP 2.0 Sensitization Program Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/SSIP/SSIP Awareness _Electrical Engineering 1 August 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 39,
+    "Title": "SSIP 2.0 Sensitization Program in EC",
+    "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Electronics and Communication Engineering students on 31st July 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about SSIP 2.0, covering its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 90 students participated, engaging in discussions on innovation, funding, and team building. The event successfully inspired students to pursue innovative solutions and strengthened the college’s innovation ecosystem.",
+    "EventDate": "31/07/2025",
+    "EventTime": "11:30 am to 12:30 pm",
+    "CommitteId": 2,
+    "TargetStudents": "",
+    "Year": "2025",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "SSIP 2.0 Sensitization Program Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/SSIP/EC Sensitization program--31st July 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 40,
+    "Title": "PoC Presentation 2.0",
+    "Description": "The SSIP Cell of Government Engineering College, Patan, organized PoC Presentation 2.0 on 30th July 2025 to showcase innovative student projects from the Mechanical Engineering Department. Five groups presented their Proof of Concept ideas, focusing on practical, scalable solutions in areas like energy optimization, automation, and sustainable systems. Evaluated by industry experts, the event encouraged innovation, provided valuable feedback, and approved funding of ₹3,00,000 for selected projects under SSIP 2.0, fostering a culture of problem-solving and entrepreneurship among students.",
+    "EventDate": "30/07/2025",
+    "EventTime": "",
+    "CommitteId": 2,
+    "TargetStudents": "",
+    "Year": "2025",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "PoC Presentation 2.0 Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/SSIP/report poC_merged_30th July 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 41,
+    "Title": "SSIP 2.0 sensitization program",
+    "Description": "The SSIP 2.0 Sensitization Program aims to create COMMITTEE DETAILS awareness among students, faculty, and stakeholders about the Student Startup and Innovation Policy (SSIP) 2.0. This initiative enhances the innovation ecosystem by providing financial, technical, and mentorship support for student-led projects, startups, and research. The program educates participants about funding opportunities, prototyping assistance, and industry collaborations. It also highlights advancements from SSIP 1.0, focusing on scalability, intellectual property rights (IPR), and commercialization. Through workshops, seminars, and interactive sessions, the sensitization program encourages students to actively participate in innovation and entrepreneurship, driving technological progress and self-reliance in Gujarat and beyond. 120 students of First year including all branches have participated in it.",
+    "EventDate": "21/02/2025",
+    "EventTime": "02: 00 pm to 3: 15 pm",
+    "Year": 2025,
+    "CommitteId": 2,
+    "Images": [],
+    "Files": [
+
     ]
   }
 ]
