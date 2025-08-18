@@ -88,10 +88,15 @@ namespace GECP_Front_End_Static.Models
         public string Content { get; set; }
 		public List<string> Vision { get; set; }
 		public List<string> Mission { get; set; }
+        public List<string> Images { get; set; }
 		public string Books { get; set; }
         public string Books_Hyperlink { get; set; }
         public string ONOS_IMG { get; set; }
         public string ONOS_LINK { get; set; }
+        public string NPTEL_IMG { get; set; }
+        public string NPTEL_LINK { get; set; }
+        public string INDCAT_IMG { get; set; }
+        public string INDCAT_LINK { get; set; }
         public string Periodicals { get; set; }
         public string Reports { get; set; }
         public string Biography { get; set; }

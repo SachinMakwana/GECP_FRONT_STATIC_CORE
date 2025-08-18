@@ -31,43 +31,21 @@
 
 			<div class="one_half">
 
-				<h2 class="roboto caps">Welcome to GECP Library.</h2>
-				<div class="hsmline6"></div>
-				<br />
-				<p class="bigtfont gray">@Model.Content</p>
-
+				<div id="owl-demo2" class="owl-carousel">
+					@foreach (var imagePath in Model.Images)
+					{
+						<div><img src="@Url.Content(imagePath)" alt="" class="rimg"></div>
+					}
+				</div>
 			</div>
 			<!-- end section -->
 
 			<div class="one_half last">
-				<div class="clearfix margin_top5"></div>
-				<div class="box animate" data-anim-type="fadeInUp" data-anim-delay="100" style="min-height:190px;min-width:190px">
-					<a href="@Model.Books_Hyperlink" target="_blank">
-						<h4 class="roboto">Access</h4>
-						<i class="fa fa-book"></i>
-						<h4 class="roboto">@Model.Books</h4>
-					</a>
-				</div>
-
-				<div class="box two animate" data-anim-type="fadeInUp" data-anim-delay="150" style="min-height:190px;min-width:190px">
-					<a href="@Model.ONOS_LINK" target="_blank">
-						<img src="@Url.Content(Model.ONOS_IMG)" class="rimg" />
-						@* <h4 class="roboto">@Model.Periodicals</h4> *@
-					</a>
-				</div>
-
-				@* 	<div class="box three animate" data-anim-type="fadeInUp" data-anim-delay="200">
-					<i class="fa fa-bookmark"></i>
-					<h4 class="roboto">@Model.Reports</h4>
-					
-				</div>
-
-				<div class="box four animate" data-anim-type="fadeInUp" data-anim-delay="250">
-					<i class="fa fa-user"></i>
-					<h4 class="roboto">@Model.Biography</h4>
-				</div> *@
-				<!-- end box -->
-
+				<h2 class="roboto caps">Welcome to GECP Library.</h2>
+				<div class="hsmline6"></div>
+				<br />
+				<p class="bigtfont gray">@Model.Content</p>
+				
 			</div>
 			<!-- end section -->
 
@@ -75,6 +53,39 @@
 	</div>
 	<!-- end featured section 69 -->
 	<!-- end all sections -->
+	<div class="clearfix margin_top5">
+		<div class="container">
+
+				<div class="one_fourth_less box animate" data-anim-type="fadeInUp" data-anim-delay="100" style="min-height:190px;min-width:190px">
+					<a href="@Model.Books_Hyperlink" target="_blank">
+						<h4 class="roboto">Access</h4>
+						<i class="fa fa-book"></i>
+						<h4 class="roboto">@Model.Books</h4>
+					</a>
+				</div>
+
+				<div class="one_fourth_less box two animate" data-anim-type="fadeInUp" data-anim-delay="150" style="min-height:190px;min-width:190px">
+					<a href="@Model.ONOS_LINK" target="_blank">
+						<img src="@Url.Content(Model.ONOS_IMG)" class="rimg" />
+						@* <h4 class="roboto">@Model.Periodicals</h4> *@
+					</a>
+				</div>
+
+				<div class="one_fourth_less box three animate" data-anim-type="fadeInUp" data-anim-delay="200" style="min-height:190px;min-width:190px">
+					<a href="@Model.NPTEL_LINK" target="_blank">
+						<img src="@Url.Content(Model.NPTEL_IMG)" class="rimg" />
+						@* <h4 class="roboto">@Model.Periodicals</h4> *@
+					</a>
+				</div>
+
+				<div class="one_fourth_less last box four animate" data-anim-type="fadeInUp" data-anim-delay="250" style="min-height:190px;min-width:190px">
+					<a href="@Model.INDCAT_LINK" target="_blank">
+						<img src="@Url.Content(Model.INDCAT_IMG)" class="rimg" />
+						@* <h4 class="roboto">@Model.Periodicals</h4> *@
+					</a>
+				</div>
+
+		</div>
 
 	<div class="margin_top2"></div>
 
