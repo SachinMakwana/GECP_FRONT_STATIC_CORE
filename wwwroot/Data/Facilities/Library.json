@@ -1,43 +1,54 @@
 ﻿{
-    "Title": "Library",
-    "Titleimage": "../../images/ssip_banner.jpg",
-    "TitleImageCSSClass": "ssip_title",
-    "Content": "On the basis of quality education, the library of the institute has been developed quite efficiently by the supportive faculties and is being updated constantly in order to avail our student's maximum knowledge and provide them a base to explore the future. It helps to keep the students updated with the latest technology and trends.",
-    "Vision": [ "To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources." ],
-    "Mission": [ "To develop, organize, provide access to and preserve materials to meet the needs of present and future generations of students and scholars." ],
-    "Books": "11011+ Books",
-    "Books_Hyperlink": "https://drive.google.com/file/d/1p7fU0vS_i3b86u_5T5RNOMwmaBeMJ5tO/view?usp=drive_link",
-    "ONOS_IMG": "~/images/Library/onos-logo.png",
-    "ONOS_LINK": "https://onos.gov.in/ums/check-access",
-    "Periodicals": "14000+ Periodicals",
-    "Reports": "2400+ Research Reports",
-    "Biography": "87489+ Biography",
-    "TagLine": "<h1 class=\"animate\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“A Library is not Luxury its...<b>neccessity of Life.” ...</b></h1>",
-    "Members": [
-        {
-            "ID": 1,
-            "Name": "Dr. U.A. Patel",
-            "Position": "Convener",
-            "Department": "Mechanical Engineering",
-            "Image": "~/images/Faculty/522.jpg",
-            "Email": "utkarshkumar.patel@gecpatan.ac.in"
-        },
-        {
-            "ID": 2,
-            "Name": "Prof. Y. B. Patel",
-            "Position": "Member",
-            "Department": "Computer Science & Engineering",
-            "Image": "~/images/Faculty/209.jpg",
-            "Email": "yogesh.patel@gecpatan.ac.in"
-        },
-        {
-            "ID": 3,
-            "Name": "Ms. Reenaben Dasharathbhai Prajapati",
-            "Position": "Member",
-            "Department": "Computer Science & Engineering",
-            "Image": "~/images/Faculty/219.png",
-            "Email": "reena.prajapati@gecpatan.ac.in"
-        }
+  "Title": "Library",
+  "Titleimage": "../../images/ssip_banner.jpg",
+  "TitleImageCSSClass": "ssip_title",
+  "Content": "On the basis of quality education, the library of the institute has been developed quite efficiently by the supportive faculties and is being updated constantly to avail our students maximum knowledge and provide them a strong base to explore the future. The books in the library cover all essential categories required not only for technical excellence but also for the holistic development of students, including science, engineering, management, literature, personality development, and general knowledge resources. Along with academic enrichment, the collection helps students nurture creativity, leadership, and critical thinking skills. The library also keeps the students updated with the latest technologies, research trends, and innovations, ensuring their all-round intellectual growth.",
+  "Vision": [ "To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources." ],
+  "Mission": [ "To develop, organize, provide access to and preserve materials to meet the needs of present and future generations of students and scholars." ],
+  "Images": [
+    "~/images/Library/Library (2).jpg",
+    "~/images/Library/Library (1).jpg",
+    "~/images/Library/Library (3).jpg",
+    "~/images/Library/Library (4).jpg",
+    "~/images/Library/Library (5).jpg"
+  ],
+  "Books": "11011+ Books",
+  "Books_Hyperlink": "https://drive.google.com/file/d/1p7fU0vS_i3b86u_5T5RNOMwmaBeMJ5tO/view?usp=drive_link",
+  "ONOS_IMG": "~/images/Library/onos-logo.png",
+  "ONOS_LINK": "https://onos.gov.in/ums/check-access",
+  "NPTEL_IMG": "~/images/Library/NPTEL_SWAYAM_LOGO.png",
+  "NPTEL_LINK": "https://onlinecourses.nptel.ac.in/",
+  "INDCAT_IMG": "~/images/Library/IND-CAT.png",
+  "INDCAT_LINK": "https://indcat.inflibnet.ac.in/",
+  "Periodicals": "14000+ Periodicals",
+  "Reports": "2400+ Research Reports",
+  "Biography": "87489+ Biography",
+  "TagLine": "<h1 class=\"animate\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“A Library is not Luxury its...<b>neccessity of Life.” ...</b></h1>",
+  "Members": [
+    {
+      "ID": 1,
+      "Name": "Dr. U.A. Patel",
+      "Position": "Convener",
+      "Department": "Mechanical Engineering",
+      "Image": "~/images/Faculty/522.jpg",
+      "Email": "utkarshkumar.patel@gecpatan.ac.in"
+    },
+    {
+      "ID": 2,
+      "Name": "Prof. Y. B. Patel",
+      "Position": "Member",
+      "Department": "Computer Science & Engineering",
+      "Image": "~/images/Faculty/209.jpg",
+      "Email": "yogesh.patel@gecpatan.ac.in"
+    },
+    {
+      "ID": 3,
+      "Name": "Ms. Reenaben Dasharathbhai Prajapati",
+      "Position": "Member",
+      "Department": "Computer Science & Engineering",
+      "Image": "~/images/Faculty/219.png",
+      "Email": "reena.prajapati@gecpatan.ac.in"
+    }
 
-    ]
+  ]
 }

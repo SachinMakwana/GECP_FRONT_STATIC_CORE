@@ -4,7 +4,17 @@
 	ViewBag.Title = "Library";
 	int count = 0;
 }
+<style>
+	.box-min-height {
+		min-height: 190px;
+		min-width: 190px;
+		text-align: center;
+	}
 
+		.box-min-height i {
+			font-size: 45px;
+		}
+</style>
 
 <div class="clearfix"></div>
 
@@ -13,7 +23,7 @@
 	<div class="container">
 
 		<h1>
-			@Model.Title 
+			@Model.Title
 			<div class="line"></div>
 		</h1>
 
@@ -31,42 +41,20 @@
 
 			<div class="one_half">
 
-				<h2 class="roboto caps">Welcome to GECP Library.</h2>
-				<div class="hsmline6"></div>
-				<br />
-				<p class="bigtfont gray">@Model.Content</p>
-
+				<div id="owl-demo2" class="owl-carousel">
+					@foreach (var imagePath in Model.Images)
+					{
+						<div><img src="@Url.Content(imagePath)" alt="" class="rimg"></div>
+					}
+				</div>
 			</div>
 			<!-- end section -->
 
 			<div class="one_half last">
-				<div class="clearfix margin_top5"></div>
-				<div class="box animate" data-anim-type="fadeInUp" data-anim-delay="100" style="min-height:190px;min-width:190px">
-					<a href="@Model.Books_Hyperlink" target="_blank">
-						<h4 class="roboto">Access</h4>
-						<i class="fa fa-book"></i>
-						<h4 class="roboto">@Model.Books</h4>
-					</a>
-				</div>
-
-				<div class="box two animate" data-anim-type="fadeInUp" data-anim-delay="150" style="min-height:190px;min-width:190px">
-					<a href="@Model.ONOS_LINK" target="_blank">
-						<img src="@Url.Content(Model.ONOS_IMG)" class="rimg" />
-						@* <h4 class="roboto">@Model.Periodicals</h4> *@
-					</a>
-				</div>
-
-				@* 	<div class="box three animate" data-anim-type="fadeInUp" data-anim-delay="200">
-					<i class="fa fa-bookmark"></i>
-					<h4 class="roboto">@Model.Reports</h4>
-					
-				</div>
-
-				<div class="box four animate" data-anim-type="fadeInUp" data-anim-delay="250">
-					<i class="fa fa-user"></i>
-					<h4 class="roboto">@Model.Biography</h4>
-				</div> *@
-				<!-- end box -->
+				<h2 class="roboto caps">Welcome to GECP Library.</h2>
+				<div class="hsmline6"></div>
+				<br />
+				<p class="bigtfont gray" style="width:100%">@Model.Content</p>
 
 			</div>
 			<!-- end section -->
@@ -75,109 +63,144 @@
 	</div>
 	<!-- end featured section 69 -->
 	<!-- end all sections -->
-
-	<div class="margin_top2"></div>
-
-	<div class="featured_section14">
+	<div class="clearfix margin_top5">
 		<div class="container">
 
+			<div class="one_fourth_less box animate box-min-height" data-anim-type="fadeInUp" data-anim-delay="100">
+				<a href="@Model.Books_Hyperlink" target="_blank">
+					<h4 class="roboto">Access</h4>
+					<div class="clearfix margin_top1"></div>
+					<i class="fa fa-book"></i>
+					<div class="clearfix margin_top1"></div>
+					<h4 class="roboto">@Model.Books</h4>
+				</a>
+			</div>
 
-			<div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+			<div class="one_fourth_less box two animate box-min-height" data-anim-type="fadeInUp" data-anim-delay="150">
+				<a href="@Model.ONOS_LINK" target="_blank">
+					<img src="@Url.Content(Model.ONOS_IMG)" class="rimg" />
+					@* <h4 class="roboto">@Model.Periodicals</h4> *@
+				</a>
+			</div>
 
-				<img src="@Url.Content("~/images/vision.png")" alt="" />
-				<br /><br />
-				<h3 class="white">Vision</h3>
+			<div class="one_fourth_less box three animate box-min-height" data-anim-type="fadeInUp" data-anim-delay="200">
+				<a href="@Model.NPTEL_LINK" target="_blank">
+					<img src="@Url.Content(Model.NPTEL_IMG)" class="rimg" />
+					@* <h4 class="roboto">@Model.Periodicals</h4> *@
+				</a>
+			</div>
 
-				<ul class="text-justify">
-					@foreach (var item in Model.Vision)
-					{
-						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-					}
-				</ul>
-				<br /><br />
+			<div class="one_fourth_less last box four animate box-min-height" data-anim-type="fadeInUp" data-anim-delay="250">
+				<a href="@Model.INDCAT_LINK" target="_blank">
+					<img src="@Url.Content(Model.INDCAT_IMG)" class="rimg" />
+					@* <h4 class="roboto">@Model.Periodicals</h4> *@
+				</a>
+			</div>
 
+		</div>
+
+		<div class="margin_top2"></div>
+
+		<div class="featured_section14">
+			<div class="container">
+
+
+				<div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+
+					<img src="@Url.Content("~/images/vision.png")" alt="" />
+					<br /><br />
+					<h3 class="white">Vision</h3>
+
+					<ul class="text-justify">
+						@foreach (var item in Model.Vision)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+						}
+					</ul>
+					<br /><br />
+
+
+				</div>
+				<!-- end section -->
+
+
+				<div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+
+					<img src="@Url.Content("~/images/mission.png")" alt="" />
+					<br /><br />
+					<h3 class="white">Mission</h3>
+
+					<ul class="text-justify">
+						@foreach (var item in Model.Mission)
+						{
+							<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
+						}
+					</ul>
+					<br /><br />
+
+
+				</div>
+				<!-- end section -->
 
 			</div>
+		</div>
+		<!-- end featured section 14 -->
+
+
+	</div>
+	<div class="clearfix margin_bottom6"></div>
+	<div class="featured_section30">
+		<div class="container">
+			<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+				Committee Members
+			</h1>
+
 			<!-- end section -->
+			@foreach (var member in Model.Members)
+			{
+				@if (count % 2 == 0)
+				{
+					<div class="clearfix margin_top5"></div>
+
+					<div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+						<img src="@Url.Content(member.Image)" alt="">
+						<h5>@member.Name<em>@member.Position</em></h5>
+						<p>@member.Department</p>
+						<p>@member.Email</p>
+					</div>
+				}
+				else
+
+				{
+					<div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="400">
+						<img src="@Url.Content(member.Image)" alt="">
+						<h5>@member.Name<em>@member.Position</em></h5>
+						<p>@member.Department</p>
+						<p>@member.Email</p>
+
+					</div>
+				}
+				count++;
+			}
+		</div>
+	</div>
+	<div class="clearfix margin_bottom6"></div>
 
 
-			<div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+	<div class="clearfix"></div>
 
-				<img src="@Url.Content("~/images/mission.png")" alt="" />
-				<br /><br />
-				<h3 class="white">Mission</h3>
+	<div class="content_fullwidth" style="padding: 0 !important">
+		<img src="@Url.Content("~/images/Library/lib.jpg")" alt="" class="rimg" />
+	</div>
+	<div class="clearfix" style="background: #5076bb !important"></div>
 
-				<ul class="text-justify">
-					@foreach (var item in Model.Mission)
-					{
-						<li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-					}
-				</ul>
-				<br /><br />
+	<div class="featured_section38">
+		<div class="container">
 
-
-			</div>
-			<!-- end section -->
+			@Html.Raw(Model.TagLine)
 
 		</div>
 	</div>
-	<!-- end featured section 14 -->
-
-
-</div>
-<div class="clearfix margin_bottom6"></div>
-<div class="featured_section30">
-	<div class="container">
-		<h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-			Committee Members
-		</h1>
-
-		<!-- end section -->
-		@foreach (var member in Model.Members)
-		{
-			@if (count % 2 == 0)
-			{
-				<div class="clearfix margin_top5"></div>
-
-				<div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
-
-					<img src="@Url.Content(member.Image)" alt="">
-					<h5>@member.Name<em>@member.Position</em></h5>
-					<p>@member.Department</p>
-					<p>@member.Email</p>
-				</div>
-			}
-			else
-
-			{
-				<div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="400">
-					<img src="@Url.Content(member.Image)" alt="">
-					<h5>@member.Name<em>@member.Position</em></h5>
-					<p>@member.Department</p>
-					<p>@member.Email</p>
-
-				</div>
-			}
-			count++;
-		}
-	</div>
-</div>
-<div class="clearfix margin_bottom6"></div>
-
-
-<div class="clearfix"></div>
-
-<div class="content_fullwidth" style="padding: 0 !important">
-	<img src="@Url.Content("~/images/Library/lib.jpg")" alt="" class="rimg" />
-</div>
-<div class="clearfix" style="background: #5076bb !important"></div>
-
-<div class="featured_section38">
-	<div class="container">
-
-		@Html.Raw(Model.TagLine)
-
-	</div>
-</div>
 
 
