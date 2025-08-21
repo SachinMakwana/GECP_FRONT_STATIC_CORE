@@ -3,6 +3,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = Model.Title;
     int count = 1;
+    int visibleDocumentsCount = Model.YearSection.SelectMany(y => y.Documents).Count(d => d.isShow);
 }
 <style>
     .fabig {
@@ -61,7 +62,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @if (Model.YearSection.Count() > 0)
+                    @if (visibleDocumentsCount > 0)
                     {
                         foreach (var item in Model.YearSection)
                         {
@@ -94,7 +95,7 @@
                     }
                     else
                     {
-                        <tr><td><h2 class="text-center">NO DATA AVAILABLE</h2></td></tr>
+                        <tr><td colspan="4"><h2 class="text-center" style="margin-bottom:0px;">Currently, No Data Available</h2></td></tr>
                     }
                 </tbody>
             </table>
