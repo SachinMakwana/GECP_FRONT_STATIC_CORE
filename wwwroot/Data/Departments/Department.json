@@ -82,10 +82,10 @@
 
         ],
         "Activities": [
-            
+
         ],
         "NoticeBoard": [
-            
+
         ]
     },
     {
@@ -104,16 +104,12 @@
             "To achieve excellence by providing value based education in Computer Science and Engineering through innovation, teamwork and ethical practices."
         ],
         "Mission": [
-            "To produce graduates according to the need of industry, government, society and scientific community.",
-            "To develop partnership with industries, government agencies and R &amp; D organizations for knowledge sharing and overall development of faculties and students.",
-            "To solve industrial, government agencies, societal and political issues by applying computing techniques. ",
-            "To motivate students to be entrepreneurs. ",
-            "To motivate students to participate in reputed conferences, workshops, symposiums, seminars and related technical activities. ",
-            "To impart human and ethical values in our students for better serving of society.",
-            "To create awareness among students and inculcate affection for free and open source software. "
+            "To prepare industry-ready and socially responsible graduates by imparting strong technical skills, ethical values, and awareness of societal needs.",
+            "To establish collaborations with industry, government, and research organizations for knowledge exchange and the comprehensive development of students and faculty.",
+            "To foster innovation, entrepreneurship, and continuous learning through active participation in technical events and promotion of open-source technologies."
         ],
         "HODMessage": "Greetings! On behalf of the faculty members, staff, and students of the Department of Computer Science and Engineering of Government Engineering College Patan, I welcome you all to the creative world of CSE. Our primary objective of this programme is to develop Computer Engineers with knowledge of software and hardware, responsible for wide range of computer system design and development, built them as dedicated and competent professionals for challenging world of varying requirements of automation. During the course, students are able to mould their career, polish their technical skills and also inculcate team spirit with good oral and written communication. Students are supported technically and financially to participate in competitions, hackathons at state, national and international level platforms. Faculty members are encouraged to acquire higher degree and conduct investigation on research in the interest of the technical community. Faculty members are also supported to conduct workshops, symposium and conferences at national and international levels. They are motivated to adopt innovative teaching methodologies and best practices to make classroom a pursuit of learning. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
-        "HODName": "Dr. Harikrishna Jethva",
+        "HODName": "Dr. Pratik Barot",
         "HOD_Pic": "~/images/Department/Computer/HoD.png",
         "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The computer was born to solve problems that <b>did not exist before...\"</b></h1>",
         "PEOs": [
@@ -190,13 +186,13 @@
             }
         ],
         "TimeTable": [ //tender vm object
-            
+
         ],
         "Activities": [
-            
+
         ],
         "NoticeBoard": [
-            
+
         ]
     },
     {
@@ -276,13 +272,13 @@
 
         ],
         "TimeTable": [ //tender vm object
-            
+
         ],
         "Activities": [
-            
+
         ],
         "NoticeBoard": [
-            
+
         ]
     },
     {
@@ -356,10 +352,10 @@
 
         ],
         "Activities": [
-            
+
         ],
         "NoticeBoard": [
-            
+
         ]
     },
     {
@@ -472,7 +468,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            
+
         ],
         "Activities": [
 
@@ -507,25 +503,25 @@
         "Tagline": null,
         "PEOs": [],
         "PSOs": [],
-      "Labs": [
-        {
-          "LabID": "61",
-          "Lab_Image": "~/images/Department/General/Physics_Lab.jpg",
-          "Lab_Name": "Physics Lab",
-          "Lab_Details": "•	The first-year physics lab in our institute is designed to introduce students to the fundamental concepts of physics through hands-on experiments.<br>•	It focuses on providing practical knowledge of topics like Mechanics, Waves, Optics, Semiconductors, Nano technology, Solar energy, Electricity and Magnetism. Students learn to operate laboratory instruments, gather data, and analyze results, helping them develop essential skills for future engineering courses. <br>•	The lab experience also emphasizes the importance of scientific methodology, accuracy, and problem-solving in real-world applications."
-        }
-      ],
+        "Labs": [
+            {
+                "LabID": "61",
+                "Lab_Image": "~/images/Department/General/Physics_Lab.jpg",
+                "Lab_Name": "Physics Lab",
+                "Lab_Details": "•	The first-year physics lab in our institute is designed to introduce students to the fundamental concepts of physics through hands-on experiments.<br>•	It focuses on providing practical knowledge of topics like Mechanics, Waves, Optics, Semiconductors, Nano technology, Solar energy, Electricity and Magnetism. Students learn to operate laboratory instruments, gather data, and analyze results, helping them develop essential skills for future engineering courses. <br>•	The lab experience also emphasizes the importance of scientific methodology, accuracy, and problem-solving in real-world applications."
+            }
+        ],
         "DeptAcademicCalender": [
 
         ],
         "TimeTable": [ //tender vm object
-            
+
         ],
         "Activities": [
-            
+
         ],
         "NoticeBoard": [
-            
+
         ]
     },
     {
@@ -568,7 +564,7 @@
 
         ],
         "TimeTable": [ //tender vm object
-            
+
         ],
         "Labs": [
             {
@@ -597,10 +593,10 @@
             }
         ],
         "Activities": [
-            
+
         ],
         "NoticeBoard": [
-            
+
         ]
     }
 ]

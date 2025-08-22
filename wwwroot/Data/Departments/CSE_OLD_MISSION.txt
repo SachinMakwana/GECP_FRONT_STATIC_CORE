@@ -1,0 +1,7 @@
+ //"To produce graduates according to the need of industry, government, society and scientific community.",
+ //"To develop partnership with industries, government agencies and R &amp; D organizations for knowledge sharing and overall development of faculties and students.",
+ //"To solve industrial, government agencies, societal and political issues by applying computing techniques. ",
+ //"To motivate students to be entrepreneurs. ",
+ //"To motivate students to participate in reputed conferences, workshops, symposiums, seminars and related technical activities. ",
+ //"To impart human and ethical values in our students for better serving of society.",
+ //"To create awareness among students and inculcate affection for free and open source software. "

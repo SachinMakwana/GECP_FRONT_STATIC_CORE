@@ -7,8 +7,8 @@
     "Mechanical",
     "Civil",
     "Yoddhha",
-    "Gymkhana Sports",
-    "Gymkhana Cultural"
+    "Gymkhana"
+    
 
   ],
   "Years": [
@@ -43,7 +43,7 @@
 
     {
       "ID": 2505,
-      "Title": "Mr. Kiran Vaniya, Alumnus Mechanical Engineering 202-2016, UPSC Civil Services Examinations Mains - 607th Rank",
+      "Title": "Mr. Ankitkumar Vaniya, Alumnus Mechanical Engineering 202-2016, UPSC Civil Services Examinations Mains - 607th Rank",
       "Image": "/images/Achievements/03.jpeg",
       "Date": "22/04/2025",
       "Description": "A moment of immense pride for GEC Patan! Ankitkumar Vaniya (Mechanical, 2012–2016, Village: Kungher) has achieved an extraordinary feat by securing 607th rank in the UPSC Civil Services Exam. His journey from campus to civil services is truly inspiring. Hats off to his dedication and perseverance! #ProudGECPian #Alumni #GECPatanToNationBuilder #UPSCSuccess #FromCampusToCivilServices #InspirationToAll #EngineeringToExcellence #GECStars #HardWorkPaysOff #CivilServicesJourney",
@@ -76,7 +76,7 @@
       "Dept": "CSE",
       "DeptID": 2,
       "CommitteId": 10,
-      "Keywords": "CSE , Gymkhana Sports",
+      "Keywords": "CSE , Gymkhana",
       "Year": 2025
     },
     {
@@ -102,7 +102,7 @@
       "Dept": "CSE",
       "DeptID": 2,
       "CommitteId": 10,
-      "Keywords": "CSE, Gymkhana Sports",
+      "Keywords": "CSE, Gymkhana",
       "Year": 2025
     },
     {
@@ -115,7 +115,7 @@
       "Dept": "CSE",
       "DeptID": 2,
       "CommitteId": 10,
-      "Keywords": "CSE, Gymkhana Sports",
+      "Keywords": "CSE, Gymkhana",
       "Year": 2024
     },
     {
@@ -141,7 +141,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "CSE, Gymkhana Sports",
+      "Keywords": "CSE, Gymkhana",
       "Year": 2023
     },
     {
@@ -154,7 +154,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "CSE, Gymkhana Sports",
+      "Keywords": "CSE, Gymkhana",
       "Year": 2023
     },
     {
@@ -180,7 +180,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Civil, Gymkhana Cultural",
+      "Keywords": "Civil, Gymkhana",
       "Year": 2023
     },
     {
@@ -193,7 +193,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Civil, Gymkhana Sports",
+      "Keywords": "Civil, Gymkhana",
       "Year": 2023
     },
     {
@@ -206,7 +206,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Civil, Gymkhana Cultural",
+      "Keywords": "Civil, Gymkhana",
       "Year": 2023
     },
     {
@@ -219,7 +219,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "CSE, Gymkhana Sports",
+      "Keywords": "CSE, Gymkhana",
       "Year": 2023
     },
     {
@@ -232,7 +232,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "CSE, Gymkhana Sports",
+      "Keywords": "CSE, Gymkhana",
       "Year": 2023
     },
     {
@@ -245,7 +245,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "CSE, Gymkhana Sports",
+      "Keywords": "CSE, Gymkhana",
       "Year": 2023
     },
     {
@@ -258,7 +258,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Electrical, Gymkhana Sports",
+      "Keywords": "Electrical, Gymkhana",
       "Year": 2023
     },
     {
@@ -284,7 +284,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Civil, NSS, Gymkhana Sports",
+      "Keywords": "Civil, NSS, Gymkhana",
       "Year": 2022
     },
     {
@@ -297,7 +297,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Mechanical, Gymkhana Sports",
+      "Keywords": "Mechanical, Gymkhana",
       "Year": 2022
     },
     {
@@ -310,7 +310,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Gymkhana Sports",
+      "Keywords": "Gymkhana",
       "Year": 2022
     },
     {
@@ -323,7 +323,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Mechanical, Gymkhana Sports",
+      "Keywords": "Mechanical, Gymkhana",
       "Year": 2021
     },
     {
@@ -336,7 +336,7 @@
       "Dept": "",
       "DeptID": 0,
       "CommitteId": 10,
-      "Keywords": "Mechanical, Gymkhana Sports",
+      "Keywords": "Mechanical, Gymkhana",
       "Year": 2021
     }
 
