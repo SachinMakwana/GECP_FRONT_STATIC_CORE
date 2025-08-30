@@ -507,8 +507,14 @@
             {
                 "LabID": "61",
                 "Lab_Image": "~/images/Department/General/Physics_Lab.jpg",
-                "Lab_Name": "Physics Lab",
-                "Lab_Details": "•	The first-year physics lab in our institute is designed to introduce students to the fundamental concepts of physics through hands-on experiments.<br>•	It focuses on providing practical knowledge of topics like Mechanics, Waves, Optics, Semiconductors, Nano technology, Solar energy, Electricity and Magnetism. Students learn to operate laboratory instruments, gather data, and analyze results, helping them develop essential skills for future engineering courses. <br>•	The lab experience also emphasizes the importance of scientific methodology, accuracy, and problem-solving in real-world applications."
+                "Lab_Name": "Physics Laboratory",
+                "Lab_Details": "•\tThe first-year physics lab in our institute is designed to introduce students to the fundamental concepts of physics through hands-on experiments.<br>•\tIt focuses on providing practical knowledge of topics like Mechanics, Waves, Optics, Semiconductors, Nano technology, Solar energy, Electricity and Magnetism. Students learn to operate laboratory instruments, gather data, and analyze results, helping them develop essential skills for future engineering courses. <br>•\tThe lab experience also emphasizes the importance of scientific methodology, accuracy, and problem-solving in real-world applications."
+            },
+            {
+                "LabID": "62",
+                "Lab_Image": "~/images/Department/General/Language_Lab.jpeg",
+                "Lab_Name": "Language Laboratory",
+                "Lab_Details": "•\tOur college has a well-equipped Language Laboratory dedicated to first-year students. <br>•\tThe lab has a seating capacity of 30 students, making it suitable for an entire class at once. <br>•\tIt is designed to improve English communication skills, pronunciation, and listening comprehension. <br>•\tThe lab is equipped with headsets, computers, and language learning software for interactive practice. <br>•\tStudents get the opportunity to practice speaking, listening, reading, and writing skills in a structured environment. <br>•\tThe lab also helps in building confidence for group discussions, presentations, and interviews. <br>•\tWith regular sessions, students develop a strong foundation in professional communication skills. <br>•\tThe facility plays a vital role in preparing students for their academic and career growth."
             }
         ],
         "DeptAcademicCalender": [
