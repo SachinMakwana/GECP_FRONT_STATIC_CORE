@@ -547,26 +547,31 @@
   },
   {
     "ID": 103,
-    "Name": "Prof. JAYESHKUMAR PRAJAPATI",
+    "Name": "Prof. JAYESHKUMAR C. PRAJAPATI",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/103.jpg",
     "Dept_ID": 1,
-    "Date_of_Joining": "2016-09-22",
-    "Qualification": "M.Tech Communication Systems ",
+    "Date_of_Joining": "2017-07-13",
+    "Qualification": "Ph.D. Optical Wireless Communication",
     "Area_of_Interest": "Communication Engg, Microwave Engg, Optical Fiber Communication",
     "IsTeaching": true,
     "SeniorityOrder": 5,
     "PersonalDetails": {
-      "Name": "Prof. JAYESHKUMAR PRAJAPATI",
+      "Name": "Dr. JAYESHKUMAR C. PRAJAPATI",
       "Designation": "Assistant Professor",
       "Department": "Electronics And Communication",
-      "Contact": "",
+      "Contact": "9824549615",
       "Email": "jayesh.prajapati@gecpatan.ac.in"
     },
     "EducationalQualifications": [
       {
+        "Degree": "Ph.D.",
+        "Year": "2020",
+        "Specialization": "Optical Fiber Communication"
+      },
+      {
         "Degree": "M.Tech.",
-        "Year": "2009",
+        "Year": "2007",
         "Specialization": "Communication Systems"
       },
       {
@@ -578,41 +583,108 @@
     "ProfessionalExperiences": [
       {
         "Position": "Assistant Professor",
-        "Organization": "Parul Institute of Engineering and Technology",
-        "Duration": "15-06-2012 to 31-12-2012"
+        "Organization": "U.V. Patel College of Engineering, Kherva, Ganpat University",
+        "Duration": "26-06-2000 to 14-11-2016"
       },
       {
-        "Position": "Assistant Professor",
-        "Organization": "U V Patel College Of Engineering",
-        "Duration": "01-01-2013 to 21-09-2016"
+        "Position": "Lecturer",
+        "Organization": "Government Polytechnic, Vadnagar",
+        "Duration": "15-11-2016 to 07-12-2017"
       },
       {
         "Position": "Assistant Professor",
         "Organization": "Government Engineering College, Patan",
-        "Duration": "22-09-2016 to Present"
+        "Duration": "13-07-2017 to Present"
       }
     ],
     "TrainingAndWorkshops": [
       {
-        "Title": "Induction Phase - I ",
-        "OrganizedBy": "NITTTR   Extension Center Ahmadabad",
-        "Date": ""
-      },
-      {
-        "Title": "Spectrum of Electronics and Communication Engineering and Emerging Trends and Technologies",
+        "Title": "Spectrum of Electronics and Communication Engineering and Emerging Technologies",
         "OrganizedBy": "DTE Gandhinagar",
-        "Date": ""
+        "Date": "16-04-2018 to 27-04-2018"
       },
       {
-        "Title": "Faculty Development Program for Induction of program for students of AICTE institutions.",
-        "OrganizedBy": "Ganpat University,Kherva",
-        "Date": ""
+        "Title": "Induction Phase-I",
+        "OrganizedBy": "NITTTR Ahmedabad Center",
+        "Date": "25-06-2018 to 06-07-2018"
+      },
+      {
+        "Title": "Induction Phase-II",
+        "OrganizedBy": "NITTTR Bhopal",
+        "Date": "03-09-2018 to 14-09-2018"
       }
-
     ],
-    "Publications": []
+    "Publications": [
+      {
+        "SrNo": "1",
+        "Title": "Paper title : Enhancing transmission reach: performance analysis of WDM RoF PON OFDM system design with varied QAM schemes , Authors : Jayeshkumar C Prajapati, Shyamkumar A Pankhaniya, Kishor G Maradia  , Journal of Optical Communications, De Gruyter ,Publication date  2025/1/28"
+      },
+      {
+        "SrNo": "2",
+        "Title": "Paper title : IMPLEMENTATION OF SEGMENTED CURRENT STEERING DIGITAL TO ANALOG CONVERTER USING MEMORY LESS PIPELINE DYNAMIC DESIGN TECHNIQUE. Authors : Shyamkumar Amrutlal Pankhaniya Jayeshkumar C. Prajapati , Anju Murlibhai Vasdewani , Journal : ICTACT JOURNAL ON MICROELECTRONICS,Volume 10,  ,Issue 4,Publication date : 2025/1"
+      },
+      {
+        "SrNo": "3",
+        "Title": "Paper title : Performance Analysis of 8* 112 Gbps (0.896 Tbps) WDM ROF Link Using 32 QAM-OFDM Modulation Scheme for Achieving Extended Range. Authors : Jayeshkumar C Prajapati, KG Maradia, Journal : Journal of Optics and Photonics Research, Publication date :  2024/1/16"
+      },
+      {
+        "SrNo": "4",
+        "Title": "Paper title : ANALYSIS AND PERFORMANCE ENHANCEMENT OF RADIO OVER FIBER LINK SYSTEM. Authors : Jayeshkumar C Prajapati, Faculty of Engineering & Technology ,Ganpat University - Kherva North Gujarat, India, Publication date :  2020/12"
+      },
+      {
+        "SrNo": "5",
+        "Title": "Paper title : Performance assessment of 8*112 Gbps coherent WDM OFDM based ROF system using SMF and ULAF cables for long reach Authors : Jayeshkumar C Prajapati, KG Maradia, Journal :INTERNATIONAL JOURNAL OF RESEARCH IN ELECTRONICS AND COMPUTER ENGINEERING (IJRECE) , Volume -7,  Issue 2,Publication date :2019/4"
+      },
+      {
+        "SrNo": "6",
+        "Title": "Paper title : Performance Enhancement of Eight-Channel WDM-RoF-PON System at 80 Gbps Data Rate Using Raman Amplifier Authors : Jayeshkumar C Prajapati, KG Maradia, Publisher :Springer, Singapore , Book : Innovations in Electronics and Communication Engineering, Pages :427-435,Publication date :2018"
+      },
+      {
+        "SrNo": "7",
+        "Title": "Paper title : Performance Analysis of Radio over Fiber System Using Optisystem Authors :jayesh prajapati,Vijay Patel,Amit Agrawal Conference :ICTM-2017 ,  Publication date : 2017/8"
+      },
+      {
+        "SrNo": "8",
+        "Title": "Paper title : Optimization of WDM-FSO link using Multiple Beams under different rain conditions Authors :Nishu Sahu, JAYESH C PRAJAPATI International Journal of Advanced Research in Electronics and Communication Engineering (IJARECE) ,Volume  4 ,Issue 5 ,  Publication date :2015/5"
+      },
+      {
+        "SrNo": "9",
+        "Title": "Paper title : Study and analysis of downstream ROF PON using TWDM concept Authors :Jayesh C. Prajapati,Shivani Raval, Ekta Khimani DOI: 10.13140/RG.2.1.1681.6087,  ISBN ( ONLINE) : 978-93-82288-63-3, Publication date : 2015/3"
+      },
+      {
+        "SrNo": "10",
+        "Title": "Paper title : Design of High Efficiency Class E Power Amplifier in L Band, Authors :Jayesh C.Prajapati Ritesh T.Bhaiya,Amrut N.Patel International Journal for Scientific Research and Development, Volume 3 ,Issue 2 , Pages 727-730  Publication date : 2015/1/5"
+      },
+      {
+        "SrNo": "11",
+        "Title": "Paper title : Design and Simulation of UWB Rectangular Patch Antenna and Square Patch Fractal Antenna Authors :   Dipakkumar J Barasara, Jayeshkumar C. Prajapati Publisher : Ganpat University , Publication date :  Publication date : 2015"
+      },
+      {
+        "SrNo": "12",
+        "Title": "Paper title :Bandwidth enhancement of microstrip patch antenna using different structures of dielectric resonator Authors :   Harshil N Prajapati, Jayesh C Prajapati 2013 Fourth International Conference on Computing, Communications and Networking Technologies (ICCCNT), Publisher :IEEE   Publication date : 2013/7/4"
+      },
+      {
+        "SrNo": "13",
+        "Title": "Paper title : Analysis and Study of FGMOS Based Current Mirror Circuit Using 0.35 µm Technology Authors :   Samir B Joshi, JC Prajapati, BH Soni International Journal of Engineering and Innovative Technology (IJEIT) Volume 2, Publication date :  2013/4"
+      },
+      {
+        "SrNo": "14",
+        "Title": "Paper title : An Overview of Fractal Geometries and Antenna Authors :    Dethalia Ankitkumar Manjibhai, Jayeshkumar C Prajapati, Dipakkumar J Barasara, Journal : International Journal of Engineering and Science, Volume 1 ,Issue 2 ,Pages: 1-4 , Publication date : 2012/9"
+      },
+      {
+        "SrNo": "15",
+        "Title": "Paper title :Overview of Multifrequency Fractal Antenna Authors :   Dipakkumar, J Barasara, Prof. Jayeshkumar C. Prajapati, Ankitkumar M. Dethalia International Journal of Scientific & Engineering Research ,Volume  3 Issue 7    Publication date : 2012/7"
+      },
+      {
+        "SrNo": "16",
+        "Title": "Paper title :Multifrequency fractal antenna Authors :   Dipakkumar J Barasara, Jayeshkumar C Prajapati, Ankitkumar M Dethalia International Journal of Scientific & Engineering Research , Volume 3, Issue 8,   Publication date : 2012"
+      },
+      {
+        "SrNo": "17",
+        "Title": "Paper title :Low Noise Amplifier Design Authors :   Archana Solanki, J.C. Prajapati National Conference on Advances and Challenges in Engineering & Science2012 Volume 1,   Publication date : 2012/4/13"
+      }
+    ]
   },
-
   {
     "ID": 104,
     "Name": "Prof. Mihirkumar Patel",
