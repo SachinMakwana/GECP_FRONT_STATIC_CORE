@@ -661,6 +661,75 @@
     "Files": [
 
     ]
+  },
+  {
+    "ID": 42,
+    "Title": "Mock Interview Event Report-2025-26",
+    "Description": "Motivation seminar on better career, GD, and Mock Interview conducted by Training & Placement Cell, Government Engineering College, Patan.",
+    "EventDate": "21/08/2025",
+    "EventTime": "2 Hrs",
+    "CommitteId": 9,
+    "TargetStudents": "Prefinal & 7th Sem of ME/EE/Civil/EC",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Mock Interview Event Report 2025-26",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/Mock_Interview_Report-2025-26.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 43,
+    "Title": "Entrepreneurship Event Report-2025-26",
+    "Description": "The Power of Ideas: Pathways to Entrepreneurship conducted by Training & Placement Cell, Government Engineering College, Patan.",
+    "EventDate": "19/08/2025",
+    "EventTime": "2 Hrs",
+    "CommitteId": 9,
+    "TargetStudents": "7th Sem of All branch",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Entrepreneurship Event Report 2025-26",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/Enterpreniorship_Event_Report-2025-26.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 44,
+    "Title": "Mock Interview Report-2025",
+    "Description": "Mock Interview for Final Year students conducted by Training & Placement Cell, Government Engineering College, Patan.",
+    "EventDate": "01/01/2025",
+    "EventTime": "5 Hrs",
+    "CommitteId": 9,
+    "TargetStudents": "Final Year 2025 of Mechanical & Electrical",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Mock Interview Report 2025",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/Mock_Interview_ME-EE-2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 45,
+    "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
+    "Description": "Awareness & Preparation Strategy for UPSC and GPSC Examinations conducted by Training & Placement Cell, Government Engineering College, Patan.",
+    "EventDate": "20/08/2025",
+    "EventTime": "2 Hrs",
+    "CommitteId": 9,
+    "TargetStudents": "Pre final & Final Year - All Branch",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "GPSC-UPSC Event Report 2025-26",
+        "FileType": "PDF",
+        "FilePath": "~/NewPlacementCell/GPSC-UPSC_Event_Report-2025-26.pdf"
+      }
+    ]
   }
+
 ]
 
