@@ -13,7 +13,7 @@
     "Date_of_Joining": "2025-04-24",
     "Qualification": "Ph.D. Electronics & Communication Engineering",
     "Area_of_Interest": "Multiband Antennas, Wireless Communication",
-    "Isteaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 0,
     "PersonalDetails": {
       "Name": "Dr. Devendrakumar H. Patel",
@@ -1344,7 +1344,7 @@
   //    "Date_of_Joining": "2017-07-15",
   //    "Qualification": "PhD.",
   //    "Area_of_Interest": "Machine Learning",
-  //    "Isteaching": true,
+  //    "IsTeaching": true,
   //    "SeniorityOrder": 1,
   //    "PersonalDetails": {
   //        "Name": "Dr. Harikrishna Jethva",
@@ -1680,7 +1680,7 @@
     "Date_of_Joining": "2025-04-24",
     "Qualification": "-",
     "Area_of_Interest": "-",
-    "isTeaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 1,
     "personal_details": "",
     "PersonalDetails": {
@@ -1748,7 +1748,7 @@
     "Date_of_Joining": "2025-04-23",
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Computer Science ",
-    "Isteaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 2,
     "personal_details": "-",
 
@@ -2171,7 +2171,7 @@
     "Date_of_Joining": "2020-06-08",
     "Qualification": "M.E. CSE",
     "Area_of_Interest": "Python",
-    "Isteaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 14,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. SACHIN MAKWANA</a></div> <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.E. (C.S.E.)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">1 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Python</span></li></ul></div></div></div>",
     "PersonalDetails": {
@@ -2884,7 +2884,7 @@
     "Date_of_Joining": "2020-10-14",
     "Qualification": "M.Tech CE",
     "Area_of_Interest": "DTN / IOT",
-    "isTeaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 3,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. HARSHAD CHAUDHARY</a></div>  <hr> <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">M.Tech</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">5 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">DTN / IOT</span></li></ul></div></div></div>",
     "PersonalDetails": {
@@ -3195,7 +3195,7 @@
     "Date_of_Joining": "12-07-2017",
     "Qualification": "ME Electrical",
     "Area_of_Interest": "Electrical Machines, Power Systems",
-    "Isteaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 1,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Mr. GUNVANTBHAI PATEL</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Associate Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">ME Electrical</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">23 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Electrical Machines,Power Systems</span></li></ul></div></div></div>",
     "tabs": {
@@ -4809,7 +4809,7 @@
     "Date_of_Joining": "2017-07-12",
     "Qualification": "Ph.D. Civil Engineering",
     "Area_of_Interest": "Civil Engineering",
-    "Isteaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 4,
     "personal_details": "<div class=\"b-portfolio_info col-sm-6\"><div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. MANJURALI BALYA</a></div><hr><div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D. (Civil Engineering)</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">4 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Transportation Engineering</span></li></ul></div></div></div>",
     "tabs": {
@@ -9479,7 +9479,7 @@
     "Date_of_Joining": "2011-05-04",
     "Qualification": "Ph.D.",
     "Area_of_Interest": "Atomic and Molecular Physics",
-    "Isteaching": true,
+    "IsTeaching": true,
     "SeniorityOrder": 4,
     //"personal_details": "<div class=\"b-portfolio_info col-sm-6\">  <div class=\"b-portfolio_info_title f-primary-b f-portfolio_info_title\"><a href=\"#\">Dr. HARSHADKUMAR BHUTADIA </a></div> <hr>  <div class=\"b-portfolio_info_description f-portfolio_info_description\"><div class=\"b-information-box f-information-box f-primary-b\"><ul><li><strong class=\"f-information-box__name b-information-box__name\">Designation</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Assistant Professor</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Qualification</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Ph.D.(Physics) </span></li><li><strong class=\"f-information-box__name b-information-box__name\">Experience</strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">10 Years</span></li><li><strong class=\"f-information-box__name b-information-box__name\">Area_of_Interest </strong><i class=\"b-dotted f-dotted\">:</i><span class=\"f-information_data\">Atomic andMolecular Physics</span></li></ul></div></div></div>"
 
@@ -9978,7 +9978,7 @@
     "Date_of_Joining": "2023-10-06",
     "Qualification": "",
     "Area_of_Interest": "",
-    "Isteaching": false,
+    "IsTeaching": false,
     "SeniorityOrder": 2,
     "PersonalDetails": {
       "Name": "Smt. Shilpaben Chaudhary",
@@ -10001,7 +10001,7 @@
     "Date_of_Joining": "2010-04-23",
     "Qualification": "",
     "Area_of_Interest": "",
-    "Isteaching": false,
+    "IsTeaching": false,
     "SeniorityOrder": 3,
     "PersonalDetails": {
       "Name": "Shree. P. N. Pancholi",
