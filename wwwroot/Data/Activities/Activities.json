@@ -403,6 +403,7 @@
     "EventDate": "February/Sept",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "All Sem",
     "Files": [
       {
@@ -420,6 +421,7 @@
     "EventDate": "Jan/Feb",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Pre-Final Year",
     "Files": [
       {
@@ -437,6 +439,7 @@
     "EventDate": "August/April",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Pre-Final Year",
     "Files": [
       {
@@ -454,6 +457,7 @@
     "EventDate": "Jan/Feb & July/Aug",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Final and Pre-Final Year",
     "Files": [
       {
@@ -471,6 +475,7 @@
     "EventDate": "Feb/March",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Final Year",
     "Files": [
       {
@@ -488,6 +493,7 @@
     "EventDate": "Sept/Oct",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Final Year",
     "Files": [
       {
@@ -505,6 +511,7 @@
     "EventDate": "July to Dec",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Final Year & Pass out",
     "Files": [
       {
@@ -522,6 +529,7 @@
     "EventDate": "Year",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Final Year & Pass out",
     "Files": []
   },
@@ -532,6 +540,7 @@
     "EventDate": "August/Sept",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Final Year",
     "Files": [
       {
@@ -549,6 +558,7 @@
     "EventDate": "Jan/Feb Aug/Sept",
     "EventTime": "",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "All semester",
     "Files": [
       {
@@ -567,7 +577,7 @@
     "EventTime": "11:00 am to 12:15 pm",
     "CommitteId": 2,
     "TargetStudents": "",
-    "Year": "2025",
+    "Year": 2025,
     "Files": [
       {
         "ID": 1,
@@ -585,7 +595,7 @@
     "EventTime": "03:30 pm to 04:30 pm",
     "CommitteId": 2,
     "TargetStudents": "",
-    "Year": "2025",
+    "Year": 2025,
     "Files": [
       {
         "ID": 1,
@@ -603,7 +613,7 @@
     "EventTime": "11:30am to 12:45pm",
     "CommitteId": 2,
     "TargetStudents": "",
-    "Year": "2025",
+    "Year": 2025,
     "Files": [
       {
         "ID": 1,
@@ -621,7 +631,7 @@
     "EventTime": "11:30 am to 12:30 pm",
     "CommitteId": 2,
     "TargetStudents": "",
-    "Year": "2025",
+    "Year": 2025,
     "Files": [
       {
         "ID": 1,
@@ -639,7 +649,7 @@
     "EventTime": "",
     "CommitteId": 2,
     "TargetStudents": "",
-    "Year": "2025",
+    "Year": 2025,
     "Files": [
       {
         "ID": 1,
@@ -669,6 +679,7 @@
     "EventDate": "01/01/2025",
     "EventTime": "5 Hrs",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Final Year 2025 of Mechanical & Electrical",
     "Files": [
       {
@@ -687,6 +698,7 @@
     "EventDate": "19/08/2025",
     "EventTime": "2 Hrs",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "7th Sem of All branch",
     "Files": [
       {
@@ -705,6 +717,7 @@
     "EventDate": "20/08/2025",
     "EventTime": "2 Hrs",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Pre final & Final Year - All Branch",
     "Files": [
       {
@@ -722,6 +735,7 @@
     "EventDate": "21/08/2025",
     "EventTime": "2 Hrs",
     "CommitteId": 9,
+    "Year": 2025,
     "TargetStudents": "Prefinal & 7th Sem of ME/EE/Civil/EC",
     "Files": [
       {
