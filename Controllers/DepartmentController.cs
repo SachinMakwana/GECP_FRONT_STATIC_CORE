@@ -60,7 +60,7 @@ namespace GECP_Front_End_Static.Controllers
             if (data != null)
             {
                 data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
-				data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == id).OrderBy(m => m.ID).ToList();
+                data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == id).OrderByDescending(m =>m.Date.Replace("/", "-")).ToList();
                 data.Activities = ActivitiesVM.Where(m => m.DeptID == id).OrderBy(m => m.ID).ToList();
                 //data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
             }

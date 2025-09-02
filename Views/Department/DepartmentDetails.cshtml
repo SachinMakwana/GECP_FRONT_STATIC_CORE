@@ -1,4 +1,4 @@
-@model DepartmentVM
+﻿@model DepartmentVM
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = Model.Title;
@@ -598,8 +598,10 @@
                     </tr>
                 </thead>
                 <tbody>
+                   
                     @foreach (var item in Model.Achievements)
                     {
+                        
                         <tr>
                             <td>
                                 <div class="box hidden-xs" style="height:265px">
@@ -859,7 +861,9 @@
         }
 
         $(document).ready(function () {
-            $('#myTable').DataTable();
+             $('#myTable').DataTable({
+            ordering: false
+        });
         });
     </script>
 
