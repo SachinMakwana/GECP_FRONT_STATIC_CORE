@@ -880,6 +880,17 @@
         "position": 2,
         "isVisible": true,
         "ChildMenuVMs": []
+      },
+      {
+        "ID": 997,
+        "MenuText": "Central Store & Purchase",
+        "ParentID": 99,
+        "dynamicID": null,
+        "ControllerName": "Administration",
+        "ActionName": "Central_Store",
+        "position": 7,
+        "isVisible": true,
+        "ChildMenuVMs": []
       }
     ]
   },
