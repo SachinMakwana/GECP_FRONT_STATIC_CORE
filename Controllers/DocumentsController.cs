@@ -31,7 +31,7 @@ namespace GECP_Front_End_Static.Controllers
         public IActionResult Index(int id = 0)
         {
             var data = DocumentsVms.Where(m => m.Id == id).FirstOrDefault();
-            data.YearSection = data.YearSection.OrderBy(m => m.Year).ToList();
+            data.YearSection = data.YearSection.OrderBy(m => m.Order).ToList();
             return View(data);
         }
 

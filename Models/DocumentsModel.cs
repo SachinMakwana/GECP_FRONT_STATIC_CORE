@@ -31,7 +31,8 @@ namespace GECP_Front_End_Static.Models
     public class YearSection
     {
         public string Year { get; set; }
-        public int Order { get; set; }
+        public int Order { get; set; } = 0;
+        public bool isShow { get; set; } = true;
         public List<Document> Documents { get; set; } = new List<Document>();
     }
 

@@ -50,7 +50,7 @@
 <div class="clearfix margin_bottom6"></div>
 <div class="content_fullwidth less">
     <div class="featured_section77 two">
-        @foreach(var yearSec in Model.YearSection)
+        @foreach (var yearSec in Model.YearSection.Where(m => m.isShow).ToList())
         {
             <div class="container box">
                 <div class="box-border-text">@yearSec.Year</div>
