@@ -428,7 +428,7 @@
         "ID": 1,
         "Title": "Entrepreneurship Awareness Program Report",
         "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/2. Entrepreneurship Awareness Program.pdf"
+        "FilePath": "~/NewPlacementCell/2. Entrepreneurship Awareness Program (2).pdf"
       }
     ]
   },
@@ -672,43 +672,6 @@
 
     ]
   },
-  {
-    "ID": 42,
-    "Title": "Mock Interview Report-2025",
-    "Description": "Mock Interview for Final Year students conducted by Training & Placement Cell, Government Engineering College, Patan.",
-    "EventDate": "01/01/2025",
-    "EventTime": "5 Hrs",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Final Year 2025 of Mechanical & Electrical",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Mock Interview Report 2025",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/Mock_Interview_ME-EE-2025.pdf"
-      }
-    ]
-  },
-
-  {
-    "ID": 44,
-    "Title": "Entrepreneurship Event Report-2025-26",
-    "Description": "The Power of Ideas: Pathways to Entrepreneurship conducted by Training & Placement Cell, Government Engineering College, Patan.",
-    "EventDate": "19/08/2025",
-    "EventTime": "2 Hrs",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "7th Sem of All branch",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Entrepreneurship Event Report 2025-26",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/Enterpreniorship_Event_Report-2025-26.pdf"
-      }
-    ]
-  },
 
   {
     "ID": 45,
@@ -727,25 +690,8 @@
         "FilePath": "~/NewPlacementCell/GPSC-UPSC_Event_Report-2025-26.pdf"
       }
     ]
-  },
-  {
-    "ID": 43,
-    "Title": "Mock Interview Event Report-2025-26",
-    "Description": "Motivation seminar on better career, GD, and Mock Interview conducted by Training & Placement Cell, Government Engineering College, Patan.",
-    "EventDate": "21/08/2025",
-    "EventTime": "2 Hrs",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Prefinal & 7th Sem of ME/EE/Civil/EC",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Mock Interview Event Report 2025-26",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/Mock_Interview_Report-2025-26.pdf"
-      }
-    ]
   }
+  
 
 ]
 

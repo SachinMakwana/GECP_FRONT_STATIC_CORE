@@ -401,8 +401,13 @@
       "Once placed in a company, the student will be out of the placement process unless : Institute placement coordinator can allow student to appear for other company if student provide bond related NOC from the previous company."
     ],
     "InternshipOffers": [
-      "Contact Your Department Placement coordinator for Internship through institute",
-      "Must Fill the Internship data in Link Provided by placement Coordinator."
+      {
+        "Name": "Contact Your Department Placement coordinator for Internship through institute"
+      },
+      {
+        "Name": "Must Fill the Internship data in Link Provided by placement Coordinator.",
+        "Link": "https://forms.gle/seybLs22payWJqwJ9"
+      }
     ],
     "Dress Code & Behavior": [
       "Formal attire is mandatory during interviews or recruitment drives.",
@@ -437,6 +442,14 @@
       {
         "Name": "Alumni Placement Data",
         "Path": "~/NewPlacementCell/Templates/Alumni_Placement_Data.pdf"
+      },
+      {
+        "Name": "Video on Personal Interview Skill",
+        "Path": "~/NewPlacementCell/Templates/Video on Personal Interview Skill.mp4"
+      },
+      {
+        "Name": "Guideline Fore AI Base Resume",
+        "Path": "~/NewPlacementCell/Templates/7. Guideline for AI Base Resume.pdf"
       }
     ]
 
