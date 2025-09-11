@@ -121,7 +121,7 @@
             <div class="full-container">
 
 
-                <div class="container center-block">
+                <div class="center-block">
 
                     @* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
                     <img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" />
@@ -302,7 +302,7 @@
     {
        <!-- Table View -->
         <div class="featured_section106">
-            <div class="full-container">
+            <div class="full-container table-responsive">
                 <div class="margin_top2"></div>
                 <h2 class="roboto thin">Top Recruiters</h2>
                 <div class="hsmline7"></div>
@@ -375,7 +375,7 @@
     {
         <div id="ActivitiesCalendar" class="tabcontent">
             <div class="featured_section106">
-                <div class="full-container">
+                <div class="full-container table-responsive">
                     <div class="margin_top2"></div>
                     <h2 class="roboto thin">Placement Activities Calendar</h2>
                     <div class="hsmline7"></div>
@@ -420,7 +420,7 @@
             </div>
         </div>
     }
-  
+  <!--For Students-->
     @if (Model.StudentPolicy != null)
     {
         <div id="StudentPlacementPolicy" class="tabcontent">
@@ -430,7 +430,7 @@
                     <!-- General Policy -->
                     @if (Model.StudentPolicy.PolicyText?.Any() == true)
                     {
-                        <h2 class="roboto thin">Placement Policy for students</h2> 
+                        <h2 class="roboto strong">Placement Policy for students</h2> 
                         <div class="hsmline7"></div>
                         <br>
                         <ul>
@@ -445,23 +445,29 @@
                     <!-- Internship Instructions -->
                     @if (Model.StudentPolicy.InternshipOffers?.Any() == true)
                     {
-                        <h2 class="roboto thin">Internship Offers
+                        <h2 class="roboto strong">Internship Offers
                         </h2>
                         <div class="hsmline7"></div>
                         <br>
                         <ul>
                             @foreach (var item in Model.StudentPolicy.InternshipOffers)
                             {
-                                <h4 class="roboto thin text-justify"><i class="fa fa-check text-success"></i> @item</h4>
+                                <h4 class="roboto thin text-justify">
+                                    <i class="fa fa-check text-success"></i> @item.Name @if (!string.IsNullOrWhiteSpace(item.Link)){
+                                        <a href="@item.Link" target="_blank" style="color:deepskyblue; text-decoration: none;">
+                                            Click Here
+                                        </a>
+                                    }
+                                </h4>
                             }
                         </ul>
-                         <br>
+                        <br>
                     }
 
                     <!-- Dress Code -->
                     @if (Model.StudentPolicy.DressCode?.Any() == true)
                     {
-                        <h2 class="roboto thin">Dress Code</h2>
+                        <h2 class="roboto strong">Dress Code</h2>
                         <div class="hsmline7"></div>
                         <br>
                         <ul>
@@ -476,7 +482,7 @@
                     <!-- Offer Letter Policy -->
                     @if (Model.StudentPolicy.OfferLetterPolicy?.Any() == true)
                     {
-                        <h2 class="roboto thin">Offer Letter Policy</h2> <div class="hsmline7"></div>
+                        <h2 class="roboto strong">Offer Letter Policy</h2> <div class="hsmline7"></div>
                         <br>
                         <ul>
                             @foreach (var item in Model.StudentPolicy.OfferLetterPolicy)
@@ -490,7 +496,7 @@
                     <!-- Download Templates -->
                     @if (Model.StudentPolicy.Downloads?.Any() == true)
                     {
-                        <h2 class="roboto thin">Download Templates</h2><div class="hsmline7"></div>    
+                        <h2 class="roboto strong">Download Templates</h2><div class="hsmline7"></div>    
                         <br><br>
                         <table class="table table-bordered table-striped table-dark mt-2">
                             <thead>

@@ -59,7 +59,7 @@ namespace GECP_Front_End_Static.Models
     public class StudentPolicy
     {
         public List<string> PolicyText { get; set; }
-        public List<string> InternshipOffers { get; set; }
+        public List<InternshipOffer> InternshipOffers { get; set; }
         public List<string> DressCode { get; set; }
         public List<string> OfferLetterPolicy { get; set; }
         public List<DownloadItem> Downloads { get; set; }
@@ -96,5 +96,11 @@ namespace GECP_Front_End_Static.Models
     {
         public string Address { get; set; }
         public string Email { get; set; }
+    }
+
+    public class InternshipOffer
+    {
+        public string Name { get; set; }
+        public string Link { get; set; }
     }
 }
