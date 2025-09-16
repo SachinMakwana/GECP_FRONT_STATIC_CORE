@@ -673,24 +673,24 @@
     ]
   },
 
-  {
-    "ID": 45,
-    "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
-    "Description": "Awareness & Preparation Strategy for UPSC and GPSC Examinations conducted by Training & Placement Cell, Government Engineering College, Patan.",
-    "EventDate": "20/08/2025",
-    "EventTime": "2 Hrs",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Pre final & Final Year - All Branch",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "GPSC-UPSC Event Report 2025-26",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/GPSC-UPSC_Event_Report-2025-26.pdf"
-      }
-    ]
-  }
+  //{
+  //  "ID": 45,
+  //  "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
+  //  "Description": "Awareness & Preparation Strategy for UPSC and GPSC Examinations conducted by Training & Placement Cell, Government Engineering College, Patan.",
+  //  "EventDate": "20/08/2025",
+  //  "EventTime": "2 Hrs",
+  //  "CommitteId": 9,
+  //  "Year": 2025,
+  //  "TargetStudents": "Pre final & Final Year - All Branch",
+  //  "Files": [
+  //    {
+  //      "ID": 1,
+  //      "Title": "GPSC-UPSC Event Report 2025-26",
+  //      "FileType": "PDF",
+  //      "FilePath": "~/NewPlacementCell/GPSC-UPSC_Event_Report-2025-26.pdf"
+  //    }
+  //  ]
+  //}
   
 
 ]
