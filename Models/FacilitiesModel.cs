@@ -84,6 +84,7 @@ namespace GECP_Front_End_Static.Models
     {
         public string Title { get; set; }
         public bool TableView { get; set; }
+        public string Tagline { get; set; }
         public string TitleImage { get; set; }
         public string TitleImageCSSClass { get; set; }
         public string Content { get; set; }

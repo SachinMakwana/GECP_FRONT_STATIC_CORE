@@ -169,6 +169,7 @@
                                             <a href="@resource.Hyperlink" target="_blank" style="color:deepskyblue">View</a>
                                         </td>
                                     </tr>
+                                    srno++;
                                 }
                             </tbody>
                         </table>
@@ -192,19 +193,18 @@
                 <br><br>
 
                 <div class="row g-4 justify-content-center">
-                    @foreach (var resource in Model.Resources)
+                    @foreach (var item in Model.Resources)
                     {
-                        <div class="col-6 col-sm-4 col-md-3">
-                            <a href="@resource.Hyperlink" target="_blank" class="text-decoration-none">
-                                <div class="position-relative bg-white border rounded overflow-hidden shadow-sm d-flex align-items-center justify-content-center" style="width: 100%; height: 150px;">
-                                    <img src="@Url.Content(resource.Image)"
-                                         class="img-fluid mb-4"
-                                         style="height: 80px; object-fit: contain;"
-                                         alt="@resource.Name" />
-                                    @* <h5 class="card-title">@resource.Name</h5>*@
-                                </div>
+                        <div class="one_third box animate box-min-height fadeInUp @(srno % 3 == 0 ? "last" : "")" data-anim-type="fadeInUp" data-anim-delay="100">
+                            <a href="@item.Hyperlink" target="_blank">
+                                <img src="@Url.Content(item.Image)" class="rimg" style="max-height:252px;  height:230px;">
                             </a>
                         </div>
+                        @if (srno % 3 == 0)
+                        {
+                            <div class="clearfix margin_bottom2"></div>
+                        }
+                        srno++;
                     }
                 </div>
             </div>
@@ -240,3 +240,12 @@
     </div>
 
 </div>
+
+@if (!string.IsNullOrWhiteSpace(Model.Tagline))
+{
+    <div class="featured_section38">
+        <div class="full-container">
+            @Html.Raw(Model.Tagline)
+        </div>
+    </div>
+}
