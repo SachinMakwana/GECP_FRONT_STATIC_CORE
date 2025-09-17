@@ -1,26 +1,56 @@
 [
+    //{
+    //    "Id": 1,
+    //    "Title": "Hostel Mess and Cantine",
+    //    "YearSection": [
+    //        {
+    //            "Year": "2024",
+    //            "Order": 1,
+    //            "Documents": [
+    //                {
+    //                    "ID": 1,
+    //                    "Title": "Hostel mess and cantine tender GECP 2024-25",
+    //                    "FileType": "PDF",
+    //                    "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+    //                    "isShow": false,
+    //                    "UploadDate": ""
+    //                }
+    //            ]
+    //        }
+    //    ]
+    //},
     {
-        "Id": 1,
-        "Title": "Hostel Mess and Cantine",
+        "Id": 2,
+        "Title": "Hostel Mess and Canteen",
         "YearSection": [
             {
-                "Year": "2024",
+                "Year": "2025-26",
                 "Order": 1,
                 "Documents": [
                     {
                         "ID": 1,
-                        "Title": "Hostel mess and cantine tender GECP 2024-25",
+                        "Title": "Hostel Mess Tender GECP 2025-26",
                         "FileType": "PDF",
-                        "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                        "File": "~/Tenders/Hostel Mess Tender_GEC Patan_2025-26.pdf",
                         "isShow": true,
-                        "UploadDate": ""
+                        "UploadDate": "17/09/2025",
+                        "MonthYear": "2025-26"
+                    },
+                    {
+                        "ID": 1,
+                        "Title": "Canteen Tender GECP 2025-26",
+                        "FileType": "PDF",
+                        "File": "~/Tenders/Canteen Tender_GEC Patan_2025-26.pdf",
+                        "isShow": true,
+                        "UploadDate": "17/09/2025",
+                        "MonthYear": "2025-26"
                     }
                 ]
             }
         ]
     },
     {
-        "Id": 2,
+        "Id": 3,
         "Title": "Write Off",
         "YearSection": [
             {
@@ -33,7 +63,8 @@
                         "FileType": "PDF",
                         "File": "~/Tenders/WriteOff/2025/૨૦૦૦થી વધુ કિમતની ઈ-વેસ્ટ આઈટમો ખરીદવા માટે નું કવોટેશન ( ભાવ-પત્રક).pdf",
                         "isShow": true,
-                        "UploadDate": "18/02/2025"
+                        "UploadDate": "18/02/2025",
+                        "MonthYear": "2024-25"
                     },
                     {
                         "ID": 2,
@@ -41,7 +72,8 @@
                         "FileType": "pdf",
                         "File": "~/Tenders/WriteOff/2025/કબુલાતનામું.pdf",
                         "isShow": true,
-                        "UploadDate": "18/02/2025"
+                        "UploadDate": "18/02/2025",
+                        "MonthYear": "2024-25"
                     },
                     {
                         "ID": 3,
@@ -49,7 +81,8 @@
                         "FileType": "PDF",
                         "File": "~/Tenders/WriteOff/2025/નિયત ટેન્ડર ફોર્મ.pdf",
                         "isShow": true,
-                        "UploadDate": "18/02/2025"
+                        "UploadDate": "18/02/2025",
+                        "MonthYear": "2024-25"
                     },
                     {
                         "ID": 4,
@@ -57,7 +90,8 @@
                         "FileType": "PDF",
                         "File": "~/Tenders/WriteOff/2025/માલ સંભાળ્યા નું પ્રમાણ પત્ર  પેઢી ના લેટરપેડ પર.pdf",
                         "isShow": true,
-                        "UploadDate": "18/02/2025"
+                        "UploadDate": "18/02/2025",
+                        "MonthYear": "2024-25"
                     }
                 ]
             }
