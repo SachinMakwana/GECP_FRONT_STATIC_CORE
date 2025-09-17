@@ -41,21 +41,22 @@
         "FileLink": "~/ImpDocs/Important_Instructions_2025_26.pdf",
         "ControllerName": "",
         "ActionName": ""
-    },
-    {
-        "ID": 6,
-        "Title": "Canteen Tender Notice, GEC Patan 2025-26",
-        "IsFile": 1,
-        "FileLink": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
-        "ControllerName": "",
-        "ActionName": ""
-    },
-    {
-        "ID": 7,
-        "Title": "Mess Tender Notice, GEC Patan 2025-26",
-        "IsFile": 1,
-        "FileLink": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
-        "ControllerName": "",
-        "ActionName": ""
     }
+    //,
+    //{
+    //    "ID": 6,
+    //    "Title": "Canteen Tender Notice, GEC Patan 2025-26",
+    //    "IsFile": 1,
+    //    "FileLink": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
+    //    "ControllerName": "",
+    //    "ActionName": ""
+    //},
+    //{
+    //    "ID": 7,
+    //    "Title": "Mess Tender Notice, GEC Patan 2025-26",
+    //    "IsFile": 1,
+    //    "FileLink": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
+    //    "ControllerName": "",
+    //    "ActionName": ""
+    //}
 ]
