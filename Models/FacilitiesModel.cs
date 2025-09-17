@@ -83,38 +83,47 @@ namespace GECP_Front_End_Static.Models
     public class Library
     {
         public string Title { get; set; }
-        public string Titleimage { get; set; }
+        public bool TableView { get; set; }
+        public string Tagline { get; set; }
+        public string TitleImage { get; set; }
         public string TitleImageCSSClass { get; set; }
         public string Content { get; set; }
 		public List<string> Vision { get; set; }
 		public List<string> Mission { get; set; }
         public List<string> Images { get; set; }
-		public string Books { get; set; }
-        public string Books_Hyperlink { get; set; }
-        public string ONOS_IMG { get; set; }
-        public string ONOS_LINK { get; set; }
-        public string NPTEL_IMG { get; set; }
-        public string NPTEL_LINK { get; set; }
-        public string INDCAT_IMG { get; set; }
-        public string INDCAT_LINK { get; set; }
+        //public string Books { get; set; }
+        //      public string Books_Hyperlink { get; set; }
+        //      public string ONOS_IMG { get; set; }
+        //      public string ONOS_LINK { get; set; }
+        //      public string NPTEL_IMG { get; set; }
+        //      public string NPTEL_LINK { get; set; }
+        //      public string INDCAT_IMG { get; set; }
+        //      public string INDCAT_LINK { get; set; }
+        public List<LibraryResource> Resources { get; set; }
         public string Periodicals { get; set; }
         public string Reports { get; set; }
         public string Biography { get; set; }
 		public string TagLine { get; set; }
         public List<Members> Members { get; set; }
     }
+    public class LibraryResource
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Hyperlink { get; set; }
+        public string Image { get; set; }
+    }
+    //public class Member2
+    //{
+    //    public int ID { get; set; }
+    //    public string Name { get; set; }
+    //    public string Position { get; set; }
+    //    public string Department { get; set; }
+    //    public string Image { get; set; }
+    //    public string Email { get; set; }
 
-	//public class Member2
-	//{
-	//    public int ID { get; set; }
-	//    public string Name { get; set; }
-	//    public string Position { get; set; }
-	//    public string Department { get; set; }
-	//    public string Image { get; set; }
-	//    public string Email { get; set; }
-
-	//}
-	public class Benefit
+    //}
+    public class Benefit
 	{
 		public string Icon { get; set; }
 		public string Time { get; set; }

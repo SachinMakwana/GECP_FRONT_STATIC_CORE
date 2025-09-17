@@ -1,6 +1,8 @@
 ﻿{
   "Title": "Library",
-  "Titleimage": "../../images/ssip_banner.jpg",
+  "TableView": false,
+  "TitleImage": "../../images/ssip_banner.jpg",
+  "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">A Library is not Luxury its...<b>neccessity of Life.</b></h1>",
   "TitleImageCSSClass": "ssip_title",
   "Content": "On the basis of quality education, the library of the institute has been developed quite efficiently by the supportive faculties and is being updated constantly to avail our students maximum knowledge and provide them a strong base to explore the future. The books in the library cover all essential categories required not only for technical excellence but also for the holistic development of students, including science, engineering, management, literature, personality development, and general knowledge resources. Along with academic enrichment, the collection helps students nurture creativity, leadership, and critical thinking skills. The library also keeps the students updated with the latest technologies, research trends, and innovations, ensuring their all-round intellectual growth.",
   "Vision": [ "To promote intellectual growth and creativity by developing collections, facilitating access to information resources, teaching the effective use of information resources." ],
@@ -12,14 +14,46 @@
     "~/images/Library/Library (4).jpg",
     "~/images/Library/Library (5).jpg"
   ],
-  "Books": "11011+ Books",
-  "Books_Hyperlink": "https://drive.google.com/file/d/1p7fU0vS_i3b86u_5T5RNOMwmaBeMJ5tO/view?usp=drive_link",
-  "ONOS_IMG": "~/images/Library/onos-logo.png",
-  "ONOS_LINK": "https://onos.gov.in/ums/check-access",
-  "NPTEL_IMG": "~/images/Library/NPTEL_SWAYAM_LOGO.png",
-  "NPTEL_LINK": "https://onlinecourses.nptel.ac.in/",
-  "INDCAT_IMG": "~/images/Library/IND-CAT.png",
-  "INDCAT_LINK": "https://indcat.inflibnet.ac.in/",
+  //"Books": "11011+ Books",
+  //"Books_Hyperlink": "https://drive.google.com/file/d/1p7fU0vS_i3b86u_5T5RNOMwmaBeMJ5tO/view?usp=drive_link",
+  //"ONOS_IMG": "~/images/Library/onos-logo.png",
+  //"ONOS_LINK": "https://onos.gov.in/ums/check-access",
+  //"NPTEL_IMG": "~/images/Library/NPTEL_SWAYAM_LOGO.png",
+  //"NPTEL_LINK": "https://onlinecourses.nptel.ac.in/",
+  //"INDCAT_IMG": "~/images/Library/IND-CAT.png",
+  //"INDCAT_LINK": "https://indcat.inflibnet.ac.in/",
+  "Resources": [
+    {
+      "Id": 1,
+      "Name": "Books",
+      "Hyperlink": "https://drive.google.com/file/d/1p7fU0vS_i3b86u_5T5RNOMwmaBeMJ5tO/view",
+      "Image": "~/images/Library/LibraryList.jpg"
+    },
+    {
+      "Id": 2,
+      "Name": "ONOS",
+      "Hyperlink": "https://onos.gov.in/ums/check-access",
+      "Image": "~/images/Library/onos-logo.png"
+    },
+    {
+      "Id": 3,
+      "Name": "NPTEL",
+      "Hyperlink": "https://onlinecourses.nptel.ac.in/",
+      "Image": "~/images/Library/NPTEL_SWAYAM_LOGO.png"
+    },
+    {
+      "Id": 4,
+      "Name": "INDCAT",
+      "Hyperlink": "https://indcat.inflibnet.ac.in/",
+      "Image": "~/images/Library/IND-CAT.png"
+    },
+    {
+      "Id": 5,
+      "Name": "Rastriya E-Pushtakalaya",
+      "Hyperlink": "https://ndl.education.gov.in/home",
+      "Image": "~/images/Library/E_pushtakalay.png"
+    }
+  ],
   "Periodicals": "14000+ Periodicals",
   "Reports": "2400+ Research Reports",
   "Biography": "87489+ Biography",
