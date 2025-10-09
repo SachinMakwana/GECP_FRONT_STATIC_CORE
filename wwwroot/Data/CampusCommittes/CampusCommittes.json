@@ -964,7 +964,7 @@
         "SubObjImg": "~/images/alumni-poster.jpg",
         "BulletPoints": [
             "Pay registration fees via NEFT / IMPS / UPI",
-            "Fill the registration form by clicking <a href=\"https://forms.gle/MQEXfWn25686ZUdN7\" target=\"_blank\"> here </a> (payment proof required)",
+            "Fill the registration form by clicking <a href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\"> here </a> (payment proof required)",
             "Once the registration is completed, you will be provided temporary Member ID through EMAIL.",
             "Updates will be sent regarding Alumni events to your registered Email IDs. <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>"
         ],
