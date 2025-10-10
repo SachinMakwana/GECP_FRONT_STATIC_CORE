@@ -14,7 +14,7 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public Hostel HostelVM = new Hostel();
         //public List<Student> Students = new List<Student>();
-        public Student CentralFacilitie = new Student();
+        public Student CentralFacilitie = new Student(); 
         public List<Medical> MedicalVMs = new List<Medical>();
         public Library LibraryVM = new Library();
         public COE COEVM = new COE();

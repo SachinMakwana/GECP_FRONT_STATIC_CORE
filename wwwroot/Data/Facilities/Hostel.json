@@ -4,93 +4,97 @@
   "Titleimage": "../../images/ssip_banner.jpg",
   "TitleImageCSSClass": "ssip_title",
   "About": "The institute provides excellent accommodation to its students. The students are provided with all the amenities so that their stay here becomes a worthwhile experience. Entertainment facilities like TV room, badminton room, gymnasium are also available in hostel.",
-  "SideImage": "../../images/gallary/1112.jpg",
-  "BlogLink": "https://hostelgecp.blogspot.com/",
-  "PageFlyer": "../../images/hostelFlyer.jpg",
-  "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"><b>\"Where Learning Meets Living.\"</b></h1>",
-  "Measure_Image": "~/images/women.jpg",
-  "Vision": [
-    "To create a nurturing and inclusive living environment that fosters personal growth, acadmic exellence, and lifelong freindships among students."
+  "SideImage":[
+    "../../images/gallary/1112.jpg",
+    "../../images/gallary/BH.jpg",
+    "../../images/gallary/GH.jpg"
   ],
-  "Mission": [
-    "To provid a safe, inclusive, and suppotive environment that fosters acedmic sucess, personal growth, and a sense of community among students."
-  ],
-  "Factors": {
-    "Rooms": "40",
-    "Capacity": "120",
-    "Mess": "1",
-    "Hall": "1",
-    "TTHall": "1"
-  },
-    "Members": [
-        {
-            "ID": 1,
-            "Name": "Dr. D. K. Patel",
-            "Position": "Rector",
-            "Department": "Mechanical Department",
-            "Image": "~/images/Faculty/502.jpg",
-            "Email": "dinesh.patel@gecpatan.ac.in"
-        },
-        {
-            "ID": 2,
-            "Name": "Prof. B. B. Patel",
-            "Position": "Wardan (Boys)",
-            "Department": "Mechanical Department",
-            "Image": "~/images/Faculty/506.jpg",
-            "Email": "bhargav.patel@gecpatan.ac.in"
-        },
-        {
-            "ID": 3,
-            "Name": "Prof. R. A. Chaudhari",
-            "Position": "Warden (Girls)",
-            "Department": "Electronics and Communication Department",
-            "Image": "~/images/Faculty/107.jpg",
-            "Email": "roshni.chaudhari@gecpatan.ac.in"
-        },
-        {
-            "ID": 4,
-            "Name": "Prof. J. P. Patel",
-            "Position": "Asst. Warden (Boys)",
-            "Department": "Computer Science Department",
-            "Image": "~/images/Faculty/208.jpg",
-            "Email": "jay.patel@gecpatan.ac.in"
-        },
-
-        {
-            "ID": 5,
-            "Name": "Prof. H. Y. Rathod",
-            "Position": "Asst. Warden (Girls)",
-            "Department": "Computer Science Department",
-            "Image": "~/images/Faculty/215.jpg",
-            "Email": "hiral.rathod@gecpatan.ac.in"
-        },
-
-        {
-            "ID": 6,
-            "Name": "Shri. V. B. Patel",
-            "Position": "Team Member (Boys)",
-            "Department": "Administrative Department",
-            "Image": "~/images/Faculty/1000.jpg",
-            "Email": "vipulp90990@gmail.com"
-        },
-
-        {
-            "ID": 7,
-            "Name": "Shri. M. A. Patel",
-            "Position": "Team Member (Boys)",
-            "Department": "Civil Engineering Department",
-            "Image": "~/images/Faculty/405.jpg",
-            "Email": "mayank.patel@gecpatan.ac.in"
-        },
-
-        {
-            "ID": 8,
-            "Name": "Smt. P. J. Patel",
-            "Position": "Asst. Warden (Girls)",
-            "Department": "Mechanical Engineering Department",
-            "Image": "~/images/Faculty/520.jpg",
-            "Email": "priyanka.patel@gecpatan.ac.in"
-        }
-
+    "BlogLink":
+    "https://hostelgecp.blogspot.com/",
+    "PageFlyer":
+    "../../images/hostelFlyer.jpg",
+    "Tagline":
+    "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"><b>\"Where Learning Meets Living.\"</b></h1>",
+    "Measure_Image":
+    "~/images/women.jpg",
+    "Vision":[
+      "To create a nurturing and inclusive living environment that fosters personal growth, acadmic exellence, and lifelong freindships among students."
+    ],
+    "Mission":[
+      "To provid a safe, inclusive, and suppotive environment that fosters acedmic sucess, personal growth, and a sense of community among students."
+    ],
+    "Factors":
+    {
+      "Rooms": "40",
+      "Capacity": "120",
+      "Mess": "1",
+      "Hall": "1",
+      "TTHall": "1"
+    },
+    "Members":[
+      {
+        "ID": 1,
+        "Name": "Dr. D. K. Patel",
+        "Position": "Rector",
+        "Department": "Mechanical Department",
+        "Image": "~/images/Faculty/502.jpg",
+        "Email": "dinesh.patel@gecpatan.ac.in"
+      },
+      {
+        "ID": 2,
+        "Name": "Prof. B. B. Patel",
+        "Position": "Wardan (Boys)",
+        "Department": "Mechanical Department",
+        "Image": "~/images/Faculty/506.jpg",
+        "Email": "bhargav.patel@gecpatan.ac.in"
+      },
+      {
+        "ID": 3,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Warden (Girls)",
+        "Department": "Electronics and Communication Department",
+        "Image": "~/images/Faculty/107.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in"
+      },
+      {
+        "ID": 4,
+        "Name": "Prof. J. P. Patel",
+        "Position": "Asst. Warden (Boys)",
+        "Department": "Computer Science Department",
+        "Image": "~/images/Faculty/208.jpg",
+        "Email": "jay.patel@gecpatan.ac.in"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. H. Y. Rathod",
+        "Position": "Asst. Warden (Girls)",
+        "Department": "Computer Science Department",
+        "Image": "~/images/Faculty/215.jpg",
+        "Email": "hiral.rathod@gecpatan.ac.in"
+      },
+      {
+        "ID": 6,
+        "Name": "Shri. V. B. Patel",
+        "Position": "Team Member (Boys)",
+        "Department": "Administrative Department",
+        "Image": "~/images/Faculty/1000.jpg",
+        "Email": "vipulp90990@gmail.com"
+      },
+      {
+        "ID": 7,
+        "Name": "Shri. M. A. Patel",
+        "Position": "Team Member (Boys)",
+        "Department": "Civil Engineering Department",
+        "Image": "~/images/Faculty/405.jpg",
+        "Email": "mayank.patel@gecpatan.ac.in"
+      },
+      {
+        "ID": 8,
+        "Name": "Smt. P. J. Patel",
+        "Position": "Asst. Warden (Girls)",
+        "Department": "Mechanical Engineering Department",
+        "Image": "~/images/Faculty/520.jpg",
+        "Email": "priyanka.patel@gecpatan.ac.in"
+      }
     ]
 }
