@@ -47,8 +47,8 @@
       "Date": "2025/10/09",
       "Description": "GEC, Patan had signed an Expression of Interest with Ganpat University CoE Additive Manufacturing for Strategic Partenership in Academic support at Vibrant Gujarat Regional Conferences, 2025, North Gujarat Region.",
       "Type": 0,
-      "Dept": "CSE",
-      "DeptID": 2,
+      "Dept": "",
+      "DeptID": 0,
       "Keywords": "",
       "Year": 2025
     },
@@ -59,8 +59,8 @@
       "Date": "2025/10/09",
       "Description": "GEC, Patan 3rd semester student of Mechanical Engg, Mr. Aakash Kumar, secured the 1st position in the “Igniting Young Minds – Power and Energy Quiz” held on 9th October 2025 during the Vibrant Gujatat Regional Conferences, North Gujarat region at Ganpat University, Kherva.",
       "Type": 0,
-      "Dept": "CSE",
-      "DeptID": 2,
+      "Dept": "Mechanical",
+      "DeptID": 5,
       "Keywords": "Mechanical",
       "Year": 2025
     },
