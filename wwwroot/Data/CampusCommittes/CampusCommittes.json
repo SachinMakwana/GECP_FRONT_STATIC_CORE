@@ -942,132 +942,135 @@
     //    }
     //},
     //Alumni
-    {
-        "ID": 11,
-        "Title": "Alumni",
-        "TitleImage": "../../images/alumni-banner.jpg",
-        "TitleImageCSSClass": "alumni_cell_title",
-        "About": "Government Engineering College, Patan Alumni creates and maintains a life-long connection between the college and its alumni. In collaboration with an extremely dedicated volunteer alumni members and college staff, the Alumni Association works to connect alumni, supports students, and builds an unforgettable Institute experience through a diversity of events, programs, and services.<button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/Alumni_Association_Registration.pdf','GEC Patan Alumni Association Registration Certificate')\">Registration Certificate</button>",
-        "Measures": "The Colleges’s alumni are its lasting legacy and strongest voice. Graduating from GEC,Patan gives you access to an exclusive global network of minded alumni. It has been an integral part of the GECP Alumni to constantly evolve, adapt, expand its reach, and find new ways to build.",
-        "Measure_Image": "~/images/alumni.jpg", //"~/images/alumni-poster.jpg"
-        "Vision": [
-            "To make the cell a unique platform for the development of its members, by providing them opportunities to contribute towards the betterment of the society."
-        ],
-        "Mission": [
-            "To create a transformative educational experience for students focused on deep disciplinary knowledge; problem solving; leadership, communication, and interpersonal skills; and personal health and well-being."
-        ],
-        "SubObjectives": [
-            "To encourage, foster, and promote close relations amongst the Alumni members and improve engagement between the Alumni and the College.",
-            "To promote and enhance the College’s good name and reputation.",
-            "To provide a forum for the Alumni for the exchange of ideas on academic, cultural, and social issues of the day by organizing and coordinating reunion activities of the Alumni."
-        ],
-        "SubObjImg": "~/images/alumni-poster.jpg",
-        "BulletPoints": [
-            "Pay registration fees via NEFT / IMPS / UPI",
-            "Fill the registration form by clicking <a href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\"> here </a> (payment proof required)",
-            "Once the registration is completed, you will be provided temporary Member ID through EMAIL.",
-            "Updates will be sent regarding Alumni events to your registered Email IDs. <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>"
-        ],
-        "BulletPointsImg": "",
-        "PageFlyer": "",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"Engage, Connect, <b>Contribute.\"</b></h1>",
-        "BlogLink": "",
+  {
+    "ID": 11,
+    "Title": "Alumni",
+    "TitleImage": "../../images/alumni-banner.jpg",
+    "TitleImageCSSClass": "alumni_cell_title",
+    "About": "Government Engineering College, Patan Alumni creates and maintains a life-long connection between the college and its alumni. In collaboration with an extremely dedicated volunteer alumni members and college staff, the Alumni Association works to connect alumni, supports students, and builds an unforgettable Institute experience through a diversity of events, programs, and services.<button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/Alumni_Association_Registration.pdf','GEC Patan Alumni Association Registration Certificate')\">Registration Certificate</button>",
+    "Measures": "The Colleges’s alumni are its lasting legacy and strongest voice. Graduating from GEC,Patan gives you access to an exclusive global network of minded alumni. It has been an integral part of the GECP Alumni to constantly evolve, adapt, expand its reach, and find new ways to build.",
+    "Measure_Image": "~/images/alumni.jpg", //"~/images/alumni-poster.jpg"
+    "Vision": [
+      "To make the cell a unique platform for the development of its members, by providing them opportunities to contribute towards the betterment of the society."
+    ],
+    "Mission": [
+      "To create a transformative educational experience for students focused on deep disciplinary knowledge; problem solving; leadership, communication, and interpersonal skills; and personal health and well-being."
+    ],
+    "SubObjectives": [
+      "To encourage, foster, and promote close relations amongst the Alumni members and improve engagement between the Alumni and the College.",
+      "To promote and enhance the College’s good name and reputation.",
+      "To provide a forum for the Alumni for the exchange of ideas on academic, cultural, and social issues of the day by organizing and coordinating reunion activities of the Alumni."
+    ],
+    "SubObjImg": "~/images/alumni-poster.jpg",
+    "BulletPoints": [
+      "Pay registration fees via NEFT / IMPS / UPI",
+      "Fill the registration form by <a onmouseover=\"this.style.color='red'\" onmouseout=\"this.style.color='black'\" href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\">clicking here </a> (payment proof required)"
+      //"Once the registration is completed, you will be provided temporary Member ID through EMAIL.",
+      //"Updates will be sent regarding Alumni events to your registered Email IDs. <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>"
+    ],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Account": "<p class=\"p1\">The Life Membership fees -500 rs. can be paid to below mentioned account number: Please save your &nbsp;Payment Reference Number&apos;s Screenshot. &nbsp;</p><p class=\"p1\">Bank Name - &nbsp; AXIS Bank, Patan</p><p class=\"p1\">Bank Ac No - &nbsp;925020044493060</p><p class=\"p1\">IFSC Code - UTIB0004733</p><p class=\"p1\">Account Name - Government Engineering College Patan Alumni Association</p>",
+    "Message": "<p class=\"p1\">Dear Esteemed Alumni,<br><p class=\"p1\">We hope this message finds you in great spirits and thriving in your journey beyond the corridors of GEC Patan.</p><p class=\"p1\">Your time at GEC Patan was more than just an academic experience&mdash;it was a chapter of growth, friendships, memories, and the foundation of your success today. Now, it&apos;s time to reconnect, give back, and stay engaged with the legacy that shaped you.</p><p class=\"p1\">We invite you to become a Life Member of the GEC Patan Alumni Association &mdash;a vibrant community committed to fostering lifelong connections, professional networking, mentorship opportunities, and collaborative growth.</p><p class=\"p1\">Let&rsquo;s carry forward the spirit of GEC Patan together&mdash;stronger, prouder, and more united than ever.</p><p class=\"p1\">Join us as a Life Member today and be a part of something bigger than yourself.</p><p class=\"p1\">Because once a part of GEC Patan, always a part of GEC Patan.</p>",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"Engage, Connect, <b>Contribute.\"</b></h1>",
+    "BlogLink": "",
+    "Members": [
+    ],
+    "AdditionalMembers": [
+      {
+        "CommitteeTitle": "Alumni Committee",
         "Members": [
-        ],
-        "AdditionalMembers": [
-            {
-                "CommitteeTitle": "Alumni Committee",
-              "Members": [
-                {
-                  "ID": 1,
-                  "Name": "Dr. Anand B. Dhruv",
-                  "Position": "Chairman",
-                  "Department": "",
-                  "Image": "~/images/Faculty/Mechanical/HoD.jpg",
-                  "Email": ""
-                },
-                {
-                  "ID": 2,
-                  "Name": "Dr. D. K. Patel",
-                  "Position": "Vice Chairman",
-                  "Department": "",
-                  "Image": "~/images/Faculty/502.jpg",
-                  "Email": ""
-                },
-                {
-                  "ID": 3,
-                  "Name": "Dr. Harikrishna B. Jethva",
-                  "Position": "Minister",
-                  "Department": "",
-                  "Image": "~/images/Faculty/HOD/201.jpg",
-                  "Email": ""
-                },
-                {
-                  "ID": 4,
-                  "Name": "Prof. Gunvantbhai A. Patel",
-                  "Position": "Treasurer",
-                  "Department": "",
-                  "Image": "~/images/Faculty/HOD/301.jpg",
-                  "Email": ""
-                },
-                {
-                  "ID": 5,
-                  "Name": "Mrs. Rina D. Prajapati",
-                  "Position": "Member",
-                  "Department": "",
-                  "Image": "~/images/Faculty/219.png",
-                  "Email": ""
-                },
-                {
-                  "ID": 6,
-                  "Name": "Mr. Shivam Modi",
-                  "Position": "Member",
-                  "Department": "",
-                  "Image": "~/images/Faculty/1000.jpg",
-                  "Email": ""
-                },
-                {
-                  "ID": 7,
-                  "Name": "Mr. Kiran Bhatia",
-                  "Position": "Member",
-                  "Department": "",
-                  "Image": "~/images/Faculty/1000.jpg",
-                  "Email": ""
-                }
-                //,
-                //{
-                //    "ID": 2,
-                //    "Name": "Dr. A. B. Dhruv",
-                //    "Position": "Member",
-                //    "Department": "Mechanical Engineering Department",
-                //    "Image": "~/images/Faculty/HOD/501.jpg",
-                //    "Email": "anand.dhruv@gecpatan.ac.in"
-                //},
-                //{
-                //    "ID": 3,
-                //    "Name": "Dr. D. K. Patel",
-                //    "Position": "Member",
-                //    "Department": "Mechanical Engineering Department",
-                //    "Image": "~/images/Faculty/502.jpg",
-                //    "Email": "dinesh.patel@gecpatan.ac.in"
-                //},
-                //{
-                //    "ID": 4,
-                //    "Name": "Prof. G. A. Patel",
-                //    "Position": "Member",
-                //    "Department": "Electrical Engineering Department",
-                //    "Image": "~/images/Faculty/HOD/301.jpg",
-                //    "Email": "gunvant.patel@gecpatan.ac.in"
-                //}
-              ]
-            }
-        ],
-        "ShowDocument": true,
-        "TabTitles": {
-            "SubObjectives": "Objectives",
-            "Documents": "Important Documents"
-        }
+          {
+            "ID": 1,
+            "Name": "Dr. Anand B. Dhruv",
+            "Position": "Chairman",
+            "Department": "",
+            "Image": "~/images/Faculty/Mechanical/HoD.jpg",
+            "Email": ""
+          },
+          {
+            "ID": 2,
+            "Name": "Dr. D. K. Patel",
+            "Position": "Vice Chairman",
+            "Department": "",
+            "Image": "~/images/Faculty/502.jpg",
+            "Email": ""
+          },
+          {
+            "ID": 3,
+            "Name": "Dr. Harikrishna B. Jethva",
+            "Position": "Minister",
+            "Department": "",
+            "Image": "~/images/Faculty/HOD/201.jpg",
+            "Email": ""
+          },
+          {
+            "ID": 4,
+            "Name": "Prof. Gunvantbhai A. Patel",
+            "Position": "Treasurer",
+            "Department": "",
+            "Image": "~/images/Faculty/HOD/301.jpg",
+            "Email": ""
+          },
+          {
+            "ID": 5,
+            "Name": "Mrs. Rina D. Prajapati",
+            "Position": "Member",
+            "Department": "",
+            "Image": "~/images/Faculty/219.png",
+            "Email": ""
+          },
+          {
+            "ID": 6,
+            "Name": "Mr. Shivam Modi",
+            "Position": "Member",
+            "Department": "",
+            "Image": "~/images/Faculty/1000.jpg",
+            "Email": ""
+          },
+          {
+            "ID": 7,
+            "Name": "Mr. Kiran Bhatia",
+            "Position": "Member",
+            "Department": "",
+            "Image": "~/images/Faculty/1000.jpg",
+            "Email": ""
+          }
+          //,
+          //{
+          //    "ID": 2,
+          //    "Name": "Dr. A. B. Dhruv",
+          //    "Position": "Member",
+          //    "Department": "Mechanical Engineering Department",
+          //    "Image": "~/images/Faculty/HOD/501.jpg",
+          //    "Email": "anand.dhruv@gecpatan.ac.in"
+          //},
+          //{
+          //    "ID": 3,
+          //    "Name": "Dr. D. K. Patel",
+          //    "Position": "Member",
+          //    "Department": "Mechanical Engineering Department",
+          //    "Image": "~/images/Faculty/502.jpg",
+          //    "Email": "dinesh.patel@gecpatan.ac.in"
+          //},
+          //{
+          //    "ID": 4,
+          //    "Name": "Prof. G. A. Patel",
+          //    "Position": "Member",
+          //    "Department": "Electrical Engineering Department",
+          //    "Image": "~/images/Faculty/HOD/301.jpg",
+          //    "Email": "gunvant.patel@gecpatan.ac.in"
+          //}
+        ]
+      }
+    ],
+    "ShowDocument": true,
+    "TabTitles": {
+      "SubObjectives": "Objectives",
+      "Documents": "Important Documents",
+      "Procedure": "Lifetime Membership"
     }
+  }
 ]
 // use below template to add a committee
 

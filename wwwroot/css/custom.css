@@ -1,4 +1,4 @@
-.detached.tabs > ul > li + li {
+0.detached.tabs > ul > li + li {
     margin-left: 95px !important;
 }
 
@@ -969,6 +969,10 @@ table.dataTable thead .sorting_desc_disabled:before {
 .pri_message {
     background-color: #bfd1f2;
     color: #2e2e2e;
+}
+
+.p1{
+    text-align:justify;
 }
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {

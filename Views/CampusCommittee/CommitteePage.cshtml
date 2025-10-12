@@ -322,7 +322,10 @@
     <div id="BulletPoints" class="tabcontent">
         <div class="featured_section37">
             <div class="full-container text-justify">
-
+                @if (!string.IsNullOrWhiteSpace(Model.Message))
+                {
+                    <div class="text-justify">@Html.Raw(Model.Message)</div>
+                }
                 @foreach (var item in Model.BulletPoints)
                 {
                     <div class="ibox animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
@@ -332,6 +335,10 @@
 
                     </div>
                     <!-- end section -->
+                }
+                @if (!string.IsNullOrWhiteSpace(Model.Account))
+                {
+                    <p>@Html.Raw(Model.Account)</p>
                 }
             </div>
         </div>
@@ -605,5 +612,6 @@
 
     </style>
     <link rel="stylesheet" href="@Url.Content("~/images/CampusCommittee/Placement/graph.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/custom.css")" />
     <link rel="stylesheet" href="@Url.Content("~/cdn1/DataTables/datatables.css")" />
 }
