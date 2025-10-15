@@ -963,14 +963,14 @@
     ],
     "SubObjImg": "~/images/alumni-poster.jpg",
     "BulletPoints": [
-      "Pay registration fees via NEFT / IMPS / UPI",
-      "Fill the registration form by <a onmouseover=\"this.style.color='red'\" onmouseout=\"this.style.color='black'\" href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\">clicking here </a> (payment proof required)"
+      "Pay registration fees via NEFT / IMPS / UPI <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>",
+      "Fill the registration form by <a style=\"color:blue;\" onmouseover=\"this.style.color='red'\" onmouseout=\"this.style.color='blue'\" href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\">clicking here </a> (payment proof required)"
       //"Once the registration is completed, you will be provided temporary Member ID through EMAIL.",
       //"Updates will be sent regarding Alumni events to your registered Email IDs. <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>"
     ],
     "BulletPointsImg": "",
     "PageFlyer": "",
-    "Account": "<p class=\"p1\">The Life Membership fees -500 rs. can be paid to below mentioned account number: Please save your &nbsp;Payment Reference Number&apos;s Screenshot. &nbsp;</p><p class=\"p1\">Bank Name - &nbsp; AXIS Bank, Patan</p><p class=\"p1\">Bank Ac No - &nbsp;925020044493060</p><p class=\"p1\">IFSC Code - UTIB0004733</p><p class=\"p1\">Account Name - Government Engineering College Patan Alumni Association</p>",
+    "Account": "<p class=\"p1\">The Life Membership fees -500 rs. can be paid to below mentioned account number: Please save your &nbsp;Payment Reference Number's Screenshot. &nbsp;</p><p class=\"p1\">&nbsp; &nbsp; &nbsp;Bank Name - &nbsp; AXIS Bank, Patan</p><p class=\"p1\">&nbsp; &nbsp; &nbsp;Bank Ac No - &nbsp;925020044493060</p><p class=\"p1\">&nbsp; &nbsp; &nbsp;IFSC Code - UTIB0004733</p><p class=\"p1\">&nbsp; &nbsp; &nbsp;Account Name - Government Engineering College Patan Alumni Association</p>",
     "Message": "<p class=\"p1\">Dear Esteemed Alumni,<br><p class=\"p1\">We hope this message finds you in great spirits and thriving in your journey beyond the corridors of GEC Patan.</p><p class=\"p1\">Your time at GEC Patan was more than just an academic experience&mdash;it was a chapter of growth, friendships, memories, and the foundation of your success today. Now, it&apos;s time to reconnect, give back, and stay engaged with the legacy that shaped you.</p><p class=\"p1\">We invite you to become a Life Member of the GEC Patan Alumni Association &mdash;a vibrant community committed to fostering lifelong connections, professional networking, mentorship opportunities, and collaborative growth.</p><p class=\"p1\">Let&rsquo;s carry forward the spirit of GEC Patan together&mdash;stronger, prouder, and more united than ever.</p><p class=\"p1\">Join us as a Life Member today and be a part of something bigger than yourself.</p><p class=\"p1\">Because once a part of GEC Patan, always a part of GEC Patan.</p>",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"Engage, Connect, <b>Contribute.\"</b></h1>",
     "BlogLink": "",
@@ -1068,7 +1068,7 @@
     "TabTitles": {
       "SubObjectives": "Objectives",
       "Documents": "Important Documents",
-      "Procedure": "Lifetime Membership"
+      "Procedure": "Life Membership"
     }
   }
 ]

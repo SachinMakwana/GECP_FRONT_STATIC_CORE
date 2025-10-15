@@ -974,6 +974,10 @@ table.dataTable thead .sorting_desc_disabled:before {
 .p1{
     text-align:justify;
 }
+
+.bg{
+    background-color:#f3f3f3;
+}
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {

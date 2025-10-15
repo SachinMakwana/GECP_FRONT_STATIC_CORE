@@ -324,21 +324,20 @@
             <div class="full-container text-justify">
                 @if (!string.IsNullOrWhiteSpace(Model.Message))
                 {
-                    <div class="text-justify">@Html.Raw(Model.Message)</div>
-                }
-                @foreach (var item in Model.BulletPoints)
-                {
-                    <div class="ibox animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
-
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                        <h5>@Html.Raw(item)</h5>
-
-                    </div>
-                    <!-- end section -->
+                    <div class="text-justify bg">@Html.Raw(Model.Message)</div>
                 }
                 @if (!string.IsNullOrWhiteSpace(Model.Account))
                 {
-                    <p>@Html.Raw(Model.Account)</p>
+                    <div class="text-justify">@Html.Raw(Model.Account)</div>
+                }
+                @foreach (var item in Model.BulletPoints)
+                {
+                    <div class="animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
+
+                        <h5><i class="fa fa-check" aria-hidden="true"></i> @Html.Raw(item)</h5>
+
+                    </div>
+                    <!-- end section -->
                 }
             </div>
         </div>
@@ -436,7 +435,7 @@
                     {
                         <tr>
                             <td>
-                                <div class="box hidden-xs" style="height:265px">
+                                <div class="box hidden-xs" style="height:fit-content">
                                     <h3 class="boxtitle">@Html.Raw(item.Title)</h3>
                                     <div class="boxinfo">
                                         <ul class="post_meta_links">
