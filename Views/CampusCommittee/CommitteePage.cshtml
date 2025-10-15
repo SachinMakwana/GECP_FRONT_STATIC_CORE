@@ -23,46 +23,46 @@
 <div class="margin_top10"></div>
 
 <div class="full-container">
-   <div class="tab hidden-xs">
-		<button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
-		@if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
-		}
-		@if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button>
-		}
-		@if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
-		}
-		@if (Model.Members != null && Model.Members.Count() > 0 || Model.AdditionalMembers.Count()>0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
-		}
-		@if (Model.Activities != null && Model.Activities.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'Activities')">@Model.TabTitles.Activities</button>
-		}
-		@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
-		{
-			<a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
-		}
-		@if (!string.IsNullOrWhiteSpace(Model.Link))
-		{
-			<a href="@Model.Link" target="_blank"><button class="tablinks">@Model.TabTitles.Link</button></a>
-		}
-		@if (Model.ShowDocument)
-		{
-			<a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
-		}
-		@if (Model.Achievements.Count() > 0)
-		{
-			<button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
-		}
-	</div>
-	
+    <div class="tab hidden-xs">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
+        @if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'VisionMission')">@Model.TabTitles.VisionMission</button>
+        }
+        @if (Model.SubObjectives != null && Model.SubObjectives.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button>
+        }
+        @if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
+        }
+        @if (Model.Members != null && Model.Members.Count() > 0 || Model.AdditionalMembers.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Members')">@Model.TabTitles.Members</button>
+        }
+        @if (Model.Activities != null && Model.Activities.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Activities')">@Model.TabTitles.Activities</button>
+        }
+        @if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+        {
+            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">@Model.TabTitles.Blogspot</button></a>
+        }
+        @if (!string.IsNullOrWhiteSpace(Model.Link))
+        {
+            <a href="@Model.Link" target="_blank"><button class="tablinks">@Model.TabTitles.Link</button></a>
+        }
+        @if (Model.ShowDocument)
+        {
+            <a href="@Url.Action("Index", "Documents", new { @id = Model.ID })" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
+        }
+        @if (Model.Achievements.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
+        }
+    </div>
+
     <div class="tab-xs visible-xs">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">@Model.TabTitles.About</button>
         @if (Model.Vision.Count() > 0 && Model.Mission.Count() > 0)
@@ -95,7 +95,7 @@
         }
         @if (Model.ShowDocument)
         {
-            <a href="@Url.Action("Index","Documents",new{@id=Model.ID})" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
+            <a href="@Url.Action("Index", "Documents", new { @id = Model.ID })" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
         }
         @if (Model.Achievements.Count() > 0)
         {
@@ -192,27 +192,28 @@
         @if (!Model.TableView)
         {
             <div class="featured_section30">
-                @if(Model.Members.Count()>0){
-                <div class="full-container table-responsive">
-                    <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-                        @Model.Title Members
-                    </h1>
-                    @foreach (var item in Model.Members)
-                    {
+                @if (Model.Members.Count() > 0)
+                {
+                    <div class="full-container table-responsive">
+                        <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                            @Model.Title Members
+                        </h1>
+                        @foreach (var item in Model.Members)
+                        {
 
-                        <div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
+                            <div class="one_half animate @(count % 2 == 0 ? "last" : "")" data-anim-type="fadeIn" data-anim-delay="400">
 
-                            <img src="@Url.Content(item.Image)" alt="">
-                            <h5>@item.Name <em>@item.Position</em></h5>
-                            <text>@item.Department</text>
-                            <text>@item.Email</text>
+                                <img src="@Url.Content(item.Image)" alt="">
+                                <h5>@item.Name <em>@item.Position</em></h5>
+                                <text>@item.Department</text>
+                                <text>@item.Email</text>
 
-                        </div>
+                            </div>
 
-                        <!-- end section -->
-                        <div class="@(count%2==0?"clearfix margin_top5":"")"></div>
-                        count++;
-                    }
+                            <!-- end section -->
+                            <div class="@(count % 2 == 0 ? "clearfix margin_top5" : "")"></div>
+                            count++;
+                        }
                     </div>
                 }
                 @if (Model.AdditionalMembers.Count() > 0)
@@ -227,7 +228,7 @@
                             @foreach (var item in additionalMembers.Members)
                             {
 
-                                <div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
+                                <div class="one_half animate @(count % 2 == 0 ? "last" : "")" data-anim-type="fadeIn" data-anim-delay="400">
 
                                     <img src="@Url.Content(item.Image)" alt="">
                                     <h5>@item.Name <em>@item.Position</em></h5>
@@ -237,7 +238,7 @@
                                 </div>
 
                                 <!-- end section -->
-                                <div class="@(count%2==0?"clearfix margin_top5":"")"></div>
+                                <div class="@(count % 2 == 0 ? "clearfix margin_top5" : "")"></div>
                                 count++;
                             }
                         </div>
@@ -248,35 +249,36 @@
         else
         {
             <div class="featured_section30">
-                @if(Model.Members.Count()>0){
-                <div class="full-container">
-                    <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-                        @Model.Title Members
-                    </h1>
-                    <table class="table table-responsive table-bordered table-striped">
-                        <thead>
-                            <tr>
-                                <td>Sr. No</td>
-                                <td>Name</td>
-                                <td>Department</td>
-                                <td>Position</td>
-                                <td>Email</td>
-                            </tr>
-                        </thead>
-                        @foreach (var item in Model.Members)
-                        {
-                            <tr>
-                                <td>@count</td>
-                                <td>@item.Name</td>
-                                <td>@item.Department</td>
-                                <td>@item.Position</td>
-                                <td>@item.Email</td>
-                            </tr>
+                @if (Model.Members.Count() > 0)
+                {
+                    <div class="full-container">
+                        <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                            @Model.Title Members
+                        </h1>
+                        <table class="table table-responsive table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <td>Sr. No</td>
+                                    <td>Name</td>
+                                    <td>Department</td>
+                                    <td>Position</td>
+                                    <td>Email</td>
+                                </tr>
+                            </thead>
+                            @foreach (var item in Model.Members)
+                            {
+                                <tr>
+                                    <td>@count</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.Department</td>
+                                    <td>@item.Position</td>
+                                    <td>@item.Email</td>
+                                </tr>
 
-                            count++;
-                        }
-                    </table>
-                </div>
+                                count++;
+                            }
+                        </table>
+                    </div>
                 }
                 @if (Model.AdditionalMembers.Count() > 0)
                 {
@@ -321,15 +323,32 @@
     </div>
     <div id="BulletPoints" class="tabcontent">
         <div class="featured_section37">
-            <div class="full-container text-justify">
+            <div class="clearfix margin_top3"></div>
+            <div class="full-container">
+
                 @if (!string.IsNullOrWhiteSpace(Model.Message))
                 {
-                    <div class="text-justify bg">@Html.Raw(Model.Message)</div>
+                    <div class="text-justify">@Html.Raw(Model.Message)</div>
                 }
+
+            </div>
+            <div class="clearfix margin_top3"></div>
+        </div>
+        <div class="featured_section37 bg">
+            <div class="clearfix margin_top5"></div>
+            <div class="full-container">
+
                 @if (!string.IsNullOrWhiteSpace(Model.Account))
                 {
                     <div class="text-justify">@Html.Raw(Model.Account)</div>
                 }
+
+            </div>
+            <div class="clearfix margin_top5"></div>
+        </div>
+        <div class="featured_section37">
+            <div class="clearfix margin_top5"></div>
+            <div class="full-container text-justify">
                 @foreach (var item in Model.BulletPoints)
                 {
                     <div class="animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
@@ -340,6 +359,7 @@
                     <!-- end section -->
                 }
             </div>
+            <div class="clearfix margin_top5"></div>
         </div>
     </div>
     <div id="Activities" class="tabcontent">
@@ -354,25 +374,25 @@
                             <li class="post_categoty">@item.EventDate</li>
                             <li class="post_categoty">@item.EventTime</li>
                             @if (!string.IsNullOrWhiteSpace(item.Keywords))
-                                            {
-                                                foreach (string key in item.Keywords.Split(','))
-                                                {
-                                                    <li class="post_categoty">@key</li>
-                                                }
-                                            }
+                            {
+                                foreach (string key in item.Keywords.Split(','))
+                                {
+                                    <li class="post_categoty">@key</li>
+                                }
+                            }
                         </ul>
                         <div class="clearfix margin_top1"></div>
                         @if (item.Images.Count() > 0)
                         {
                             <div class="image_section">
-                                
-                                   
-                                    
-                                    <div class="col-md-2">
-                                        <img src="@Url.Content(item.Images[0])" class="rimg" />
-                                    </div>
-                                    
-                                
+
+
+
+                                <div class="col-md-2">
+                                    <img src="@Url.Content(item.Images[0])" class="rimg" />
+                                </div>
+
+
                             </div>
                         }
                         @Html.Raw(item.Description)
@@ -400,7 +420,7 @@
                                 else
                                 {
                                     <a href="@Url.Content(file.FilePath)" target="_blank" download>
-                                        <i class="fa @(file.FileType.ToUpper()=="WORD"?"fa-file-word-o":"fa-file-excel-o")" aria-hidden="true"></i>
+                                        <i class="fa @(file.FileType.ToUpper() == "WORD" ? "fa-file-word-o" : "fa-file-excel-o")" aria-hidden="true"></i>
                                         @file.Title
                                     </a>
                                 }
@@ -408,7 +428,7 @@
                         }
 
                     </ul>
-                    
+
                     <div class="clearfix"></div>
                 </div>
                 <div class="clearfix margin_bottom1"></div>
