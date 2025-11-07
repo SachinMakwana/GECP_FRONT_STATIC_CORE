@@ -41,7 +41,7 @@ namespace GECP_Front_End_Static.Models
         public string PageFlyer { get; set; }
         public string About { get; set; }
         //public Factor Factors { get; set; }
-        public Dictionary<string, string> Factors { get; set; }
+        public Dictionary<string, string> Facilities { get; set; }
         public List<Members> Members { get; set; }
     }
 

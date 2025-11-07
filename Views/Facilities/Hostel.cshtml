@@ -18,6 +18,10 @@
 <div class="full-container">
     <div class="tab hidden-xs">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
+        }
         @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
@@ -33,6 +37,10 @@
     </div>
     <div class="tab-xs visible-xs">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
+        }
         @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
@@ -106,14 +114,14 @@
 							<td style="text-align:right;">@Model.Factors.Hall</td>
 						</tr>
 					</table> *@
-                    <table class="table table-striped table-bordered table-hover">
+                    @* <table class="table table-striped table-bordered table-hover">
                         <tr>
                             <th>Hostel</th>
                             <th>Boys</th>
                             <th>Girls</th>
                         </tr>
 
-                        @foreach (var factor in Model.Factors)
+                        @foreach (var factor in Model.Facilities)
                         {
                             <tr>
                                 <td style="text-align:left;">@factor.Key</td>
@@ -121,13 +129,41 @@
                                 <td style="text-align:right;">@factor.Value</td>
                             </tr>
                         }
-                    </table>
+                    </table> *@
 
                     <div class="clearfix margin_top3"></div>
                 </div>
                 <!-- end section -->
             </div>
         </div>
+    </div>
+    <!-- FACILITIES TAB -->
+    <div id="Facilities" class="tabcontent">
+        <div class="featured_section106" style="background-color:white">
+            <div style="padding-left:10px;">
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Facilities </h2>
+                <div class="hsmline7"></div>
+                <br><br>
+
+                <table class="table table-striped table-bordered table-hover">
+                    <tr>
+                        <th>Hostel</th>
+                        <th>Boys</th>
+                        <th>Girls</th>
+                    </tr>
+
+                    @foreach (var factor in Model.Facilities)
+                    {
+                        <tr>
+                            <td style="text-align:center;">@factor.Key</td>
+                            <td style="text-align:center;">@factor.Value</td>
+                            <td style="text-align:center;">@factor.Value</td>
+                        </tr>
+                    }
+                </table>
+        </div>
+     </div>
     </div>
     <!-- VISION & MISSION -->
     <div id="VisionMission" class="tabcontent">
