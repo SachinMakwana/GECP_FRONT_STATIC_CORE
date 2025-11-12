@@ -1,17 +1,26 @@
 ﻿[
   {
     "ID": 1,
-    "Title": "Annual Events",
-    "Description": "GEC Patan organizes a range of events throughout the academic year, including annual festivals – Sports Week, fresher parties, and Navratri celebrations. These events provide students with opportunities to showcase their talents and engage with peers, enriching their college experience. ",
-    "EventDate": "",
-    "EventTime": "",
+    "Title": "One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”",
+    "Description": "The Department of Civil Engineering organized a One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”. The workshop aimed to expose students and faculty members to the latest technological advancements in the use of Unmanned Aerial Vehicles (UAVs) and Geographic Information Systems (GIS) in the field of Civil Engineering. The event featured three expert talk sessions delivered by distinguished speakers covering topics from drone dynamics to real-world applications in civil, architectural, and water projects.",
+    "EventDate": "13/10/2025",
+    "EventTime": "10:30 a.m. to 05:00 p.m.",
     "Year": 2025,
-    "CommitteId": 10,
+    "DeptID" : 4,
     "Images": [
-
+      //"/images/Activities/Civil/Workshop_1310/1.jpeg",
+      "/images/Activities/Civil/Workshop_1310/2.jpg",
+      "/images/Activities/Civil/Workshop_1310/4.jpg",
+      "/images/Activities/Civil/Workshop_1310/5.jpg",
+      "/images/Activities/Civil/Workshop_1310/6.jpg"
     ],
     "Files": [
-
+      {
+        "ID": 1,
+        "Title": "Learning Outcomes of Workshop",
+        "FileType": "PDF",
+        "FilePath": "~/ImpDocs/Report_Workshop_1310.pdf"
+      }
     ]
   },
   {
