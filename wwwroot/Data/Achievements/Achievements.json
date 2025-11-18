@@ -41,6 +41,18 @@
     }
     */
     {
+      "ID": 2509,
+      "Title": "NSS Programme Officer Dr. Ashokkumar K. Chaudhary Secures 2nd Place in Mehsana Marathon",
+      "Image": "/images/Achievements/09-NSS.jpg",
+      "Date": "2025/11/09",
+      "Description": "We proudly celebrate our NSS programme officer 2nd place achievement in the Mehsana Marathon. Your dedication and discipline truly inspire us. This strong performance reflects your hard work and consistency. You completed the race with focus, courage, and determination. Your achievement motivates our entire group to aim higher.Thank you for being a great example of passion and persistence. We feel proud and honored to have a mentor like you. May you continue reaching new milestones and goals. Wishing you more success and victories ahead.",
+      "Type": 1,
+      "Dept": "General",
+      "DeptID": 0,
+      "Keywords": "NSS",
+      "Year": 2025
+    },
+    {
       "ID": 2508,
       "Title": "GEC Patan Signs Expression of Interest with Ganpat University CoE Additive Manufacturing for Strategic Academic Partnership",
       "Image": "/images/Achievements/08_EoI.jpeg",
@@ -53,16 +65,16 @@
       "Year": 2025
     },
     {
-        "ID": 2507,
-        "Title": "Mr. Aakash Kumar, Mechanical Student Wins 1st Place in “Igniting Young Minds – Power and Energy Quiz” at Ganpat University",
-        "Image": "/images/Achievements/07_Akashkumar.jpeg",
-        "Date": "2025/10/09",
-        "Description": "GEC, Patan 3rd semester student of Mechanical Engg, Mr. Aakash Kumar, secured the 1st position in the “Igniting Young Minds – Power and Energy Quiz” held on 9th October 2025 during the Vibrant Gujatat Regional Conferences, North Gujarat region at Ganpat University, Kherva.",
-        "Type": 0,
-        "Dept": "Mechanical",
-        "DeptID": 5,
-        "Keywords": "Mechanical",
-        "Year": 2025
+      "ID": 2507,
+      "Title": "Mr. Aakash Kumar, Mechanical Student Wins 1st Place in “Igniting Young Minds – Power and Energy Quiz” at Ganpat University",
+      "Image": "/images/Achievements/07_Akashkumar.jpeg",
+      "Date": "2025/10/09",
+      "Description": "GEC, Patan 3rd semester student of Mechanical Engg, Mr. Aakash Kumar, secured the 1st position in the “Igniting Young Minds – Power and Energy Quiz” held on 9th October 2025 during the Vibrant Gujatat Regional Conferences, North Gujarat region at Ganpat University, Kherva.",
+      "Type": 0,
+      "Dept": "Mechanical",
+      "DeptID": 5,
+      "Keywords": "Mechanical",
+      "Year": 2025
     },
     {
       "ID": 2506,
