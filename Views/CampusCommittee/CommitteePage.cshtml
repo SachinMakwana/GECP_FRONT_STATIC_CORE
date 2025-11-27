@@ -33,7 +33,7 @@
         {
             <button class="tablinks" onclick="openTab(event, 'SubObjectives')">@Model.TabTitles.SubObjectives</button>
         }
-        @if (Model.BulletPoints != null && Model.BulletPoints.Count() > 0)
+        @if ((Model.BulletPoints != null && Model.BulletPoints.Count() > 0) || (Model.Message != null && Model.Message.Count() > 0))
         {
             <button class="tablinks" onclick="openTab(event, 'BulletPoints')">@Model.TabTitles.Procedure</button>
         }
@@ -359,7 +359,7 @@
                     <!-- end section -->
                 }
             </div>
-            <div class="clearfix margin_top5"></div>
+            @* <div class="clearfix margin_top5"></div> *@
         </div>
     </div>
     <div id="Activities" class="tabcontent">

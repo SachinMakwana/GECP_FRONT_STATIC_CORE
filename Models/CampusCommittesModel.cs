@@ -36,7 +36,7 @@ namespace GECP_Front_End_Static.Models
         public string PageFlyer { get; set; }
         public string Tagline { get; set; }
         public string BlogLink { get; set; }
-        public string Message { get; set; }
+        public string Message { get; set; } = null;
         public string Account { get; set; }
         public string Link { get; set; }
 
