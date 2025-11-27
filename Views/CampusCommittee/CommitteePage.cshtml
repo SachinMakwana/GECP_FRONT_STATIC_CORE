@@ -322,45 +322,51 @@
         }
     </div>
     <div id="BulletPoints" class="tabcontent">
-        <div class="featured_section37">
-            <div class="clearfix margin_top3"></div>
-            <div class="full-container">
 
-                @if (!string.IsNullOrWhiteSpace(Model.Message))
-                {
+
+        @if (!string.IsNullOrWhiteSpace(Model.Message))
+        {
+            <div class="featured_section37">
+                <div class="clearfix margin_top3"></div>
+                <div class="full-container">
                     <div class="text-justify">@Html.Raw(Model.Message)</div>
-                }
-
+                </div>
+                <div class="clearfix margin_top3"></div>
             </div>
-            <div class="clearfix margin_top3"></div>
-        </div>
-        <div class="featured_section37 bg">
-            <div class="clearfix margin_top5"></div>
-            <div class="full-container">
 
-                @if (!string.IsNullOrWhiteSpace(Model.Account))
-                {
+        }
+        @if (Model.BulletPoints.Count()>0)
+        {
+            <div class="featured_section37">
+                <div class="clearfix margin_top5"></div>
+                <div class="full-container text-justify">
+                    @foreach (var item in Model.BulletPoints)
+                    {
+                        <div class="ibox animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
+
+                            <h5><i class="fa fa-check" aria-hidden="true"></i> @Html.Raw(item)</h5>
+
+                        </div>
+                        <!-- end section -->
+                    }
+                </div>
+                <div class="clearfix margin_top5"></div>
+            </div>
+        }
+        @if (!string.IsNullOrWhiteSpace(Model.Account))
+        {
+            <div class="featured_section37 bg">
+                <div class="clearfix margin_top5"></div>
+                <div class="full-container">
                     <div class="text-justify">@Html.Raw(Model.Account)</div>
-                }
-
+                </div>
+                <div class="clearfix margin_top5"></div>
             </div>
-            <div class="clearfix margin_top5"></div>
-        </div>
-        <div class="featured_section37">
-            <div class="clearfix margin_top5"></div>
-            <div class="full-container text-justify">
-                @foreach (var item in Model.BulletPoints)
-                {
-                    <div class="animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="100">
+        }
 
-                        <h5><i class="fa fa-check" aria-hidden="true"></i> @Html.Raw(item)</h5>
 
-                    </div>
-                    <!-- end section -->
-                }
-            </div>
-            @* <div class="clearfix margin_top5"></div> *@
-        </div>
+
+        
     </div>
     <div id="Activities" class="tabcontent">
         @if (Model.Activities != null && Model.Activities.Count() > 0)
