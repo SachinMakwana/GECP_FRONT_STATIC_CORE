@@ -6,7 +6,7 @@
     "EventDate": "13/10/2025",
     "EventTime": "10:30 a.m. to 05:00 p.m.",
     "Year": 2025,
-    "DeptID" : 4,
+    "DeptID": 4,
     "Images": [
       //"/images/Activities/Civil/Workshop_1310/1.jpeg",
       "/images/Activities/Civil/Workshop_1310/2.jpg",
@@ -681,7 +681,60 @@
 
     ]
   },
-
+  {
+    "ID": 42,
+    "Title": "Manushya Gaurav Diwas 2025",
+    "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
+    "EventDate": "19/10/2025",
+    "EventTime": "11: 30 a.m. to 12: 30 p.m.",
+    "Year": 2025,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Maushya Gaurav Diwas Report 2025",
+        "FileType": "PDF",
+        "FilePath": "~/ImpDocs/PC_Report_1.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 43,
+    "Title": "International Happiness Day Celebration",
+    "Description": "In celebration of International Happiness Day 2025, we organized vibrant group discussions to explore the multifaceted nature of joy and well-being. Participants engaged in meaningful dialogue regarding mental health, positive psychology, and the art of finding happiness in daily life. The interactive sessions fostered a sense of community, allowing individuals to share personal insights and collective strategies for a more fulfilling life.",
+    "EventDate": "20/03/2025",
+    "EventTime": "03: 15 p.m. to 04: 30 p.m.",
+    "Year": 2025,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "International Happiness Day 2025 Report",
+        "FileType": "PDF",
+        "FilePath": "~/ImpDocs/PC_Report_2.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 44,
+    "Title": "Manushya Gaurav Diwas 2024 Celebration",
+    "Description": "Commemorating the profound spirit of human dignity, 'Manushya Gaurav Diwas 2024' was celebrated with great enthusiasm at the Electrical Seminar Hall. The event brought together students and faculty to reflect on the values of self-respect, universal brotherhood, and the divine potential within every individual. Through inspiring speeches and interactive sessions, the gathering reinforced the importance of uplifting society through mutual respect and spiritual oneness.",
+    "EventDate": "19/10/2024",
+    "EventTime": "10: 30 a.m. to 12: 30 p.m.",
+    "Year": 2025,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Manushya Gaurav Diwas 2024 Report",
+        "FileType": "PDF",
+        "FilePath": "~/ImpDocs/PC_Report_3.pdf"
+      }
+    ]
+  }
   //{
   //  "ID": 45,
   //  "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
@@ -700,7 +753,7 @@
   //    }
   //  ]
   //}
-  
+
 
 ]
 
