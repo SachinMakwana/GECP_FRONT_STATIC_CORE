@@ -1166,7 +1166,8 @@
                 "Email": "bhargav.patel@gecpatan.ac.in",
                 "Department": "Mechanical Engineering"
             }
-        ]
+        ],
+        "TableView": true
 
     }
 ]
