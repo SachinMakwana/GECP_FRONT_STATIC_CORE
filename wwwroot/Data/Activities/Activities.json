@@ -19,8 +19,8 @@
       {
         "ID": 1,
         "Title": "Event Report",
-        "FileType": "Word",
-        "FilePath": "~/ImpDocs/Report_Financial_Literacy.docx"
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/Civil/Report_Financial_Literacy.pdf"
       }
     ]
   },
