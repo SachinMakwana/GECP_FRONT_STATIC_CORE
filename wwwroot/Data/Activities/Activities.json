@@ -1,6 +1,31 @@
 ﻿[
   {
     "ID": 1,
+    "Title": "Investor Awareness Program for Financial Literacy and Commodity Market Awareness",
+    "Description": "The Investor Awareness Program for Financial Literacy and Commodity Market Awareness, held on 11th November 2025, aims to equip participants with essential knowledge of financial planning, smart investing, and the commodity market. The session is led by Mr. Aashish Shah, a reputed finance professional and experienced trainer known for his expertise in financial markets. The program is designed to enhance financial awareness and help attendees make informed financial decisions.",
+    "EventDate": "11/11/2025",
+    "EventTime": "10:30 a.m. to 12:30 p.m.",
+    "Year": 2025,
+    "DeptID": 4,
+    "Images": [
+      //"/images/Activities/Civil/Workshop_1310/1.jpeg",
+      "/images/Activities/Civil/Financial_Lite/1Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/2Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/3Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/4 Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/5Image.jpg"
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Event Report",
+        "FileType": "Word",
+        "FilePath": "~/ImpDocs/Report_Financial_Literacy.docx"
+      }
+    ]
+  },
+  {
+    "ID": 2,
     "Title": "One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”",
     "Description": "The Department of Civil Engineering organized a One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”. The workshop aimed to expose students and faculty members to the latest technological advancements in the use of Unmanned Aerial Vehicles (UAVs) and Geographic Information Systems (GIS) in the field of Civil Engineering. The event featured three expert talk sessions delivered by distinguished speakers covering topics from drone dynamics to real-world applications in civil, architectural, and water projects.",
     "EventDate": "13/10/2025",
