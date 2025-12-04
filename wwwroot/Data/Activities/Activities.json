@@ -681,24 +681,24 @@
 
     ]
   },
-  {
-    "ID": 42,
-    "Title": "Manushya Gaurav Diwas 2025",
-    "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
-    "EventDate": "19/10/2025",
-    "EventTime": "11: 30 a.m. to 12: 30 p.m.",
-    "Year": 2025,
-    "CommitteId": 12,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Maushya Gaurav Diwas Report 2025",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_1.pdf"
-      }
-    ]
-  },
+    {
+        "ID": 42,
+        "Title": "Manushya Gaurav Diwas 2025 Celebration",
+        "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
+        "EventDate": "19/10/2025",
+        "EventTime": "11: 30 a.m. to 12: 30 p.m.",
+        "Year": 2025,
+        "CommitteId": 12,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Maushya Gaurav Diwas Report 2025 Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_1.pdf"
+            }
+        ]
+    },
   {
     "ID": 43,
     "Title": "International Happiness Day Celebration",

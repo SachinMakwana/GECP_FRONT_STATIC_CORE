@@ -1068,107 +1068,107 @@
       "Documents": "Important Documents"
     }
   },
-  {
-    "ID": 12,
-    "Title": "Psychology Cell",
-    "TitleImage": "../../images/CampusCommittee/Psychology/psychology_banner.jpg",
-    "TitleImageCSSClass": "psychology_title",
-    "About": "The Psychology Cell at Government Engineering College, Patan (GECP) is an important student-support initiative aimed at promoting the mental well-being, emotional resilience, and overall personal development of students. Recognizing that engineering education can be academically demanding and emotionally challenging, the cell provides a safe, confidential, and supportive environment where students can seek guidance and counselling.<br><br><b>GEC PATAN - MENTAL HEALTH HELPLINE INFORMATION:</b><br><br><b>Tele MANAS Helpline:</b> 14416<br><b>Nodal Officer:</b> Prof. H. D. Patel (9429617800)<br><b>Psychologist:</b> Dr. Brijesh Panchal (9099506057)<br><b>Student Friend:</b> Abhishek Mehta (9023022516)<br><b>Referral Hospital:</b> Unique Hospital, Near Bus Station, Patan<br><b>Doctor (Referral):</b> Dr. Haresh Patel (9327131734)",
-    "Measures": "The Psychology Cell implements its vision by providing accessible counseling services for stress and anxiety, organizing mental-health awareness workshops, and empowering students with emotional intelligence skills. It fosters an inclusive support system through collaboration with faculty and parents to ensure early intervention and holistic development.",
-    "Measure_Image": "~/images/CampusCommittee/Psychology/psychology_logo.png",
-    "Vision": [
-      "To foster a mentally healthy, emotionally resilient, and supportive campus environment where every student of Government Engineering College, Patan can thrive academically, socially, and personally with confidence and well-being."
-    ],
-    "Mission": [
-      "To provide accessible, confidential, and student-centered psychological counselling and guidance.",
-      "To promote mental-health awareness through workshops, campaigns, and interactive programs.",
-      "To empower students with skills for stress management, decision-making, emotional intelligence, and healthy interpersonal relationships.",
-      "To create an inclusive and empathetic support system that encourages early intervention and holistic development.",
-      "To collaborate with faculty, parents, and the community to ensure a positive and nurturing learning environment."
-    ],
-    "SubObjectives": [
-      "To support students’ mental health by providing counselling services for stress, anxiety, adjustment issues, academic pressure, or personal concerns.",
-      "To enhance emotional intelligence by helping students develop self-awareness, confidence, and interpersonal skills.",
-      "To promote a healthy campus environment through awareness programmes, seminars, and mental-health campaigns.",
-      "To encourage early intervention so that students can address psychological challenges before they escalate.",
-      "To provide a confidential space where students can openly discuss problems without fear of judgment."
-    ],
-    "SubObjImg": "",
-    "BulletPoints": [
+    {
+        "ID": 12,
+        "Title": "Psychology Cell",
+        "TitleImage": "../../images/CampusCommittee/Psychology/psychology_banner.jpg",
+        "TitleImageCSSClass": "psychology_title",
+        "About": "The Psychology Cell at Government Engineering College, Patan (GECP) is an important student-support initiative aimed at promoting the mental well-being, emotional resilience, and overall personal development of students. Recognizing that engineering education can be academically demanding and emotionally challenging, the cell provides a safe, confidential, and supportive environment where students can seek guidance and counselling.<br><br><b>GEC PATAN - MENTAL HEALTH HELPLINE INFORMATION:</b><br><style>\n    .equal-width-table th,\n    .equal-width-table td {\n        width: 50%;\n    }\n</style>\n\n<div class=\"table-responsive\">\n    <table class=\"table table-bordered table-striped equal-width-table\">\n        <tbody>\n            <tr>\n                <th>Tele MANAS Helpline</th>\n                <td>14416</td>\n            </tr>\n            <tr>\n                <th>Nodal Officer</th>\n                <td>Prof. H. D. Patel (9429617800)</td>\n            </tr>\n            <tr>\n                <th>Psychologist</th>\n                <td>Dr. Brijesh Panchal (9099506057)</td>\n            </tr>\n            <tr>\n                <th>Student Friend</th>\n                <td>Abhishek Mehta (9023022516)</td>\n            </tr>\n            <tr>\n                <th>Referral Hospital</th>\n                <td>Unique Hospital, Near Bus Station, Patan</td>\n            </tr>\n            <tr>\n                <th>Doctor (Referral)</th>\n                <td>Dr. Haresh Patel (9327131734)</td>\n            </tr>\n        </tbody>\n    </table>\n</div>",
+        "Measures": "The Psychology Cell implements its vision by providing accessible counseling services for stress and anxiety, organizing mental-health awareness workshops, and empowering students with emotional intelligence skills. It fosters an inclusive support system through collaboration with faculty and parents to ensure early intervention and holistic development.",
+        "Measure_Image": "~/images/CampusCommittee/Psychology/psychology_logo.png",
+        "Vision": [
+            "To foster a mentally healthy, emotionally resilient, and supportive campus environment where every student of Government Engineering College, Patan can thrive academically, socially, and personally with confidence and well-being."
+        ],
+        "Mission": [
+            "To provide accessible, confidential, and student-centered psychological counselling and guidance.",
+            "To promote mental-health awareness through workshops, campaigns, and interactive programs.",
+            "To empower students with skills for stress management, decision-making, emotional intelligence, and healthy interpersonal relationships.",
+            "To create an inclusive and empathetic support system that encourages early intervention and holistic development.",
+            "To collaborate with faculty, parents, and the community to ensure a positive and nurturing learning environment."
+        ],
+        "SubObjectives": [
+            "To support students’ mental health by providing counselling services for stress, anxiety, adjustment issues, academic pressure, or personal concerns.",
+            "To enhance emotional intelligence by helping students develop self-awareness, confidence, and interpersonal skills.",
+            "To promote a healthy campus environment through awareness programmes, seminars, and mental-health campaigns.",
+            "To encourage early intervention so that students can address psychological challenges before they escalate.",
+            "To provide a confidential space where students can openly discuss problems without fear of judgment."
+        ],
+        "SubObjImg": "",
+        "BulletPoints": [
 
-    ],
-    "BulletPointsImg": "",
-    "PageFlyer": "~/images/CampusCommittee/Psychology/psychology_flyer.jpg",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Minds, <b>Enriching Lives.</b>”</h1>",
-    "BlogLink": "",
-    "Members": [
-      {
-        "ID": 1,
-        "Name": "Prof. H. D. Patel",
-        "Position": "Co-Ordinator Psychology Cell",
-        "Image": "~/images/Faculty/302.jpg",
-        "Email": "harshad.patel@gecpatan.ac.in",
-        "Department": "Electrical Engineering"
-      },
-      {
-        "ID": 2,
-        "Name": "Prof. N. K. Dabhi",
-        "Position": "Committee Member & NSS Unit Rep",
-        "Image": "~/images/Faculty/304.jpg",
-        "Email": "naran.dabhi@gecpatan.ac.in",
-        "Department": "Electrical Engineering"
-      },
-      {
-        "ID": 3,
-        "Name": "Prof. Anju Vasdevani",
-        "Position": "Committee Member",
-        "Image": "~/images/Faculty/109.jpg",
-        "Email": "anju.vasdevani@gecpatan.ac.in",
-        "Department": "Electronics & Communication"
-      },
-      {
-        "ID": 4,
-        "Name": "Prof. H. R. Trivedi",
-        "Position": "Committee Member",
-        "Image": "~/images/Faculty/804.jpg",
-        "Email": "hardik.trivedi@gecpatan.ac.in",
-        "Department": "Civil Engineering"
-      },
-      {
-        "ID": 5,
-        "Name": "Prof. H. L. Chaudhary",
-        "Position": "Committee Member",
-        "Image": "~/images/Faculty/214.jpg",
-        "Email": "harshad.chaudhary@gecpatan.ac.in",
-        "Department": "Computer Engineering"
-      },
-      {
-        "ID": 6,
-        "Name": "Prof. H. S. Bhutadiya",
-        "Position": "Committee Member",
-        "Image": "~/images/Faculty/605.jpg",
-        "Email": "harshad.bhutadiya@gecpatan.ac.in",
-        "Department": "General Department"
-      },
-      {
-        "ID": 8,
-        "Name": "Prof. D. J. Parmar",
-        "Position": "Committee Member",
-        "Image": "~/images/Faculty/504.jpg",
-        "Email": "dipak.parmar@gecpatan.ac.in",
-        "Department": "Mechanical Engineering"
-      },
-      {
-        "ID": 9,
-        "Name": "Prof. Bhargav Patel",
-        "Position": "Boys Hostel Representative",
-        "Image": "~/images/Faculty/506.jpg",
-        "Email": "bhargav.patel@gecpatan.ac.in",
-        "Department": "Mechanical Engineering"
-      }
-    ]
-    
-  }
+        ],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/Psychology/psychology_flyer.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Minds, <b>Enriching Lives.</b>”</h1>",
+        "BlogLink": "",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. H. D. Patel",
+                "Position": "Co-Ordinator Psychology Cell",
+                "Image": "~/images/Faculty/302.jpg",
+                "Email": "harshad.patel@gecpatan.ac.in",
+                "Department": "Electrical Engineering"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. N. K. Dabhi",
+                "Position": "Committee Member & NSS Unit Rep",
+                "Image": "~/images/Faculty/304.jpg",
+                "Email": "naran.dabhi@gecpatan.ac.in",
+                "Department": "Electrical Engineering"
+            },
+            {
+                "ID": 3,
+                "Name": "Prof. Anju Vasdevani",
+                "Position": "Committee Member",
+                "Image": "~/images/Faculty/109.jpg",
+                "Email": "anju.vasdevani@gecpatan.ac.in",
+                "Department": "Electronics & Communication"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. H. R. Trivedi",
+                "Position": "Committee Member",
+                "Image": "~/images/Faculty/804.jpg",
+                "Email": "hardik.trivedi@gecpatan.ac.in",
+                "Department": "Civil Engineering"
+            },
+            {
+                "ID": 5,
+                "Name": "Prof. H. L. Chaudhary",
+                "Position": "Committee Member",
+                "Image": "~/images/Faculty/214.jpg",
+                "Email": "harshad.chaudhary@gecpatan.ac.in",
+                "Department": "Computer Engineering"
+            },
+            {
+                "ID": 6,
+                "Name": "Prof. H. S. Bhutadiya",
+                "Position": "Committee Member",
+                "Image": "~/images/Faculty/605.jpg",
+                "Email": "harshad.bhutadiya@gecpatan.ac.in",
+                "Department": "General Department"
+            },
+            {
+                "ID": 8,
+                "Name": "Prof. D. J. Parmar",
+                "Position": "Committee Member",
+                "Image": "~/images/Faculty/504.jpg",
+                "Email": "dipak.parmar@gecpatan.ac.in",
+                "Department": "Mechanical Engineering"
+            },
+            {
+                "ID": 9,
+                "Name": "Prof. Bhargav Patel",
+                "Position": "Boys Hostel Representative",
+                "Image": "~/images/Faculty/506.jpg",
+                "Email": "bhargav.patel@gecpatan.ac.in",
+                "Department": "Mechanical Engineering"
+            }
+        ]
+
+    }
 ]
 // use below template to add a committee
 
