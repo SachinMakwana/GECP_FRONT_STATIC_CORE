@@ -25,7 +25,15 @@
 			<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=item})')">@item</button>
 		}
 	</div>
-	<div id="style-selector" style="left: 0px;" class="visible-xs">
+	<div class="tab-xs visible-xs">
+		<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear", "Academics", new { @year = 0 })')" id="defaultOpen">All</button>
+		@foreach (var item in Model.Years)
+		{
+			<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear", "Academics", new { @year = item })')">@item</button>
+		}
+	</div>
+
+	@* <div id="style-selector" style="left: 0px;" class="visible-xs">
 
 		<div class="style-selector-wrapper">
 			<span class="title">Menu</span>
@@ -49,7 +57,7 @@
 
 			</div>
 		</div>
-	</div>
+	</div> *@
 	<div id="achDiv" class="tabcontent">
 	</div>
 	<!-- end works section -->
