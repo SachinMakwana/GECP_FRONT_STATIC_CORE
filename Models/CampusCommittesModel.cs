@@ -36,8 +36,9 @@ namespace GECP_Front_End_Static.Models
         public string PageFlyer { get; set; }
         public string Tagline { get; set; }
         public string BlogLink { get; set; }
-
-		public string Link { get; set; }
+        public string Message { get; set; } = null;
+        public string Account { get; set; }
+        public string Link { get; set; }
 
 		public List<Members> Members { get; set; }= new List<Members>();
         public List<CommitteeActivity> Activities { get; set; } = new List<CommitteeActivity>();
@@ -69,7 +70,6 @@ namespace GECP_Front_End_Static.Models
         public int DeptID { get; set; }
         public int CommitteId { get; set; }
         public string Keywords { get; set; }
-
         public bool IsFile { get; set; } = true;
         public string ControllerName { get; set; }
         public string ActionName { get; set; }
