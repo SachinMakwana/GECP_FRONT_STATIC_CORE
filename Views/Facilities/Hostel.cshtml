@@ -5,233 +5,230 @@
     int count = 1;
 }
 
-<div class="clearfix"></div>
-
-
-<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top;background-size: cover;">
-    <div class="container">
-
+<div class="page_title3 @Model.TitleImageCSSClass" style="background: #999 url(@Model.TitleImage) no-repeat center top; background-size: cover;">
+    <div class="full-container">
         <h1>
-            @Model.Title <em>Government Engineering College</em>
+            @Model.Title
             <div class="line"></div>
         </h1>
-
     </div>
 </div>
 <div class="clearfix"></div>
+<div class="margin_top10"></div>
+<div class="full-container">
+    <div class="tab hidden-xs">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
+        }
+        @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+        }
+        @if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+        {
+            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogsopt Link</button></a>
+        }
+        @if (Model.Members?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
+        }
+    </div>
+    <div class="tab-xs visible-xs">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
+        }
+        @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
+        }
+        @if (!string.IsNullOrWhiteSpace(Model.BlogLink))
+        {
+            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogsopt Link</button></a>
+        }
+        @if (Model.Members?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
+        }
+    </div>
+    <!-- ABOUT TAB -->
+    <div id="About" class="tabcontent">
+        <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
+            <div class="full-container">
+                <div class="center-block">
+                    <div class="onecol_forty_less">
+                        <div id="owl-demo2" class="owl-carousel center-block hidden-on-load">
+                            @foreach (var imagePath in Model.SideImage)
+                            {
+                                <div><img src="@Url.Content(imagePath)" alt="" class="rimg"></div>
+                            }
+                            @* <div class="one_half">
 
+								<img src="@Url.Content(Model.SideImage)" alt="" class="rimg">
 
-<div class="content_fullwidth">
-    <div class="featured_section55 animate" data-anim-type="fadeIn" data-anim-delay="100">
-        <div class="container">
-
-            <div class="one_half">
-
-                <img src="@Url.Content(Model.SideImage)" alt="" class="rimg">
-
-            </div>
-            <!-- end section -->
-
-            <div class="one_half last">
-
-                <h3>About Hostel</h3>
-                <p style="text-align:justify; width:100%">
-                    @Model.About
-                </p>
-                <div class="margin_bottom1">
+							</div> *@
+                        </div>
+                        @* <img src="@Url.Content(Model.Measure_Image)" alt="" class="rimg" style="height:250px" /> *@
+                        @* <img src="@Url.Content(Model.Measure_Image)" alt="" class="center-block" /> *@
+                    </div>
                 </div>
+                <div class="clearfix margin_top1"></div>
+                <div class="text-justify">
 
-                <table class="table table-striped table-bordered table-hover">
+                    <h4 class="color3 margin_bottom2">About @Model.Title</h4>
+                    <p class="bigtfont text-justify overflowCommittes">
+                        @Html.Raw(Model.About)
+                    </p>
+                    @* <table class="table table-striped table-bordered table-hover">
+						<tr>
+							<th>Hostel</th>
+							<th>Boys</th>
+							<th>Girls</th>
+						</tr>
+						<tr>
+							<td style="text-align:left;">Number of Rooms</td>
+							<td style="text-align:right;">@Model.Factors.Rooms</td>
+							<td style="text-align:right;">@Model.Factors.Rooms</td>
+						</tr>
+						<tr>
+							<td style="text-align:left;">Capacity</td>
+							<td style="text-align:right;">@Model.Factors.Capacity</td>
+							<td style="text-align:right;">@Model.Factors.Capacity</td>
+						</tr>
+						<tr>
+							<td style="text-align:left;">Mess</td>
+							<td style="text-align:right;">@Model.Factors.Mess</td>
+							<td style="text-align:right;">@Model.Factors.Mess</td>
+						</tr>
+						<tr>
+							<td style="text-align:left;">T.T. Hall</td>
+							<td style="text-align:right;">@Model.Factors.TTHall</td>
+							<td style="text-align:right;">@Model.Factors.TTHall</td>
+						</tr>
+						<tr>
+							<td style="text-align:left;">Community Hall</td>
+							<td style="text-align:right;">@Model.Factors.Hall</td>
+							<td style="text-align:right;">@Model.Factors.Hall</td>
+						</tr>
+					</table> *@
+                    @* <table class="table table-striped table-bordered table-hover">
+                        <tr>
+                            <th>Hostel</th>
+                            <th>Boys</th>
+                            <th>Girls</th>
+                        </tr>
 
-                    <tr>
-                        <th>
-                            Hostel
-                        </th>
-                        <th>
-                            Boys
-                        </th>
-                        <th>
-                            Girls
-                        </th>
-                    </tr>
-                    <tr>
-                        <td style="text-align:left;">Number of Rooms</td>
-                        <td style="text-align:right;">@Model.Factors.Rooms</td>
-                        <td style="text-align:right;">@Model.Factors.Rooms</td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:left;">Capacity</td>
-                        <td style="text-align:right;">@Model.Factors.Capacity</td>
-                        <td style="text-align:right;">@Model.Factors.Capacity</td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:left;">Mess</td>
-                        <td style="text-align:right;">@Model.Factors.Mess</td>
-                        <td style="text-align:right;">@Model.Factors.Mess</td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:left;">T.T. Hall</td>
-                        <td style="text-align:right;">@Model.Factors.TTHall</td>
-                        <td style="text-align:right;">@Model.Factors.TTHall</td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:left;">Community Hall</td>
-                        <td style="text-align:right;">@Model.Factors.Hall</td>
-                        <td style="text-align:right;">@Model.Factors.Hall</td>
-                    </tr>
-                </table>
-                @*<p>Discover the undoubtable source Ipsum comes from sections.</p>*@
+                        @foreach (var factor in Model.Facilities)
+                        {
+                            <tr>
+                                <td style="text-align:left;">@factor.Key</td>
+                                <td style="text-align:right;">@factor.Value</td>
+                                <td style="text-align:right;">@factor.Value</td>
+                            </tr>
+                        }
+                    </table> *@
 
+                    <div class="clearfix margin_top3"></div>
+                </div>
+                <!-- end section -->
             </div>
-
-    </div>
-    </div>
-</div>
-<div class="margin_top2"></div>
-
-<!-- end featured section 55 -->
-@if (!string.IsNullOrWhiteSpace(Model.BlogLink))
-{
-    <div class="arrowdown_box">
-        <div class="full-container">
-
-            <h2 class="white">
-                <p>Link For Blogspot:</p>
-                <p><a href="@Model.BlogLink">@Model.BlogLink</a></p>
-            </h2>
-
         </div>
     </div>
-    <div class="clearfix"></div>
-}
-@*@if (Model.SubObjectives.Count() > 0)
-{
-    <div class="featured_section106">
-        <div class="container">
-            <div class="margin_top2"></div>
-            <div class="onecol_sixty animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200">
+    <!-- FACILITIES TAB -->
+    <div id="Facilities" class="tabcontent">
+        <div class="featured_section106" style="background-color:white">
+            <div style="padding-left:10px;">
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Facilities </h2>
+                <div class="hsmline7"></div>
+                <br><br>
 
+                <table class="table table-striped table-bordered table-hover">
+                    <tr>
+                        <th>Hostel</th>
+                        <th>Boys</th>
+                        <th>Girls</th>
+                    </tr>
 
-                <img src="@Url.Content(Model.SubObjImg)" alt="" class="img_left rimg" />
+                    @foreach (var factor in Model.Facilities)
+                    {
+                        <tr>
+                            <td style="text-align:center;">@factor.Key</td>
+                            <td style="text-align:center;">@factor.Value</td>
+                            <td style="text-align:center;">@factor.Value</td>
+                        </tr>
+                    }
+                </table>
+        </div>
+     </div>
+    </div>
+    <!-- VISION & MISSION -->
+    <div id="VisionMission" class="tabcontent">
+        <div class="featured_section106" style="background-color:white">
+            <div style="padding-left:10px;">
 
-            </div><!-- end section -->
-
-            <div class="onecol_forty last">
-
-                <h2 class="roboto thin">Sub-Objectives </h2>
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Vision </h2>
                 <div class="hsmline7"></div>
 
                 <br><br>
-                @foreach (var obj in Model.SubObjectives)
+                @foreach (var obj in Model.Vision)
                 {
-                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @obj</h4>
+                    <h4 class="roboto thin text-justify"> @obj</h4>
                 }
-                <br>
-            </div><!-- end section -->
-            <div class="margin_top2"></div>
 
+                <div class="clearfix margin_top2"></div>
 
+                <div class="margin_top2"></div>
+                <h2 class="roboto thin">Mission </h2>
+                <div class="hsmline7"></div>
+
+                <br><br>
+                @foreach (var obj in Model.Mission)
+                {
+                    <h4 class="roboto thin text-justify"><i class="fa fa-check"></i> @Html.Raw(obj)</h4>
+                }
+
+                <div class="margin_top2"></div>
+
+            </div>
         </div>
     </div>
-}*@
-<div class="featured_section14">
-    <div class="container">
 
-        <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="300">
-
-            <img src="@Url.Content("~/images/vision.png")" alt="" />
-            <br /><br />
-            <h3 class="white">Vision</h3>
-
-            <ul class="text-justify">
-                @foreach (var item in Model.Vision)
+    <!-- MEMBERS TAB -->
+    <div id="Members" class="tabcontent">
+        <div class="featured_section30">
+            <div class="full-container">
+                <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
+                    Committee Members
+                </h1>
+                @foreach (var item in Model.Members)
                 {
-                    <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-                }
-            </ul>
-            <br /><br />
 
+                    <div class="one_half animate @(count % 2 == 0 ? "last" : "")" data-anim-type="fadeIn" data-anim-delay="400">
 
-        </div>
-        <!-- end section -->
-
-        <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="300">
-
-            <img src="@Url.Content("~/images/mission.png")" alt="" />
-            <br /><br />
-            <h3 class="white">Mission</h3>
-
-            <ul class="text-justify">
-                @foreach (var item in Model.Mission)
-                {
-                    <li><i class="fa fa fa-hand-o-right" aria-hidden="true"></i> @item</li>
-                }
-            </ul>
-            <br /><br />
-
-
-        </div>
-        <!-- end section -->
-
-    </div>
-</div>
-@if (Model.Members.Count() > 0)
-{
-    <div class="clearfix margin_bottom6"></div>
-    <div class="featured_section30">
-        <div class="container">
-            <h1 class="title22 animate" data-anim-type="fadeIn" data-anim-delay="100" style="color: black !important;">
-                Committee Members
-            </h1>
-            @foreach (var item in Model.Members)
-            {
-                if (count % 2 == 0)
-                {
-                    <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300" style="border-left:1px solid rgba(255, 255, 255, 0.1)">
-
-                        <img src="@Url.Content(item.Image)" alt="">
+                        <img src="@Url.Content(item.Image)" alt="" style="margin-right:15px;">
                         <h5>@item.Name <em>@item.Position</em></h5>
-                        <p>@item.Department</p>
-                        <p>@item.Email</p>
-                        @*  <br>
-            <a href="#" class="button four">Read More</a> *@
+                        <text>@item.Department</text>
+                        <text>@item.Email</text>
+
                     </div>
 
                     <!-- end section -->
-
-                    <div class="clearfix margin_top5"></div>
+                    <div class="@(count % 2 == 0 ? "clearfix margin_top5" : "")"></div>
+                    count++;
                 }
-                else
-                {
-                    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
-
-                        <img src="@Url.Content(item.Image)" alt="">
-                        <h5>@item.Name <em>@item.Position</em></h5>
-                        <p>@item.Department</p>
-                        <p>@item.Email</p>
-                        @*  <br>
-            <a href="#" class="button four">Read More</a> *@
-                    </div>
-
-                    <!-- end section -->
-                }
-                count++;
-            }
+            </div>
         </div>
     </div>
-    <div class="clearfix margin_bottom6"></div>
-}
-<!-- end parallax section 10 -->
-@* <div class="clearfix margin_bottom6"></div> *@
-
-<div class="content_fullwidth" style="padding: 0 !important">
-    <img src="@Url.Content(Model.PageFlyer)" class="rimg" alt="" />
 </div>
-<div class="clearfix" style="background: #5076bb !important"></div>
 @if (!string.IsNullOrWhiteSpace(Model.Tagline))
 {
     <div class="featured_section38">
-        <div class="container">
+        <div class="full-container">
             @Html.Raw(Model.Tagline)
         </div>
     </div>

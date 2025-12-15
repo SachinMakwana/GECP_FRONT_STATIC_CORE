@@ -33,14 +33,15 @@ namespace GECP_Front_End_Static.Models
         public string Title { get; set; }
         public string TitleImage { get; set; }
         public string TitleImageCSSClass { get; set; }
-        public string SideImage { get; set; }
+        public List<string> SideImage { get; set; }
         public string BlogLink { get; set; }
         public string Tagline { get; set; }
         public List<string> Vision { get; set; }
         public List<string> Mission { get; set; }
         public string PageFlyer { get; set; }
         public string About { get; set; }
-        public Factor Factors { get; set; }
+        //public Factor Factors { get; set; }
+        public Dictionary<string, string> Facilities { get; set; }
         public List<Members> Members { get; set; }
     }
 
