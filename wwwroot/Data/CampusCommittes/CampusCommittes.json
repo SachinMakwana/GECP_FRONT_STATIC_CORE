@@ -945,6 +945,7 @@
   {
     "ID": 11,
     "Title": "Alumni",
+    "TableView": true,
     "TitleImage": "../../images/alumni-banner.jpg",
     "TitleImageCSSClass": "alumni_cell_title",
     "About": "Government Engineering College, Patan Alumni creates and maintains a life-long connection between the college and its alumni. In collaboration with an extremely dedicated volunteer alumni members and college staff, the Alumni Association works to connect alumni, supports students, and builds an unforgettable Institute experience through a diversity of events, programs, and services.<button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/Alumni_Association_Registration.pdf','GEC Patan Alumni Association Registration Certificate')\">Registration Certificate</button>",
@@ -963,10 +964,10 @@
     ],
     "SubObjImg": "~/images/alumni-poster.jpg",
     "BulletPoints": [
-     //"Pay registration fees via NEFT / IMPS / UPI <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>",
-     //"Fill the registration form by <a style=\"color:blue;\" onmouseover=\"this.style.color='red'\" onmouseout=\"this.style.color='blue'\"" // href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\">clicking here </a> (payment proof required)"
-     //"Once the registration is completed, you will be provided temporary Member ID through EMAIL.",
-     //"Updates will be sent regarding Alumni events to your registered Email IDs. <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>"
+      //"Pay registration fees via NEFT / IMPS / UPI <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>",
+      //"Fill the registration form by <a style=\"color:blue;\" onmouseover=\"this.style.color='red'\" onmouseout=\"this.style.color='blue'\"" // href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\">clicking here </a> (payment proof required)"
+      //"Once the registration is completed, you will be provided temporary Member ID through EMAIL.",
+      //"Updates will be sent regarding Alumni events to your registered Email IDs. <button class=\"btn btn-success\" onclick=\"loadPdf('~/DataFiles/Documents/Alumni/BankInfo.pdf','Bank Information')\">Bank info</button>"
     ],
     "BulletPointsImg": "",
     "PageFlyer": "",
@@ -999,7 +1000,7 @@
           {
             "ID": 3,
             "Name": "Dr. Harikrishna B. Jethva",
-            "Position": "Minister",
+            "Position": "Secretary",
             "Department": "",
             "Image": "~/images/Faculty/HOD/201.jpg",
             "Email": ""

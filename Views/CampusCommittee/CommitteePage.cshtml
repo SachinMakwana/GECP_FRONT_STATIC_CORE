@@ -270,9 +270,28 @@
                                 <tr>
                                     <td>@count</td>
                                     <td>@item.Name</td>
-                                    <td>@item.Department</td>
+                                    <td>
+                                        @if (string.IsNullOrWhiteSpace(item.Department))
+                                        {
+                                            <div class="text-center">-</div>
+                                        }
+                                        else
+                                        {
+                                            @item.Department
+                                        }
+                                    </td>
+
                                     <td>@item.Position</td>
-                                    <td>@item.Email</td>
+                                    <td>
+                                        @if (string.IsNullOrWhiteSpace(item.Email))
+                                        {
+                                            <div class="text-center">-</div>
+                                        }
+                                        else
+                                        {
+                                            @item.Email
+                                        }
+                                    </td>
                                 </tr>
 
                                 count++;
@@ -307,9 +326,29 @@
                                     <tr>
                                         <td>@count</td>
                                         <td>@item.Name</td>
-                                        <td>@item.Department</td>
+                                        <td>
+                                            @if (string.IsNullOrWhiteSpace(item.Department))
+                                            {
+                                                <div class="text-center">-</div>
+                                            }
+                                            else
+                                            {
+                                                @item.Department
+                                            }
+                                        </td>
+
                                         <td>@item.Position</td>
-                                        <td>@item.Email</td>
+                                        <td>
+                                            @if (string.IsNullOrWhiteSpace(item.Email))
+                                            {
+                                                <div class="text-center">-</div>
+                                            }
+                                            else
+                                            {
+                                                @item.Email
+                                            }
+                                        </td>
+
                                     </tr>
 
                                     count++;
