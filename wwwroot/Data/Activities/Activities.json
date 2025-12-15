@@ -1,17 +1,51 @@
 ﻿[
   {
     "ID": 1,
-    "Title": "Annual Events",
-    "Description": "GEC Patan organizes a range of events throughout the academic year, including annual festivals – Sports Week, fresher parties, and Navratri celebrations. These events provide students with opportunities to showcase their talents and engage with peers, enriching their college experience. ",
-    "EventDate": "",
-    "EventTime": "",
+    "Title": "Investor Awareness Program for Financial Literacy and Commodity Market Awareness",
+    "Description": "The Investor Awareness Program for Financial Literacy and Commodity Market Awareness, held on 11th November 2025, aims to equip participants with essential knowledge of financial planning, smart investing, and the commodity market. The session is led by Mr. Aashish Shah, a reputed finance professional and experienced trainer known for his expertise in financial markets. The program is designed to enhance financial awareness and help attendees make informed financial decisions.",
+    "EventDate": "11/11/2025",
+    "EventTime": "10:30 a.m. to 12:30 p.m.",
     "Year": 2025,
-    "CommitteId": 10,
+    "DeptID": 4,
     "Images": [
-
+      //"/images/Activities/Civil/Workshop_1310/1.jpeg",
+      "/images/Activities/Civil/Financial_Lite/1Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/2Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/3Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/4 Image.jpg",
+      "/images/Activities/Civil/Financial_Lite/5Image.jpg"
     ],
     "Files": [
-
+      {
+        "ID": 1,
+        "Title": "Event Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/Civil/Report_Financial_Literacy.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Title": "One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”",
+    "Description": "The Department of Civil Engineering organized a One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”. The workshop aimed to expose students and faculty members to the latest technological advancements in the use of Unmanned Aerial Vehicles (UAVs) and Geographic Information Systems (GIS) in the field of Civil Engineering. The event featured three expert talk sessions delivered by distinguished speakers covering topics from drone dynamics to real-world applications in civil, architectural, and water projects.",
+    "EventDate": "13/10/2025",
+    "EventTime": "10:30 a.m. to 05:00 p.m.",
+    "Year": 2025,
+    "DeptID": 4,
+    "Images": [
+      //"/images/Activities/Civil/Workshop_1310/1.jpeg",
+      "/images/Activities/Civil/Workshop_1310/2.jpg",
+      "/images/Activities/Civil/Workshop_1310/4.jpg",
+      "/images/Activities/Civil/Workshop_1310/5.jpg",
+      "/images/Activities/Civil/Workshop_1310/6.jpg"
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Learning Outcomes of Workshop",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/Psychology/Report_Workshop_1310.pdf"
+      }
     ]
   },
   {
@@ -672,7 +706,60 @@
 
     ]
   },
-
+    {
+        "ID": 42,
+        "Title": "Manushya Gaurav Diwas 2025 Celebration",
+        "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
+        "EventDate": "19/10/2025",
+        "EventTime": "11: 30 a.m. to 12: 30 p.m.",
+        "Year": 2025,
+        "CommitteId": 12,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Maushya Gaurav Diwas Report 2025 Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_1.pdf"
+            }
+        ]
+    },
+  {
+    "ID": 43,
+    "Title": "International Happiness Day Celebration",
+    "Description": "In celebration of International Happiness Day 2025, we organized vibrant group discussions to explore the multifaceted nature of joy and well-being. Participants engaged in meaningful dialogue regarding mental health, positive psychology, and the art of finding happiness in daily life. The interactive sessions fostered a sense of community, allowing individuals to share personal insights and collective strategies for a more fulfilling life.",
+    "EventDate": "20/03/2025",
+    "EventTime": "03: 15 p.m. to 04: 30 p.m.",
+    "Year": 2025,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "International Happiness Day 2025 Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_2.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 44,
+    "Title": "Manushya Gaurav Diwas 2024 Celebration",
+    "Description": "Commemorating the profound spirit of human dignity, 'Manushya Gaurav Diwas 2024' was celebrated with great enthusiasm at the Electrical Seminar Hall. The event brought together students and faculty to reflect on the values of self-respect, universal brotherhood, and the divine potential within every individual. Through inspiring speeches and interactive sessions, the gathering reinforced the importance of uplifting society through mutual respect and spiritual oneness.",
+    "EventDate": "19/10/2024",
+    "EventTime": "10: 30 a.m. to 12: 30 p.m.",
+    "Year": 2025,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Manushya Gaurav Diwas 2024 Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_3.pdf"
+      }
+    ]
+  }
   //{
   //  "ID": 45,
   //  "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
@@ -691,7 +778,7 @@
   //    }
   //  ]
   //}
-  
+
 
 ]
 

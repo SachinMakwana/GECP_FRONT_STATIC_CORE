@@ -652,6 +652,18 @@
         "isVisible": true,
         "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
         "ChildMenuVMs": []
+      },
+      {
+        "ID": 59,
+        "MenuText": "Psychology Cell",
+        "ParentID": 6,
+        "dynamicID": 12,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 16,
+        "isVisible": true,
+        "Link": "",
+        "ChildMenuVMs": []
       }
     ]
   },
@@ -854,6 +866,17 @@
             "position": 8,
             "isVisible": true,
             "ChildMenuVMs": []
+          },
+          {
+            "ID": 79,
+            "MenuText": "Psychology Cell",
+            "ParentID": 7,
+            "dynamicID": 12,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "position": 9,
+            "isVisible": true,
+            "ChildMenuVMs": []
           }
         ]
       },
@@ -876,7 +899,7 @@
         "dynamicID": null,
         "ControllerName": "",
         "ActionName": "",
-        "Link": "/DataFiles/Documents/Rules/IQAC_GECP_2024_SIGNED.pdf",
+        "Link": "/DataFiles/Documents/Rules/IQAC_GECP_2025_SIGNED.pdf",
         "position": 2,
         "isVisible": true,
         "ChildMenuVMs": []
