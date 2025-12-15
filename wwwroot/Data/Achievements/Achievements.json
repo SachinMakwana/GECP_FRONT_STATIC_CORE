@@ -41,30 +41,30 @@
     }
     */
     {
-      "ID": 2513,
-      "Title": "Abhishek H. Mehta, 5th Sem CSE, Selected for VBYLD 2026 State Level Championship",
-      "Image": "/images/Achievements/2513.jpg",
-      "Date": "2025/12/13",
-      "Description": "We extend our heartiest congratulations to Abhishek H. Mehta (5th Semester, Computer Science Engineering), NSS GEC Patan, for his selection to the State-Level Championship of VBYLD 2026. Held at IITE Gandhinagar on December 13, 2025, the round evaluated clarity, social awareness, and public speaking. His presentation on sustainable agriculture reflected strong technical insight and social responsibility.",
-      "type": 0,
-      "Dept": "",
-      "DeptID": 0,
-      "CommitteId": 3,
-      "Keywords": "NSS",
-      "Year": 2025
+        "ID": 2513,
+        "Title": "Abhishek H. Mehta, 5th Sem CSE, Selected for VBYLD 2026 State Level Championship",
+        "Image": "/images/Achievements/2513.jpg",
+        "Date": "2025/12/13",
+        "Description": "We extend our heartiest congratulations to Abhishek H. Mehta (5th Semester, Computer Science Engineering), NSS GEC Patan, for his selection to the State-Level Championship of VBYLD 2026. Held at IITE Gandhinagar on December 13, 2025, the round evaluated clarity, social awareness, and public speaking. His presentation on sustainable agriculture reflected strong technical insight and social responsibility.",
+        "type": 0,
+        "Dept": "",
+        "DeptID": 2,
+        "CommitteId": 3,
+        "Keywords": "CSE, NSS",
+        "Year": 2025
     },
     {
-      "ID": 2512,
-      "Title": "Prakash A. Suthar, 5th Sem CSE, Selected for VBYLD 2026 State Level Championship",
-      "Image": "/images/Achievements/2512.jpg",
-      "Date": "2025/12/13",
-      "Description": "Heartiest congratulations to Prakash A. Suthar (5th Semester, Computer Science Engineering), NSS GEC Patan, on his selection to the State-Level Championship of VBYLD 2026, held at IITE Gandhinagar on December 13, 2025, where his presentation on “Making India the Startup Capital of the World” showcased his innovation, leadership, and commitment to national development.",
-      "type": 0,
-      "Dept": "",
-      "DeptID": 0,
-      "CommitteId": 3,
-      "Keywords": "NSS",
-      "Year": 2025
+        "ID": 2512,
+        "Title": "Prakash A. Suthar, 5th Sem CSE, Selected for VBYLD 2026 State Level Championship",
+        "Image": "/images/Achievements/2512.jpg",
+        "Date": "2025/12/13",
+        "Description": "Heartiest congratulations to Prakash A. Suthar (5th Semester, Computer Science Engineering), NSS GEC Patan, on his selection to the State-Level Championship of VBYLD 2026, held at IITE Gandhinagar on December 13, 2025, where his presentation on “Making India the Startup Capital of the World” showcased his innovation, leadership, and commitment to national development.",
+        "type": 0,
+        "Dept": "",
+        "DeptID": 2,
+        "CommitteId": 3,
+        "Keywords": "CSE, NSS",
+        "Year": 2025
     },
     {
       "ID": 2511,
@@ -80,29 +80,30 @@
       "Year": 2023
     },
     {
-      "ID": 2510,
-      "Title": "Jyoti Mal, CSE 5th Sem, Selected for and Attended National Adventure Camp 2025",
-      "Image": "/images/Achievements/2510.jpg",
-      "Date": "2025/11/30",
-      "Description": "Heartiest congratulations to Jyoti Mal (5th Semester, Computer Science Engineering), NSS GEC Patan, on her selection and successful participation in Adventure Camp 2025, held at the Dharamshala Center, Himachal Pradesh, from November 30 to December 9, 2025, where her involvement reflected strong dedication to holistic development, physical endurance, and the adventurous spirit of the National Service Scheme.",
-      "type": 0,
-      "Dept": "",
-      "DeptID": 0,
-      "CommitteId": 3,
-      "Keywords": "NSS",
-      "Year": 2025
+        "ID": 2510,
+        "Title": "Jyoti Mal, CSE 5th Sem, Selected for and Attended National Adventure Camp 2025",
+        "Image": "/images/Achievements/2510.jpg",
+        "Date": "2025/11/30",
+        "Description": "Heartiest congratulations to Jyoti Mal (5th Semester, Computer Science Engineering), NSS GEC Patan, on her selection and successful participation in Adventure Camp 2025, held at the Dharamshala Center, Himachal Pradesh, from November 30 to December 9, 2025, where her involvement reflected strong dedication to holistic development, physical endurance, and the adventurous spirit of the National Service Scheme.",
+        "type": 0,
+        "Dept": "",
+        "DeptID": 2,
+        "CommitteId": 3,
+        "Keywords": "CSE, NSS",
+        "Year": 2025
     },
     {
-      "ID": 2509,
-      "Title": "NSS Programme Officer Dr. Ashokkumar K. Chaudhary Secures 2nd Place in Mehsana Marathon",
-      "Image": "/images/Achievements/09-NSS.jpg",
-      "Date": "2025/11/09",
-      "Description": "We proudly celebrate our NSS programme officer 2nd place achievement in the Mehsana Marathon. Your dedication and discipline truly inspire us. This strong performance reflects your hard work and consistency. You completed the race with focus, courage, and determination. Your achievement motivates our entire group to aim higher.Thank you for being a great example of passion and persistence. We feel proud and honored to have a mentor like you. May you continue reaching new milestones and goals. Wishing you more success and victories ahead.",
-      "Type": 1,
-      "Dept": "General",
-      "DeptID": 0,
-      "Keywords": "NSS",
-      "Year": 2025
+        "ID": 2509,
+        "Title": "NSS Programme Officer Dr. Ashokkumar K. Chaudhary Secures 2nd Place in Mehsana Marathon",
+        "Image": "/images/Achievements/09-NSS.jpg",
+        "Date": "2025/11/09",
+        "Description": "We proudly celebrate our NSS programme officer 2nd place achievement in the Mehsana Marathon. Your dedication and discipline truly inspire us. This strong performance reflects your hard work and consistency. You completed the race with focus, courage, and determination. Your achievement motivates our entire group to aim higher.Thank you for being a great example of passion and persistence. We feel proud and honored to have a mentor like you. May you continue reaching new milestones and goals. Wishing you more success and victories ahead.",
+        "Type": 1,
+        "Dept": "General",
+        "DeptID": 0,
+        "Keywords": "NSS",
+        "CommitteId": 3,
+        "Year": 2025
     },
     {
       "ID": 2508,
@@ -129,16 +130,17 @@
       "Year": 2025
     },
     {
-      "ID": 2506,
-      "Title": "Abhishek H. Mehta, 5th Sem CSE selected for Independence Day Ceremony 2025.",
-      "Image": "/images/Achievements/05.jpg",
-      "Date": "2025/08/13",
-      "Description": "Out of only two NSS Volunteers selected from Gujarat our Student and NSS Volunteer Abhishek H. Mehta was selected for Independence Day Ceremony 2025 going to organised from 13th to 15th August 2025 at Red Fort, New Delhi. The selection took place a rigorous interview process among the representatives of many Universities of Gujarat. Abhishek's Contribution in Youth Development and Empowerment, Social Awareness Drives, and Experiential Learning Program led him to this achievement. We are proud of him and congratulate for this lifetime achievement.",
-      "Type": 0,
-      "Dept": "CSE",
-      "DeptID": 2,
-      "Keywords": "CSE, NSS",
-      "Year": 2025
+        "ID": 2506,
+        "Title": "Abhishek H. Mehta, 5th Sem CSE selected for Independence Day Ceremony 2025.",
+        "Image": "/images/Achievements/05.jpg",
+        "Date": "2025/08/13",
+        "Description": "Out of only two NSS Volunteers selected from Gujarat our Student and NSS Volunteer Abhishek H. Mehta was selected for Independence Day Ceremony 2025 going to organised from 13th to 15th August 2025 at Red Fort, New Delhi. The selection took place a rigorous interview process among the representatives of many Universities of Gujarat. Abhishek's Contribution in Youth Development and Empowerment, Social Awareness Drives, and Experiential Learning Program led him to this achievement. We are proud of him and congratulate for this lifetime achievement.",
+        "Type": 0,
+        "Dept": "CSE",
+        "DeptID": 2,
+        "Keywords": "CSE, NSS",
+        "CommitteId": 3,
+        "Year": 2025
     },
 
     {
@@ -155,16 +157,17 @@
       "Year": 2025
     },
     {
-      "ID": 2504,
-      "Title": "Abhishek H. Mehta, 4th Sem CSE stood in Top 10 Speakers of Gujarat at Gujarat Vidhan Sabha for Viksit Bharat Youth Parliament 2025",
-      "Image": "/images/Achievements/AHM.jpg",
-      "Date": "2025/03/29",
-      "Description": "Abhishek H. Mehta, a 4th Semester student of Government Engineering College, Patan, made the institution proud by securing a place among the Top 10 Speakers of Gujarat at the prestigious Viksit Bharat Youth Parliament 2025. The event was held at the historic Vidhan Sabha - Vitthalbhai Patel Bhavan in Gandhinagar on 29th March 2025. His powerful oration and impactful thoughts on nation-building were recognized and appreciated by dignitaries present, marking a moment of immense pride for GEC Patan.",
-      "Type": 0,
-      "Dept": "CSE",
-      "DeptID": 2,
-      "Keywords": "CSE, NSS",
-      "Year": 2025
+        "ID": 2504,
+        "Title": "Abhishek H. Mehta, 4th Sem CSE stood in Top 10 Speakers of Gujarat at Gujarat Vidhan Sabha for Viksit Bharat Youth Parliament 2025",
+        "Image": "/images/Achievements/AHM.jpg",
+        "Date": "2025/03/29",
+        "Description": "Abhishek H. Mehta, a 4th Semester student of Government Engineering College, Patan, made the institution proud by securing a place among the Top 10 Speakers of Gujarat at the prestigious Viksit Bharat Youth Parliament 2025. The event was held at the historic Vidhan Sabha - Vitthalbhai Patel Bhavan in Gandhinagar on 29th March 2025. His powerful oration and impactful thoughts on nation-building were recognized and appreciated by dignitaries present, marking a moment of immense pride for GEC Patan.",
+        "Type": 0,
+        "Dept": "CSE",
+        "DeptID": 2,
+        "Keywords": "CSE, NSS",
+        "CommitteId": 3,
+        "Year": 2025
     },
     {
       "ID": 2503,
