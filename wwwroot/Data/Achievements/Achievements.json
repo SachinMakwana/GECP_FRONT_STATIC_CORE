@@ -41,9 +41,9 @@
     }
     */
     {
-      "ID": 2512,
+      "ID": 2513,
       "Title": "Abhishek H. Mehta, 5th Sem CSE, Selected for VBYLD 2026 State Level Championship",
-      "Image": "/images/Achievements/2512.jpg",
+      "Image": "/images/Achievements/2513.jpg",
       "Date": "2025/12/13",
       "Description": "We extend our heartiest congratulations to Abhishek H. Mehta (5th Semester, Computer Science Engineering), NSS GEC Patan, for his selection to the State-Level Championship of VBYLD 2026. Held at IITE Gandhinagar on December 13, 2025, the round evaluated clarity, social awareness, and public speaking. His presentation on sustainable agriculture reflected strong technical insight and social responsibility.",
       "type": 0,
@@ -54,9 +54,9 @@
       "Year": 2025
     },
     {
-      "ID": 2511,
+      "ID": 2512,
       "Title": "Prakash A. Suthar, 5th Sem CSE, Selected for VBYLD 2026 State Level Championship",
-      "Image": "/images/Achievements/2511.jpg",
+      "Image": "/images/Achievements/2512.jpg",
       "Date": "2025/12/13",
       "Description": "Heartiest congratulations to Prakash A. Suthar (5th Semester, Computer Science Engineering), NSS GEC Patan, on his selection to the State-Level Championship of VBYLD 2026, held at IITE Gandhinagar on December 13, 2025, where his presentation on “Making India the Startup Capital of the World” showcased his innovation, leadership, and commitment to national development.",
       "type": 0,
@@ -65,6 +65,19 @@
       "CommitteId": 3,
       "Keywords": "NSS",
       "Year": 2025
+    },
+    {
+      "ID": 2511,
+      "Title": "Team TravShield, GEC Patan, Grand Finalists at Smart India Hackathon 2025",
+      "Image": "/images/Achievements/2511.jpg",
+      "Date": "2025/12/08",
+      "Description": "We proudly celebrate Team TravShield from Government Engineering College, Patan, for reaching the Grand Finale of the Smart India Hackathon 2025. Competing on December 8-9, the team demonstrated exceptional skill in solving real-world issues for the Government of J&K. A huge congratulations to Team Lead Khatri Poorv and all team members for this national-level achievement!",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 2,
+      "CommitteId": 0,
+      "Keywords": "CSE",
+      "Year": 2023
     },
     {
       "ID": 2510,
