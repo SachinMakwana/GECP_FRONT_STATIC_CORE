@@ -18,17 +18,18 @@
 <div class="full-container">
     <div class="tab hidden-xs">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
-        {
-            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
-        }
         @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
         }
+        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
+        }
+        
         @if (!string.IsNullOrWhiteSpace(Model.BlogLink))
         {
-            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogsopt Link</button></a>
+            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogspot Link</button></a>
         }
         @if (Model.Members?.Count > 0)
         {
@@ -37,17 +38,18 @@
     </div>
     <div class="tab-xs visible-xs">
         <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
-        {
-            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
-        }
         @if (Model.Vision?.Count > 0 || Model.Mission?.Count > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'VisionMission')">Vision & Mission</button>
         }
+        @if (Model.Facilities?.Count > 0 || Model.Facilities?.Count > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'Facilities')">Facilities</button>
+        }
+        
         @if (!string.IsNullOrWhiteSpace(Model.BlogLink))
         {
-            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogsopt Link</button></a>
+            <a href="@Model.BlogLink" target="_blank"><button class="tablinks">Blogspot Link</button></a>
         }
         @if (Model.Members?.Count > 0)
         {
