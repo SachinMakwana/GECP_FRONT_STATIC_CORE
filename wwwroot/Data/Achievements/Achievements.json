@@ -41,6 +41,19 @@
     }
     */
     {
+      "ID": 2515,
+      "Title": "Dr. Hitesh N. Panchal Listed Among Top 2% Scientists Worldwide (2025)",
+      "Image": "/images/Achievements/2515.jpeg",
+      "Date": "2025",
+      "Description": "The Computer Science & Engineering Department, Government Engineering College Patan, proudly announces that Dr. Hitesh N. Panchal, faculty member, has been recognized among the Top 2% Scientists worldwide for the year 2025, as per the Stanford–Elsevier Top 2% Scientists List (Single Year Data). Dr. Panchal has achieved a global rank of 4306 in the Main Field of Enabling & Strategic Technologies and Sub-field: Energy, with an H-index of 31. This prestigious global recognition is based on standardized, verified data published by Elsevier in collaboration with Stanford University, acknowledging researchers with significant scholarly impact and citation excellence. This achievement reflects Dr. Panchal’s sustained contribution to high-quality research and brings distinction to the Department of Computer Science & Engineering and Government Engineering College Patan. The institute congratulates Dr. Panchal on this notable accomplishment and wishes him continued success in his academic and research endeavors.",
+      "type": 1,
+      "Dept": "Mechanical",
+      "DeptID": 5,
+      "CommitteId": 0,
+      "Keywords": "Mechanical",
+      "Year": 2025
+    },
+    {
       "ID": 2514,
       "Title": "Dr. Hitesh N. Panchal, Successfully Completes AICTE–QIP PG Certificate Programme",
       "Image": "/images/Faculty/519.jpg",
