@@ -1,6 +1,18 @@
 [
   {
-    "ID": 8,
+    "ID": 2,
+    "Image": "/images/Home/Abhishek_SANSAD_Delhi.png",
+    "H3_text": "",
+    "H4_text": "",
+    "H5_text": "",
+    "Anchor1_text": "SANSAD TV - Video",
+    "Anchor1_Link": "https://youtu.be/dSEsWVhNzrY?si=RPZgJaYUae47tbmW",
+    "Anchor2_text": "",
+    "Anchor2_Link": null,
+    "isShow": true
+  },
+  {
+    "ID": 9,
     "Image": "/images/Home/MOU SigningBanner.png",
     "H3_text": "",
     "H4_text": "",
@@ -12,7 +24,7 @@
     "isShow": true
   },
   {
-    "ID": 7,
+    "ID": 8,
     "Image": "/images/Home/VibrantGujarat.png",
     "H3_text": "",
     "H4_text": "",
@@ -24,8 +36,8 @@
     "isShow": true
   },
   {
-    "ID": 6,
-    "Image": "/images/Home/IDC_ABHI_2025.jpg",
+    "ID": 7,
+    "Image": "/images/Home/Abhishek_IDC.png",
     "H3_text": "",
     "H4_text": "",
     "H5_text": "",
@@ -36,7 +48,7 @@
     "isShow": true
   },
   {
-    "ID": 2,
+    "ID": 3,
     "Image": "/images/Home/GTU_NSS.jpg",
     "H3_text": "",
     "H4_text": "",
@@ -62,7 +74,7 @@
   },
 
   {
-    "ID": 3,
+    "ID": 4,
     "Image": "/images/Home/slider1.png",
     "H3_text": "",
     "H4_text": "",
@@ -74,7 +86,7 @@
     "isShow": true
   },
   {
-    "ID": 4,
+    "ID": 5,
     "Image": "/images/Home/slider2.png",
     "H3_text": "",
     "H4_text": "",
@@ -86,7 +98,7 @@
     "isShow": true
   },
   {
-    "ID": 5,
+    "ID": 6,
     "Image": "/images/Home/slider3.png",
     "H3_text": "",
     "H4_text": "",
