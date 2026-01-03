@@ -1,54 +1,5 @@
 [
   {
-    "ID": 8,
-    "Image": "/images/Home/MOU SigningBanner.png",
-    "H3_text": "",
-    "H4_text": "",
-    "H5_text": "",
-    "Anchor1_text": "",
-    "Anchor1_Link": null,
-    "Anchor2_text": "",
-    "Anchor2_Link": null,
-    "isShow": true
-  },
-  {
-    "ID": 7,
-    "Image": "/images/Home/VibrantGujarat.png",
-    "H3_text": "",
-    "H4_text": "",
-    "H5_text": "",
-    "Anchor1_text": "",
-    "Anchor1_Link": null,
-    "Anchor2_text": "",
-    "Anchor2_Link": null,
-    "isShow": true
-  },
-  {
-    "ID": 6,
-    "Image": "/images/Home/IDC_ABHI_2025.jpg",
-    "H3_text": "",
-    "H4_text": "",
-    "H5_text": "",
-    "Anchor1_text": "",
-    "Anchor1_Link": null,
-    "Anchor2_text": "",
-    "Anchor2_Link": null,
-    "isShow": true
-  },
-  {
-    "ID": 2,
-    "Image": "/images/Home/GTU_NSS.jpg",
-    "H3_text": "",
-    "H4_text": "",
-    "H5_text": "",
-    "Anchor1_text": "",
-    "Anchor1_Link": null,
-    "Anchor2_text": "",
-    "Anchor2_Link": null,
-    "isShow": true
-  },
-  {
-    "ID": 1,
     //"Image": "/images/Home/slider1.png",
     "Image": "/images/Home/alumni-bg.png",
     "H3_text": "Welcome to",
@@ -60,10 +11,69 @@
     "Anchor2_Link": "",
     "isShow": true
   },
-
+  {
+    "ID": 10,
+    "Image": "/images/Home/achievement-2515.png",
+    "H3_text": "",
+    "H4_text": "",
+    "H5_text": "",
+    "Anchor1_text": "",
+    "Anchor1_Link": null,
+    "Anchor2_text": "",
+    "Anchor2_Link": null,
+    "isShow": true
+  },
+  {
+    "ID": 2,
+    "Image": "/images/Home/Abhishek_SANSAD_Delhi.png",
+    "H3_text": "",
+    "H4_text": "",
+    "H5_text": "",
+    "Anchor1_text": "SANSAD TV - Video",
+    "Anchor1_Link": "https://youtu.be/dSEsWVhNzrY?si=RPZgJaYUae47tbmW",
+    "Anchor2_text": "",
+    "Anchor2_Link": null,
+    "isShow": true
+  },
+  {
+    "ID": 9,
+    "Image": "/images/Home/MOU SigningBanner.png",
+    "H3_text": "",
+    "H4_text": "",
+    "H5_text": "",
+    "Anchor1_text": "",
+    "Anchor1_Link": null,
+    "Anchor2_text": "",
+    "Anchor2_Link": null,
+    "isShow": true
+  },
+  {
+    "ID": 8,
+    "Image": "/images/Home/VibrantGujarat.png",
+    "H3_text": "",
+    "H4_text": "",
+    "H5_text": "",
+    "Anchor1_text": "",
+    "Anchor1_Link": null,
+    "Anchor2_text": "",
+    "Anchor2_Link": null,
+    "isShow": true
+  },
+  {
+    "ID": 7,
+    "Image": "/images/Home/Abhishek_IDC.png",
+    "H3_text": "",
+    "H4_text": "",
+    "H5_text": "",
+    "Anchor1_text": "",
+    "Anchor1_Link": null,
+    "Anchor2_text": "",
+    "Anchor2_Link": null,
+    "isShow": true
+  },
   {
     "ID": 3,
-    "Image": "/images/Home/slider1.png",
+    "Image": "/images/Home/GTU_NSS.jpg",
     "H3_text": "",
     "H4_text": "",
     "H5_text": "",
@@ -75,7 +85,7 @@
   },
   {
     "ID": 4,
-    "Image": "/images/Home/slider2.png",
+    "Image": "/images/Home/slider1.png",
     "H3_text": "",
     "H4_text": "",
     "H5_text": "",
@@ -87,6 +97,18 @@
   },
   {
     "ID": 5,
+    "Image": "/images/Home/slider2.png",
+    "H3_text": "",
+    "H4_text": "",
+    "H5_text": "",
+    "Anchor1_text": "",
+    "Anchor1_Link": null,
+    "Anchor2_text": "",
+    "Anchor2_Link": null,
+    "isShow": true
+  },
+  {
+    "ID": 6,
     "Image": "/images/Home/slider3.png",
     "H3_text": "",
     "H4_text": "",
