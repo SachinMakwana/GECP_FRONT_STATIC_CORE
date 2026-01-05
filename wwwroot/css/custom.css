@@ -929,7 +929,8 @@ table.dataTable thead .sorting_desc_disabled:before {
 
 .box .blog_post .blog_postcontent {
     height: 663px;
-    overflow:scroll:
+    overflow-y:scroll;
+    scrollbar-width:none;
 }
 
 .copyright_info2 {
