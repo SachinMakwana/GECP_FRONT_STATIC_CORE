@@ -108,6 +108,9 @@
             btn.attr('data-file', pdfPath);
             btn.attr('data-title', title);
         }
+        function isMobileDevice() {
+            return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent);
+        }
 
         jQuery(document).ready(function ($) {
 
@@ -127,6 +130,10 @@
 
             // 3. Popup Logic
             function openPdfPopup(path) {
+                if (isMobileDevice()) {
+                    window.open(path, '_blank');
+                    return;
+                }
                 $('#popupOverlay').fadeIn();
                 $('#popup').fadeIn();
 
