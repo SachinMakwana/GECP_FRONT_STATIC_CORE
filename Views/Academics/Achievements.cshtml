@@ -69,33 +69,40 @@
 
 @section tabs {
 	<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/gecp_cubeportfolio_custom.js")"></script>
+
 	<script>
+		$(document).ready(function () {
 
-		$(document).ready(function(){
-			$("#achDiv").load("@Url.Action("AchievementsByYear", "Academics", new { @year = 0 })");
-			setTimeout(function(){if(!Boolean($('#grid-container').data('cubeportfolio'))){
-			reInit();
-			}
-			},100);
-		})
-
-		function loadAchievements(evt,url){
-			$("#achDiv").load(url);
-
-			setTimeout(function(){
-				if(Boolean($('#grid-container').data('cubeportfolio'))){
-				destroyGrid();
+			$("#achDiv").load(
+				"@Url.Action("AchievementsByYear", "Academics", new { year = 0 })",
+				function () {
+					// This runs AFTER content is fully loaded
+					reInit();
 				}
+			);
+
+		});
+
+		function loadAchievements(evt, url) {
+
+			$("#achDiv").load(url, function () {
+
+				if ($('#grid-container').data('cubeportfolio')) {
+					destroyGrid();
+				}
+
 				reInit();
-			},100);
+			});
 
 			var tablinks = document.getElementsByClassName("tablinks");
-			for (i = 0; i < tablinks.length; i++) {
+			for (var i = 0; i < tablinks.length; i++) {
 				tablinks[i].className = tablinks[i].className.replace(" active", "");
 			}
+
 			evt.currentTarget.className += " active";
 		}
 	</script>
+
 }
 
 @section styles {
