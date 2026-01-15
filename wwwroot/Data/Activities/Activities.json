@@ -706,24 +706,24 @@
 
     ]
   },
-    {
-        "ID": 42,
-        "Title": "Manushya Gaurav Diwas 2025 Celebration",
-        "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
-        "EventDate": "19/10/2025",
-        "EventTime": "11: 30 a.m. to 12: 30 p.m.",
-        "Year": 2025,
-        "CommitteId": 12,
-        "Images": [],
-        "Files": [
-            {
-                "ID": 1,
-                "Title": "Maushya Gaurav Diwas Report 2025 Report",
-                "FileType": "PDF",
-                "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_1.pdf"
-            }
-        ]
-    },
+  {
+    "ID": 42,
+    "Title": "Manushya Gaurav Diwas 2025 Celebration",
+    "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
+    "EventDate": "19/10/2025",
+    "EventTime": "11: 30 a.m. to 12: 30 p.m.",
+    "Year": 2025,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Maushya Gaurav Diwas Report 2025 Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_1.pdf"
+      }
+    ]
+  },
   {
     "ID": 43,
     "Title": "International Happiness Day Celebration",
@@ -759,7 +759,7 @@
         "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_3.pdf"
       }
     ]
-  }
+  },
   //{
   //  "ID": 45,
   //  "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
@@ -778,7 +778,83 @@
   //    }
   //  ]
   //}
+  {
+    "ID": 46,
+    "Title": "An industrial visit was organized at BISAG, Gandhinagar, to provide practical exposure to students of Semester V and Semester VII.",
+    "Description": "An Industrial Visit to BISAG-N was organized on 14 October 2025 for EC students to provide industry exposure in advanced communication technologies. Students learned about satellite communication, GIS, remote sensing, and live broadcasting systems through expert interactions and demonstrations. The visit helped students relate theoretical concepts to real-world applications and enhanced their understanding of government-level ICT, geospatial technologies, and emerging digital solutions.",
+    "EventDate": "14/10/2025",
+    "EventTime": "",
+    "Year": 2025,
+    "DeptID": 1,
+    "Images": [
+      "/images/Activities/EC/Industrial Visit 2025/IMG1.jpg",
+      "/images/Activities/EC/Industrial Visit 2025/IMG2.jpg",
+      "/images/Activities/EC/Industrial Visit 2025/IMG3.jpg",
+      "/images/Activities/EC/Industrial Visit 2025/IMG4.jpg",
+      "/images/Activities/EC/Industrial Visit 2025/IMG5.jpg",
+      "/images/Activities/EC/Industrial Visit 2025/IMG6.jpg",
+      "/images/Activities/EC/Industrial Visit 2025/IMG7.jpg"
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Industrial Visit Report 2025",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2025/Industrial Visit report.pdf"
+      }
 
+    ]
+  },
+
+  {
+    "ID": 47,
+    "Title": "Bridging Theory and Practice: EC Students Showcase Innovation at Project Presentation 2025",
+    "Description": "A Project Presentation was organized on 25 November 2025 for second-year EC students to strengthen practical learning and innovation. Students presented mini projects using hardware models, breadboard circuits, and software demonstrations, explaining design, working principles, and applications. Faculty members evaluated projects through interactions and technical discussions. The activity enhanced problem-solving ability, teamwork, technical communication skills, and supported outcome-based education and continuous assessment practices.",
+    "EventDate": "25/11/2025",
+    "EventTime": "11:00 A.M. ",
+    "Year": 2025,
+    "DeptID": 1,
+    "Images": [
+      "/images/Activities/EC/Project Presentation 2025/IMG1.jpg",
+      "/images/Activities/EC/Project Presentation 2025/IMG2.jpg",
+      "/images/Activities/EC/Project Presentation 2025/IMG3.jpg",
+      "/images/Activities/EC/Project Presentation 2025/IMG4.jpg",
+      "/images/Activities/EC/Project Presentation 2025/IMG5.jpg",
+      "/images/Activities/EC/Project Presentation 2025/IMG6.jpg"
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Project Presentation Report 2025",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2025/Report_of_Project_presentation.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 48,
+    "Title": "Poster presentation activity was arranged for students of semester 3 of Electronics and communication engineering branch on 25th november to enhance their presentation and technical skills.",
+    "Description": "A Poster Presentation on Network Theory was organized on 25 November 2025 for Semester III ECE students. Participants presented key syllabus concepts using posters and engaged in discussions with faculty, enhancing conceptual understanding, technical communication, and presentation skills as part of continuous course assessment.",
+    "EventDate": "25/11/2025",
+    "EventTime": "",
+    "Year": 2025,
+    "DeptID": 1,
+    "Images": [
+      "/images/Activities/EC/Poster Presentation 2025/IMG1.jpg",
+      "/images/Activities/EC/Poster Presentation 2025/IMG2.jpg",
+      "/images/Activities/EC/Poster Presentation 2025/IMG3.jpg",
+      "/images/Activities/EC/Poster Presentation 2025/IMG4.jpg"
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Poster Presentation Report 2025",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2025/Report_of_Poster_Presentation.pdf"
+      }
+
+    ]
+  }
 
 ]
 
