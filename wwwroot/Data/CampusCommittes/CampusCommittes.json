@@ -302,7 +302,7 @@
 
     ],
     "BulletPoints": [
-      "Submit the complaint through 1. the official Email: <strong><a href=\"mailto:grievance@gecpatan.ac.in\"><b>grievance@gecpatan.ac.in</b></a></strong> or 2. Handwritten/Print Application.",
+      "Submit the complaint through 1. the official Email: <strong><a href=\"mailto:grievance@gecpatan.ac.in\"><b>grievance@gecpatan.ac.in</b></a></strong> or 2. Handwritten/Print Application.<br/><a href=\"/DataFiles/CampusCommittees/Grievance/Grievance_Form.pdf\" class=\"btn btn-primary btn-sm mt-2\" download>⬇ Download Grievance Form</a>",
       "Provide name, department, contact details, grievance category, and a detailed description with supporting documents if applicable.",
       "The Grievance Redressal Committee (GRC) reviews, classifies, and investigates the complaint while ensuring confidentiality.",
       "The committee conducts inquiries, seeks clarifications, and determines an appropriate resolution in a fair and timely manner.",
@@ -331,6 +331,14 @@
       },
       {
         "ID": 3,
+        "Name": "Dr. D. H . Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/102.jpg",
+        "Email": "devendra.patel@gecpatan.ac.in",
+        "Department": "Electronics & Communication Engineering Department"
+      },
+      {
+        "ID": 4,
         "Name": "Prof. B. P. Patel",
         "Position": "Member",
         "Image": "~/images/Faculty/216.jpg",
@@ -338,7 +346,7 @@
         "Department": "Computer Science & Engineering Department"
       },
       {
-        "ID": 4,
+        "ID": 5,
         "Name": "Prof. R. A. Chaudhari",
         "Position": "Member",
         "Image": "~/images/Faculty/107.jpg",

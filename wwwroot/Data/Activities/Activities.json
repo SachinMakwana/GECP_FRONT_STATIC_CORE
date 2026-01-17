@@ -854,7 +854,276 @@
       }
 
     ]
+  },
+  {
+    "ID": 49,
+    "Title": "THANGHANAAT 2025",
+    "Description": "Thanghanaat 2025 lit up the GEC Patan campus with colors, beats, and unstoppable energy! Held on 9th March, this grand Navratri celebration by the Gymkhana Cultural Committee brought students together in dazzling traditional attire for a night of Garba, joy, and cultural unity. Truly, an unforgettable evening of dance and celebration!",
+    "EventDate": "2025-09-24",
+    "EventTime": "",
+    "Year": 2025,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "THANGHANAAT 2025",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/14 Navratri 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 50,
+    "Title": "Music Training Camp 2025",
+    "Description": "The Music Training Camp 2025, organized by GTU, provided students of GEC Patan an enriching opportunity to explore Gujarati Lokgeet and traditional music. Held at Somnath Sanskrit University, the camp focused on vocal techniques, rhythm, expression, and cultural heritage, nurturing musical talent and cultural pride.",
+    "EventDate": "2025-08-22",
+    "EventTime": "",
+    "Year": 2025,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Music Training Camp 2025",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/12 MTC 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 51,
+    "Title": "Personality Development Training Camp 2025",
+    "Description": "The Personality Development Training Camp 2025 aimed at enhancing leadership, communication, and confidence among students. Conducted at Somnath Sanskrit University, the camp included youth parliament sessions, expert talks, team activities, and field visits, fostering holistic personal and professional growth.",
+    "EventDate": "2025-08-19",
+    "EventTime": "",
+    "Year": 2025,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Personality Development Training Camp 2025",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/11 PDTC 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 52,
+    "Title": "Drama Training Camp 2025",
+    "Description": "The Drama Training Camp 2025 offered GEC Patan students intensive exposure to theatre and acting. Organized by GTU, the camp emphasized acting fundamentals, voice modulation, stage presence, and character building under expert guidance, boosting creativity, confidence, and artistic expression.",
+    "EventDate": "2025-09-07",
+    "EventTime": "",
+    "Year": 2025,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Drama Training Camp 2025",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/10 DTC 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 53,
+    "Title": "Lok Nritya Training Camp 2025",
+    "Description": "The Lok Nritya Training Camp 2025 immersed students in Gujarat’s rich folk dance traditions. Held at Somnath Sanskrit University, the camp covered Garba, Raas, Tippani, and other folk forms, focusing on rhythm, expression, teamwork, and cultural understanding through expert-led workshops and performances.",
+    "EventDate": "2025-09-01",
+    "EventTime": "",
+    "Year": 2025,
+    "CommitteId": 10,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Lok Nritya Training Camp 2025",
+        "FileType": "PDF",
+        "FilePath": "~/Gymkhana/13 LNTC 2025.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 54,
+    "Title": "Women Health and Hygiene Seminar 2025",
+    "Description": "The Women Development Cell organized a seminar on Women Health and Hygiene to create awareness about menstrual health, hygiene practices, and reproductive well-being. The session provided a safe space for students to discuss menstruation, PCOD/PCOS, and health management, promoting informed and stigma-free conversations.",
+    "EventDate": "2025-09-04",
+    "EventTime": "",
+    "Year": 2025,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Women Health and Hygiene",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/8_lecture on health and hygiene_WDC.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 55,
+    "Title": "Women Health Awareness & Open Discussion",
+    "Description": "The Women Health Awareness and Open Discussion program focused on educating women about gynecological health, preventive care, cancer awareness, and mental well-being. Led by a medical expert, the interactive session encouraged open dialogue, addressed myths, and empowered participants to prioritize their health.",
+    "EventDate": "2025-02-19",
+    "EventTime": "03:00 PM",
+    "Year": 2025,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Women Health Awareness & Open Discussion",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/7_Women Health awerness and open discussion.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 56,
+    "Title": "Talk Show on Lakhpati Didi",
+    "Description": "As part of Viksit Bharat Week, the Women Development Cell organized a Talk Show on the Lakhpati Didi initiative. The session highlighted women empowerment through government schemes and featured an inspiring real-life journey, motivating students towards entrepreneurship, innovation, and financial independence.",
+    "EventDate": "2024-10-14",
+    "EventTime": "10:30 AM – 12:30 PM",
+    "Year": 2024,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Lakhpati Didi Talk Show",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/6_Lakhpati Didi - WDC.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 57,
+    "Title": "International Women’s Day Celebration",
+    "Description": "The International Women’s Day Celebration was organized to honor women’s achievements and promote gender equality. Through motivational talks, cultural activities, and student-led programs, the event fostered confidence, leadership, and awareness about the vital role of women in society.",
+    "EventDate": "2024-03-07",
+    "EventTime": "03:00 PM – 05:00 PM",
+    "Year": 2024,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "International Women’s Day Celebration",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/5_Women's Day - WDC.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 58,
+    "Title": "Women Entrepreneurship and Self Development",
+    "Description": "This seminar aimed to inspire women towards entrepreneurship and self-development by building confidence, leadership, and innovative thinking. Participants learned about government schemes, entrepreneurial skills, and real-world strategies to transform ideas into impactful ventures.",
+    "EventDate": "2023-03-14",
+    "EventTime": "02:00 PM – 04:00 PM",
+    "Year": 2023,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Women Entrepreneurship and Self Development",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/3_Women Entrepreneurship - WDC.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 59,
+    "Title": "Breast Cancer Diagnosis and Awareness",
+    "Description": "The Breast Cancer Awareness program focused on early detection, self-examination, and breaking myths related to breast cancer. The seminar empowered students with practical knowledge, emphasized preventive healthcare, and encouraged them to spread awareness within their communities.",
+    "EventDate": "2023-10-16",
+    "EventTime": "11:30 AM – 01:00 PM",
+    "Year": 2023,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Breast Cancer Awareness",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/4_Breast Cancer Awareness - WDC.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 60,
+    "Title": "Domestic Violence Act 2005 Awareness & SHE Team Session",
+    "Description": "An awareness program was conducted on the Domestic Violence Act, 2005, along with information on SHE Team services and the 181 Abhayam Helpline. The session educated students about legal rights, safety mechanisms, and emergency support systems for women.",
+    "EventDate": "2022-08-01",
+    "EventTime": "11:00 AM – 01:00 PM",
+    "Year": 2022,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Domestic Violence Act Awareness",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/2_ઘરેલુ હિંસા અધિનિયમ-૨૦૦૫ અન્વયે જાગૃતતા-WDC.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 61,
+    "Title": "HIV Awareness Program",
+    "Description": "The HIV Awareness Program aimed to educate students about HIV/AIDS, its prevention, symptoms, and social stigma. Experts shared medical insights and real-life experiences, promoting empathy, responsible behavior, and preventive health practices among students.",
+    "EventDate": "2021-11-29",
+    "EventTime": "10:30 AM – 12:30 PM",
+    "Year": 2021,
+    "CommitteId": 1,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "HIV Awareness Program",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/WDC/1_HIV_Awareness_Program.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 62,
+    "Title": "Mental Health Awareness Seminar",
+    "Description": "The Psychology Cell of GEC Patan, in collaboration with NSS, organized a Mental Health Awareness Seminar to promote emotional well-being and mental resilience among students. The session focused on stress management, self-awareness, emotional balance, and the importance of seeking help, encouraging open conversations around mental health.",
+    "EventDate": "2025-12-16",
+    "EventTime": "02:00 PM – 03:00 PM",
+    "Year": 2025,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Mental Health Awareness Seminar",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/Psychology/MENTAL_HEALTH_Report.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 63,
+    "Title": "National Youth Day – Swami Vivekananda Jayanti",
+    "Description": "On the occasion of National Youth Day, a special session was conducted to commemorate Swami Vivekananda Jayanti. The programme emphasized youth empowerment, character building, self-confidence, and leadership, inspiring students to adopt Swami Vivekananda’s ideals in their personal and professional lives.",
+    "EventDate": "2026-01-12",
+    "EventTime": "03:00 PM – 04:00 PM",
+    "Year": 2026,
+    "CommitteId": 12,
+    "Images": [],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "National Youth Day – Swami Vivekananda Jayanti",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/CampusCommittees/Psychology/YOUTH_DAY_REPORT.pdf"
+      }
+    ]
   }
-
 ]
 
