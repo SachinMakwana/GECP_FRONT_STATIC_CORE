@@ -5099,8 +5099,61 @@
       "Contact": "",
       "Email": "anand.dhruv@gecpatan.ac.in"
     },
-    "EducationalQualifications": [],
-    "ProfessionalExperiences": [],
+    "EducationalQualifications": [
+      {
+        "Degree": "PhD",
+        "Year": "2015",
+        "Specialization": "Mechanical Engineering"
+      },
+      {
+        "Degree": "ME",
+        "Year": "2000",
+        "Specialization": "CAD/CAM"
+      },
+      {
+        "Degree": "BE",
+        "Year": "1993",
+        "Specialization": "Mechanical Engineering"
+      }
+    ],
+    "ProfessionalExperiences": [
+      
+        {
+          "Position": "Professor",
+          "Organization": "Government Engineering College, Patan",
+          "Duration": "19/01/2021 to Present"
+        },
+        {
+          "Position": "Professor",
+          "Organization": "Vishvakarma Government Engineering College",
+          "Duration": "18/12/2015 to 18/01/2021"
+        },
+        {
+          "Position": "Associate Professor",
+          "Organization": "Vishvakarma Government Engineering College",
+          "Duration": "25/05/2015 to 17/12/2015"
+        },
+        {
+          "Position": "Associate Professor",
+          "Organization": "Government Engineering College, Modasa",
+          "Duration": "07/03/2009 to 24/05/2015"
+        },
+        {
+          "Position": "Lecturer",
+          "Organization": "Government Engineering College, Modasa",
+          "Duration": "02/08/2008 to 06/03/2009"
+        },
+        {
+          "Position": "Lecturer",
+          "Organization": "L.D. College of Engineering, Ahmedabad",
+          "Duration": "01/04/2000 to 01/08/2008"
+        },
+        {
+          "Position": "Lecturer",
+          "Organization": "L.E. College, Morbi",
+          "Duration": "24/02/1995 to 31/03/2000"
+        }
+    ],
     "TrainingAndWorkshops": [
       {
         "Title": "Alternative Eco friendly refrigerant",
@@ -5110,67 +5163,62 @@
       {
         "Title": "Solar Architecture",
         "OrganizedBy": "IIT-Delhi",
-        "Date": "10/5/1999 to 24/05/1999"
+        "Date": "10/05/1999 to 24/05/1999"
       },
       {
         "Title": "Intensive course on Bulk Forming",
-        "OrganizedBy": "IT-BHU",
-        "Date": "14/5/2001 to 25/5/2001"
+        "OrganizedBy": "IIT-BHU",
+        "Date": "14/05/2001 to 25/05/2001"
       },
       {
         "Title": "Innovations in manufacturing for global competitiveness",
         "OrganizedBy": "SSEC-BHAVNAGAR",
-        "Date": "18/12/2000 to 23/12/200"
+        "Date": "18/12/2000 to 23/12/2000"
       },
       {
-        "Title": "Advance welding and wetestingld  technique",
-        "OrganizedBy": "University of Roorkee",
-        "Date": "13/6/2001 to 27/6/2001"
+        "Title": "Advance welding and weld testing technique",
+        "OrganizedBy": "IIT Roorkee",
+        "Date": "13/06/2001 to 27/06/2001"
       },
       {
         "Title": "APPLICATIONS OF ARTIFICIAL INTELLIGENCE IN MECHANICAL ENGINEERING",
         "OrganizedBy": "L.D.COLLEGE OF ENGINEERING, AHMEDABAD",
-        "Date": "30-SEP-2002 to 11-Oct-2002"
+        "Date": "30/09/2002 to 11/10/2002"
       },
       {
         "Title": "CONDITION MONITORING OF PLANT EQUIPMENTS",
-        "OrganizedBy": "NIRMA INST. OF TECH., AHMEDABAD",
-        "Date": "23-DEC-2002 to 4-Jan-2003"
+        "OrganizedBy": "NIRMA UNIVERSITY, AHMEDABAD",
+        "Date": "23/12/2002 to 04/01/2003"
       },
       {
         "Title": "DESIGN METHODOLOGY",
-        "OrganizedBy": "IT-BHU",
-        "Date": "14/5/2001 to 25/5/2001"
+        "OrganizedBy": "IIT-BOMBAY",
+        "Date": "02/06/2003 to 13/06/2003"
       },
       {
         "Title": "Intensive course on Bulk Forming",
         "OrganizedBy": "IIT-MUMBAI",
-        "Date": "2-Jun-2003 to 13-Jun-2003"
+        "Date": "02/06/2003 to 13/06/2003"
       },
       {
         "Title": "ADVANCES IN REFRIGERATION AND A/C",
-        "OrganizedBy": "NIRMA INST. OF TECH., AHMEDABAD",
-        "Date": "30-6-2003 to 11-Jul-2003"
-      },
-      {
-        "Title": "Intensive course on Bulk Forming",
-        "OrganizedBy": "IT-BHU",
-        "Date": "14/5/2001 to 25/5/2001"
+        "OrganizedBy": "NIRMA UNIVERSITY, AHMEDABAD",
+        "Date": "30/06/2003 to 11/07/2003"
       },
       {
         "Title": "STRESS MANAGEMENT",
-        "OrganizedBy": "STRESS MANAGEMENT",
-        "Date": "10-Jan-2005 to 12-Jan20-2005"
+        "OrganizedBy": "SPIPA",
+        "Date": "10/01/2005 to 12/01/2005"
       },
       {
         "Title": "WORKSHOP ON MEASUREMENT TECHNIQUES IN TURBOMACHINES",
         "OrganizedBy": "SVNIT-SURAT",
-        "Date": "23-6-2005 to 25-Jun-2005"
+        "Date": "23/06/2005 to 25/07/2005"
       },
       {
         "Title": "GOVT. PURCHASE AND STORES",
-        "OrganizedBy": "SPIPA-AHMEDABAD",
-        "Date": "4-Dec-2006 to 6-Dec-2006"
+        "OrganizedBy": "SPIPA",
+        "Date": "04/12/2006 to 06/12/2006"
       },
       {
         "Title": "Alternative flues and emission control",
@@ -5179,46 +5227,202 @@
       },
       {
         "Title": "PC REPAIR AND MAINTATINCE",
-        "OrganizedBy": "G P Gandhinagar",
-        "Date": "6/3/2006 to 10/3/2006"
+        "OrganizedBy": "Government Polytechnic Gandhinagar",
+        "Date": "06/03/2006 to 10/03/2006"
       },
       {
         "Title": "WIND POWER BASICS",
         "OrganizedBy": "NITTTR, BHOPAL",
-        "Date": "10/7/2006 to 21/07/2006"
+        "Date": "10/07/2006 to 21/07/2006"
       },
       {
         "Title": "SHEET METAL DESIGN",
-        "OrganizedBy": "LDCE, AHMEDABAD, IIT MUMBAI EXTENSION CENTRE",
-        "Date": "21/4/2008 to 25-4-2008"
+        "OrganizedBy": "L.D.College of Engineering, Ahmedabad",
+        "Date": "21/04/2008 to 25/04/2008"
       },
       {
         "Title": "INTRODUCTION TO COMPUTATIONAL FLUID DYNAMICS",
         "OrganizedBy": "SVNIT-SURAT",
-        "Date": "10/5/2006 to 12/5/2006"
+        "Date": "10/05/2006 to 12/05/2006"
       },
       {
         "Title": "TRAINING OF TRAINERS",
-        "OrganizedBy": "CRISP-BHOPAL",
-        "Date": "7/2/2006 to 9/2/2006"
+        "OrganizedBy": "NITTTR-Bhopal",
+        "Date": "07/02/2006 to 09/02/2006"
       },
       {
         "Title": "COMPUTATIONAL FLUID DYNAMICS & HEAT TRANSFER",
-        "OrganizedBy": "SLDCE, AHMEDABAD, IIT MUMBAI EXTENSION CENTRE",
-        "Date": "5-May-08 to 9-May-08"
+        "OrganizedBy": "L.D.College of Engineering, Ahmedabad",
+        "Date": "05/05/2008 to 09/05/2008"
       },
       {
         "Title": "MICRO MANUFACTURING",
         "OrganizedBy": "IIT KANPUR",
-        "Date": "2/9/2010\t8/9/2010"
+        "Date": "02/09/2010 to 08/09/2010"
       },
       {
         "Title": "Manufacturing And Automation",
         "OrganizedBy": "RC TECHNICAL INSTITUTE, Ahmedabad",
-        "Date": "2015-05-11 TO 2015-05-22"
+        "Date": "11/05/2015 TO 22/05/2015"
+      },
+      {
+        "Title": "Processing & Characterization of Materials",
+        "OrganizedBy": "Government Engineering College, Gandhinagar",
+        "Date": "04/11/2019 TO 08/11/2019"
+      },
+      {
+        "Title": "Application Of Renewable Engry Sources",
+        "OrganizedBy":"IIT-Delhi",
+        "Date": "11/12/2013 TO 17/12/2013"
+      },
+      {
+        "Title": "CAD, Advance Simulation And Manufacturing Using Nx Software",
+        "OrganizedBy": "L.D.College of Engineering, Ahmedabad",
+        "Date": "25/05/2015 TO 06/06/2015"
+      },
+      {
+        "Title": "Finite Element Analysis and its application",
+        "OrganizedBy": "Nirma University, Ahmedabad",
+        "Date": "26/06/2006 TO 07/07/2006"
+      },
+      {
+        "Title": "Quality Management System/Quality Technology Tools Forn Technical Teachers",
+        "OrganizedBy": "NITTTR-Ahmedabad",
+        "Date": "24/02/2014 TO 28/02/2014"
+      },
+      {
+        "Title": "TRACERSTUDY OF PASS OUTS",
+        "OrganizedBy": "NITTTR-Bhopal",
+        "Date": "08/11/2006 TO 10/11/2006"
+      },
+      {
+        "Title": "Office Administration(GOI)",
+        "OrganizedBy": "SPIPA",
+        "Date": "05/05/2018 TO 07/05/2018"
+      },
+
+      {
+        "Title": "Optimization: Theory And Engineering Practice.",
+        "OrganizedBy": "Vishwakarma Govt Engineering College, Chandkheda",
+        "Date": "07/12/2015 TO 19/12/2015"
+      },
+
+      {
+        "Title": "Advanced Industry Powered Faculty Immenstion programme",
+        "OrganizedBy": "L&T  Chennai",
+        "Date": "29/05/2023 TO 03/06/2023"
+      },
+
+      {
+        "Title": "STEAM Robotics masters training and Certified Program",
+        "OrganizedBy": "Nirma University, Ahmedabad",
+        "Date": "03/01/2023 TO 13/01/2023"
+      },
+      {
+        "Title": "Train The Trainer Programme on Effective Implimentation of NEP 2020 in technical & Professional Institutes of Gujarat",
+        "OrganizedBy": "CTE-Gandhinagar",
+        "Date": "14/10/2024 TO 18/10/2024"
+      },
+      {
+        "Title": "Nurturing Future Leadership Program",
+        "OrganizedBy": "IIM Shillong",
+        "Date": "25/11/2024 TO 29/11/2024"
       }
     ],
-    "Publications": []
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "Effect of thickness and grain size on flow stress of very thin brass sheets |Procedia Materials Science 6 ( 2014 ) 154 – 160 |doi: 10.1016/j.mspro.2014.07.019"
+      },
+      {
+        "SrNo": 2,
+        "Title": "Effect of sheet thickness and grain size on forming limit diagrams of thin brass sheets|Innovations in Infrastructure, Advances in Intelligent Systems and Computing 757 |doi.org/10.1007/978-981-13-1966-2_39"
+      },
+      {
+        "SrNo": 3,
+        "Title": "STUDY ON THE EFFECT OF PUNCH SIZE AND THICKNESS ON FORMABILITY OF VERY THIN SHEETS USING FINITE ELEMENT ANALYSIS|Journal of Machining and Forming Technologies; Hauppauge Vol. 5, Iss. 3/4,  (2013): 183-193."
+      },
+      {
+        "SrNo": 4,
+        "Title": "Size effect on surface roughness of very thin brass sheets in biaxial stretching| Materials Today: Proceedings Volume 18, Part 7, 2019, Pages 2448-2453"
+      },
+      {
+        "SrNo": 5,
+        "Title": "Prediction of flow curves of very thin brass sheets incorporating size effect in hardening model|IOP Conference Series: Materials Science and Engineering, Volume 651, 38th International Deep Drawing Research Group Annual Conference (IDDRG 2019) 3–7 June 2019, Enschede, Netherlands| DOI 10.1088/1757-899X/651/1/012028"
+      },
+      {
+        "SrNo": 6,
+        "Title": "Devices Used in Radiation of Cultivated Plants |International Journal of Innovative Research in Science, Engineering and Technology|2021/5 Volume10 Issue 5 Pages 4352-4359"
+      },
+      {
+        "SrNo": 7,
+        "Title": "A comparative study of friction stir welding and friction stir scribe technique for dissimilar metal joining|Engineering Research Express, Volume 6, Number 4 (2024) 042502 |doi.org/10.1088/2631-8695/ad849e"
+      },
+      {
+        "SrNo": 8,
+        "Title": "Effect of Process Parameters on Quality of the Welding of Different Materials in a Lap Joint Configuration by Friction Stir Scribe Welding” |Journal of Emerging Technologies and Innovative Research (JETIR), ISSN:2349-5162, Vol.12, Issue 1, page no. ppe313-e326, January-2025| http://doi.one/10.1729/Journal.43268"
+      },
+      {
+        "SrNo": 9,
+        "Title": "Analyze the effect of Cryorolling on Mechanical Properties and Microstructure of AA8011\" Nanotechnology Perceptions , ISSN 1660-6795, vol 20 No. S15, pp. 3821-3830, (2024)"
+      },
+      {
+        "SrNo": 10,
+        "Title": "Study the Effect of Cryogenic Rolling on Mechanical Properties of Aluminium Alloys: A Review\" International Journal for Multidisciplinary Research (IJFMR), E-ISSN: 2582-2160 , Volume 7, Issue 1, January-February 2025, https://doi.org/10.36948/ijfmr.2025.v07i01.35493"
+      },
+      {
+        "SrNo": 11,
+        "Title": "Characterization of Mechanical Properties of Cryorolled AA8011 Alloys Sheet” Tuijin Jishu/Journal of Propulsion Technology, ISSN 1001-4055, vol 44 No. 5, pp. 2595-2603, (2023)."
+      },
+      {
+        "SrNo": 12,
+        "Title": "Futuristic Trends in Cryogenic Rolling” IIP Series, Volume 3, Book 1, Chapter 4, e-ISBN: 978-93-5747-742-0, pp. 46-57, (2024)"
+      },
+      {
+        "SrNo": 13,
+        "Title": "Effect of Cryorolling on Mechanical Properties of AI Alloy: A Review| Jurnal Kejuruteraan 37(6) 2025: 2789-2808 | https://doi.org/10.17576/jkukm-2025-37(6)-18"
+      },
+      {
+        "SrNo": 14,
+        "Title": "Recent development in al mmcs_ material, methods and applications  BOOK CHAPTER IIP Series Vol 3 May 2024. https://www.doi.org/10.58532/V3BGME1CH7"
+      },
+      {
+        "SrNo": 15,
+        "Title": "An Impact of reinforcement on Aluminum metal matrix composites: A critical Review. International Journal of Computational and Experimental Science and Engineering, 11(3). | https://doi.org/10.22399/ijcesen.3128"
+      },
+      {
+        "SrNo": 16,
+        "Title": "WEDM MACHINING AND AUGMENTATION OF ALUMINUM METAL MATRIX COMPOSITE BY STIR CASTING PROCESS: A CRITICAL REVIEW | INDUSTRIAL ENGINEERING JOURNAL |Vol. XIX & Issue No. 01 January - 2026"
+      },
+      {
+        "SrNo": 17,
+        "Title": "Investigation of Mechanical and Morphological Properties of Adc-12/SiC Reinforced Metal Matrix Composite using Bottom Pouring Stir Casting Process.| Journal of Advanced Research in Applied Mechanics |https://doi.org/10.37934/aram.140.1.124138"
+      },
+      {
+        "SrNo": 18,
+        "Title": "An Investigation of the Friction Stir Scribe Welding for Lap Joint of Dissimilar Materials AA6022-AZ31B|Journal of Harbin Engineering University ISSN: 1006-7043\\ 518- Vol 45 No. 5- May 2024"
+      },
+      {
+        "SrNo": 19,
+        "Title": "Review on effect of biodiesel blends on tribological properties of lubricating oil|International Journal of Design EngineeringVol. 12, No. 2 December 18, 2023pp 100-114| https://doi.org/10.1504/IJDE.2023.135575"
+      },
+      {
+        "SrNo": 20,
+        "Title": "CURRENT TENDS IN MICRO FORMING|BOOK CHAPTER  Futuristic Trends in Mechanical Engineering IIP Series Volume 3, Book 2, Part 1, Chapter 5|e-ISBN: 978-93-5747-622-5"
+      },
+      {
+        "SrNo": 21,
+        "Title": "Prediction of Failure Using Forming Limit Curve in FE Analysis of Aluminium Alloy| Proceedings of the 4th International Conference on Innovations in Automation and Mechatronics Engineering (ICIAME2018)page 77-85|http://dx.doi.org/10.5772/intechopen.81083"
+      },
+      {
+        "SrNo": 22,
+        "Title": "Water- diesel micro emulsion as alternate fuel in diesel engine – An overview| International Journal of Engineering and Advanced Technology (IJEAT) | First International Conference on NOVEL APPROACHES IN SCIENCE ENGINEERING & TECHNOLOGY"
+      },
+      {
+        "SrNo": 23,
+        "Title": "Current research trends in Microforming|NATIONAL CONFERENCE ON EMERGING RESEARCH TRENDS IN ENGINEERING-2016 pag 598-604 |ISBN: 978-93-5265-666-0|"
+      }
+    ]
 
   },
   {
