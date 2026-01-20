@@ -8,6 +8,16 @@
     //    "ActionName": ""
     //},
     {
+      "ID": 1,
+      "Title": "Sanchaar Saarthi Awareness Seminar",
+      "IsFile": 1,
+      "FileLink": "~/ImpDocs/ActivityPoster2.pdf",
+      "ControllerName": "",
+      "ActionName": ""
+    },
+  
+  
+    {
         "ID": 2,
         "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
         "IsFile": 1,
@@ -41,7 +51,9 @@
         "FileLink": "~/ImpDocs/Important_Instructions_2025_26.pdf",
         "ControllerName": "",
         "ActionName": ""
+
     }
+
     //,
     //{
     //    "ID": 6,

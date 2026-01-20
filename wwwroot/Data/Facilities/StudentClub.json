@@ -379,7 +379,15 @@
           "Email": "anju29104@gmail.com"
         }
       ]
-    }
+    },
+    {
+      "ID": 3,
+      "Icon": "../../images/Faculty/1000.jpg",
+      "About": "VLSI is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
+      "Title": "VLSI Club",
+      "ActionName": "ClubDetails",
+      "ControllerName": "StudentCorner"
+     }
     //,
     //{
     //  "ID": 3,

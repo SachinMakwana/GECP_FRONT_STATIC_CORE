@@ -61,16 +61,6 @@
         "ChildMenuVMs": []
       },
       {
-        "ID": 26,
-        "MenuText": "Tenders",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "TendersTableView",
-        "position": 6,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
         "ID": 27,
         "MenuText": "Mandatory Disclosure",
         "dynamicID": 30,
@@ -926,7 +916,18 @@
     "ActionName": "TableView",
     "position": 10,
     "isVisible": true,
-    "ChildMenuVMs": []
+    "ChildMenuVMs": [
+      {
+        "ID": 1,
+        "MenuText": "Tenders",
+        "ParentID": 101,
+        "ControllerName": "Institute",
+        "ActionName": "TendersTableView",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
   }
 
 
