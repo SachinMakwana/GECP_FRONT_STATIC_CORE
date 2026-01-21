@@ -389,7 +389,7 @@
       {
         "ID": 1,
         "Name": "Dr. B. J. Shah",
-        "Position": "Principal (PRIMARY APPELLATE)",
+        "Position": "APPELLATE Officer",
         "Image": "~/images/Faculty/701.jpg",
         "Email": "principal@gecpatan.ac.in",
         "Department": "Administrative"
@@ -405,7 +405,7 @@
       {
         "ID": 2,
         "Name": "Prof. V. K. Patel",
-        "Position": "Member",
+        "Position": "OSD",
         "Image": "~/images/Faculty/512.jpg",
         "Email": "vipul.patel@gecpatan.ac.in",
         "Department": "Mechanical Engineering Department"

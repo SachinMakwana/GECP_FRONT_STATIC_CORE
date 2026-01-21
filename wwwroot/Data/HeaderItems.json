@@ -3,29 +3,40 @@
     "ContactEmail": "principal@gecpatan.ac.in",
     //"ContactEmail": "principalgecpatan@gmail.com",
     "logo": "~/images/GECP_LOGO.png",
-    "MenuVMs": [
-        {
-            "ID": 10,
-            "MenuText": "Alumni",
-            "ParentID": null,
-            "dynamicID": 11,
-            "ControllerName": "CampusCommittee",
-            "ActionName": "CommitteePage",
-            "position": 1,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-
-        {
-            "ID": 11,
-            "MenuText": "Contact",
-            "ParentID": null,
-            "dynamicID": null,
-            "ControllerName": "ContactUs",
-            "ActionName": "Index",
-            "position": 2,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        }
-    ]
+  "MenuVMs": [
+    {
+      "ID": 9,
+      "MenuText": "Fees Portal",
+      "ParentID": null,
+      "dynamicID": null,
+      "ControllerName": "",
+      "ActionName": "",
+      "Link": "https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm",
+      "position": 1,
+      "isVisible": true,
+      "ChildMenuVMs": []
+    },
+    {
+      "ID": 10,
+      "MenuText": "Alumni",
+      "ParentID": null,
+      "dynamicID": 11,
+      "ControllerName": "CampusCommittee",
+      "ActionName": "CommitteePage",
+      "position": 2,
+      "isVisible": true,
+      "ChildMenuVMs": []
+    },
+    {
+      "ID": 11,
+      "MenuText": "Contact",
+      "ParentID": null,
+      "dynamicID": null,
+      "ControllerName": "ContactUs",
+      "ActionName": "Index",
+      "position": 3,
+      "isVisible": true,
+      "ChildMenuVMs": []
+    }
+  ]
 }

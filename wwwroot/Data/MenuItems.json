@@ -38,7 +38,17 @@
         "isVisible": false,
         "ChildMenuVMs": []
       },
-
+      {
+        "ID": 28,
+        "MenuText": "Brochure",
+        "ParentID": 2,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 9,
+        "isVisible": true,
+        "Link": "/ImpDocs/Brochure_GECP.pdf",
+        "ChildMenuVMs": []
+      },
       {
         "ID": 29,
         "MenuText": "Governance",
@@ -56,17 +66,7 @@
         "ParentID": 2,
         "ControllerName": "Institute",
         "ActionName": "NewsLetter",
-        "position": 9,
-        "isVisible": true,
-        "ChildMenuVMs": []
-      },
-      {
-        "ID": 26,
-        "MenuText": "Tenders",
-        "ParentID": 2,
-        "ControllerName": "Institute",
-        "ActionName": "TendersTableView",
-        "position": 6,
+        "position": 10,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -926,7 +926,18 @@
     "ActionName": "TableView",
     "position": 10,
     "isVisible": true,
-    "ChildMenuVMs": []
+    "ChildMenuVMs": [
+      {
+        "ID": 1,
+        "MenuText": "Tenders",
+        "ParentID": 101,
+        "ControllerName": "Institute",
+        "ActionName": "TendersTableView",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
+    ]
   }
 
 
