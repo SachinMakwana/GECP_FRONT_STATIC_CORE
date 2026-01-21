@@ -29,14 +29,14 @@
       ],
 
       "Members": [
-        {
-          "ID": 1,
-          "Name": "Khushali Raval",
-          "Position": "Mentor",
-          "Department": "Computer Science and Engineering",
-          "Image": "~/images/Faculty/1000.jpg",
-          "Email": "khushali.raval@gecpatan.ac.in"
-        },
+        //{
+        //  "ID": 1,
+        //  "Name": "Khushali Raval",
+        //  "Position": "Mentor",
+        //  "Department": "Computer Science and Engineering",
+        //  "Image": "~/images/Faculty/1000.jpg",
+        //  "Email": "khushali.raval@gecpatan.ac.in"
+        //},
         {
           "ID": 2,
           "Name": "Hiral Rathod",
@@ -170,7 +170,7 @@
           "Name": "Sujal Prajapati",
           "Position": "Management Team Member",
           "Department": "Computer Science and Engineering",
-          "image": "images/Faculty/1000.jpg",
+          "image": "~/images/Faculty/1000.jpg",
           "Email": "sujalprajapati057@gmail.com"
         },
         {
