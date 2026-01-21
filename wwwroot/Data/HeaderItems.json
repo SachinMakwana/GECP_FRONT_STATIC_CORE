@@ -8,7 +8,7 @@
       "ID": 9,
       "MenuText": "Fees Portal",
       "ParentID": null,
-      "dynamicID": 11,
+      "dynamicID": null,
       "ControllerName": "",
       "ActionName": "",
       "Link": "https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm",
