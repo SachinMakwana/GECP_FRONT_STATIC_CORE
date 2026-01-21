@@ -1756,19 +1756,156 @@
       "Name": "Dr. Sunil A Patel",
       "Designation": "Associate Professor",
       "Department": "Computer Science",
-      "Contact": "+91- ",
+      "Contact": "+91-9898799417",
       "Email": "sunil.patel@gecpatan.ac.in"
     },
-    "EducationQualification": [
+    "EducationalQualifications": [
       {
-        "Degree": "",
-        "Year": "",
-        "Specialization": ""
+        "Degree": "PhD",
+        "Year": "2021",
+        "Specialization": "Image Processing, Machine Learning"
+      },
+      {
+        "Degree": "ME",
+        "Year": "2008",
+        "Specialization": "Computer Engineering"
+      },
+      {
+        "Degree": "BE",
+        "Year": "2004",
+        "Specialization": "Computer Engineering"
       }
     ],
-    "ProfessionalExperience": [],
-    "TrainingAndWorkshops": [],
-    "Publications": []
+    "ProfessionalExperiences": [
+      {
+        "Position": "Associate Professor",
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "25/04/2025 onwards"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "L. D. College of Engineering, Ahmedabad",
+        "Duration": "26/08/2021 to 24/04/2025"
+      },
+      {
+        "Position": "Assistant Professor",
+        "Organization": "Government Engineering College, Patan",
+        "Duration": "20/05/2011 to 25/08/2021"
+      },
+      {
+        "Position": "Lecturer",
+        "Organization": "B. S. Patel Polytechnic",
+        "Duration": "20/04/2006 to 19/05/2011"
+      }
+    ],
+    "TrainingAndWorkshops": [
+      {
+        "Title": "Induction Phase-1",
+        "OrganizedBy": "NITTTR Bhopal Ext. K.D. Polytechnic, Patan",
+        "Date": "13/05/2013 to 24/05/2013"
+      },
+      {
+        "Title": "Advance Engineering Optimization through Intelligent Techniques",
+        "OrganizedBy": "SVNIT Surat",
+        "Date": "24/03/2014 to 28/03/2014"
+      },
+      {
+        "Title": "Induction Phase-2",
+        "OrganizedBy": "NITTTR Ahmedabad",
+        "Date": "01/09/2014 to 12/09/2014"
+      },
+      {
+        "Title": "Cyber Security and Ethical Hacking",
+        "OrganizedBy": "S. P. B. Saffrony, Linch",
+        "Date": "24/02/2015 to 28/02/2015"
+      },
+      {
+        "Title": "Design and Analysis of Algorithm",
+        "OrganizedBy": "SVNIT Surat",
+        "Date": "23/05/2016 to 27/05/2016"
+      },
+      {
+        "Title": "Advance in Computer Vision and Surveillance System",
+        "OrganizedBy": "VVP Rajkot",
+        "Date": "27/06/2016 to 01/07/2016"
+      },
+      {
+        "Title": "Effective Teaching Using Modern Digital Techniques",
+        "OrganizedBy": "K. D. Polytechnic, Patan",
+        "Date": "17/10/2016 to 28/10/2016"
+      },
+      {
+        "Title": "LaTeX for Academic Writing",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "20/03/2017 to 24/03/2017"
+      },
+      {
+        "Title": "Machine Learning, Data Science and Deep Learning with Python",
+        "OrganizedBy": "GEC, Gandhinagar",
+        "Date": "10/06/2019 to 21/06/2019"
+      },
+      {
+        "Title": "Comprehensive Online Intellectual Property Rights (IPR)",
+        "OrganizedBy": "Gujarat Student Startup and Innovation Hub (i-Hub)",
+        "Date": "06/07/2020 to 14/09/2020"
+      },
+      {
+        "Title": "Advanced Research Methodology & Analytics (ARMA-2021)",
+        "OrganizedBy": "GEC, Patan",
+        "Date": "22/03/2021 to 26/03/2021"
+      },
+      {
+        "Title": "Data Analytics with Python",
+        "OrganizedBy": "MOOC",
+        "Date": "10/01/2021 to 30/04/2021"
+      },
+      {
+        "Title": "Programming in Java",
+        "OrganizedBy": "MOOC",
+        "Date": "10/01/2023 to 30/04/2023"
+      },
+      {
+        "Title": "Design and Analysis of Algorithm",
+        "OrganizedBy": "MOOC",
+        "Date": "10/07/2023 to 30/09/2023"
+      },
+      {
+        "Title": "Generative AI and Its Applications with Computer Vision",
+        "OrganizedBy": "L. D. College of Engineering, Ahmedabad",
+        "Date": "16/12/2024 to 21/12/2024"
+      }
+    ],
+    "Publications": [
+      {
+        "SrNo": 1,
+        "Title": "Connectionist Temporal Classification Model for Dynamic Hand Gesture Recognition using RGB and Optical Flow Data, Sunil A. Patel and Ramji M. Makwana, The International Arab Journal of Information Technology, Volume 17, Issue 4, Pages 497–506"
+      },
+      {
+        "SrNo": 2,
+        "Title": "Developing Smart Devices with Automated Machine Learning Approach: A Review, Materials Today: Proceedings, Volume 51, Part 1, 2022, Pages 826–831, ISSN 2214-7853"
+      },
+      {
+        "SrNo": 3,
+        "Title": "Plant Pathology Detection for Massive Heterogeneous Data Using Deep Learning, Avinash Chaudhari, Kuntesh Jani, Sunil Patel, 2023 14th International Conference on Computing, Communication and Networking Technologies (ICCCNT)"
+      },
+      {
+        "SrNo": 4,
+        "Title": "Evaluation of Performance Measures for Reliable and Secure Phishing Detection System, Pratikkumar A. Barot, Sunil A. Patel, H. B. Jethva, 2023, Reliability: Theory & Applications"
+      },
+      {
+        "SrNo": 5,
+        "Title": "Threshold Public Key-Sharing Technique in Blockchain, Artificial Intelligence, Blockchain, Computing and Security, Volume 1, 2023"
+      },
+      {
+        "SrNo": 6,
+        "Title": "Parallel Custom Deep Learning Model for Classification of Plant Leaf Disease Using Fusion of Features, Sunil A. Patel, Pratik A. Barot, International Journal of Intelligent Engineering & Systems"
+      },
+      {
+        "SrNo": 7,
+        "Title": "Dynamic Defense Model against Eclipse Attacks in Proof-of-Work Blockchain Systems, Procedia Computer Science, 2024"
+      }
+    ]
+
   },
   {
     "ID": 204,
