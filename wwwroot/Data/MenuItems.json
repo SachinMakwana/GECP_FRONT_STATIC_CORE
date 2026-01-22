@@ -559,6 +559,17 @@
         "position": 4,
         "isVisible": true,
         "ChildMenuVMs": []
+      },
+      {
+        "ID": 104,
+        "MenuText": "IIRS ISRO Nodal Centre",
+        "ParentID": 10,
+        "dynamicID": null,
+        "ControllerName": "Facilities",
+        "ActionName": "isro",
+        "position": 5,
+        "isVisible": true,
+        "ChildMenuVMs": []
       }
     ]
   },

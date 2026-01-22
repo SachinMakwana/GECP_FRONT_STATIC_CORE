@@ -154,6 +154,8 @@ namespace GECP_Front_End_Static.Models
         public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
         public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
         public bool ShowDocument { get; set; } = false;
+        public string SuccessStoriesNote { get; set; }
+
         public TabTitles TabTitles { get; set; } = new TabTitles();
         public List<Benefit> Benefits { get; set; } = new List<Benefit>();
         public List<Labs> Labs { get; set; } = new List<Labs>();
