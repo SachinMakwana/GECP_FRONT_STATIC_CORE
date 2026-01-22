@@ -89,5 +89,10 @@
       "Text": "Exposure to Research & Earth Observation Applications"
     }
   ],
-  "SuccessStoriesNote": "/DataFiles/Documents/ISRO/ISRO_Course_Calender.pdf"
+  "SuccessStoriesNote": "/DataFiles/Documents/ISRO/ISRO_Course_Calender.pdf",
+  "TabTitles": {
+    "SubObjectives": "Coordinator Guidelines",
+    "Procedure": "Participant Guidelines",
+    "Members" : "Coordinator"
+  }
 }
