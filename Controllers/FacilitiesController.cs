@@ -18,6 +18,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<Medical> MedicalVMs = new List<Medical>();
         public Library LibraryVM = new Library();
         public COE COEVM = new COE();
+        public COE ISROVM = new COE();
         public FacilitiesController(IWebHostEnvironment hostingEnvironment) 
         {
             _hostingEnvironment = hostingEnvironment;
@@ -28,6 +29,7 @@ namespace GECP_Front_End_Static.Controllers
             // string jasonpath1 = webRootPath + @"\Data\Facilities\Student.json";
             string jsonpath2 = webRootPath + @"\Data\Facilities\CentralFacilities.json";
             string jsonpath4 = webRootPath + @"\Data\Facilities\COE.json";
+            string jsonpath5 = webRootPath + @"\Data\Facilities\ISRO.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(jsonpath);
@@ -35,6 +37,7 @@ namespace GECP_Front_End_Static.Controllers
             string json1 = webClient.DownloadString(jsonpath1);
             string json3 = webClient.DownloadString(jsonpath3);
             string json4 = webClient.DownloadString(jsonpath4);
+            string json5 = webClient.DownloadString(jsonpath5);
 
             // string json1 = webClient.DownloadString(jasonpath1);
             HostelVM = JsonConvert.DeserializeObject<Hostel>(json);
@@ -43,7 +46,7 @@ namespace GECP_Front_End_Static.Controllers
             MedicalVMs = JsonConvert.DeserializeObject<List<Medical>>(json1);
             LibraryVM = JsonConvert.DeserializeObject<Library>(json3);
             COEVM = JsonConvert.DeserializeObject<COE>(json4);
-
+            ISROVM = JsonConvert.DeserializeObject<COE>(json5);
 
         }
         //public iactionresult facilitypage(int id)
@@ -84,6 +87,11 @@ namespace GECP_Front_End_Static.Controllers
 		public IActionResult CenterOfExcellence()
         {
             return View(COEVM);
+        }
+
+        public IActionResult isro()
+        {
+            return View(ISROVM);
         }
         public IActionResult Transportation()
         {

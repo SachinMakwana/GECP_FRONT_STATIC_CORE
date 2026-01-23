@@ -1,0 +1,98 @@
+﻿{
+  "Title": "IIRS–ISRO Nodal Centre",
+  "Titleimage": "../../images/ISRO_Banner.png",
+  "TitleImageCSSClass": "iirs_title",
+  "About": "<style> span { color: grey !important; } </style> <p style=\"text-align:justify; color:grey;\">Government Engineering College, Katpur, Patan has been officially recognized as a <b>Nodal Centre</b> for the Indian Institute of Remote Sensing (IIRS), Indian Space Research Organisation (ISRO) Outreach Programme. This recognition places GEC Patan among a select group of institutions nationwide entrusted with advancing capacity building in space science and geospatial technologies.</p> <p style=\"text-align:justify; color:grey;\">The IIRS–ISRO Outreach Programme is a flagship national initiative aimed at enhancing knowledge, technical skills, and awareness in space technology applications among students, faculty members, researchers, and professionals. As an authorized Nodal Centre, GEC Patan actively facilitates a wide range of <b>online courses, workshops, and live interactive sessions</b> delivered by eminent scientists and experts from IIRS and ISRO.</p> <p style=\"text-align:justify; color:grey;\">The programme focuses on strengthening academic and user segments in key domains such as <b>Remote Sensing (RS), Geographical Information Systems (GIS), Global Navigation Satellite Systems (GNSS)</b>, and allied space technology applications, thereby bridging the gap between theoretical learning and real-world applications.</p> <p style=\"text-align:justify; color:grey;\">All courses offered under this Outreach Programme are generally <b>free of cost</b>, ensuring inclusive access to high-quality education in space and geospatial sciences. Participants who successfully meet attendance and assessment requirements are awarded <b>Merit Certificates issued by IIRS–ISRO</b>, significantly enhancing their academic credentials, research exposure, and career prospects in space, geospatial, and allied technology sectors.</p>",
+  "Measures": "",
+  "Measure_Image": "~/images/Institute/IIRS/IIRS_ISRO_Logo.png",
+  "SubObjectives": [
+    "Registered coordinators and their respective institutes shall undergo an assessment process conducted by IIRS–ISRO. Upon approval, coordinators will receive official login credentials via email to access the ISRO E-CLASS Coordinator Management System (CMS) at https://eclasscms.iirs.gov.in.",
+    "Coordinators are responsible for managing and coordinating the IIRS–ISRO Outreach Programme at their institute and actively encouraging eligible students to enroll in the online courses offered under the programme.",
+    "Coordinators shall review and approve student applications submitted under their institute through the E-CLASS CMS, based on the applicant’s academic performance, aptitude, and eligibility criteria.",
+    "Coordinators must facilitate and supervise live interactive sessions at their institute as per the official schedule and monitor student participation. Live sessions will accessible via the E-CLASS CMS and the IIRS–ISRO Outreach YouTube Channel (https://www.youtube.com/@iirsoutreachdehradun).",
+    "Coordinators are required to submit the daily attendance of participating students through the E-CLASS CMS in a timely and accurate manner, as per IIRS–ISRO guidelines.",
+    "Coordinators shall oversee and supervise the online examinations conducted as per the schedule. Examination URLs and passwords will be shared by IIRS–ISRO prior to the examination, and coordinators must ensure strict confidentiality and integrity of the examination process.",
+    "Coordinators are responsible for downloading, signing, and distributing the Course ‘Merit Certificates’ issued by IIRS–ISRO to eligible students who successfully meet attendance and assessment requirements.",
+    "IIRS–ISRO recognizes the valuable contributions of nodal centre coordinators in promoting space science, applications, and technology. Upon successful completion of the programme, coordinators will be awarded a Certificate of Coordination, and participating institutes will receive a Certificate of Appreciation."
+  ],
+  "SubObjImg": "",
+  "BulletPoints": [
+      "Participant registrations must be approved by the coordinator of their respective IIRS DLP nodal center.",
+      "Participants can register and check their application status via https://elearning.iirs.gov.in/edusatregistration/. If an application is pending approval, participants should contact their nodal center coordinator or change their application mode from “Nodal Center” to “Individual”.",
+      "Approved participants will receive an email containing login credentials for the IIRS-ISRO E-CLASS platform (https://eclass.iirs.gov.in).",
+      "The training programme will be conducted online through live and interactive sessions as per the schedule published by IIRS-ISRO. The daily schedule will be updated on the E-CLASS platform.",
+      "Participants must join daily classes as per the lecture schedule published by IIRS-ISRO.",
+      "Participants are required to attend live sessions in groups through their nodal center, strictly adhering to the Course schedule and guidelines.",
+      "Daily session attendance will be submitted by the nodal center coordinator through the E-CLASS CMS.",
+      "If unable to attend live sessions through the nodal center, participants may join individually with the coordinator’s permission using their E-CLASS login credentials. Attendance for such sessions will be automatically recorded based on active presence in the live session.",
+      "All live sessions will be available for offline viewing on the E-CLASS platform under the participant’s login after 24 hours of the live session.",
+      "Participants can submit questions related to session topics either through their coordinator or directly via the E-CLASS chat box. Relevant questions will be selected by the moderator for discussion at the end of the session.",
+      "Participants with at least 70% attendance will be eligible to appear for the online examination.",
+      "The schedule for the online examination will be announced by IIRS-ISRO. Eligible participants must take the exam under the supervision of their nodal center coordinator.",
+      "All participants are required to submit feedback on the training programme at its conclusion.",
+      "Participants scoring a minimum of 50% in the online examination will receive a \"Merit Certificate\" from ISRO.",
+      "Certificates will be distributed through the coordinator of the respective nodal center."
+   ],
+  "BulletPointsImg": "",
+  "PageFlyer": "",
+  "Tagline": "Empowering Minds through Space & Geospatial Technologies",
+  "BlogLink": "",
+  "Members": [
+    {
+      "ID": 1,
+      "Name": "Dr. Vijendrakumar M. Patel",
+      "Position": "Coordinator (Assistant Professor)",
+      "Department": "Civil Engineering",
+      "Image": "~/images/Faculty/402.jpg",
+      "Email": "vipatel9736@gmail.com"
+    }
+  ],
+  "Benefits": [
+    {
+      "Icon": "fas fa-satellite",
+      "Time": "100",
+      "Text": "Advanced Space Technology & Geospatial Skills"
+    },
+    {
+      "Icon": "fas fa-chalkboard-teacher",
+      "Time": "200",
+      "Text": "Live Interactive Learning with ISRO Scientists"
+    },
+    {
+      "Icon": "fas fa-certificate",
+      "Time": "300",
+      "Text": "Prestigious IIRS–ISRO Merit Certification"
+    },
+    {
+      "Icon": "fas fa-globe-asia",
+      "Time": "400",
+      "Text": "Expertise in Remote Sensing, GIS & GNSS"
+    },
+    {
+      "Icon": "fas fa-laptop-code",
+      "Time": "500",
+      "Text": "Flexible E-Learning & Self-Paced Courses"
+    },
+    {
+      "Icon": "fas fa-rupee-sign",
+      "Time": "600",
+      "Text": "Completely Free Learning Opportunities"
+    },
+    {
+      "Icon": "fas fa-university",
+      "Time": "700",
+      "Text": "Strengthens Academic & Professional Profiles"
+    },
+    {
+      "Icon": "fas fa-microscope",
+      "Time": "800",
+      "Text": "Exposure to Research & Earth Observation Applications"
+    }
+  ],
+  "SuccessStoriesNote": "/DataFiles/Documents/ISRO/ISRO_Course_Calender.pdf",
+  "TabTitles": {
+    "SubObjectives": "Coordinator Guidelines",
+    "Procedure": "Participant Guidelines",
+    "Members" : "Coordinator"
+  }
+}
