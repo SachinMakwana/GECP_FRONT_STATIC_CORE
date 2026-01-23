@@ -57,6 +57,14 @@
         {
             <a href="@Url.Action("Index", "Documents", new { @id = Model.ID })" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
         }
+        @if (Model.NationalTaskForce != null)
+        {
+            <a href="@Url.Content(@Model.NationalTaskForce)" target="_blank" class="tablinks">
+                <button class="tablinks">
+                    National Task Force
+                </button>
+            </a>
+        }
         @if (Model.Achievements.Count() > 0)
         {
             <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
@@ -96,6 +104,14 @@
         @if (Model.ShowDocument)
         {
             <a href="@Url.Action("Index", "Documents", new { @id = Model.ID })" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
+        }
+        @if (Model.NationalTaskForce != null)
+        {
+            <a href="@Url.Content(@Model.NationalTaskForce)" target="_blank" class="tablinks">
+                <button class="tablinks">
+                    National Task Force
+                </button>
+            </a>
         }
         @if (Model.Achievements.Count() > 0)
         {

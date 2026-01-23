@@ -1179,8 +1179,9 @@
         "Department": "Mechanical Engineering"
       }
     ],
-    "TableView": true
+    "TableView": true,
 
+    "NationalTaskForce": "/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf"
   }
 ]
 // use below template to add a committee
