@@ -19,10 +19,10 @@
 
 <div class="full-container">
 	<div class="tab hidden-xs">
-		<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=0})')" id="defaultOpen">All</button>
+		<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear", "Academics", new { @year = 0 })')" id="defaultOpen">All</button>
 		@foreach (var item in Model.Years)
 		{
-			<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear","Academics",new{@year=item})')">@item</button>
+			<button class="tablinks" onclick="loadAchievements(event,'@Url.Action("AchievementsByYear", "Academics", new { @year = item })')">@item</button>
 		}
 	</div>
 	<div class="tab-xs visible-xs">
@@ -66,37 +66,42 @@
 
 
 <div class="clearfix margin_top2"></div>
-
-@section tabs {
+@section Scripts {
 	<script type="text/javascript" src="@Url.Content("~/js/cubeportfolio/gecp_cubeportfolio_custom.js")"></script>
-	<script>
+	<script type="text/javascript">
+		// Function called by your tab buttons
+		function loadAchievements(evt, url) {
+			evt.preventDefault();
 
-		$(document).ready(function(){
-			$("#achDiv").load("@Url.Action("AchievementsByYear", "Academics", new { @year = 0 })");
-			setTimeout(function(){if(!Boolean($('#grid-container').data('cubeportfolio'))){
-			reInit();
-			}
-			},100);
-		})
+			// Remove active class from all tabs and add to the clicked one
+			$(".tablinks").removeClass("active");
+			$(evt.currentTarget).addClass("active");
 
-		function loadAchievements(evt,url){
-			$("#achDiv").load(url);
-
-			setTimeout(function(){
-				if(Boolean($('#grid-container').data('cubeportfolio'))){
-				destroyGrid();
+			// Load content into #achDiv
+			$("#achDiv").load(url, function () {
+				// Destroy previous CubePortfolio grid if it exists
+				if ($('#grid-container').data('cubeportfolio')) {
+					destroyGrid(); // your external destroyGrid function
 				}
-				reInit();
-			},100);
 
-			var tablinks = document.getElementsByClassName("tablinks");
-			for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-			}
-			evt.currentTarget.className += " active";
+				// Re-initialize CubePortfolio
+				reInit();
+			});
 		}
+
+		$(document).ready(function () {
+			// Initial load for year 0
+			$("#achDiv").load("@Url.Action("AchievementsByYear", "Academics", new { year = 0 })", function () {
+				reInit();
+			});
+
+			// Optionally, mark the first tab as active on page load
+			$(".tablinks").first().addClass("active");
+		});
 	</script>
 }
+
+
 
 @section styles {
 	<!-- timeline -->
