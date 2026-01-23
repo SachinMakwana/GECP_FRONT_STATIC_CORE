@@ -7,16 +7,23 @@
     //    "ControllerName": "",
     //    "ActionName": ""
     //},
+    //{
+    //  "ID": 1,
+    //  "Title": "Sanchaar Saarthi Awareness Seminar",
+    //  "IsFile": 1,
+    //  "FileLink": "~/ImpDocs/ActivityPoster2.pdf",
+    //  "ControllerName": "",
+    //  "ActionName": ""
+    //},
     {
-      "ID": 1,
-      "Title": "Sanchaar Saarthi Awareness Seminar",
-      "IsFile": 1,
-      "FileLink": "~/ImpDocs/ActivityPoster2.pdf",
-      "ControllerName": "",
-      "ActionName": ""
+        "ID": 1,
+        "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
+        "IsFile": 1,
+        "FileLink": "~/ImpDocs/GECP_apprenticeship_2026.pdf",
+        "ControllerName": "",
+        "ActionName": ""
     },
-  
-  
+
     {
         "ID": 2,
         "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
@@ -24,8 +31,7 @@
         "FileLink": "~/ImpDocs/ActivityPoster.pdf",
         "ControllerName": "",
         "ActionName": ""
-    }
-    ,
+    },
     //{
     //    "ID": 3,
     //    "Title": "હોસ્ટેલ મેસ અને કેન્ટીન ટેન્ડર ૨૦૨૪-૨૫",
