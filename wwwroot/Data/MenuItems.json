@@ -769,15 +769,63 @@
       },
       {
         "ID": 994,
-        "MenuText": "Institute Administration Rules",
+        "MenuText": "Administrative Rules",
         "ParentID": null,
         "dynamicID": null,
-        "ControllerName": "",
+        "ControllerName": "Administration",
         "ActionName": "",
         "position": 5,
         "isVisible": true,
-        "Link": "/DataFiles/Documents/Rules/1 Institute Administrative Rules.pdf",
-        "ChildMenuVMs": []
+        "ChildMenuVMs": [
+          {
+            "ID": 9941,
+            "MenuText": "Leave Rules",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "Administration",
+            "ActionName": "",
+            "position": 2,
+            "isVisible": true,
+            "Link": "/DataFiles/Documents/Rules/LEAVE.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 9942,
+            "MenuText": "Pension Rules",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 3,
+            "isVisible": true,
+            "Link": "/DataFiles/Documents/Rules/PENSION.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 9943,
+            "MenuText": "NPS",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 4,
+            "isVisible": true,
+            "Link": "/DataFiles/Documents/Rules/NPS.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 9944,
+            "MenuText": "Institute Administrative Rules",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 1,
+            "isVisible": true,
+            "Link": "/DataFiles/Documents/Rules/1 Institute Administrative Rules.pdf",
+            "ChildMenuVMs": []
+          }
+        ]
       },
       {
         "ID": 9,

@@ -51,6 +51,15 @@
           },
           {
             "ID": 3,
+            "Title": "DoT-GoI under Gujarat LSA",
+            "FileType": "PDF",
+            "File": "~/MOU/SanchaarSarthi.pdf",
+            "isShow": true,
+            "MonthYear": "Aug/2025",
+            "UploadDate": ""
+          },
+          {
+            "ID": 4,
             "Title": "Proji Systems and Technology (Prolific)",
             "FileType": "",
             "File": "",
@@ -59,7 +68,7 @@
             "UploadDate": ""
           },
           {
-            "ID": 4,
+            "ID": 5,
             "Title": "Kachchua Solutions Pvt. Ltd.",
             "FileType": "PDF",
             "File": "~/MOU/Kachhua.pdf",
@@ -68,7 +77,7 @@
             "MonthYear": "Jan/2024"
           },
           {
-            "ID": 5,
+            "ID": 6,
             "Title": "Mahakali Engineering works",
             "FileType": "PDF",
             "File": "~/MOU/Mahakali.pdf",
@@ -77,7 +86,7 @@
             "UploadDate": ""
           },
           {
-            "ID": 6,
+            "ID": 7,
             "Title": "Sai Sunrise Consultancy",
             "FileType": "PDF",
             "File": "~/MOU/SaiSunrise.pdf",
@@ -87,7 +96,7 @@
           },
 
           {
-            "ID": 7,
+            "ID": 8,
             "Title": "Unik Industries",
             "FileType": "PDF",
             "File": "~/MOU/UNIK.pdf",
@@ -96,7 +105,7 @@
             "UploadDate": ""
           },
           {
-            "ID": 8,
+            "ID": 9,
             "Title": "Silvertouch Technologies Ltd.",
             "FileType": "PDF",
             "File": "~/MOU/Silvertouch.pdf",
@@ -105,7 +114,7 @@
             "UploadDate": ""
           },
           {
-            "ID": 9,
+            "ID": 10,
             "Title": "Edunet Foundation",
             "FileType": "PDF",
             "File": "~/MOU/techsaksham.pdf",
@@ -224,6 +233,14 @@
             "File": "~/DataFiles/Administration/CentralStore/GeM_Portal_Financial_Powers.pdf",
             "isShow": true,
             "UploadDate": "2025-09-02"
+          },
+          {
+            "ID": 2,
+            "Title": "Gujarat State Procurement Policy 2024",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Administration/CentralStore/GSPP2024.pdf",
+            "isShow": true,
+            "UploadDate": "2026-01-23"
           }
         ]
       }
@@ -474,6 +491,14 @@
             "File": "~/AcademicCalender/TRLExplantion.pdf",
             "FileType": "PDF",
             "UploadDate": "04-12-2024",
+            "isShow": true
+          },
+          {
+            "ID": 5,
+            "Title": "SSIP 2.0 Policy",
+            "File": "~/AcademicCalender/SSIP2.pdf",
+            "FileType": "PDF",
+            "UploadDate": "23-01-2026",
             "isShow": true
           }
         ]
