@@ -126,7 +126,7 @@
                                 }
                                 else
                                 {
-                                    foreach (var item in Model.activitymarqueeModelVM.Where(m => m.Year == currentYear).ToList())
+                                    foreach (var item in Model.activitymarqueeModelVM.Where(m => m.Year == currentYear).OrderByDescending(m => Convert.ToDateTime(m.EventDate)).ToList())
                                     {
                                         
                                         if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
@@ -142,6 +142,8 @@
                             </ul>
                         </marquee>
                     </div>
+                                            <div class="clearfix"></div>
+                    <a href="@Url.Action("AllActivities", "CampusCommittee")" class="btn btn-success">View All</a>
                 </div>
 
 

@@ -1,0 +1,89 @@
+﻿@model IList<CommitteeActivity>
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Activities";
+}
+
+<div class="page_title3 engg_title">
+	<div class="container">
+		<h1>
+			Activities
+			<div class="line"></div>
+		</h1>
+	</div>
+</div>
+<div class="margin_top10"></div>
+<div class="clearfix"></div>
+
+<div class="full-container">
+	@if (Model != null && Model.Count() > 0)
+	{
+		int count = 1;
+		<table id="myTable" class="display table table-bordered table-responsive">
+			<thead>
+				<tr>
+					<th>Sr. No.</th>
+					<th>Activities</th>
+					<th class="text-center">Date</th>
+					<th class="text-center">View</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				@foreach (var item in Model.OrderByDescending(m => Convert.ToDateTime(m.EventDate)).ToList())
+				{
+
+					<tr>
+						<td class="text-center">@count</td>
+						<td>
+							@if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+							{
+								<a href="@Url.Action("Activities", "CampusCommittee", new { @id = item.ID })" target="_blank">@item.Title</a>
+							}
+							else
+							{
+								<a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a>
+							}
+						</td>
+						<td class="text-center">
+							@item.EventDate
+						</td>
+						<td class="text-center">
+							@if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+							{
+								<a href="@Url.Action("Activities", "CampusCommittee", new { @id = item.ID })" target="_blank" class="text-center btn btn-success"><i class="fa fa-eye"></i></a>
+							}
+							else
+							{
+								<a href="@Url.Action(item.ActionName, item.ControllerName)" class="text-center btn btn-success"> <i class="fa fa-eye"></i> </a>
+							}
+						</td>
+					</tr>
+
+
+					count++;
+
+				}
+			</tbody>
+		</table>
+	}
+	else
+	{
+		<h2>No Achievement Available</h2>
+	}
+</div>
+
+@section scripts {
+
+	<script src="@Url.Content("~/cdn1/DataTables/datatables.js")"></script>
+	<script type="text/javascript">
+		 $(document).ready(function () {
+			 $('#myTable').DataTable({
+				 ordering: false
+			 });
+		});
+	</script>
+}
+@section styles{
+	<link rel="stylesheet" href="@Url.Content("~/cdn1/DataTables/datatables.css")" />
+}
