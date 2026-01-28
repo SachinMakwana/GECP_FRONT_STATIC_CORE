@@ -63,6 +63,10 @@
             
              <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
         }
+        @if (Model.NewsLetter != null && Model.NewsLetter.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'NEWSLETTER')">NEWSLETTER</button>
+        }
     </div>
 
     <div class="tab-xs visible-xs">
@@ -103,6 +107,10 @@
         {
 
             <button class="tablinks" onclick="openTab(event, 'achDiv')">Achievements</button>
+        }
+        @if (Model.NewsLetter != null && Model.NewsLetter.Count() > 0)
+        {
+            <button class="tablinks" onclick="openTab(event, 'NEWSLETTER')">NEWSLETTER</button>
         }
     </div>
 
@@ -680,6 +688,25 @@
             <h2>No Achievement Available</h2>
         }
 
+    </div>
+    <div id="NEWSLETTER" class="tabcontent">
+        <div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
+            <ul>
+                @{
+                    count = 0;  // Declare count variable inside this block separately
+                }
+                @foreach (var item in Model.NewsLetter)
+                {
+                    <li class="minheight">
+                        <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
+                            <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
+                            @item.Title
+                        </a>
+                    </li>
+                    count++; // Increment count properly
+                }
+            </ul>
+        </div>
     </div>
 </div>
 
