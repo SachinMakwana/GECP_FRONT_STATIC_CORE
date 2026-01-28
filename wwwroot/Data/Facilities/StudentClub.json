@@ -381,22 +381,196 @@
       ]
     },
     {
-        "ID": 3,
-        "Icon": "../../images/Faculty/1000.jpg",
-        "About": "VLSI is a community for tech enthusiasts to learn programming, attend workshops, participate in hackathons, and collaborate on coding projects. It’s a great space for beginners and experienced developers to improve their skills and network",
-        "Title": "VLSI Club",
-        "ActionName": "ClubDetails",
-        "ControllerName": "StudentCorner",
-        "SubObjectives": [
-            
-        ],
-        "BlogLink": "",
-        "Images": [],
-        "Activities": [],
-        "IsDynamic": false,
-        "Members": [
-           
-        ]
+      "ID": 3,
+      "Icon": "../../images/Faculty/1000.jpg",
+      "About": "The rapid advancement in semiconductor technology and the increasing demand for integrated circuits have made VLSI design a key area of modern electronics. To encourage innovation, hands-on learning, and industry readiness, a dedicated VLSI Club is proposed in the Electronics and Communication Department. The club will provide a platform for students to explore VLSI concepts, tools, and real-world applications through workshops, projects, competitions, and interactions with industry experts. It aims to bridge the gap between academic knowledge and industry practices in chip design and fabrication.",
+      "Title": "VLSI Club",
+      "ActionName": "ClubDetails",
+      "ControllerName": "StudentCorner",
+      "SubObjectives": [
+        "To promote awareness and understanding of VLSI design and its applications.",
+        "To provide hands-on experience with industry-standard tools such as Cadence, Synopsys, and Xilinx.",
+        "To encourage collaborative projects and research in digital and analog IC design.",
+        "To organize technical events, seminars, and competitions to enhance learning.",
+        "To build connections with academia and industry professionals."
+      ],
+      "BlogLink": "",
+      "Images": [],
+      "Activities": [
+        {
+          "ID": 1,
+          "Title": "Inaugural Function of VLSI Club",
+          "Description": "The Electronics and Communication Engineering Department of Government Engineering College, Patan organized the VLSI Club Opening Ceremony on 15th October 2025. The event began with the formal inauguration of the club by Principal Dr. B. J. Shah, along with Dr. A. B. Dhruv (Professor, Mechanical Engineering) and Dr. D. H. Patel (Head of the Electronics and Communication Engineering Department). The VLSI Club was established with the objective of strengthening students’ technical competencies in the field of Very Large-Scale Integration (VLSI). The Faculty Coordinator, Prof. M. L. Patel, addressed the gathering and presented the vision, mission, and scope of the VLSI Club. During the session, the importance of VLSI technology in modern electronics was highlighted, especially its applications in semiconductor chip design, embedded systems, Artificial Intelligence hardware, and the Internet of Things (IoT).",
+          "EventDate": "15/10/2025",
+          "EventTime": "03:30 p.m.",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Inaugural Function of VLSI Club",
+              "FileType": "PDF",
+              "FilePath": "~/DataFiles/Documents/VLSI/Report-VLSI Club.pdf"
+            }
+          ]
+        }
+      ],
+      "IsDynamic": false,
+      "Members": [
+        {
+          "ID": 1,
+          "Name": "Prof. Mehul. L. Patel",
+          "Position": "Faculty Coordinator",
+          "Department": "Electronics And Communication",
+          "Image": "~/images/Faculty/105.jpg",
+          "Email": "mehul.ec02@gmail.com"
+        },
+        {
+          "ID": 2,
+          "Name": "Dhaval Padhiyar",
+          "Position": "Student Coordinator",
+          "Department": "Electronics And Communication",
+          "Image": "../../images/Faculty/1000.jpg",
+          "Email": ""
+        },
+        {
+          "ID": 3,
+          "Name": "Naresh Solank",
+          "Position": "Student Coordinator",
+          "Department": "Electronics And Communication",
+          "Image": "../../images/Faculty/1000.jpg",
+          "Email": ""
+        },
+        {
+          "ID": 4,
+          "Name": "Meet Mevada",
+          "Position": "Student Coordinator",
+          "Department": "Electronics And Communication",
+          "Image": "../../images/Faculty/1000.jpg",
+          "Email": ""
+        },
+        {
+          "ID": 5,
+          "Name": "Katyayini Trivedi",
+          "Position": "Student Coordinator",
+          "Department": "Electronics And Communication",
+          "Image": "../../images/Faculty/1000.jpg",
+          "Email": ""
+        },
+        {
+          "ID": 1,
+          "Name": "Parv Joshi",
+          "Position": "Student Coordinator",
+          "Department": "Electronics And Communication",
+          "Image": "../../images/Faculty/1000.jpg",
+          "Email": ""
+        },
+        {
+          "ID": 4,
+          "Name": "Neeti Patel",
+          "Position": "Student Coordinator",
+          "Department": "Electronics And Communication",
+          "Image": "../../images/Faculty/1000.jpg",
+          "Email": ""
+        }
+
+      ]
+    },
+    {
+      "ID": 4,
+      "Icon": "../../images/Faculty/1000.jpg",
+      "About": "The Sanchar Mitra Scheme is a national volunteer program launched by the Department of Telecommunications (DoT), Government of India to engage youth as digital ambassadors for telecom awareness, digital safety, and secure communication practices. Under this initiative, selected students from colleges and universities are designated as Sanchar Mitras and trained to educate citizens about safe and responsible use of telecom services and digital technologies.",
+      "Title": "Sanchar Mitra",
+      "ActionName": "ClubDetails",
+      "ControllerName": "StudentCorner",
+      "SubObjectives": [
+        "To create public awareness about the Sanchar Saathi portal and its citizen-centric telecom security services.",
+        "To educate mobile users on reporting fraudulent communications such as calls, SMS, WhatsApp messages, and malicious links through the Chakshu module.",
+        "To help citizens verify mobile connections issued in their name using the TAFCOP service and report unauthorized numbers.",
+        "To promote checking of handset genuineness using IMEI through the KYM (Know Your Mobile) feature.",
+        "To assist users in blocking and tracking lost or stolen mobile phones using the CEIR facility.",
+        "To spread awareness about international spoofed calls appearing as Indian numbers and encourage reporting of such calls.",
+        "To guide citizens in identifying authorized broadband service providers through the Wireline ISP search feature.",
+        "To promote the use of trusted contact details of banks and institutions to prevent financial fraud.",
+        "To strengthen digital safety and cyber awareness among students, senior citizens, and the general public.",
+        "To act as a bridge between the Department of Telecommunications (DoT) and citizens for safer and more secure telecom usage."
+      ],
+      "BlogLink": "",
+      "Images": [],
+      "Activities": [
+        {
+          "ID": 1,
+          "Title": "Sanchar Saathi Seminar",
+          "Description": "The Electronics and Communication Engineering Department of Government Engineering College, Patan organized a seminar on “Sanchar Saathi – A Citizen-Centric Telecom Security Initiative” on 21/01/2026 to spread awareness about telecom security and digital safety among students. The seminar focused on introducing the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. The key objectives of the initiative, including protecting citizens from telecom fraud, improving transparency in mobile connections, and promoting responsible digital practices, were explained in detail. During the session, important services such as Chakshu for reporting fraudulent calls and messages, blocking lost or stolen mobile phones using IMEI numbers, verifying mobile connections, and identifying suspicious international calls were discussed. Students were also guided on how to access and use these services through the web portal and mobile application. The seminar emphasized the role of citizens in maintaining a secure telecom ecosystem by actively reporting suspicious activities and staying informed about digital threats. The event concluded with enthusiastic student participation and a positive response, making the session informative and impactful.",
+          "EventDate": "21/01/2026",
+          "EventTime": "11:30 a.m. to 12:30 p.m.",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Sanchar Saathi Seminar",
+              "FileType": "PDF",
+              "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi3.pdf"
+            }
+          ]
+        },
+
+        {
+          "ID": 2,
+          "Title": "Sanchar Saathi Seminar",
+          "Description": "A seminar on “Sanchar Saathi – A Citizen-Centric Telecom Security Initiative” was conducted for Semester 3 students of the Electronics and Communication Engineering Department to promote awareness about telecom security and digital safety. The session focused on educating students about cyber threats, telecom fraud, and responsible mobile usage. Students were introduced to the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. Key services such as reporting fraud through Chakshu, blocking lost or stolen mobile phones using IMEI numbers, verifying SIM connections, and identifying suspicious calls were explained using practical examples. The seminar encouraged students to stay alert, adopt safe digital practices, and actively contribute to preventing telecom fraud. The session received positive participation and helped strengthen students’ understanding of cybersecurity and telecom safety.",
+          "EventDate": "20/12/2025",
+          "EventTime": "01:30 p.m.",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Sanchar Saathi Seminar",
+              "FileType": "PDF",
+              "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi2.pdf"
+            }
+          ]
+        },
+        {
+          "ID": 3,
+          "Title": "Sanchar Saathi Seminar",
+          "Description": "An awareness program on Sanchar Saathi – a citizen-centric telecom security initiative was conducted at Katpur Village on the Patan–Mehsana Highway to educate village elders and youngsters about cybersecurity and telecom safety. The program focused on creating awareness about digital fraud, safe mobile usage, and the importance of protecting personal information. Participants were introduced to the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. Key services such as reporting fraud through Chakshu, blocking lost or stolen mobile phones using IMEI numbers, verifying SIM connections, and identifying suspicious calls were explained in simple and practical terms. The session encouraged villagers to remain alert, report suspicious activities, and adopt responsible digital practices. The initiative received positive participation from the community and contributed to improving cybersecurity awareness in the rural area.",
+          "EventDate": "26/09/2025",
+          "EventTime": "12:30 p.m.",
+          "Files": [
+            {
+              "ID": 1,
+              "Title": "Sanchar Saathi Seminar",
+              "FileType": "PDF",
+              "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi1.pdf"
+            }
+          ]
+        }
+      ],
+      "IsDynamic": false,
+      "Members": [
+        {
+          "ID": 1,
+          "Name": "Dr. H.L Judal",
+          "Position": "Institute Nodal Officer",
+          "Department": "Electronics And Communication",
+          "Image": "~/images/Faculty/102.jpg",
+          "Email": "haresh.judal@gecpatan.ac.in"
+        },
+        {
+          "ID": 2,
+          "Name": "Ishika Dave",
+          "Position": "Sanchar Mitra",
+          "Department": "Electronics And Communication",
+          "Image": "~/images/club/Ishika.png",
+          "Email": ""
+        },
+        {
+          "ID": 3,
+          "Name": "Parv Joshi",
+          "Position": "Sanchar Mitra",
+          "Department": "Electronics And Communication",
+          "Image": "~/images/club/Parv.png",
+          "Email": ""
+        }
+
+      ]
     }
     //,
     //{
