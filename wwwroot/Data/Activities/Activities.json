@@ -1,1129 +1,1303 @@
 ﻿[
-  {
-    "ID": 1,
-    "Title": "Investor Awareness Program for Financial Literacy and Commodity Market Awareness",
-    "Description": "The Investor Awareness Program for Financial Literacy and Commodity Market Awareness, held on 11th November 2025, aims to equip participants with essential knowledge of financial planning, smart investing, and the commodity market. The session is led by Mr. Aashish Shah, a reputed finance professional and experienced trainer known for his expertise in financial markets. The program is designed to enhance financial awareness and help attendees make informed financial decisions.",
-    "EventDate": "11/11/2025",
-    "EventTime": "10:30 a.m. to 12:30 p.m.",
-    "Year": 2025,
-    "DeptID": 4,
-    "Images": [
-      //"/images/Activities/Civil/Workshop_1310/1.jpeg",
-      "/images/Activities/Civil/Financial_Lite/1Image.jpg",
-      "/images/Activities/Civil/Financial_Lite/2Image.jpg",
-      "/images/Activities/Civil/Financial_Lite/3Image.jpg",
-      "/images/Activities/Civil/Financial_Lite/4 Image.jpg",
-      "/images/Activities/Civil/Financial_Lite/5Image.jpg"
-    ],
-    "Files": [
-      {
+    {
         "ID": 1,
-        "Title": "Event Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/Civil/Report_Financial_Literacy.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 2,
-    "Title": "One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”",
-    "Description": "The Department of Civil Engineering organized a One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”. The workshop aimed to expose students and faculty members to the latest technological advancements in the use of Unmanned Aerial Vehicles (UAVs) and Geographic Information Systems (GIS) in the field of Civil Engineering. The event featured three expert talk sessions delivered by distinguished speakers covering topics from drone dynamics to real-world applications in civil, architectural, and water projects.",
-    "EventDate": "13/10/2025",
-    "EventTime": "10:30 a.m. to 05:00 p.m.",
-    "Year": 2025,
-    "DeptID": 4,
-    "Images": [
-      //"/images/Activities/Civil/Workshop_1310/1.jpeg",
-      "/images/Activities/Civil/Workshop_1310/2.jpg",
-      "/images/Activities/Civil/Workshop_1310/4.jpg",
-      "/images/Activities/Civil/Workshop_1310/5.jpg",
-      "/images/Activities/Civil/Workshop_1310/6.jpg"
-    ],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Learning Outcomes of Workshop",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/Psychology/Report_Workshop_1310.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 2,
-    "Title": "Student Organizations",
-    "Description": "The campus hosts various student groups such as the National Service Scheme (NSS) and Fit India Group. These organizations coordinate numerous activities, including sports tournaments and cultural programs, promoting leadership and community involvement among students. ",
-    "EventDate": "",
-    "EventTime": "",
-    "CommitteId": 10,
-    "Files": []
-  },
-  {
-    "ID": 3,
-    "Title": "Thalessemia Test Camp",
-    "Description": "While specific details about thalassemia test camps at GEC Patan are not readily available, the college is known for its commitment to social welfare initiatives. Regular blood donation camps are organized on campus, reflecting the institution's dedication to community health and student awareness.",
-    "EventDate": "",
-    "EventTime": "",
-    "CommitteId": 10,
-    "Files": []
-  },
+        "Title": "Investor Awareness Program for Financial Literacy and Commodity Market Awareness",
+        "Description": "The Investor Awareness Program for Financial Literacy and Commodity Market Awareness, held on 11th November 2025, aims to equip participants with essential knowledge of financial planning, smart investing, and the commodity market. The session is led by Mr. Aashish Shah, a reputed finance professional and experienced trainer known for his expertise in financial markets. The program is designed to enhance financial awareness and help attendees make informed financial decisions.",
+        "EventDate": "11/11/2025",
+        "EventTime": "10:30 a.m. to 12:30 p.m.",
+        "Year": 2025,
+        "DeptID": 4,
+        "Images": [
+            //"/images/Activities/Civil/Workshop_1310/1.jpeg",
+            "/images/Activities/Civil/Financial_Lite/1Image.jpg",
+            "/images/Activities/Civil/Financial_Lite/2Image.jpg",
+            "/images/Activities/Civil/Financial_Lite/3Image.jpg",
+            "/images/Activities/Civil/Financial_Lite/4 Image.jpg",
+            "/images/Activities/Civil/Financial_Lite/5Image.jpg"
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Event Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/Civil/Report_Financial_Literacy.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 2,
+        "Title": "One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”",
+        "Description": "The Department of Civil Engineering organized a One-Day Workshop on “Innovative Applications of UAV and GIS Technology for Civil Engineering Projects”. The workshop aimed to expose students and faculty members to the latest technological advancements in the use of Unmanned Aerial Vehicles (UAVs) and Geographic Information Systems (GIS) in the field of Civil Engineering. The event featured three expert talk sessions delivered by distinguished speakers covering topics from drone dynamics to real-world applications in civil, architectural, and water projects.",
+        "EventDate": "13/10/2025",
+        "EventTime": "10:30 a.m. to 05:00 p.m.",
+        "Year": 2025,
+        "DeptID": 4,
+        "Images": [
+            //"/images/Activities/Civil/Workshop_1310/1.jpeg",
+            "/images/Activities/Civil/Workshop_1310/2.jpg",
+            "/images/Activities/Civil/Workshop_1310/4.jpg",
+            "/images/Activities/Civil/Workshop_1310/5.jpg",
+            "/images/Activities/Civil/Workshop_1310/6.jpg"
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Learning Outcomes of Workshop",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/Psychology/Report_Workshop_1310.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 2,
+        "Title": "Student Organizations",
+        "Description": "The campus hosts various student groups such as the National Service Scheme (NSS) and Fit India Group. These organizations coordinate numerous activities, including sports tournaments and cultural programs, promoting leadership and community involvement among students. ",
+        "EventDate": "",
+        "EventTime": "",
+        "CommitteId": 10,
+        "Files": []
+    },
+    {
+        "ID": 3,
+        "Title": "Thalessemia Test Camp",
+        "Description": "While specific details about thalassemia test camps at GEC Patan are not readily available, the college is known for its commitment to social welfare initiatives. Regular blood donation camps are organized on campus, reflecting the institution's dedication to community health and student awareness.",
+        "EventDate": "",
+        "EventTime": "",
+        "CommitteId": 10,
+        "Files": []
+    },
 
-  //{
-  //  "ID": 5,
-  //  "Title": "Career Guidance Seminar",
-  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
-  //  "EventDate": "13/02/2025",
-  //  "EventTime": "10:30 AM to 12:30 PM",
-  //  "Year": 2025,
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Career Guidance Seminar",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
-  //    }
-  //  ]
-  //},
-  //{
-  //  "ID": 6,
-  //  "Title": "Mock interviews ",
-  //  "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
-  //  "EventDate": "1/1/2025",
-  //  "EventTime": "10.30am  to 12.30pm",
-  //  "Year": 2025,
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Mock interviews",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
-  //    }
-  //  ]
+    //{
+    //  "ID": 5,
+    //  "Title": "Career Guidance Seminar",
+    //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 104 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends",
+    //  "EventDate": "13/02/2025",
+    //  "EventTime": "10:30 AM to 12:30 PM",
+    //  "Year": 2025,
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Career Guidance Seminar",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/Career Guidance Seminar-13-2-2025.pdf"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "ID": 6,
+    //  "Title": "Mock interviews ",
+    //  "Description": "The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year, 1969. Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage.",
+    //  "EventDate": "1/1/2025",
+    //  "EventTime": "10.30am  to 12.30pm",
+    //  "Year": 2025,
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Mock interviews",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/Mock Interview-1-1-2025.pdf"
+    //    }
+    //  ]
 
-  //},
-  //{
-  //  "ID": 7,
-  //  "Title": "Career Guidance  & Counseling",
-  //  "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
-  //  "EventDate": "13/03/2024",
-  //  "EventTime": "1:00 p.m. to 3:00 p.m.",
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Career Guidance  & Counseling",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
-  //    }
-  //  ]
-  //},
-  //{
-  //  "ID": 10,
-  //  "Title": "Career Guidance Awareness",
-  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
-  //  "EventDate": "14/02/2024",
-  //  "EventTime": "10.30am  to 12.30pm",
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Career Guidance Awareness",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/Career_Guidance_Awareness-14-2-2024.pdf"
-  //    }
-  //  ]
-  //},
-  //{
-  //  "ID": 11,
-  //  "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
-  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
-  //  "EventDate": "02/03/2023",
-  //  "EventTime": "1:00 p.m. to 3:00 p.m.",
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
-  //    }
-  //  ]
-  //},
-  //{
-  //  "ID": 12,
-  //  "Title": "Entrepreneurship after Engineering",
-  //  "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
-  //  "EventDate": "23/02/2023",
-  //  "EventTime": "10.30am  to 12.30pm",
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Entrepreneurship after Engineering",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/ENTERPRENIOR-23-2-2023.pdf"
-  //    }
-  //  ]
-  //},
-  //{
-  //  "ID": 13,
-  //  "Title": "Career Guidance Seminar",
-  //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
-  //  "EventDate": "28/02/2023",
-  //  "EventTime": "1:00 p.m. to 3:00 p.m.",
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Career Guidance Seminar",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/career Guidance-28-2-2023.pdf"
-  //    }
-  //  ]
-  //},
-  //{
-  //  "ID": 14,
-  //  "Title": "Entrepreneurship Awareness Seminar",
-  //  "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
-  //  "EventDate": "24/12/2021",
-  //  "EventTime": "10.30am  to 12.30pm",
-  //  "CommitteId": 9,
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "Entrepreneurship Awareness Seminar",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/PlacementCell/ENTERPRENIOR-24-12-2021.pdf"
-  //    }
-  //  ]
-  //},
-  {
-    "ID": 15,
-    "Title": "Alumni Meet 2022",
-    "Description": "GEC Patan organized its Alumni Meet 2022, reuniting graduates from various batches to rekindle memories and strengthen professional networks. The event included interactive sessions, sharing of experiences, and cultural programs.",
-    "EventDate": "2022-12-18",
-    "EventTime": "10:00 AM - 4:00 PM",
-    "Year": 2022,
-    "CommitteId": 11,
-    "Images": [
-      "/images/Activities/Alumni_2022/2.jpg",
-      "/images/Activities/Alumni_2022/1.jpg",
-      "/images/Activities/Alumni_2022/3.jpg",
-      "/images/Activities/Alumni_2022/4.jpg",
-      "/images/Activities/Alumni_2022/5.jpg",
-      "/images/Activities/Alumni_2022/6.jpg",
-      "/images/Activities/Alumni_2022/7.jpg",
-      "/images/Activities/Alumni_2022/8.jpg"
-    ],
-    "Files": []
-  },
-  {
-    "ID": 16,
-    "Title": "Alumni Meet 2024",
-    "Description": "The Alumni Meet 2024 at GEC Patan, graced by Chief Guest Dr. H. S. Patel, celebrated lasting bonds and achievements. Highlights included industry discussions, student-alumni interactions, alumni felicitations, and cultural events. The event fostered connection, inspiration, and pride among graduates, students, and faculty, strengthening the GEC Patan community spirit.",
-    "EventDate": "2024-12-23",
-    "EventTime": "11:00 AM - 5:00 PM",
-    "Year": 2024,
-    "CommitteId": 11,
-    "Images": [
+    //},
+    //{
+    //  "ID": 7,
+    //  "Title": "Career Guidance  & Counseling",
+    //  "Description": "No. of students present:110 (Electrical-32, Mech-37, Civil-41) The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends. ",
+    //  "EventDate": "13/03/2024",
+    //  "EventTime": "1:00 p.m. to 3:00 p.m.",
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Career Guidance  & Counseling",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/Career Guidance-13-3-2024.pdf"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "ID": 10,
+    //  "Title": "Career Guidance Awareness",
+    //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+    //  "EventDate": "14/02/2024",
+    //  "EventTime": "10.30am  to 12.30pm",
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Career Guidance Awareness",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/Career_Guidance_Awareness-14-2-2024.pdf"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "ID": 11,
+    //  "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+    //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained. The seminar aims to provide engineering students with a clear roadmap for their careers, helping them explore opportunities in jobs, higher studies, and entrepreneurship. The session will guide students in choosing the right career path based on their skills, interests, and market trends.",
+    //  "EventDate": "02/03/2023",
+    //  "EventTime": "1:00 p.m. to 3:00 p.m.",
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Career Guidance  & Counseling for 6th sem EE/Mechanical Students",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/Career Counseling-2-3-2023.pdf"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "ID": 12,
+    //  "Title": "Entrepreneurship after Engineering",
+    //  "Description": "An Entrepreneurship after Engineering seminar is designed to aspiring students about entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives.",
+    //  "EventDate": "23/02/2023",
+    //  "EventTime": "10.30am  to 12.30pm",
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Entrepreneurship after Engineering",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/ENTERPRENIOR-23-2-2023.pdf"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "ID": 13,
+    //  "Title": "Career Guidance Seminar",
+    //  "Description": "The job study and business-related information provided. Also familiarize with government job portal. The 51 students were present and Feedback Obtained.",
+    //  "EventDate": "28/02/2023",
+    //  "EventTime": "1:00 p.m. to 3:00 p.m.",
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Career Guidance Seminar",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/career Guidance-28-2-2023.pdf"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "ID": 14,
+    //  "Title": "Entrepreneurship Awareness Seminar",
+    //  "Description": "An Entrepreneurship Awareness seminar is designed to introduce students, aspiring entrepreneurs, and professionals to the fundamentals of entrepreneurship. It aims to develop an entrepreneurial mindset, provide insights into the startup ecosystem, and encourage innovation and self-employment. Also inform students about Government initiatives. ",
+    //  "EventDate": "24/12/2021",
+    //  "EventTime": "10.30am  to 12.30pm",
+    //  "CommitteId": 9,
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "Entrepreneurship Awareness Seminar",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/PlacementCell/ENTERPRENIOR-24-12-2021.pdf"
+    //    }
+    //  ]
+    //},
+    {
+        "ID": 15,
+        "Title": "Alumni Meet 2022",
+        "Description": "GEC Patan organized its Alumni Meet 2022, reuniting graduates from various batches to rekindle memories and strengthen professional networks. The event included interactive sessions, sharing of experiences, and cultural programs.",
+        "EventDate": "2022-12-18",
+        "EventTime": "10:00 AM - 4:00 PM",
+        "Year": 2022,
+        "CommitteId": 11,
+        "Images": [
+            "/images/Activities/Alumni_2022/2.jpg",
+            "/images/Activities/Alumni_2022/1.jpg",
+            "/images/Activities/Alumni_2022/3.jpg",
+            "/images/Activities/Alumni_2022/4.jpg",
+            "/images/Activities/Alumni_2022/5.jpg",
+            "/images/Activities/Alumni_2022/6.jpg",
+            "/images/Activities/Alumni_2022/7.jpg",
+            "/images/Activities/Alumni_2022/8.jpg"
+        ],
+        "Files": []
+    },
+    {
+        "ID": 16,
+        "Title": "Alumni Meet 2024",
+        "Description": "The Alumni Meet 2024 at GEC Patan, graced by Chief Guest Dr. H. S. Patel, celebrated lasting bonds and achievements. Highlights included industry discussions, student-alumni interactions, alumni felicitations, and cultural events. The event fostered connection, inspiration, and pride among graduates, students, and faculty, strengthening the GEC Patan community spirit.",
+        "EventDate": "2024-12-23",
+        "EventTime": "11:00 AM - 5:00 PM",
+        "Year": 2024,
+        "CommitteId": 11,
+        "Images": [
 
-      "/images/Activities/Alumni_2024/2.jpg",
-      "/images/Activities/Alumni_2024/1.jpg",
-      "/images/Activities/Alumni_2024/3.jpg",
-      "/images/Activities/Alumni_2024/4.jpg",
-      "/images/Activities/Alumni_2024/5.jpg",
-      "/images/Activities/Alumni_2024/6.jpg",
-      "/images/Activities/Alumni_2024/7.jpg"
-    ],
-    "Files": []
-  },
-  {
-    "ID": 17,
-    "Title": "Alumni Meet 2025",
-    "Description": "The Alumni Meet 2025 at GEC Patan, graced by Chief Guest Dr. K. B. Judal, Principal of GEC Palanpur, focused on connecting alumni across generations. With career mentorship, startup showcases, and tech talks, the event strengthened alumni-institute ties and inspired students through valuable real-world insights and experiences.",
-    "EventDate": "2025-04-05",
-    "EventTime": "10:30 AM - 5:30 PM",
-    "Year": 2025,
-    "CommitteId": 11,
-    "Images": [
-      "/images/Activities/Alumni_2025/1.jpg",
-      "/images/Activities/Alumni_2025/2.jpg",
-      "/images/Activities/Alumni_2025/3.jpg",
-      "/images/Activities/Alumni_2025/4.jpg",
-      "/images/Activities/Alumni_2025/5.jpg",
-      "/images/Activities/Alumni_2025/6.jpg",
-      "/images/Activities/Alumni_2025/7.jpg"
-    ],
-    "Files": []
-  },
-  {
-    "ID": 18,
-    "Title": "PRAGATI 2025",
-    "Description": "PRAGATI 2025, the grand annual cultural fest of GEC Patan, was celebrated with unmatched enthusiasm on 5th April 2025. Featuring vibrant performances, student honors, and a tribute to Indian heritage, the event symbolized unity, talent, and tradition—making it a memorable evening for students, faculty, and alumni alike.",
-    "EventDate": "2025-04-05",
-    "EventTime": "2.00 PM - 5:30 PM",
-    "Year": 2025,
-    "CommitteId": 10,
-    "Images": [
-      "/images/Gymkhana/2.jpg",
-      "/images/Gymkhana/1.jpg",
-      "/images/Gymkhana/3.jpg",
-      "/images/Gymkhana/4.jpg",
-      "/images/Gymkhana/5.jpg",
-      "/images/Gymkhana/6.jpg",
-      "/images/Gymkhana/7.jpg",
-      "/images/Gymkhana/8.jpg",
-      "/images/Gymkhana/9.jpg",
-      "/images/Gymkhana/10.jpg"
-    ],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Pragati 2025",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/PRAGATI_2025_-_Report.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 19,
-    "Title": "THANGHANAAT 2024",
-    "Description": "Thanghanaat 2024 lit up the GEC Patan campus with colors, beats, and unstoppable energy! Held on 9th March, this grand Navratri celebration by the Gymkhana Cultural Committee brought students together in dazzling traditional attire for a night of Garba, joy, and cultural unity. Truly, an unforgettable evening of dance and celebration!",
-    "EventDate": "2024-10-09",
-    "EventTime": "",
-    "Year": 2024,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+            "/images/Activities/Alumni_2024/2.jpg",
+            "/images/Activities/Alumni_2024/1.jpg",
+            "/images/Activities/Alumni_2024/3.jpg",
+            "/images/Activities/Alumni_2024/4.jpg",
+            "/images/Activities/Alumni_2024/5.jpg",
+            "/images/Activities/Alumni_2024/6.jpg",
+            "/images/Activities/Alumni_2024/7.jpg"
+        ],
+        "Files": []
+    },
+    {
+        "ID": 17,
+        "Title": "Alumni Meet 2025",
+        "Description": "The Alumni Meet 2025 at GEC Patan, graced by Chief Guest Dr. K. B. Judal, Principal of GEC Palanpur, focused on connecting alumni across generations. With career mentorship, startup showcases, and tech talks, the event strengthened alumni-institute ties and inspired students through valuable real-world insights and experiences.",
+        "EventDate": "2025-04-05",
+        "EventTime": "10:30 AM - 5:30 PM",
+        "Year": 2025,
+        "CommitteId": 11,
+        "Images": [
+            "/images/Activities/Alumni_2025/1.jpg",
+            "/images/Activities/Alumni_2025/2.jpg",
+            "/images/Activities/Alumni_2025/3.jpg",
+            "/images/Activities/Alumni_2025/4.jpg",
+            "/images/Activities/Alumni_2025/5.jpg",
+            "/images/Activities/Alumni_2025/6.jpg",
+            "/images/Activities/Alumni_2025/7.jpg"
+        ],
+        "Files": []
+    },
+    {
+        "ID": 18,
+        "Title": "PRAGATI 2025",
+        "Description": "PRAGATI 2025, the grand annual cultural fest of GEC Patan, was celebrated with unmatched enthusiasm on 5th April 2025. Featuring vibrant performances, student honors, and a tribute to Indian heritage, the event symbolized unity, talent, and tradition—making it a memorable evening for students, faculty, and alumni alike.",
+        "EventDate": "2025-04-05",
+        "EventTime": "2.00 PM - 5:30 PM",
+        "Year": 2025,
+        "CommitteId": 10,
+        "Images": [
+            "/images/Gymkhana/2.jpg",
+            "/images/Gymkhana/1.jpg",
+            "/images/Gymkhana/3.jpg",
+            "/images/Gymkhana/4.jpg",
+            "/images/Gymkhana/5.jpg",
+            "/images/Gymkhana/6.jpg",
+            "/images/Gymkhana/7.jpg",
+            "/images/Gymkhana/8.jpg",
+            "/images/Gymkhana/9.jpg",
+            "/images/Gymkhana/10.jpg"
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Pragati 2025",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/PRAGATI_2025_-_Report.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 19,
         "Title": "THANGHANAAT 2024",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/Navratri_2024.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 20,
-    "Title": "Personal Development Training Camp 2024",
-    "Description": "Personality Development Camp 2024, organized by GTU from 18th to 21st July at Somnath Sanskrit University, offered GEC Patan students a transformative experience. Through leadership sessions, cultural exchanges, spiritual insights, and talent showcases, the camp nurtured confidence, creativity, and values—shaping future-ready individuals with purpose and positivity.",
-    "EventDate": "2024-07-18",
-    "EventTime": "",
-    "Year": 2024,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "PDTC 2024",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/PDTC_2024.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 21,
-    "Title": "Basic Rock Climbing Camp 2024",
-    "Description": "Basic Rock Climbing Camp 2024, held at SVIM Mount Abu from 16th–25th November, empowered GEC Patan students through adventure and discipline. Organized by GTU, the camp featured expert-led training in trekking, climbing, and survival skills—fostering physical fitness, confidence, and resilience through real-world challenges and team spirit.",
-    "EventDate": "2024-11-16",
-    "EventTime": "",
-    "Year": 2024,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "Thanghanaat 2024 lit up the GEC Patan campus with colors, beats, and unstoppable energy! Held on 9th March, this grand Navratri celebration by the Gymkhana Cultural Committee brought students together in dazzling traditional attire for a night of Garba, joy, and cultural unity. Truly, an unforgettable evening of dance and celebration!",
+        "EventDate": "2024-10-09",
+        "EventTime": "",
+        "Year": 2024,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "THANGHANAAT 2024",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/Navratri_2024.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 20,
+        "Title": "Personal Development Training Camp 2024",
+        "Description": "Personality Development Camp 2024, organized by GTU from 18th to 21st July at Somnath Sanskrit University, offered GEC Patan students a transformative experience. Through leadership sessions, cultural exchanges, spiritual insights, and talent showcases, the camp nurtured confidence, creativity, and values—shaping future-ready individuals with purpose and positivity.",
+        "EventDate": "2024-07-18",
+        "EventTime": "",
+        "Year": 2024,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "PDTC 2024",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/PDTC_2024.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 21,
         "Title": "Basic Rock Climbing Camp 2024",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/PDTC_2024.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 22,
-    "Title": "THANGHANAAT 2023",
-    "Description": "Thanghanaat 2023, GEC Patan’s spirited Navratri celebration, was held on 16th October with energetic Garba, Dandiya, and a soulful Aarti. Students and faculty in traditional attire danced in unity, filling the campus with joy, devotion, and cultural pride—creating a memorable evening of festivity, faith, and togetherness.",
-    "EventDate": "2023-10-16",
-    "EventTime": "",
-    "Year": 2023,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "Basic Rock Climbing Camp 2024, held at SVIM Mount Abu from 16th–25th November, empowered GEC Patan students through adventure and discipline. Organized by GTU, the camp featured expert-led training in trekking, climbing, and survival skills—fostering physical fitness, confidence, and resilience through real-world challenges and team spirit.",
+        "EventDate": "2024-11-16",
+        "EventTime": "",
+        "Year": 2024,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Basic Rock Climbing Camp 2024",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/PDTC_2024.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 22,
         "Title": "THANGHANAAT 2023",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/Navratri_2023.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 23,
-    "Title": "Personality Development Training Camp 2023 ",
-    "Description": "Personality Development Camp 2023, organized by GTU at Somnath Sanskrit University from 7th–10th May, empowered selected GEC Patan students through expert-led sessions on leadership, communication, and career skills. The camp fostered confidence, personal growth, and clarity of purpose—leaving a lasting impact on participants' academic and professional journeys.",
-    "EventDate": "2023-05-07",
-    "EventTime": "",
-    "Year": 2023,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Personality Development Training Camp 2023",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/PDTC_2023.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 24,
-    "Title": "Drama Training Camp 2023",
-    "Description": "Drama Training Camp 2023, organized by GTU from 11th–17th May at Somnath Sanskrit University, gave GEC Patan students immersive exposure to acting, stagecraft, and expression. With expert mentorship and live performances, the camp boosted creativity, confidence, and cultural understanding—shaping students into expressive, confident, and collaborative performers.",
-    "EventDate": "2023-05-11",
-    "EventTime": "",
-    "Year": 2023,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "Thanghanaat 2023, GEC Patan’s spirited Navratri celebration, was held on 16th October with energetic Garba, Dandiya, and a soulful Aarti. Students and faculty in traditional attire danced in unity, filling the campus with joy, devotion, and cultural pride—creating a memorable evening of festivity, faith, and togetherness.",
+        "EventDate": "2023-10-16",
+        "EventTime": "",
+        "Year": 2023,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "THANGHANAAT 2023",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/Navratri_2023.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 23,
+        "Title": "Personality Development Training Camp 2023 ",
+        "Description": "Personality Development Camp 2023, organized by GTU at Somnath Sanskrit University from 7th–10th May, empowered selected GEC Patan students through expert-led sessions on leadership, communication, and career skills. The camp fostered confidence, personal growth, and clarity of purpose—leaving a lasting impact on participants' academic and professional journeys.",
+        "EventDate": "2023-05-07",
+        "EventTime": "",
+        "Year": 2023,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Personality Development Training Camp 2023",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/PDTC_2023.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 24,
         "Title": "Drama Training Camp 2023",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/Drama_TC_2023.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 25,
-    "Title": "Lok Nritya Training Camp 2024 ",
-    "Description": "Lok Nritya Training Camp 2024, held from 21st–27th July at Somnath Sanskrit University, celebrated Gujarat’s vibrant folk traditions. Four GEC Patan students mastered Garba, Raas, Hudo, and more under expert guidance. The camp nurtured cultural pride, artistic expression, and unity—earning praise for their authentic, energetic stage performances.",
-    "EventDate": "2024-07-21",
-    "EventTime": "",
-    "Year": 2024,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "LNTC 2024",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/LNTC_2024.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 26,
-    "Title": "Lok Nritya Training Camp 2023",
-    "Description": "GEC Patan students participated in GTU’s Lok Nritya Training Camp 2023 from April 11–17 at Somnath Sanskrit University, Veraval. The camp offered immersive training in folk dances like Garba and Hudo. Students gained rhythm, stage skills, and deep cultural insights—honoring Gujarat’s rich traditions through joyful learning and vibrant performances.",
-    "EventDate": "2024-04-11",
-    "EventTime": "",
-    "Year": 2023,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "LNTC 2023",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/LNTC_2023.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 27,
-    "Title": "Career Guidance Seminar",
-    "Description": "The Career Guidance Seminar provided students with insights into diverse career paths, higher education opportunities, and industry demands. Expert speakers offered guidance on career planning, competitive exams, and essential skills for professional success.",
-    "EventDate": "February/Sept",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "All Sem",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Career Guidance Seminar Report",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/1. Career Gidance Report.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 28,
-    "Title": "Entrepreneurship Awareness Program",
-    "Description": "The Entrepreneurship Awareness Program encouraged innovation and self-reliance among students. Participants learned about business startup processes, funding opportunities, and entrepreneurial success stories from industry experts and startup founders.",
-    "EventDate": "Jan/Feb",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Pre-Final Year",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Entrepreneurship Awareness Program Report",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/2. Entrepreneurship Awareness Program (2).pdf"
-      }
-    ]
-  },
-  {
-    "ID": 29,
-    "Title": "Mock Interview",
-    "Description": "The Mock Interview sessions simulated real recruitment scenarios, helping students refine their communication, technical, and problem-solving skills. Constructive feedback from experts boosted their confidence for actual job interviews.",
-    "EventDate": "August/April",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Pre-Final Year",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Mock Interview Reports",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/3. Mock Interview Reports.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 30,
-    "Title": "Finishing School",
-    "Description": "The Finishing School program focused on personality development, workplace etiquette, technical skills, and soft skills. It prepared students to transition smoothly from academic life to professional careers.",
-    "EventDate": "Jan/Feb & July/Aug",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Final and Pre-Final Year",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Finishing School Report",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/4. Finishing School Report.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 31,
-    "Title": "Mega Placement Camp",
-    "Description": "The Mega Placement Camp brought together multiple companies on a single platform, offering students a wide range of job opportunities. The event streamlined recruitment processes and increased placement prospects.",
-    "EventDate": "Feb/March",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Final Year",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Placement Camp Reports",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/5. Placement Camp-Reports.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 32,
-    "Title": "Placement Drive",
-    "Description": "The Placement Drive connected students with leading recruiters across various industries. It featured aptitude tests, group discussions, and interview rounds to facilitate campus hiring.",
-    "EventDate": "Sept/Oct",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Final Year",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Placement Drive Report",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/6. Placement Drive.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 33,
-    "Title": "On Campus Placement",
-    "Description": "On Campus Placement activities invited recruiters directly to the college, allowing students to participate in interviews and selection processes without leaving the campus.",
-    "EventDate": "July to Dec",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Final Year & Pass out",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "",
-        "FileType": "",
-        "FilePath": ""
-      }
-    ]
-  },
-  {
-    "ID": 34,
-    "Title": "Off-Campus Placement",
-    "Description": "Off-Campus Placement opportunities connected students with companies recruiting outside the campus. The Placement Cell facilitated participation in these drives to expand career options.",
-    "EventDate": "Year",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Final Year & Pass out",
-    "Files": []
-  },
-  {
-    "ID": 35,
-    "Title": "Civil Services Exam Seminar",
-    "Description": "The Civil Services Exam Seminar guided students on UPSC and GPSC exam preparation strategies, eligibility criteria, and syllabus coverage. Experts shared valuable tips for success in competitive examinations.",
-    "EventDate": "August/Sept",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "Final Year",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Civil Services Exam Seminar Report",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/9. Civil Services Exam Seninar Report.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 36,
-    "Title": "Technical Skill Workshop",
-    "Description": "The Technical Skill Workshop enhanced students’ domain expertise through hands-on training in emerging technologies, programming languages, and industry tools, preparing them for technical job roles.",
-    "EventDate": "Jan/Feb Aug/Sept",
-    "EventTime": "",
-    "CommitteId": 9,
-    "Year": 2025,
-    "TargetStudents": "All semester",
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Technical Workshops Report",
-        "FileType": "PDF",
-        "FilePath": "~/NewPlacementCell/Skill Development.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 4,
-    "Title": "SSIP 2.0 Sensitization Program in Civil",
-    "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Civil Engineering students on 7th August 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about SSIP 2.0, including its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 71 students participated, engaging in discussions on innovation, funding, and team building. The program effectively motivated students to develop innovative solutions, strengthening the college’s innovation ecosystem and encouraging active participation in future SSIP activities.",
-    "EventDate": "07/08/2025",
-    "EventTime": "11:00 am to 12:15 pm",
-    "CommitteId": 2,
-    "TargetStudents": "",
-    "Year": 2025,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "SSIP 2.0 Sensitization Program Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/SSIP/Civil Engineering Sensitization program_07082025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 37,
-    "Title": "SSIP 2.0 Sensitization Program in CSE",
-    "Description": "The SSIP Cell of Government Engineering College, Patan, conducted an SSIP 2.0 Sensitization Program for Computer Science and Engineering students on 5th August 2025. Led by Prof. Harshad L. Chaudhary, the session introduced SSIP 2.0’s vision, objectives, PoC submission process, design thinking, and IPR guidelines. Over 75 students participated actively, engaging in discussions on innovation, funding, and patenting. The program effectively motivated students to transform their ideas into impactful projects, strengthening the innovation culture within the department.",
-    "EventDate": "05/08/2025",
-    "EventTime": "03:30 pm to 04:30 pm",
-    "CommitteId": 2,
-    "TargetStudents": "",
-    "Year": 2025,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "SSIP 2.0 Sensitization Program Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/SSIP/2025_08_08 SSIP SENSITISATION _Report_merge.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 38,
-    "Title": "SSIP 2.0 Sensitization Program",
-    "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Electrical Engineering students on 1st August 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about the Student Startup and Innovation Policy (SSIP) 2.0, covering its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 63 students participated, engaging in discussions on innovation, funding, and team building. The event inspired students to develop innovative solutions and strengthened the college’s innovation ecosystem.",
-    "EventDate": "01/08/2025",
-    "EventTime": "11:30am to 12:45pm",
-    "CommitteId": 2,
-    "TargetStudents": "",
-    "Year": 2025,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "SSIP 2.0 Sensitization Program Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/SSIP/SSIP Awareness _Electrical Engineering 1 August 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 39,
-    "Title": "SSIP 2.0 Sensitization Program in EC",
-    "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Electronics and Communication Engineering students on 31st July 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about SSIP 2.0, covering its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 90 students participated, engaging in discussions on innovation, funding, and team building. The event successfully inspired students to pursue innovative solutions and strengthened the college’s innovation ecosystem.",
-    "EventDate": "31/07/2025",
-    "EventTime": "11:30 am to 12:30 pm",
-    "CommitteId": 2,
-    "TargetStudents": "",
-    "Year": 2025,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "SSIP 2.0 Sensitization Program Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/SSIP/EC Sensitization program--31st July 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 40,
-    "Title": "PoC Presentation 2.0",
-    "Description": "The SSIP Cell of Government Engineering College, Patan, organized PoC Presentation 2.0 on 30th July 2025 to showcase innovative student projects from the Mechanical Engineering Department. Five groups presented their Proof of Concept ideas, focusing on practical, scalable solutions in areas like energy optimization, automation, and sustainable systems. Evaluated by industry experts, the event encouraged innovation, provided valuable feedback, and approved funding of ₹3,00,000 for selected projects under SSIP 2.0, fostering a culture of problem-solving and entrepreneurship among students.",
-    "EventDate": "30/07/2025",
-    "EventTime": "",
-    "CommitteId": 2,
-    "TargetStudents": "",
-    "Year": 2025,
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "PoC Presentation 2.0 Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/SSIP/report poC_merged_30th July 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 41,
-    "Title": "SSIP 2.0 sensitization program",
-    "Description": "The SSIP 2.0 Sensitization Program aims to create COMMITTEE DETAILS awareness among students, faculty, and stakeholders about the Student Startup and Innovation Policy (SSIP) 2.0. This initiative enhances the innovation ecosystem by providing financial, technical, and mentorship support for student-led projects, startups, and research. The program educates participants about funding opportunities, prototyping assistance, and industry collaborations. It also highlights advancements from SSIP 1.0, focusing on scalability, intellectual property rights (IPR), and commercialization. Through workshops, seminars, and interactive sessions, the sensitization program encourages students to actively participate in innovation and entrepreneurship, driving technological progress and self-reliance in Gujarat and beyond. 120 students of First year including all branches have participated in it.",
-    "EventDate": "21/02/2025",
-    "EventTime": "02: 00 pm to 3: 15 pm",
-    "Year": 2025,
-    "CommitteId": 2,
-    "Images": [],
-    "Files": [
+        "Description": "Drama Training Camp 2023, organized by GTU from 11th–17th May at Somnath Sanskrit University, gave GEC Patan students immersive exposure to acting, stagecraft, and expression. With expert mentorship and live performances, the camp boosted creativity, confidence, and cultural understanding—shaping students into expressive, confident, and collaborative performers.",
+        "EventDate": "2023-05-11",
+        "EventTime": "",
+        "Year": 2023,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Drama Training Camp 2023",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/Drama_TC_2023.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 25,
+        "Title": "Lok Nritya Training Camp 2024 ",
+        "Description": "Lok Nritya Training Camp 2024, held from 21st–27th July at Somnath Sanskrit University, celebrated Gujarat’s vibrant folk traditions. Four GEC Patan students mastered Garba, Raas, Hudo, and more under expert guidance. The camp nurtured cultural pride, artistic expression, and unity—earning praise for their authentic, energetic stage performances.",
+        "EventDate": "2024-07-21",
+        "EventTime": "",
+        "Year": 2024,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "LNTC 2024",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/LNTC_2024.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 26,
+        "Title": "Lok Nritya Training Camp 2023",
+        "Description": "GEC Patan students participated in GTU’s Lok Nritya Training Camp 2023 from April 11–17 at Somnath Sanskrit University, Veraval. The camp offered immersive training in folk dances like Garba and Hudo. Students gained rhythm, stage skills, and deep cultural insights—honoring Gujarat’s rich traditions through joyful learning and vibrant performances.",
+        "EventDate": "2024-04-11",
+        "EventTime": "",
+        "Year": 2023,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "LNTC 2023",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/LNTC_2023.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 27,
+        "Title": "Career Guidance Seminar",
+        "Description": "The Career Guidance Seminar provided students with insights into diverse career paths, higher education opportunities, and industry demands. Expert speakers offered guidance on career planning, competitive exams, and essential skills for professional success.",
+        "EventDate": "February/Sept",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "All Sem",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Career Guidance Seminar Report",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/1. Career Gidance Report.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 28,
+        "Title": "Entrepreneurship Awareness Program",
+        "Description": "The Entrepreneurship Awareness Program encouraged innovation and self-reliance among students. Participants learned about business startup processes, funding opportunities, and entrepreneurial success stories from industry experts and startup founders.",
+        "EventDate": "Jan/Feb",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Pre-Final Year",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Entrepreneurship Awareness Program Report",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/2. Entrepreneurship Awareness Program (2).pdf"
+            }
+        ]
+    },
+    {
+        "ID": 29,
+        "Title": "Mock Interview",
+        "Description": "The Mock Interview sessions simulated real recruitment scenarios, helping students refine their communication, technical, and problem-solving skills. Constructive feedback from experts boosted their confidence for actual job interviews.",
+        "EventDate": "August/April",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Pre-Final Year",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Mock Interview Reports",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/3. Mock Interview Reports.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 30,
+        "Title": "Finishing School",
+        "Description": "The Finishing School program focused on personality development, workplace etiquette, technical skills, and soft skills. It prepared students to transition smoothly from academic life to professional careers.",
+        "EventDate": "Jan/Feb & July/Aug",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Final and Pre-Final Year",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Finishing School Report",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/4. Finishing School Report.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 31,
+        "Title": "Mega Placement Camp",
+        "Description": "The Mega Placement Camp brought together multiple companies on a single platform, offering students a wide range of job opportunities. The event streamlined recruitment processes and increased placement prospects.",
+        "EventDate": "Feb/March",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Final Year",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Placement Camp Reports",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/5. Placement Camp-Reports.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 32,
+        "Title": "Placement Drive",
+        "Description": "The Placement Drive connected students with leading recruiters across various industries. It featured aptitude tests, group discussions, and interview rounds to facilitate campus hiring.",
+        "EventDate": "Sept/Oct",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Final Year",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Placement Drive Report",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/6. Placement Drive.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 33,
+        "Title": "On Campus Placement",
+        "Description": "On Campus Placement activities invited recruiters directly to the college, allowing students to participate in interviews and selection processes without leaving the campus.",
+        "EventDate": "July to Dec",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Final Year & Pass out",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "",
+                "FileType": "",
+                "FilePath": ""
+            }
+        ]
+    },
+    {
+        "ID": 34,
+        "Title": "Off-Campus Placement",
+        "Description": "Off-Campus Placement opportunities connected students with companies recruiting outside the campus. The Placement Cell facilitated participation in these drives to expand career options.",
+        "EventDate": "Year",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Final Year & Pass out",
+        "Files": []
+    },
+    {
+        "ID": 35,
+        "Title": "Civil Services Exam Seminar",
+        "Description": "The Civil Services Exam Seminar guided students on UPSC and GPSC exam preparation strategies, eligibility criteria, and syllabus coverage. Experts shared valuable tips for success in competitive examinations.",
+        "EventDate": "August/Sept",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "Final Year",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Civil Services Exam Seminar Report",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/9. Civil Services Exam Seninar Report.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 36,
+        "Title": "Technical Skill Workshop",
+        "Description": "The Technical Skill Workshop enhanced students’ domain expertise through hands-on training in emerging technologies, programming languages, and industry tools, preparing them for technical job roles.",
+        "EventDate": "Jan/Feb Aug/Sept",
+        "EventTime": "",
+        "CommitteId": 9,
+        "Year": 2025,
+        "TargetStudents": "All semester",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Technical Workshops Report",
+                "FileType": "PDF",
+                "FilePath": "~/NewPlacementCell/Skill Development.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 4,
+        "Title": "SSIP 2.0 Sensitization Program in Civil",
+        "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Civil Engineering students on 7th August 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about SSIP 2.0, including its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 71 students participated, engaging in discussions on innovation, funding, and team building. The program effectively motivated students to develop innovative solutions, strengthening the college’s innovation ecosystem and encouraging active participation in future SSIP activities.",
+        "EventDate": "07/08/2025",
+        "EventTime": "11:00 am to 12:15 pm",
+        "CommitteId": 2,
+        "TargetStudents": "",
+        "Year": 2025,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "SSIP 2.0 Sensitization Program Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/SSIP/Civil Engineering Sensitization program_07082025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 37,
+        "Title": "SSIP 2.0 Sensitization Program in CSE",
+        "Description": "The SSIP Cell of Government Engineering College, Patan, conducted an SSIP 2.0 Sensitization Program for Computer Science and Engineering students on 5th August 2025. Led by Prof. Harshad L. Chaudhary, the session introduced SSIP 2.0’s vision, objectives, PoC submission process, design thinking, and IPR guidelines. Over 75 students participated actively, engaging in discussions on innovation, funding, and patenting. The program effectively motivated students to transform their ideas into impactful projects, strengthening the innovation culture within the department.",
+        "EventDate": "05/08/2025",
+        "EventTime": "03:30 pm to 04:30 pm",
+        "CommitteId": 2,
+        "TargetStudents": "",
+        "Year": 2025,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "SSIP 2.0 Sensitization Program Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/SSIP/2025_08_08 SSIP SENSITISATION _Report_merge.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 38,
+        "Title": "SSIP 2.0 Sensitization Program",
+        "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Electrical Engineering students on 1st August 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about the Student Startup and Innovation Policy (SSIP) 2.0, covering its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 63 students participated, engaging in discussions on innovation, funding, and team building. The event inspired students to develop innovative solutions and strengthened the college’s innovation ecosystem.",
+        "EventDate": "01/08/2025",
+        "EventTime": "11:30am to 12:45pm",
+        "CommitteId": 2,
+        "TargetStudents": "",
+        "Year": 2025,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "SSIP 2.0 Sensitization Program Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/SSIP/SSIP Awareness _Electrical Engineering 1 August 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 39,
+        "Title": "SSIP 2.0 Sensitization Program in EC",
+        "Description": "The SSIP Cell of Government Engineering College, Patan, organized an SSIP 2.0 Sensitization Program for Electronics and Communication Engineering students on 31st July 2025. Conducted by Dr. Hitesh Panchal, the session aimed to raise awareness about SSIP 2.0, covering its objectives, eligibility, PoC preparation, design thinking, and IPR processes. Over 90 students participated, engaging in discussions on innovation, funding, and team building. The event successfully inspired students to pursue innovative solutions and strengthened the college’s innovation ecosystem.",
+        "EventDate": "31/07/2025",
+        "EventTime": "11:30 am to 12:30 pm",
+        "CommitteId": 2,
+        "TargetStudents": "",
+        "Year": 2025,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "SSIP 2.0 Sensitization Program Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/SSIP/EC Sensitization program--31st July 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 40,
+        "Title": "PoC Presentation 2.0",
+        "Description": "The SSIP Cell of Government Engineering College, Patan, organized PoC Presentation 2.0 on 30th July 2025 to showcase innovative student projects from the Mechanical Engineering Department. Five groups presented their Proof of Concept ideas, focusing on practical, scalable solutions in areas like energy optimization, automation, and sustainable systems. Evaluated by industry experts, the event encouraged innovation, provided valuable feedback, and approved funding of ₹3,00,000 for selected projects under SSIP 2.0, fostering a culture of problem-solving and entrepreneurship among students.",
+        "EventDate": "30/07/2025",
+        "EventTime": "",
+        "CommitteId": 2,
+        "TargetStudents": "",
+        "Year": 2025,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "PoC Presentation 2.0 Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/SSIP/report poC_merged_30th July 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 41,
+        "Title": "SSIP 2.0 sensitization program",
+        "Description": "The SSIP 2.0 Sensitization Program aims to create COMMITTEE DETAILS awareness among students, faculty, and stakeholders about the Student Startup and Innovation Policy (SSIP) 2.0. This initiative enhances the innovation ecosystem by providing financial, technical, and mentorship support for student-led projects, startups, and research. The program educates participants about funding opportunities, prototyping assistance, and industry collaborations. It also highlights advancements from SSIP 1.0, focusing on scalability, intellectual property rights (IPR), and commercialization. Through workshops, seminars, and interactive sessions, the sensitization program encourages students to actively participate in innovation and entrepreneurship, driving technological progress and self-reliance in Gujarat and beyond. 120 students of First year including all branches have participated in it.",
+        "EventDate": "21/02/2025",
+        "EventTime": "02: 00 pm to 3: 15 pm",
+        "Year": 2025,
+        "CommitteId": 2,
+        "Images": [],
+        "Files": [
 
-    ]
-  },
-  {
-    "ID": 42,
-    "Title": "Manushya Gaurav Diwas 2025 Celebration",
-    "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
-    "EventDate": "19/10/2025",
-    "EventTime": "11: 30 a.m. to 12: 30 p.m.",
-    "Year": 2025,
-    "CommitteId": 12,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Maushya Gaurav Diwas Report 2025 Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_1.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 43,
-    "Title": "International Happiness Day Celebration",
-    "Description": "In celebration of International Happiness Day 2025, we organized vibrant group discussions to explore the multifaceted nature of joy and well-being. Participants engaged in meaningful dialogue regarding mental health, positive psychology, and the art of finding happiness in daily life. The interactive sessions fostered a sense of community, allowing individuals to share personal insights and collective strategies for a more fulfilling life.",
-    "EventDate": "20/03/2025",
-    "EventTime": "03: 15 p.m. to 04: 30 p.m.",
-    "Year": 2025,
-    "CommitteId": 12,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "International Happiness Day 2025 Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_2.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 44,
-    "Title": "Manushya Gaurav Diwas 2024 Celebration",
-    "Description": "Commemorating the profound spirit of human dignity, 'Manushya Gaurav Diwas 2024' was celebrated with great enthusiasm at the Electrical Seminar Hall. The event brought together students and faculty to reflect on the values of self-respect, universal brotherhood, and the divine potential within every individual. Through inspiring speeches and interactive sessions, the gathering reinforced the importance of uplifting society through mutual respect and spiritual oneness.",
-    "EventDate": "19/10/2024",
-    "EventTime": "10: 30 a.m. to 12: 30 p.m.",
-    "Year": 2025,
-    "CommitteId": 12,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Manushya Gaurav Diwas 2024 Report",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_3.pdf"
-      }
-    ]
-  },
-  //{
-  //  "ID": 45,
-  //  "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
-  //  "Description": "Awareness & Preparation Strategy for UPSC and GPSC Examinations conducted by Training & Placement Cell, Government Engineering College, Patan.",
-  //  "EventDate": "20/08/2025",
-  //  "EventTime": "2 Hrs",
-  //  "CommitteId": 9,
-  //  "Year": 2025,
-  //  "TargetStudents": "Pre final & Final Year - All Branch",
-  //  "Files": [
-  //    {
-  //      "ID": 1,
-  //      "Title": "GPSC-UPSC Event Report 2025-26",
-  //      "FileType": "PDF",
-  //      "FilePath": "~/NewPlacementCell/GPSC-UPSC_Event_Report-2025-26.pdf"
-  //    }
-  //  ]
-  //}
-  {
-    "ID": 46,
-    "Title": "An industrial visit was organized at BISAG, Gandhinagar, to provide practical exposure to students of Semester V and Semester VII.",
-    "Description": "An Industrial Visit to BISAG-N was organized on 14 October 2025 for EC students to provide industry exposure in advanced communication technologies. Students learned about satellite communication, GIS, remote sensing, and live broadcasting systems through expert interactions and demonstrations. The visit helped students relate theoretical concepts to real-world applications and enhanced their understanding of government-level ICT, geospatial technologies, and emerging digital solutions.",
-    "EventDate": "14/10/2025",
-    "EventTime": "",
-    "Year": 2025,
-    "DeptID": 1,
-    "Images": [
-      "/images/Activities/EC/Industrial Visit 2025/IMG1.jpg",
-      "/images/Activities/EC/Industrial Visit 2025/IMG2.jpg",
-      "/images/Activities/EC/Industrial Visit 2025/IMG3.jpg",
-      "/images/Activities/EC/Industrial Visit 2025/IMG4.jpg",
-      "/images/Activities/EC/Industrial Visit 2025/IMG5.jpg",
-      "/images/Activities/EC/Industrial Visit 2025/IMG6.jpg",
-      "/images/Activities/EC/Industrial Visit 2025/IMG7.jpg"
-    ],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Industrial Visit Report 2025",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2025/Industrial Visit report.pdf"
-      }
+        ]
+    },
+    {
+        "ID": 42,
+        "Title": "Manushya Gaurav Diwas 2025 Celebration",
+        "Description": "Celebrating the essence of human dignity and universal brotherhood, we observed 'Manushya Gaurav Diwas 2025' via a virtual gathering on Google Meet. The session focused on the philosophy of the 'Indwelling God,' encouraging participants to recognize the divine within themselves and others. Despite the digital medium, the event fostered a strong sense of unity and spiritual introspection among all attendees.",
+        "EventDate": "19/10/2025",
+        "EventTime": "11: 30 a.m. to 12: 30 p.m.",
+        "Year": 2025,
+        "CommitteId": 12,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Maushya Gaurav Diwas Report 2025 Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_1.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 43,
+        "Title": "International Happiness Day Celebration",
+        "Description": "In celebration of International Happiness Day 2025, we organized vibrant group discussions to explore the multifaceted nature of joy and well-being. Participants engaged in meaningful dialogue regarding mental health, positive psychology, and the art of finding happiness in daily life. The interactive sessions fostered a sense of community, allowing individuals to share personal insights and collective strategies for a more fulfilling life.",
+        "EventDate": "20/03/2025",
+        "EventTime": "03: 15 p.m. to 04: 30 p.m.",
+        "Year": 2025,
+        "CommitteId": 12,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "International Happiness Day 2025 Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_2.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 44,
+        "Title": "Manushya Gaurav Diwas 2024 Celebration",
+        "Description": "Commemorating the profound spirit of human dignity, 'Manushya Gaurav Diwas 2024' was celebrated with great enthusiasm at the Electrical Seminar Hall. The event brought together students and faculty to reflect on the values of self-respect, universal brotherhood, and the divine potential within every individual. Through inspiring speeches and interactive sessions, the gathering reinforced the importance of uplifting society through mutual respect and spiritual oneness.",
+        "EventDate": "19/10/2024",
+        "EventTime": "10: 30 a.m. to 12: 30 p.m.",
+        "Year": 2025,
+        "CommitteId": 12,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Manushya Gaurav Diwas 2024 Report",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/Psychology/PC_Report_3.pdf"
+            }
+        ]
+    },
+    //{
+    //  "ID": 45,
+    //  "Title": "GPSC-UPSC Exam Awareness Event Report-2025-26",
+    //  "Description": "Awareness & Preparation Strategy for UPSC and GPSC Examinations conducted by Training & Placement Cell, Government Engineering College, Patan.",
+    //  "EventDate": "20/08/2025",
+    //  "EventTime": "2 Hrs",
+    //  "CommitteId": 9,
+    //  "Year": 2025,
+    //  "TargetStudents": "Pre final & Final Year - All Branch",
+    //  "Files": [
+    //    {
+    //      "ID": 1,
+    //      "Title": "GPSC-UPSC Event Report 2025-26",
+    //      "FileType": "PDF",
+    //      "FilePath": "~/NewPlacementCell/GPSC-UPSC_Event_Report-2025-26.pdf"
+    //    }
+    //  ]
+    //}
+    {
+        "ID": 46,
+        "Title": "An industrial visit was organized at BISAG, Gandhinagar, to provide practical exposure to students of Semester V and Semester VII.",
+        "Description": "An Industrial Visit to BISAG-N was organized on 14 October 2025 for EC students to provide industry exposure in advanced communication technologies. Students learned about satellite communication, GIS, remote sensing, and live broadcasting systems through expert interactions and demonstrations. The visit helped students relate theoretical concepts to real-world applications and enhanced their understanding of government-level ICT, geospatial technologies, and emerging digital solutions.",
+        "EventDate": "14/10/2025",
+        "EventTime": "",
+        "Year": 2025,
+        "DeptID": 1,
+        "Images": [
+            "/images/Activities/EC/Industrial Visit 2025/IMG1.jpg",
+            "/images/Activities/EC/Industrial Visit 2025/IMG2.jpg",
+            "/images/Activities/EC/Industrial Visit 2025/IMG3.jpg",
+            "/images/Activities/EC/Industrial Visit 2025/IMG4.jpg",
+            "/images/Activities/EC/Industrial Visit 2025/IMG5.jpg",
+            "/images/Activities/EC/Industrial Visit 2025/IMG6.jpg",
+            "/images/Activities/EC/Industrial Visit 2025/IMG7.jpg"
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Industrial Visit Report 2025",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/EC/2025/Industrial Visit report.pdf"
+            }
 
-    ]
-  },
+        ]
+    },
 
-  {
-    "ID": 47,
-    "Title": "Bridging Theory and Practice: EC Students Showcase Innovation at Project Presentation 2025",
-    "Description": "A Project Presentation was organized on 25 November 2025 for second-year EC students to strengthen practical learning and innovation. Students presented mini projects using hardware models, breadboard circuits, and software demonstrations, explaining design, working principles, and applications. Faculty members evaluated projects through interactions and technical discussions. The activity enhanced problem-solving ability, teamwork, technical communication skills, and supported outcome-based education and continuous assessment practices.",
-    "EventDate": "25/11/2025",
-    "EventTime": "11:00 A.M. ",
-    "Year": 2025,
-    "DeptID": 1,
-    "Images": [
-      "/images/Activities/EC/Project Presentation 2025/IMG1.jpg",
-      "/images/Activities/EC/Project Presentation 2025/IMG2.jpg",
-      "/images/Activities/EC/Project Presentation 2025/IMG3.jpg",
-      "/images/Activities/EC/Project Presentation 2025/IMG4.jpg",
-      "/images/Activities/EC/Project Presentation 2025/IMG5.jpg",
-      "/images/Activities/EC/Project Presentation 2025/IMG6.jpg"
-    ],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Project Presentation Report 2025",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2025/Report_of_Project_presentation.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 48,
-    "Title": "Poster presentation activity was arranged for students of semester 3 of Electronics and communication engineering branch on 25th november to enhance their presentation and technical skills.",
-    "Description": "A Poster Presentation on Network Theory was organized on 25 November 2025 for Semester III ECE students. Participants presented key syllabus concepts using posters and engaged in discussions with faculty, enhancing conceptual understanding, technical communication, and presentation skills as part of continuous course assessment.",
-    "EventDate": "25/11/2025",
-    "EventTime": "",
-    "Year": 2025,
-    "DeptID": 1,
-    "Images": [
-      "/images/Activities/EC/Poster Presentation 2025/IMG1.jpg",
-      "/images/Activities/EC/Poster Presentation 2025/IMG2.jpg",
-      "/images/Activities/EC/Poster Presentation 2025/IMG3.jpg",
-      "/images/Activities/EC/Poster Presentation 2025/IMG4.jpg"
-    ],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Poster Presentation Report 2025",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2025/Report_of_Poster_Presentation.pdf"
-      }
+    {
+        "ID": 47,
+        "Title": "Bridging Theory and Practice: EC Students Showcase Innovation at Project Presentation 2025",
+        "Description": "A Project Presentation was organized on 25 November 2025 for second-year EC students to strengthen practical learning and innovation. Students presented mini projects using hardware models, breadboard circuits, and software demonstrations, explaining design, working principles, and applications. Faculty members evaluated projects through interactions and technical discussions. The activity enhanced problem-solving ability, teamwork, technical communication skills, and supported outcome-based education and continuous assessment practices.",
+        "EventDate": "25/11/2025",
+        "EventTime": "11:00 A.M. ",
+        "Year": 2025,
+        "DeptID": 1,
+        "Images": [
+            "/images/Activities/EC/Project Presentation 2025/IMG1.jpg",
+            "/images/Activities/EC/Project Presentation 2025/IMG2.jpg",
+            "/images/Activities/EC/Project Presentation 2025/IMG3.jpg",
+            "/images/Activities/EC/Project Presentation 2025/IMG4.jpg",
+            "/images/Activities/EC/Project Presentation 2025/IMG5.jpg",
+            "/images/Activities/EC/Project Presentation 2025/IMG6.jpg"
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Project Presentation Report 2025",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/EC/2025/Report_of_Project_presentation.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 48,
+        "Title": "Poster presentation activity was arranged for students of semester 3 of Electronics and communication engineering branch on 25th november to enhance their presentation and technical skills.",
+        "Description": "A Poster Presentation on Network Theory was organized on 25 November 2025 for Semester III ECE students. Participants presented key syllabus concepts using posters and engaged in discussions with faculty, enhancing conceptual understanding, technical communication, and presentation skills as part of continuous course assessment.",
+        "EventDate": "25/11/2025",
+        "EventTime": "",
+        "Year": 2025,
+        "DeptID": 1,
+        "Images": [
+            "/images/Activities/EC/Poster Presentation 2025/IMG1.jpg",
+            "/images/Activities/EC/Poster Presentation 2025/IMG2.jpg",
+            "/images/Activities/EC/Poster Presentation 2025/IMG3.jpg",
+            "/images/Activities/EC/Poster Presentation 2025/IMG4.jpg"
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Poster Presentation Report 2025",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/EC/2025/Report_of_Poster_Presentation.pdf"
+            }
 
-    ]
-  },
-  {
-    "ID": 49,
-    "Title": "THANGHANAAT 2025",
-    "Description": "Thanghanaat 2025 lit up the GEC Patan campus with colors, beats, and unstoppable energy! Held on 9th March, this grand Navratri celebration by the Gymkhana Cultural Committee brought students together in dazzling traditional attire for a night of Garba, joy, and cultural unity. Truly, an unforgettable evening of dance and celebration!",
-    "EventDate": "2025-09-24",
-    "EventTime": "",
-    "Year": 2025,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        ]
+    },
+    {
+        "ID": 49,
         "Title": "THANGHANAAT 2025",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/14 Navratri 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 50,
-    "Title": "Music Training Camp 2025",
-    "Description": "The Music Training Camp 2025, organized by GTU, provided students of GEC Patan an enriching opportunity to explore Gujarati Lokgeet and traditional music. Held at Somnath Sanskrit University, the camp focused on vocal techniques, rhythm, expression, and cultural heritage, nurturing musical talent and cultural pride.",
-    "EventDate": "2025-08-22",
-    "EventTime": "",
-    "Year": 2025,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "Thanghanaat 2025 lit up the GEC Patan campus with colors, beats, and unstoppable energy! Held on 9th March, this grand Navratri celebration by the Gymkhana Cultural Committee brought students together in dazzling traditional attire for a night of Garba, joy, and cultural unity. Truly, an unforgettable evening of dance and celebration!",
+        "EventDate": "2025-09-24",
+        "EventTime": "",
+        "Year": 2025,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "THANGHANAAT 2025",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/14 Navratri 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 50,
         "Title": "Music Training Camp 2025",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/12 MTC 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 51,
-    "Title": "Personality Development Training Camp 2025",
-    "Description": "The Personality Development Training Camp 2025 aimed at enhancing leadership, communication, and confidence among students. Conducted at Somnath Sanskrit University, the camp included youth parliament sessions, expert talks, team activities, and field visits, fostering holistic personal and professional growth.",
-    "EventDate": "2025-08-19",
-    "EventTime": "",
-    "Year": 2025,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The Music Training Camp 2025, organized by GTU, provided students of GEC Patan an enriching opportunity to explore Gujarati Lokgeet and traditional music. Held at Somnath Sanskrit University, the camp focused on vocal techniques, rhythm, expression, and cultural heritage, nurturing musical talent and cultural pride.",
+        "EventDate": "2025-08-22",
+        "EventTime": "",
+        "Year": 2025,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Music Training Camp 2025",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/12 MTC 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 51,
         "Title": "Personality Development Training Camp 2025",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/11 PDTC 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 52,
-    "Title": "Drama Training Camp 2025",
-    "Description": "The Drama Training Camp 2025 offered GEC Patan students intensive exposure to theatre and acting. Organized by GTU, the camp emphasized acting fundamentals, voice modulation, stage presence, and character building under expert guidance, boosting creativity, confidence, and artistic expression.",
-    "EventDate": "2025-09-07",
-    "EventTime": "",
-    "Year": 2025,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The Personality Development Training Camp 2025 aimed at enhancing leadership, communication, and confidence among students. Conducted at Somnath Sanskrit University, the camp included youth parliament sessions, expert talks, team activities, and field visits, fostering holistic personal and professional growth.",
+        "EventDate": "2025-08-19",
+        "EventTime": "",
+        "Year": 2025,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Personality Development Training Camp 2025",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/11 PDTC 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 52,
         "Title": "Drama Training Camp 2025",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/10 DTC 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 53,
-    "Title": "Lok Nritya Training Camp 2025",
-    "Description": "The Lok Nritya Training Camp 2025 immersed students in Gujarat’s rich folk dance traditions. Held at Somnath Sanskrit University, the camp covered Garba, Raas, Tippani, and other folk forms, focusing on rhythm, expression, teamwork, and cultural understanding through expert-led workshops and performances.",
-    "EventDate": "2025-09-01",
-    "EventTime": "",
-    "Year": 2025,
-    "CommitteId": 10,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The Drama Training Camp 2025 offered GEC Patan students intensive exposure to theatre and acting. Organized by GTU, the camp emphasized acting fundamentals, voice modulation, stage presence, and character building under expert guidance, boosting creativity, confidence, and artistic expression.",
+        "EventDate": "2025-09-07",
+        "EventTime": "",
+        "Year": 2025,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Drama Training Camp 2025",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/10 DTC 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 53,
         "Title": "Lok Nritya Training Camp 2025",
-        "FileType": "PDF",
-        "FilePath": "~/Gymkhana/13 LNTC 2025.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 54,
-    "Title": "Women Health and Hygiene Seminar 2025",
-    "Description": "The Women Development Cell organized a seminar on Women Health and Hygiene to create awareness about menstrual health, hygiene practices, and reproductive well-being. The session provided a safe space for students to discuss menstruation, PCOD/PCOS, and health management, promoting informed and stigma-free conversations.",
-    "EventDate": "2025-09-04",
-    "EventTime": "",
-    "Year": 2025,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Women Health and Hygiene",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/8_lecture on health and hygiene_WDC.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 55,
-    "Title": "Women Health Awareness & Open Discussion",
-    "Description": "The Women Health Awareness and Open Discussion program focused on educating women about gynecological health, preventive care, cancer awareness, and mental well-being. Led by a medical expert, the interactive session encouraged open dialogue, addressed myths, and empowered participants to prioritize their health.",
-    "EventDate": "2025-02-19",
-    "EventTime": "03:00 PM",
-    "Year": 2025,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The Lok Nritya Training Camp 2025 immersed students in Gujarat’s rich folk dance traditions. Held at Somnath Sanskrit University, the camp covered Garba, Raas, Tippani, and other folk forms, focusing on rhythm, expression, teamwork, and cultural understanding through expert-led workshops and performances.",
+        "EventDate": "2025-09-01",
+        "EventTime": "",
+        "Year": 2025,
+        "CommitteId": 10,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Lok Nritya Training Camp 2025",
+                "FileType": "PDF",
+                "FilePath": "~/Gymkhana/13 LNTC 2025.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 54,
+        "Title": "Women Health and Hygiene Seminar 2025",
+        "Description": "The Women Development Cell organized a seminar on Women Health and Hygiene to create awareness about menstrual health, hygiene practices, and reproductive well-being. The session provided a safe space for students to discuss menstruation, PCOD/PCOS, and health management, promoting informed and stigma-free conversations.",
+        "EventDate": "2025-09-04",
+        "EventTime": "",
+        "Year": 2025,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Women Health and Hygiene",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/8_lecture on health and hygiene_WDC.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 55,
         "Title": "Women Health Awareness & Open Discussion",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/7_Women Health awerness and open discussion.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 56,
-    "Title": "Talk Show on Lakhpati Didi",
-    "Description": "As part of Viksit Bharat Week, the Women Development Cell organized a Talk Show on the Lakhpati Didi initiative. The session highlighted women empowerment through government schemes and featured an inspiring real-life journey, motivating students towards entrepreneurship, innovation, and financial independence.",
-    "EventDate": "2024-10-14",
-    "EventTime": "10:30 AM – 12:30 PM",
-    "Year": 2024,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Lakhpati Didi Talk Show",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/6_Lakhpati Didi - WDC.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 57,
-    "Title": "International Women’s Day Celebration",
-    "Description": "The International Women’s Day Celebration was organized to honor women’s achievements and promote gender equality. Through motivational talks, cultural activities, and student-led programs, the event fostered confidence, leadership, and awareness about the vital role of women in society.",
-    "EventDate": "2024-03-07",
-    "EventTime": "03:00 PM – 05:00 PM",
-    "Year": 2024,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The Women Health Awareness and Open Discussion program focused on educating women about gynecological health, preventive care, cancer awareness, and mental well-being. Led by a medical expert, the interactive session encouraged open dialogue, addressed myths, and empowered participants to prioritize their health.",
+        "EventDate": "2025-02-19",
+        "EventTime": "03:00 PM",
+        "Year": 2025,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Women Health Awareness & Open Discussion",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/7_Women Health awerness and open discussion.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 56,
+        "Title": "Talk Show on Lakhpati Didi",
+        "Description": "As part of Viksit Bharat Week, the Women Development Cell organized a Talk Show on the Lakhpati Didi initiative. The session highlighted women empowerment through government schemes and featured an inspiring real-life journey, motivating students towards entrepreneurship, innovation, and financial independence.",
+        "EventDate": "2024-10-14",
+        "EventTime": "10:30 AM – 12:30 PM",
+        "Year": 2024,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Lakhpati Didi Talk Show",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/6_Lakhpati Didi - WDC.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 57,
         "Title": "International Women’s Day Celebration",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/5_Women's Day - WDC.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 58,
-    "Title": "Women Entrepreneurship and Self Development",
-    "Description": "This seminar aimed to inspire women towards entrepreneurship and self-development by building confidence, leadership, and innovative thinking. Participants learned about government schemes, entrepreneurial skills, and real-world strategies to transform ideas into impactful ventures.",
-    "EventDate": "2023-03-14",
-    "EventTime": "02:00 PM – 04:00 PM",
-    "Year": 2023,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The International Women’s Day Celebration was organized to honor women’s achievements and promote gender equality. Through motivational talks, cultural activities, and student-led programs, the event fostered confidence, leadership, and awareness about the vital role of women in society.",
+        "EventDate": "2024-03-07",
+        "EventTime": "03:00 PM – 05:00 PM",
+        "Year": 2024,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "International Women’s Day Celebration",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/5_Women's Day - WDC.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 58,
         "Title": "Women Entrepreneurship and Self Development",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/3_Women Entrepreneurship - WDC.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 59,
-    "Title": "Breast Cancer Diagnosis and Awareness",
-    "Description": "The Breast Cancer Awareness program focused on early detection, self-examination, and breaking myths related to breast cancer. The seminar empowered students with practical knowledge, emphasized preventive healthcare, and encouraged them to spread awareness within their communities.",
-    "EventDate": "2023-10-16",
-    "EventTime": "11:30 AM – 01:00 PM",
-    "Year": 2023,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Breast Cancer Awareness",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/4_Breast Cancer Awareness - WDC.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 60,
-    "Title": "Domestic Violence Act 2005 Awareness & SHE Team Session",
-    "Description": "An awareness program was conducted on the Domestic Violence Act, 2005, along with information on SHE Team services and the 181 Abhayam Helpline. The session educated students about legal rights, safety mechanisms, and emergency support systems for women.",
-    "EventDate": "2022-08-01",
-    "EventTime": "11:00 AM – 01:00 PM",
-    "Year": 2022,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
-        "Title": "Domestic Violence Act Awareness",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/2_ઘરેલુ હિંસા અધિનિયમ-૨૦૦૫ અન્વયે જાગૃતતા-WDC.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 61,
-    "Title": "HIV Awareness Program",
-    "Description": "The HIV Awareness Program aimed to educate students about HIV/AIDS, its prevention, symptoms, and social stigma. Experts shared medical insights and real-life experiences, promoting empathy, responsible behavior, and preventive health practices among students.",
-    "EventDate": "2021-11-29",
-    "EventTime": "10:30 AM – 12:30 PM",
-    "Year": 2021,
-    "CommitteId": 1,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "This seminar aimed to inspire women towards entrepreneurship and self-development by building confidence, leadership, and innovative thinking. Participants learned about government schemes, entrepreneurial skills, and real-world strategies to transform ideas into impactful ventures.",
+        "EventDate": "2023-03-14",
+        "EventTime": "02:00 PM – 04:00 PM",
+        "Year": 2023,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Women Entrepreneurship and Self Development",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/3_Women Entrepreneurship - WDC.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 59,
+        "Title": "Breast Cancer Diagnosis and Awareness",
+        "Description": "The Breast Cancer Awareness program focused on early detection, self-examination, and breaking myths related to breast cancer. The seminar empowered students with practical knowledge, emphasized preventive healthcare, and encouraged them to spread awareness within their communities.",
+        "EventDate": "2023-10-16",
+        "EventTime": "11:30 AM – 01:00 PM",
+        "Year": 2023,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Breast Cancer Awareness",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/4_Breast Cancer Awareness - WDC.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 60,
+        "Title": "Domestic Violence Act 2005 Awareness & SHE Team Session",
+        "Description": "An awareness program was conducted on the Domestic Violence Act, 2005, along with information on SHE Team services and the 181 Abhayam Helpline. The session educated students about legal rights, safety mechanisms, and emergency support systems for women.",
+        "EventDate": "2022-08-01",
+        "EventTime": "11:00 AM – 01:00 PM",
+        "Year": 2022,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Domestic Violence Act Awareness",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/2_ઘરેલુ હિંસા અધિનિયમ-૨૦૦૫ અન્વયે જાગૃતતા-WDC.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 61,
         "Title": "HIV Awareness Program",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/WDC/1_HIV_Awareness_Program.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 62,
-    "Title": "Mental Health Awareness Seminar",
-    "Description": "The Psychology Cell of GEC Patan, in collaboration with NSS, organized a Mental Health Awareness Seminar to promote emotional well-being and mental resilience among students. The session focused on stress management, self-awareness, emotional balance, and the importance of seeking help, encouraging open conversations around mental health.",
-    "EventDate": "2025-12-16",
-    "EventTime": "02:00 PM – 03:00 PM",
-    "Year": 2025,
-    "CommitteId": 12,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The HIV Awareness Program aimed to educate students about HIV/AIDS, its prevention, symptoms, and social stigma. Experts shared medical insights and real-life experiences, promoting empathy, responsible behavior, and preventive health practices among students.",
+        "EventDate": "2021-11-29",
+        "EventTime": "10:30 AM – 12:30 PM",
+        "Year": 2021,
+        "CommitteId": 1,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "HIV Awareness Program",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/WDC/1_HIV_Awareness_Program.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 62,
         "Title": "Mental Health Awareness Seminar",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/Psychology/MENTAL_HEALTH_Report.pdf"
-      }
-    ]
-  },
-  {
-    "ID": 63,
-    "Title": "National Youth Day – Swami Vivekananda Jayanti",
-    "Description": "On the occasion of National Youth Day, a special session was conducted to commemorate Swami Vivekananda Jayanti. The programme emphasized youth empowerment, character building, self-confidence, and leadership, inspiring students to adopt Swami Vivekananda’s ideals in their personal and professional lives.",
-    "EventDate": "2026-01-12",
-    "EventTime": "03:00 PM – 04:00 PM",
-    "Year": 2026,
-    "CommitteId": 12,
-    "Images": [],
-    "Files": [
-      {
-        "ID": 1,
+        "Description": "The Psychology Cell of GEC Patan, in collaboration with NSS, organized a Mental Health Awareness Seminar to promote emotional well-being and mental resilience among students. The session focused on stress management, self-awareness, emotional balance, and the importance of seeking help, encouraging open conversations around mental health.",
+        "EventDate": "2025-12-16",
+        "EventTime": "02:00 PM – 03:00 PM",
+        "Year": 2025,
+        "CommitteId": 12,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Mental Health Awareness Seminar",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/Psychology/MENTAL_HEALTH_Report.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 63,
         "Title": "National Youth Day – Swami Vivekananda Jayanti",
-        "FileType": "PDF",
-        "FilePath": "~/DataFiles/CampusCommittees/Psychology/YOUTH_DAY_REPORT.pdf"
-      }
-    ]
-  }
+        "Description": "On the occasion of National Youth Day, a special session was conducted to commemorate Swami Vivekananda Jayanti. The programme emphasized youth empowerment, character building, self-confidence, and leadership, inspiring students to adopt Swami Vivekananda’s ideals in their personal and professional lives.",
+        "EventDate": "2026-01-12",
+        "EventTime": "03:00 PM – 04:00 PM",
+        "Year": 2026,
+        "CommitteId": 12,
+        "Images": [],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "National Youth Day – Swami Vivekananda Jayanti",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/CampusCommittees/Psychology/YOUTH_DAY_REPORT.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 64,
+        "Title": "GDG on Campus Orientation Session",
+        "Description": "Google Developer Groups(GDG) intro session started with our mentor Khushali Raval welcoming everyone and talking about why joining developer communities matters. The core team then showed how big GDG is worldwide and how students of G.E.C. Patan can tap into tech-related activities. We talked about building connections with industry professionals and other tech-loving students. We were introduced to some helpful Google tools. The session concluded with students asking lots of questions about GDG activities and technical skills. The whole event got first-year students excited to become a part of our GDG family.",
+        "EventDate": "11/09/2024",
+        "ClubId": 1,
+        "DeptID": 2,
+        "Year": 2024,
+        "EventTime": "03:00 p.m. to 5:00 p.m.",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Orientation Session",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Orientation Session.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 65,
+        "Title": "Unlocking the Future with Machine Learning",
+        "Description": "Mr. Sumit Chawla led an AI/ML workshop which was organised in collaboration with four universities-ITM SLS Baroda University, Karnavati University, Marwadi University, and Birla Vishwakarma University. AI/ML fundamentals with their real-world applications were introduced. The session emphasized the importance of hands-on experience and practical implementation. Career opportunities, skill development strategies and open-source contributions were also discussed. The workshop concluded with an interactive Q&A session that offered expert insights to participants.",
+        "EventDate": "09/11/2024",
+        "ClubId": 1,
+        "DeptID": 2,
+        "Year": 2024,
+        "EventTime": "05:00 p.m. ",
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "AI/ML Workshop",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/StudentClub/GDG/AI_ML_Workshop.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 66,
+        "Title": "Basics of Git-Github & Linux",
+        "Description": "The workshop on Basics of Git, GitHub, and Linux by Kuber Jaydeep at GDG on campus covered Git commands like git init, git add, git commit, git push, and git pull for version control and branching. It explained GitHub’s role in storing and collaborating on code through pull requests and branch management. The Linux section covered basic commands like ls, cd, mkdir, rm, and chmod, along with package management using apt-get and text editing with nano and vim. The workshop highlighted how Git, GitHub, and Linux streamline development and collaboration.",
+        "EventDate": "14/12/2024",
+        "EventTime": "05:00 p.m. to 7:00 p.m.",
+        "Year": 2024,
+        "ClubId": 1,
+        "DeptID": 2,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Git, GitHub and Linux",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Git_Github_and_Linux.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 67,
+        "Title": "Tech Winter Break",
+        "Description": "The workshop on Web Development conducted by Yogesh Vasisth at GDG on campus covered the basics of building websites and web applications. It introduced HTML for structuring web pages, CSS for styling, and JavaScript for adding interactivity. Key concepts like responsive design, the DOM (Document Object Model), and event handling were discussed. The session also touched on modern frameworks and libraries like React for building dynamic user interfaces and managing state. Best practices for performance optimization, accessibility, and cross-browser compatibility were highlighted, providing a solid foundation for developing modern web applications.",
+        "EventDate": "30/12/2024",
+        "Year": 2024,
+        "EventTime": "05:00 p.m. to 7:00 p.m.",
+        "ClubId": 1,
+        "DeptID": 2,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Tech Winter Break",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Tech_Winter_Break.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 68,
+        "Title": "Introduction to Robotics",
+        "Description": "The workshop on Introduction to Robotics conducted by Krish Patel at GDG on campus covered the fundamental concepts of robotics, including the design, programming, and control of robots. It introduced key components such as sensors, actuators, and microcontrollers, explaining how they work together to enable robotic movement and interaction with the environment. The session discussed different types of robots, including autonomous and remote-controlled models, and explored programming techniques used to control robotic behavior. Practical examples and demonstrations helped illustrate how to build and program simple robots, providing a solid foundation for further exploration in the field of robotics.",
+        "EventDate": "03/02/2025",
+        "EventTime": "03:00 p.m. to 5:00 p.m.",
+        "ClubId": 1,
+        "Year": 2025,
+        "DeptID": 2,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Robotics Workshop",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Robotics_Workshop.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 69,
+        "Title": "Dive into Java Development",
+        "Description": "The 2-day Java Bootcamp conducted by Kunal Awasthi at GDG on campus covered the fundamentals of Java programming, focusing on both theory and practical applications. It started with the basics of Java syntax, data types, and control structures, followed by object-oriented programming (OOP) concepts like classes, objects, inheritance, polymorphism, and encapsulation. The bootcamp also introduced exception handling, file handling, and Java collections such as lists, sets, and maps. Participants worked on hands-on coding exercises and small projects to reinforce their understanding. The session concluded with best practices for writing efficient Java code and tips for solving common programming challenges.",
+        "EventDate": "",
+        "EventTime": "",
+        "ClubId": 1,
+        "Year": 2025,
+        "DeptID": 2,
+        "Files": []
+    },
+    {
+        "ID": 70,
+        "Title": "Inaugural Function of VLSI Club",
+        "Description": "The Electronics and Communication Engineering Department of Government Engineering College, Patan organized the VLSI Club Opening Ceremony on 15th October 2025. The event began with the formal inauguration of the club by Principal Dr. B. J. Shah, along with Dr. A. B. Dhruv (Professor, Mechanical Engineering) and Dr. D. H. Patel (Head of the Electronics and Communication Engineering Department). The VLSI Club was established with the objective of strengthening students’ technical competencies in the field of Very Large-Scale Integration (VLSI). The Faculty Coordinator, Prof. M. L. Patel, addressed the gathering and presented the vision, mission, and scope of the VLSI Club. During the session, the importance of VLSI technology in modern electronics was highlighted, especially its applications in semiconductor chip design, embedded systems, Artificial Intelligence hardware, and the Internet of Things (IoT).",
+        "Year": 2025,
+        "EventDate": "15/10/2025",
+        "EventTime": "03:30 p.m.",
+        "ClubId": 3,
+        "DeptID": 1,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Inaugural Function of VLSI Club",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/VLSI/Report-VLSI Club.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 71,
+        "Title": "Sanchar Saathi Seminar",
+        "Description": "The Electronics and Communication Engineering Department of Government Engineering College, Patan organized a seminar on “Sanchar Saathi – A Citizen-Centric Telecom Security Initiative” on 21/01/2026 to spread awareness about telecom security and digital safety among students. The seminar focused on introducing the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. The key objectives of the initiative, including protecting citizens from telecom fraud, improving transparency in mobile connections, and promoting responsible digital practices, were explained in detail. During the session, important services such as Chakshu for reporting fraudulent calls and messages, blocking lost or stolen mobile phones using IMEI numbers, verifying mobile connections, and identifying suspicious international calls were discussed. Students were also guided on how to access and use these services through the web portal and mobile application. The seminar emphasized the role of citizens in maintaining a secure telecom ecosystem by actively reporting suspicious activities and staying informed about digital threats. The event concluded with enthusiastic student participation and a positive response, making the session informative and impactful.",
+        "Year": 2026,
+        "EventDate": "21/01/2026",
+        "EventTime": "11:30 a.m. to 12:30 p.m.",
+        "ClubId": 4,
+        "DeptID": 1,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Sanchar Saathi Seminar",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi3.pdf"
+            }
+        ]
+    },
+
+    {
+        "ID": 72,
+        "Title": "Sanchar Saathi Seminar",
+        "Description": "A seminar on “Sanchar Saathi – A Citizen-Centric Telecom Security Initiative” was conducted for Semester 3 students of the Electronics and Communication Engineering Department to promote awareness about telecom security and digital safety. The session focused on educating students about cyber threats, telecom fraud, and responsible mobile usage. Students were introduced to the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. Key services such as reporting fraud through Chakshu, blocking lost or stolen mobile phones using IMEI numbers, verifying SIM connections, and identifying suspicious calls were explained using practical examples. The seminar encouraged students to stay alert, adopt safe digital practices, and actively contribute to preventing telecom fraud. The session received positive participation and helped strengthen students’ understanding of cybersecurity and telecom safety.",
+        "Year": 2025,
+        "EventDate": "20/12/2025",
+        "EventTime": "01:30 p.m.",
+        "ClubId": 4,
+        "DeptID": 1,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Sanchar Saathi Seminar",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi2.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 73,
+        "Title": "Sanchar Saathi Seminar",
+        "Description": "An awareness program on Sanchar Saathi – a citizen-centric telecom security initiative was conducted at Katpur Village on the Patan–Mehsana Highway to educate village elders and youngsters about cybersecurity and telecom safety. The program focused on creating awareness about digital fraud, safe mobile usage, and the importance of protecting personal information. Participants were introduced to the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. Key services such as reporting fraud through Chakshu, blocking lost or stolen mobile phones using IMEI numbers, verifying SIM connections, and identifying suspicious calls were explained in simple and practical terms. The session encouraged villagers to remain alert, report suspicious activities, and adopt responsible digital practices. The initiative received positive participation from the community and contributed to improving cybersecurity awareness in the rural area.",
+        "Year": 2025,
+        "EventDate": "26/09/2025",
+        "EventTime": "12:30 p.m.",
+        "ClubId": 4,
+        "DeptID": 1,
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "Sanchar Saathi Seminar",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi1.pdf"
+            }
+        ]
+    }
 ]
 

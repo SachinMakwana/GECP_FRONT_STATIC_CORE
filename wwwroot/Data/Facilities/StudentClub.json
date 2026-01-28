@@ -216,89 +216,7 @@
       ],
 
       "Activities": [
-        {
-          "ID": 1,
-          "Title": "GDG on Campus Orientation Session",
-          "Description": "Google Developer Groups(GDG) intro session started with our mentor Khushali Raval welcoming everyone and talking about why joining developer communities matters. The core team then showed how big GDG is worldwide and how students of G.E.C. Patan can tap into tech-related activities. We talked about building connections with industry professionals and other tech-loving students. We were introduced to some helpful Google tools. The session concluded with students asking lots of questions about GDG activities and technical skills. The whole event got first-year students excited to become a part of our GDG family.",
-          "EventDate": "11/09/2024",
-          "EventTime": "03:00 p.m. to 5:00 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Orientation Session",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Orientation Session.pdf"
-            }
-          ]
-        },
-        {
-          "ID": 2,
-          "Title": "Unlocking the Future with Machine Learning",
-          "Description": "Mr. Sumit Chawla led an AI/ML workshop which was organised in collaboration with four universities-ITM SLS Baroda University, Karnavati University, Marwadi University, and Birla Vishwakarma University. AI/ML fundamentals with their real-world applications were introduced. The session emphasized the importance of hands-on experience and practical implementation. Career opportunities, skill development strategies and open-source contributions were also discussed. The workshop concluded with an interactive Q&A session that offered expert insights to participants.",
-          "EventDate": "09/11/2024",
-          "EventTime": "05:00 p.m. ",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "AI/ML Workshop",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/AI_ML_Workshop.pdf"
-            }
-          ]
-        },
-        {
-          "ID": 3,
-          "Title": "Basics of Git-Github & Linux",
-          "Description": "The workshop on Basics of Git, GitHub, and Linux by Kuber Jaydeep at GDG on campus covered Git commands like git init, git add, git commit, git push, and git pull for version control and branching. It explained GitHub’s role in storing and collaborating on code through pull requests and branch management. The Linux section covered basic commands like ls, cd, mkdir, rm, and chmod, along with package management using apt-get and text editing with nano and vim. The workshop highlighted how Git, GitHub, and Linux streamline development and collaboration.",
-          "EventDate": "14/12/2024",
-          "EventTime": "05:00 p.m. to 7:00 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Git, GitHub and Linux",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Git_Github_and_Linux.pdf"
-            }
-          ]
-        },
-        {
-          "ID": 4,
-          "Title": "Tech Winter Break",
-          "Description": "The workshop on Web Development conducted by Yogesh Vasisth at GDG on campus covered the basics of building websites and web applications. It introduced HTML for structuring web pages, CSS for styling, and JavaScript for adding interactivity. Key concepts like responsive design, the DOM (Document Object Model), and event handling were discussed. The session also touched on modern frameworks and libraries like React for building dynamic user interfaces and managing state. Best practices for performance optimization, accessibility, and cross-browser compatibility were highlighted, providing a solid foundation for developing modern web applications.",
-          "EventDate": "30/12/2024",
-          "EventTime": "05:00 p.m. to 7:00 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Tech Winter Break",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Tech_Winter_Break.pdf"
-            }
-          ]
-        },
-        {
-          "ID": 5,
-          "Title": "Introduction to Robotics",
-          "Description": "The workshop on Introduction to Robotics conducted by Krish Patel at GDG on campus covered the fundamental concepts of robotics, including the design, programming, and control of robots. It introduced key components such as sensors, actuators, and microcontrollers, explaining how they work together to enable robotic movement and interaction with the environment. The session discussed different types of robots, including autonomous and remote-controlled models, and explored programming techniques used to control robotic behavior. Practical examples and demonstrations helped illustrate how to build and program simple robots, providing a solid foundation for further exploration in the field of robotics.",
-          "EventDate": "03/02/2025",
-          "EventTime": "03:00 p.m. to 5:00 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Robotics Workshop",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/StudentClub/GDG/Robotics_Workshop.pdf"
-            }
-          ]
-        },
-        {
-          "ID": 6,
-          "Title": "Dive into Java Development",
-          "Description": "The 2-day Java Bootcamp conducted by Kunal Awasthi at GDG on campus covered the fundamentals of Java programming, focusing on both theory and practical applications. It started with the basics of Java syntax, data types, and control structures, followed by object-oriented programming (OOP) concepts like classes, objects, inheritance, polymorphism, and encapsulation. The bootcamp also introduced exception handling, file handling, and Java collections such as lists, sets, and maps. Participants worked on hands-on coding exercises and small projects to reinforce their understanding. The session concluded with best practices for writing efficient Java code and tips for solving common programming challenges.",
-          "EventDate": "",
-          "EventTime": "",
-          "Files": []
-        }
+       
       ],
       "IsDynamic": false
     },
@@ -397,21 +315,7 @@
       "BlogLink": "",
       "Images": [],
       "Activities": [
-        {
-          "ID": 1,
-          "Title": "Inaugural Function of VLSI Club",
-          "Description": "The Electronics and Communication Engineering Department of Government Engineering College, Patan organized the VLSI Club Opening Ceremony on 15th October 2025. The event began with the formal inauguration of the club by Principal Dr. B. J. Shah, along with Dr. A. B. Dhruv (Professor, Mechanical Engineering) and Dr. D. H. Patel (Head of the Electronics and Communication Engineering Department). The VLSI Club was established with the objective of strengthening students’ technical competencies in the field of Very Large-Scale Integration (VLSI). The Faculty Coordinator, Prof. M. L. Patel, addressed the gathering and presented the vision, mission, and scope of the VLSI Club. During the session, the importance of VLSI technology in modern electronics was highlighted, especially its applications in semiconductor chip design, embedded systems, Artificial Intelligence hardware, and the Internet of Things (IoT).",
-          "EventDate": "15/10/2025",
-          "EventTime": "03:30 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Inaugural Function of VLSI Club",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/VLSI/Report-VLSI Club.pdf"
-            }
-          ]
-        }
+       
       ],
       "IsDynamic": false,
       "Members": [
@@ -496,52 +400,7 @@
       "BlogLink": "",
       "Images": [],
       "Activities": [
-        {
-          "ID": 1,
-          "Title": "Sanchar Saathi Seminar",
-          "Description": "The Electronics and Communication Engineering Department of Government Engineering College, Patan organized a seminar on “Sanchar Saathi – A Citizen-Centric Telecom Security Initiative” on 21/01/2026 to spread awareness about telecom security and digital safety among students. The seminar focused on introducing the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. The key objectives of the initiative, including protecting citizens from telecom fraud, improving transparency in mobile connections, and promoting responsible digital practices, were explained in detail. During the session, important services such as Chakshu for reporting fraudulent calls and messages, blocking lost or stolen mobile phones using IMEI numbers, verifying mobile connections, and identifying suspicious international calls were discussed. Students were also guided on how to access and use these services through the web portal and mobile application. The seminar emphasized the role of citizens in maintaining a secure telecom ecosystem by actively reporting suspicious activities and staying informed about digital threats. The event concluded with enthusiastic student participation and a positive response, making the session informative and impactful.",
-          "EventDate": "21/01/2026",
-          "EventTime": "11:30 a.m. to 12:30 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Sanchar Saathi Seminar",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi3.pdf"
-            }
-          ]
-        },
-
-        {
-          "ID": 2,
-          "Title": "Sanchar Saathi Seminar",
-          "Description": "A seminar on “Sanchar Saathi – A Citizen-Centric Telecom Security Initiative” was conducted for Semester 3 students of the Electronics and Communication Engineering Department to promote awareness about telecom security and digital safety. The session focused on educating students about cyber threats, telecom fraud, and responsible mobile usage. Students were introduced to the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. Key services such as reporting fraud through Chakshu, blocking lost or stolen mobile phones using IMEI numbers, verifying SIM connections, and identifying suspicious calls were explained using practical examples. The seminar encouraged students to stay alert, adopt safe digital practices, and actively contribute to preventing telecom fraud. The session received positive participation and helped strengthen students’ understanding of cybersecurity and telecom safety.",
-          "EventDate": "20/12/2025",
-          "EventTime": "01:30 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Sanchar Saathi Seminar",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi2.pdf"
-            }
-          ]
-        },
-        {
-          "ID": 3,
-          "Title": "Sanchar Saathi Seminar",
-          "Description": "An awareness program on Sanchar Saathi – a citizen-centric telecom security initiative was conducted at Katpur Village on the Patan–Mehsana Highway to educate village elders and youngsters about cybersecurity and telecom safety. The program focused on creating awareness about digital fraud, safe mobile usage, and the importance of protecting personal information. Participants were introduced to the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. Key services such as reporting fraud through Chakshu, blocking lost or stolen mobile phones using IMEI numbers, verifying SIM connections, and identifying suspicious calls were explained in simple and practical terms. The session encouraged villagers to remain alert, report suspicious activities, and adopt responsible digital practices. The initiative received positive participation from the community and contributed to improving cybersecurity awareness in the rural area.",
-          "EventDate": "26/09/2025",
-          "EventTime": "12:30 p.m.",
-          "Files": [
-            {
-              "ID": 1,
-              "Title": "Sanchar Saathi Seminar",
-              "FileType": "PDF",
-              "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi1.pdf"
-            }
-          ]
-        }
+      
       ],
       "IsDynamic": false,
       "Members": [
