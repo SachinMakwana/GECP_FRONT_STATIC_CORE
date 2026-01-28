@@ -1124,6 +1124,26 @@
         "FilePath": "~/DataFiles/CampusCommittees/Psychology/YOUTH_DAY_REPORT.pdf"
       }
     ]
+  },
+  {
+    "ID": 64,
+    "Title": "MOOC Sensitization And Registration",
+    "Description": "The Electronics and Communication Engineering Department organized a sensitization and registration program on 19th January 2026 for every-year students to highlight the importance and benefits of Massive Open Online Courses (MOOCs). The program aimed to familiarize students with various online learning platforms and resources available for enhancing their academic and professional skills. Dr. Haresh Judal delivered a presentation on the Guidelines for Implementation of MOOCs w.e.f. Academic Year 2025–26 as published by GTU, while Prof. Roshni Chaudhari discussed the list of MOOC and GTU-offered courses available for students of different engineering branches.",
+    "EventDate": "19/01/2026",
+    "EventTime": "",
+    "Year": 2026,
+    "DeptID": 1,
+    "Images": [
+      
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "MOOC Sensitization And Registration",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/mooc pdf.pdf"
+      }
+    ]
   }
 ]
 
