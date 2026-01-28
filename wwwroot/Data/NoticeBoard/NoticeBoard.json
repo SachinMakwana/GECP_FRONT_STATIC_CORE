@@ -1,0 +1,25 @@
+﻿[
+  {
+    "ID": 1,
+    "Title": "Investor Awareness Program for Financial Literacy and Commodity Market Awareness",
+    "Description": "The Investor Awareness Program for Financial Literacy and Commodity Market Awareness, held on 11th November 2025, aims to equip participants with essential knowledge of financial planning, smart investing, and the commodity market. The session is led by Mr. Aashish Shah, a reputed finance professional and experienced trainer known for his expertise in financial markets. The program is designed to enhance financial awareness and help attendees make informed financial decisions.",
+    "EventDate": "11/11/2025",
+    "EventTime": "10:30 a.m. to 12:30 p.m.",
+    "Year": 2025,
+    "DeptID": 4,
+    "ActionName": "DepartmentDetails",
+    "ControllerName": "Department",
+    "PageID": 2,
+    "Images": [
+
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "",
+        "FileType": "",
+        "FilePath": ""
+      }
+    ]
+  }
+]
