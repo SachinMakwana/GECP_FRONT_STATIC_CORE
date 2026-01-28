@@ -19,7 +19,6 @@ namespace GECP_Front_End_Static.Controllers
 		public List<AchievementsVM> AchievementsVM = new List<AchievementsVM>();
 		public AchievementsWrapperVM achievementsWrapperVM = new AchievementsWrapperVM();
         public List<CommitteeActivity> ActivitiesVM = new List<CommitteeActivity>();
-        public List<CommitteeActivity> NoticeBoardVM = new List<CommitteeActivity>();
         public DepartmentController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -52,11 +51,6 @@ namespace GECP_Front_End_Static.Controllers
             json = webClient.DownloadString(jsonpath);
             ActivitiesVM = JsonConvert.DeserializeObject<List<CommitteeActivity>>(json);
 
-            jsonpath = webRootPath + @"\Data\NoticeBoard\NoticeBoard.json";
-            webClient = new WebClient();
-            json = webClient.DownloadString(jsonpath);
-            NoticeBoardVM = JsonConvert.DeserializeObject<List<CommitteeActivity>>(json);
-
         }
 
         public IActionResult DepartmentDetails(int id=0)
@@ -68,7 +62,6 @@ namespace GECP_Front_End_Static.Controllers
                 data.FacultyList = FacultyData.Where(m => m.Dept_ID == id).OrderBy(m => m.ID).ToList();
                 data.Achievements = achievementsWrapperVM.Achievements.Where(m => m.DeptID == id).OrderByDescending(m =>m.Date.Replace("/", "-")).ToList();
                 data.Activities = ActivitiesVM.Where(m => m.DeptID == id).OrderBy(m => m.ID).ToList();
-                data.NoticeBoard = NoticeBoardVM.Where(m => m.DeptID == id).OrderBy(m => m.ID).ToList();
                 //data.Labs = LabsData.Where(m => m.Dept_ID == id).OrderBy(m => m.LabID).ToList(); // Use Dept_ID
             }
 
