@@ -1,4 +1,5 @@
-﻿@model GECP_Front_End_Static.Models.HomePageModelVM
+﻿@using System.Globalization
+@model GECP_Front_End_Static.Models.HomePageModelVM
 @{
     ViewData["Title"] = "Home Page";
     int newscount = Model.newsModelVM.Count();
@@ -126,7 +127,11 @@
                                 }
                                 else
                                 {
-                                    foreach (var item in Model.activitymarqueeModelVM.Where(m => m.Year == currentYear).OrderByDescending(m => Convert.ToDateTime(m.EventDate)).ToList())
+                                    foreach (var item in Model.activitymarqueeModelVM.Where(m => m.Year == currentYear).OrderByDescending(m => DateTime.ParseExact(
+							m.EventDate,
+							"dd-MM-yyyy",
+							CultureInfo.InvariantCulture
+							)).ToList())
                                     {
                                         
                                         if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
