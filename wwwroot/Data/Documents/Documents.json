@@ -154,62 +154,70 @@
       {
         "Year": "",
         "Documents": [
-          {
-            "ID": 1,
-            "Title": "Important Campus Committees",
-            "FileType": "PDF",
-            "File": "~/ImpDocs/1 to 5 Grievance_anti_ragging_DEC_2024.pdf",
-            "isShow": true,
-            "UploadDate": "10/12/2024"
-          },
-          {
-            "ID": 2,
-            "Title": "Mandatory Disclosure",
-            "FileType": "PDF",
-            "File": "~/ImpDocs/15 Mandatory Disclosure_F_compressed.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          },
-          {
-            "ID": 3,
-            "Title": "NIRF India Ranking 2024 Details",
-            "FileType": "PDF",
-            "File": "~/ImpDocs/GOVERNMENT ENGINEERING COLLEGE, AT.KATPUR, PATAN20240228-.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          },
-          {
-            "ID": 4,
-            "Title": "Aicte Extension of Approval till 2025-26",
-            "File": "~/ImpDocs/Aicte Extension of Approval till 2025-26.pdf",
-            "FileType": "PDF",
-            "isShow": true,
-            "UploadDate": "30-06-2025"
-          },
-          {
-            "ID": 5,
-            "Title": "GSIRF 2024 Details",
-            "FileType": "PDF",
-            "File": "~/ImpDocs/Engineering Summary_2024.pdf",
-            "isShow": true,
-            "UploadDate": "10/12/2024"
-          },
-          {
-            "ID": 6,
-            "Title": "Governance",
-            "FileType": "PDF",
-            "File": "~/ImpDocs/Goverence.pdf",
-            "isShow": true,
-            "UploadDate": "10/12/2024"
-          },
-          {
-            "ID": 7,
-            "Title": "Financial Data",
-            "FileType": "PDF",
-            "File": "~/ImpDocs/Financial_Data.pdf",
-            "isShow": true,
-            "UploadDate": "13-08-2025" //"16/04/2025"//"12/03/2025"
-          }
+            {
+                "ID": 1,
+                "Title": "Important Campus Committees",
+                "FileType": "PDF",
+                "File": "~/ImpDocs/1 to 5 Grievance_anti_ragging_DEC_2024.pdf",
+                "isShow": true,
+                "UploadDate": "10/12/2024"
+            },
+            {
+                "ID": 2,
+                "Title": "Mandatory Disclosure",
+                "FileType": "PDF",
+                "File": "~/ImpDocs/15 Mandatory Disclosure_F_compressed.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            },
+            {
+                "ID": 3,
+                "Title": "NIRF India Ranking 2024 Details",
+                "FileType": "PDF",
+                "File": "~/ImpDocs/GOVERNMENT ENGINEERING COLLEGE, AT.KATPUR, PATAN20240228-.pdf",
+                "isShow": true,
+                "UploadDate": ""
+            },
+            {
+                "ID": 4,
+                "Title": "Aicte Extension of Approval till 2025-26",
+                "File": "~/ImpDocs/Aicte Extension of Approval till 2025-26.pdf",
+                "FileType": "PDF",
+                "isShow": true,
+                "UploadDate": "29-01-2026"//"30-06-2025"
+            },
+            {
+                "ID": 5,
+                "Title": "GTU Affiliation Approval till 2025-26",
+                "File": "~/ImpDocs/GTU Affiliation Approval till 2025-26.pdf",
+                "FileType": "PDF",
+                "isShow": true,
+                "UploadDate": "30-06-2025"
+            },
+            {
+                "ID": 6,
+                "Title": "GSIRF 2024 Details",
+                "FileType": "PDF",
+                "File": "~/ImpDocs/Engineering Summary_2024.pdf",
+                "isShow": true,
+                "UploadDate": "10/12/2024"
+            },
+            {
+                "ID": 7,
+                "Title": "Governance",
+                "FileType": "PDF",
+                "File": "~/ImpDocs/Goverence.pdf",
+                "isShow": true,
+                "UploadDate": "10/12/2024"
+            },
+            {
+                "ID": 8,
+                "Title": "Financial Data",
+                "FileType": "PDF",
+                "File": "~/ImpDocs/Financial_Data.pdf",
+                "isShow": true,
+                "UploadDate": "13-08-2025" //"16/04/2025"//"12/03/2025"
+            }
         ]
       }
     ]

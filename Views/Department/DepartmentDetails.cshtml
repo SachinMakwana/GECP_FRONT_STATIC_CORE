@@ -693,11 +693,11 @@
         <div class="client_logos3 animate fadeIn" data-anim-type="fadeIn" data-anim-delay="300">
             <ul>
                 @{
-                    count = 0;  // Declare count variable inside this block separately
+                    count = 1;  // Declare count variable inside this block separately
                 }
                 @foreach (var item in Model.NewsLetter)
                 {
-                    <li class="minheight">
+                    <li class="minheight @(count%5==0?"last":"")">
                         <a href="javascript:void(0)" onclick="loadPdf('@item.File','@item.Title')">
                             <i class="fa fa-file-pdf-o fabig" aria-hidden="true"></i>
                             @item.Title

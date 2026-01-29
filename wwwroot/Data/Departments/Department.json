@@ -488,7 +488,7 @@
         "NoticeBoard": [
 
         ],
-        "NewsLetter" [
+        "NewsLetter": [
             {
                 "ID": 1,
                 "Title": "Torque Talk (2021-22)",
@@ -499,30 +499,6 @@
             },
             {
                 "ID": 2,
-                "Title": "Torque Talk (Jan- June 2023)",
-                "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2023).pdf",
-                "isShow": true,
-                "UploadDate": "12-08-2025"
-            },
-            {
-                "ID": 3,
-                "Title": "Torque Talk (Jan- June 2024)",
-                "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2024).pdf",
-                "isShow": true,
-                "UploadDate": "12-08-2025"
-            },
-            {
-                "ID": 4,
-                "Title": "Torque Talk (Jan- June 2025)",
-                "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2025).pdf",
-                "isShow": true,
-                "UploadDate": "12-08-2025"
-            },
-            {
-                "ID": 5,
                 "Title": "Torque Talk (July- Dec 2022)",
                 "FileType": "PDF",
                 "File": "~/Data/Newsletter/Torque Talk (July- Dec 2022).pdf",
@@ -530,7 +506,15 @@
                 "UploadDate": "12-08-2025"
             },
             {
-                "ID": 6,
+                "ID": 3,
+                "Title": "Torque Talk (Jan- June 2023)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2023).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 4,
                 "Title": "Torque Talk (July- Dec 2023)",
                 "FileType": "PDF",
                 "File": "~/Data/Newsletter/Torque Talk (July- Dec 2023).pdf",
@@ -538,13 +522,31 @@
                 "UploadDate": "12-08-2025"
             },
             {
-                "ID": 7,
+                "ID": 5,
+                "Title": "Torque Talk (Jan- June 2024)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2024).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+
+            {
+                "ID": 6,
                 "Title": "Torque Talk (July- Dec 2024)",
                 "FileType": "PDF",
                 "File": "~/Data/Newsletter/Torque Talk (July- Dec 2024).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
+            {
+                "ID": 7,
+                "Title": "Torque Talk (Jan- June 2025)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2025).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+
             {
                 "ID": 8,
                 "Title": "Torque Talk (July-Dec 2025)",

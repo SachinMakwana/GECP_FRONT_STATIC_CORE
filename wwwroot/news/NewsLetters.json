@@ -1,121 +1,128 @@
 [
-  {
-    "ID": 1,
-    "Title": "JULY TO SEPTEMBER 2021",
-    "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021.pdf",
-    "download_name": "July_Sept_2021",
-    "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021-01.jpg"
-  },
-  {
-    "ID": 2,
-    "Title": "OCTOBER TO DECEMBER 2021",
-    "File": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021.pdf",
-    "download_name": "Oct_Dec_2021",
-    "Thumb": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021-01.jpg"
-  },
-  {
-    "ID": 3,
-    "Title": "JANUARY TO MARCH 2022",
-    "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2022.pdf",
-    "download_name": "JAN_MAR_2021",
-    "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2022-01.jpg"
-  },
-  {
-    "ID": 4,
-    "Title": "APRIL TO JUNE 2022",
-    "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2022.pdf",
-    "download_name": "JAN_MAR_2022",
-    "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2022-01.jpg"
-  },
-  {
-    "ID": 5,
-    "Title": "JULY TO SEPTEMBER 2022",
-    "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022.pdf",
-    "download_name": "July_Sept_2022",
-    "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022-01.jpg"
-  },
-  {
-    "ID": 6,
-    "Title": "OCTOBER TO DECEMBER 2022",
-    "File": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022.pdf",
-    "download_name": "Oct_Dec_2022",
-    "Thumb": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022-01.jpg"
-  },
-  {
-    "ID": 7,
-    "Title": "JANUARY TO MARCH 2023",
-    "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2023.pdf",
-    "download_name": "JAN_MAR_2023",
-    "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2023-01.jpg"
-  },
-  {
-    "ID": 8,
-    "Title": "APRIL TO JUNE 2023",
-    "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2023.pdf",
-    "download_name": "JAN_MAR_2023",
-    "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2023-01.jpg"
-  },
-  {
-    "ID": 9,
-    "Title": "JULY TO SEPTEMBER 2023",
-    "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2023.pdf",
-    "download_name": "July_Sept_2023",
-    "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2023-01.jpg"
-  },
-  {
-    "ID": 10,
-    "Title": "OCTOBER TO DECEMBER 2023",
-    "File": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2023.pdf",
-    "download_name": "Oct_Dec_2023",
-    "Thumb": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2023-01.jpg"
-  },
-  {
-    "ID": 11,
-    "Title": "JANUARY TO MARCH 2024",
-    "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2024.pdf",
-    "download_name": "JAN_MAR_2024",
-    "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2024-01.jpg"
-  },
-  {
-    "ID": 12,
-    "Title": "APRIL TO JUNE 2024",
-    "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2024.pdf",
-    "download_name": "JAN_MAR_2024",
-    "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2024-01.jpg"
-  },
-  {
-    "ID": 13,
-    "Title": "JULY TO SEPTEMBER 2024",
-    "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2024.pdf",
-    "download_name": "July_Sept_2024",
-    "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2024-01.jpg"
-  },
-  {
-    "ID": 14,
-    "Title": "OCTOBER TO DECEMBER 2024",
-    "File": "~/news/NEWSLETTER GEC PATAN  OCT-DEC  2024.pdf",
-    "download_name": "Oct_Dec_2024",
-    "Thumb": "~/news/NEWSLETTER GEC PATAN  OCT-DEC  2024.PNG"
-  },
-  {
-    "ID": 15,
-    "Title": "JANUARY TO MARCH 2025",
-    "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2025.pdf",
-    "download_name": "Jan_Mar_2025",
-    "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2025.PNG"
-  },
-  {
-    "ID": 16,
-    "Title": "APRIL TO JUNE 2025",
-    "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2025.pdf",
-    "download_name": "April_June_2025",
-    "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2025-01.jpg"
-  },
-  {
-    "ID": 17,
-    "Title": "JULY TO SEPTEMBER 2025",
-    "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2025.pdf",
-    "download_name": "July_Sept_2025",
-    "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2025-01.jpg"
-  }
+    {
+        "ID": 1,
+        "Title": "JULY TO SEPTEMBER 2021",
+        "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021.pdf",
+        "download_name": "July_Sept_2021",
+        "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER  2021-01.jpg"
+    },
+    {
+        "ID": 2,
+        "Title": "OCTOBER TO DECEMBER 2021",
+        "File": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021.pdf",
+        "download_name": "Oct_Dec_2021",
+        "Thumb": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER  2021-01.jpg"
+    },
+    {
+        "ID": 3,
+        "Title": "JANUARY TO MARCH 2022",
+        "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2022.pdf",
+        "download_name": "JAN_MAR_2021",
+        "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2022-01.jpg"
+    },
+    {
+        "ID": 4,
+        "Title": "APRIL TO JUNE 2022",
+        "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2022.pdf",
+        "download_name": "JAN_MAR_2022",
+        "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2022-01.jpg"
+    },
+    {
+        "ID": 5,
+        "Title": "JULY TO SEPTEMBER 2022",
+        "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022.pdf",
+        "download_name": "July_Sept_2022",
+        "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2022-01.jpg"
+    },
+    {
+        "ID": 6,
+        "Title": "OCTOBER TO DECEMBER 2022",
+        "File": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022.pdf",
+        "download_name": "Oct_Dec_2022",
+        "Thumb": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2022-01.jpg"
+    },
+    {
+        "ID": 7,
+        "Title": "JANUARY TO MARCH 2023",
+        "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2023.pdf",
+        "download_name": "JAN_MAR_2023",
+        "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2023-01.jpg"
+    },
+    {
+        "ID": 8,
+        "Title": "APRIL TO JUNE 2023",
+        "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2023.pdf",
+        "download_name": "JAN_MAR_2023",
+        "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2023-01.jpg"
+    },
+    {
+        "ID": 9,
+        "Title": "JULY TO SEPTEMBER 2023",
+        "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2023.pdf",
+        "download_name": "July_Sept_2023",
+        "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2023-01.jpg"
+    },
+    {
+        "ID": 10,
+        "Title": "OCTOBER TO DECEMBER 2023",
+        "File": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2023.pdf",
+        "download_name": "Oct_Dec_2023",
+        "Thumb": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2023-01.jpg"
+    },
+    {
+        "ID": 11,
+        "Title": "JANUARY TO MARCH 2024",
+        "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2024.pdf",
+        "download_name": "JAN_MAR_2024",
+        "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2024-01.jpg"
+    },
+    {
+        "ID": 12,
+        "Title": "APRIL TO JUNE 2024",
+        "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2024.pdf",
+        "download_name": "JAN_MAR_2024",
+        "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2024-01.jpg"
+    },
+    {
+        "ID": 13,
+        "Title": "JULY TO SEPTEMBER 2024",
+        "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2024.pdf",
+        "download_name": "July_Sept_2024",
+        "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2024-01.jpg"
+    },
+    {
+        "ID": 14,
+        "Title": "OCTOBER TO DECEMBER 2024",
+        "File": "~/news/NEWSLETTER GEC PATAN  OCT-DEC  2024.pdf",
+        "download_name": "Oct_Dec_2024",
+        "Thumb": "~/news/NEWSLETTER GEC PATAN  OCT-DEC  2024.PNG"
+    },
+    {
+        "ID": 15,
+        "Title": "JANUARY TO MARCH 2025",
+        "File": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2025.pdf",
+        "download_name": "Jan_Mar_2025",
+        "Thumb": "~/news/NEWSLETTER GECP JANUARY TO MARCH 2025.PNG"
+    },
+    {
+        "ID": 16,
+        "Title": "APRIL TO JUNE 2025",
+        "File": "~/news/NEWSLETTER GECP APRIL TO JUNE 2025.pdf",
+        "download_name": "April_June_2025",
+        "Thumb": "~/news/NEWSLETTER GECP APRIL TO JUNE 2025-01.jpg"
+    },
+    {
+        "ID": 17,
+        "Title": "JULY TO SEPTEMBER 2025",
+        "File": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2025.pdf",
+        "download_name": "July_Sept_2025",
+        "Thumb": "~/news/NEWSLETTER GECP JULY TO SEPTEMBER 2025-01.jpg"
+    },
+    {
+        "ID": 18,
+        "Title": "OCTOBER TO DECEMBER 2025",
+        "File": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2025.pdf",
+        "download_name": "Oct_Dec_2025",
+        "Thumb": "~/news/NEWSLETTER GECP OCTOBER TO DECEMBER 2025-01.jpg"
+    }
 ]
