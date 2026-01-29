@@ -1,0 +1,62 @@
+﻿@model CouncilPageVM
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = Model.Title;
+	int count = 1;
+}
+
+<div class="clearfix"></div>
+
+<div class="page_title3 engg_title">
+	<div class="full-container">
+
+		<h1>
+			@Model.Title
+			<div class="line"></div>
+		</h1>
+
+	</div>
+</div>
+<div class="clearfix"></div>
+
+<div class="margin_top10"></div>
+<div class="full-container">
+	@if (Model.CouncilHeadVMs.Count() > 0)
+	{
+
+		<table id="myTable" class="display table table-bordered table-responsive">
+			<thead>
+				<tr>
+					<th class="text-center">Sr No</th>
+					<th class="text-center">Section</th>
+					<th class="text-center">Section Head</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model.CouncilHeadVMs)
+				{
+					<tr>
+						<th class="text-center">@count</th>
+						<th class="text-center">@item.Title</th>
+						<th class="text-center">@item.Head</th>
+					</tr>
+					count++;
+				}
+			</tbody>
+		</table>
+	}
+</div>
+@section scripts {
+
+	<script src="@Url.Content("~/cdn1/DataTables/datatables.js")"></script>
+	<script type="text/javascript">
+		 $(document).ready(function () {
+			 $('#myTable').DataTable({
+				 ordering: false
+			 });
+		});
+	</script>
+}
+@section styles {
+	<link rel="stylesheet" href="@Url.Content("~/cdn1/DataTables/datatables.css")" />
+}

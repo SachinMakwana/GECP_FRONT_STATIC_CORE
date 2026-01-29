@@ -1,0 +1,72 @@
+{
+    "ID": 1,
+    "Title": "Council of Head",
+    "CouncilHeadVMs": [
+        {
+            "ID": 1,
+            "Title": "Human Resource (Faculty and Staff)",
+            "Head": "Prof. A. B. Dhruv",
+            "Designation": "Professor",
+            "Email": "anand.dhruv@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+        },
+        {
+            "ID": 2,
+            "Title": "Students Affairs",
+            "Head": "Prof. R. O. Paliwal",
+            "Designation": "Associate Professor",
+            "Email": "rahul.paliwal@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+        },
+        {
+            "ID": 3,
+            "Title": "Store and Purchase",
+            "Head": "Prof. A. B. Dhruv",
+            "Designation": "Professor",
+            "Email": "anand.dhruv@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+        },
+        {
+            "ID": 4,
+            "Title": "Acedemics",
+            "Head": "Dr. P. A. Barot",
+            "Designation": "Associate Professor",
+            "Email": "pratik.barot@gecpatan.ac.in",
+            "Department": "Computer Science and Engineering Department"
+        },
+        {
+            "ID": 5,
+            "Title": "Infrastructures and Maintenance",
+            "Head": "Prof. G. A. Patel",
+            "Designation": "Associate Professor",
+            "Email": "gunvant.patel@gecpatan.ac.in",
+            "Department": "Electrical Engineering Department"
+        },
+        {
+            "ID": 6,
+            "Title": "Industries and Outreach",
+            "Head": "Dr. N. J. Dalal/ Dr. K. V. Patel",
+            "Designation": "Associate Professor",
+            "Email": "dalal.neelam@gecpatan.ac.in/ kaushik.patel@gecpatan.ac.in",
+            "Department": "Civil / Mechanical Engineering Department"
+        },
+        {
+            "ID": 7,
+            "Title": "Amenities",
+            "Head": "Prof. D. K. Patel",
+            "Designation": "Professor",
+            "Email": "dinesh.patel@gecpatan.ac.in",
+            "Department": "Mechanical Engineering Department"
+        }
+        //,
+        //{
+        //    "ID": 8,
+        //    "Title": "Amenities",
+        //    "Head": "Prof. D. K. Patel",
+        //    "Designation": "Professor",
+        //    "Email": "dinesh.patel@gecpatan.ac.in",
+        //    "Department": "Mechanical Engineering Department"
+        //}
+    ],
+    "TableView": true
+}

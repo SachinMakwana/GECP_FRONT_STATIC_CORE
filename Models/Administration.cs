@@ -22,4 +22,22 @@ namespace GECP_Front_End_Static.Models
         public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
         public bool TableView { get; set; } = false;
     }
+
+    public class CouncilHeadVM
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public string Head { get; set; }
+        public string Designation { get; set; }
+        public string Email {  get; set; }
+        public string Department {  get; set; }
+        
+    }
+    public class CouncilPageVM
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public List<CouncilHeadVM> CouncilHeadVMs { get; set; } = new List<CouncilHeadVM>();
+        public bool TableView { get; set; } = false;
+    }
 }
