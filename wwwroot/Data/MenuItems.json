@@ -781,18 +781,18 @@
         "isVisible": true,
         "ChildMenuVMs": []
       },
-      {
-        "ID": 993,
-        "MenuText": "Council of Heads",
-        "ParentID": null,
-        "dynamicID": null,
-        "ControllerName": "",
-        "ActionName": "",
-        "position": 3,
-        "isVisible": true,
-        "Link": "/DataFiles/Documents/Council/Council_of_Heads.pdf",
-        "ChildMenuVMs": []
-      },
+        {
+            "ID": 993,
+            "MenuText": "Council of Heads",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "Administration",
+            "ActionName": "CoH",
+            "position": 3,
+            "isVisible": true,
+            "Link": null, //"Link": "/DataFiles/Documents/Council/Council_of_Heads.pdf",
+            "ChildMenuVMs": []
+        },
       {
         "ID": 994,
         "MenuText": "Administrative Rules",
