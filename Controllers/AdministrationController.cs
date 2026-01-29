@@ -14,7 +14,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<FacultyDetailsVM> FacultyData = new List<FacultyDetailsVM>();
         public List<PrincipalViewModel> PrincipalData = new List<PrincipalViewModel>();
         public CentralStoreVM CentralStore = new CentralStoreVM();
-
+        public CouncilPageVM CouncilPageVMs = new CouncilPageVM();
         public AdministrationController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
@@ -33,6 +33,11 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(jsonpath);
             CentralStore = JsonConvert.DeserializeObject<CentralStoreVM>(json);
+
+            jsonpath = webRootPath + @"\Data\Administration\CouncilHead.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            CouncilPageVMs = JsonConvert.DeserializeObject<CouncilPageVM>(json);
         }
         public IActionResult Principal()
         {
@@ -42,13 +47,17 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Esta()
         {
-            var adminData = FacultyData.Where(m => m.Dept_ID == 7).OrderBy(m => m.ID).ToList();
+            var adminData = FacultyData.Where(m => m.Dept_ID == 7).OrderBy(m => m.SeniorityOrder).ToList();
             return View(adminData);
         }
 
         public IActionResult Central_Store()
         { 
             return View(CentralStore);
+        }
+        public IActionResult CoH()
+        {
+            return View(CouncilPageVMs);
         }
     }
 }
