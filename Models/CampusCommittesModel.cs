@@ -71,6 +71,7 @@ namespace GECP_Front_End_Static.Models
         public List<string> Images { get; set; } = new List<string>();
         public int DeptID { get; set; }
         public int CommitteId { get; set; }
+        public int ClubId { get; set; }
         public string Keywords { get; set; }
         public bool IsFile { get; set; } = true;
         public string ControllerName { get; set; }

@@ -13,6 +13,7 @@ namespace GECP_Front_End_Static.Controllers
 	{
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<MOUModel> MOUModelVM = new List<MOUModel>();
+		public List<CommitteeActivity> ActivitiesVM = new List<CommitteeActivity>();
         public Student ClubsVMs = new Student();
         public StudentCornerController(IWebHostEnvironment hostingEnvironment)
 		{
@@ -26,6 +27,11 @@ namespace GECP_Front_End_Static.Controllers
             string json1 = webClient.DownloadString(jsonpath1);
             MOUModelVM = JsonConvert.DeserializeObject<List<MOUModel>>(json);
             ClubsVMs = JsonConvert.DeserializeObject<Student>(json1);
+
+            jsonpath = webRootPath + @"\Data\Activities\Activities.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            ActivitiesVM = JsonConvert.DeserializeObject<List<CommitteeActivity>>(json);
         }
         public IActionResult Rules()
 		{
@@ -46,6 +52,7 @@ namespace GECP_Front_End_Static.Controllers
         public IActionResult ClubDetails(int id)
         {
 			var ClubVM = ClubsVMs.Clubs.FirstOrDefault(m => m.ID == id);
+			ClubVM.Activities = ActivitiesVM.Where(m => m.ClubId == id).ToList();
             return View(ClubVM);
         }
         public IActionResult StudentGradeHistory()

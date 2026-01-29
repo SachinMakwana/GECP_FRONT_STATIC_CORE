@@ -62,6 +62,11 @@ namespace GECP_Front_End_Static.Controllers
             var activity = ActivitiesVM.Where(m => m.ID == id).FirstOrDefault();
             return View(activity);
         }
+        public IActionResult AllActivities()
+        {
+            
+            return View(ActivitiesVM);
+        }
         public IActionResult WomenCell()
         {
             return View();

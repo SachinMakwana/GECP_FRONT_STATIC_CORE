@@ -24,7 +24,7 @@ namespace GECP_Front_End_Static.Models
         public List<string> PEOs { get; set; }
         public List<string> PSOs { get; set; }
         public List<TendersVM> DeptAcademicCalender { get; set; }
-
+        public List<TendersVM> NewsLetter { get; set; }
         public List<TendersVM> TimeTable { get; set; }
         public List<Labs> Labs { get; set; }
         public List<CommitteeActivity> NoticeBoard { get; set; }
@@ -32,8 +32,8 @@ namespace GECP_Front_End_Static.Models
         public List<FacultyDetailsVM> FacultyList { get; set; } = new List<FacultyDetailsVM>();
 
         public List<CommitteeActivity> Activities { get; set; }
-		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
-	}
+        public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
+    }
 
     public class Labs
     {
@@ -43,8 +43,8 @@ namespace GECP_Front_End_Static.Models
         public string Lab_Image { get; set; }
         public string Lab_Details { get; set; }
 
-		public List<File> Files { get; set; } = new List<File>();
+        public List<File> Files { get; set; } = new List<File>();
 
-	}
+    }
 
 }

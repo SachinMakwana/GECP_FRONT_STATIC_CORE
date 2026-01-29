@@ -234,17 +234,29 @@
             "ChildMenuVMs": []
           },
 
-          {
-            "ID": 61,
-            "MenuText": "Student Section",
-            "ParentID": 7,
-            "dynamicID": 8,
-            "ControllerName": "CampusCommittee",
-            "ActionName": "CommitteePage",
-            "position": 11,
-            "isVisible": true,
-            "ChildMenuVMs": []
-          }
+            {
+                "ID": 61,
+                "MenuText": "Student Section",
+                "ParentID": 7,
+                "dynamicID": 8,
+                "ControllerName": "CampusCommittee",
+                "ActionName": "CommitteePage",
+                "position": 11,
+                "isVisible": true,
+                "ChildMenuVMs": []
+            },
+            {
+                "ID": 62,
+                "MenuText": "Post Grievance",
+                "ParentID": 7,
+                "dynamicID": null,
+                "ControllerName": "",
+                "ActionName": "",
+                "position": 12,
+                "isVisible": true,
+                "Link": "https://forms.gle/AyT4RSJ3SiDBvMBV9",
+                "ChildMenuVMs": []
+            }
         ]
       }
     ]
