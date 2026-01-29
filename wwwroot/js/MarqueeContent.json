@@ -32,6 +32,14 @@
         "ControllerName": "",
         "ActionName": ""
     },
+    {
+        "ID": 3,
+        "Title": "Information Booklet 2025-2026",
+        "IsFile": 1,
+        "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
+        "ControllerName": "",
+        "ActionName": ""
+    }
     //{
     //    "ID": 3,
     //    "Title": "હોસ્ટેલ મેસ અને કેન્ટીન ટેન્ડર ૨૦૨૪-૨૫",
@@ -50,15 +58,15 @@
     //    "ActionName": "Tenders"
     //},
 
-    {
-        "ID": 5,
-        "Title": "વર્ષ ૨૦૨૫-૨૬ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
-        "IsFile": 1,
-        "FileLink": "~/ImpDocs/Important_Instructions_2025_26.pdf",
-        "ControllerName": "",
-        "ActionName": ""
+    //{
+    //    "ID": 5,
+    //    "Title": "વર્ષ ૨૦૨૫-૨૬ માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
+    //    "IsFile": 1,
+    //    "FileLink": "~/ImpDocs/Important_Instructions_2025_26.pdf",
+    //    "ControllerName": "",
+    //    "ActionName": ""
 
-    }
+    //}
 
     //,
     //{
