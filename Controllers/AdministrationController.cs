@@ -47,7 +47,7 @@ namespace GECP_Front_End_Static.Controllers
 
         public IActionResult Esta()
         {
-            var adminData = FacultyData.Where(m => m.Dept_ID == 7).OrderBy(m => m.ID).ToList();
+            var adminData = FacultyData.Where(m => m.Dept_ID == 7).OrderBy(m => m.SeniorityOrder).ToList();
             return View(adminData);
         }
 
