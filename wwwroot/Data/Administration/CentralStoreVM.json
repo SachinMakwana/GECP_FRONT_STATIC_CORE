@@ -8,5 +8,48 @@
     "Images": [],
     "BlogLink": null,
     "Link": null,
-    "ShowDocument": true
+    "ShowDocument": true,
+    "Members": [
+        {
+            "ID": 1,
+            "Name": "Dr. A. B. Dhruv",
+            "Position": "Store Incharge",
+            "Department": "Mechanical Engineering Department",
+            "Image": "~/images/Faculty/HOD/501.jpg",
+            "Email": "anand.dhruv@gecpatan.ac.in"
+        },
+        {
+            "ID": 2,
+            "Name": "Prof. A. N. Patel",
+            "Position": "Member",
+            "Department": "Electrical Engineering Department",
+            "Image": "/images/Faculty/303.jpg",
+            "Email": "anil.patel@gecpatan.ac.in"
+        },
+        {
+            "ID": 3,
+            "Name": "Prof. H. R. Prajapati",
+            "Position": "Member",
+            "Department": "Mechanical Engineering Department",
+            "Image": "~/images/Faculty/511.jpg",
+            "Email": "hiren.prajapati@gecpatan.ac.in"
+        },
+        {
+            "ID": 4,
+            "Name": "Prof. J. P. Patel",
+            "Position": "Member",
+            "Department": "Computer Science & Engineering Department",
+            "Image": "~/images/Faculty/208.jpg",
+            "Email": "jay.patel@gecpatan.ac.in"
+        },
+        {
+            "ID": 5,
+            "Name": "Mr. V. B. Patel",
+            "Position": "Store Keeper",
+            "Department": "Establishment Office",
+            "Image": "~/images/Faculty/1000.jpg",
+            "Email": "vipulb.patel@gecpatan.ac.in"
+        }
+    ],
+    "TableView": true
 }

@@ -18,5 +18,8 @@ namespace GECP_Front_End_Static.Models
         public string Link { get; set; }
         public bool ShowDocument { get; set; } = false;
         public TabTitles TabTitles { get; set; } = new TabTitles();
+        public List<Members> Members { get; set; } = new List<Members>();
+        public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
+        public bool TableView { get; set; } = false;
     }
 }
