@@ -300,7 +300,7 @@
     },
     {
       "ID": 3,
-      "Icon": "~/images/club/VLSI Club Logo.jfif",
+      "Icon": "~/images/club/VLSI Club Logo.jpeg",
       "About": "The rapid advancement in semiconductor technology and the increasing demand for integrated circuits have made VLSI design a key area of modern electronics. To encourage innovation, hands-on learning, and industry readiness, a dedicated VLSI Club is proposed in the Electronics and Communication Department. The club will provide a platform for students to explore VLSI concepts, tools, and real-world applications through workshops, projects, competitions, and interactions with industry experts. It aims to bridge the gap between academic knowledge and industry practices in chip design and fabrication.",
       "Title": "VLSI Club",
       "ActionName": "ClubDetails",
