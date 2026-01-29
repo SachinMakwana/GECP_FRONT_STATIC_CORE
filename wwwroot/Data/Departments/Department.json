@@ -32,50 +32,50 @@
             "An ability to solve Electronics and communication Engineering problems using the latest hardware and software."
         ],
         "Labs": [
-          {
-            "LabID": 11,
-            "Lab_Image": "~/images/Department/EC/L_201.jpg",
-            "Lab_Name": "L201 ANALOG & DIGITAL ELECTRONICS LABORATORY",
-            "Lab_Details": "This laboratory is equipped with Analog and Digital Electronics trainers, viz.,amplifier, common emitter configuration, common collector configuration,oscillators, multivibrators, power supply, trainers using 555 IC, digital gates,flip flops, counters, and registers kits, etc. Following are few kits: <ul>  <li>• Active band pass filter</li>  <li>• Automatic gain control kit</li>  <li>• Butterworth filter trainer</li><li>• CE configuration of transistor</li>  <li>• DC motor speed control using SCR</li></ul>"
-          },
-          {
-            "LabID": 12,
-            "Lab_Image": "~/images/Department/EC/L_202.png",
-            "Lab_Name": "L202 SIMULATION LABORATORY",
-            "Lab_Details": "This laboratory is equipped with the latest computers with advanced simulation software, viz., MATLAB, Multisim, Visual Studio Code, Keil uVision, Atmel Studio, and Xilinx etc. Laboratory is equipped with:<ul><li>• DIGITAL OSCILLOSCOPE DSOX 2024A</li><li>• Workbench Electronics</li></ul>"
-          },
-          {
-            "LabID": 13,
-            "Lab_Image": "~/images/Department/EC/L_203.png",
-            "Lab_Name": "L203 ELECTRONIC SYSTEM DESIGN LABORATORY",
-            "Lab_Details": "This laboratory consists of multiple electronics workbenches, having a digital storage oscilloscope, multi meter, function generator, and power supply, which can be helpful in testing and measurements of various electronics circuits or systems."
+            {
+                "LabID": 11,
+                "Lab_Image": "~/images/Department/EC/L_201.jpg",
+                "Lab_Name": "L201 ANALOG & DIGITAL ELECTRONICS LABORATORY",
+                "Lab_Details": "This laboratory is equipped with Analog and Digital Electronics trainers, viz.,amplifier, common emitter configuration, common collector configuration,oscillators, multivibrators, power supply, trainers using 555 IC, digital gates,flip flops, counters, and registers kits, etc. Following are few kits: <ul>  <li>• Active band pass filter</li>  <li>• Automatic gain control kit</li>  <li>• Butterworth filter trainer</li><li>• CE configuration of transistor</li>  <li>• DC motor speed control using SCR</li></ul>"
+            },
+            {
+                "LabID": 12,
+                "Lab_Image": "~/images/Department/EC/L_202.png",
+                "Lab_Name": "L202 SIMULATION LABORATORY",
+                "Lab_Details": "This laboratory is equipped with the latest computers with advanced simulation software, viz., MATLAB, Multisim, Visual Studio Code, Keil uVision, Atmel Studio, and Xilinx etc. Laboratory is equipped with:<ul><li>• DIGITAL OSCILLOSCOPE DSOX 2024A</li><li>• Workbench Electronics</li></ul>"
+            },
+            {
+                "LabID": 13,
+                "Lab_Image": "~/images/Department/EC/L_203.png",
+                "Lab_Name": "L203 ELECTRONIC SYSTEM DESIGN LABORATORY",
+                "Lab_Details": "This laboratory consists of multiple electronics workbenches, having a digital storage oscilloscope, multi meter, function generator, and power supply, which can be helpful in testing and measurements of various electronics circuits or systems."
 
 
-          },
-          {
-            "LabID": 14,
-            "Lab_Image": "~/images/Department/EC/L_211.jpg",
-            "Lab_Name": "L211 COMMUNICATION LABORATORY",
-            "Lab_Details": "This laboratory is equipped with Analog and Digital communication trainers, viz., AM, FM, and PM modulation demodulation, superheterodyne receiver, PWM, PPM, PAM, ASK, FSK, PSK kits, Spectrum Analyzer as well as RF and Microwave trainers for microwave communication along with active and passive components. Few trainers are as:<ul><li>• Amplitude Modulation/Demodulation Trainer</li><li>• DSB/SSB AM Receiver</li><li>• Fiber Optics Demonstrator</li><li>• FM Transmitter Receiver Trainer</li><li>• Microwave Bench</li></ul>"
-          },
-          {
-            "LabID": 15,
-            "Lab_Image": "~/images/Department/EC/L_212.jpg",
-            "Lab_Name": "L212 PROJECT LABORATORY",
-            "Lab_Details": "This laboratory is designed to provide students with hands-on experience in research and practical applications across various fields of Electronics and Communication Engineering."
-          },
-          {
-            "LabID": 16,
-            "Lab_Image": "~/images/Department/EC/L_213.jpg",
-            "Lab_Name": "L213 SIGNAL PROCESSING & VLSI LABORATORY",
-            "Lab_Details": "This laboratory consists of various trainers, viz., DSP, FPGA kits, and software required to perform operations on the trainers for Digital Signal Processing, Image Processing, Speech Signal Processing, and VLSI experiments.<ul><li>• DSP Trainer Kit</li><li>• Desktop Computer (ACER- AMD processor 12th generation)</li><li>• Programmable Function Generator, 1 Channel, 50Mhz (AFG3051C)</li></ul>"
-          },
-          {
-            "LabID": 17,
-            "Lab_Image": "~/images/Department/EC/L_214.jpg",
-            "Lab_Name": "L214 EMBEDDED & IoT LABORATORY",
-            "Lab_Details": "This laboratory consists of various trainers of microprocessors, microcontrollers, embedded and IoT boards, viz., 8085, 8086, 8051, AVR, and daughter boards like 8255 I/O interfacing, ADC, DAC, stepper motor controller, Arduino boards, and ESP8266 Node MCU boards. This laboratory provides extensive hands-on experience to design various embedded systems and exposes students to the tools required to turn them into IoTs.<ul><li>• 8051 Microcontroller Trainer Kit</li><li>• 8086 Microprocessor Trainer Kit</li><li>• Interfacing card for ADC, DAC, LCD, seven segment display, stepper motor interfacing card</li></ul>"
-          }
+            },
+            {
+                "LabID": 14,
+                "Lab_Image": "~/images/Department/EC/L_211.jpg",
+                "Lab_Name": "L211 COMMUNICATION LABORATORY",
+                "Lab_Details": "This laboratory is equipped with Analog and Digital communication trainers, viz., AM, FM, and PM modulation demodulation, superheterodyne receiver, PWM, PPM, PAM, ASK, FSK, PSK kits, Spectrum Analyzer as well as RF and Microwave trainers for microwave communication along with active and passive components. Few trainers are as:<ul><li>• Amplitude Modulation/Demodulation Trainer</li><li>• DSB/SSB AM Receiver</li><li>• Fiber Optics Demonstrator</li><li>• FM Transmitter Receiver Trainer</li><li>• Microwave Bench</li></ul>"
+            },
+            {
+                "LabID": 15,
+                "Lab_Image": "~/images/Department/EC/L_212.jpg",
+                "Lab_Name": "L212 PROJECT LABORATORY",
+                "Lab_Details": "This laboratory is designed to provide students with hands-on experience in research and practical applications across various fields of Electronics and Communication Engineering."
+            },
+            {
+                "LabID": 16,
+                "Lab_Image": "~/images/Department/EC/L_213.jpg",
+                "Lab_Name": "L213 SIGNAL PROCESSING & VLSI LABORATORY",
+                "Lab_Details": "This laboratory consists of various trainers, viz., DSP, FPGA kits, and software required to perform operations on the trainers for Digital Signal Processing, Image Processing, Speech Signal Processing, and VLSI experiments.<ul><li>• DSP Trainer Kit</li><li>• Desktop Computer (ACER- AMD processor 12th generation)</li><li>• Programmable Function Generator, 1 Channel, 50Mhz (AFG3051C)</li></ul>"
+            },
+            {
+                "LabID": 17,
+                "Lab_Image": "~/images/Department/EC/L_214.jpg",
+                "Lab_Name": "L214 EMBEDDED & IoT LABORATORY",
+                "Lab_Details": "This laboratory consists of various trainers of microprocessors, microcontrollers, embedded and IoT boards, viz., 8085, 8086, 8051, AVR, and daughter boards like 8255 I/O interfacing, ADC, DAC, stepper motor controller, Arduino boards, and ESP8266 Node MCU boards. This laboratory provides extensive hands-on experience to design various embedded systems and exposes students to the tools required to turn them into IoTs.<ul><li>• 8051 Microcontroller Trainer Kit</li><li>• 8086 Microprocessor Trainer Kit</li><li>• Interfacing card for ADC, DAC, LCD, seven segment display, stepper motor interfacing card</li></ul>"
+            }
         ],
         "DeptAcademicCalender": [
 
@@ -86,616 +86,607 @@
         "Activities": [
 
         ],
-      "NoticeBoard": [
-
-      ],
-      "NewsLetter": [
-
-      ]
+        "NoticeBoard": [
+        ],
+        "NewsLetter": [
+        ]
     },
-  {
-    "ID": 2,
-    "Title": "Computer Science & Engineering",
-    "TitleImage": "../../images/Title/cs_banner.jpg",
-    "TitleImageCSSClass": "cs_title",
-    "About": "Computer Science & Engineering Department was established in year 2004 intake of 60 and from 2009 intake is increased to 120. It runs under graduate course in Computer Science & Engineering. Computer Engineering Laboratories are outfitted with high performance servers and computers with latest configurations. It includes C programming lab, Computer network lab, Database lab, and Advanced computing lab and Microprocessor lab. Entire campus is connected with high speed fiber network having large capacity Data Server and 100 Mbps Internet facility of 24×7 hrs. Faculty members are dedicated to import quality education in the field of Computer Engineering and active in research & development work to cope with current market trends. Students are imparted knowledge about technology through workshop and expert lectures in order to interact with academia, industries & professionals.",
-    "About_Images": [ "~/images/Department/Computer/comp1.jpg" ],
-    "showIntake": true,
-    "Intake": 120,
-    "FacultyCount": 16,
-    "AnnualPlacementCount": 50,
-    "LabWorkshop": 4,
-    "Vision": [
-      "To achieve excellence by providing value based education in Computer Science and Engineering through innovation, teamwork and ethical practices."
-    ],
-    "Mission": [
-      "To prepare industry-ready and socially responsible graduates by imparting strong technical skills, ethical values, and awareness of societal needs.",
-      "To establish collaborations with industry, government, and research organizations for knowledge exchange and the comprehensive development of students and faculty.",
-      "To foster innovation, entrepreneurship, and continuous learning through active participation in technical events and promotion of open-source technologies."
-    ],
-    "HODMessage": "Greetings! On behalf of the faculty members, staff, and students of the Department of Computer Science and Engineering of Government Engineering College Patan, I welcome you all to the creative world of CSE. Our primary objective of this programme is to develop Computer Engineers with knowledge of software and hardware, responsible for wide range of computer system design and development, built them as dedicated and competent professionals for challenging world of varying requirements of automation. During the course, students are able to mould their career, polish their technical skills and also inculcate team spirit with good oral and written communication. Students are supported technically and financially to participate in competitions, hackathons at state, national and international level platforms. Faculty members are encouraged to acquire higher degree and conduct investigation on research in the interest of the technical community. Faculty members are also supported to conduct workshops, symposium and conferences at national and international levels. They are motivated to adopt innovative teaching methodologies and best practices to make classroom a pursuit of learning. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
-    "HODName": "Dr. Pratik Barot",
-    "HOD_Pic": "~/images/Department/Computer/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The computer was born to solve problems that <b>did not exist before...\"</b></h1>",
-    "PEOs": [
-      "Possess knowledge about core areas related to the field of Computer Engineering.",
-      "Acquire good analytical, design, development, implementation, and testing skills to formulate simple computing solutions to meet customer business objectives.",
-      "Provide requisite skills to pursue entrepreneurship, higher studies, and imbibe a high degree of professionalism in the fields of computing.",
-      "Embrace lifelong learning by introducing principles of public policies, professional environment, and societal context."
-    ],
-    "PSOs": [
-      "The ability to understand, analyze, design, and develop various computing solutions.",
-      "The ability to decide career paths as an entrepreneur, competent professional, or pursue higher studies using engineering knowledge and modern programming skills. "
-    ],
-    "Labs": [
-      {
-        "LabID": 21,
-
-        "Lab_Image": "~/images/Department/Computer/lab301_-_Sachin_Makwana_optimized.png",
-        "Lab_Name": "LAB-301 NETWORK LAB",
-        "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
-      },
-      {
-        "LabID": 22,
-
-        "Lab_Image": "~/images/Department/Computer/lab302_-_Sachin_Makwana_optimized.png",
-        "Lab_Name": "LAB-302 IOT AND MACHINE LEARNING LAB",
-        "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>ACXXEL</td></tr><tr><td>PROCESSOR&nbsp;</td><td>11th Gen Intel® Core™ i7-11700</td></tr>      <tr> <td>RAM</td><td>8.00 GB</td></tr>      <tr>        <td>HDD</td>        <td>1TB</td>      </tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr>  <td>TOTAL PC</td><td>15</td></tr></tbody></table></figure>"
-      },
-      {
-        "LabID": 23,
-        "Lab_Image": "~/images/Department/Computer/lab303_-_Sachin_Makwana_optimized.png",
-        "Lab_Name": "LAB-303 DATABASE  &  SOFTWARE  LAB",
-        "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>DELL</td></tr><tr><td>PROCESSOR&nbsp;</td><td>Intel(R) Core(TM) i5-4590 CPU @ 3.30 GHz</td></tr><tr><td>RAM</td><td>4.00 GB</td> </tr><tr><td>HDD</td><td>500GB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM, x64 BASED PROCESSOR</td> </tr><tr><td>TOTAL PC</td><td>16</td></tr></tbody></table></figure>"
-      },
-      {
-        "LabID": 24,
-
-        "Lab_Image": "~/images/Department/Computer/lab311_-_Sachin_Makwana_optimized.png",
-        "Lab_Name": "LAB-311  AI LAB",
-        "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
-
-
-      },
-      {
-        "LabID": 25,
-
-        "Lab_Image": "~/images/Department/Computer/lab313_-_Sachin_Makwana_optimized.png",
-        "Lab_Name": "LAB-313  PROJECT  & INTERNET LAB",
-        "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
-
-      },
-      //{
-      //    "LabID": 26,
-
-      //    "Lab_Image": "~/images/Department/Computer/lab313_-_Sachin_Makwana_optimized.png",
-      //    "Lab_Name": "LAB-314  HARDWARE LAB",
-      //    "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
-
-      //},
-      {
-        "LabID": 27,
-        "Lab_Image": "~/images/Department/Computer/lab315_-_Sachin_Makwana_optimized.png",
-        "Lab_Name": "LAB-315 ADVANCE COMPUTING LAB",
-        "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION</td></tr><tr><td>PC MODEL</td><td>Dell</td></tr><tr><td>PROCESSOR;</td><td>Intel(R) Core(TM) i7</td></tr><tr><td>RAM</td><td>8.00 GB</td></tr><tr><td>HDD</td><td>1TB HDD</td></tr><tr><td>GRAPHICS CARD</td><td>HP Z240 Tower Workstation</td></tr></tbody></table></figure>"
-      }
-    ],
-    "DeptAcademicCalender": [ //tender vm object
-      {
-        "ID": 1,
-        "Title": "CSE Academic Calender for ODD Semester 2025-26",
-        "FileType": "PDF",
-        "File": "~/DataFiles/Departments/CSE/CSE Academic Calendar ODD Sem 2025-26.pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      }
-    ],
-    "TimeTable": [ //tender vm object
-
-    ],
-    "Activities": [
-
-    ],
-    "NoticeBoard": [
-
-    ],
-    "NewsLetter": [
-
-    ]
-  },
-  {
-    "ID": 3,
-    "Title": "Electrical Engineering",
-    "TitleImage": "../../images/Title/ee_banner.jpg",
-    "TitleImageCSSClass": "ee_title",
-    "About": "The Department of Electrical Engineering was established in the year 2009. It has academic programme with intake of 60 under graduate students. The department is equipped with the latest experimental and computational facilities. It runs to cater to the ever-challenging needs of technical excellence in all areas of electrical engineering such as Power Systems, Electrical Machines, Control & Automation, Integrated Electronics & circuits and Power Electronics. The Department is dynamic and has a scholarly environment wherein students learn independently and in collaboration with others to develop a disciplined yet innovative approach to their careers as professional engineers, researchers or teachers and offers a four-year program in Electrical Engineering. It is geared up with outcome-based education imparted to the students. Students at the department are consistently provided with opportunities to upgrade their technical knowledge and develop skills that make them best employable, qualified for higher education or develop them as a strong entrepreneur.",
-    "About_Images": [ "/images/Department/Electrical/elec1.jpg" ],
-    "showIntake": true,
-    "Intake": 60,
-    "FacultyCount": 11,
-    "AnnualPlacementCount": 8,
-    "LabWorkshop": 4,
-    "Vision": [ "To foster learning environment for electrical engineering education having high technical skills, ethical values and overall global competence." ],
-    "Mission": [ "To provide high quality graduate program in electrical engineering so that it prepares students for liflong learning to meet professional, intellectual and ethical tasks." ],
-    "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Department of Electrical Engineering at Government Engineering College Patan. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. Our primary objective to provide high quality graduate program in electrical engineering so that it prepares students for industry and managerial skills to be highly competent Electrical Engineers. Students are trained in a way that they inculcate research capabilities in different areas of Electrical Engineering to identify, comprehend and solve problems and adapt themselves in a world of constantly evolving technology. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
-    "HODName": "Dr. Gunvantbhai Patel",
-    "HOD_Pic": "~/images/Department/Electrical/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Have no fear ...<b>electrician is here. .” ...</b></h1>",
-    "PSOs": [
-      "Graduates will possess the ability to interpret the fundamental concepts of Electrical Engineering and its applications",
-      "Graduates will be able to investigate and propose effective solutions to the problems of Power System, Electrical Machines and Electronics using contemporary tools & Mathematical approach.",
-      "Graduates will possess skills and knowledge for design, operation and maintenance in the areas of Power System, Electrical machines and Electronic.",
-      "Graduates will demonstrate lifelong learning attitude and societal responsibilities with high moral and ethical values."
-    ],
-    "PEOs": [
-      "To create better learning environment to develop entrepreneurship capabilities in various areas of Electrical Engineering with superior efficiency, productivity, cost effectiveness and technological empowerment of human resource.",
-      "To inculcate research capabilities in different areas of Electrical Engineering to identify, comprehend and solve problems and adapt themselves in a world of constantly evolving technology.",
-      "To generate high standards of moral and ethical values among the graduates, this will help in transforming them as responsible citizen of the nation."
-    ],
-    "Labs": [
-      {
-        "LabID": 11,
-        "Lab_Image": "~/images/Department/Electrical/BEE_LAB.JPEG",
-        "Lab_Name": "Basics Of Electrical Engineering  Lab",
-        "Lab_Details": "To make students understand basics of Electrical Engineering A.C & D.C. Power and conduction of simple experiments "
-      },
-      {
-        "LabID": 12,
-        "Lab_Image": "~/images/Department/Electrical/ELE MC LAB - Gunvant Patel.JPEG",
-        "Lab_Name": "Electrical Machines Lab",
-        "Lab_Details": "To make students understand basics, testing, performance characteristics, speed control of various electric machines The laboratory is equipped with basic and advanced electrical machines. Major Equipments are 1-Phase and 3-Phase transformer, 1-phase and 3-phase variac, Induction machines, DC machines , Synchronous machines, lamp banks, various measuring meters, cut section of machines to demonstrate various parts of machines, various Resistive, Inductive and Capacitive load banks etc."
-      },
-      {
-        "LabID": 13,
-        "Lab_Image": "~/images/Department/Electrical/HV-Lab - Gunvant Patel.jpeg",
-        "Lab_Name": "High Voltage Engineering Laboratory",
-        "Lab_Details": "This laboratory is designed to provide platform for basic studies and to give boost to research in Insulation studies. Major Equipments are Oil testing kit, kit for measurement of dielectric strength of solid, Horn-gap arrester, Electrolytic tank, Sphere-Gap assembly, High-voltage transformer with control panel, High-Voltage rectifier etc."
-      },
-      {
-        "LabID": 14,
-        "Lab_Image": "~/images/Department/Electrical/Power System Protection Lab - Gunvant Patel.jpeg",
-        "Lab_Name": "Switchgear and Protection Laboratory",
-        "Lab_Details": "To make students familiar with the working of various switchgear equipment used for power system protection and performance of these equipments. Major Equipments are Transmission Line Simulator with Protection system, Microcontroller based Distance Relay trainer, Microcontroller based Over Current relay trainer, various Circuit breaker for demonstration."
-      },
-      {
-        "LabID": 15,
-        "Lab_Image": "~/images/Department/Electrical/Electronics Lab - Gunvant Patel (2).jpeg",
-        "Lab_Name": "Electronics Laboratory",
-        "Lab_Details": "Major Equipments are Experimental setups for power electronics Applications such as PWM Inverters, V-I Characteristics of IGBT, SCR, UJT & MOSFET trainer, A.C. voltage controllers, Cyclo-converter, Chopper controlled DC drives, Chopper trainer, Single phase dual converter, Gate/Base triggering circuit trainer, Digital Storage Scopes - 60 MHz and 200 MHz with high voltage differential probe, AC to DC regulated dual power supplies, Measurement panel includes CRO, function generator, regulated DC power supply. "
-      },
-      {
-        "LabID": 16,
-        "Lab_Image": "~/images/Department/Electrical/Electrical Measurement Lab - Gunvant Patel.jpeg",
-        "Lab_Name": "Network, Measurement and Instrumentation Lab",
-        "Lab_Details": "The Network,measurement and Instrumentation laboratory is located at L204 L block Electrical department. It is equipped with various experimental setups of bridges for measuring R,L,C, thermocouples, LVDT, Strain guage, ultrasonic distance measurement and other measuring instruments which enhances students knowledge in the field of measurement of electrical parameters."
-      },
-      {
-        "LabID": 17,
-        "Lab_Image": "~/images/Department/Electrical/Computer Lab - Gunvant Patel.jpeg",
-        "Lab_Name": "Computer Lab",
-        "Lab_Details": "To provide programming,stimulation and modelling on technical software like MATLAB,SCILAB etc on computer. The goal of a computer lab is to teach students of each semester efficiently and effectively. The computer lab is designed to perform practicals based on different software like matlab,sci lab,vlab,psim etc. The students utilize this lab for searching different e -learning materials .The students use this computer lab for finding information related to their Design engineering and final year project."
-      }
-    ],
-    "DeptAcademicCalender": [
-
-    ],
-    "TimeTable": [ //tender vm object
-
-    ],
-    "Activities": [
-
-    ],
-    "NoticeBoard": [
-
-    ],
-    "NewsLetter": [
-
-    ]
-  },
-  {
-    "ID": 4,
-    "Title": "Civil Engineering",
-    "TitleImage": "../../images/Title/ce_banner.jpg",
-    "TitleImageCSSClass": "ce_title",
-    "About": "The Department of Civil Engineering has been in existence since 2009 with intake of 60 seats. Civil Engineering is considered to be the oldest engineering field. It includes the planning, design, construction, maintenance and operation of the infrastructure that surrounds us. Our infrastructure includes roads, airports, railroads, buildings, bridges, water and wastewater treatment plans, sewers, drainage, flood control, water supply and many other facilities. Most everything civil engineers do affect our daily lives in many ways. Our faculty members are assigned with various theory subjects prepare course plans using the standard format provided by the institute with emphasis on 'learning' of the students. The instructional or lecture delivery of the faculty will be through a set of Educational Technology / Tools opted by the faculty.",
-    "About_Images": [ "~/images/Department/Civil/civil.jpg" ],
-    "showIntake": true,
-    "Intake": 60,
-    "FacultyCount": 4,
-    "AnnualPlacementCount": 20,
-    "LabWorkshop": 6,
-    "Vision": [ "To mould civil engineering students with an emphasis on value-based education through technological innovations, teamwork, and skills for the growth of society." ],
-    "Mission": [ "To combine quality education with career focussed learning and the application of knowledge and to mentor students for innovative thinking with relevance to entrepreneurship." ],
-    "HODMessage": "“Engineers are the creators of the new world”. We welcome you to be a part of this creative process. The Department of Civil Engineering of Government Engineering College Patan strives for excellence in teaching and learning and professional development. Our department is committed to provide students with a strong, broad based fundamental engineering education and prepare the students for a career in the industry, teaching and national laboratories. We promote innovative practices in the field of Civil Engineering and mentor students for innovative thinking with relevance to entrepreneurship. We also plan to develop entrepreneurial skills in students through summer internships so that they would drive the spirit of growth of our economy and would be able to generate employment opportunities for other qualified and skilled people. Our graduates are exceptionally well prepared for challenging careers, handling major projects and being on the fast track towards new heights in their careers. Come and join us now and build the Nation! - Prof. Vipul Patel",
-    "HODName": "Prof. Vipul Patel",
-    "HOD_Pic": "~/images/Department/Civil/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“The road to success is always under...<b>construction .” ...</b></h1>",
-    "PEOs": [
-      "The graduates shall be able to engage themselves to achieve expertise to solve real-world problems with modern Civil Engineering tools and techniques.",
-
-      "The Graduates shall be able to develop leadership, and resource management skills and exhibit good teamwork in multidisciplinary projects.",
-
-      "To produce civil engineering graduates who can excel in their professional careers and/or higher education by acquiring knowledge of basic engineering principles.  ",
-
-      "The graduates shall be able to pursue Technological Innovations and Advancements.",
-
-      "The graduates shall be able to serve the Industry with professional Ethics and society with moral responsibilities."
-    ],
-    "PSOs": [
-      "The Civil Engineering Graduate will be able to solve complex Civil Engineering problems and provide the best possible design solutions using various contemporary engineering tools and techniques.",
-      "The Civil Engineering Graduate will be able to use effective communication skills and shoulder accountability in a professional role as Civil Engineer independently, or as a team-member/team-leader in society.",
-      "The students will be able to achieve expertise in design and analysis of various Civil Engineering structures using relevant codes of practice, materials, techniques and software. ",
-      "The students will acquire knowledge, skills and attitude for their better prospects in professional career of Civil Engineering. ",
-      "The students will be able to Pursue Technological innovations in the field of Civil Engineering & allied fields for betterment of the society."
-    ],
-    "Labs": [
-      {
-        "LabID": 41,
-        "Lab_Image": "~/images/Department/Civil/Transportation_Engineering_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
-        "Lab_Name": "Transportation Engineering Laboratory",
-        "Lab_Details": "The Transportation Engineering Laboratory bridges the gap between theoretical knowledge and practical applications in road design, construction, quality control, and maintenance. It is equipped to perform various tests to ensure the quality of materials used in constructing flexible and rigid pavements, including assessments of bitumen, aggregates, soil, and concrete. The lab is furnished with specialized equipment such as Plate Bearing Test apparatus, Marshall Stability Test setup, impact test machines, crushing test apparatus, CBR test equipment, ductility testing tools, abrasion testing machines, bitumen extractors, and Flash and Fire Point apparatus, among others."
-      },
-      {
-        "LabID": 42,
-        "Lab_Image": "~/images/Department/Civil/SURVEYING_-_Dr._Manjurali_Balya_600x400.jpg",
-        "Lab_Name": "Surveying Lab",
-        "Lab_Details": "The Surveying Laboratory is well-equipped with a diverse range of instruments spanning all three generations of measurement techniques, meeting the needs of various types and complexities of survey work. Surveying is a crucial aspect of civil engineering projects, as precise measurements of lengths and elevations are fundamental to successful construction. The lab features tools ranging from simple metric chains to advanced modern instruments like Total Stations, ensuring comprehensive support for surveying tasks. The available equipment includes Total Stations, theodolites, plane tables, prismatic compasses, open cross-staffs, leveling staffs, surveyor’s compasses, planimeters, optical squares, line rangers, prism squares, and more."
-      },
-      {
-        "LabID": 43,
-        "Lab_Image": "~/images/Department/Civil/Environemental_Engineering_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
-        "Lab_Name": "Environmental Engineering Lab",
-        "Lab_Details": "The Environmental Engineering Laboratory is equipped for conducting standard tests and measurements of key environmental parameters. It facilitates the analysis of the physical, chemical, and bacteriological properties of water and wastewater, which are critical for designing treatment facilities and maintaining acceptable water quality standards. Additionally, the lab plays a significant role in addressing air, water, and noise pollution by providing data that helps propose effective solutions for reducing environmental pollution. The laboratory houses various equipment, including a pH meter, turbidity meter, hot air oven, COD digester, BOD incubator, jar test apparatus, high-volume air sampler, sound level meter, exhaust gas analyzer, and more."
-      },
-      {
-        "LabID": 44,
-        "Lab_Image": "~/images/Department/Civil/Fluid_Mechanics_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
-        "Lab_Name": "Fluid Mechanics Lab",
-        "Lab_Details": "The Fluid Mechanics laboratory is dedicated to enhancing students' understanding of fundamental fluid mechanics concepts through practical application. It offers a hands-on learning experience by conducting experiments designed to demonstrate the principles of fluid engineering and provide a clearer, more intuitive grasp of the theory. The lab is equipped with various apparatus, including manometers, pitot tubes, hydrometers, viscometers, centrifugal pumps, Bernoulli’s apparatus, Reynolds apparatus, and others, to support comprehensive learning and experimentation."
-      }
-
-
-    ],
-    "DeptAcademicCalender": [
-
-    ],
-    "TimeTable": [ //tender vm object
-
-    ],
-    "Activities": [
-
-    ],
-    "NoticeBoard": [
-
-    ],
-    "NewsLetter": [
-
-    ]
-  },
-  {
-    "ID": 5,
-    "Title": "Mechanical Engineering",
-    "TitleImage": "../../images/Title/me_banner.jpg",
-    "TitleImageCSSClass": "me_title",
-    "About": "Our strong academic performance in high school enables you to pursue a range of educational opportunities. One avenue you'll want to explore is mechanical engineering. Studying mechanical engineering at Government Engineering College Patan will equip you with a broad education, preparing you for a variety of career paths graduation and providing a solid foundation for continuing education. Mechanical engineering encompasses many areas. In short, anything that involves the design and or manufacturing of mechanical, thermal or electronic devices and or processes falls entrepreneurs, chief engineers, astronauts, faculty, physicians and patent attorneys, among other occupations. The field includes activities such as designing, developing, manufacturing, managing, researching and controlling engineering systems and their components.",
-    "About_Images": [ "~/images/Department/Mechanical/mech1.png" ],
-    "showIntake": true,
-    "Intake": 60,
-    "FacultyCount": 19,
-    "AnnualPlacementCount": 15,
-    "LabWorkshop": 0,
-    "Vision": [ "To create a centre of excellence for imparting education in mechanical engineering field to meet the current and future challenges of technological and sustainable development." ],
-    "Mission": [
-      "To build enabling environment for excellent teaching, learning and research in order to produce entrepreneurs and innovators in the field of Mechanical Engineering for sustainable improvement.",
-      "To impart adequate fundamental knowledge, technical and soft skills to students.",
-      "To develop Mechanical Engineering solutions for the problems of industry and society."
-    ],
-    "HODMessage": "Welcome to the Department of Mechanical Engineering at Government Engineering College Patan. The primary focus of our curriculum is to impart technical know-how to students, promote their problem-solving skills and innovation of new technologies. In today’s fast-changing world with ever-growing challenges of limited resources and rapid climate changes, a new generation of Mechanical Engineers nurtured with necessary skills and innovative spirit is needed. Students are encouraged to undertake various research projects. The course contents are periodically updated for introducing new scientific and technological developments. Undergraduate students are encouraged to undertake various research projects and encouraged to spend time in neighbouring industry. Faculty members have excellent academic credentials and are highly regarded. We hope that whether you are a prospective undergraduate or graduate student, or work in the industry, or another university, or a visitor, you will find this website to be informative. Welcome to this world of machines.",
-    "HODName": "Prof. Anand Dhruv",
-    "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
-    "PEOs": [
-      "To prepare graduates with a technical knowledge of mathematical, scientific, engineering, technology, management, humanities and various other interdisciplinary subjects for a successful career.",
-      "Graduates will apply the knowledge of Mechanical Engineering to solve real Engineering problems for sustainable development.",
-      "To inculcate graduates with leadership skills with high level of integrity, Professional personality and ethical values.",
-      "To equip graduates with modern tools, technology and advanced software for deliberating engineering solutions."
-    ],
-    "PSOs": [
-      "Apply the advanced software skills to Model, simulate, analyze and optimize Mechanical systems and Processes",
-      "Acquire technical and managerial skill for innovative activities."
-    ],
-    "Labs": [
-      {
-        "LabID": 1,
-        "Lab_Image": "~/images/Department/Mechanical/ME1.jpg",
-        "Lab_Name": "Automation in Manufacturing Lab",
-        "Lab_Details": "The laboratory component of the Automation in Manufacturing course aims to provide hands-on experience with automation technologies used in manufacturing industries. Through practical experiments, students will explore industrial robotics, flexible manufacturing systems (FMS), and automation machinery. The lab exercises are designed to reinforce theoretical concepts and develop problem-solving skills for real-world automation challenges."
-      },
-      {
-        "LabID": 2,
-        "Lab_Image": "~/images/Department/Mechanical/ME2.jpg",
-        "Lab_Name": "Basic Mechanical Engineering",
-        "Lab_Details": "The Basic Mechanical Engineering Laboratory provides practical exposure to fundamental mechanical systems and components. It includes models of boilers along with their mountings and accessories, helping students understand steam generation and safety mechanisms. The laboratory also features internal combustion (IC) engine models, including four-stroke and two-stroke petrol and diesel engines, enabling students to study engine components, working principles, and thermodynamic cycles."
-      },
-      {
-        "LabID": 3,
-        "Lab_Image": "~/images/Department/Mechanical/ME3.jpg",
-        "Lab_Name": "Computer-Aided Design (CAD) Lab",
-        "Lab_Details": "It is having computer systems with high-end configurations to ensure seamless performance to support students in design, simulation and analysis tools essential for modern engineering applications. The CAD Lab has 30 computers, with 12 PCs equipped with ANSYS for simulation and analysis, while all have Autodesk software for drafting and design."
-      },
-      {
-        "LabID": 4,
-        "Lab_Image": "~/images/Department/Mechanical/ME4.jpg",
-        "Lab_Name": "Computer Aided Manufacturing",
-        "Lab_Details": "The laboratory component of the Computer Aided Manufacturing (CAM) course provides practical exposure to modern manufacturing automation technologies. The lab focuses on CNC machining, programmable logic controllers (PLCs), flexible manufacturing systems (FMS), robotics, and computer-integrated manufacturing (CIM)."
-      },
-      {
-        "LabID": 5,
-        "Lab_Image": "~/images/Department/Mechanical/ME5.jpg",
-        "Lab_Name": "The Dynamics of Machinery Lab",
-        "Lab_Details": "It is a specialized laboratory in mechanical engineering that focuses on studying the behavior of machines and mechanical systems under dynamic loads and forces. The purpose of this lab is to analyze and test various components of machines to understand their response to vibrations, motion, rotational dynamics, and feedback control systems."
-      },
-      {
-        "LabID": 6,
-        "Lab_Image": "~/images/Department/Mechanical/ME6.jpg",
-        "Lab_Name": "Engineering Graphics & Design",
-        "Lab_Details": "Engineering Graphics & Design (EGD) is a vital subject that enables students to communicate engineering ideas, designs, and concepts in a clear and precise manner. The laboratory has several shapes of 2D & 3D models, which will be helpful in the visualization and understanding of the subject."
-      },
-      {
-        "LabID": 7,
-        "Lab_Image": "~/images/Department/Mechanical/ME7.png",
-        "Lab_Name": "Fluid Mechanics and Hydraulic Machines Laboratory",
-        "Lab_Details": "The Fluid Mechanics and Hydraulic Machines Laboratory helps students to understand the principles of fluid behavior and hydraulic machinery operations. It offers hands-on experience with devices like flow meters, pumps, turbines, and hydraulic systems."
-      },
-      {
-        "LabID": 8,
-        "Lab_Image": "~/images/Department/Mechanical/ME8.png",
-        "Lab_Name": "I C Engine Lab",
-        "Lab_Details": "The Internal Combustion Engine (ICE) Laboratory is a state-of-the-art facility designed to provide practical experience and in-depth knowledge of various types of internal combustion engines used in automotive and industrial applications."
-      },
-      {
-        "LabID": 9,
-        "Lab_Image": "~/images/Department/Mechanical/ME9.jpg",
-        "Lab_Name": "Material Science and Metallurgy Laboratory",
-        "Lab_Details": "A Material Science and Metallurgy Laboratory is a facility dedicated to studying the properties, structure, and behavior of materials, particularly metals and alloys. It is equipped with instruments like the Metallurgical Microscope and Muffle Furnace for detailed analysis."
-      },
-      {
-        "LabID": 10,
-        "Lab_Image": "~/images/Department/Mechanical/ME10.jpg",
-        "Lab_Name": "Mechanical Measurement and Metrology Laboratory",
-        "Lab_Details": "Our Mechanical Measurement and Metrology laboratory offers hands-on experience with a wide range of essential measurement tools. Through practical experiments, students develop a deeper understanding of metrology principles and their real-world applications."
-      },
-      {
-        "LabID": 11,
-        "Lab_Image": "~/images/Department/Mechanical/ME11.jpg",
-        "Lab_Name": "Renewable Energy Engineering Laboratory",
-        "Lab_Details": "A Renewable Energy Engineering Laboratory is a specialized facility for studying and testing sustainable energy technologies, including solar, wind, and bioenergy systems. One essential instrument in the lab is the Pyranometer, which measures solar radiation intensity."
-      },
-      {
-        "LabID": 12,
-        "Lab_Image": "~/images/Department/Mechanical/ME12.jpg",
-        "Lab_Name": "Workshop/Manufacturing Process Laboratory",
-        "Lab_Details": "The Mechanical Workshop Laboratory emphasizes hands-on practice in manufacturing and fabrication, enhancing students' technical skills through real-world applications. It includes machining, welding, carpentry, fitting, and plumbing shops."
-      }
-    ],
-    "DeptAcademicCalender": [ //tender vm object
-      {
-        "ID": 1,
-        "Title": "Torque Talk (2021-22)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (2021-22).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      }
-    ],
-    "TimeTable": [ //tender vm object
-
-    ],
-    "Activities": [
-
-    ],
-    "NoticeBoard": [
-
-    ],
-    "NewsLetter" [
-      {
-        "ID": 1,
-        "Title": "Torque Talk (2021-22)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (2021-22).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      },
-      {
+    {
         "ID": 2,
-        "Title": "Torque Talk (Jan- June 2023)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (Jan- June 2023).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      },
-      {
+        "Title": "Computer Science & Engineering",
+        "TitleImage": "../../images/Title/cs_banner.jpg",
+        "TitleImageCSSClass": "cs_title",
+        "About": "Computer Science & Engineering Department was established in year 2004 intake of 60 and from 2009 intake is increased to 120. It runs under graduate course in Computer Science & Engineering. Computer Engineering Laboratories are outfitted with high performance servers and computers with latest configurations. It includes C programming lab, Computer network lab, Database lab, and Advanced computing lab and Microprocessor lab. Entire campus is connected with high speed fiber network having large capacity Data Server and 100 Mbps Internet facility of 24×7 hrs. Faculty members are dedicated to import quality education in the field of Computer Engineering and active in research & development work to cope with current market trends. Students are imparted knowledge about technology through workshop and expert lectures in order to interact with academia, industries & professionals.",
+        "About_Images": [ "~/images/Department/Computer/comp1.jpg" ],
+        "showIntake": true,
+        "Intake": 120,
+        "FacultyCount": 16,
+        "AnnualPlacementCount": 50,
+        "LabWorkshop": 4,
+        "Vision": [
+            "To achieve excellence by providing value based education in Computer Science and Engineering through innovation, teamwork and ethical practices."
+        ],
+        "Mission": [
+            "To prepare industry-ready and socially responsible graduates by imparting strong technical skills, ethical values, and awareness of societal needs.",
+            "To establish collaborations with industry, government, and research organizations for knowledge exchange and the comprehensive development of students and faculty.",
+            "To foster innovation, entrepreneurship, and continuous learning through active participation in technical events and promotion of open-source technologies."
+        ],
+        "HODMessage": "Greetings! On behalf of the faculty members, staff, and students of the Department of Computer Science and Engineering of Government Engineering College Patan, I welcome you all to the creative world of CSE. Our primary objective of this programme is to develop Computer Engineers with knowledge of software and hardware, responsible for wide range of computer system design and development, built them as dedicated and competent professionals for challenging world of varying requirements of automation. During the course, students are able to mould their career, polish their technical skills and also inculcate team spirit with good oral and written communication. Students are supported technically and financially to participate in competitions, hackathons at state, national and international level platforms. Faculty members are encouraged to acquire higher degree and conduct investigation on research in the interest of the technical community. Faculty members are also supported to conduct workshops, symposium and conferences at national and international levels. They are motivated to adopt innovative teaching methodologies and best practices to make classroom a pursuit of learning. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Dr. Pratik Barot",
+        "HOD_Pic": "~/images/Department/Computer/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The computer was born to solve problems that <b>did not exist before...\"</b></h1>",
+        "PEOs": [
+            "Possess knowledge about core areas related to the field of Computer Engineering.",
+            "Acquire good analytical, design, development, implementation, and testing skills to formulate simple computing solutions to meet customer business objectives.",
+            "Provide requisite skills to pursue entrepreneurship, higher studies, and imbibe a high degree of professionalism in the fields of computing.",
+            "Embrace lifelong learning by introducing principles of public policies, professional environment, and societal context."
+        ],
+        "PSOs": [
+            "The ability to understand, analyze, design, and develop various computing solutions.",
+            "The ability to decide career paths as an entrepreneur, competent professional, or pursue higher studies using engineering knowledge and modern programming skills. "
+        ],
+        "Labs": [
+            {
+                "LabID": 21,
+
+                "Lab_Image": "~/images/Department/Computer/lab301_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-301 NETWORK LAB",
+                "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
+            },
+            {
+                "LabID": 22,
+
+                "Lab_Image": "~/images/Department/Computer/lab302_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-302 IOT AND MACHINE LEARNING LAB",
+                "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>ACXXEL</td></tr><tr><td>PROCESSOR&nbsp;</td><td>11th Gen Intel® Core™ i7-11700</td></tr>      <tr> <td>RAM</td><td>8.00 GB</td></tr>      <tr>        <td>HDD</td>        <td>1TB</td>      </tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr>  <td>TOTAL PC</td><td>15</td></tr></tbody></table></figure>"
+            },
+            {
+                "LabID": 23,
+                "Lab_Image": "~/images/Department/Computer/lab303_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-303 DATABASE  &  SOFTWARE  LAB",
+                "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>DELL</td></tr><tr><td>PROCESSOR&nbsp;</td><td>Intel(R) Core(TM) i5-4590 CPU @ 3.30 GHz</td></tr><tr><td>RAM</td><td>4.00 GB</td> </tr><tr><td>HDD</td><td>500GB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM, x64 BASED PROCESSOR</td> </tr><tr><td>TOTAL PC</td><td>16</td></tr></tbody></table></figure>"
+            },
+            {
+                "LabID": 24,
+
+                "Lab_Image": "~/images/Department/Computer/lab311_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-311  AI LAB",
+                "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
+
+
+            },
+            {
+                "LabID": 25,
+
+                "Lab_Image": "~/images/Department/Computer/lab313_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-313  PROJECT  & INTERNET LAB",
+                "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
+
+            },
+            //{
+            //    "LabID": 26,
+
+            //    "Lab_Image": "~/images/Department/Computer/lab313_-_Sachin_Makwana_optimized.png",
+            //    "Lab_Name": "LAB-314  HARDWARE LAB",
+            //    "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=\"2\">PC CONFIGURATION&nbsp;</td></tr><tr><td>PC MODEL</td><td>Acer</td></tr><tr><td>PROCESSOR&nbsp;</td><td>RYZEN 7 5700G WITH RADEON &nbsp;GRAPHICS&nbsp;</td></tr><tr><td>RAM</td><td>16GB</td></tr><tr><td>HDD</td><td>1TB</td></tr><tr><td>SYSTEM TYPE</td><td>64-BIT OPERATING SYSTEM</td></tr><tr><td>TOTAL PC</td><td>20</td></tr></tbody></table></figure>"
+
+            //},
+            {
+                "LabID": 27,
+                "Lab_Image": "~/images/Department/Computer/lab315_-_Sachin_Makwana_optimized.png",
+                "Lab_Name": "LAB-315 ADVANCE COMPUTING LAB",
+                "Lab_Details": "<figure class=table><table class=\"table\" style=\"width:26.5rem\"><tbody><tr><td colspan=2>PC CONFIGURATION</td></tr><tr><td>PC MODEL</td><td>Dell</td></tr><tr><td>PROCESSOR;</td><td>Intel(R) Core(TM) i7</td></tr><tr><td>RAM</td><td>8.00 GB</td></tr><tr><td>HDD</td><td>1TB HDD</td></tr><tr><td>GRAPHICS CARD</td><td>HP Z240 Tower Workstation</td></tr></tbody></table></figure>"
+            }
+        ],
+        "DeptAcademicCalender": [ //tender vm object
+            {
+                "ID": 1,
+                "Title": "CSE Academic Calender for ODD Semester 2025-26",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Departments/CSE/CSE Academic Calendar ODD Sem 2025-26.pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            }
+        ],
+        "TimeTable": [ //tender vm object
+
+        ],
+        "Activities": [
+
+        ],
+        "NoticeBoard": [
+
+        ],
+        "NewsLetter": [
+
+        ]
+    },
+    {
         "ID": 3,
-        "Title": "Torque Talk (Jan- June 2024)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (Jan- June 2024).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      },
-      {
+        "Title": "Electrical Engineering",
+        "TitleImage": "../../images/Title/ee_banner.jpg",
+        "TitleImageCSSClass": "ee_title",
+        "About": "The Department of Electrical Engineering was established in the year 2009. It has academic programme with intake of 60 under graduate students. The department is equipped with the latest experimental and computational facilities. It runs to cater to the ever-challenging needs of technical excellence in all areas of electrical engineering such as Power Systems, Electrical Machines, Control & Automation, Integrated Electronics & circuits and Power Electronics. The Department is dynamic and has a scholarly environment wherein students learn independently and in collaboration with others to develop a disciplined yet innovative approach to their careers as professional engineers, researchers or teachers and offers a four-year program in Electrical Engineering. It is geared up with outcome-based education imparted to the students. Students at the department are consistently provided with opportunities to upgrade their technical knowledge and develop skills that make them best employable, qualified for higher education or develop them as a strong entrepreneur.",
+        "About_Images": [ "/images/Department/Electrical/elec1.jpg" ],
+        "showIntake": true,
+        "Intake": 60,
+        "FacultyCount": 11,
+        "AnnualPlacementCount": 8,
+        "LabWorkshop": 4,
+        "Vision": [ "To foster learning environment for electrical engineering education having high technical skills, ethical values and overall global competence." ],
+        "Mission": [ "To provide high quality graduate program in electrical engineering so that it prepares students for liflong learning to meet professional, intellectual and ethical tasks." ],
+        "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Department of Electrical Engineering at Government Engineering College Patan. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. Our primary objective to provide high quality graduate program in electrical engineering so that it prepares students for industry and managerial skills to be highly competent Electrical Engineers. Students are trained in a way that they inculcate research capabilities in different areas of Electrical Engineering to identify, comprehend and solve problems and adapt themselves in a world of constantly evolving technology. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Dr. Gunvantbhai Patel",
+        "HOD_Pic": "~/images/Department/Electrical/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Have no fear ...<b>electrician is here. .” ...</b></h1>",
+        "PSOs": [
+            "Graduates will possess the ability to interpret the fundamental concepts of Electrical Engineering and its applications",
+            "Graduates will be able to investigate and propose effective solutions to the problems of Power System, Electrical Machines and Electronics using contemporary tools & Mathematical approach.",
+            "Graduates will possess skills and knowledge for design, operation and maintenance in the areas of Power System, Electrical machines and Electronic.",
+            "Graduates will demonstrate lifelong learning attitude and societal responsibilities with high moral and ethical values."
+        ],
+        "PEOs": [
+            "To create better learning environment to develop entrepreneurship capabilities in various areas of Electrical Engineering with superior efficiency, productivity, cost effectiveness and technological empowerment of human resource.",
+            "To inculcate research capabilities in different areas of Electrical Engineering to identify, comprehend and solve problems and adapt themselves in a world of constantly evolving technology.",
+            "To generate high standards of moral and ethical values among the graduates, this will help in transforming them as responsible citizen of the nation."
+        ],
+        "Labs": [
+            {
+                "LabID": 11,
+                "Lab_Image": "~/images/Department/Electrical/BEE_LAB.JPEG",
+                "Lab_Name": "Basics Of Electrical Engineering  Lab",
+                "Lab_Details": "To make students understand basics of Electrical Engineering A.C & D.C. Power and conduction of simple experiments "
+            },
+            {
+                "LabID": 12,
+                "Lab_Image": "~/images/Department/Electrical/ELE MC LAB - Gunvant Patel.JPEG",
+                "Lab_Name": "Electrical Machines Lab",
+                "Lab_Details": "To make students understand basics, testing, performance characteristics, speed control of various electric machines The laboratory is equipped with basic and advanced electrical machines. Major Equipments are 1-Phase and 3-Phase transformer, 1-phase and 3-phase variac, Induction machines, DC machines , Synchronous machines, lamp banks, various measuring meters, cut section of machines to demonstrate various parts of machines, various Resistive, Inductive and Capacitive load banks etc."
+            },
+            {
+                "LabID": 13,
+                "Lab_Image": "~/images/Department/Electrical/HV-Lab - Gunvant Patel.jpeg",
+                "Lab_Name": "High Voltage Engineering Laboratory",
+                "Lab_Details": "This laboratory is designed to provide platform for basic studies and to give boost to research in Insulation studies. Major Equipments are Oil testing kit, kit for measurement of dielectric strength of solid, Horn-gap arrester, Electrolytic tank, Sphere-Gap assembly, High-voltage transformer with control panel, High-Voltage rectifier etc."
+            },
+            {
+                "LabID": 14,
+                "Lab_Image": "~/images/Department/Electrical/Power System Protection Lab - Gunvant Patel.jpeg",
+                "Lab_Name": "Switchgear and Protection Laboratory",
+                "Lab_Details": "To make students familiar with the working of various switchgear equipment used for power system protection and performance of these equipments. Major Equipments are Transmission Line Simulator with Protection system, Microcontroller based Distance Relay trainer, Microcontroller based Over Current relay trainer, various Circuit breaker for demonstration."
+            },
+            {
+                "LabID": 15,
+                "Lab_Image": "~/images/Department/Electrical/Electronics Lab - Gunvant Patel (2).jpeg",
+                "Lab_Name": "Electronics Laboratory",
+                "Lab_Details": "Major Equipments are Experimental setups for power electronics Applications such as PWM Inverters, V-I Characteristics of IGBT, SCR, UJT & MOSFET trainer, A.C. voltage controllers, Cyclo-converter, Chopper controlled DC drives, Chopper trainer, Single phase dual converter, Gate/Base triggering circuit trainer, Digital Storage Scopes - 60 MHz and 200 MHz with high voltage differential probe, AC to DC regulated dual power supplies, Measurement panel includes CRO, function generator, regulated DC power supply. "
+            },
+            {
+                "LabID": 16,
+                "Lab_Image": "~/images/Department/Electrical/Electrical Measurement Lab - Gunvant Patel.jpeg",
+                "Lab_Name": "Network, Measurement and Instrumentation Lab",
+                "Lab_Details": "The Network,measurement and Instrumentation laboratory is located at L204 L block Electrical department. It is equipped with various experimental setups of bridges for measuring R,L,C, thermocouples, LVDT, Strain guage, ultrasonic distance measurement and other measuring instruments which enhances students knowledge in the field of measurement of electrical parameters."
+            },
+            {
+                "LabID": 17,
+                "Lab_Image": "~/images/Department/Electrical/Computer Lab - Gunvant Patel.jpeg",
+                "Lab_Name": "Computer Lab",
+                "Lab_Details": "To provide programming,stimulation and modelling on technical software like MATLAB,SCILAB etc on computer. The goal of a computer lab is to teach students of each semester efficiently and effectively. The computer lab is designed to perform practicals based on different software like matlab,sci lab,vlab,psim etc. The students utilize this lab for searching different e -learning materials .The students use this computer lab for finding information related to their Design engineering and final year project."
+            }
+        ],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+
+        ],
+        "Activities": [
+
+        ],
+        "NoticeBoard": [
+
+        ],
+        "NewsLetter": [
+
+        ]
+    },
+    {
         "ID": 4,
-        "Title": "Torque Talk (Jan- June 2025)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (Jan- June 2025).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      },
-      {
+        "Title": "Civil Engineering",
+        "TitleImage": "../../images/Title/ce_banner.jpg",
+        "TitleImageCSSClass": "ce_title",
+        "About": "The Department of Civil Engineering has been in existence since 2009 with intake of 60 seats. Civil Engineering is considered to be the oldest engineering field. It includes the planning, design, construction, maintenance and operation of the infrastructure that surrounds us. Our infrastructure includes roads, airports, railroads, buildings, bridges, water and wastewater treatment plans, sewers, drainage, flood control, water supply and many other facilities. Most everything civil engineers do affect our daily lives in many ways. Our faculty members are assigned with various theory subjects prepare course plans using the standard format provided by the institute with emphasis on 'learning' of the students. The instructional or lecture delivery of the faculty will be through a set of Educational Technology / Tools opted by the faculty.",
+        "About_Images": [ "~/images/Department/Civil/civil.jpg" ],
+        "showIntake": true,
+        "Intake": 60,
+        "FacultyCount": 4,
+        "AnnualPlacementCount": 20,
+        "LabWorkshop": 6,
+        "Vision": [ "To mould civil engineering students with an emphasis on value-based education through technological innovations, teamwork, and skills for the growth of society." ],
+        "Mission": [ "To combine quality education with career focussed learning and the application of knowledge and to mentor students for innovative thinking with relevance to entrepreneurship." ],
+        "HODMessage": "“Engineers are the creators of the new world”. We welcome you to be a part of this creative process. The Department of Civil Engineering of Government Engineering College Patan strives for excellence in teaching and learning and professional development. Our department is committed to provide students with a strong, broad based fundamental engineering education and prepare the students for a career in the industry, teaching and national laboratories. We promote innovative practices in the field of Civil Engineering and mentor students for innovative thinking with relevance to entrepreneurship. We also plan to develop entrepreneurial skills in students through summer internships so that they would drive the spirit of growth of our economy and would be able to generate employment opportunities for other qualified and skilled people. Our graduates are exceptionally well prepared for challenging careers, handling major projects and being on the fast track towards new heights in their careers. Come and join us now and build the Nation! - Prof. Vipul Patel",
+        "HODName": "Prof. Vipul Patel",
+        "HOD_Pic": "~/images/Department/Civil/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“The road to success is always under...<b>construction .” ...</b></h1>",
+        "PEOs": [
+            "The graduates shall be able to engage themselves to achieve expertise to solve real-world problems with modern Civil Engineering tools and techniques.",
+
+            "The Graduates shall be able to develop leadership, and resource management skills and exhibit good teamwork in multidisciplinary projects.",
+
+            "To produce civil engineering graduates who can excel in their professional careers and/or higher education by acquiring knowledge of basic engineering principles.  ",
+
+            "The graduates shall be able to pursue Technological Innovations and Advancements.",
+
+            "The graduates shall be able to serve the Industry with professional Ethics and society with moral responsibilities."
+        ],
+        "PSOs": [
+            "The Civil Engineering Graduate will be able to solve complex Civil Engineering problems and provide the best possible design solutions using various contemporary engineering tools and techniques.",
+            "The Civil Engineering Graduate will be able to use effective communication skills and shoulder accountability in a professional role as Civil Engineer independently, or as a team-member/team-leader in society.",
+            "The students will be able to achieve expertise in design and analysis of various Civil Engineering structures using relevant codes of practice, materials, techniques and software. ",
+            "The students will acquire knowledge, skills and attitude for their better prospects in professional career of Civil Engineering. ",
+            "The students will be able to Pursue Technological innovations in the field of Civil Engineering & allied fields for betterment of the society."
+        ],
+        "Labs": [
+            {
+                "LabID": 41,
+                "Lab_Image": "~/images/Department/Civil/Transportation_Engineering_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Transportation Engineering Laboratory",
+                "Lab_Details": "The Transportation Engineering Laboratory bridges the gap between theoretical knowledge and practical applications in road design, construction, quality control, and maintenance. It is equipped to perform various tests to ensure the quality of materials used in constructing flexible and rigid pavements, including assessments of bitumen, aggregates, soil, and concrete. The lab is furnished with specialized equipment such as Plate Bearing Test apparatus, Marshall Stability Test setup, impact test machines, crushing test apparatus, CBR test equipment, ductility testing tools, abrasion testing machines, bitumen extractors, and Flash and Fire Point apparatus, among others."
+            },
+            {
+                "LabID": 42,
+                "Lab_Image": "~/images/Department/Civil/SURVEYING_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Surveying Lab",
+                "Lab_Details": "The Surveying Laboratory is well-equipped with a diverse range of instruments spanning all three generations of measurement techniques, meeting the needs of various types and complexities of survey work. Surveying is a crucial aspect of civil engineering projects, as precise measurements of lengths and elevations are fundamental to successful construction. The lab features tools ranging from simple metric chains to advanced modern instruments like Total Stations, ensuring comprehensive support for surveying tasks. The available equipment includes Total Stations, theodolites, plane tables, prismatic compasses, open cross-staffs, leveling staffs, surveyor’s compasses, planimeters, optical squares, line rangers, prism squares, and more."
+            },
+            {
+                "LabID": 43,
+                "Lab_Image": "~/images/Department/Civil/Environemental_Engineering_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Environmental Engineering Lab",
+                "Lab_Details": "The Environmental Engineering Laboratory is equipped for conducting standard tests and measurements of key environmental parameters. It facilitates the analysis of the physical, chemical, and bacteriological properties of water and wastewater, which are critical for designing treatment facilities and maintaining acceptable water quality standards. Additionally, the lab plays a significant role in addressing air, water, and noise pollution by providing data that helps propose effective solutions for reducing environmental pollution. The laboratory houses various equipment, including a pH meter, turbidity meter, hot air oven, COD digester, BOD incubator, jar test apparatus, high-volume air sampler, sound level meter, exhaust gas analyzer, and more."
+            },
+            {
+                "LabID": 44,
+                "Lab_Image": "~/images/Department/Civil/Fluid_Mechanics_Lab_-_Dr._Manjurali_Balya_600x400.jpg",
+                "Lab_Name": "Fluid Mechanics Lab",
+                "Lab_Details": "The Fluid Mechanics laboratory is dedicated to enhancing students' understanding of fundamental fluid mechanics concepts through practical application. It offers a hands-on learning experience by conducting experiments designed to demonstrate the principles of fluid engineering and provide a clearer, more intuitive grasp of the theory. The lab is equipped with various apparatus, including manometers, pitot tubes, hydrometers, viscometers, centrifugal pumps, Bernoulli’s apparatus, Reynolds apparatus, and others, to support comprehensive learning and experimentation."
+            }
+
+
+        ],
+        "DeptAcademicCalender": [
+
+        ],
+        "TimeTable": [ //tender vm object
+
+        ],
+        "Activities": [
+
+        ],
+        "NoticeBoard": [
+
+        ],
+        "NewsLetter": [
+
+        ]
+    },
+    {
         "ID": 5,
-        "Title": "Torque Talk (July- Dec 2022)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (July- Dec 2022).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      },
-      {
+        "Title": "Mechanical Engineering",
+        "TitleImage": "../../images/Title/me_banner.jpg",
+        "TitleImageCSSClass": "me_title",
+        "About": "Our strong academic performance in high school enables you to pursue a range of educational opportunities. One avenue you'll want to explore is mechanical engineering. Studying mechanical engineering at Government Engineering College Patan will equip you with a broad education, preparing you for a variety of career paths graduation and providing a solid foundation for continuing education. Mechanical engineering encompasses many areas. In short, anything that involves the design and or manufacturing of mechanical, thermal or electronic devices and or processes falls entrepreneurs, chief engineers, astronauts, faculty, physicians and patent attorneys, among other occupations. The field includes activities such as designing, developing, manufacturing, managing, researching and controlling engineering systems and their components.",
+        "About_Images": [ "~/images/Department/Mechanical/mech1.png" ],
+        "showIntake": true,
+        "Intake": 60,
+        "FacultyCount": 19,
+        "AnnualPlacementCount": 15,
+        "LabWorkshop": 0,
+        "Vision": [ "To create a centre of excellence for imparting education in mechanical engineering field to meet the current and future challenges of technological and sustainable development." ],
+        "Mission": [
+            "To build enabling environment for excellent teaching, learning and research in order to produce entrepreneurs and innovators in the field of Mechanical Engineering for sustainable improvement.",
+            "To impart adequate fundamental knowledge, technical and soft skills to students.",
+            "To develop Mechanical Engineering solutions for the problems of industry and society."
+        ],
+        "HODMessage": "Welcome to the Department of Mechanical Engineering at Government Engineering College Patan. The primary focus of our curriculum is to impart technical know-how to students, promote their problem-solving skills and innovation of new technologies. In today’s fast-changing world with ever-growing challenges of limited resources and rapid climate changes, a new generation of Mechanical Engineers nurtured with necessary skills and innovative spirit is needed. Students are encouraged to undertake various research projects. The course contents are periodically updated for introducing new scientific and technological developments. Undergraduate students are encouraged to undertake various research projects and encouraged to spend time in neighbouring industry. Faculty members have excellent academic credentials and are highly regarded. We hope that whether you are a prospective undergraduate or graduate student, or work in the industry, or another university, or a visitor, you will find this website to be informative. Welcome to this world of machines.",
+        "HODName": "Prof. Anand Dhruv",
+        "HOD_Pic": "~/images/Department/Mechanical/HoD.png",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"The bond between man and machine is <b>not only limited 0 &amp; 1...</b>\"</h1>",
+        "PEOs": [
+            "To prepare graduates with a technical knowledge of mathematical, scientific, engineering, technology, management, humanities and various other interdisciplinary subjects for a successful career.",
+            "Graduates will apply the knowledge of Mechanical Engineering to solve real Engineering problems for sustainable development.",
+            "To inculcate graduates with leadership skills with high level of integrity, Professional personality and ethical values.",
+            "To equip graduates with modern tools, technology and advanced software for deliberating engineering solutions."
+        ],
+        "PSOs": [
+            "Apply the advanced software skills to Model, simulate, analyze and optimize Mechanical systems and Processes",
+            "Acquire technical and managerial skill for innovative activities."
+        ],
+        "Labs": [
+            {
+                "LabID": 1,
+                "Lab_Image": "~/images/Department/Mechanical/ME1.jpg",
+                "Lab_Name": "Automation in Manufacturing Lab",
+                "Lab_Details": "The laboratory component of the Automation in Manufacturing course aims to provide hands-on experience with automation technologies used in manufacturing industries. Through practical experiments, students will explore industrial robotics, flexible manufacturing systems (FMS), and automation machinery. The lab exercises are designed to reinforce theoretical concepts and develop problem-solving skills for real-world automation challenges."
+            },
+            {
+                "LabID": 2,
+                "Lab_Image": "~/images/Department/Mechanical/ME2.jpg",
+                "Lab_Name": "Basic Mechanical Engineering",
+                "Lab_Details": "The Basic Mechanical Engineering Laboratory provides practical exposure to fundamental mechanical systems and components. It includes models of boilers along with their mountings and accessories, helping students understand steam generation and safety mechanisms. The laboratory also features internal combustion (IC) engine models, including four-stroke and two-stroke petrol and diesel engines, enabling students to study engine components, working principles, and thermodynamic cycles."
+            },
+            {
+                "LabID": 3,
+                "Lab_Image": "~/images/Department/Mechanical/ME3.jpg",
+                "Lab_Name": "Computer-Aided Design (CAD) Lab",
+                "Lab_Details": "It is having computer systems with high-end configurations to ensure seamless performance to support students in design, simulation and analysis tools essential for modern engineering applications. The CAD Lab has 30 computers, with 12 PCs equipped with ANSYS for simulation and analysis, while all have Autodesk software for drafting and design."
+            },
+            {
+                "LabID": 4,
+                "Lab_Image": "~/images/Department/Mechanical/ME4.jpg",
+                "Lab_Name": "Computer Aided Manufacturing",
+                "Lab_Details": "The laboratory component of the Computer Aided Manufacturing (CAM) course provides practical exposure to modern manufacturing automation technologies. The lab focuses on CNC machining, programmable logic controllers (PLCs), flexible manufacturing systems (FMS), robotics, and computer-integrated manufacturing (CIM)."
+            },
+            {
+                "LabID": 5,
+                "Lab_Image": "~/images/Department/Mechanical/ME5.jpg",
+                "Lab_Name": "The Dynamics of Machinery Lab",
+                "Lab_Details": "It is a specialized laboratory in mechanical engineering that focuses on studying the behavior of machines and mechanical systems under dynamic loads and forces. The purpose of this lab is to analyze and test various components of machines to understand their response to vibrations, motion, rotational dynamics, and feedback control systems."
+            },
+            {
+                "LabID": 6,
+                "Lab_Image": "~/images/Department/Mechanical/ME6.jpg",
+                "Lab_Name": "Engineering Graphics & Design",
+                "Lab_Details": "Engineering Graphics & Design (EGD) is a vital subject that enables students to communicate engineering ideas, designs, and concepts in a clear and precise manner. The laboratory has several shapes of 2D & 3D models, which will be helpful in the visualization and understanding of the subject."
+            },
+            {
+                "LabID": 7,
+                "Lab_Image": "~/images/Department/Mechanical/ME7.png",
+                "Lab_Name": "Fluid Mechanics and Hydraulic Machines Laboratory",
+                "Lab_Details": "The Fluid Mechanics and Hydraulic Machines Laboratory helps students to understand the principles of fluid behavior and hydraulic machinery operations. It offers hands-on experience with devices like flow meters, pumps, turbines, and hydraulic systems."
+            },
+            {
+                "LabID": 8,
+                "Lab_Image": "~/images/Department/Mechanical/ME8.png",
+                "Lab_Name": "I C Engine Lab",
+                "Lab_Details": "The Internal Combustion Engine (ICE) Laboratory is a state-of-the-art facility designed to provide practical experience and in-depth knowledge of various types of internal combustion engines used in automotive and industrial applications."
+            },
+            {
+                "LabID": 9,
+                "Lab_Image": "~/images/Department/Mechanical/ME9.jpg",
+                "Lab_Name": "Material Science and Metallurgy Laboratory",
+                "Lab_Details": "A Material Science and Metallurgy Laboratory is a facility dedicated to studying the properties, structure, and behavior of materials, particularly metals and alloys. It is equipped with instruments like the Metallurgical Microscope and Muffle Furnace for detailed analysis."
+            },
+            {
+                "LabID": 10,
+                "Lab_Image": "~/images/Department/Mechanical/ME10.jpg",
+                "Lab_Name": "Mechanical Measurement and Metrology Laboratory",
+                "Lab_Details": "Our Mechanical Measurement and Metrology laboratory offers hands-on experience with a wide range of essential measurement tools. Through practical experiments, students develop a deeper understanding of metrology principles and their real-world applications."
+            },
+            {
+                "LabID": 11,
+                "Lab_Image": "~/images/Department/Mechanical/ME11.jpg",
+                "Lab_Name": "Renewable Energy Engineering Laboratory",
+                "Lab_Details": "A Renewable Energy Engineering Laboratory is a specialized facility for studying and testing sustainable energy technologies, including solar, wind, and bioenergy systems. One essential instrument in the lab is the Pyranometer, which measures solar radiation intensity."
+            },
+            {
+                "LabID": 12,
+                "Lab_Image": "~/images/Department/Mechanical/ME12.jpg",
+                "Lab_Name": "Workshop/Manufacturing Process Laboratory",
+                "Lab_Details": "The Mechanical Workshop Laboratory emphasizes hands-on practice in manufacturing and fabrication, enhancing students' technical skills through real-world applications. It includes machining, welding, carpentry, fitting, and plumbing shops."
+            }
+        ],
+        "DeptAcademicCalender": [ //tender vm object
+
+        ],
+        "TimeTable": [ //tender vm object
+
+        ],
+        "Activities": [
+
+        ],
+        "NoticeBoard": [
+
+        ],
+        "NewsLetter" [
+            {
+                "ID": 1,
+                "Title": "Torque Talk (2021-22)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (2021-22).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 2,
+                "Title": "Torque Talk (Jan- June 2023)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2023).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 3,
+                "Title": "Torque Talk (Jan- June 2024)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2024).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 4,
+                "Title": "Torque Talk (Jan- June 2025)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2025).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 5,
+                "Title": "Torque Talk (July- Dec 2022)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2022).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 6,
+                "Title": "Torque Talk (July- Dec 2023)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2023).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 7,
+                "Title": "Torque Talk (July- Dec 2024)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2024).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 8,
+                "Title": "Torque Talk (July-Dec 2025)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July-Dec 2025).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            }
+        ]
+    },
+    {
         "ID": 6,
-        "Title": "Torque Talk (July- Dec 2023)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (July- Dec 2023).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      },
-      {
-        "ID": 7,
-        "Title": "Torque Talk (July- Dec 2024)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (July- Dec 2024).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      },
-      {
-        "ID": 8,
-        "Title": "Torque Talk (July-Dec 2025)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/Torque Talk (July-Dec 2025).pdf",
-        "isShow": true,
-        "UploadDate": "12-08-2025"
-      }
-    ]
-  },
-  {
-    "ID": 6,
-    "Title": "Science & Humanities",
-    "TitleImage": "../../images/Title/gen_banner.jpg",
-    "TitleImageCSSClass": "general_title",
-    "About": "The department aims at and focuses on- the overall development of the learner by teaching the subjects of Mathematics, Communication Skills, Contributor personality development and Physics. The faculty members of the department are committed to impart the knowledge based on their vast experience in the field and bringing the best out of learners. With the development of the Language Lab and the Physics Lab in the recent past, learners can now practice and apply their acquired skills. The department is involved in a number of activities like conducting seminars, workshops and guest lectures by eminent personalities of other universities and R&D organizations.",
-    "About_Images": [ "~/images/Department/General/slider1.png" ],
-    "showIntake": false,
-    "Intake": 0,
-    "FacultyCount": 0,
-    "AnnualPlacementCount": 0,
-    "LabWorkshop": 0,
-    "Vision": [ "Pursuit of excellence in technical education through quality pedagogy, character building and total development and to nurture responsible and valuable citizens." ],
-    "Mission": [
-      "By strengthening the teaching-learning process through, the institution will stimulate the spirit of systematic enquiry and discovery in academics.",
-      "To provide innovative and quality systems of learning to the young generation through innovative practices and quality management.",
-      "By strengthening the teaching-learning process through, the institution will stimulate the spirit of scientific enquiry and discovery in academics.",
-      "By providing state-of-the-art institutional infrastructure and excellent human resources, the department will foster a better educational environment.",
-      "To equip them to become scientific, prolific, productive, proactive human resources and responsible citizens of the nation."
-    ],
-    "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the General Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. The department focuses on the overall development of the student by teaching the subjects related to Mathematics, English, Physics. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
-    "HODName": "Prof. VIJAY SONI",
-    "HOD_Pic": "~/images/Faculty/HOD/601.png",
-    "Tagline": null,
-    "PEOs": [],
-    "PSOs": [],
-    "Labs": [
-      {
-        "LabID": "61",
-        "Lab_Image": "~/images/Department/General/Physics_Lab.jpg",
-        "Lab_Name": "Physics Laboratory",
-        "Lab_Details": "•\tThe first-year physics lab in our institute is designed to introduce students to the fundamental concepts of physics through hands-on experiments.<br>•\tIt focuses on providing practical knowledge of topics like Mechanics, Waves, Optics, Semiconductors, Nano technology, Solar energy, Electricity and Magnetism. Students learn to operate laboratory instruments, gather data, and analyze results, helping them develop essential skills for future engineering courses. <br>•\tThe lab experience also emphasizes the importance of scientific methodology, accuracy, and problem-solving in real-world applications."
-      },
-      {
-        "LabID": "62",
-        "Lab_Image": "~/images/Department/General/Language_Lab.jpeg",
-        "Lab_Name": "Language Laboratory",
-        "Lab_Details": "•\tOur college has a well-equipped Language Laboratory dedicated to first-year students. <br>•\tThe lab has a seating capacity of 30 students, making it suitable for an entire class at once. <br>•\tIt is designed to improve English communication skills, pronunciation, and listening comprehension. <br>•\tThe lab is equipped with headsets, computers, and language learning software for interactive practice. <br>•\tStudents get the opportunity to practice speaking, listening, reading, and writing skills in a structured environment. <br>•\tThe lab also helps in building confidence for group discussions, presentations, and interviews. <br>•\tWith regular sessions, students develop a strong foundation in professional communication skills. <br>•\tThe facility plays a vital role in preparing students for their academic and career growth."
-      }
-    ],
-    "DeptAcademicCalender": [
+        "Title": "Science & Humanities",
+        "TitleImage": "../../images/Title/gen_banner.jpg",
+        "TitleImageCSSClass": "general_title",
+        "About": "The department aims at and focuses on- the overall development of the learner by teaching the subjects of Mathematics, Communication Skills, Contributor personality development and Physics. The faculty members of the department are committed to impart the knowledge based on their vast experience in the field and bringing the best out of learners. With the development of the Language Lab and the Physics Lab in the recent past, learners can now practice and apply their acquired skills. The department is involved in a number of activities like conducting seminars, workshops and guest lectures by eminent personalities of other universities and R&D organizations.",
+        "About_Images": [ "~/images/Department/General/slider1.png" ],
+        "showIntake": false,
+        "Intake": 0,
+        "FacultyCount": 0,
+        "AnnualPlacementCount": 0,
+        "LabWorkshop": 0,
+        "Vision": [ "Pursuit of excellence in technical education through quality pedagogy, character building and total development and to nurture responsible and valuable citizens." ],
+        "Mission": [
+            "By strengthening the teaching-learning process through, the institution will stimulate the spirit of systematic enquiry and discovery in academics.",
+            "To provide innovative and quality systems of learning to the young generation through innovative practices and quality management.",
+            "By strengthening the teaching-learning process through, the institution will stimulate the spirit of scientific enquiry and discovery in academics.",
+            "By providing state-of-the-art institutional infrastructure and excellent human resources, the department will foster a better educational environment.",
+            "To equip them to become scientific, prolific, productive, proactive human resources and responsible citizens of the nation."
+        ],
+        "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the General Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. The department focuses on the overall development of the student by teaching the subjects related to Mathematics, English, Physics. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Prof. VIJAY SONI",
+        "HOD_Pic": "~/images/Faculty/HOD/601.png",
+        "Tagline": null,
+        "PEOs": [],
+        "PSOs": [],
+        "Labs": [
+            {
+                "LabID": "61",
+                "Lab_Image": "~/images/Department/General/Physics_Lab.jpg",
+                "Lab_Name": "Physics Laboratory",
+                "Lab_Details": "•\tThe first-year physics lab in our institute is designed to introduce students to the fundamental concepts of physics through hands-on experiments.<br>•\tIt focuses on providing practical knowledge of topics like Mechanics, Waves, Optics, Semiconductors, Nano technology, Solar energy, Electricity and Magnetism. Students learn to operate laboratory instruments, gather data, and analyze results, helping them develop essential skills for future engineering courses. <br>•\tThe lab experience also emphasizes the importance of scientific methodology, accuracy, and problem-solving in real-world applications."
+            },
+            {
+                "LabID": "62",
+                "Lab_Image": "~/images/Department/General/Language_Lab.jpeg",
+                "Lab_Name": "Language Laboratory",
+                "Lab_Details": "•\tOur college has a well-equipped Language Laboratory dedicated to first-year students. <br>•\tThe lab has a seating capacity of 30 students, making it suitable for an entire class at once. <br>•\tIt is designed to improve English communication skills, pronunciation, and listening comprehension. <br>•\tThe lab is equipped with headsets, computers, and language learning software for interactive practice. <br>•\tStudents get the opportunity to practice speaking, listening, reading, and writing skills in a structured environment. <br>•\tThe lab also helps in building confidence for group discussions, presentations, and interviews. <br>•\tWith regular sessions, students develop a strong foundation in professional communication skills. <br>•\tThe facility plays a vital role in preparing students for their academic and career growth."
+            }
+        ],
+        "DeptAcademicCalender": [
 
-    ],
-    "TimeTable": [ //tender vm object
+        ],
+        "TimeTable": [ //tender vm object
 
-    ],
-    "Activities": [
+        ],
+        "Activities": [
 
-    ],
-    "NoticeBoard": [
+        ],
+        "NoticeBoard": [
 
-    ],
-    "NewsLetter": [
+        ],
+        "NewsLetter": [
 
-    ]
-  },
-  {
-    "ID": 8, //Keept this as 8
-    "Title": "Applied Mechanics",
-    "TitleImage": "../../images/Title/gen_banner.jpg",
-    "TitleImageCSSClass": "general_title",
-    "About": "The Applied Mechanics Department is committed to finding solutions to our major sustainability challenges this century and to educating and training the leaders who will have a large impact on our profession and on society. Join us in this important endeavor. The department of Applied Mechanics an independent functioning unit is the backbone of Civil Engineering. The department presents a picture of a small but fully dedicated and developed faculty contributing to all round growth of students, Institute, Industries and Society. While we're equipping our students with the knowledge and tools that can apply to the Civil Engineering and all other Engineering professional skills today, our real goal is to the coming decades.",
-    "About_Images": [ "~/images/Department/General/slider1.png" ],
-    "showIntake": false,
-    "Intake": 0,
-    "FacultyCount": 0,
-    "AnnualPlacementCount": 0,
-    "LabWorkshop": 0,
-    "Vision": [ "To achieve excellence by providing overall development of the student." ],
-    "Mission": [ "To train graduates according to the needs of industry, government, society and scientific community." ],
-    "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Applied Mechanics Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
-    "HODName": "Prof. Paresh Nimodia",
-    "HOD_Pic": "~/images/Faculty/HOD/803.png",
-    "Tagline": null,
-    "PSOs": [
-      "The Civil Engineering Graduate will be able to solve complex Civil Engineering problems and provide the best possible design solutions using various contemporary engineering tools and techniques.",
-      "The Civil Engineering Graduate will be able to use effective communication skills and shoulder accountability in a professional role as Civil Engineer independently, or as a team-member/team-leader in society.",
-      "The students will be able to achieve expertise in design and analysis of various Civil Engineering structures using relevant codes of practice, materials, techniques and software.",
-      "The students will acquire knowledge, skills and attitude for their better prospects in professional career of Civil Engineering.",
-      "The students will be able to Pursue Technological innovations in the field of Civil Engineering & allied fields for betterment of the society."
-    ],
-    "PEOs": [
-      "The graduates shall be able to engage themselves to achieve expertise to solve real world problems by modern Civil Engineering tools and techniques.",
+        ]
+    },
+    {
+        "ID": 8, //Keept this as 8
+        "Title": "Applied Mechanics",
+        "TitleImage": "../../images/Title/gen_banner.jpg",
+        "TitleImageCSSClass": "general_title",
+        "About": "The Applied Mechanics Department is committed to finding solutions to our major sustainability challenges this century and to educating and training the leaders who will have a large impact on our profession and on society. Join us in this important endeavor. The department of Applied Mechanics an independent functioning unit is the backbone of Civil Engineering. The department presents a picture of a small but fully dedicated and developed faculty contributing to all round growth of students, Institute, Industries and Society. While we're equipping our students with the knowledge and tools that can apply to the Civil Engineering and all other Engineering professional skills today, our real goal is to the coming decades.",
+        "About_Images": [ "~/images/Department/General/slider1.png" ],
+        "showIntake": false,
+        "Intake": 0,
+        "FacultyCount": 0,
+        "AnnualPlacementCount": 0,
+        "LabWorkshop": 0,
+        "Vision": [ "To achieve excellence by providing overall development of the student." ],
+        "Mission": [ "To train graduates according to the needs of industry, government, society and scientific community." ],
+        "HODMessage": "On behalf of our students and faculty, it is my privilege to welcome all of you to the Applied Mechanics Department at Government Engineering College Patan. The general engineering and applied sciences department forms the initial soil for any of the B.Tech degree courses. We take pride in our faculty, a team of highly capable and dedicated professionals, most of whom have academic and industrial experience and degrees from leading universities of the India. We provide ample opportunities to our faculty and students, through in -house trainings, workshops and trainings outside the college campus for further growth and development in their areas of expertise. I congratulate to the team of faculty members and the students for their brilliant and original efforts. I wish all the Students and Faculty a great academic career.",
+        "HODName": "Prof. Paresh Nimodia",
+        "HOD_Pic": "~/images/Faculty/HOD/803.png",
+        "Tagline": null,
+        "PSOs": [
+            "The Civil Engineering Graduate will be able to solve complex Civil Engineering problems and provide the best possible design solutions using various contemporary engineering tools and techniques.",
+            "The Civil Engineering Graduate will be able to use effective communication skills and shoulder accountability in a professional role as Civil Engineer independently, or as a team-member/team-leader in society.",
+            "The students will be able to achieve expertise in design and analysis of various Civil Engineering structures using relevant codes of practice, materials, techniques and software.",
+            "The students will acquire knowledge, skills and attitude for their better prospects in professional career of Civil Engineering.",
+            "The students will be able to Pursue Technological innovations in the field of Civil Engineering & allied fields for betterment of the society."
+        ],
+        "PEOs": [
+            "The graduates shall be able to engage themselves to achieve expertise to solve real world problems by modern Civil Engineering tools and techniques.",
 
-      "The Graduates shall be able to develop leadership, resource management skills and exhibit good teamwork in multidisciplinary projects.",
+            "The Graduates shall be able to develop leadership, resource management skills and exhibit good teamwork in multidisciplinary projects.",
 
-      "To produce Civil engineering graduates who can excel in their professional career and / or higher education by acquiring knowledge in basic engineering principles.",
+            "To produce Civil engineering graduates who can excel in their professional career and / or higher education by acquiring knowledge in basic engineering principles.",
 
-      "The graduates shall be able to pursue Technological Innovations and Advancements.",
+            "The graduates shall be able to pursue Technological Innovations and Advancements.",
 
-      "The graduates shall be able to serve Industry with professional Ethics and society with moral responsibilities"
-    ],
-    "DeptAcademicCalender": [
+            "The graduates shall be able to serve Industry with professional Ethics and society with moral responsibilities"
+        ],
+        "DeptAcademicCalender": [
 
-    ],
-    "TimeTable": [ //tender vm object
+        ],
+        "TimeTable": [ //tender vm object
 
-    ],
-    "Labs": [
-      {
-        "LabID": "81",
-        "Lab_Image": "~/images/Department/Applied Mechanics/CONCRETE TECHNOLOGY LAB - Paresh Nimodiya_page-0001.jpg",
-        "Lab_Name": "Concrete Technology",
-        "Lab_Details": "The Concrete Technology Laboratory at Government Engineering College, Patan provides students with hands-on experience in testing and analyzing various properties of concrete and its constituent materials. The lab is well-equipped with modern instruments to facilitate practical learning, research, and industry-oriented projects in areas such as concrete mix design and strength assessment. Key Equipment & Facilities: The lab houses a wide range of testing equipment, including: Cement Testing Equipment: Vicat needle apparatus, Blaine’s air permeability apparatus, Le Chatelier bath, flow table, cement cube molds, Aggregate Testing Equipment: Specific gravity bottle, pycnometer, density basket, thickness gauge & length gauge, aggregate crushing value apparatus, standard sieve set, Concrete Testing Equipment: Slump test apparatus, automatic compression testing machine, cube molds, hot air oven, weighing machine, Mixing & Preparation Equipment: Concrete mixture machine, mortar mixture machine, jaw crusher, cement mortar cube vibrating machine.The laboratory ensures that students gain practical exposure to quality control and testing methods, essential for modern civil engineering applications."
-      },
-      {
-        "LabID": "82",
-        "Lab_Image": "~/images/Department/Applied Mechanics/geotechnical lab - Paresh Nimodiya_page-0001.jpg",
-        "Lab_Name": "Geotechnical/Soil MechanicS/Foundation Engineering Lab",
-        "Lab_Details": "The Geotechnical Engineering Laboratory at Government Engineering College, Patan provides students with hands-on experience in soil mechanics, foundation engineering, and geotechnical analysis. The lab is equipped with modern instruments to conduct various tests on soil properties, strength, permeability, and compaction, ensuring a thorough understanding of soil behavior in construction and infrastructure projects.Key Equipment & Testing Facilities:The lab is well-equipped with advanced testing apparatus, including :\tStrength & Shear Testing: Unconfined Compression Testing Machine, Direct Shear Test Apparatus, Tri-axial Shear Test Apparatus, Laboratory Vane Shear Test Apparatus, Compaction & Density Testing: Universal Automatic Soil Compactor, Compaction Factor Apparatus, Relative Density Apparatus, Core Cutter,\tPermeability & Consolidation Testing: Permeability Apparatus, Consolidation Test Apparatus, Swell Pressure Test Apparatus, Index Property Testing: Liquid Limit Device, Plastic Limit Apparatus, Hydrometer, Pycnometer, California Bearing Ratio (CBR) Testing: CBR Testing Machine for pavement design analysis, Other Equipment: Hot Air Oven, essential for drying and moisture content determination"
-      },
-      {
-        "LabID": "83",
-        "Lab_Image": "~/images/Department/Applied Mechanics/Mechanics of Solids - Paresh Nimodiya_page-0001.jpg",
-        "Lab_Name": "Mechanics of Solids",
-        "Lab_Details": "The Mechanics of Solids Laboratory at Government Engineering College, Patan provides students with practical exposure to the fundamental principles of engineering mechanics, strength of materials, and structural behavior. The lab is equipped with a wide range of testing apparatus to help students understand force equilibrium, friction, moment of inertia, and mechanical advantage in simple machines. Key Equipment & Testing Facilities: The laboratory includes various apparatus for studying static and dynamic forces, mechanical properties, and equilibrium. conditionsForce:  & Equilibrium Studies: Apparatus for Reaction of Forces in Beams, Apparatus to Study Equilibrium of Non-Concurrent Forces, Polygon & Triangle of Forces Apparatus, Triangle & Parallelogram of Forces Apparatus, Friction & Mechanical Advantage: Combined Inclined Plane and Friction Slide Apparatus, Simple Screw Jack, Single Purchase Crab, Double Purchase Crab, Moment & Inertia Studies: Law of Moments Apparatus, Moment of Inertia of Flywheel, Pulley & Axle Systems: System of Pulleys, Wheel & Differential Axle."
-      },
-      {
-        "LabID": "84",
-        "Lab_Image": "~/images/Department/Applied Mechanics/Structural Analysis Lab - Paresh Nimodiya_page-0001.jpg",
-        "Lab_Name": "Structural Analysis Lab",
-        "Lab_Details": "The Structural Analysis Laboratory at Government Engineering College, Patan equips students with practical insights into the behavior of structural elements under various loading conditions. The lab is designed to enhance understanding of stress, strain, deflection, and stability in beams, columns, arches, and other structural components, crucial for effective design and analysis in civil engineering.Key Equipment & Testing Facilities: The laboratory features a range of apparatus to study fundamental and advanced concepts in structural analysis: Beam Analysis: Bending of Beam Apparatus, Deflection of Beam Apparatus, Column & Stability Testing: Column and Struts Apparatus for evaluating buckling and critical loads,Elasticity & Torsion Studies: Torsion Apparatus (Vertical Type), Young's Modulus Apparatus for material stiffness determination,Arches & Theorems: Three Hinged Arch Apparatus, Maxwell Reciprocal Theorem Apparatus for analyzing indeterminate structures."
-      }
-    ],
-    "Activities": [
+        ],
+        "Labs": [
+            {
+                "LabID": "81",
+                "Lab_Image": "~/images/Department/Applied Mechanics/CONCRETE TECHNOLOGY LAB - Paresh Nimodiya_page-0001.jpg",
+                "Lab_Name": "Concrete Technology",
+                "Lab_Details": "The Concrete Technology Laboratory at Government Engineering College, Patan provides students with hands-on experience in testing and analyzing various properties of concrete and its constituent materials. The lab is well-equipped with modern instruments to facilitate practical learning, research, and industry-oriented projects in areas such as concrete mix design and strength assessment. Key Equipment & Facilities: The lab houses a wide range of testing equipment, including: Cement Testing Equipment: Vicat needle apparatus, Blaine’s air permeability apparatus, Le Chatelier bath, flow table, cement cube molds, Aggregate Testing Equipment: Specific gravity bottle, pycnometer, density basket, thickness gauge & length gauge, aggregate crushing value apparatus, standard sieve set, Concrete Testing Equipment: Slump test apparatus, automatic compression testing machine, cube molds, hot air oven, weighing machine, Mixing & Preparation Equipment: Concrete mixture machine, mortar mixture machine, jaw crusher, cement mortar cube vibrating machine.The laboratory ensures that students gain practical exposure to quality control and testing methods, essential for modern civil engineering applications."
+            },
+            {
+                "LabID": "82",
+                "Lab_Image": "~/images/Department/Applied Mechanics/geotechnical lab - Paresh Nimodiya_page-0001.jpg",
+                "Lab_Name": "Geotechnical/Soil MechanicS/Foundation Engineering Lab",
+                "Lab_Details": "The Geotechnical Engineering Laboratory at Government Engineering College, Patan provides students with hands-on experience in soil mechanics, foundation engineering, and geotechnical analysis. The lab is equipped with modern instruments to conduct various tests on soil properties, strength, permeability, and compaction, ensuring a thorough understanding of soil behavior in construction and infrastructure projects.Key Equipment & Testing Facilities:The lab is well-equipped with advanced testing apparatus, including :\tStrength & Shear Testing: Unconfined Compression Testing Machine, Direct Shear Test Apparatus, Tri-axial Shear Test Apparatus, Laboratory Vane Shear Test Apparatus, Compaction & Density Testing: Universal Automatic Soil Compactor, Compaction Factor Apparatus, Relative Density Apparatus, Core Cutter,\tPermeability & Consolidation Testing: Permeability Apparatus, Consolidation Test Apparatus, Swell Pressure Test Apparatus, Index Property Testing: Liquid Limit Device, Plastic Limit Apparatus, Hydrometer, Pycnometer, California Bearing Ratio (CBR) Testing: CBR Testing Machine for pavement design analysis, Other Equipment: Hot Air Oven, essential for drying and moisture content determination"
+            },
+            {
+                "LabID": "83",
+                "Lab_Image": "~/images/Department/Applied Mechanics/Mechanics of Solids - Paresh Nimodiya_page-0001.jpg",
+                "Lab_Name": "Mechanics of Solids",
+                "Lab_Details": "The Mechanics of Solids Laboratory at Government Engineering College, Patan provides students with practical exposure to the fundamental principles of engineering mechanics, strength of materials, and structural behavior. The lab is equipped with a wide range of testing apparatus to help students understand force equilibrium, friction, moment of inertia, and mechanical advantage in simple machines. Key Equipment & Testing Facilities: The laboratory includes various apparatus for studying static and dynamic forces, mechanical properties, and equilibrium. conditionsForce:  & Equilibrium Studies: Apparatus for Reaction of Forces in Beams, Apparatus to Study Equilibrium of Non-Concurrent Forces, Polygon & Triangle of Forces Apparatus, Triangle & Parallelogram of Forces Apparatus, Friction & Mechanical Advantage: Combined Inclined Plane and Friction Slide Apparatus, Simple Screw Jack, Single Purchase Crab, Double Purchase Crab, Moment & Inertia Studies: Law of Moments Apparatus, Moment of Inertia of Flywheel, Pulley & Axle Systems: System of Pulleys, Wheel & Differential Axle."
+            },
+            {
+                "LabID": "84",
+                "Lab_Image": "~/images/Department/Applied Mechanics/Structural Analysis Lab - Paresh Nimodiya_page-0001.jpg",
+                "Lab_Name": "Structural Analysis Lab",
+                "Lab_Details": "The Structural Analysis Laboratory at Government Engineering College, Patan equips students with practical insights into the behavior of structural elements under various loading conditions. The lab is designed to enhance understanding of stress, strain, deflection, and stability in beams, columns, arches, and other structural components, crucial for effective design and analysis in civil engineering.Key Equipment & Testing Facilities: The laboratory features a range of apparatus to study fundamental and advanced concepts in structural analysis: Beam Analysis: Bending of Beam Apparatus, Deflection of Beam Apparatus, Column & Stability Testing: Column and Struts Apparatus for evaluating buckling and critical loads,Elasticity & Torsion Studies: Torsion Apparatus (Vertical Type), Young's Modulus Apparatus for material stiffness determination,Arches & Theorems: Three Hinged Arch Apparatus, Maxwell Reciprocal Theorem Apparatus for analyzing indeterminate structures."
+            }
+        ],
+        "Activities": [
 
-    ],
-    "NoticeBoard": [
+        ],
+        "NoticeBoard": [
 
-    ],
-    "NewsLetter": [
+        ],
+        "NewsLetter": [
 
-    ]
-  }
+        ]
+    }
 ]
