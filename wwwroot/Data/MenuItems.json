@@ -369,40 +369,40 @@
         "isVisible": true,
         "ChildMenuVMs": []
       },
-      {
-        "ID": 44,
-        "MenuText": "Civil & Applied Mechanics Engineering",
-        "ParentID": 4,
-        "dynamicID": null,
-        "ControllerName": "",
-        "ActionName": "",
-        "position": 4,
-        "isVisible": true,
-        "ChildMenuVMs": [
-            {
-                "ID": 44,
-                "MenuText": "Civil Engineering",
-                "ParentID": 44,
-                "dynamicID": 4,
-                "ControllerName": "Department",
-                "ActionName": "DepartmentDetails",
-                "position": 4,
-                "isVisible": true,
-                "ChildMenuVMs": []
-            },
-            {
-                "ID": 48,
-                "MenuText": "Applied Mechanics",
-                "ParentID": 44,
-                "dynamicID": 8,
-                "ControllerName": "Department",
-                "ActionName": "DepartmentDetails",
-                "position": 8,
-                "isVisible": true,
-                "ChildMenuVMs": []
-            }
-        ]
-      },
+        {
+            "ID": 44,
+            "MenuText": "Civil Engineering & Applied Mechanics",
+            "ParentID": 4,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 4,
+            "isVisible": true,
+            "ChildMenuVMs": [
+                {
+                    "ID": 44,
+                    "MenuText": "Civil Engineering",
+                    "ParentID": 44,
+                    "dynamicID": 4,
+                    "ControllerName": "Department",
+                    "ActionName": "DepartmentDetails",
+                    "position": 4,
+                    "isVisible": true,
+                    "ChildMenuVMs": []
+                },
+                {
+                    "ID": 48,
+                    "MenuText": "Applied Mechanics",
+                    "ParentID": 44,
+                    "dynamicID": 8,
+                    "ControllerName": "Department",
+                    "ActionName": "DepartmentDetails",
+                    "position": 8,
+                    "isVisible": true,
+                    "ChildMenuVMs": []
+                }
+            ]
+        },
       {
         "ID": 45,
         "MenuText": "Mechnanical Engineering",
