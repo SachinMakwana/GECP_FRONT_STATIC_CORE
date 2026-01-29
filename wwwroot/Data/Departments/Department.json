@@ -32,50 +32,50 @@
             "An ability to solve Electronics and communication Engineering problems using the latest hardware and software."
         ],
         "Labs": [
-          {
-            "LabID": 11,
-            "Lab_Image": "~/images/Department/EC/L_201.jpg",
-            "Lab_Name": "L201 ANALOG & DIGITAL ELECTRONICS LABORATORY",
-            "Lab_Details": "This laboratory is equipped with Analog and Digital Electronics trainers, viz.,amplifier, common emitter configuration, common collector configuration,oscillators, multivibrators, power supply, trainers using 555 IC, digital gates,flip flops, counters, and registers kits, etc. Following are few kits: <ul>  <li>• Active band pass filter</li>  <li>• Automatic gain control kit</li>  <li>• Butterworth filter trainer</li><li>• CE configuration of transistor</li>  <li>• DC motor speed control using SCR</li></ul>"
-          },
-          {
-            "LabID": 12,
-            "Lab_Image": "~/images/Department/EC/L_202.png",
-            "Lab_Name": "L202 SIMULATION LABORATORY",
-            "Lab_Details": "This laboratory is equipped with the latest computers with advanced simulation software, viz., MATLAB, Multisim, Visual Studio Code, Keil uVision, Atmel Studio, and Xilinx etc. Laboratory is equipped with:<ul><li>• DIGITAL OSCILLOSCOPE DSOX 2024A</li><li>• Workbench Electronics</li></ul>"
-          },
-          {
-            "LabID": 13,
-            "Lab_Image": "~/images/Department/EC/L_203.png",
-            "Lab_Name": "L203 ELECTRONIC SYSTEM DESIGN LABORATORY",
-            "Lab_Details": "This laboratory consists of multiple electronics workbenches, having a digital storage oscilloscope, multi meter, function generator, and power supply, which can be helpful in testing and measurements of various electronics circuits or systems."
+            {
+                "LabID": 11,
+                "Lab_Image": "~/images/Department/EC/L_201.jpg",
+                "Lab_Name": "L201 ANALOG & DIGITAL ELECTRONICS LABORATORY",
+                "Lab_Details": "This laboratory is equipped with Analog and Digital Electronics trainers, viz.,amplifier, common emitter configuration, common collector configuration,oscillators, multivibrators, power supply, trainers using 555 IC, digital gates,flip flops, counters, and registers kits, etc. Following are few kits: <ul>  <li>• Active band pass filter</li>  <li>• Automatic gain control kit</li>  <li>• Butterworth filter trainer</li><li>• CE configuration of transistor</li>  <li>• DC motor speed control using SCR</li></ul>"
+            },
+            {
+                "LabID": 12,
+                "Lab_Image": "~/images/Department/EC/L_202.png",
+                "Lab_Name": "L202 SIMULATION LABORATORY",
+                "Lab_Details": "This laboratory is equipped with the latest computers with advanced simulation software, viz., MATLAB, Multisim, Visual Studio Code, Keil uVision, Atmel Studio, and Xilinx etc. Laboratory is equipped with:<ul><li>• DIGITAL OSCILLOSCOPE DSOX 2024A</li><li>• Workbench Electronics</li></ul>"
+            },
+            {
+                "LabID": 13,
+                "Lab_Image": "~/images/Department/EC/L_203.png",
+                "Lab_Name": "L203 ELECTRONIC SYSTEM DESIGN LABORATORY",
+                "Lab_Details": "This laboratory consists of multiple electronics workbenches, having a digital storage oscilloscope, multi meter, function generator, and power supply, which can be helpful in testing and measurements of various electronics circuits or systems."
 
 
-          },
-          {
-            "LabID": 14,
-            "Lab_Image": "~/images/Department/EC/L_211.jpg",
-            "Lab_Name": "L211 COMMUNICATION LABORATORY",
-            "Lab_Details": "This laboratory is equipped with Analog and Digital communication trainers, viz., AM, FM, and PM modulation demodulation, superheterodyne receiver, PWM, PPM, PAM, ASK, FSK, PSK kits, Spectrum Analyzer as well as RF and Microwave trainers for microwave communication along with active and passive components. Few trainers are as:<ul><li>• Amplitude Modulation/Demodulation Trainer</li><li>• DSB/SSB AM Receiver</li><li>• Fiber Optics Demonstrator</li><li>• FM Transmitter Receiver Trainer</li><li>• Microwave Bench</li></ul>"
-          },
-          {
-            "LabID": 15,
-            "Lab_Image": "~/images/Department/EC/L_212.jpg",
-            "Lab_Name": "L212 PROJECT LABORATORY",
-            "Lab_Details": "This laboratory is designed to provide students with hands-on experience in research and practical applications across various fields of Electronics and Communication Engineering."
-          },
-          {
-            "LabID": 16,
-            "Lab_Image": "~/images/Department/EC/L_213.jpg",
-            "Lab_Name": "L213 SIGNAL PROCESSING & VLSI LABORATORY",
-            "Lab_Details": "This laboratory consists of various trainers, viz., DSP, FPGA kits, and software required to perform operations on the trainers for Digital Signal Processing, Image Processing, Speech Signal Processing, and VLSI experiments.<ul><li>• DSP Trainer Kit</li><li>• Desktop Computer (ACER- AMD processor 12th generation)</li><li>• Programmable Function Generator, 1 Channel, 50Mhz (AFG3051C)</li></ul>"
-          },
-          {
-            "LabID": 17,
-            "Lab_Image": "~/images/Department/EC/L_214.jpg",
-            "Lab_Name": "L214 EMBEDDED & IoT LABORATORY",
-            "Lab_Details": "This laboratory consists of various trainers of microprocessors, microcontrollers, embedded and IoT boards, viz., 8085, 8086, 8051, AVR, and daughter boards like 8255 I/O interfacing, ADC, DAC, stepper motor controller, Arduino boards, and ESP8266 Node MCU boards. This laboratory provides extensive hands-on experience to design various embedded systems and exposes students to the tools required to turn them into IoTs.<ul><li>• 8051 Microcontroller Trainer Kit</li><li>• 8086 Microprocessor Trainer Kit</li><li>• Interfacing card for ADC, DAC, LCD, seven segment display, stepper motor interfacing card</li></ul>"
-          }
+            },
+            {
+                "LabID": 14,
+                "Lab_Image": "~/images/Department/EC/L_211.jpg",
+                "Lab_Name": "L211 COMMUNICATION LABORATORY",
+                "Lab_Details": "This laboratory is equipped with Analog and Digital communication trainers, viz., AM, FM, and PM modulation demodulation, superheterodyne receiver, PWM, PPM, PAM, ASK, FSK, PSK kits, Spectrum Analyzer as well as RF and Microwave trainers for microwave communication along with active and passive components. Few trainers are as:<ul><li>• Amplitude Modulation/Demodulation Trainer</li><li>• DSB/SSB AM Receiver</li><li>• Fiber Optics Demonstrator</li><li>• FM Transmitter Receiver Trainer</li><li>• Microwave Bench</li></ul>"
+            },
+            {
+                "LabID": 15,
+                "Lab_Image": "~/images/Department/EC/L_212.jpg",
+                "Lab_Name": "L212 PROJECT LABORATORY",
+                "Lab_Details": "This laboratory is designed to provide students with hands-on experience in research and practical applications across various fields of Electronics and Communication Engineering."
+            },
+            {
+                "LabID": 16,
+                "Lab_Image": "~/images/Department/EC/L_213.jpg",
+                "Lab_Name": "L213 SIGNAL PROCESSING & VLSI LABORATORY",
+                "Lab_Details": "This laboratory consists of various trainers, viz., DSP, FPGA kits, and software required to perform operations on the trainers for Digital Signal Processing, Image Processing, Speech Signal Processing, and VLSI experiments.<ul><li>• DSP Trainer Kit</li><li>• Desktop Computer (ACER- AMD processor 12th generation)</li><li>• Programmable Function Generator, 1 Channel, 50Mhz (AFG3051C)</li></ul>"
+            },
+            {
+                "LabID": 17,
+                "Lab_Image": "~/images/Department/EC/L_214.jpg",
+                "Lab_Name": "L214 EMBEDDED & IoT LABORATORY",
+                "Lab_Details": "This laboratory consists of various trainers of microprocessors, microcontrollers, embedded and IoT boards, viz., 8085, 8086, 8051, AVR, and daughter boards like 8255 I/O interfacing, ADC, DAC, stepper motor controller, Arduino boards, and ESP8266 Node MCU boards. This laboratory provides extensive hands-on experience to design various embedded systems and exposes students to the tools required to turn them into IoTs.<ul><li>• 8051 Microcontroller Trainer Kit</li><li>• 8086 Microprocessor Trainer Kit</li><li>• Interfacing card for ADC, DAC, LCD, seven segment display, stepper motor interfacing card</li></ul>"
+            }
         ],
         "DeptAcademicCalender": [
 
@@ -87,7 +87,8 @@
 
         ],
         "NoticeBoard": [
-
+        ],
+        "NewsLetter": [
         ]
     },
     {
@@ -195,6 +196,9 @@
         ],
         "NoticeBoard": [
 
+        ],
+        "NewsLetter": [
+
         ]
     },
     {
@@ -281,6 +285,9 @@
         ],
         "NoticeBoard": [
 
+        ],
+        "NewsLetter": [
+
         ]
     },
     {
@@ -357,6 +364,9 @@
 
         ],
         "NoticeBoard": [
+
+        ],
+        "NewsLetter": [
 
         ]
     },
@@ -466,7 +476,7 @@
                 "Lab_Details": "The Mechanical Workshop Laboratory emphasizes hands-on practice in manufacturing and fabrication, enhancing students' technical skills through real-world applications. It includes machining, welding, carpentry, fitting, and plumbing shops."
             }
         ],
-        "DeptAcademicCalender": [
+        "DeptAcademicCalender": [ //tender vm object
 
         ],
         "TimeTable": [ //tender vm object
@@ -478,8 +488,71 @@
         "NoticeBoard": [
 
         ],
-        "NewsLetter": [
-           
+        "NewsLetter" [
+            {
+                "ID": 1,
+                "Title": "Torque Talk (2021-22)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (2021-22).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 2,
+                "Title": "Torque Talk (Jan- June 2023)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2023).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 3,
+                "Title": "Torque Talk (Jan- June 2024)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2024).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 4,
+                "Title": "Torque Talk (Jan- June 2025)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2025).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 5,
+                "Title": "Torque Talk (July- Dec 2022)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2022).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 6,
+                "Title": "Torque Talk (July- Dec 2023)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2023).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 7,
+                "Title": "Torque Talk (July- Dec 2024)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2024).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 8,
+                "Title": "Torque Talk (July-Dec 2025)",
+                "FileType": "PDF",
+                "File": "~/Data/Newsletter/Torque Talk (July-Dec 2025).pdf",
+                "isShow": true,
+                "UploadDate": "12-08-2025"
+            }
         ]
     },
     {
@@ -532,6 +605,9 @@
 
         ],
         "NoticeBoard": [
+
+        ],
+        "NewsLetter": [
 
         ]
     },
@@ -607,6 +683,9 @@
 
         ],
         "NoticeBoard": [
+
+        ],
+        "NewsLetter": [
 
         ]
     }
