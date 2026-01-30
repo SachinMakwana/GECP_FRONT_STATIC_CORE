@@ -1411,7 +1411,7 @@
   },
   {
     "ID": 80,
-    "Title": ": Fundamentals of QA Engineering",
+    "Title": "Fundamentals of QA Engineering",
     "Description": "This event was successfully arranged by the Code Hives Club under the leadership of Ms. Ashvi Patel and her team. The event was guided by Prof. Sachin Makwana and Prof. Jay Patel, with constant support and encouragement from the Head of the Department, Dr. Harikrishna Jethva.",
     "EventDate": "28-05-2023",
     "ClubId": 2,
@@ -1421,7 +1421,7 @@
     "Files": [
       {
         "ID": 1,
-        "Title": ": Fundamentals of QA Engineering",
+        "Title": "Fundamentals of QA Engineering",
         "FileType": "PDF",
         "FilePath": "~/DataFiles/Documents/CodeHives/06_28-05-2023_QE_28_may23-1.pdf"
       }
