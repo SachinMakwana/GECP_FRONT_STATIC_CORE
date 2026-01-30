@@ -5,7 +5,7 @@
   "TitleImageCSSClass": "ssip_title",
   "About": "The institute provides excellent accommodation to its students. The students are provided with all the amenities so that their stay here becomes a worthwhile experience. Entertainment facilities like TV room, badminton room, gymnasium are also available in hostel.",
   "SideImage": [
-    "../../images/gallary/1112.jpg",
+    //"../../images/gallary/1112.jpg",
     "../../images/gallary/Hostel.jpg"
   ],
   "BlogLink": "https://hostelgecp.blogspot.com/",
