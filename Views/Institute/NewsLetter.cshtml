@@ -150,9 +150,7 @@
 			if (typeof PDFObject !== 'undefined' && PDFObject.supportsPDFs) {
 				PDFObject.embed(path, "#pdfreader");
 			} else {
-				$("#pdfreader").html(
-					'<iframe src="' + path + '" style="width:100%; height:100%; border:none;"></iframe>'
-				);
+				 window.location.href = path;
 			}
 
 			// Close handler
