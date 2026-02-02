@@ -455,15 +455,284 @@
     "Title": "Enrollment Details",
     "YearSection": [
       {
-        "Year": "2024",
+        "Year": "2025-26",
+        "Order": 1,
+        "IsShow": true,
         "Documents": [
           {
             "ID": 1,
-            "Title": "Enrollment Student List 2024",
+            "Title": "Civil Engineering",
             "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/Enrolled Students List 2024_BE First Semester and D2D_Final.pdf",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/CI.pdf",
             "isShow": true,
-            "UploadDate": "01-03-2025"
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 2,
+            "Title": "Electrical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/EE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 3,
+            "Title": "Mechanical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/ME.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 4,
+            "Title": "Computer Science Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/CSE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 5,
+            "Title": "Electronics & Communication Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/EC.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          }
+        ]
+      },
+      {
+        "Year": "2024-25",
+        "Order": 2,
+        "IsShow": true,
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Civil Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/CI.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 2,
+            "Title": "Electrical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/EE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 3,
+            "Title": "Mechanical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/ME.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 4,
+            "Title": "Computer Science Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/CSE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 5,
+            "Title": "Electronics & Communication Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/EC.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          }
+        ]
+      },
+      {
+        "Year": "2023-24",
+        "Order": 3,
+        "IsShow": true,
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Civil Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/CI.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 2,
+            "Title": "Electrical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/EE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 3,
+            "Title": "Mechanical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/ME.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 4,
+            "Title": "Computer Science Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/CSE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 5,
+            "Title": "Electronics & Communication Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/EC.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          }
+        ]
+      },
+      {
+        "Year": "2022-23",
+        "Order": 4,
+        "IsShow": true,
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Civil Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/CI.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 2,
+            "Title": "Electrical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/EE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 3,
+            "Title": "Mechanical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/ME.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 4,
+            "Title": "Computer Science Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/CSE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 5,
+            "Title": "Electronics & Communication Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/EC.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          }
+        ]
+      },
+      {
+        "Year": "2021-22",
+        "Order": 5,
+        "IsShow": true,
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Civil Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/CI.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 2,
+            "Title": "Electrical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/EE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 3,
+            "Title": "Mechanical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/ME.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 4,
+            "Title": "Computer Science Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/CSE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 5,
+            "Title": "Electronics & Communication Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/EC.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          }
+        ]
+      },
+      {
+        "Year": "2020-21",
+        "Order": 6,
+        "IsShow": true,
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Civil Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/CI.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 2,
+            "Title": "Electrical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/EE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 3,
+            "Title": "Mechanical Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/ME.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 4,
+            "Title": "Computer Science Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/CSE.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
+          },
+          {
+            "ID": 5,
+            "Title": "Electronics & Communication Engineering",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/EC.pdf",
+            "isShow": true,
+            "UploadDate": "02-02-2026"
           }
         ]
       }
