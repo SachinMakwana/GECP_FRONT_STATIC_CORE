@@ -702,15 +702,123 @@
       },
       {
         "ID": 59,
-        "MenuText": "Psychology Cell",
+        "MenuText": "Student Support System",
         "ParentID": 6,
-        "dynamicID": 12,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "CommitteePage",
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
         "position": 16,
         "isVisible": true,
         "Link": "",
-        "ChildMenuVMs": []
+        "ChildMenuVMs": [
+          {
+            "ID": 61,
+            "MenuText": "Psychology Cell",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "position": 16,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 62,
+            "MenuText": "National Task Force",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 63,
+            "MenuText": "Anti-Ragging Squad",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/Documents/Student Suppot System/Anti Ragging Scaud.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 64,
+            "MenuText": "SC/ST Committee",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/Documents/Student Suppot System/SC ST Committee.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 65,
+            "MenuText": "Internal Compliant Committee(ICC)",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/Documents/Student Suppot System/ICC.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 66,
+            "MenuText": "Industry Institute Interaction Cell",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/Documents/Student Suppot System/Industry Institute Interaction Cell.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 67,
+            "MenuText": "OMBUDSMAN",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/Documents/Student Suppot System/OMBUDSMAN Committee.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 68,
+            "MenuText": "Women Helpline",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/Documents/Student Suppot System/Woman Helpline.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 67,
+            "MenuText": "Student Counsellor",
+            "ParentID": 6,
+            "dynamicID": 12,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "~/DataFiles/Documents/Student Suppot System/student counsellor.pdf",
+            "ChildMenuVMs": []
+          }
+        ]
       }
     ]
   },
@@ -909,7 +1017,7 @@
           },
           {
             "ID": 75,
-            "MenuText": "Grievence Cell",
+            "MenuText": "Grievence Redressal",
             "ParentID": 7,
             "dynamicID": 5,
             "ControllerName": "CampusCommittee",
@@ -957,6 +1065,28 @@
             "MenuText": "Psychology Cell",
             "ParentID": 7,
             "dynamicID": 12,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "position": 9,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 70,
+            "MenuText": "Internal Complaint Committee(ICC)",
+            "ParentID": 7,
+            "dynamicID": 13,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "position": 9,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 70,
+            "MenuText": "OMBUDSMAN",
+            "ParentID": 7,
+            "dynamicID": 14,
             "ControllerName": "CampusCommittee",
             "ActionName": "CommitteePage",
             "position": 9,

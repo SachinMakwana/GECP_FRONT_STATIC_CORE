@@ -256,18 +256,34 @@
       {
         "ID": 1,
         "Name": "Prof. H. L. Chaudhary",
-        "Position": "Coordinator",
+        "Position": "Chairman",
         "Image": "~/images/Faculty/214.jpg",
         "Email": "harshad.chaudhary@gecpatan.ac.in",
         "Department": "Computer Science & Engineering Department"
       },
       {
         "ID": 2,
-        "Name": "Prof. B. P. Patel",
+        "Name": "Dr. H. S. Bhutadia",
         "Position": "Member",
-        "Image": "~/images/Faculty/216.jpg",
-        "Email": "bhavesh.patel@gecpatan.ac.in",
-        "Department": "Computer Science & Engineering Department"
+        "Image": "~/images/Faculty/605.jpg",
+        "Email": "harshad.bhutadia@gecpatan.ac.in",
+        "Department": "General"
+      },
+      {
+        "ID": 3,
+        "Name": "PROF. ANJU M. VASDEWANI",
+        "Position": "Member",
+        "Image": "~/images/Faculty/109.jpg",
+        "Email": "amvgec@gmail.com",
+        "Department": "Electronics and Communication"
+      },
+      {
+        "ID": 4,
+        "Name": "Dr. V. M. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/402.jpg",
+        "Email": "vijendrakumar.patel@gujgov.edu.in",
+        "Department": "Civil"
       }
     ]
   },
@@ -448,10 +464,19 @@
     "Members": [
       {
         "ID": 1,
-        "Name": "Dr. B. J. Shah",
+        "Name": "Dr. A. B. Dhruv",
         "Position": "Chairman",
-        "Image": "~/images/Department/Administrative/principal.jpg",
-        "Email": "principal@gecpatan.ac.in"
+        "Image": "~/images/Faculty/HOD/501.jpg",
+        "Email": "anand.dhruv@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Dr. D. J. Parmar",
+        "Position": "Member",
+        "Image": "~/images/Faculty/504.jpg",
+        "Email": "dipak.parmar@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
       },
       //{
       //    "ID": 2,
@@ -952,7 +977,7 @@
   //Alumni
   {
     "ID": 11,
-    "Title": "Alumni", 
+    "Title": "Alumni",
     "TableView": true,
     "TitleImage": "../../images/alumni-banner.jpg",
     "TitleImageCSSClass": "alumni_cell_title",
@@ -970,7 +995,7 @@
       "To promote and enhance the College’s good name and reputation.",
       "To provide a forum for the Alumni for the exchange of ideas on academic, cultural, and social issues of the day by organizing and coordinating reunion activities of the Alumni."
     ],
-    "SubObjImg": "~/images/alumni-poster.jpg", 
+    "SubObjImg": "~/images/alumni-poster.jpg",
     "BulletPoints": [
       //"Pay registration fees via NEFT / IMPS / UPI",
       //"Fill the registration form by clicking <a href=\"https://forms.gle/5RtrHwu2HmLUw6EM9\" target=\"_blank\"> here </a> (payment proof required)",
@@ -1182,6 +1207,185 @@
     "TableView": true,
 
     "NationalTaskForce": "/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf"
+  },
+  {
+    "ID": 13,
+    "Title": "Internal Complaint Committee(ICC)",
+    "TitleImage": "../../images/grievence_banner.jpg",
+    "TitleImageCSSClass": "",
+    "About": "The Internal Complaints Committee (ICC) of Government Engineering College, Patan, is constituted in accordance with the AICTE Regulations, 2016 to ensure a safe, secure, and gender-just environment for women employees and students. The committee is responsible for the prevention, prohibition, and redressal of complaints related to sexual harassment within the campus and workplace. Comprising senior faculty members, non-teaching staff, student representatives from various departments, and an external expert on women’s issues, the ICC functions with fairness, sensitivity, and strict confidentiality while also promoting gender sensitization and awareness to uphold dignity, equality, and respect across the institution.",
+    "Measures": "",
+    "Measure_Image": "",
+    "Vision": [
+    ],
+    "Mission": [
+
+    ],
+    "SubObjectives": [
+
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Dr. N. J. Dalal",
+        "Position": "Presiding Officer",
+        "Image": "~/images/Faculty/407.jpg",
+        "Email": "dalalneelam@gmail.com",
+        "Department": "Civil Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Dr. P. A. Barot",
+        "Position": "Senior Faculty Member",
+        "Image": "~/images/Faculty/202.jpg",
+        "Email": "pratik.barot@gecpatan.ac.in",
+        "Department": "Computer Science & engineering Department"
+      },
+      {
+        "ID": 3,
+        "Name": "Mrs. R. A. Chaudhary",
+        "Position": "Faculty/Staff Member",
+        "Image": "~/images/Faculty/107.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in",
+        "Department": "Electronics & Communication Department"
+      },
+      {
+        "ID": 4,
+        "Name": "Mrs. S. B. Chaudhary",
+        "Position": "Non-Teaching Staff",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": ""
+      },
+      {
+        "ID": 5,
+        "Name": "Mr. P. N. Pancholi",
+        "Position": "Non-Teaching Staff",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": ""
+      },
+      {
+        "ID": 6,
+        "Name": "Ms. Anchal Singh",
+        "Position": "Student Representative Member",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": "Civil Engineering Department"
+      },
+      {
+        "ID": 7,
+        "Name": "Ms. Hitexa Patel",
+        "Position": "Student Representative Member",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": "CSE Department"
+      },
+      {
+        "ID": 8,
+        "Name": "Mr. Patel Vimalkumar H.",
+        "Position": "Student Representative Member",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": "Electrical Engineering Department"
+      },
+      {
+        "ID": 9,
+        "Name": "Ms. Ishika Dave",
+        "Position": "Student Representative Member",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": "EC Engineering Department"
+      },
+      {
+        "ID": 10,
+        "Name": "Ms. Manish Jha",
+        "Position": "Student Representative Member",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 11,
+        "Name": "Ms. Ushaben Buch",
+        "Position": "External Member",
+        "Image": "~/images\\Faculty\\1000.jpg",
+        "Email": "",
+        "Department": "External Expert (NGO / Women’s Issues)"
+      }
+    ]
+  },
+  {
+    "ID": 14,
+    "Title": "OMBUDSMAN",
+    "TitleImage": "../../images/grievence_banner.jpg",
+    "TitleImageCSSClass": "",
+    "About": "The Ombudsman Committee of Government Engineering College, Patan, is constituted to provide an effective and impartial mechanism for the redressal of student grievances and to ensure transparency in institutional processes. The committee addresses student complaints fairly and objectively, safeguards students’ rights, promotes adherence to academic and administrative policies, and helps maintain a just, accountable, and student-friendly environment within the institute.",
+    "Measures": "",
+    "Measure_Image": "",
+    "Vision": [
+    ],
+    "Mission": [
+
+    ],
+    "SubObjectives": [
+
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Dr. D. K. Patel",
+        "Position": "Chairman",
+        "Image": "~/images/Faculty/502.jpg",
+        "Email": "dinesh.patel@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Prof. G. A. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/HOD/301.jpg",
+        "Email": "gunvant.patel@gecpatan.ac.in",
+        "Department": "Electrical Engineering Department"
+      },
+      {
+        "ID": 3,
+        "Name": "Dr. S. A. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/203.png",
+        "Email": "sunil.patel@gecpatan.ac.in",
+        "Department": "Computer Science & Engineering Department"
+      },
+      {
+        "ID": 4,
+        "Name": "Dr. V. M. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/402.jpg",
+        "Email": "vijendrakumar.patel@gujgov.edu.in",
+        "Department": "Civil Engineering Department"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. M. M. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/104.jpg",
+        "Email": "mihir.patel@gecpatan.ac.in",
+        "Department": "Electronics and Communication Engineering Department"
+      }
+    ]
+
   }
 ]
 // use below template to add a committee
