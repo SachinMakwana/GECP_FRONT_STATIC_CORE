@@ -576,7 +576,7 @@
       },
       {
         "ID": 102,
-        "MenuText": "Design & Tinkiering Lab",
+        "MenuText": "Design & Tinkering Lab",
         "ParentID": 10,
         "dynamicID": null,
         "ControllerName": "Research",
@@ -605,6 +605,18 @@
         "ActionName": "isro",
         "position": 5,
         "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 105,
+        "MenuText": "Patents",
+        "ParentID": null,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 6,
+        "isVisible": true,
+        "Link": "/DataFiles/Documents/IPR/IPR Details.pdf",
         "ChildMenuVMs": []
       }
     ]

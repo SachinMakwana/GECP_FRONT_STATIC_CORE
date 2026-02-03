@@ -358,7 +358,7 @@
                 "Title": "EC EVEN 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2025_2026.pdf",
-                "isShow": false,
+                "isShow": true,
 
                 "UploadDate": "03-02-2026"
 
@@ -378,9 +378,9 @@
                 "Title": "ELECTRICAL EVEN 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2025_2026.pdf",
-                "isShow": false,
+                "isShow": true,
 
-                "UploadDate": "04-09-2025"
+                "UploadDate": "03-02-2026"
 
             }
         ]
@@ -849,6 +849,14 @@
             "File": "~/AcademicCalender/SSIP2.pdf",
             "FileType": "PDF",
             "UploadDate": "23-01-2026",
+            "isShow": true
+          },
+          {
+            "ID": 6,
+            "Title": "List of PoC (Proof of Concept)",
+            "File": "~/AcademicCalender/List of PoC.pdf",
+            "FileType": "PDF",
+            "UploadDate": "03-02-2026",
             "isShow": true
           }
         ]

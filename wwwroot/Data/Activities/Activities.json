@@ -1301,7 +1301,7 @@
   },
   {
     "ID": 74,
-    "Title": "MOOC Sensitization And Registration",
+    "Title": "MOOC Sensitization And Registration (EC)",
     "Description": "The Electronics and Communication Engineering Department organized a sensitization and registration program on 19th January 2026 for every-year students to highlight the importance and benefits of Massive Open Online Courses (MOOCs). The program aimed to familiarize students with various online learning platforms and resources available for enhancing their academic and professional skills. Dr. Haresh Judal delivered a presentation on the Guidelines for Implementation of MOOCs w.e.f. Academic Year 2025–26 as published by GTU, while Prof. Roshni Chaudhari discussed the list of MOOC and GTU-offered courses available for students of different engineering branches.",
     "EventDate": "19-01-2026",
     "EventTime": "",
@@ -1534,6 +1534,86 @@
         "FilePath": "~/DataFiles/CampusCommittees/Psychology/VIBRANT GUJARAT.pdf"
       }
     ]
-  }
+  },
+    {
+        "ID": 87,
+        "Title": "MOOC Sensitization And Registration (EE)",
+        "Description": "The Electrical Engineering department organized a sensitization and registration program to create awareness among students about the significance of Massive Open Online Courses (MOOCs). The initiative focused on informing students about the benefits of online learning and the wide range of digital platforms and courses available to support their academic growth and skill development. The program included sessions on institutional guidelines for MOOC implementation and an overview of approved and recommended online courses offered by the university for various engineering disciplines, helping students understand enrollment procedures and course selection.",
+        "EventDate": "20-01-2026",
+        "EventTime": "11:00 am to 12:30 pm",
+        "Year": 2026,
+        "DeptID": 3,
+        "Images": [
+
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "MOOC Sensitization And Registration",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 88,
+        "Title": "MOOC Sensitization And Registration (CSE)",
+        "Description": "The Computer Science & Engineering department organized a sensitization and registration program to create awareness among students about the significance of Massive Open Online Courses (MOOCs). The initiative focused on informing students about the benefits of online learning and the wide range of digital platforms and courses available to support their academic growth and skill development. The program included sessions on institutional guidelines for MOOC implementation and an overview of approved and recommended online courses offered by the university for various engineering disciplines, helping students understand enrollment procedures and course selection.",
+        "EventDate": "21-01-2026",
+        "EventTime": "11:00 am to 12:30 pm",
+        "Year": 2026,
+        "DeptID": 2,
+        "Images": [
+
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "MOOC Sensitization And Registration",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 89,
+        "Title": "MOOC Sensitization And Registration (Mechanical)",
+        "Description": "The Mechanical Engineering department organized a sensitization and registration program to create awareness among students about the significance of Massive Open Online Courses (MOOCs). The initiative focused on informing students about the benefits of online learning and the wide range of digital platforms and courses available to support their academic growth and skill development. The program included sessions on institutional guidelines for MOOC implementation and an overview of approved and recommended online courses offered by the university for various engineering disciplines, helping students understand enrollment procedures and course selection.",
+        "EventDate": "22-01-2026",
+        "EventTime": "11:00 am to 12:30 pm",
+        "Year": 2026,
+        "DeptID": 5,
+        "Images": [
+
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "MOOC Sensitization And Registration",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+            }
+        ]
+    },
+    {
+        "ID": 87,
+        "Title": "MOOC Sensitization And Registration (Civil)",
+        "Description": "The Civil Engineering department organized a sensitization and registration program to create awareness among students about the significance of Massive Open Online Courses (MOOCs). The initiative focused on informing students about the benefits of online learning and the wide range of digital platforms and courses available to support their academic growth and skill development. The program included sessions on institutional guidelines for MOOC implementation and an overview of approved and recommended online courses offered by the university for various engineering disciplines, helping students understand enrollment procedures and course selection.",
+        "EventDate": "22-01-2026",
+        "EventTime": "11:00 am to 12:30 pm",
+        "Year": 2026,
+        "DeptID": 3,
+        "Images": [
+
+        ],
+        "Files": [
+            {
+                "ID": 1,
+                "Title": "MOOC Sensitization And Registration",
+                "FileType": "PDF",
+                "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+            }
+        ]
+    }
 ]
 
