@@ -291,7 +291,7 @@
                 "UploadDate": "04-09-2025"
             },
             {
-                "ID": 3,
+                "ID": 2,
                 "Title": "Computer ODD 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2025_2026.pdf",
@@ -299,7 +299,7 @@
                 "UploadDate": "04-09-2025"
             },
             {
-                "ID": 5,
+                "ID": 3,
                 "Title": "EC ODD 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2025_2026.pdf",
@@ -309,7 +309,7 @@
 
             },
             {
-                "ID": 7,
+                "ID": 4,
                 "Title": "MECHANICAL ODD 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2025_2026.pdf",
@@ -319,7 +319,7 @@
 
             },
             {
-                "ID": 9,
+                "ID": 5,
                 "Title": "ELECTRICAL ODD 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2025_2026.pdf",
@@ -329,7 +329,7 @@
 
             },
             {
-                "ID": 10,
+                "ID": 6,
                 "Title": "Civil EVEN 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2025_2026.pdf",
@@ -337,12 +337,42 @@
                 "UploadDate": "30-01-2026"
             },
             {
-                "ID": 11,
+                "ID": 7,
                 "Title": "Computer EVEN 2025-2026",
                 "FileType": "PDF",
                 "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2025_2026.pdf",
                 "isShow": true,
                 "UploadDate": "30-01-2026"
+            },
+            {
+                "ID": 8,
+                "Title": "EC EVEN 2025-2026",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2025_2026.pdf",
+                "isShow": false,
+
+                "UploadDate": "03-02-2026"
+
+            },
+            {
+                "ID": 9,
+                "Title": "MECHANICAL EVEN 2025-2026",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2025_2026.pdf",
+                "isShow": true,
+
+                "UploadDate": "03-02-2026"
+
+            },
+            {
+                "ID": 10,
+                "Title": "ELECTRICAL EVEN 2025-2026",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2025_2026.pdf",
+                "isShow": false,
+
+                "UploadDate": "04-09-2025"
+
             }
         ]
       },
