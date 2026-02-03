@@ -576,7 +576,7 @@
       },
       {
         "ID": 102,
-        "MenuText": "Design & Tinkiering Lab",
+        "MenuText": "Design & Tinkering Lab",
         "ParentID": 10,
         "dynamicID": null,
         "ControllerName": "Research",
