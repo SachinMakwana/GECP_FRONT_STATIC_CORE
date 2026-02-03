@@ -353,16 +353,16 @@
                 "isShow": true,
                 "UploadDate": "30-01-2026"
             },
-          {
-            "ID": 8,
-            "Title": "EC EVEN 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EC/Time Table_2025_26_Even.pdf",
-            "isShow": true,
+            {
+                "ID": 8,
+                "Title": "EC EVEN 2025-2026",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2025_2026.pdf",
+                "isShow": true,
 
-            "UploadDate": "03-02-2026"
+                "UploadDate": "03-02-2026"
 
-          },
+            },
             {
                 "ID": 9,
                 "Title": "MECHANICAL EVEN 2025-2026",
@@ -380,7 +380,7 @@
                 "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2025_2026.pdf",
                 "isShow": true,
 
-                "UploadDate": "04-09-2025"
+                "UploadDate": "03-02-2026"
 
             }
         ]
