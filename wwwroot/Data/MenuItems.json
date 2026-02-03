@@ -253,7 +253,7 @@
                     "ControllerName": "",
                     "ActionName": "",
                     "position": 12,
-                    "isVisible": true,
+                    "isVisible": false,
                     "Link": "https://forms.gle/AyT4RSJ3SiDBvMBV9",
                     "ChildMenuVMs": []
                 }
@@ -627,7 +627,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "Rules",
-        "position": 11,
+        "position": 1,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -638,7 +638,7 @@
         "dynamicID": null,
         "ControllerName": "",
         "ActionName": "",
-        "position": 11,
+        "position": 2,
         "isVisible": true,
         "Link": "/DataFiles/Documents/Rules/2 General Rules and Regulations for Students.pdf",
         "ChildMenuVMs": []
@@ -650,7 +650,7 @@
         "dynamicID": 60,
         "ControllerName": "Documents",
         "ActionName": "Index",
-        "position": 12,
+        "position": 4,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -661,7 +661,7 @@
         "dynamicID": 5,
         "ControllerName": "Documents",
         "ActionName": "Index",
-        "position": 13,
+        "position": 5,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -672,7 +672,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "StudentClubs",
-        "position": 14,
+        "position": 6,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -683,7 +683,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "StudentGradeHistory",
-        "position": 15,
+        "position": 7,
         "isVisible": true,
         "Link": "https://www.students.gtu.ac.in/Default.aspx",
         "ChildMenuVMs": []
@@ -695,7 +695,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "Fees",
-        "position": 16,
+        "position": 8,
         "isVisible": true,
         "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
         "ChildMenuVMs": []
@@ -707,7 +707,7 @@
         "dynamicID": null,
         "ControllerName": "",
         "ActionName": "",
-        "position": 16,
+        "position": 3,
         "isVisible": true,
         "Link": "",
         "ChildMenuVMs": [
@@ -760,7 +760,7 @@
           },
           {
             "ID": 65,
-            "MenuText": "Internal Compliant Committee(ICC)",
+            "MenuText": "Internal Compliant Committee (ICC)",
             "ParentID": 6,
             "dynamicID": 13,
             "ControllerName": "CampusCommittee",
@@ -770,18 +770,18 @@
             "Link": "",
             "ChildMenuVMs": []
           },
-          {
-            "ID": 66,
-            "MenuText": "Industry Institute Interaction Cell",
-            "ParentID": 6,
-            "dynamicID": 13,
-            "ControllerName": "",
-            "ActionName": "",
-            "position": 16,
-            "isVisible": true,
-            "Link": "",
-            "ChildMenuVMs": []
-          },
+            {
+                "ID": 66,
+                "MenuText": "Industry Institute Interaction Cell",
+                "ParentID": 6,
+                "dynamicID": null,
+                "ControllerName": "",
+                "ActionName": "",
+                "position": 16,
+                "isVisible": true,
+                "Link": "/DataFiles/Documents/Student Suppot System/Industry Institute Interaction Cell.pdf",
+                "ChildMenuVMs": []
+            },
           {
             "ID": 67,
             "MenuText": "OMBUDSMAN",
@@ -806,18 +806,18 @@
             "Link": "/DataFiles/Documents/Student Suppot System/Woman Helpline.pdf",
             "ChildMenuVMs": []
           },
-          {
-            "ID": 67,
-            "MenuText": "Student Counsellor",
-            "ParentID": 6,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
-            "position": 16,
-            "isVisible": true,
-            "Link": "/DataFiles/Documents/Student Suppot System/student counsellor.pdf",
-            "ChildMenuVMs": []
-          },
+            {
+                "ID": 67,
+                "MenuText": "Student Counsellor/Grievance Redressal",
+                "ParentID": 6,
+                "dynamicID": 5,
+                "ControllerName": "CampusCommittee",
+                "ActionName": "CommitteePage",
+                "position": 16,
+                "isVisible": true,
+                "Link": "/DataFiles/Documents/Student Suppot System/student counsellor.pdf",
+                "ChildMenuVMs": []
+            },
           {
             "ID": 68,
             "MenuText": "Post Grievance",
@@ -1029,7 +1029,7 @@
           },
           {
             "ID": 75,
-            "MenuText": "Grievence Redressal",
+            "MenuText": "Student Counsellor / Grievence Redressal",
             "ParentID": 7,
             "dynamicID": 5,
             "ControllerName": "CampusCommittee",
@@ -1085,13 +1085,13 @@
           },
           {
             "ID": 70,
-            "MenuText": "Internal Complaint Committee(ICC)",
+            "MenuText": "Internal Complaint Committee (ICC)",
             "ParentID": 7,
             "dynamicID": 13,
             "ControllerName": "CampusCommittee",
             "ActionName": "CommitteePage",
             "position": 9,
-            "isVisible": true,
+            "isVisible": false,
             "ChildMenuVMs": []
           },
           {
@@ -1102,7 +1102,7 @@
             "ControllerName": "CampusCommittee",
             "ActionName": "CommitteePage",
             "position": 9,
-            "isVisible": true,
+            "isVisible": false,
             "ChildMenuVMs": []
           }
         ]
