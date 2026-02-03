@@ -1534,6 +1534,86 @@
         "FilePath": "~/DataFiles/CampusCommittees/Psychology/VIBRANT GUJARAT.pdf"
       }
     ]
+  },
+  {
+    "ID": 87,
+    "Title": "MOOC Sensitization And Registration (EE)",
+    "Description": "",
+    "EventDate": "20-01-2026",
+    "EventTime": "11:00 am to 12:30 pm",
+    "Year": 2026,
+    "DeptID": 3,
+    "Images": [
+
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "MOOC Sensitization And Registration",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 88,
+    "Title": "MOOC Sensitization And Registration (CSE)",
+    "Description": "",
+    "EventDate": "21-01-2026",
+    "EventTime": "11:00 am to 12:30 pm",
+    "Year": 2026,
+    "DeptID": 2,
+    "Images": [
+
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "MOOC Sensitization And Registration",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 89,
+    "Title": "MOOC Sensitization And Registration (Mechanical)",
+    "Description": "",
+    "EventDate": "22-01-2026",
+    "EventTime": "11:00 am to 12:30 pm",
+    "Year": 2026,
+    "DeptID": 5,
+    "Images": [
+
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "MOOC Sensitization And Registration",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 87,
+    "Title": "MOOC Sensitization And Registration (Civil)",
+    "Description": "",
+    "EventDate": "22-01-2026",
+    "EventTime": "11:00 am to 12:30 pm",
+    "Year": 2026,
+    "DeptID": 3,
+    "Images": [
+
+    ],
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "MOOC Sensitization And Registration",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
+      }
+    ]
   }
 ]
 

@@ -606,6 +606,18 @@
         "position": 5,
         "isVisible": true,
         "ChildMenuVMs": []
+      },
+      {
+        "ID": 105,
+        "MenuText": "Patents",
+        "ParentID": null,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 6,
+        "isVisible": true,
+        "Link": "/DataFiles/Documents/Downloads/IPR Details (2).pdf",
+        "ChildMenuVMs": []
       }
     ]
   },
