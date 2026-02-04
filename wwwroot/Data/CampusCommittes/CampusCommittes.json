@@ -1325,72 +1325,112 @@
         ],
         "TableView": true
     },
-    {
-        "ID": 14,
-        "Title": "OMBUDSMAN",
-        "TitleImage": "../../images/grievence_banner.jpg",
-        "TitleImageCSSClass": "",
-        "About": "The Ombudsman Committee of Government Engineering College, Patan, is constituted to provide an effective and impartial mechanism for the redressal of student grievances and to ensure transparency in institutional processes. The committee addresses student complaints fairly and objectively, safeguards students’ rights, promotes adherence to academic and administrative policies, and helps maintain a just, accountable, and student-friendly environment within the institute.",
-        "Measures": "",
-        "Measure_Image": "",
-        "Vision": [
-        ],
-        "Mission": [
+  {
+    "ID": 14,
+    "Title": "OMBUDSMAN",
+    "TitleImage": "../../images/grievence_banner.jpg",
+    "TitleImageCSSClass": "",
+    "About": "The Ombudsman Committee of Government Engineering College, Patan, is constituted to provide an effective and impartial mechanism for the redressal of student grievances and to ensure transparency in institutional processes. The committee addresses student complaints fairly and objectively, safeguards students’ rights, promotes adherence to academic and administrative policies, and helps maintain a just, accountable, and student-friendly environment within the institute.",
+    "Measures": "",
+    "Measure_Image": "",
+    "Vision": [
+    ],
+    "Mission": [
 
-        ],
-        "SubObjectives": [
+    ],
+    "SubObjectives": [
 
-        ],
-        "SubObjImg": "",
-        "BulletPoints": [],
-        "BulletPointsImg": "",
-        "PageFlyer": "",
-        "Tagline": "",
-        "BlogLink": "",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Dr. D. K. Patel",
-                "Position": "Chairman",
-                "Image": "~/images/Faculty/502.jpg",
-                "Email": "dinesh.patel@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. G. A. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/HOD/301.jpg",
-                "Email": "gunvant.patel@gecpatan.ac.in",
-                "Department": "Electrical Engineering Department"
-            },
-            {
-                "ID": 3,
-                "Name": "Dr. S. A. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/203.png",
-                "Email": "sunil.patel@gecpatan.ac.in",
-                "Department": "Computer Science & Engineering Department"
-            },
-            {
-                "ID": 4,
-                "Name": "Dr. V. M. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/402.jpg",
-                "Email": "vijendrakumar.patel@gujgov.edu.in",
-                "Department": "Civil Engineering Department"
-            },
-            {
-                "ID": 5,
-                "Name": "Prof. M. M. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/104.jpg",
-                "Email": "mihir.patel@gecpatan.ac.in",
-                "Department": "Electronics and Communication Engineering Department"
-            }
-        ],
-        "TableView": true
-    }
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Dr. D. K. Patel",
+        "Position": "Chairman",
+        "Image": "~/images/Faculty/502.jpg",
+        "Email": "dinesh.patel@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Prof. G. A. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/HOD/301.jpg",
+        "Email": "gunvant.patel@gecpatan.ac.in",
+        "Department": "Electrical Engineering Department"
+      },
+      {
+        "ID": 3,
+        "Name": "Dr. S. A. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/203.png",
+        "Email": "sunil.patel@gecpatan.ac.in",
+        "Department": "Computer Science & Engineering Department"
+      },
+      {
+        "ID": 4,
+        "Name": "Dr. V. M. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/402.jpg",
+        "Email": "vijendrakumar.patel@gujgov.edu.in",
+        "Department": "Civil Engineering Department"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. M. M. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/104.jpg",
+        "Email": "mihir.patel@gecpatan.ac.in",
+        "Department": "Electronics and Communication Engineering Department"
+      }
+    ],
+    "TableView": true
+  },
+  {
+    "ID": 15,
+    "Title": "NPTEL Local Chapter",
+    "TitleImage": "../../images/ssip_banner.jpg",
+    "TitleImageCSSClass": "",
+    "About": "NPTEL (National Programme on Technology Enhanced Learning) has been offering high-quality self-study courses across Engineering, Humanities, and Science disciplines for more than a decade. These courses are freely accessible at https://nptel.ac.in.<br><br>Since March 2014, NPTEL has also been offering online certification courses, wherein learners can earn certificates from the IITs by successfully completing a proctored examination. These certified courses are now hosted on the SWAYAM platform and are available at https://swayam.gov.in/NPTEL.<br><br>To further strengthen this initiative and encourage wider student participation across colleges, NPTEL has introduced the concept of establishing SWAYAM–NPTEL Chapters in educational institutions, subject to approval from the institution’s management. Each chapter will function under the leadership of a designated faculty member, who will serve as the Single Point of Contact (SPOC) for NPTEL activities within the college.",
+    "Measures": "",
+    "Measure_Image": "~/images/NPTEL Local Chapter.png",
+    "Vision": [
+    ],
+    "Mission": [
+
+    ],
+    "SubObjectives": [
+      "To act as a single point of coordination between the institute and NPTEL/SWAYAM for all academic and certification-related activities.",
+      "To disseminate timely and accurate information regarding NPTEL initiatives, course offerings, schedules, and updates among students and faculty members.",
+      "To promote awareness and encourage active participation of students and faculty in NPTEL online courses.",
+      "To identify and coordinate suitable faculty mentors for various NPTEL courses to guide learners academically.",
+      "To ensure timely registration, assignment submission, and certification processes for enrolled learners.",
+      "To facilitate effective resolution of learners’ academic and administrative queries related to NPTEL courses.",
+      "To monitor course progress and support quality learning outcomes through continuous engagement and mentoring."
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Dr. Hareshkumar judal",
+        "Position": "SPOC (Single Point Of Contact",
+        "Image": "~/images/Faculty/102.jpg",
+        "Email": "nptel.spoc@gecpatan.ac.in",
+        "Department": "Electronics & Communication Engineering Department"
+      }
+    ],
+    "TableView": true
+  }
 ]
 // use below template to add a committee
 

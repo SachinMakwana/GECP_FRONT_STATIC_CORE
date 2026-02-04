@@ -380,7 +380,7 @@
     },
     {
       "ID": 4,
-      "Icon": "../../images/Faculty/1000.jpg",
+      "Icon": "../../images/club/Sanchar sathi.jpeg",
       "About": "The Sanchar Mitra Scheme is a national volunteer program launched by the Department of Telecommunications (DoT), Government of India to engage youth as digital ambassadors for telecom awareness, digital safety, and secure communication practices. Under this initiative, selected students from colleges and universities are designated as Sanchar Mitras and trained to educate citizens about safe and responsible use of telecom services and digital technologies.",
       "Title": "Sanchar Mitra",
       "ActionName": "ClubDetails",
@@ -400,7 +400,7 @@
       "BlogLink": "",
       "Images": [],
       "Activities": [
-      
+
       ],
       "IsDynamic": false,
       "Members": [

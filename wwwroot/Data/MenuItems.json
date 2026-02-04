@@ -652,7 +652,7 @@
         "ActionName": "",
         "position": 2,
         "isVisible": true,
-        "Link": "/DataFiles/Documents/Rules/2 General Rules and Regulations for Students.pdf",
+        "Link": "/DataFiles/Documents/Rules/General Rules and Regulations for Students.pdf",
         "ChildMenuVMs": []
       },
       {
@@ -662,7 +662,7 @@
         "dynamicID": 60,
         "ControllerName": "Documents",
         "ActionName": "Index",
-        "position": 4,
+        "position": 5,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -673,7 +673,7 @@
         "dynamicID": 5,
         "ControllerName": "Documents",
         "ActionName": "Index",
-        "position": 5,
+        "position": 6,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -684,7 +684,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "StudentClubs",
-        "position": 6,
+        "position": 7,
         "isVisible": true,
         "ChildMenuVMs": []
       },
@@ -695,7 +695,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "StudentGradeHistory",
-        "position": 7,
+        "position": 8,
         "isVisible": true,
         "Link": "https://www.students.gtu.ac.in/Default.aspx",
         "ChildMenuVMs": []
@@ -707,7 +707,7 @@
         "dynamicID": null,
         "ControllerName": "StudentCorner",
         "ActionName": "Fees",
-        "position": 8,
+        "position": 9,
         "isVisible": true,
         "Link": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm",
         "ChildMenuVMs": []
@@ -782,18 +782,18 @@
             "Link": "",
             "ChildMenuVMs": []
           },
-            {
-                "ID": 66,
-                "MenuText": "Industry Institute Interaction Cell",
-                "ParentID": 6,
-                "dynamicID": null,
-                "ControllerName": "",
-                "ActionName": "",
-                "position": 16,
-                "isVisible": true,
-                "Link": "/DataFiles/Documents/Student Suppot System/Industry Institute Interaction Cell.pdf",
-                "ChildMenuVMs": []
-            },
+          {
+            "ID": 66,
+            "MenuText": "Industry Institute Interaction Cell",
+            "ParentID": 6,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 16,
+            "isVisible": true,
+            "Link": "/DataFiles/Documents/Student Suppot System/Industry Institute Interaction Cell.pdf",
+            "ChildMenuVMs": []
+          },
           {
             "ID": 67,
             "MenuText": "OMBUDSMAN",
@@ -818,18 +818,18 @@
             "Link": "/DataFiles/Documents/Student Suppot System/Woman Helpline.pdf",
             "ChildMenuVMs": []
           },
-            {
-                "ID": 67,
-                "MenuText": "Student Counsellor/Grievance Redressal",
-                "ParentID": 6,
-                "dynamicID": 5,
-                "ControllerName": "CampusCommittee",
-                "ActionName": "CommitteePage",
-                "position": 16,
-                "isVisible": true,
-                "Link": "/DataFiles/Documents/Student Suppot System/student counsellor.pdf",
-                "ChildMenuVMs": []
-            },
+          {
+            "ID": 67,
+            "MenuText": "Student Counsellor/Grievance Redressal",
+            "ParentID": 6,
+            "dynamicID": 5,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "position": 16,
+            "isVisible": true,
+            "Link": "/DataFiles/Documents/Student Suppot System/student counsellor.pdf",
+            "ChildMenuVMs": []
+          },
           {
             "ID": 68,
             "MenuText": "Post Grievance",
@@ -843,6 +843,17 @@
             "ChildMenuVMs": []
           }
         ]
+      },
+      {
+        "ID": 67,
+        "MenuText": "NTPEL Local Chapter",
+        "ParentID": 5,
+        "dynamicID": 15,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
       }
     ]
   },
