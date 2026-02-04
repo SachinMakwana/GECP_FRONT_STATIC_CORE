@@ -6,35 +6,36 @@
     "TitleImageCSSClass": "ssip_title",
     "Image": "../../images/medical.jpg",
     "Descriptions": [
-      
-        "Government Engineering College, Patan offers basic on-campus medical facilities to cater to the immediate medical needs of students and faculty members.",
 
-        "On-Campus Medical Assistance:",
-        
-        "First Aid Facility: The NSS Office in the New Amenities Building has basic first aid for minor accidents and medical emergencies. Proximity Hospitals for Detailed Care:",
-          
-        "For specialized medical care, students and faculty members can visit well-facilitated hospitals in the area:",
-        
-        "GMERS Medical College and Hospital, Dharpur-Patan:",
+      "Government Engineering College, Patan offers basic on-campus medical facilities to cater to the immediate medical needs of students and faculty members.",
 
-        "Address: GMERS Medical College and Hospital Campus, Dharpur, Patan-Unjha State Highway, Patan, Gujarat 384265",
+      "<b>On-Campus Medical Assistance:</b>",
 
-        "Contact Number: -  02766 296064",
-        
-        "Email: gmerspatan@gmail.com",
-        
-        //"Website: wwww.gmersmchpatan.org  ",
+      "<b>First Aid Facility</b>: The NSS Office in the New Amenities Building has basic first aid for minor accidents and medical emergencies.",
+      "<b>Proximity Hospitals for Detailed Care:</b>",
 
-         "Patan Janta Hospital:",
+      "For specialized medical care, students and faculty members can visit well-facilitated hospitals in the area:",
 
-         "Address: Sardar Road, Near First Railway Nala, Patan, Gujarat 384265",
-        
-         "Contact Numbers:  02766 230401",
-  
-         "Email: patanjantahospital@yahoo.com Website: patanjantahospital.com",
-        
-         "These facilities make sure that Government Engineering College Patan students and staff members have access to immediate first aid as well as specialized medical attention when necessary"
-      
+      "GMERS Medical College and Hospital, Dharpur-Patan:",
+
+      "<b>Address</b>: GMERS Medical College and Hospital Campus, Dharpur, Patan-Unjha State Highway, Patan, Gujarat 384265",
+
+      "<b>Contact Number:</b> -  02766 296064",
+
+      "<b>Email:</b> gmerspatan@gmail.com",
+
+      //"Website: wwww.gmersmchpatan.org  ",
+
+      "<b>Patan Janta Hospital:</b>",
+
+      "<b>Address:</b> Sardar Road, Near First Railway Nala, Patan, Gujarat 384265",
+
+      "<b>Contact Numbers:</b>  02766 230401",
+
+      "<b>Email:</b> patanjantahospital@yahoo.com Website: patanjantahospital.com",
+
+      "These facilities make sure that Government Engineering College Patan students and staff members have access to immediate first aid as well as specialized medical attention when necessary"
+
     ]
   },
   {
@@ -44,61 +45,46 @@
     "TitleImageCSSClass": "ssip_title",
     "Image": "../../images/transport.jpg ",
     "Descriptions": [
-      "Transportation Facilities – Government Engineering College Patan",
+      "<b>Transportation Facilities</b> – Government Engineering College Patan",
 
       "Government Engineering College, Patan is well-connected by road, rail, and air, ensuring convenient travel for students and faculty and visitors. Below are the transportation options available:",
 
-      "College Location & Accessibility", 
+      "College Location & Accessibility",
 
-      "College Name :",
-
-      "GOVERNMENT ENGINEERING COLLEGE AT KATPUR PATAN",
+      "<b>College Name :</b> GOVERNMENT ENGINEERING COLLEGE AT KATPUR PATAN",
 
       //"Address :At & Post. Katpur Patan Gujarat-384265"
 
       // "Official Website : www.gecpatan.ac.in"
 
-      "Road Transportation",
+      "<b>Road Transportation : </b> Nearest Highway Patan-Unjha State Highway",
 
-      "Nearest Highway Patan-Unjha State Highway",
+      "<b>Public Bus Services:</b> GSRTC (Gujarat State Road Transport Corporation) provides regular buses between Patan and cities like Ahmedabad, Mehsana, Siddhpur, and Gandhinagar.",
 
-      "Public Bus Services:",
+      "<b>Dedicated College Bus Routes:</b> Patan-Katpur College Bus  A direct route for students traveling between Patan and Government Engineering College, Patan. Chansama-Katpur Bus  Connecting Chansama to Government Engineering College, Patan for easy student access.",
 
-      "GSRTC (Gujarat State Road Transport Corporation) provides regular buses between Patan and cities like Ahmedabad, Mehsana, Siddhpur, and Gandhinagar.",
+      "<b>Local Transport:</b> Auto-rickshaws and shared taxis are available for short-distance travel within Patan. Rickshaws are available from Rajpur, providing easy access for students traveling from the Patan-Chansama Highway",
 
-      "Dedicated College Bus Routes:",
+      "<b>Railway Connectivity : </b> Nearest Railway Station: Patan Railway Station (Approx. 4 km from campus)",
 
-      "Patan-Katpur College Bus  A direct route for students traveling between Patan and Government Engineering College, Patan. Chansama-Katpur Bus  Connecting Chansama to Government Engineering College, Patan for easy student access.",
+      "<b>Train Services:</b> Direct connectivity to Ahmedabad, Mehsana, Surat, and other major cities. Frequent train services for students and faculty.",
+      "<b>Check Train Timings:</b> IRCTC Official Website",
 
-      "Local Transport:",
+      "<b>Air Connectivity</b> :",
 
-      "Auto-rickshaws and shared taxis are available for short-distance travel within Patan. Rickshaws are available from Rajpur, providing easy access for students traveling from the Patan-Chansama Highway",
+      "<b>Nearest Airport:</b> Sardar Vallabhbhai Patel International Airport, Ahmedabad (~125 km from Government Engineering College Patan)",
 
-      "Railway Connectivity : ",
+      "<b>Travel Options from Airport</b>: Taxis & Cabs (Ola, Uber, Private operators) GSRTC & Private Buses",
 
-      "Nearest Railway Station: Patan Railway Station (Approx. 4 km from campus)",
+      "<b>Parking Facility : </b>Dedicated two-wheeler and four-wheeler parking is available for students and staff.",
 
-      "Train Services:",
+      "<b>Contact Information</b> ",
 
-      "Direct connectivity to Ahmedabad, Mehsana, Surat, and other major cities. Frequent train services for students and faculty. Check Train Timings: IRCTC Official Website",
+      "<b>Official College Website</b>:  www.gecpatan.ac.in",
 
-      " Air Connectivity :",
+      "<b>GSRTC Bus Services</b>: GSRTC Official Website",
 
-      "Nearest Airport: Sardar Vallabhbhai Patel International Airport, Ahmedabad (~125 km from Government Engineering College Patan)",
-
-      "Travel Options from Airport: Taxis & Cabs (Ola, Uber, Private operators) GSRTC & Private Buses",
-
-      "Parking Facility",
-
-      "Dedicated two-wheeler and four-wheeler parking is available for students and staff.",
-
-      "Contact Information :",
-
-      "Official College Website:  www.gecpatan.ac.in",
-
-      "GSRTC Bus Services: GSRTC Official Website",
-
-      "Railway Inquiry & Booking: IRCTC Official Website",
+      "<b>Railway Inquiry & Booking</b>: IRCTC Official Website",
 
       "This guide ensures that students and visitors can easily plan their journey to Government Engineering College, Patan."
 
