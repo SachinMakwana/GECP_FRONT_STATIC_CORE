@@ -1176,7 +1176,7 @@
     "ActionName": "TableView",
     "position": 10,
     "isVisible": true,
-    "Class": "MenuRed",
+    "Class": "",
     "ChildMenuVMs": [
       {
         "ID": 1,
