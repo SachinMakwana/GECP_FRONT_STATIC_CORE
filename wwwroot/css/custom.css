@@ -1,4 +1,4 @@
-0.detached.tabs > ul > li + li {
+.detached.tabs > ul > li + li {
     margin-left: 95px !important;
 }
 
@@ -979,6 +979,7 @@ table.dataTable thead .sorting_desc_disabled:before {
 .bg{
     background-color:#f3f3f3;
 }
+
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {

@@ -17,8 +17,6 @@
     "ActionName": "",
     "position": 3,
     "isVisible": true,
-    "Color": "",
-    "ColorFont": "",
     "ChildMenuVMs": [
         {
             "ID": 23,
@@ -1178,6 +1176,7 @@
     "ActionName": "TableView",
     "position": 10,
     "isVisible": true,
+    "Class": "MenuRed",
     "ChildMenuVMs": [
       {
         "ID": 1,

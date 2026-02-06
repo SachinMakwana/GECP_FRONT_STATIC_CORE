@@ -1,0 +1,9 @@
+﻿/* This CSS is only used to make main menu items creative based on the requirement.*/
+
+.MenuRed {
+    background-color: red;
+}
+
+    .MenuRed > a {
+        color: white;
+    }

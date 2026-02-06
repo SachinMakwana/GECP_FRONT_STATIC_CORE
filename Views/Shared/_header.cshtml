@@ -23,8 +23,8 @@
                         {
                             if (item.ChildMenuVMs.Where(m => m.isVisible).Any())
                             {
-                                <li class="dropdown" style="@MenuBg(item.Color)">
-                                    <a href="#" class="dropdown-toggle" style="@MenuColorFont(item.ColorFont)">
+                                <li class="dropdown @item.Class">
+                                    <a href="#" class="dropdown-toggle">
                                         @item.MenuText
                                     </a>
                                     <ul class="dropdown-menu" role="menu">
@@ -90,7 +90,7 @@
                             }
                             else
                             {
-                                <li class="dropdown yamm-fw">
+                                <li class="dropdown yamm-fw @item.Class">
                                     @if (item.dynamicID != null)
                                     {
                                         <a href="@Url.Action(item.ActionName, item.ControllerName, new { id = item.dynamicID })">
@@ -119,20 +119,3 @@
         </div>
     </div>
 </div>
-@functions {
-    string MenuColorFont(string colorFont)
-    {
-        return string.IsNullOrWhiteSpace(colorFont) ? "" : $"color:{colorFont};";
-    }
-}
-@functions {
-    string MenuBg(string color)
-    {
-        return string.IsNullOrWhiteSpace(color)
-            ? ""
-            : $"background-color:{color};";
-    }
-}
-
-
-
