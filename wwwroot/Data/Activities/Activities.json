@@ -1598,6 +1598,24 @@
         "FilePath": "~/DataFiles/Departments/EC/2026/MOOC NPTEL  January 2026.pdf"
       }
     ]
+  },
+  {
+    "ID": 90,
+    "Title": "Expert Talk On Network Security",
+    "Description": "On 29 August 2025, the Code-Hives Club of Government Engineering College, Patan organized an expert talk on Network Security featuring alumnus Mr. Krupalu Vora. The session introduced students to key concepts such as network security fundamentals, common threats, encryption, authentication, JWT, and role-based authorization. The interactive session helped students gain practical insights into real-world cybersecurity challenges.",
+    "EventDate": "29-08-2025",
+    "ClubId": 2,
+    "DeptID": 2,
+    "Year": 2025,
+    "EventTime": "01:15 pm to 02:15 pm",
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Expert Talk On Network Security",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Documents/CodeHives/Network_Security_Report.pdf"
+      }
+    ]
   }
   //{
   //  "ID": 90,
