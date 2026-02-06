@@ -78,6 +78,8 @@ namespace GECP_Front_End_Static.Models
         public bool isVisible { get; set; } = true;
         public int? dynamicID { get; set; }
         public string Link { get; set; }
+        public string Color { get; set; }
+        public string ColorFont { get; set; }
         public List<MenuVM> ChildMenuVMs { get; set; } = new List<MenuVM>();
 
     }

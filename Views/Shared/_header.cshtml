@@ -1,4 +1,3 @@
-
 @model List<MenuVM>
 @{
     var currentController = ViewBag.CurrentController?.ToString();
@@ -24,8 +23,8 @@
                         {
                             if (item.ChildMenuVMs.Where(m => m.isVisible).Any())
                             {
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle">
+                                <li class="dropdown" style="@MenuBg(item.Color)">
+                                    <a href="#" class="dropdown-toggle" style="@MenuColorFont(item.ColorFont)">
                                         @item.MenuText
                                     </a>
                                     <ul class="dropdown-menu" role="menu">
@@ -116,9 +115,24 @@
                     </ul>
                 </nav>
             </div>
-                   
-            </div>
+
         </div>
     </div>
+</div>
+@functions {
+    string MenuColorFont(string colorFont)
+    {
+        return string.IsNullOrWhiteSpace(colorFont) ? "" : $"color:{colorFont};";
+    }
+}
+@functions {
+    string MenuBg(string color)
+    {
+        return string.IsNullOrWhiteSpace(color)
+            ? ""
+            : $"background-color:{color};";
+    }
+}
+
 
 

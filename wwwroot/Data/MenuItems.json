@@ -17,6 +17,8 @@
     "ActionName": "",
     "position": 3,
     "isVisible": true,
+    "Color": "",
+    "ColorFont": "",
     "ChildMenuVMs": [
         {
             "ID": 23,
