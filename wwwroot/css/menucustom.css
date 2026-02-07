@@ -12,3 +12,24 @@
     background-color: #FF5722;
     color: #fff;
 }
+
+.blinking-div {
+    
+    background: linear-gradient( 270deg, red, orange, yellow, lime, cyan, blue, magenta );
+    background-size: 1400% 1400%;
+    animation: rainbow 4s ease infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
