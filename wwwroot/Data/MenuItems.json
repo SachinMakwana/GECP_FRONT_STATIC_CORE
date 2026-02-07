@@ -1189,7 +1189,41 @@
         "ChildMenuVMs": []
       }
     ]
-  }
+  },
+    {
+        "ID": 101,
+        "MenuText": "NBA Data",
+        "ParentID": null,
+        "ControllerName": "Documents",
+        "ActionName": "TableView",
+        "position": 11,
+        "isVisible": true,
+        "Class": "blinking-div",
+        "ChildMenuVMs": [
+            {
+                "ID": 1,
+                "MenuText": "Faculty Information",
+                "ParentID": 101,
+                "ControllerName": "",
+                "ActionName": "",
+                "Link": "/DataFiles/NBA/Faculty Information.pdf",
+                "position": 1,
+                "isVisible": true,
+                "ChildMenuVMs": []
+            },
+            {
+                "ID": 1,
+                "MenuText": "Mechanical Student Details",
+                "ParentID": 101,
+                "ControllerName": "",
+                "ActionName": "",
+                "Link": "/DataFiles/NBA/Mechanical Student Details.pdf",
+                "position": 1,
+                "isVisible": true,
+                "ChildMenuVMs": []
+            }
+        ]
+    }
 
 
 ]
