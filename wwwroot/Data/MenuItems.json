@@ -18,258 +18,258 @@
     "position": 3,
     "isVisible": true,
     "ChildMenuVMs": [
-        {
-            "ID": 23,
-            "MenuText": "About us",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "AboutUs",
+      {
+        "ID": 23,
+        "MenuText": "About us",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "AboutUs",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 24,
+        "MenuText": "Center of Excellence",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "CoE",
+        "position": 5,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 28,
+        "MenuText": "Information Booklet",
+        "ParentID": 2,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 9,
+        "isVisible": true,
+        "Link": "/ImpDocs/Brochure_GECP.pdf",
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 29,
+        "MenuText": "Governance",
+        "ParentID": 2,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 2,
+        "isVisible": true,
+        "Link": "/ImpDocs/GEC_Organizational_Chart.pdf",
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 25,
+        "MenuText": "Newsletter",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "NewsLetter",
+        "position": 10,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 27,
+        "MenuText": "Mandatory Disclosure",
+        "dynamicID": 30,
+        "ParentID": 2,
+        "ControllerName": "Documents",
+        "ActionName": "Index",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 28,
+        "MenuText": "MoUs",
+        "dynamicID": 50,
+        "ParentID": 2,
+        "ControllerName": "Documents",
+        "ActionName": "TableView",
+        "position": 7,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 33,
+        "MenuText": "Achievements",
+        "ParentID": 3,
+        "dynamicID": null,
+        "ControllerName": "Academics",
+        "ActionName": "Achievements",
+        "position": 5,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 76,
+        "MenuText": "RTI",
+        "ParentID": 2,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
+        "dynamicID": 6,
+        "position": 8,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 29,
+        "MenuText": "NEWS",
+        "ParentID": 2,
+        "ControllerName": "Institute",
+        "ActionName": "NEWS",
+        "position": 10,
+        "isVisible": false,
+        "ChildMenuVMs": []
+      },
+
+      {
+        "ID": 5,
+        "MenuText": "Facilities",
+        "ParentID": 2,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 6,
+        "isVisible": true,
+        "ChildMenuVMs": [
+          {
+            "ID": 51,
+            "MenuText": "Library",
+            "ParentID": 5,
+            "dynamicID": null,
+            "ControllerName": "Facilities",
+            "ActionName": "Library",
             "position": 1,
             "isVisible": true,
             "ChildMenuVMs": []
-        },
-        {
-            "ID": 24,
-            "MenuText": "Center of Excellence",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "CoE",
-            "position": 5,
-            "isVisible": false,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 28,
-            "MenuText": "Information Booklet",
-            "ParentID": 2,
-            "ControllerName": "",
-            "ActionName": "",
-            "position": 9,
-            "isVisible": true,
-            "Link": "/ImpDocs/Brochure_GECP.pdf",
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 29,
-            "MenuText": "Governance",
-            "ParentID": 2,
-            "ControllerName": "",
-            "ActionName": "",
+          },
+          {
+            "ID": 52,
+            "MenuText": "Canteen",
+            "ParentID": 5,
+            "dynamicID": null,
+            "ControllerName": "Facilities",
+            "ActionName": "Canteen",
             "position": 2,
-            "isVisible": true,
-            "Link": "/ImpDocs/GEC_Organizational_Chart.pdf",
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 25,
-            "MenuText": "Newsletter",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "NewsLetter",
-            "position": 10,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 27,
-            "MenuText": "Mandatory Disclosure",
-            "dynamicID": 30,
-            "ParentID": 2,
-            "ControllerName": "Documents",
-            "ActionName": "Index",
-            "position": 4,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 28,
-            "MenuText": "MoUs",
-            "dynamicID": 50,
-            "ParentID": 2,
-            "ControllerName": "Documents",
-            "ActionName": "TableView",
-            "position": 7,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 33,
-            "MenuText": "Achievements",
-            "ParentID": 3,
-            "dynamicID": null,
-            "ControllerName": "Academics",
-            "ActionName": "Achievements",
-            "position": 5,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 76,
-            "MenuText": "RTI",
-            "ParentID": 2,
-            "ControllerName": "CampusCommittee",
-            "ActionName": "CommitteePage",
-            "dynamicID": 6,
-            "position": 8,
-            "isVisible": true,
-            "ChildMenuVMs": []
-        },
-        {
-            "ID": 29,
-            "MenuText": "NEWS",
-            "ParentID": 2,
-            "ControllerName": "Institute",
-            "ActionName": "NEWS",
-            "position": 10,
             "isVisible": false,
             "ChildMenuVMs": []
-        },
-
-        {
-            "ID": 5,
-            "MenuText": "Facilities",
-            "ParentID": 2,
+          },
+          {
+            "ID": 53,
+            "MenuText": "Hostel",
+            "ParentID": 5,
             "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
-            "position": 6,
-            "isVisible": true,
-            "ChildMenuVMs": [
-                {
-                    "ID": 51,
-                    "MenuText": "Library",
-                    "ParentID": 5,
-                    "dynamicID": null,
-                    "ControllerName": "Facilities",
-                    "ActionName": "Library",
-                    "position": 1,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 52,
-                    "MenuText": "Canteen",
-                    "ParentID": 5,
-                    "dynamicID": null,
-                    "ControllerName": "Facilities",
-                    "ActionName": "Canteen",
-                    "position": 2,
-                    "isVisible": false,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 53,
-                    "MenuText": "Hostel",
-                    "ParentID": 5,
-                    "dynamicID": null,
-                    "ControllerName": "Facilities",
-                    "ActionName": "Hostel",
-                    "position": 3,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 54,
-                    "MenuText": "Gymkhana",
-                    "ParentID": 5,
-                    "dynamicID": null,
-                    "ControllerName": "Facilities",
-                    "ActionName": "FacilityPage",
-                    "position": 4,
-                    "isVisible": false,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 55,
-                    "MenuText": "Student Section",
-                    "ParentID": 5,
-                    "dynamicID": 3,
-                    "ControllerName": "Facilities",
-                    "ActionName": "FacilityPage",
-                    "position": 5,
-                    "isVisible": false,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 56,
-                    "MenuText": "Central Facilities",
-                    "ParentID": 5,
-                    "dynamicID": 2,
-                    "ControllerName": "Facilities",
-                    "ActionName": "CentralFacilities",
-                    "position": 6,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 57,
-                    "MenuText": "Medical Facility",
-                    "ParentID": 5,
-                    "dynamicID": 1,
-                    "ControllerName": "Facilities",
-                    "ActionName": "MedicalFacility",
-                    "position": 7,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 59,
-                    "MenuText": "Center Of Excellence",
-                    "ParentID": 5,
-                    "dynamicID": null,
-                    "ControllerName": "Facilities",
-                    "ActionName": "CenterOfExcellence",
-                    "position": 9,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 60,
-                    "MenuText": "Transportation",
-                    "ParentID": 5,
-                    "dynamicID": 2,
-                    "ControllerName": "Facilities",
-                    "ActionName": "MedicalFacility",
-                    "position": 10,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-
-                {
-                    "ID": 61,
-                    "MenuText": "Student Section",
-                    "ParentID": 7,
-                    "dynamicID": 8,
-                    "ControllerName": "CampusCommittee",
-                    "ActionName": "CommitteePage",
-                    "position": 11,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 62,
-                    "MenuText": "Post Grievance",
-                    "ParentID": 7,
-                    "dynamicID": null,
-                    "ControllerName": "",
-                    "ActionName": "",
-                    "position": 12,
-                    "isVisible": false,
-                    "Link": "https://forms.gle/AyT4RSJ3SiDBvMBV9",
-                    "ChildMenuVMs": []
-                }
-            ]
-        },
-        {
-            "ID": 991,
-            "MenuText": "Principal",
-            "ParentID": 99,
-            "dynamicID": null,
-            "ControllerName": "Administration",
-            "ActionName": "Principal",
+            "ControllerName": "Facilities",
+            "ActionName": "Hostel",
             "position": 3,
             "isVisible": true,
             "ChildMenuVMs": []
-        }
+          },
+          {
+            "ID": 54,
+            "MenuText": "Gymkhana",
+            "ParentID": 5,
+            "dynamicID": null,
+            "ControllerName": "Facilities",
+            "ActionName": "FacilityPage",
+            "position": 4,
+            "isVisible": false,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 55,
+            "MenuText": "Student Section",
+            "ParentID": 5,
+            "dynamicID": 3,
+            "ControllerName": "Facilities",
+            "ActionName": "FacilityPage",
+            "position": 5,
+            "isVisible": false,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 56,
+            "MenuText": "Central Facilities",
+            "ParentID": 5,
+            "dynamicID": 2,
+            "ControllerName": "Facilities",
+            "ActionName": "CentralFacilities",
+            "position": 6,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 57,
+            "MenuText": "Medical Facility",
+            "ParentID": 5,
+            "dynamicID": 1,
+            "ControllerName": "Facilities",
+            "ActionName": "MedicalFacility",
+            "position": 7,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 59,
+            "MenuText": "Center Of Excellence",
+            "ParentID": 5,
+            "dynamicID": null,
+            "ControllerName": "Facilities",
+            "ActionName": "CenterOfExcellence",
+            "position": 9,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 60,
+            "MenuText": "Transportation",
+            "ParentID": 5,
+            "dynamicID": 2,
+            "ControllerName": "Facilities",
+            "ActionName": "MedicalFacility",
+            "position": 10,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+
+          {
+            "ID": 61,
+            "MenuText": "Student Section",
+            "ParentID": 7,
+            "dynamicID": 8,
+            "ControllerName": "CampusCommittee",
+            "ActionName": "CommitteePage",
+            "position": 11,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 62,
+            "MenuText": "Post Grievance",
+            "ParentID": 7,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 12,
+            "isVisible": false,
+            "Link": "https://forms.gle/AyT4RSJ3SiDBvMBV9",
+            "ChildMenuVMs": []
+          }
+        ]
+      },
+      {
+        "ID": 991,
+        "MenuText": "Principal",
+        "ParentID": 99,
+        "dynamicID": null,
+        "ControllerName": "Administration",
+        "ActionName": "Principal",
+        "position": 3,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      }
     ]
   },
   {
@@ -369,40 +369,40 @@
         "isVisible": true,
         "ChildMenuVMs": []
       },
-        {
+      {
+        "ID": 44,
+        "MenuText": "Civil Engineering & Applied Mechanics",
+        "ParentID": 4,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
+        "position": 4,
+        "isVisible": true,
+        "ChildMenuVMs": [
+          {
             "ID": 44,
-            "MenuText": "Civil Engineering & Applied Mechanics",
-            "ParentID": 4,
-            "dynamicID": null,
-            "ControllerName": "",
-            "ActionName": "",
+            "MenuText": "Civil Engineering",
+            "ParentID": 44,
+            "dynamicID": 4,
+            "ControllerName": "Department",
+            "ActionName": "DepartmentDetails",
             "position": 4,
             "isVisible": true,
-            "ChildMenuVMs": [
-                {
-                    "ID": 44,
-                    "MenuText": "Civil Engineering",
-                    "ParentID": 44,
-                    "dynamicID": 4,
-                    "ControllerName": "Department",
-                    "ActionName": "DepartmentDetails",
-                    "position": 4,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                },
-                {
-                    "ID": 48,
-                    "MenuText": "Applied Mechanics",
-                    "ParentID": 44,
-                    "dynamicID": 8,
-                    "ControllerName": "Department",
-                    "ActionName": "DepartmentDetails",
-                    "position": 8,
-                    "isVisible": true,
-                    "ChildMenuVMs": []
-                }
-            ]
-        },
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 48,
+            "MenuText": "Applied Mechanics",
+            "ParentID": 44,
+            "dynamicID": 8,
+            "ControllerName": "Department",
+            "ActionName": "DepartmentDetails",
+            "position": 8,
+            "isVisible": true,
+            "ChildMenuVMs": []
+          }
+        ]
+      },
       {
         "ID": 45,
         "MenuText": "Mechnanical Engineering",
@@ -436,7 +436,7 @@
         "isVisible": false,
         "ChildMenuVMs": []
       }
-      
+
     ]
   },
 
@@ -912,7 +912,7 @@
     "position": 3,
     "isVisible": true,
     "ChildMenuVMs": [
-      
+
       {
         "ID": 992,
         "MenuText": "Establishment Office",
@@ -924,18 +924,18 @@
         "isVisible": true,
         "ChildMenuVMs": []
       },
-        {
-            "ID": 993,
-            "MenuText": "Council of Heads",
-            "ParentID": null,
-            "dynamicID": null,
-            "ControllerName": "Administration",
-            "ActionName": "CoH",
-            "position": 3,
-            "isVisible": true,
-            "Link": null, //"Link": "/DataFiles/Documents/Council/Council_of_Heads.pdf",
-            "ChildMenuVMs": []
-        },
+      {
+        "ID": 993,
+        "MenuText": "Council of Heads",
+        "ParentID": null,
+        "dynamicID": null,
+        "ControllerName": "Administration",
+        "ActionName": "CoH",
+        "position": 3,
+        "isVisible": true,
+        "Link": null, //"Link": "/DataFiles/Documents/Council/Council_of_Heads.pdf",
+        "ChildMenuVMs": []
+      },
       {
         "ID": 994,
         "MenuText": "Administrative Rules",
@@ -1190,40 +1190,87 @@
       }
     ]
   },
-    {
-        "ID": 101,
-        "MenuText": "NBA Data",
-        "ParentID": null,
-        "ControllerName": "Documents",
-        "ActionName": "TableView",
-        "position": 11,
+  {
+    "ID": 101,
+    "MenuText": "NBA Data",
+    "ParentID": null,
+    "ControllerName": "Documents",
+    "ActionName": "TableView",
+    "position": 11,
+    "isVisible": true,
+    "Class": "blinking-div",
+    "ChildMenuVMs": [
+      {
+        "ID": 1,
+        "MenuText": "Faculty Information",
+        "ParentID": 101,
+        "ControllerName": "",
+        "ActionName": "",
+        "Link": "/DataFiles/NBA/Faculty Information.pdf",
+        "position": 1,
         "isVisible": true,
-        "Class": "blinking-div",
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 2,
+        "MenuText": "Mechanical Student Details",
+        "ParentID": 101,
+        "ControllerName": "",
+        "ActionName": "",
+        "Link": "/DataFiles/NBA/Mechanical Student Details.pdf",
+        "position": 1,
+        "isVisible": true,
+        "ChildMenuVMs": []
+      },
+      {
+        "ID": 3,
+        "MenuText": "Placement Data",
+        "ParentID": 101,
+        "ControllerName": "",
+        "ActionName": "",
+        "Link": "/DataFiles/NBA/Mechanical Student Details.pdf",
+        "position": 1,
+        "isVisible": true,
         "ChildMenuVMs": [
-            {
-                "ID": 1,
-                "MenuText": "Faculty Information",
-                "ParentID": 101,
-                "ControllerName": "",
-                "ActionName": "",
-                "Link": "/DataFiles/NBA/Faculty Information.pdf",
-                "position": 1,
-                "isVisible": true,
-                "ChildMenuVMs": []
-            },
-            {
-                "ID": 1,
-                "MenuText": "Mechanical Student Details",
-                "ParentID": 101,
-                "ControllerName": "",
-                "ActionName": "",
-                "Link": "/DataFiles/NBA/Mechanical Student Details.pdf",
-                "position": 1,
-                "isVisible": true,
-                "ChildMenuVMs": []
-            }
+          {
+            "ID": 1,
+            "MenuText": "2022-2023",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 1,
+            "isVisible": true,
+            "Link": "/DataFiles/NBA/Placement_2022-2023.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 2,
+            "MenuText": "2023-2024",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 1,
+            "isVisible": true,
+            "Link": "/DataFiles/NBA/Placement_2023-2024.pdf",
+            "ChildMenuVMs": []
+          },
+          {
+            "ID": 3,
+            "MenuText": "2024-2025",
+            "ParentID": null,
+            "dynamicID": null,
+            "ControllerName": "",
+            "ActionName": "",
+            "position": 1,
+            "isVisible": true,
+            "Link": "/DataFiles/NBA/Placement_2024-2025.pdf",
+            "ChildMenuVMs": []
+          }
         ]
-    }
+      }
 
-
-]
+    ]
+  }
+  ]
