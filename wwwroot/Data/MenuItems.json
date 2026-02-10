@@ -1198,7 +1198,7 @@
     "ActionName": "TableView",
     "position": 11,
     "isVisible": true,
-    "Class": "blinking-div",
+    "Class": "MenuOrange",
     "ChildMenuVMs": [
       {
         "ID": 1,
