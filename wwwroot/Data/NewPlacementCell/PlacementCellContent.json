@@ -397,8 +397,10 @@
   //  ],
   "StudentPolicy": {
     "PolicyText": [
-      "Students must participate in the company’s interview process for Internship or Job only if they are fully agreed with the company’s bond, terms and conditions mentioned in job proposal. The institution or department faculties will not be responsible for any such matters. All decisions and agreements will be solely between the student and the company.",
-      "Once placed in a company, the student will be out of the placement process unless : Institute placement coordinator can allow student to appear for other company if student provide bond related NOC from the previous company."
+      "Eligible students shall participate in a company’s recruitment or interview process only if they are fully agreeable to the company’s bond, service terms, and other conditions mentioned in the job proposal. The institute and departmental faculties will not be responsible for any disputes, commitments, or obligations arising from such agreements. All decisions, undertakings, and agreements shall be strictly between the student and the recruiting company.",
+      "Once student is selected in a higher-Salary package, they may not be permitted to attend placement drives offering same or lower grade packages.",
+      "If a student is selected in a lower salary package, they will be permitted to attend a placement drive offering an annual salary package difference of more than ₹1.5 LPA with the consent of the Training and Placement Officer (TPO).",
+      "For appear in other company, students must have to provide undertaking and bond policy of the existing company (if needed)."
     ],
     "InternshipOffers": [
       {
@@ -461,9 +463,9 @@
       "Well Established Infrastructure for Interview Process"
     ],
     "PlacementPolicy": [
-      "Minimum Annual Salary package must be 3.0 Lac or More",
-      "Once students selected, must provide offer letter to placement coordinator.",
-      "Adhere to Bond, Training & Salary package as per mention in Placement Proposal."
+      "Recruiting organizations participating in the campus placement process are required to offer a minimum annual salary package of ₹2.50 Lakhs (Two Lakhs Fifty Thousand per Annum) or higher.",
+      "Once students selcted , must provide offer letter to placement coordinator.",
+      "Adhere to the bond conditions, training period, job location, and salary structure as declared in the Placement Proposal Form."
     ],
     "BrochureLink": "~/NewPlacementCell/Broucher/NEW_PLACEMENT_BROUCHER.pdf",
     "ProposalInstruction": "For vacancies, please fill the Placement Proposal Form below as per the recruitment policies on this website",
