@@ -74,7 +74,8 @@
                         <li><strong>Designation:</strong> @Model.Designation</li>
                         <li><strong>Qualification:</strong> @Model.Qualification</li>
                         <li><strong>Experience:</strong> @Model.Experience</li>
-                        <li><strong>Date of Joining:</strong> @Model.DateOfJoining.ToString("dd-MM-yyyy")</li>
+                        <li><strong>Date of Joining (Institute):</strong> @Model.DateOfJoiningInst.ToString("dd-MM-yyyy")</li>
+                        <li><strong>Date of Joining (Department):</strong> @Model.DateOfJoiningDept.ToString("dd-MM-yyyy")</li>
                         <li><strong>Area of Interest:</strong> @Model.AreaOfInterest</li>
                         <li><strong>Email:</strong> @Model.Email</li>
                     </ul>
@@ -120,7 +121,7 @@
                     <ul>
                         @foreach (var sp in Model.SelectedPublications)
                         {
-                            <li><strong>@sp.Type:</strong> @sp.Title — <em>@sp.JournalOrConference</em></li>
+                            <li>@sp.Title — <em>@sp.JournalOrConference</em> DOI : <a href="https://doi.org/@sp.DOI" target="_blank" style="color: blue;">@sp.DOI</a></li>
                         }
                     </ul>
                 </div>

@@ -10,7 +10,8 @@ namespace GECP_Front_End_Static.Models
         public string Designation { get; set; }
         public string Qualification { get; set; }
         public string Experience { get; set; }
-        public DateTime DateOfJoining { get; set; }
+        public DateTime DateOfJoiningInst { get; set; }
+        public DateTime DateOfJoiningDept { get; set; }
         public string AreaOfInterest { get; set; }
         public string Email { get; set; }
 
@@ -68,6 +69,8 @@ namespace GECP_Front_End_Static.Models
         public string Title { get; set; }
         public string JournalOrConference { get; set; }
         public string Type { get; set; } // International Journal, Conference, etc.
+
+        public string DOI { get; set; }
     }
 
     public class ExperienceDetail

@@ -3,8 +3,9 @@
     "Name": "Dr. B. J. Shah",
     "Designation": "Principal",
     "Qualification": "Ph.D. [Civil Engineering]",
-    "Experience": "30 Years",
-    "DateOfJoining": "2024-06-07T00:00:00",
+    "Experience": "35 Years",
+    "DateOfJoiningInst": "2024-06-07T00:00:00",
+    "DateOfJoiningDept": "1990-08-18T00:00:00",
     "AreaOfInterest": "Structural Engineering",
     "Email": "principal@gecpatan.ac.in",
 
@@ -37,49 +38,53 @@
 
     "PublicationsSummary": [
       {
-        "Category": "International Journal",
-        "Count": 15
+        "Category": "Book",
+        "Count": 1
       },
       {
-        "Category": "International Conference",
-        "Count": 7
+        "Category": "Research Publications (Journal)",
+        "Count": 17
       },
       {
-        "Category": "National Journal",
-        "Count": 7
+        "Category": "Research Publications (Conferences)",
+        "Count": 21
       },
       {
-        "Category": "National Conference",
-        "Count": 16
+        "Category": "Patents Published",
+        "Count": 1
+      },
+      {
+        "Category": "Design Patent Applied",
+        "Count": 1
       }
     ],
 
     "SelectedPublications": [
-      {
-        "Title": "Seismic fragility analysis of pile supported wharf using linear time history analysis",
-        "JournalOrConference": "Journal of Structural Engineering, Vol. 43, No.3, pp 235-246",
-        "Type": "National Journal"
-      },
-      {
-        "Title": "Experimental investigation on shear capacity of RC beams with GFRP rebars & stirrups",
-        "JournalOrConference": "Steel and Composite Structures, Vol.21, No.6, pp 1265-1285",
-        "Type": "International Journal"
-      },
-      {
-        "Title": "Study of deflection and crack patterns of RC beam strengthen in flexure with GFRP",
-        "JournalOrConference": "SEC-2014, IIT-Delhi",
-        "Type": "International Conference"
-      },
-      {
-        "Title": "Seismic fragility analysis of pile supported wharf - state of art",
-        "JournalOrConference": "SEC-2014, IIT-Delhi",
-        "Type": "International Conference"
-      },
-      {
-        "Title": "Progressive collapse assessment of RC frame with & without considering soil",
-        "JournalOrConference": "ICRISET 2017, BVM",
-        "Type": "International Conference"
-      }
+        {
+          "Title": "Quantifying corrosion induced mass loss in pipelines using wavelet based EMI",
+          "JournalOrConference": "Multiscale and Multidiciplinary Modelling, Experiments and Designs, Vol 9(1), November, 2025",
+          "DOI": "10.1007/s41939-025-01104-7"
+        },
+        {
+          "Title": "Tether Response of offshore triceratops under hurricane conditions",
+          "JournalOrConference": "Structures, Vol 51, May 2023",
+          "DOI": "10.1016/j.istruc.2023.03.059"
+        },
+        {
+          "Title": "Fatigue Assessment of Offshore Triceratops Restraining System under Hurricane driven Metocean condition",
+          "JournalOrConference": "International Journal of Steel Structure, Vol 23(9), November 2022",
+          "DOI": "10.1007/s13296-022-00689-w"
+        },
+        {
+          "Title": "Dynamic Analyses of Triceratops under Hurricane-driven Metocean Conditions in Gulf of Mexico",
+          "JournalOrConference": "Ocean Engineering, Vol 256, July 2022",
+          "DOI": "10.1016/j.oceaneng.2022.111511"
+        },
+        {
+          "Title": "Parametric study of shear capacity of beams having GFRP reinforcement",
+          "JournalOrConference": "Advances in concrete construction, Vol 13(2), 2022",
+          "DOI": "10.12989/acc.2022.13.2.183"
+        }
     ],
 
     "Experiences": [
@@ -158,10 +163,19 @@
     ],
 
     "Achievements": [
-      "Nominated as Research Supervisor of Ph.D. Program at Gujarat Technological University.",
-      "Recipient of Principal S. B. Junarkar Gold Medal for highest marks in Design of Structures II & III (B.E. Civil, 1988), Sardar Patel University"
+        "Recipient of Principal S. B. Junarkar Gold Medal for highest marks in subject of Design of Structures, B.E. Civil, from Sardar Patel University, 1988",
+        "Member & Chairman of GTU- Board of Study of Civil Engg. & Allied branches from 2024 onward and Member of BOS of Civil & Environment Engg. Branch from 2018 to 2023",
+        "Member & Chairperson of GTU-Doctoral Research Committee of Civil Engg. & Allied branches of Gujarat Technological University from 2024 onward",
+        "Member of Gujarat Council of Professional Civil Engineers, Gandhinagar (2020 - 2026)",
+        "Research Supervisor of Ph. D. Program of Gujarat Technological University from the year 2011",
+        "Research Supervisor of 06 Ph. D. Students and Supervisor of 12 Post graduate students for their Master thesis",
+        "Peer Reviewer of 06 Journals & Conferences proceedings",
+        "Author of a text book on “Mechanics of Solid” published by Tata McGraw Hill, 20",
+        "Author of more than 35 technical papers in various technical journals and proceeding of conferences and seminars",
+        "Worked as expert in various committees in All India Council for Technical Education (AICTE), Gujarat technological University (GTU), other reputed universities, Gujarat Public Service, Commission (GPSC), Education Department & Directorate of Technical Education of Govt. Of Gujarat",
+        "Worked as Officer on Special Duty at State level admission committee “Admission Committee for Professional Courses (ACPC)” for engineering admission from 2006 to 2014 and Fee Regulatory Committee (FRC) from 2008 to 2014"
     ],
-
+    
     "Book": {
       "Title": "Mechanics of Solid",
       "BookCode": "RAZDRRBUDRRYC",
