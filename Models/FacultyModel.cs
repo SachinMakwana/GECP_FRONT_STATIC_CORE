@@ -54,6 +54,8 @@ namespace GECP_Front_End_Static.Models
         public List<TrainingAndWorkshop> TrainingAndWorkshops { get; set; }=new List<TrainingAndWorkshop>();
         public List<Publication> Publications { get; set; } =new List<Publication>();
 
+        public List<Others> Others { get; set; } = new List<Others>();
+
         public int SeniorityOrder { get; set; } = 0;
     }
 
@@ -89,6 +91,12 @@ namespace GECP_Front_End_Static.Models
     }
 
     public class Publication
+    {
+        public int SrNo { get; set; }
+        public string Title { get; set; }
+    }
+
+    public class Others
     {
         public int SrNo { get; set; }
         public string Title { get; set; }

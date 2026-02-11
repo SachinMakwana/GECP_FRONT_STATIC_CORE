@@ -238,4 +238,33 @@
 			</table>
 		</div>
 	</section>
+	@if (Model.Others.Count() > 0)
+    {
+		<section class="boxdetail">
+			<div class="table-responsive boxinfo">
+				<table class="table table-striped table-hover table-condensed shadow-sm">
+					@if (Model.Others.Count() > 0)
+					{
+						<h3 class="text-secondary boxtitle">Achievements/ Memberships/ Others </h3>
+						<thead class="bg-primary text-white">
+							<tr class="success">
+								<th style="width:10% !important">Sr. No.</th>
+								<th>Title</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							@foreach (var publication in Model.Others)
+							{
+								<tr>
+									<td>@publication.SrNo</td>
+									<td>@publication.Title</td>
+								</tr>
+							}
+						</tbody>
+					}
+				</table>
+			</div>
+		</section>
+	}
 </div>
