@@ -1102,7 +1102,8 @@
         "TabTitles": {
             "SubObjectives": "Objectives",
             "Documents": "Important Documents",
-            "Procedure": "Life Membership"
+          "Procedure": "Life Membership",
+          "Members": "Alumni Committee"
         }
     },
     {
