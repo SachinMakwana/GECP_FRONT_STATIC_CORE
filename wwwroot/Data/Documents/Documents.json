@@ -858,6 +858,14 @@
             "FileType": "PDF",
             "UploadDate": "03-02-2026",
             "isShow": true
+          },
+          {
+            "ID": 7,
+            "Title": "Financial Guidelines Addendum - SSIP 2.0",
+            "File": "~/AcademicCalender/Addendum for the existing financial guidelines for SSIP 2.0.pdf",
+            "FileType": "PDF",
+            "UploadDate": "11-02-2026",
+            "isShow": true
           }
         ]
       }
