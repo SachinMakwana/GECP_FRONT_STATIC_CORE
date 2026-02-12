@@ -13,10 +13,10 @@
   "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\"><b>\"Where Learning Meets Living.\"</b></h1>",
   "Measure_Image": "~/images/women.jpg",
   "Vision": [
-    "To create a nurturing and inclusive living environment that fosters personal growth, acadmic exellence, and lifelong freindships among students."
+   // "To create a nurturing and inclusive living environment that fosters personal growth, acadmic exellence, and lifelong freindships among students."
   ],
   "Mission": [
-    "To provid a safe, inclusive, and suppotive environment that fosters acedmic sucess, personal growth, and a sense of community among students."
+  //  "To provid a safe, inclusive, and suppotive environment that fosters acedmic sucess, personal growth, and a sense of community among students."
   ],
   "Facilities": {
     "Rooms": "40",
