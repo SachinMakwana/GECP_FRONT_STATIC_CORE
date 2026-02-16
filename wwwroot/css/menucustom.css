@@ -20,6 +20,11 @@
     animation: rainbow 4s ease infinite;
 }
 
+.nav > li > a {
+    padding-left:20px;
+    padding-right:20px;
+}
+
 @keyframes rainbow {
     0% {
         background-position: 0% 50%;
