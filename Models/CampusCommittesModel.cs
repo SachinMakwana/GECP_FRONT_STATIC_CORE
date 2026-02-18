@@ -39,11 +39,13 @@ namespace GECP_Front_End_Static.Models
         public string Message { get; set; } = null;
         public string Account { get; set; }
         public string Link { get; set; }
-        public string PdfLink { get; set; }
+        public string NationalTaskForce { get; set; }
+
+
         public List<Members> Members { get; set; }= new List<Members>();
         public List<CommitteeActivity> Activities { get; set; } = new List<CommitteeActivity>();
         public List<AdditionalMembers> AdditionalMembers { get; set; } = new List<AdditionalMembers>();
-    	public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
+    		public List<AchievementsVM> Achievements { get; set; } = new List<AchievementsVM>();
         public bool ShowDocument { get; set; } = false;
         public TabTitles TabTitles { get; set; } = new TabTitles();
         public bool TableView { get; set; } = false;
@@ -97,7 +99,7 @@ namespace GECP_Front_End_Static.Models
         public string Blogspot { get; set; } = "Blogspot";
         public string Documents { get; set; } = "Documents";
 
-        public string PdfLink { get; set; } = "Pdf";
+
         public string Link { get; set; } = "Register Grievance";
 	}
 

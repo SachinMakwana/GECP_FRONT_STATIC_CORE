@@ -289,97 +289,92 @@
     },
 
     //Grievence Cell
-  {
-    "ID": 5,
-
-    "Title": "Student Counsellor/Grievance Redressal Committee",
-    "TitleImage": "../../images/grievence_banner.jpg",
-    "TitleImageCSSClass": "grievance_title",
-    "About": "The Grievance Redressal System at Government Engineering College, Patan is an institutional initiative aimed at addressing student and faculty concerns related to academic, administrative, and personal matters. This system ensures a transparent, fair, and unbiased process to resolve grievances effectively, maintaining a harmonious and inclusive environment within the institution. <br> The Grievance Redressal Committee (GRC) functions under the UGC guidelines and institutional policies, ensuring that complaints are addressed confidentially and impartially by a team of senior faculty members and administrators.",
-    "Measures": "The Grievance Redressal System at Government Engineering College, Patan implements various measures to ensure fairness, transparency, and accountability in addressing grievances. These measures aim to create a student- and faculty-friendly environment, promoting mutual trust and institutional integrity.",
-    "Measure_Image": "/images/grievence.jpg",
-    "Vision": [
-    ],
-    "Mission": [
-    ],
-    "SubObjectives": [
-      "Provide a structured platform for students and faculty to address academic, administrative, and personal grievances.",
-      "Ensure fair, unbiased, and prompt resolution of grievances without discrimination.",
-      "Maintain confidentiality and privacy throughout the grievance redressal process.",
-      "Create a safe and inclusive campus environment by addressing grievances effectively.",
-      "Identify root causes of grievances and implement preventive measures.",
-      "Educate students and faculty about their rights, responsibilities, and the grievance redressal mechanism.",
-      "Continuously review and improve the grievance redressal process based on feedback.",
-      "Facilitate amicable resolution of grievances through mediation and negotiation.",
-      "Provide support services and counseling for affected individuals.",
-      "Ensure access to updated resources related to grievance redressal and campus well-being."
-    ],
-    "SubObjImg": "",
-    "Mechanism": "~/DataFiles/Documents/Grievance/Notice_board_final.pdf",
-    "Procedure": [
-
-    ],
-    "BulletPoints": [
-      "Submit the complaint through 1. the official Email: <strong><a href=\"mailto:grievance@gecpatan.ac.in\"><b>grievance@gecpatan.ac.in</b></a></strong> or 2. Handwritten/Print Application.<br/><a href=\"/DataFiles/CampusCommittees/Grievance/Grievance_Form.pdf\" class=\"btn btn-primary btn-sm mt-2\" download>⬇ Download Grievance Form</a>",
-      "Provide name, department, contact details, grievance category, and a detailed description with supporting documents if applicable.",
-      "The Grievance Redressal Committee (GRC) reviews, classifies, and investigates the complaint while ensuring confidentiality.",
-      "The committee conducts inquiries, seeks clarifications, and determines an appropriate resolution in a fair and timely manner.",
-      "The complainant is notified of the resolution via email or official communication channels.",
-      "If dissatisfied, the complainant may formally appeal to higher authorities for further review."
-    ],
-    "BulletPointsImg": "",
-    "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
-    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
-    "Members": [
-      {
-        "ID": 1,
-        "Name": "Prof. A. B. Dhruv",
-        "Position": "Chairman",
-        "Image": "~/images/Faculty/HOD/501.jpg",
-        "Email": "anand.dhruv@gecpatan.ac.in",
-        "Department": "Mechanical Engineering Department"
-      },
-      {
-        "ID": 2,
-        "Name": "Prof. V. P. Soni",
-        "Position": "Member",
-        "Image": "~/images/Faculty/601.jpg",
-        "Email": "vijay.soni@gecpatan.ac.in",
-        "Department": "Science & Humanities Engineering Department"
-      },
-      {
-        "ID": 3,
-        "Name": "Dr. D. H . Patel",
-        "Position": "Member",
-        "Image": "~/images/Faculty/102.jpg",
-        "Email": "devendra.patel@gecpatan.ac.in",
-        "Department": "Electronics & Communication Engineering Department"
-      },
-      {
-        "ID": 4,
-        "Name": "Prof. B. P. Patel",
-        "Position": "Member",
-        "Image": "~/images/Faculty/216.jpg",
-        "Email": "bhavesh.patel@gecpatan.ac.in",
-        "Department": "Computer Science & Engineering Department"
-      },
-      {
+    {
         "ID": 5,
-        "Name": "Prof. R. A. Chaudhari",
-        "Position": "Member",
-        "Image": "~/images/Faculty/107.jpg",
-        "Email": "roshni.chaudhari@gecpatan.ac.in",
-        "Department": "Electronics & Communication Engineering Department"
-      }
+        "Title": "Student Counsellor/Grievance Redressal Committee",
+        "TitleImage": "../../images/grievence_banner.jpg",
+        "TitleImageCSSClass": "grievance_title",
+        "About": "The Grievance Redressal System at Government Engineering College, Patan is an institutional initiative aimed at addressing student and faculty concerns related to academic, administrative, and personal matters. This system ensures a transparent, fair, and unbiased process to resolve grievances effectively, maintaining a harmonious and inclusive environment within the institution. <br> The Grievance Redressal Committee (GRC) functions under the UGC guidelines and institutional policies, ensuring that complaints are addressed confidentially and impartially by a team of senior faculty members and administrators.",
+        "Measures": "The Grievance Redressal System at Government Engineering College, Patan implements various measures to ensure fairness, transparency, and accountability in addressing grievances. These measures aim to create a student- and faculty-friendly environment, promoting mutual trust and institutional integrity.",
+        "Measure_Image": "/images/grievence.jpg",
+        "Vision": [
+        ],
+        "Mission": [
+        ],
+        "SubObjectives": [
+            "Provide a structured platform for students and faculty to address academic, administrative, and personal grievances.",
+            "Ensure fair, unbiased, and prompt resolution of grievances without discrimination.",
+            "Maintain confidentiality and privacy throughout the grievance redressal process.",
+            "Create a safe and inclusive campus environment by addressing grievances effectively.",
+            "Identify root causes of grievances and implement preventive measures.",
+            "Educate students and faculty about their rights, responsibilities, and the grievance redressal mechanism.",
+            "Continuously review and improve the grievance redressal process based on feedback.",
+            "Facilitate amicable resolution of grievances through mediation and negotiation.",
+            "Provide support services and counseling for affected individuals.",
+            "Ensure access to updated resources related to grievance redressal and campus well-being."
+        ],
+        "SubObjImg": "",
+        "Procedure": [
 
-    ],
-    "PdfLink": "~/DataFiles/Documents/Grievance/Notice_board_final.pdf",
-    "TabTitles": {
-      "SubObjectives": "Objectives",
-      "PdfLink": "Mechanism"
+        ],
+        "BulletPoints": [
+            "Submit the complaint through 1. the official Email: <strong><a href=\"mailto:grievance@gecpatan.ac.in\"><b>grievance@gecpatan.ac.in</b></a></strong> or 2. Handwritten/Print Application.<br/><a href=\"/DataFiles/CampusCommittees/Grievance/Grievance_Form.pdf\" class=\"btn btn-primary btn-sm mt-2\" download>⬇ Download Grievance Form</a>",
+            "Provide name, department, contact details, grievance category, and a detailed description with supporting documents if applicable.",
+            "The Grievance Redressal Committee (GRC) reviews, classifies, and investigates the complaint while ensuring confidentiality.",
+            "The committee conducts inquiries, seeks clarifications, and determines an appropriate resolution in a fair and timely manner.",
+            "The complainant is notified of the resolution via email or official communication channels.",
+            "If dissatisfied, the complainant may formally appeal to higher authorities for further review."
+        ],
+        "BulletPointsImg": "",
+        "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
+        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
+        "Members": [
+            {
+                "ID": 1,
+                "Name": "Prof. A. B. Dhruv",
+                "Position": "Chairman",
+                "Image": "~/images/Faculty/HOD/501.jpg",
+                "Email": "anand.dhruv@gecpatan.ac.in",
+                "Department": "Mechanical Engineering Department"
+            },
+            {
+                "ID": 2,
+                "Name": "Prof. V. P. Soni",
+                "Position": "Member",
+                "Image": "~/images/Faculty/601.jpg",
+                "Email": "vijay.soni@gecpatan.ac.in",
+                "Department": "Science & Humanities Engineering Department"
+            },
+            {
+                "ID": 3,
+                "Name": "Dr. D. H . Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/102.jpg",
+                "Email": "devendra.patel@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            },
+            {
+                "ID": 4,
+                "Name": "Prof. B. P. Patel",
+                "Position": "Member",
+                "Image": "~/images/Faculty/216.jpg",
+                "Email": "bhavesh.patel@gecpatan.ac.in",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 5,
+                "Name": "Prof. R. A. Chaudhari",
+                "Position": "Member",
+                "Image": "~/images/Faculty/107.jpg",
+                "Email": "roshni.chaudhari@gecpatan.ac.in",
+                "Department": "Electronics & Communication Engineering Department"
+            }
+        ],
+        "TabTitles": {
+            "SubObjectives": "Objectives"
+        },
+        "TableView": true
     },
-    "TableView": true
-  },
 
 
     //RTI
@@ -1212,10 +1207,7 @@
         ],
         "TableView": true,
 
-      "PdfLink": "~/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf",
-      "TabTitles": {
-        "PdfLink": "NationalTaskForce"
-      }
+        "NationalTaskForce": "/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf"
     },
     {
         "ID": 13,
