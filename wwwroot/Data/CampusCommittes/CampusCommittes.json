@@ -1,63 +1,66 @@
 [
     // Women Cell
-    {
+  {
+    "ID": 1,
+    "Title": "Women Development Cell",
+    "TitleImage": "../../images/women_banner.jpg",
+    "TitleImageCSSClass": "women_cell_title",
+    "About": "A Women Development Cell (WDC) in a Government Engineering College,Patan is an institutional body aimed at addressing gender-related issues and fostering the holistic development of women in the academic and professional environment. Such cells often function under the guidelines provided by University Grants Commission (UGC) in India, or specific state education boards.",
+    "Measures": "The Women Development Cell (WDC) in a Government Engineering College implements several measures to promote the safety, empowerment, and holistic development of women. These measures are designed to create a gender-sensitive and inclusive academic environment while addressing challenges faced by women students and staff. <ul> <li>1. Safety and Security Measures</li> <li>2. Awareness and Sensitization Programs</li> <li>3. Health and Wellness Initiatives</li> <li>4. Empowerment through Education and Training</li> <li>5. Cultural and Social Development Activities</li> </ul>",
+    "Measure_Image": "~/images/women.jpg",
+    "Vision": [
+      "To create a gender-inclusive and empowering academic environment that fosters equality, safety, and the holistic development of women, enabling them to thrive as confident professionals and responsible citizens in the field of engineering and technology."
+    ],
+    "Mission": [
+      "Empowerment Through Education",
+      "Promoting Gender Equality",
+      "Ensuring Safety and Security",
+      "Encouraging Leadership and Innovation",
+      "Health and Well-being"
+    ],
+    "SubObjectives": [
+      "Promoting Gender Equality",
+      "Ensuring Safety and Security",
+      "Empowering Women",
+      "Spreading Awareness",
+      "Holistic Development"
+    ],
+    "SubObjImg": "~/images/CampusCommittee/WomenCell/quote.jpg",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "~/images/CampusCommittee/WomenCell/wcell.jpg",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"A woman with a voice is, by definition, <b>a strong woman.\"</b></h1>",
+    "BlogLink": "/DataFiles/CampusCommittees/Grievance/Notice_board_final.pdf",
+    "Members": [
+      {
         "ID": 1,
-        "Title": "Women Development Cell",
-        "TitleImage": "../../images/women_banner.jpg",
-        "TitleImageCSSClass": "women_cell_title",
-        "About": "A Women Development Cell (WDC) in a Government Engineering College,Patan is an institutional body aimed at addressing gender-related issues and fostering the holistic development of women in the academic and professional environment. Such cells often function under the guidelines provided by University Grants Commission (UGC) in India, or specific state education boards.",
-        "Measures": "The Women Development Cell (WDC) in a Government Engineering College implements several measures to promote the safety, empowerment, and holistic development of women. These measures are designed to create a gender-sensitive and inclusive academic environment while addressing challenges faced by women students and staff. <ul> <li>1. Safety and Security Measures</li> <li>2. Awareness and Sensitization Programs</li> <li>3. Health and Wellness Initiatives</li> <li>4. Empowerment through Education and Training</li> <li>5. Cultural and Social Development Activities</li> </ul>",
-        "Measure_Image": "~/images/women.jpg",
-        "Vision": [
-            "To create a gender-inclusive and empowering academic environment that fosters equality, safety, and the holistic development of women, enabling them to thrive as confident professionals and responsible citizens in the field of engineering and technology."
-        ],
-        "Mission": [
-            "Empowerment Through Education",
-            "Promoting Gender Equality",
-            "Ensuring Safety and Security",
-            "Encouraging Leadership and Innovation",
-            "Health and Well-being"
-        ],
-        "SubObjectives": [
-            "Promoting Gender Equality",
-            "Ensuring Safety and Security",
-            "Empowering Women",
-            "Spreading Awareness",
-            "Holistic Development"
-        ],
-        "SubObjImg": "~/images/CampusCommittee/WomenCell/quote.jpg",
-        "BulletPoints": [],
-        "BulletPointsImg": "",
-        "PageFlyer": "~/images/CampusCommittee/WomenCell/wcell.jpg",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">\"A woman with a voice is, by definition, <b>a strong woman.\"</b></h1>",
-        "BlogLink": "",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Dr. Neelam Jainik Dalal",
-                "Position": "Coordinator",
-                "Department": "Civil Engineering Department",
-                "Image": "~/images/Faculty/407.jpg",
-                "Email": "dalalneelam@gmail.com"
-            },
-            {
-                "ID": 2,
-                "Name": "PROF. ANJU VASDEWANI",
-                "Position": "Member",
-                "Department": "Electronics and Communication Engineering Department",
-                "Image": "/images/Faculty/109.jpg",
-                "Email": "amvgec@gmail.com"
-            },
-            {
-                "ID": 3,
-                "Name": "Ms. Reenaben Dasharathbhai Prajapati",
-                "Position": "Member",
-                "Department": "Computer Science & Engineering Department",
-                "Image": "~/images/Faculty/219.png",
-                "Email": "reena.prajapati@gecpatan.ac.in"
-            }
-        ]
-    },
+        "Name": "Dr. Neelam Jainik Dalal",
+        "Position": "Coordinator",
+        "Department": "Civil Engineering Department",
+        "Image": "~/images/Faculty/407.jpg",
+        "Email": "dalalneelam@gmail.com"
+      },
+      {
+        "ID": 2,
+        "Name": "PROF. ANJU VASDEWANI",
+        "Position": "Member",
+        "Department": "Electronics and Communication Engineering Department",
+        "Image": "/images/Faculty/109.jpg",
+        "Email": "amvgec@gmail.com"
+      },
+      {
+        "ID": 3,
+        "Name": "Ms. Reenaben Dasharathbhai Prajapati",
+        "Position": "Member",
+        "Department": "Computer Science & Engineering Department",
+        "Image": "~/images/Faculty/219.png",
+        "Email": "reena.prajapati@gecpatan.ac.in"
+      }
+    ],
+    "TabTitles": {
+      "Blogspot": "Mechanism"
+    }
+  },
 
     //SSIP
     {
@@ -230,151 +233,157 @@
     },
 
     //Anti Ragging
-    {
+  {
+    "ID": 4,
+    "Title": "Anti Ragging",
+    "TitleImage": "../../images/anti_ragging_banner.jpg",
+    "TitleImageCSSClass": "anti_ragging_title",
+    "About": "According to UGC regulations 2009 on curbing the menace of ragging in higher educational institutions, we at GEC Patan has been running active antiragging committee/squad to prevent any issue regarding ragging to be happen in institute premises.",
+    "Measures": "We are taking undertaking forms from parents as well as from students of each semester and this we are doing every year to prevent any incident of ragging in future. We are supplying all information regarding antiragging committee functioning at institute level among all students; especially new comers. No such ragging incident has been recorded in this institute from the beginning to till date.",
+    "Measure_Image": "~/images/Anti-Ragging.png",
+    "Vision": [
+      "To build a ragging free environment by instilling the principles of democratic values, tolerance, empathy, compassion and sensitivity to that students become responsible citizens."
+    ],
+    "Mission": [
+      "To create an atmosphere of discipline by passing a clear message that no act of ragging in college premises."
+    ],
+    "SubObjectives": [
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "~/images/CampusCommittee/AntiRagging/antiragging.jpg",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Ragging does not break the person or ice, it breaks <b>Career, Family and Lives.” ...</b></h1>",
+    "BlogLink": "/DataFiles/CampusCommittees/Grievance/Notice_board_final.pdf",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. H. L. Chaudhary",
+        "Position": "Chairman",
+        "Image": "~/images/Faculty/214.jpg",
+        "Email": "harshad.chaudhary@gecpatan.ac.in",
+        "Department": "Computer Science & Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Dr. H. S. Bhutadia",
+        "Position": "Member",
+        "Image": "~/images/Faculty/605.jpg",
+        "Email": "harshad.bhutadia@gecpatan.ac.in",
+        "Department": "General"
+      },
+      {
+        "ID": 3,
+        "Name": "PROF. ANJU M. VASDEWANI",
+        "Position": "Member",
+        "Image": "~/images/Faculty/109.jpg",
+        "Email": "amvgec@gmail.com",
+        "Department": "Electronics and Communication"
+      },
+      {
         "ID": 4,
-        "Title": "Anti Ragging",
-        "TitleImage": "../../images/anti_ragging_banner.jpg",
-        "TitleImageCSSClass": "anti_ragging_title",
-        "About": "According to UGC regulations 2009 on curbing the menace of ragging in higher educational institutions, we at GEC Patan has been running active antiragging committee/squad to prevent any issue regarding ragging to be happen in institute premises.",
-        "Measures": "We are taking undertaking forms from parents as well as from students of each semester and this we are doing every year to prevent any incident of ragging in future. We are supplying all information regarding antiragging committee functioning at institute level among all students; especially new comers. No such ragging incident has been recorded in this institute from the beginning to till date.",
-        "Measure_Image": "~/images/Anti-Ragging.png",
-        "Vision": [
-            "To build a ragging free environment by instilling the principles of democratic values, tolerance, empathy, compassion and sensitivity to that students become responsible citizens."
-        ],
-        "Mission": [
-            "To create an atmosphere of discipline by passing a clear message that no act of ragging in college premises."
-        ],
-        "SubObjectives": [
-        ],
-        "SubObjImg": "",
-        "BulletPoints": [],
-        "BulletPointsImg": "",
-        "PageFlyer": "~/images/CampusCommittee/AntiRagging/antiragging.jpg",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Ragging does not break the person or ice, it breaks <b>Career, Family and Lives.” ...</b></h1>",
-        "BlogLink": "",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Prof. H. L. Chaudhary",
-                "Position": "Chairman",
-                "Image": "~/images/Faculty/214.jpg",
-                "Email": "harshad.chaudhary@gecpatan.ac.in",
-                "Department": "Computer Science & Engineering Department"
-            },
-            {
-                "ID": 2,
-                "Name": "Dr. H. S. Bhutadia",
-                "Position": "Member",
-                "Image": "~/images/Faculty/605.jpg",
-                "Email": "harshad.bhutadia@gecpatan.ac.in",
-                "Department": "General"
-            },
-            {
-                "ID": 3,
-                "Name": "PROF. ANJU M. VASDEWANI",
-                "Position": "Member",
-                "Image": "~/images/Faculty/109.jpg",
-                "Email": "amvgec@gmail.com",
-                "Department": "Electronics and Communication"
-            },
-            {
-                "ID": 4,
-                "Name": "Dr. V. M. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/402.jpg",
-                "Email": "vijendrakumar.patel@gujgov.edu.in",
-                "Department": "Civil"
-            }
-        ]
-    },
+        "Name": "Dr. V. M. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/402.jpg",
+        "Email": "vijendrakumar.patel@gujgov.edu.in",
+        "Department": "Civil"
+      }
+    ],
+    "TabTitles": {
+      "Blogspot": "Mechanism"
+    }
+  },
 
     //Grievence Cell
-    {
-        "ID": 5,
-        "Title": "Student Counsellor/Grievance Redressal Committee",
-        "TitleImage": "../../images/grievence_banner.jpg",
-        "TitleImageCSSClass": "grievance_title",
-        "About": "The Grievance Redressal System at Government Engineering College, Patan is an institutional initiative aimed at addressing student and faculty concerns related to academic, administrative, and personal matters. This system ensures a transparent, fair, and unbiased process to resolve grievances effectively, maintaining a harmonious and inclusive environment within the institution. <br> The Grievance Redressal Committee (GRC) functions under the UGC guidelines and institutional policies, ensuring that complaints are addressed confidentially and impartially by a team of senior faculty members and administrators.",
-        "Measures": "The Grievance Redressal System at Government Engineering College, Patan implements various measures to ensure fairness, transparency, and accountability in addressing grievances. These measures aim to create a student- and faculty-friendly environment, promoting mutual trust and institutional integrity.",
-        "Measure_Image": "/images/grievence.jpg",
-        "Vision": [
-        ],
-        "Mission": [
-        ],
-        "SubObjectives": [
-            "Provide a structured platform for students and faculty to address academic, administrative, and personal grievances.",
-            "Ensure fair, unbiased, and prompt resolution of grievances without discrimination.",
-            "Maintain confidentiality and privacy throughout the grievance redressal process.",
-            "Create a safe and inclusive campus environment by addressing grievances effectively.",
-            "Identify root causes of grievances and implement preventive measures.",
-            "Educate students and faculty about their rights, responsibilities, and the grievance redressal mechanism.",
-            "Continuously review and improve the grievance redressal process based on feedback.",
-            "Facilitate amicable resolution of grievances through mediation and negotiation.",
-            "Provide support services and counseling for affected individuals.",
-            "Ensure access to updated resources related to grievance redressal and campus well-being."
-        ],
-        "SubObjImg": "",
-        "Procedure": [
+  {
+    "ID": 5,
+    "Title": "Student Counsellor/Grievance Redressal Committee",
+    "TitleImage": "../../images/grievence_banner.jpg",
+    "TitleImageCSSClass": "grievance_title",
+    "About": "The Grievance Redressal System at Government Engineering College, Patan is an institutional initiative aimed at addressing student and faculty concerns related to academic, administrative, and personal matters. This system ensures a transparent, fair, and unbiased process to resolve grievances effectively, maintaining a harmonious and inclusive environment within the institution. <br> The Grievance Redressal Committee (GRC) functions under the UGC guidelines and institutional policies, ensuring that complaints are addressed confidentially and impartially by a team of senior faculty members and administrators.",
+    "Measures": "The Grievance Redressal System at Government Engineering College, Patan implements various measures to ensure fairness, transparency, and accountability in addressing grievances. These measures aim to create a student- and faculty-friendly environment, promoting mutual trust and institutional integrity.",
+    "Measure_Image": "/images/grievence.jpg",
+    "Vision": [
+    ],
+    "Mission": [
+    ],
+    "SubObjectives": [
+      "Provide a structured platform for students and faculty to address academic, administrative, and personal grievances.",
+      "Ensure fair, unbiased, and prompt resolution of grievances without discrimination.",
+      "Maintain confidentiality and privacy throughout the grievance redressal process.",
+      "Create a safe and inclusive campus environment by addressing grievances effectively.",
+      "Identify root causes of grievances and implement preventive measures.",
+      "Educate students and faculty about their rights, responsibilities, and the grievance redressal mechanism.",
+      "Continuously review and improve the grievance redressal process based on feedback.",
+      "Facilitate amicable resolution of grievances through mediation and negotiation.",
+      "Provide support services and counseling for affected individuals.",
+      "Ensure access to updated resources related to grievance redressal and campus well-being."
+    ],
+    "SubObjImg": "",
+    "Procedure": [
 
-        ],
-        "BulletPoints": [
-            "Submit the complaint through 1. the official Email: <strong><a href=\"mailto:grievance@gecpatan.ac.in\"><b>grievance@gecpatan.ac.in</b></a></strong> or 2. Handwritten/Print Application.<br/><a href=\"/DataFiles/CampusCommittees/Grievance/Grievance_Form.pdf\" class=\"btn btn-primary btn-sm mt-2\" download>⬇ Download Grievance Form</a>",
-            "Provide name, department, contact details, grievance category, and a detailed description with supporting documents if applicable.",
-            "The Grievance Redressal Committee (GRC) reviews, classifies, and investigates the complaint while ensuring confidentiality.",
-            "The committee conducts inquiries, seeks clarifications, and determines an appropriate resolution in a fair and timely manner.",
-            "The complainant is notified of the resolution via email or official communication channels.",
-            "If dissatisfied, the complainant may formally appeal to higher authorities for further review."
-        ],
-        "BulletPointsImg": "",
-        "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Prof. A. B. Dhruv",
-                "Position": "Chairman",
-                "Image": "~/images/Faculty/HOD/501.jpg",
-                "Email": "anand.dhruv@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. V. P. Soni",
-                "Position": "Member",
-                "Image": "~/images/Faculty/601.jpg",
-                "Email": "vijay.soni@gecpatan.ac.in",
-                "Department": "Science & Humanities Engineering Department"
-            },
-            {
-                "ID": 3,
-                "Name": "Dr. D. H . Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/102.jpg",
-                "Email": "devendra.patel@gecpatan.ac.in",
-                "Department": "Electronics & Communication Engineering Department"
-            },
-            {
-                "ID": 4,
-                "Name": "Prof. B. P. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/216.jpg",
-                "Email": "bhavesh.patel@gecpatan.ac.in",
-                "Department": "Computer Science & Engineering Department"
-            },
-            {
-                "ID": 5,
-                "Name": "Prof. R. A. Chaudhari",
-                "Position": "Member",
-                "Image": "~/images/Faculty/107.jpg",
-                "Email": "roshni.chaudhari@gecpatan.ac.in",
-                "Department": "Electronics & Communication Engineering Department"
-            }
-        ],
-        "TabTitles": {
-            "SubObjectives": "Objectives"
-        },
-        "TableView": true
+    ],
+    "BlogLink": "/DataFiles/CampusCommittees/Grievance/Notice_board_final.pdf",
+    "BulletPoints": [
+      "Submit the complaint through 1. the official Email: <strong><a href=\"mailto:grievance@gecpatan.ac.in\"><b>grievance@gecpatan.ac.in</b></a></strong> or 2. Handwritten/Print Application.<br/><a href=\"/DataFiles/CampusCommittees/Grievance/Grievance_Form.pdf\" class=\"btn btn-primary btn-sm mt-2\" download>⬇ Download Grievance Form</a>",
+      "Provide name, department, contact details, grievance category, and a detailed description with supporting documents if applicable.",
+      "The Grievance Redressal Committee (GRC) reviews, classifies, and investigates the complaint while ensuring confidentiality.",
+      "The committee conducts inquiries, seeks clarifications, and determines an appropriate resolution in a fair and timely manner.",
+      "The complainant is notified of the resolution via email or official communication channels.",
+      "If dissatisfied, the complainant may formally appeal to higher authorities for further review."
+    ],
+    "BulletPointsImg": "",
+    "PageFlyer": "~/images/CampusCommittee/Grievance/quote.jpg",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Share your Grievence, move forward <b>And Grow.” ...</b></h1>",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. A. B. Dhruv",
+        "Position": "Chairman",
+        "Image": "~/images/Faculty/HOD/501.jpg",
+        "Email": "anand.dhruv@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Prof. V. P. Soni",
+        "Position": "Member",
+        "Image": "~/images/Faculty/601.jpg",
+        "Email": "vijay.soni@gecpatan.ac.in",
+        "Department": "Science & Humanities Engineering Department"
+      },
+      {
+        "ID": 3,
+        "Name": "Dr. D. H . Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/102.jpg",
+        "Email": "devendra.patel@gecpatan.ac.in",
+        "Department": "Electronics & Communication Engineering Department"
+      },
+      {
+        "ID": 4,
+        "Name": "Prof. B. P. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/216.jpg",
+        "Email": "bhavesh.patel@gecpatan.ac.in",
+        "Department": "Computer Science & Engineering Department"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Member",
+        "Image": "~/images/Faculty/107.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in",
+        "Department": "Electronics & Communication Engineering Department"
+      }
+    ],
+    "TabTitles": {
+      "Blogspot": "Mechanism",
+      "SubObjectives": "Objectives"
     },
+    "TableView": true
+    
+  },
 
 
     //RTI
@@ -430,89 +439,92 @@
     },
 
     //SC/ST Committee
-    {
-        "ID": 7,
-        "Title": "SC/ST Committee",
-        "TitleImage": "../../images/CampusCommittee/scst/brain-4245977_1280.jpg",
-        "TitleImageCSSClass": "",
-        "About": "The SC/ST Committee at Government Engineering College, Patan, ensures a supportive, inclusive environment for Scheduled Caste and Scheduled Tribe students. It addresses grievances, offers counseling, promotes awareness of scholarships and opportunities, and implements government policies to foster academic and career growth while safeguarding their rights and well-being.",
-        "Measures": "The SC/ST Committee at Government Engineering College, Patan, ensures grievance redressal, counseling support, and awareness of scholarships and government programs. It implements policies to protect students' rights, fosters career growth through coaching and workshops, and creates an inclusive environment to address socio-economic and educational challenges effectively.",
-        "Measure_Image": "/images/CampusCommittee/scst/about_section.png",
-        "Vision": [
-            "To foster an inclusive and equitable academic environment at Government Engineering College, Patan, where students from Scheduled Castes (SC) and Scheduled Tribes (ST) feel empowered, respected, and supported, enabling them to achieve their full potential and contribute meaningfully to society."
-        ],
-        "Mission": [
-            "To ensure the safety, dignity, and equal opportunities for SC/ST students within the institute.",
-            "To provide timely support through grievance redressal, counseling, and mentorship programs.",
-            "To promote awareness of government policies, scholarships, and career opportunities for holistic development.",
-            "To foster a culture of inclusivity and respect, aligning with constitutional values and institutional goals."
-        ],
-        "SubObjectives": [
-            "Establish a robust mechanism for addressing the grievances of SC/ST students promptly and effectively.",
-            "Offer psychological and emotional support to help students navigate academic and personal challenges.",
-            "Disseminate information about government scholarships, fellowships, and career advancement programs.",
-            "Organize coaching sessions, workshops, and seminars to enhance competitive exam preparedness and employability."
-            //"Ensure adherence to constitutional provisions and government policies for the welfare of SC/ST students.",
-            //"Foster a sense of belonging and inclusivity through cultural and academic initiatives aimed at empowering marginalized students."
-        ],
-        "SubObjImg": "~/images/CampusCommittee/scst/analysis-6232545_640.jpg",
-        "BulletPoints": [],
-        "BulletPointsImg": "",
-        "PageFlyer": "~/images/CampusCommittee/scst/flyer.jpg",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Equality, <b>Enabling Excellence.”</b></h1>",
-        "BlogLink": "",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Dr. A. B. Dhruv",
-                "Position": "Chairman",
-                "Image": "~/images/Faculty/HOD/501.jpg",
-                "Email": "anand.dhruv@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            },
-            {
-                "ID": 2,
-                "Name": "Dr. D. J. Parmar",
-                "Position": "Member",
-                "Image": "~/images/Faculty/504.jpg",
-                "Email": "dipak.parmar@gecpatan.ac.in",
-                "Department": "Mechanical Engineering Department"
-            },
-            //{
-            //    "ID": 2,
-            //    "Name": "Dr. V. C. Makwana",
-            //    "Position": "Member",
-            //    "Image": "~/images/Faculty/603.jpg",
-            //    "Email": "vijay.makwana@gecpatan.ac.in",
-            //    "Department": "Science & Humanities Department"
-            //},
-            {
-                "ID": 3,
-                "Name": "Prof. M. J. Vasava",
-                "Position": "Member",
-                "Image": "~/images/Faculty/211.jpg",
-                //"Image": "~/images/Faculty/Computer/dummy.jpg",
-                "Email": "mehul.vasava@gecpatan.ac.in",
-                "Department": "Computer Science & Engineering Department"
-            },
-            {
-                "ID": 4,
-                "Name": "Prof. M. M. Patel",
-                "Position": "Member",
-                "Image": "~/images/Faculty/104.jpg",
-                "Email": "mihir.patel@gecpatan.ac.in",
-                "Department": "Electronics & Communication Engineering Department"
-            },
-            {
-                "ID": 5,
-                "Name": "Prof. R. A. Chaudhari",
-                "Position": "Member",
-                "Image": "~/images/Faculty/107.jpg",
-                "Email": "roshni.chaudhari@gecpatan.ac.in",
-                "Department": "Electronics & Communication Engineering Department"
-            }
-        ]
-    },
+  {
+    "ID": 7,
+    "Title": "SC/ST Committee",
+    "TitleImage": "../../images/CampusCommittee/scst/brain-4245977_1280.jpg",
+    "TitleImageCSSClass": "",
+    "About": "The SC/ST Committee at Government Engineering College, Patan, ensures a supportive, inclusive environment for Scheduled Caste and Scheduled Tribe students. It addresses grievances, offers counseling, promotes awareness of scholarships and opportunities, and implements government policies to foster academic and career growth while safeguarding their rights and well-being.",
+    "Measures": "The SC/ST Committee at Government Engineering College, Patan, ensures grievance redressal, counseling support, and awareness of scholarships and government programs. It implements policies to protect students' rights, fosters career growth through coaching and workshops, and creates an inclusive environment to address socio-economic and educational challenges effectively.",
+    "Measure_Image": "/images/CampusCommittee/scst/about_section.png",
+    "Vision": [
+      "To foster an inclusive and equitable academic environment at Government Engineering College, Patan, where students from Scheduled Castes (SC) and Scheduled Tribes (ST) feel empowered, respected, and supported, enabling them to achieve their full potential and contribute meaningfully to society."
+    ],
+    "Mission": [
+      "To ensure the safety, dignity, and equal opportunities for SC/ST students within the institute.",
+      "To provide timely support through grievance redressal, counseling, and mentorship programs.",
+      "To promote awareness of government policies, scholarships, and career opportunities for holistic development.",
+      "To foster a culture of inclusivity and respect, aligning with constitutional values and institutional goals."
+    ],
+    "SubObjectives": [
+      "Establish a robust mechanism for addressing the grievances of SC/ST students promptly and effectively.",
+      "Offer psychological and emotional support to help students navigate academic and personal challenges.",
+      "Disseminate information about government scholarships, fellowships, and career advancement programs.",
+      "Organize coaching sessions, workshops, and seminars to enhance competitive exam preparedness and employability."
+      //"Ensure adherence to constitutional provisions and government policies for the welfare of SC/ST students.",
+      //"Foster a sense of belonging and inclusivity through cultural and academic initiatives aimed at empowering marginalized students."
+    ],
+    "SubObjImg": "~/images/CampusCommittee/scst/analysis-6232545_640.jpg",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "~/images/CampusCommittee/scst/flyer.jpg",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Equality, <b>Enabling Excellence.”</b></h1>",
+    "BlogLink": "/DataFiles/CampusCommittees/Grievance/Notice_board_final.pdf",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Dr. A. B. Dhruv",
+        "Position": "Chairman",
+        "Image": "~/images/Faculty/HOD/501.jpg",
+        "Email": "anand.dhruv@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      {
+        "ID": 2,
+        "Name": "Dr. D. J. Parmar",
+        "Position": "Member",
+        "Image": "~/images/Faculty/504.jpg",
+        "Email": "dipak.parmar@gecpatan.ac.in",
+        "Department": "Mechanical Engineering Department"
+      },
+      //{
+      //    "ID": 2,
+      //    "Name": "Dr. V. C. Makwana",
+      //    "Position": "Member",
+      //    "Image": "~/images/Faculty/603.jpg",
+      //    "Email": "vijay.makwana@gecpatan.ac.in",
+      //    "Department": "Science & Humanities Department"
+      //},
+      {
+        "ID": 3,
+        "Name": "Prof. M. J. Vasava",
+        "Position": "Member",
+        "Image": "~/images/Faculty/211.jpg",
+        //"Image": "~/images/Faculty/Computer/dummy.jpg",
+        "Email": "mehul.vasava@gecpatan.ac.in",
+        "Department": "Computer Science & Engineering Department"
+      },
+      {
+        "ID": 4,
+        "Name": "Prof. M. M. Patel",
+        "Position": "Member",
+        "Image": "~/images/Faculty/104.jpg",
+        "Email": "mihir.patel@gecpatan.ac.in",
+        "Department": "Electronics & Communication Engineering Department"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. R. A. Chaudhari",
+        "Position": "Member",
+        "Image": "~/images/Faculty/107.jpg",
+        "Email": "roshni.chaudhari@gecpatan.ac.in",
+        "Department": "Electronics & Communication Engineering Department"
+      }
+    ],
+    "TabTitles": {
+      "Blogspot": "Mechanism"
+    }
+  },
     // gymkhana
     {
         "ID": 10,
@@ -1106,109 +1118,112 @@
           "Members": "Alumni Committee"
         }
     },
-    {
-        "ID": 12,
-        "Title": "Psychology Cell",
-        "TitleImage": "../../images/CampusCommittee/Psychology/psychology_banner.jpg",
-        "TitleImageCSSClass": "psychology_title",
-        "About": "The Psychology Cell at Government Engineering College, Patan (GECP) is an important student-support initiative aimed at promoting the mental well-being, emotional resilience, and overall personal development of students. Recognizing that engineering education can be academically demanding and emotionally challenging, the cell provides a safe, confidential, and supportive environment where students can seek guidance and counselling.<br><br><b>GEC PATAN - MENTAL HEALTH HELPLINE INFORMATION:</b><br><style>\n    .equal-width-table th,\n    .equal-width-table td {\n        width: 50%;\n    }\n</style>\n\n<div class=\"table-responsive\">\n    <table class=\"table table-bordered table-striped equal-width-table\">\n        <tbody>\n            <tr>\n                <th>Tele MANAS Helpline</th>\n                <td>14416</td>\n            </tr>\n            <tr>\n                <th>Nodal Officer</th>\n                <td>Prof. H. D. Patel (9429617800)</td>\n            </tr>\n            <tr>\n                <th>Psychologist</th>\n                <td>Dr. Brijesh Panchal (9099506057)</td>\n            </tr>\n            <tr>\n                <th>Student Friend</th>\n                <td>Abhishek Mehta (9023022516)</td>\n            </tr>\n            <tr>\n                <th>Referral Hospital</th>\n                <td>Unique Hospital, Near Bus Station, Patan</td>\n            </tr>\n            <tr>\n                <th>Doctor (Referral)</th>\n                <td>Dr. Haresh Patel (9327131734)</td>\n            </tr>\n        </tbody>\n    </table>\n</div>",
-        "Measures": "The Psychology Cell implements its vision by providing accessible counseling services for stress and anxiety, organizing mental-health awareness workshops, and empowering students with emotional intelligence skills. It fosters an inclusive support system through collaboration with faculty and parents to ensure early intervention and holistic development.",
-        "Measure_Image": "~/images/CampusCommittee/Psychology/psychology_logo.png",
-        "Vision": [
-            "To foster a mentally healthy, emotionally resilient, and supportive campus environment where every student of Government Engineering College, Patan can thrive academically, socially, and personally with confidence and well-being."
-        ],
-        "Mission": [
-            "To provide accessible, confidential, and student-centered psychological counselling and guidance.",
-            "To promote mental-health awareness through workshops, campaigns, and interactive programs.",
-            "To empower students with skills for stress management, decision-making, emotional intelligence, and healthy interpersonal relationships.",
-            "To create an inclusive and empathetic support system that encourages early intervention and holistic development.",
-            "To collaborate with faculty, parents, and the community to ensure a positive and nurturing learning environment."
-        ],
-        "SubObjectives": [
-            "To support students’ mental health by providing counselling services for stress, anxiety, adjustment issues, academic pressure, or personal concerns.",
-            "To enhance emotional intelligence by helping students develop self-awareness, confidence, and interpersonal skills.",
-            "To promote a healthy campus environment through awareness programmes, seminars, and mental-health campaigns.",
-            "To encourage early intervention so that students can address psychological challenges before they escalate.",
-            "To provide a confidential space where students can openly discuss problems without fear of judgment."
-        ],
-        "SubObjImg": "",
-        "BulletPoints": [
+  {
+    "ID": 12,
+    "Title": "Psychology Cell",
+    "TitleImage": "../../images/CampusCommittee/Psychology/psychology_banner.jpg",
+    "TitleImageCSSClass": "psychology_title",
+    "About": "The Psychology Cell at Government Engineering College, Patan (GECP) is an important student-support initiative aimed at promoting the mental well-being, emotional resilience, and overall personal development of students. Recognizing that engineering education can be academically demanding and emotionally challenging, the cell provides a safe, confidential, and supportive environment where students can seek guidance and counselling.<br><br><b>GEC PATAN - MENTAL HEALTH HELPLINE INFORMATION:</b><br><style>\n    .equal-width-table th,\n    .equal-width-table td {\n        width: 50%;\n    }\n</style>\n\n<div class=\"table-responsive\">\n    <table class=\"table table-bordered table-striped equal-width-table\">\n        <tbody>\n            <tr>\n                <th>Tele MANAS Helpline</th>\n                <td>14416</td>\n            </tr>\n            <tr>\n                <th>Nodal Officer</th>\n                <td>Prof. H. D. Patel (9429617800)</td>\n            </tr>\n            <tr>\n                <th>Psychologist</th>\n                <td>Dr. Brijesh Panchal (9099506057)</td>\n            </tr>\n            <tr>\n                <th>Student Friend</th>\n                <td>Abhishek Mehta (9023022516)</td>\n            </tr>\n            <tr>\n                <th>Referral Hospital</th>\n                <td>Unique Hospital, Near Bus Station, Patan</td>\n            </tr>\n            <tr>\n                <th>Doctor (Referral)</th>\n                <td>Dr. Haresh Patel (9327131734)</td>\n            </tr>\n        </tbody>\n    </table>\n</div>",
+    "Measures": "The Psychology Cell implements its vision by providing accessible counseling services for stress and anxiety, organizing mental-health awareness workshops, and empowering students with emotional intelligence skills. It fosters an inclusive support system through collaboration with faculty and parents to ensure early intervention and holistic development.",
+    "Measure_Image": "~/images/CampusCommittee/Psychology/psychology_logo.png",
+    "Vision": [
+      "To foster a mentally healthy, emotionally resilient, and supportive campus environment where every student of Government Engineering College, Patan can thrive academically, socially, and personally with confidence and well-being."
+    ],
+    "Mission": [
+      "To provide accessible, confidential, and student-centered psychological counselling and guidance.",
+      "To promote mental-health awareness through workshops, campaigns, and interactive programs.",
+      "To empower students with skills for stress management, decision-making, emotional intelligence, and healthy interpersonal relationships.",
+      "To create an inclusive and empathetic support system that encourages early intervention and holistic development.",
+      "To collaborate with faculty, parents, and the community to ensure a positive and nurturing learning environment."
+    ],
+    "SubObjectives": [
+      "To support students’ mental health by providing counselling services for stress, anxiety, adjustment issues, academic pressure, or personal concerns.",
+      "To enhance emotional intelligence by helping students develop self-awareness, confidence, and interpersonal skills.",
+      "To promote a healthy campus environment through awareness programmes, seminars, and mental-health campaigns.",
+      "To encourage early intervention so that students can address psychological challenges before they escalate.",
+      "To provide a confidential space where students can openly discuss problems without fear of judgment."
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [
 
-        ],
-        "BulletPointsImg": "",
-        "PageFlyer": "~/images/CampusCommittee/Psychology/psychology_flyer.jpg",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Minds, <b>Enriching Lives.</b>”</h1>",
-        "BlogLink": "",
-        "Members": [
-            {
-                "ID": 1,
-                "Name": "Prof. H. D. Patel",
-                "Position": "Coordinator (Psychology Cell)",
-                "Image": "~/images/Faculty/302.jpg",
-                "Email": "harshad.patel@gecpatan.ac.in",
-                "Department": "Electrical Engineering"
-            },
-            {
-                "ID": 2,
-                "Name": "Prof. N. K. Dabhi",
-                "Position": "Committee Member & NSS Unit Rep",
-                "Image": "~/images/Faculty/304.jpg",
-                "Email": "naran.dabhi@gecpatan.ac.in",
-                "Department": "Electrical Engineering"
-            },
-            {
-                "ID": 3,
-                "Name": "Prof. Anju Vasdevani",
-                "Position": "Committee Member",
-                "Image": "~/images/Faculty/109.jpg",
-                "Email": "anju.vasdevani@gecpatan.ac.in",
-                "Department": "Electronics & Communication"
-            },
-            {
-                "ID": 4,
-                "Name": "Prof. H. R. Trivedi",
-                "Position": "Committee Member",
-                "Image": "~/images/Faculty/804.jpg",
-                "Email": "hardik.trivedi@gecpatan.ac.in",
-                "Department": "Civil Engineering"
-            },
-            {
-                "ID": 5,
-                "Name": "Prof. H. L. Chaudhary",
-                "Position": "Committee Member",
-                "Image": "~/images/Faculty/214.jpg",
-                "Email": "harshad.chaudhary@gecpatan.ac.in",
-                "Department": "Computer Engineering"
-            },
-            {
-                "ID": 6,
-                "Name": "Prof. H. S. Bhutadiya",
-                "Position": "Committee Member",
-                "Image": "~/images/Faculty/605.jpg",
-                "Email": "harshad.bhutadiya@gecpatan.ac.in",
-                "Department": "General Department"
-            },
-            {
-                "ID": 8,
-                "Name": "Prof. D. J. Parmar",
-                "Position": "Committee Member",
-                "Image": "~/images/Faculty/504.jpg",
-                "Email": "dipak.parmar@gecpatan.ac.in",
-                "Department": "Mechanical Engineering"
-            },
-            {
-                "ID": 9,
-                "Name": "Prof. Bhargav Patel",
-                "Position": "Boys Hostel Representative",
-                "Image": "~/images/Faculty/506.jpg",
-                "Email": "bhargav.patel@gecpatan.ac.in",
-                "Department": "Mechanical Engineering"
-            }
-        ],
-        "TableView": true,
+    ],
+    "BulletPointsImg": "",
+    "PageFlyer": "~/images/CampusCommittee/Psychology/psychology_flyer.jpg",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Empowering Minds, <b>Enriching Lives.</b>”</h1>",
+    "BlogLink": "../../DataFiles/CampusCommittees/Grievance/Notice_board_final.pdf",
+    "Members": [
+      {
+        "ID": 1,
+        "Name": "Prof. H. D. Patel",
+        "Position": "Coordinator (Psychology Cell)",
+        "Image": "~/images/Faculty/302.jpg",
+        "Email": "harshad.patel@gecpatan.ac.in",
+        "Department": "Electrical Engineering"
+      },
+      {
+        "ID": 2,
+        "Name": "Prof. N. K. Dabhi",
+        "Position": "Committee Member & NSS Unit Rep",
+        "Image": "~/images/Faculty/304.jpg",
+        "Email": "naran.dabhi@gecpatan.ac.in",
+        "Department": "Electrical Engineering"
+      },
+      {
+        "ID": 3,
+        "Name": "Prof. Anju Vasdevani",
+        "Position": "Committee Member",
+        "Image": "~/images/Faculty/109.jpg",
+        "Email": "anju.vasdevani@gecpatan.ac.in",
+        "Department": "Electronics & Communication"
+      },
+      {
+        "ID": 4,
+        "Name": "Prof. H. R. Trivedi",
+        "Position": "Committee Member",
+        "Image": "~/images/Faculty/804.jpg",
+        "Email": "hardik.trivedi@gecpatan.ac.in",
+        "Department": "Civil Engineering"
+      },
+      {
+        "ID": 5,
+        "Name": "Prof. H. L. Chaudhary",
+        "Position": "Committee Member",
+        "Image": "~/images/Faculty/214.jpg",
+        "Email": "harshad.chaudhary@gecpatan.ac.in",
+        "Department": "Computer Engineering"
+      },
+      {
+        "ID": 6,
+        "Name": "Prof. H. S. Bhutadiya",
+        "Position": "Committee Member",
+        "Image": "~/images/Faculty/605.jpg",
+        "Email": "harshad.bhutadiya@gecpatan.ac.in",
+        "Department": "General Department"
+      },
+      {
+        "ID": 8,
+        "Name": "Prof. D. J. Parmar",
+        "Position": "Committee Member",
+        "Image": "~/images/Faculty/504.jpg",
+        "Email": "dipak.parmar@gecpatan.ac.in",
+        "Department": "Mechanical Engineering"
+      },
+      {
+        "ID": 9,
+        "Name": "Prof. Bhargav Patel",
+        "Position": "Boys Hostel Representative",
+        "Image": "~/images/Faculty/506.jpg",
+        "Email": "bhargav.patel@gecpatan.ac.in",
+        "Department": "Mechanical Engineering"
+      }
+    ],
+    "TableView": true,
 
-        "NationalTaskForce": "/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf"
-    },
+    "NationalTaskForce": "/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf",
+    "TabTitles": {
+      "Blogspot": "Mechanism"
+    }
+  },
     {
         "ID": 13,
         "Title": "Internal Complaint Committee (ICC)",
@@ -1324,7 +1339,7 @@
                 "Department": "External Expert (NGO / Women’s Issues)"
             }
         ],
-        "TableView": true
+      "TableView": true
     },
   {
     "ID": 14,
