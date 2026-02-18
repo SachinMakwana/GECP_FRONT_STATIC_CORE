@@ -57,11 +57,11 @@
         {
             <a href="@Url.Action("Index", "Documents", new { @id = Model.ID })" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
         }
-        @if (Model.NationalTaskForce != null)
+        @if (Model.PdfLink != null)
         {
-            <a href="@Url.Content(@Model.NationalTaskForce)" target="_blank" class="tablinks">
+            <a href="@Url.Content(@Model.PdfLink)" target="_blank" class="tablinks">
                 <button class="tablinks">
-                    National Task Force
+                    @Model.TabTitles?.PdfLink
                 </button>
             </a>
         }
@@ -105,11 +105,11 @@
         {
             <a href="@Url.Action("Index", "Documents", new { @id = Model.ID })" target="_blank"><button class="tablinks">@Model.TabTitles.Documents</button></a>
         }
-        @if (Model.NationalTaskForce != null)
+        @if (Model.PdfLink != null)
         {
-            <a href="@Url.Content(@Model.NationalTaskForce)" target="_blank" class="tablinks">
+            <a href="@Url.Content(@Model.TabTitles.PdfLink)" target="_blank" class="tablinks">
                 <button class="tablinks">
-                    National Task Force
+                    @Model.TabTitles.PdfLink
                 </button>
             </a>
         }
