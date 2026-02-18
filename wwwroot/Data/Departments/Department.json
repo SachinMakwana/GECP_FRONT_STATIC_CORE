@@ -319,13 +319,10 @@
 
             "The graduates shall be able to serve the Industry with professional Ethics and society with moral responsibilities."
         ],
-        "PSOs": [
-            "The Civil Engineering Graduate will be able to solve complex Civil Engineering problems and provide the best possible design solutions using various contemporary engineering tools and techniques.",
-            "The Civil Engineering Graduate will be able to use effective communication skills and shoulder accountability in a professional role as Civil Engineer independently, or as a team-member/team-leader in society.",
-            "The students will be able to achieve expertise in design and analysis of various Civil Engineering structures using relevant codes of practice, materials, techniques and software. ",
-            "The students will acquire knowledge, skills and attitude for their better prospects in professional career of Civil Engineering. ",
-            "The students will be able to Pursue Technological innovations in the field of Civil Engineering & allied fields for betterment of the society."
-        ],
+      "PSOs": [
+            "The Civil Engineering Graduate will be able to apply technical skills and modern engineering tools for civil engineering day to day practice.",
+            "The Civil Engineering Graduate will be able to use effective communication skills and shoulder accountability in a professional role as a Civil Engineer independently or as a team-member/team-leader in society."
+      ],
         "Labs": [
             {
                 "LabID": 41,
