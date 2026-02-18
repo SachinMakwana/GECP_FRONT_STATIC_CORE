@@ -250,7 +250,16 @@
     "SubObjectives": [
     ],
     "SubObjImg": "",
-    "BulletPoints": [],
+    "BulletPoints": [
+      "<strong style='color: #2c3e50; font-size: 18px;'>Conducting Orientation Programs:</strong> <span style='color: #555; line-height: 1.5;'>Organizes anti-ragging awareness sessions during the induction program for newly admitted students. The rules, legal consequences, reporting mechanisms, and student rights are clearly explained.</span>",
+      "<strong style='color: #2c3e50; font-size: 18px;'>Collection and Verification of Affidavits:</strong> <span style='color: #555; line-height: 1.5;'>Ensures submission of mandatory online anti-ragging affidavits by students and parents as per UGC/AICTE guidelines. Regular follow-up is done for pending submissions.</span>",
+      "<strong style='color: #2c3e50; font-size: 18px;'>Display of Anti-Ragging Information:</strong> <span style='color: #555; line-height: 1.5;'>Displays anti-ragging posters, policy guidelines, and helpline numbers at prominent locations such as classrooms, hostels, laboratories, and notice boards.</span>",
+      "<strong style='color: #2c3e50; font-size: 18px;'>Hostel and Campus Monitoring:</strong> <span style='color: #555; line-height: 1.5;'>Conducts regular monitoring of hostels, corridors, canteens, playgrounds, and other common areas. Coordinates with wardens, faculty members, and security staff to maintain vigilance.</span>",
+      "<strong style='color: #2c3e50; font-size: 18px;'>Grievance Redressal Mechanism:</strong> <span style='color: #555; line-height: 1.5;'>Maintains a confidential and accessible complaint system (online/offline). Ensures timely inquiry and appropriate action if any complaint is received.</span>",
+      "<strong style='color: #2c3e50; font-size: 18px;'>Mentoring and Counseling Support:</strong> <span style='color: #555; line-height: 1.5;'>Assigns faculty mentors to guide students academically and emotionally. Refers students to counseling services if required to support their mental well-being.</span>",
+      "<strong style='color: #2c3e50; font-size: 18px;'>Awareness Campaigns and Pledge Activities:</strong> <span style='color: #555; line-height: 1.5;'>Organizes anti-ragging pledge ceremonies, seminars, workshops, and awareness drives to promote healthy senior-junior interaction.</span>",
+      "<strong style='color: #2c3e50; font-size: 18px;'>Periodic Review Meetings:</strong> <span style='color: #555; line-height: 1.5;'>Conducts regular committee meetings to review compliance, monitoring effectiveness, and student feedback. Submits reports to higher authorities as required.</span>"
+    ],
     "BulletPointsImg": "",
     "PageFlyer": "~/images/CampusCommittee/AntiRagging/antiragging.jpg",
     "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“Ragging does not break the person or ice, it breaks <b>Career, Family and Lives.” ...</b></h1>",
@@ -291,6 +300,7 @@
       }
     ],
     "TabTitles": {
+      "Procedure": "Committee Activities",
       "Blogspot": "Mechanism",
       "Link": "SOP"
     }
