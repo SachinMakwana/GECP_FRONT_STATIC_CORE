@@ -974,6 +974,49 @@
         ]
       }
     ]
+  },
+  {
+    "Id": 16, //committee id
+    "Title": "Cutoff Marks",
+    "YearSection": [
+      {
+        "Year": "",
+        "Documents": [
+          {
+            "ID": 1,
+            "Title": "Cutoff Marks 2025-26",
+            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2025-26.pdf",
+            "FileType": "PDF",
+            "UploadDate": "17-02-2026",
+            "isShow": true
+          },
+          {
+            "ID": 2,
+            "Title": "Cutoff Marks 2024-25",
+            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2024-25.pdf",
+            "FileType": "PDF",
+            "UploadDate": "17-02-2026",
+            "isShow": true
+          },
+          {
+            "ID": 3,
+            "Title": "Cutoff Marks 2023-24",
+            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2023-24.pdf",
+            "FileType": "PDF",
+            "UploadDate": "17-02-2026",
+            "isShow": true
+          },
+          {
+            "ID": 4,
+            "Title": "Cutoff Marks 2022-23",
+            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2022-23.pdf",
+            "FileType": "PDF",
+            "UploadDate": "17-02-2026",
+            "isShow": true
+          }
+        ]
+      }
+    ]
   }
   
 

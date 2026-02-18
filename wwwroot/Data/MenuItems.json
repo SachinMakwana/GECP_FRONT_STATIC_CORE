@@ -295,10 +295,10 @@
       {
         "ID": 32,
         "MenuText": "Admission Process",
-        "ParentID": 3,
-        "dynamicID": null,
-        "ControllerName": "Academics",
-        "ActionName": "AdmissionProcess",
+        "ParentID": 10,
+        "dynamicID": 16,
+        "ControllerName": "CampusCommittee",
+        "ActionName": "CommitteePage",
         "position": 2,
         "ChildMenuVMs": []
       },

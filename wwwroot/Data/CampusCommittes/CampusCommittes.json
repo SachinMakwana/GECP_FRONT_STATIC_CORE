@@ -1431,6 +1431,36 @@
       }
     ],
     "TableView": true
+  },
+  {
+    "ID": 16,
+    "Title": "Admission Process",
+    "TitleImage": "../../images/Title/title_banner.jpg",
+    "TitleImageCSSClass": "",
+    "About": "The institute runs 5 Under Graduate (UG) engineering programs.<br><br>Admission to the First Year of the Bachelor of Engineering and Technology is managed centrally by the Admission Committee for Professional Courses(ACPC)<br><br><b>ADMISSION COMMITTEE FOR PROFESSIONAL COURSES (GUJARAT STATE)</b><br>L. D. College of Engineering Campus, Ahmedabad-380 015<br>HELPLINE NUMBER : 079-26566000<br><br><b>For information & latest updates visit : </b><a href='https://acpc.gujarat.gov.in/' style='color:blue;' target='_blank'>https://acpc.gujarat.gov.in/</a><br><b>For registration and admission process visit :</b> <a href='https://gujacpc.admissions.nic.in/' style='color:blue;' target='_blank'>https://gujacpc.admissions.nic.in/</a><br><b>ACPC – Degree Engineering (BE /B Tech) : How to fill the ACPC admission form : </b><a href='https://www.youtube.com/watch?v=rmqAWLRufCQ' style='color:blue;' target='_blank'>Click Here</a><br><br>Fees: Tuition Fee for Boys: Rs. 1500/-<br> Fees: Tuition Fee for Girls: NIL<br><br><table class='table table-striped table-bordered'><thead><tr><th style='text-align:left;'>Program</th><th style='text-align:center;'>Present Intake</th><th style='text-align:center;'>Course Code as per (GTU)</th></tr></thead><tbody><tr><td align='left'>Electronics And Communication Engineering</td><td align='center'>30</td><td align='center'>11</td></tr><tr><td align='left'>Civil Engineering</td><td align='center'>60</td><td align='center'>06</td></tr><tr><td align='left'>Computer Science &amp; Engineering</td><td align='center'>120</td><td align='center'>31</td></tr><tr><td align='left'>Electrical Engineering</td><td align='center'>60</td><td align='center'>09</td></tr><tr><td align='left'>Mechanical Engineering</td><td align='center'>60</td><td align='center'>19</td></tr></tbody></table><br><br>ACPC Designated Cyber Help Center for Admission in Degree Engineering A.Y. 2025-26 is functioning at Room L - 812, Electrical Engineering Department,GEC, Patan.<br><br><div style='font-size:16px;'>For any admission related enquiry you may contact our admission officer Dr. Harshad Bhutadia (M: 9376048550)</div>",
+    "Measures": "",
+    "Measure_Image": "",
+    "Vision": [
+
+    ],
+    "Mission": [
+    ],
+    "SubObjectives": [
+
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "",
+    "Members": [
+    ],
+    "ShowDocument": true,
+    "TabTitles": {
+      "About": "About Admission Process",
+      "Documents": "Cutoff Marks"
+    }
   }
 ]
 // use below template to add a committee
