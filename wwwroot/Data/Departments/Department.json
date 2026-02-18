@@ -186,6 +186,14 @@
                 "File": "~/DataFiles/Departments/CSE/CSE Academic Calendar ODD Sem 2025-26.pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
+            },
+            {
+                "ID": 2,
+                "Title": "CSE Academic Calender for EVEN Semester 2025-26",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Departments/CSE/CSE Academic Calendar EVEN Sem 2025-26.pdf",
+                "isShow": true,
+                "UploadDate": "18-02-2026"
             }
         ],
         "TimeTable": [ //tender vm object
