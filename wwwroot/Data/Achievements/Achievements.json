@@ -12,6 +12,7 @@
 
   ],
   "Years": [
+    2026,
     2025,
     2024,
     2023,
@@ -40,6 +41,19 @@
       "Year": 2023
     }
     */
+    {
+      "ID": 2601,
+      "Title": "Civil Engineering Students Secure 1st Runner-Up at Concrete Catalyst 2026",
+      "Image": "/images/Home/Concrete Catalyst (1).png",
+      "Date": "2026/02/16",
+      "Description": "We proudly celebrate the Civil Engineering student team from Government Engineering College, Patan. Krishna Panchal, Anchal Singh, and Shubham Thakkar for securing the 1st Runner-Up position at the prestigious Concrete Catalyst 2026 competition. Under the guidance of Dr. J.M.Patel, the team showcased exceptional innovation and technical expertise in concrete technology.Organized by Wonder Cement Ltd. in collaboration with Knowledge Studio/Neha Consultants, this achievement highlights the students’ dedication, teamwork, and excellence at a competitive industry platform.",
+      "type": 1,
+      "Dept": "Civil",
+      "DeptID": 4,
+      "CommitteId": 0,
+      "Keywords": "Civil",
+      "Year": 2026
+    },
     {
       "ID": 2515,
       "Title": "Dr. Hitesh N. Panchal Listed Among Top 2% Scientists Worldwide (2025)",
