@@ -12,6 +12,7 @@
 
   ],
   "Years": [
+    2026,
     2025,
     2024,
     2023,
@@ -41,8 +42,21 @@
     }
     */
     {
+      "ID": 2601,
+      "Title": "Civil Engineering Students Secure 1st Runner-Up at Concrete Catalyst 2026",
+      "Image": "/images/Achievements/2601.jpeg",
+      "Date": "2026/02/16",
+      "Description": "We are proud to announce that our Civil Engineering students recently secured second place in the 'Concrete Catalyst' competition, hosted by Wonder Cement and held on February 16, 2026, at Ganapati University. The Winning Team members:  1. Krishna Panchal 2. Aanchal Arun Singh 3. Shubham Thakkar. Under the expert guidance of Prof. (Dr.) J. M. Patel, the team delivered a compelling presentation on \"Quality Control Test: Cube Strength, UPV, Rebound Hammer, and Core Sampling,\" showcasing a perfect blend of theoretical depth and practical innovation. Our Principal, Dr. B. J. Shah, and HOD, Dr. Neelam J. Dalal, commended the students for their technical excellence and for bringing pride to the Patan district. At GEC Patan, we continue to bridge the gap between classroom learning and industrial application",
+      "type": 1,
+      "Dept": "Civil",
+      "DeptID": 4,
+      "CommitteId": 0,
+      "Keywords": "Civil",
+      "Year": 2026
+    },
+    {
       "ID": 2515,
-      "Title": "Dr. Hitesh N. Panchal Listed Among Top 2% Scientists Worldwide (2025)",
+      "Title": "Dr. Hiteshf N. Panchal Listed Among Top 2% Scientists Worldwide (2025)",
       "Image": "/images/Achievements/2515.jpeg",
       "Date": "2025",
       "Description": "The Computer Science & Engineering Department, Government Engineering College Patan, proudly announces that Dr. Hitesh N. Panchal, faculty member, has been recognized among the Top 2% Scientists worldwide for the year 2025, as per the Stanford–Elsevier Top 2% Scientists List (Single Year Data). Dr. Panchal has achieved a global rank of 4306 in the Main Field of Enabling & Strategic Technologies and Sub-field: Energy, with an H-index of 31. This prestigious global recognition is based on standardized, verified data published by Elsevier in collaboration with Stanford University, acknowledging researchers with significant scholarly impact and citation excellence. This achievement reflects Dr. Panchal’s sustained contribution to high-quality research and brings distinction to the Department of Computer Science & Engineering and Government Engineering College Patan. The institute congratulates Dr. Panchal on this notable accomplishment and wishes him continued success in his academic and research endeavors.",
