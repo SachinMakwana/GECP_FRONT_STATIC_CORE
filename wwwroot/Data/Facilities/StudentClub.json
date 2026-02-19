@@ -430,6 +430,45 @@
         }
 
       ]
+    },
+    {
+      "ID": 5,
+      "Icon": "../../images/Club/Readers Club Logo.jpeg",
+      "About": "The profound impact of literature and the written word remains a cornerstone of intellectual growth and creative expression in the modern world. To foster a culture of deep inquiry, lifelong learning, and articulate communication, the Readers Club serves as a dedicated sanctuary for bibliophiles and students alike.<br><br>Our club provides a dynamic platform for students to narrate, discuss, and reflect on diverse literary works, bridging the gap between passive reading and active critical engagement. By moving beyond the pages, we aim to enhance students' creativity, analytical thinking, and presentation skills through regular book reviews and collaborative forums.<br><br>​The Readers Club is committed to building a vibrant community where ideas are exchanged freely. Members participate in a variety of curated activities, including:<br><br>Book & Magazine Discussions: Deep dives into contemporary and classic texts.<br><br>Book Reviews: Formal opportunities to critique and present literary findings.<br><br>​Library Events: Engaging sessions featuring slogan writing, author interviews, and insights into newspaper editorial processes.",
+      "Title": "The Readers Club",
+      "ActionName": "ClubDetails",
+      "ControllerName": "StudentCorner",
+      "SubObjectives": [
+        "To provide a dedicated platform for students to narrate, discuss, and reflect on various literary works.",
+        "To actively promote reading habits among the student body and encourage continuous learning.",
+        "To offer regular opportunities for students to develop and present book reviews, enhancing their public speaking and analytical abilities.",
+        "​To cultivate and sharpen the creativity, analytical thinking, and critical skills of students through collaborative meetings.",
+        "To facilitate interactive library events, including slogan writing, author interviews, and discussions on newspaper editorial perspectives.",
+        "To foster a community based on the principles of sharing thoughts and responsible engagement with literature."
+      ],
+      "BlogLink": "",
+      "Images": [
+        "../../images/Club/Readers Club Logo.jpeg",
+        "../../images/Club/Readers Club Logo.jpeg",
+        "../../images/ssip_banner.jpg",
+        "../../images/ssip_banner.jpg"
+      ],
+
+      "Members": [
+        {
+          "ID": 1,
+          "Name": "Prof. A. K Chaudhari",
+          "Position": "",
+          "Department": "Science And Humanity",
+          "Image": "~/images/Faculty/602.jpg",
+          "Email": "ashok.chaudhari@gecpatan.ac.in"
+        }
+      ],
+
+      "Activities": [
+
+      ],
+      "IsDynamic": false
     }
     //,
     //{
