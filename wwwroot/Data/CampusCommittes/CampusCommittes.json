@@ -368,6 +368,22 @@
                 "Image": "~/images/Faculty/107.jpg",
                 "Email": "roshni.chaudhari@gecpatan.ac.in",
                 "Department": "Electronics & Communication Engineering Department"
+            },
+            {
+                "ID": 6,
+                "Name": "Miss. Meghaben D. Tandel",
+                "Position": "Student Member",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "",
+                "Department": "Computer Science & Engineering Department"
+            },
+            {
+                "ID": 7,
+                "Name": "Mr. Mihir R. Prajapati",
+                "Position": "Student Member",
+                "Image": "~/images/Faculty/1000.jpg",
+                "Email": "",
+                "Department": "Mechanical Engineering Department"
             }
         ],
         "TabTitles": {
