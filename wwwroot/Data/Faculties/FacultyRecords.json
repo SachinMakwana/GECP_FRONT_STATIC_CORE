@@ -1674,7 +1674,7 @@
     //},
     {
       "ID": 202,
-      "Name": "Prof. Pratik Barot",
+      "Name": "Dr. Pratik Barot",
       "Designation": "Associate Professor",
       "image": "images/Faculty/202.jpg",
       "Dept_ID": 2,
@@ -1685,7 +1685,7 @@
       "SeniorityOrder": 1,
       "personal_details": "",
       "PersonalDetails": {
-        "Name": "Prof. Pratik Barot",
+        "Name": "Dr. Pratik Barot",
         "Designation": "Associate Professor",
         "Department": "Computer Science",
         "Contact": "",
