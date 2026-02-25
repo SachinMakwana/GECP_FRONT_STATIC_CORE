@@ -1244,6 +1244,7 @@
       }
     ]
   },
+
   {
     "ID": 71,
     "Title": "Sanchar Saathi Seminar",
@@ -1614,6 +1615,24 @@
         "Title": "Expert Talk On Network Security",
         "FileType": "PDF",
         "FilePath": "~/DataFiles/Documents/CodeHives/Network_Security_Report.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 91,
+    "Title": "Sanchar Saathi Awareness Drive at Bansal Mall, Patan",
+    "Description": "An awareness drive titled “Sanchar Saathi – A Citizen-Centric Telecom Security Initiative” was organized by the Electronics and Communication Engineering Department of Government Engineering College, Patan at Bansal Mall, Patan. The event aimed to create public awareness regarding telecom security, digital safety, and fraud prevention. Participants were introduced to the Sanchar Saathi portal and mobile application launched by the Department of Telecommunications (DoT), Government of India. Volunteers demonstrated key services such as Chakshu for reporting suspicious communications, CEIR for blocking lost or stolen mobile phones using IMEI numbers, and SIM verification facilities. The session educated citizens about phishing calls, fraudulent SMS, and responsible telecom usage. The drive received active participation from visitors and staff members of the mall, contributing to improved cybersecurity awareness and promoting safe digital communication practices.",
+    "Year": 2026,
+    "EventDate": "16-02-2026",
+    "EventTime": "03:30 p.m.",
+    "ClubId": 4,
+    "DeptID": 1,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Sanchar Saathi Awareness Drive Report",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Documents/Sanchar Mitra/Sanchar Sathi4.pdf"
       }
     ]
   }
