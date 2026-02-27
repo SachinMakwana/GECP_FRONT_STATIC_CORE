@@ -24,1016 +24,1016 @@
 */
 
 [
-  {
-    "Id": 50,
-    "Title": "Memorandum of Understanding",
-    "YearSection": [
-      {
-        "Year": "2025",
-        "Documents": [
+    {
+        "Id": 50,
+        "Title": "Memorandum of Understanding",
+        "YearSection": [
             {
-                "ID": 1,
-                "Title": "Adani Cement",
-                "FileType": "PDF",
-                "File": "~/MOU/ADANI CEMENT.pdf",
-                "isShow": true,
-                "MonthYear": "Oct/2025",
-                "UploadDate": ""
-            },
-            {
-                "ID": 2,
-                "Title": "Ganpat University",
-                "FileType": "PDF",
-                "File": "~/MOU/MOU GANPAT UNI.pdf",
-                "isShow": true,
-                "MonthYear": "Oct/2025",
-                "UploadDate": ""
-            },
-            {
-                "ID": 3,
-                "Title": "DoT-GoI under Gujarat LSA",
-                "FileType": "PDF",
-                "File": "~/MOU/SanchaarSarthi.pdf",
-                "isShow": true,
-                "MonthYear": "Aug/2025",
-                "UploadDate": ""
-            },
-            {
-                "ID": 3,
-                "Title": "GUJCOST",
-                "FileType": "PDF",
-                "File": "~/MOU/GUJCOST-GECPatan_MoU.pdf",
-                "isShow": true,
-                "MonthYear": "July/2025",
-                "UploadDate": "03/02/2026"
-            },
-            {
-                "ID": 4,
-                "Title": "Marshal Thresher Brahmanwada ",
-                "FileType": "PDF",
-                "File": "~/MOU/Marshal 2025.pdf",
-                "isShow": true,
-                "MonthYear": "May/2025",
-                "UploadDate": ""
-            },
-            {
-                "ID": 5,
-                "Title": "Proji Systems and Technology (Prolific)",
-                "FileType": "PDF",
-                "File": "~/MOU/proji MOU.pdf",
-                "isShow": true,
-                "MonthYear": "Jan/2025",
-                "UploadDate": ""
-            },
-            {
-                "ID": 12,
-                "Title": "GritXi Technologies Pvt. Ltd",
-                "FileType": "PDF",
-                "File": "~/MOU/MOU_Gritxi Technoogies.pdf",
-                "isShow": true,
-                "MonthYear": "Jan/2025",
-                "UploadDate": ""
-            },
-            {
-                "ID": 6,
-                "Title": "Kachchua Solutions Pvt. Ltd.",
-                "FileType": "PDF",
-                "File": "~/MOU/Kachhua.pdf",
-                "isShow": true,
-                "UploadDate": "",
-                "MonthYear": "Jan/2024"
-            },
-            {
-                "ID": 7,
-                "Title": "Mahakali Engineering works",
-                "FileType": "PDF",
-                "File": "~/MOU/Mahakali.pdf",
-                "isShow": true,
-                "MonthYear": "Jan/2024",
-                "UploadDate": ""
-            },
-            {
-                "ID": 8,
-                "Title": "Sai Sunrise Consultancy",
-                "FileType": "PDF",
-                "File": "~/MOU/SaiSunrise.pdf",
-                "isShow": true,
-                "MonthYear": "Jan/2024",
-                "UploadDate": ""
-            },
+                "Year": "2025",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Adani Cement",
+                        "FileType": "PDF",
+                        "File": "~/MOU/ADANI CEMENT.pdf",
+                        "isShow": true,
+                        "MonthYear": "Oct/2025",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Ganpat University",
+                        "FileType": "PDF",
+                        "File": "~/MOU/MOU GANPAT UNI.pdf",
+                        "isShow": true,
+                        "MonthYear": "Oct/2025",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "DoT-GoI under Gujarat LSA",
+                        "FileType": "PDF",
+                        "File": "~/MOU/SanchaarSarthi.pdf",
+                        "isShow": true,
+                        "MonthYear": "Aug/2025",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "GUJCOST",
+                        "FileType": "PDF",
+                        "File": "~/MOU/GUJCOST-GECPatan_MoU.pdf",
+                        "isShow": true,
+                        "MonthYear": "July/2025",
+                        "UploadDate": "03/02/2026"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Marshal Thresher Brahmanwada ",
+                        "FileType": "PDF",
+                        "File": "~/MOU/Marshal 2025.pdf",
+                        "isShow": true,
+                        "MonthYear": "May/2025",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "Proji Systems and Technology (Prolific)",
+                        "FileType": "PDF",
+                        "File": "~/MOU/proji MOU.pdf",
+                        "isShow": true,
+                        "MonthYear": "Jan/2025",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 12,
+                        "Title": "GritXi Technologies Pvt. Ltd",
+                        "FileType": "PDF",
+                        "File": "~/MOU/MOU_Gritxi Technoogies.pdf",
+                        "isShow": true,
+                        "MonthYear": "Jan/2025",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 6,
+                        "Title": "Kachchua Solutions Pvt. Ltd.",
+                        "FileType": "PDF",
+                        "File": "~/MOU/Kachhua.pdf",
+                        "isShow": true,
+                        "UploadDate": "",
+                        "MonthYear": "Jan/2024"
+                    },
+                    {
+                        "ID": 7,
+                        "Title": "Mahakali Engineering works",
+                        "FileType": "PDF",
+                        "File": "~/MOU/Mahakali.pdf",
+                        "isShow": true,
+                        "MonthYear": "Jan/2024",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 8,
+                        "Title": "Sai Sunrise Consultancy",
+                        "FileType": "PDF",
+                        "File": "~/MOU/SaiSunrise.pdf",
+                        "isShow": true,
+                        "MonthYear": "Jan/2024",
+                        "UploadDate": ""
+                    },
 
-            {
-                "ID": 9,
-                "Title": "Unik Industries",
-                "FileType": "PDF",
-                "File": "~/MOU/UNIK.pdf",
-                "isShow": true,
-                "MonthYear": "Jan/2024",
-                "UploadDate": ""
-            },
-            {
-                "ID": 10,
-                "Title": "Silvertouch Technologies Ltd.",
-                "FileType": "PDF",
-                "File": "~/MOU/Silvertouch.pdf",
-                "isShow": true,
-                "MonthYear": "Sept/2024",
-                "UploadDate": ""
-            },
-            {
-                "ID": 11,
-                "Title": "Edunet Foundation",
-                "FileType": "PDF",
-                "File": "~/MOU/techsaksham.pdf",
-                "isShow": true,
-                "MonthYear": "July/2022",
-                "UploadDate": ""
+                    {
+                        "ID": 9,
+                        "Title": "Unik Industries",
+                        "FileType": "PDF",
+                        "File": "~/MOU/UNIK.pdf",
+                        "isShow": true,
+                        "MonthYear": "Jan/2024",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 10,
+                        "Title": "Silvertouch Technologies Ltd.",
+                        "FileType": "PDF",
+                        "File": "~/MOU/Silvertouch.pdf",
+                        "isShow": true,
+                        "MonthYear": "Sept/2024",
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 11,
+                        "Title": "Edunet Foundation",
+                        "FileType": "PDF",
+                        "File": "~/MOU/techsaksham.pdf",
+                        "isShow": true,
+                        "MonthYear": "July/2022",
+                        "UploadDate": ""
+                    }
+                ]
             }
         ]
-      }
-    ]
-  },
+    },
 
 
 
-  {
-    "Id": 30,
-    "Title": "Mandatory Disclosure",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
+    {
+        "Id": 30,
+        "Title": "Mandatory Disclosure",
+        "YearSection": [
             {
-                "ID": 1,
-                "Title": "Important Campus Committees",
-                "FileType": "PDF",
-                "File": "~/ImpDocs/1 to 5 Grievance_anti_ragging_DEC_2024.pdf",
-                "isShow": false,
-                "UploadDate": "10/12/2024"
-            },
-            {
-                "ID": 2,
-                "Title": "Mandatory Disclosure",
-                "FileType": "PDF",
-                "File": "~/ImpDocs/15 Mandatory Disclosure_F_compressed.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            },
-            {
-                "ID": 3,
-                "Title": "NIRF India Ranking 2024 Details",
-                "FileType": "PDF",
-                "File": "~/ImpDocs/GOVERNMENT ENGINEERING COLLEGE, AT.KATPUR, PATAN20240228-.pdf",
-                "isShow": true,
-                "UploadDate": ""
-            },
-            {
-                "ID": 4,
-                "Title": "Aicte Extension of Approval till 2025-26",
-                "File": "~/ImpDocs/Aicte Extension of Approval till 2025-26.pdf",
-                "FileType": "PDF",
-                "isShow": true,
-                "UploadDate": "29-01-2026"//"30-06-2025"
-            },
-            {
-                "ID": 5,
-                "Title": "GTU Affiliation Approval till 2025-26",
-                "File": "~/ImpDocs/GTU Affiliation Approval till 2025-26.pdf",
-                "FileType": "PDF",
-                "isShow": true,
-                "UploadDate": "30-06-2025"
-            },
-            {
-                "ID": 6,
-                "Title": "GSIRF 2024 Details",
-                "FileType": "PDF",
-                "File": "~/ImpDocs/Engineering Summary_2024.pdf",
-                "isShow": true,
-                "UploadDate": "10/12/2024"
-            },
-            {
-                "ID": 7,
-                "Title": "Governance",
-                "FileType": "PDF",
-                "File": "~/ImpDocs/Goverence.pdf",
-                "isShow": false,
-                "UploadDate": "10/12/2024"
-            },
-            {
-                "ID": 8,
-                "Title": "Financial Data",
-                "FileType": "PDF",
-                "File": "~/ImpDocs/Financial_Data.pdf",
-                "isShow": true,
-                "UploadDate": "13-08-2025" //"16/04/2025"//"12/03/2025"
-            },
-            {
-              "ID": 9,
-              "Title": "AG Audit Report",
-              "FileType": "PDF",
-              "File": "~/ImpDocs/AG Audit Report.pdf",
-              "isShow": true,
-              "UploadDate": "20-02-2026"
-            },
-          {
-            "ID": 10,
-            "Title": "CTE Audit Report",
-            "FileType": "PDF",
-            "File": "~/ImpDocs/CTE Audit Report.pdf",
-            "isShow": true,
-            "UploadDate": "20-02-2026"
-          }
-        ]
-      }
-    ]
-  },
-
-
-
-  {
-    "Id": 40,
-    "Title": "Tenders",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Hostel Mess and Canteen tender GECP 2024-25",
-            "FileType": "PDF",
-            "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
-            "isShow": true,
-            "UploadDate": ""
-          }
-        ]
-      }
-    ]
-  },
-
-  {
-    "Id": 997,
-    "Title": "Central Store & Purchase",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "GeM Portal and Financial Powers",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Administration/CentralStore/GeM_Portal_Financial_Powers.pdf",
-            "isShow": true,
-            "UploadDate": "2025-09-02"
-          },
-          {
-            "ID": 2,
-            "Title": "Gujarat State Procurement Policy 2024",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Administration/CentralStore/GSPP2024.pdf",
-            "isShow": true,
-            "UploadDate": "2026-01-23"
-          }
-        ]
-      }
-    ]
-  },
-
-  {
-    "Id": 60,
-    "Title": "Time Table",
-    "YearSection": [
-      {
-        "Year": "2025-2026",
-        "IsShow": true,
-        "Order": 1,
-        "Documents": [
-            {
-                "ID": 1,
-                "Title": "Civil ODD 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2025_2026.pdf",
-                "isShow": true,
-                "UploadDate": "04-09-2025"
-            },
-            {
-                "ID": 2,
-                "Title": "Computer ODD 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2025_2026.pdf",
-                "isShow": true,
-                "UploadDate": "04-09-2025"
-            },
-            {
-                "ID": 3,
-                "Title": "EC ODD 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2025_2026.pdf",
-                "isShow": true,
-
-                "UploadDate": "04-09-2025"
-
-            },
-            {
-                "ID": 4,
-                "Title": "MECHANICAL ODD 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2025_2026.pdf",
-                "isShow": true,
-
-                "UploadDate": "04-09-2025"
-
-            },
-            {
-                "ID": 5,
-                "Title": "ELECTRICAL ODD 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2025_2026.pdf",
-                "isShow": true,
-
-                "UploadDate": "04-09-2025"
-
-            },
-            {
-                "ID": 6,
-                "Title": "Civil EVEN 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2025_2026.pdf",
-                "isShow": true,
-                "UploadDate": "30-01-2026"
-            },
-            {
-                "ID": 7,
-                "Title": "Computer EVEN 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2025_2026.pdf",
-                "isShow": true,
-                "UploadDate": "30-01-2026"
-            },
-            {
-                "ID": 8,
-                "Title": "EC EVEN 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2025_2026.pdf",
-                "isShow": true,
-
-                "UploadDate": "03-02-2026"
-
-            },
-            {
-                "ID": 9,
-                "Title": "MECHANICAL EVEN 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2025_2026.pdf",
-                "isShow": true,
-
-                "UploadDate": "03-02-2026"
-
-            },
-            {
-                "ID": 10,
-                "Title": "ELECTRICAL EVEN 2025-2026",
-                "FileType": "PDF",
-                "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2025_2026.pdf",
-                "isShow": true,
-
-                "UploadDate": "03-02-2026"
-
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Important Campus Committees",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/1 to 5 Grievance_anti_ragging_DEC_2024.pdf",
+                        "isShow": false,
+                        "UploadDate": "10/12/2024"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Mandatory Disclosure",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/15 Mandatory Disclosure_F_compressed.pdf",
+                        "isShow": true,
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "NIRF India Ranking 2024 Details",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/GOVERNMENT ENGINEERING COLLEGE, AT.KATPUR, PATAN20240228-.pdf",
+                        "isShow": true,
+                        "UploadDate": ""
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Aicte Extension of Approval till 2025-26",
+                        "File": "~/ImpDocs/Aicte Extension of Approval till 2025-26.pdf",
+                        "FileType": "PDF",
+                        "isShow": true,
+                        "UploadDate": "29-01-2026" //"30-06-2025"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "GTU Affiliation Approval till 2025-26",
+                        "File": "~/ImpDocs/GTU Affiliation Approval till 2025-26.pdf",
+                        "FileType": "PDF",
+                        "isShow": true,
+                        "UploadDate": "30-06-2025"
+                    },
+                    {
+                        "ID": 6,
+                        "Title": "GSIRF 2024 Details",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/Engineering Summary_2024.pdf",
+                        "isShow": true,
+                        "UploadDate": "10/12/2024"
+                    },
+                    {
+                        "ID": 7,
+                        "Title": "Governance",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/Goverence.pdf",
+                        "isShow": false,
+                        "UploadDate": "10/12/2024"
+                    },
+                    {
+                        "ID": 8,
+                        "Title": "Financial Data",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/Financial_Data.pdf",
+                        "isShow": true,
+                        "UploadDate": "13-08-2025" //"16/04/2025"//"12/03/2025"
+                    },
+                    {
+                        "ID": 9,
+                        "Title": "AG Audit Report",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/AG Audit Report.pdf",
+                        "isShow": false,
+                        "UploadDate": "27-02-2026" //"20-02-2026"
+                    },
+                    {
+                        "ID": 10,
+                        "Title": "CTE Audit Report",
+                        "FileType": "PDF",
+                        "File": "~/ImpDocs/CTE Audit Report.pdf",
+                        "isShow": false,
+                        "UploadDate": "27-02-2026" //"20-02-2026"
+                    }
+                ]
             }
         ]
-      },
-      {
-        "Year": "2024-2025",
-        "Order": 2,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 2,
-            "Title": "Civil EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 3,
-            "Title": "Computer ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 5,
-            "Title": "EC ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
-            "isShow": true,
+    },
 
-            "UploadDate": "04-03-2025"
 
-          },
-          {
-            "ID": 6,
-            "Title": "EC EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
-            "isShow": true,
 
-            "UploadDate": "04-03-2025"
-
-          },
-          {
-            "ID": 7,
-            "Title": "MECHANICAL ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2024_2025.pdf",
-            "isShow": true,
-
-            "UploadDate": "07-03-2025"
-
-          },
-          {
-            "ID": 8,
-            "Title": "MECHANICAL EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2024_2025.pdf",
-            "isShow": true,
-
-            "UploadDate": "07-03-2025"
-
-          },
-          {
-            "ID": 9,
-            "Title": "ELECTRICAL ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2024_2025.pdf",
-            "isShow": true,
-
-            "UploadDate": "10-03-2025"
-
-          },
-          {
-            "ID": 10,
-            "Title": "ELECTRICAL EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2024_2025.pdf",
-            "isShow": true,
-
-            "UploadDate": "10-03-2025"
-
-          }
+    {
+        "Id": 40,
+        "Title": "Tenders",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Hostel Mess and Canteen tender GECP 2024-25",
+                        "FileType": "PDF",
+                        "File": "~/Tenders/Canteen_Tender_GEC_Patan_2024-25_15-7-24.pdf",
+                        "isShow": true,
+                        "UploadDate": ""
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
+    },
+
+    {
+        "Id": 997,
+        "Title": "Central Store & Purchase",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "GeM Portal and Financial Powers",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Administration/CentralStore/GeM_Portal_Financial_Powers.pdf",
+                        "isShow": true,
+                        "UploadDate": "2025-09-02"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Gujarat State Procurement Policy 2024",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Administration/CentralStore/GSPP2024.pdf",
+                        "isShow": true,
+                        "UploadDate": "2026-01-23"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "Id": 60,
+        "Title": "Time Table",
+        "YearSection": [
+            {
+                "Year": "2025-2026",
+                "IsShow": true,
+                "Order": 1,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil ODD 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2025_2026.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-09-2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Computer ODD 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2025_2026.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-09-2025"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "EC ODD 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2025_2026.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "04-09-2025"
+
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "MECHANICAL ODD 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2025_2026.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "04-09-2025"
+
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "ELECTRICAL ODD 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2025_2026.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "04-09-2025"
+
+                    },
+                    {
+                        "ID": 6,
+                        "Title": "Civil EVEN 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2025_2026.pdf",
+                        "isShow": true,
+                        "UploadDate": "30-01-2026"
+                    },
+                    {
+                        "ID": 7,
+                        "Title": "Computer EVEN 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2025_2026.pdf",
+                        "isShow": true,
+                        "UploadDate": "30-01-2026"
+                    },
+                    {
+                        "ID": 8,
+                        "Title": "EC EVEN 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2025_2026.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "03-02-2026"
+
+                    },
+                    {
+                        "ID": 9,
+                        "Title": "MECHANICAL EVEN 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2025_2026.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "03-02-2026"
+
+                    },
+                    {
+                        "ID": 10,
+                        "Title": "ELECTRICAL EVEN 2025-2026",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2025_2026.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "03-02-2026"
+
+                    }
+                ]
+            },
+            {
+                "Year": "2024-2025",
+                "Order": 2,
+                "IsShow": true,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil ODD 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2024_2025.pdf",
+                        "isShow": true,
+                        "UploadDate": "01-03-2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Civil EVEN 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2024_2025.pdf",
+                        "isShow": true,
+                        "UploadDate": "01-03-2025"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Computer ODD 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2024_2025.pdf",
+                        "isShow": true,
+                        "UploadDate": "01-03-2025"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Computer EVEN 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2024_2025.pdf",
+                        "isShow": true,
+                        "UploadDate": "01-03-2025"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "EC ODD 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "04-03-2025"
+
+                    },
+                    {
+                        "ID": 6,
+                        "Title": "EC EVEN 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "04-03-2025"
+
+                    },
+                    {
+                        "ID": 7,
+                        "Title": "MECHANICAL ODD 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2024_2025.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "07-03-2025"
+
+                    },
+                    {
+                        "ID": 8,
+                        "Title": "MECHANICAL EVEN 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2024_2025.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "07-03-2025"
+
+                    },
+                    {
+                        "ID": 9,
+                        "Title": "ELECTRICAL ODD 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2024_2025.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "10-03-2025"
+
+                    },
+                    {
+                        "ID": 10,
+                        "Title": "ELECTRICAL EVEN 2024-2025",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2024_2025.pdf",
+                        "isShow": true,
+
+                        "UploadDate": "10-03-2025"
+
+                    }
+                ]
+            }
+        ]
+    },
 
 
 
-  {
-    "Id": 5,
-    "Title": "Enrollment Details",
-    "YearSection": [
-      {
-        "Year": "2025-26",
-        "Order": 1,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/CI.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 2,
-            "Title": "Electrical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/EE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 3,
-            "Title": "Mechanical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/ME.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer Science Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/CSE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 5,
-            "Title": "Electronics & Communication Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/EC.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          }
+    {
+        "Id": 5,
+        "Title": "Enrollment Details",
+        "YearSection": [
+            {
+                "Year": "2025-26",
+                "Order": 1,
+                "IsShow": true,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/CI.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Electrical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/EE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Mechanical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/ME.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Computer Science Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/CSE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "Electronics & Communication Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2025-26/EC.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    }
+                ]
+            },
+            {
+                "Year": "2024-25",
+                "Order": 2,
+                "IsShow": true,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/CI.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Electrical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/EE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Mechanical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/ME.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Computer Science Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/CSE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "Electronics & Communication Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/EC.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    }
+                ]
+            },
+            {
+                "Year": "2023-24",
+                "Order": 3,
+                "IsShow": true,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/CI.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Electrical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/EE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Mechanical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/ME.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Computer Science Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/CSE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "Electronics & Communication Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/EC.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    }
+                ]
+            },
+            {
+                "Year": "2022-23",
+                "Order": 4,
+                "IsShow": true,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/CI.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Electrical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/EE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Mechanical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/ME.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Computer Science Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/CSE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "Electronics & Communication Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/EC.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    }
+                ]
+            },
+            {
+                "Year": "2021-22",
+                "Order": 5,
+                "IsShow": true,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/CI.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Electrical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/EE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Mechanical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/ME.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Computer Science Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/CSE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "Electronics & Communication Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/EC.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    }
+                ]
+            },
+            {
+                "Year": "2020-21",
+                "Order": 6,
+                "IsShow": true,
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Civil Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/CI.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Electrical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/EE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Mechanical Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/ME.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Computer Science Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/CSE.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "Electronics & Communication Engineering",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/EC.pdf",
+                        "isShow": true,
+                        "UploadDate": "02-02-2026"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "Year": "2024-25",
-        "Order": 2,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/CI.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 2,
-            "Title": "Electrical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/EE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 3,
-            "Title": "Mechanical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/ME.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer Science Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/CSE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 5,
-            "Title": "Electronics & Communication Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2024-25/EC.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          }
+    },
+    {
+        "Id": 9, //committee id
+        "Title": "Training & Placement",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Placement Data",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Placement Data Graphs",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/TPO/PlacementData_Graph_View.pdf",
+                        "isShow": true,
+                        "UploadDate": "04-03-2025"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "Year": "2023-24",
-        "Order": 3,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/CI.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 2,
-            "Title": "Electrical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/EE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 3,
-            "Title": "Mechanical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/ME.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer Science Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/CSE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 5,
-            "Title": "Electronics & Communication Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2023-24/EC.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          }
+    },
+    {
+        "Id": 2, //committee id
+        "Title": "Student Startup & Innovation Policy",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Guidelines for IPR Support in SSIP_2.O",
+                        "File": "~/AcademicCalender/Guidelines_for_IPR_Support_in_SSIP_2.O.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "SSIP 2.0 GR",
+                        "File": "~/AcademicCalender/SSIP 2.0 GR.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "FinancialGuideline SSIP2.0",
+                        "File": "~/AcademicCalender/FinancialGuideline_SSIP2.0.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "TRL Explantion",
+                        "File": "~/AcademicCalender/TRLExplantion.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "04-12-2024",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 5,
+                        "Title": "SSIP 2.0 Policy",
+                        "File": "~/AcademicCalender/SSIP2.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "23-01-2026",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 6,
+                        "Title": "List of PoC (Proof of Concept)",
+                        "File": "~/AcademicCalender/List of PoC.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "03-02-2026",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 7,
+                        "Title": "Financial Guidelines Addendum - SSIP 2.0",
+                        "File": "~/AcademicCalender/Addendum for the existing financial guidelines for SSIP 2.0.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "11-02-2026",
+                        "isShow": true
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "Year": "2022-23",
-        "Order": 4,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/CI.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 2,
-            "Title": "Electrical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/EE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 3,
-            "Title": "Mechanical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/ME.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer Science Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/CSE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 5,
-            "Title": "Electronics & Communication Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2022-23/EC.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          }
-        ]
-      },
-      {
-        "Year": "2021-22",
-        "Order": 5,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/CI.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 2,
-            "Title": "Electrical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/EE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 3,
-            "Title": "Mechanical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/ME.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer Science Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/CSE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 5,
-            "Title": "Electronics & Communication Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2021-22/EC.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          }
-        ]
-      },
-      {
-        "Year": "2020-21",
-        "Order": 6,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/CI.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 2,
-            "Title": "Electrical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/EE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 3,
-            "Title": "Mechanical Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/ME.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer Science Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/CSE.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          },
-          {
-            "ID": 5,
-            "Title": "Electronics & Communication Engineering",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/ENROLLMENT/2020-21/EC.pdf",
-            "isShow": true,
-            "UploadDate": "02-02-2026"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id": 9, //committee id
-    "Title": "Training & Placement",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Placement Data",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TPO/PlacementData.pdf",
-            "isShow": true,
-            "UploadDate": "04-03-2025"
-          },
-          {
-            "ID": 2,
-            "Title": "Placement Data Graphs",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TPO/PlacementData_Graph_View.pdf",
-            "isShow": true,
-            "UploadDate": "04-03-2025"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Id": 2, //committee id
-    "Title": "Student Startup & Innovation Policy",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Guidelines for IPR Support in SSIP_2.O",
-            "File": "~/AcademicCalender/Guidelines_for_IPR_Support_in_SSIP_2.O.pdf",
-            "FileType": "PDF",
-            "UploadDate": "04-12-2024",
-            "isShow": true
-          },
-          {
-            "ID": 2,
-            "Title": "SSIP 2.0 GR",
-            "File": "~/AcademicCalender/SSIP 2.0 GR.pdf",
-            "FileType": "PDF",
-            "UploadDate": "04-12-2024",
-            "isShow": true
-          },
-          {
-            "ID": 3,
-            "Title": "FinancialGuideline SSIP2.0",
-            "File": "~/AcademicCalender/FinancialGuideline_SSIP2.0.pdf",
-            "FileType": "PDF",
-            "UploadDate": "04-12-2024",
-            "isShow": true
-          },
-          {
-            "ID": 4,
-            "Title": "TRL Explantion",
-            "File": "~/AcademicCalender/TRLExplantion.pdf",
-            "FileType": "PDF",
-            "UploadDate": "04-12-2024",
-            "isShow": true
-          },
-          {
-            "ID": 5,
-            "Title": "SSIP 2.0 Policy",
-            "File": "~/AcademicCalender/SSIP2.pdf",
-            "FileType": "PDF",
-            "UploadDate": "23-01-2026",
-            "isShow": true
-          },
-          {
-            "ID": 6,
-            "Title": "List of PoC (Proof of Concept)",
-            "File": "~/AcademicCalender/List of PoC.pdf",
-            "FileType": "PDF",
-            "UploadDate": "03-02-2026",
-            "isShow": true
-          },
-          {
-            "ID": 7,
-            "Title": "Financial Guidelines Addendum - SSIP 2.0",
-            "File": "~/AcademicCalender/Addendum for the existing financial guidelines for SSIP 2.0.pdf",
-            "FileType": "PDF",
-            "UploadDate": "11-02-2026",
-            "isShow": true
-          }
-        ]
-      }
-    ]
-  },
+    },
 
-  {
-    "Id": 11, //committee id
-    "Title": "Alumni",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "GEC Patan Alumni Association Registration Certificate",
-            "File": "~/DataFiles/Documents/Alumni/Alumni_Association_Registration.pdf",
-            "FileType": "PDF",
-            "UploadDate": "08-04-2025",
-            "isShow": true
-          }
+    {
+        "Id": 11, //committee id
+        "Title": "Alumni",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "GEC Patan Alumni Association Registration Certificate",
+                        "File": "~/DataFiles/Documents/Alumni/Alumni_Association_Registration.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "08-04-2025",
+                        "isShow": true
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "Id": 100, //committee id
-    "Title": "Downloads",
-    "YearSection": [
-      {
-        "Year": "July/2025",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
-            "File": "~/DataFiles/Documents/Downloads/કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "isShow": false,
-            "MonthYear": "July/2025"
-          },
-          {
-            "ID": 2,
-            "Title": "કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
-            "File": "~/DataFiles/Documents/Downloads/કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "MonthYear": "July/2025",
-            "isShow": false
-          },
-          {
-            "ID": 3,
-            "Title": "Canteen Tender Notice_GEC Patan_2025-26",
-            "File": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "isShow": false
-          },
-          {
-            "ID": 4,
-            "Title": "Mess Tender Notice_GEC P_2025-26",
-            "File": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "isShow": false
-          }
+    },
+    {
+        "Id": 100, //committee id
+        "Title": "Downloads",
+        "YearSection": [
+            {
+                "Year": "July/2025",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
+                        "File": "~/DataFiles/Documents/Downloads/કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false,
+                        "MonthYear": "July/2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
+                        "File": "~/DataFiles/Documents/Downloads/કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "MonthYear": "July/2025",
+                        "isShow": false
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Canteen Tender Notice_GEC Patan_2025-26",
+                        "File": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Mess Tender Notice_GEC P_2025-26",
+                        "File": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false
+                    }
+                ]
+            },
+            {
+                "Year": "July/2025",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
+                        "File": "~/DataFiles/Documents/Downloads/કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false,
+                        "MonthYear": "July/2025"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
+                        "File": "~/DataFiles/Documents/Downloads/કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "MonthYear": "July/2025",
+                        "isShow": false
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Canteen Tender Notice_GEC Patan_2025-26",
+                        "File": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Mess Tender Notice_GEC P_2025-26",
+                        "File": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "28-07-2025",
+                        "isShow": false
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "Year": "July/2025",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
-            "File": "~/DataFiles/Documents/Downloads/કુમાર અને કન્યા છાત્રાલય ભોજનાલય ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "isShow": false,
-            "MonthYear": "July/2025"
-          },
-          {
-            "ID": 2,
-            "Title": "કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025",
-            "File": "~/DataFiles/Documents/Downloads/કોલેજ કેન્ટીન ટેન્ડર (બ્લેંક)__GEC Patan_2025-26_25-07-2025.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "MonthYear": "July/2025",
-            "isShow": false
-          },
-          {
-            "ID": 3,
-            "Title": "Canteen Tender Notice_GEC Patan_2025-26",
-            "File": "~/DataFiles/Documents/Downloads/Canteen Tender Notice_GEC Patan_2025-26.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "isShow": false
-          },
-          {
-            "ID": 4,
-            "Title": "Mess Tender Notice_GEC P_2025-26",
-            "File": "~/DataFiles/Documents/Downloads/Mess Tender Notice_GEC P_2025-26.pdf",
-            "FileType": "PDF",
-            "UploadDate": "28-07-2025",
-            "isShow": false
-          }
+    },
+    {
+        "Id": 16, //committee id
+        "Title": "Cutoff Marks",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Cutoff Marks 2025-26",
+                        "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2025-26.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "17-02-2026",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Cutoff Marks 2024-25",
+                        "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2024-25.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "17-02-2026",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 3,
+                        "Title": "Cutoff Marks 2023-24",
+                        "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2023-24.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "17-02-2026",
+                        "isShow": true
+                    },
+                    {
+                        "ID": 4,
+                        "Title": "Cutoff Marks 2022-23",
+                        "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2022-23.pdf",
+                        "FileType": "PDF",
+                        "UploadDate": "17-02-2026",
+                        "isShow": true
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "Id": 16, //committee id
-    "Title": "Cutoff Marks",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Cutoff Marks 2025-26",
-            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2025-26.pdf",
-            "FileType": "PDF",
-            "UploadDate": "17-02-2026",
-            "isShow": true
-          },
-          {
-            "ID": 2,
-            "Title": "Cutoff Marks 2024-25",
-            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2024-25.pdf",
-            "FileType": "PDF",
-            "UploadDate": "17-02-2026",
-            "isShow": true
-          },
-          {
-            "ID": 3,
-            "Title": "Cutoff Marks 2023-24",
-            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2023-24.pdf",
-            "FileType": "PDF",
-            "UploadDate": "17-02-2026",
-            "isShow": true
-          },
-          {
-            "ID": 4,
-            "Title": "Cutoff Marks 2022-23",
-            "File": "~/DataFiles/Documents/Cutoff Marks/Cutoff Marks 2022-23.pdf",
-            "FileType": "PDF",
-            "UploadDate": "17-02-2026",
-            "isShow": true
-          }
-        ]
-      }
-    ]
-  }
-  
+    }
+
 
 ]
