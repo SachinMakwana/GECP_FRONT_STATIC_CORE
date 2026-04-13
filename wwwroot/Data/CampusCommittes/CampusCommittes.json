@@ -1244,6 +1244,25 @@
     ],
     "TableView": true,
 
+    "Activities": [
+
+      {
+        "ID": 1,
+        "Title": "Mental Health Matters: Counselling Program",
+        "Description": "Government Engineering College, Patan’s Psychology Cell and NSS Unit hosted a seminar “Mental Health Matters” on 18 February 2026. Dr. Brijesh Panchal, psychiatrist and deaddiction specialist, spoke on student mental health, stressing the effects of stress, distractions, and social media, while guiding students on focus, balance, and stress management for academic and personal success.",
+        "EventDate": "18/02/2026 ",
+        "EventTime": "",
+        "Files": [
+          {
+            "ID": 1,
+            "Title": "Mental Health Matters: Counselling Program",
+            "FileType": "PDF",
+            "FilePath": "/DataFiles/CampusCommittees/Psychology/mentalhealth.pdf"
+          }
+        ]
+      }
+    ],
+    "ShowDocument": true,
     "NationalTaskForce": "/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf",
     "TabTitles": {
       "Blogspot": "Mechanism"
