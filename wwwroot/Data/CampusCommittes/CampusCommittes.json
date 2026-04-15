@@ -1244,6 +1244,8 @@
     ],
     "TableView": true,
 
+    
+    "ShowDocument": true,
     "NationalTaskForce": "/DataFiles/CampusCommittees/Psychology/NationalTaskForce.pdf",
     "TabTitles": {
       "Blogspot": "Mechanism"
