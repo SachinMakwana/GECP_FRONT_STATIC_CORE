@@ -4401,7 +4401,7 @@
   },
   {
     "ID": 309,
-    "Name": "Sharad N Patel",
+    "Name": "Prof. Sharad N. Patel",
     "Designation": "Assistant Professor",
     "image": "images/Faculty/1000.jpg",
     "Dept_ID": 3,
@@ -4412,7 +4412,7 @@
     "SeniorityOrder": 9,
     "personal_details": "-",
     "PersonalDetails": {
-      "Name": "Sharad N. Patel",
+      "Name": "Prof. Sharad N. Patel",
       "DateOfBirth": "1989-08-17",
       "Designation": "Assistant Professor",
       "Department": "Electrical",
