@@ -1670,13 +1670,13 @@
         "ID": 1,
         "Title": "Student visit program for 11th science students of Ojas Vidyalaya at GEC Patan",
         "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2026/Student visit program for 11th science students of Ojas Vidyalaya at GEC Patan"
+        "FilePath": "~/DataFiles/Departments/EC/2026/Student visit program for 11th science students of Ojas Vidyalaya at GEC Patan.pdf"
       }
     ]
   },
   {
     "ID": 94,
-    "Title": "EC Legacy &amp; Leaders Meet – Alumni Connect 2026",
+    "Title": "EC Legacy & Leaders Meet – Alumni Connect 2026",
     "Description": "The Electronics and Communication Engineering Department organized the EC Legacy & Leaders Meet – Alumni Connect 2026 on 21 February 2026. Alumni shared their professional journeys, industry expectations, and guidance for students. The session included interactive discussions and concluded with a vote of thanks.",
     "Year": 2026,
     "EventDate": "21-02-2026",
@@ -1685,9 +1685,9 @@
     "Files": [
       {
         "ID": 1,
-        "Title": "EC Legacy &amp; Leaders Meet – Alumni Connect 2026",
+        "Title": "EC Legacy & Leaders Meet – Alumni Connect 2026",
         "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2026/Alumni_Connect_2026_Event_Report"
+        "FilePath": "~/DataFiles/Departments/EC/2026/Alumni_Connect_2026_Event_Report.pdf"
       }
     ]
   },
@@ -1704,7 +1704,7 @@
         "ID": 1,
         "Title": "Online Expert Session on “The National Board of Accreditation (NBA) Process”",
         "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2026/Report_NBA"
+        "FilePath": "~/DataFiles/Departments/EC/2026/Report_NBA.pdf"
       }
     ]
   },
@@ -1721,7 +1721,7 @@
         "ID": 1,
         "Title": "Industrial Visit, VSSE (ISRO)",
         "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2026/Industrial Visit Report VSSE ISRO"
+        "FilePath": "~/DataFiles/Departments/EC/2026/Industrial Visit Report VSSE ISRO.pdf"
       }
     ]
   },
@@ -1738,7 +1738,7 @@
         "ID": 1,
         "Title": "INDUSTRIAL AUTOMATION AND EMBEDDED SYSTEMS WORKSHOP",
         "FileType": "PDF",
-        "FilePath": "~/DataFiles/Departments/EC/2026/proji systems workshop"
+        "FilePath": "~/DataFiles/Departments/EC/2026/proji systems workshop.pdf"
       }
     ]
   }
