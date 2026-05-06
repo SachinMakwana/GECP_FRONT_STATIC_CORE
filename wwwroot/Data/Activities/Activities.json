@@ -1656,8 +1656,92 @@
         "FilePath": "/DataFiles/CampusCommittees/Psychology/mentalhealth.pdf"
       }
     ]
+  },
+  {
+    "ID": 93,
+    "Title": "Student visit program for 11th science students of Ojas Vidyalaya at GEC Patan",
+    "Description": "The Electronics and Communication (EC) Department of Government Engineering College (GEC), Patan organized an educational visit for the students of Ojas Vidyalaya, Patan. During the visit, students were introduced to various laboratories, instruments, and ongoing academic activities of the EC department. Faculty members explained basic concepts of electronics, communication systems, and their real-life applications. The students also observed demonstrations of different electronic equipment and experiments, which helped them understand how engineering principles are applied in practice. The visit aimed to inspire young students towards science and engineering education while providing them exposure to the academic environment of an engineering institute.",
+    "Year": 2026,
+    "EventDate": "07-03-2026",
+    "EventTime": "12:15 p.m.",
+    "DeptID": 1,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Student visit program for 11th science students of Ojas Vidyalaya at GEC Patan",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/Student visit program for 11th science students of Ojas Vidyalaya at GEC Patan.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 94,
+    "Title": "EC Legacy & Leaders Meet – Alumni Connect 2026",
+    "Description": "The Electronics and Communication Engineering Department organized the EC Legacy & Leaders Meet – Alumni Connect 2026 on 21 February 2026. Alumni shared their professional journeys, industry expectations, and guidance for students. The session included interactive discussions and concluded with a vote of thanks.",
+    "Year": 2026,
+    "EventDate": "21-02-2026",
+    "EventTime": "01:00 p.m.",
+    "DeptID": 1,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "EC Legacy & Leaders Meet – Alumni Connect 2026",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/Alumni_Connect_2026_Event_Report.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 95,
+    "Title": "Online Expert Session on “The National Board of Accreditation (NBA) Process”",
+    "Description": "The Electronics and Communication Engineering Department organized an online expert session on “The National Board of Accreditation (NBA) Process” on 17/01/2026 at 02:30 PM. The session was conducted in online mode through Google Meet, with faculty members also gathering in EC Seminar Room No. 204 for collective participation.",
+    "Year": 2026,
+    "EventDate": "17-01-2026",
+    "EventTime": "02:30 p.m.",
+    "DeptID": 1,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Online Expert Session on “The National Board of Accreditation (NBA) Process”",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/Report_NBA.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 96,
+    "Title": "Industrial Visit, VSSE (ISRO)",
+    "Description": "An industrial visit to the Vikram Sarabhai Space Exhibition, Ahmedabad, was organized on 26th February 2026 for a group of 60 students. The visit aimed to provide practical exposure to space science and technology, complementing classroom learning.<br><br>The visit began with an orientation session where students were introduced to the development of India’s space program under the guidance of Vikram Sarabhai and the remarkable achievements of the Indian Space Research Organisation (ISRO).",
+    "Year": 2026,
+    "EventDate": "26-02-2026",
+    "EventTime": "",
+    "DeptID": 1,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "Industrial Visit, VSSE (ISRO)",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/Industrial Visit Report VSSE ISRO.pdf"
+      }
+    ]
+  },
+  {
+    "ID": 97,
+    "Title": "INDUSTRIAL AUTOMATION AND EMBEDDED SYSTEMS WORKSHOP",
+    "Description": "An career-oriented workshop on Industrial Automation and Embedded Systems was organized at Government Engineering College, Patan on 24th February 2026 for the students of the Electrical and Electronics & communication Department. The session was conducted by Proji Systems with the primary objective of bridging the gap between theoretical academic knowledge and practical industrial applications. The workshop aimed to provide students with exposure to modern technologies and tools that are widely used in today’s engineering industries.",
+    "Year": 2026,
+    "EventDate": "24-02-2026",
+    "EventTime": "",
+    "DeptID": 1,
+    "Files": [
+      {
+        "ID": 1,
+        "Title": "INDUSTRIAL AUTOMATION AND EMBEDDED SYSTEMS WORKSHOP",
+        "FileType": "PDF",
+        "FilePath": "~/DataFiles/Departments/EC/2026/proji systems workshop.pdf"
+      }
+    ]
   }
-
 
   //{
   //  "ID": 90,
