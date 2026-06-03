@@ -35,12 +35,14 @@ namespace GECP_Front_End_Static.Models
 		public string History { get; set; }
 		public List<string> ImagePaths { get; set; }
 		public List<ProgramInfo> Programs { get; set; }
-	}
+    }
 
-	public class ProgramInfo
-	{
-		public string ProgramName { get; set; }
-		public int Intake { get; set; }
-		public string CourseCode { get; set; }
-	}
+    public class ProgramInfo
+    {
+        public string ProgramName { get; set; }
+        public int Intake { get; set; }
+        public string CourseCode { get; set; }
+
+        public string Accreditation { get; set; }
+    }
 }
