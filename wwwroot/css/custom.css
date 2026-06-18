@@ -979,7 +979,52 @@ table.dataTable thead .sorting_desc_disabled:before {
 .bg{
     background-color:#f3f3f3;
 }
+/* Legacy Highlighter Blinking Badge */
+.badge-new {
+    /* Classic old-school vibrant neon yellow to bright lime-green gradient background */
+    background: linear-gradient(to bottom, #ffff00 0%, /* Neon Yellow top */
+    #e1ff00 40%, /* High-visibility center */
+    #ccff00 60%, /* Bright Chartreuse gradient line */
+    #b6ff00 100% /* Electric Lime base */
+    );
+    /* Pure dark red text to maximize screen contrast with the background */
+    color: #cc0000 !important;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    border-radius: 2px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    /* 3D beveled borders typical of early Web layouts */
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #88aa00;
+    border-bottom: 2px solid #556600;
+    /* Sharp red backing shadow to give text that authentic old-website "glowing outline" look */
+    text-shadow: 1px 1px 0px #ffffbb, -0.5px -0.5px 0px #ffffff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    /* Slowed down cycle rate (2s) to create an intentional, steady legacy flash cadence */
+    animation: old-school-blink 2s steps(2, start) infinite;
+    -webkit-animation: old-school-blink 2s steps(2, start) infinite;
+}
 
+/* Stable layout switch block (leaves position tracking intact while hidden) */
+@keyframes old-school-blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes old-school-blink {
+    to {
+        visibility: hidden;
+    }
+}
 /*responsive goes here*/
 @media only screen and (max-width: 479px) {
     .client_logos3 .minheight {

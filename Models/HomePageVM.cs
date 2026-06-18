@@ -11,6 +11,7 @@ namespace GECP_Front_End_Static.Models
         public string FileLink { get; set; }
         public string ControllerName { get; set; }
         public string ActionName { get; set; }
+        public bool IsNew { get; set; }
     }
    
     public class ActivityMarqueeModelVM

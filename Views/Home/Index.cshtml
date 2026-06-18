@@ -26,7 +26,6 @@
         <div class="New_container">
 
             <div class="updates_section">
-           
 
                 <ul>
                     <li class="tab-heading">UPDATES</li>
@@ -46,15 +45,36 @@
                                     {
                                         if (item.IsFile)
                                         {
-                                            <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                @if (item.IsNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                <a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a>
+                                            </li>
                                         }
                                         else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                                         {
-                                            <li><a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a></li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                @if (item.IsNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                <a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a>
+                                            </li>
                                         }
                                         else
                                         {
-                                            <li><a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a></li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                @if (item.IsNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                <a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a>
+                                            </li>
                                         }
                                     }
                                 }

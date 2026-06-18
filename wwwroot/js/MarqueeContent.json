@@ -32,14 +32,24 @@
   //  "ControllerName": "",
   //  "ActionName": ""
   //},
-
+  {
+    "ID": 3,
+    "Title": "Admission Process 2026-27",
+    "IsFile": 1,
+    "FileLink": "https://gecpatan.ac.in/CampusCommittee/CommitteePage/16",
+    "ControllerName": "",
+    "ActionName": "",
+    "IsNew": true
+  },
   {
     "ID": 4,
     "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
     "IsFile": 1,
     "FileLink": "~/ImpDocs/ActivityPoster.pdf",
     "ControllerName": "",
-    "ActionName": ""
+    "ActionName": "",
+    "IsNew": false
+
   },
   {
     "ID": 5,
@@ -47,8 +57,10 @@
     "IsFile": 1,
     "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
     "ControllerName": "",
-    "ActionName": ""
+    "ActionName": "",
+    "IsNew": false
   }
+  
   //{
   //    "ID": 3,
   //    "Title": "હોસ્ટેલ મેસ અને કેન્ટીન ટેન્ડર ૨૦૨૪-૨૫",
