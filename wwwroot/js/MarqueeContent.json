@@ -39,7 +39,9 @@
     "IsFile": 1,
     "FileLink": "~/ImpDocs/ActivityPoster.pdf",
     "ControllerName": "",
-    "ActionName": ""
+    "ActionName": "",
+    "isshow": false,
+    "isNew": false
   },
   {
     "ID": 5,
@@ -47,7 +49,19 @@
     "IsFile": 1,
     "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
     "ControllerName": "",
-    "ActionName": ""
+    "ActionName": "",
+    "isshow": false,
+    "isNew": false
+  },
+  {
+    "ID": 6,
+    "Title": "વર્ષ 2026-27 માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
+    "IsFile": true,
+    "FileLink": "~/ImpDocs/IMPORTANT_INSTRUCTIONS_2026_27.pdf",
+    "ControllerName": "",
+    "ActionName": "",
+    "isshow": true,
+    "isNew": true
   }
   //{
   //    "ID": 3,

@@ -7,9 +7,40 @@
 }
 
 @Html.Partial("_slider",Model.masterSliderVM)
-
-<div class="clearfix margin_top5"></div>
 <div class="featured_section13">
+    @if (Model.marqueeModelVM != null && Model.marqueeModelVM.Any(x => x.isshow))
+    {
+        <div class="marquee-container">
+            @foreach (var item in Model.marqueeModelVM.Where(x => x.isshow))
+            {
+                if (item.IsFile)
+                {
+                    <a class="marquee-content" href="@Url.Content(item.FileLink)" target="_blank">
+                        📄 @item.Title
+                    </a>
+                }
+                else if (!string.IsNullOrWhiteSpace(item.FileLink))
+                {
+                    <a class="marquee-content" href="@item.FileLink" target="_blank">
+                        🔗 @item.Title
+                    </a>
+                }
+                else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                {
+                    <a class="marquee-content" href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">
+                        📄 @item.Title
+                    </a>
+                }
+                else
+                {
+                    <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName)">
+                        📄 @item.Title
+                    </a>
+                }
+            }
+        </div>
+    }
+    <div class="clearfix margin_top5"></div>
     <div class="full-container">
         
             <h1 class=" animate" data-anim-type="fadeIn" data-anim-delay="100">
@@ -38,18 +69,42 @@
                                 else
                                 {
                                     foreach (var item in Model.marqueeModelVM)
-                                    {
+                                    {   
                                         if (item.IsFile)
                                         {
-                                            <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                <a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a>
+                                                @if (item.isNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                
+                                            </li>
                                         }
                                         else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                                         {
-                                            <li><a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a></li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                <a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a>
+                                                @if (item.isNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                
+                                            </li>
                                         }
                                         else
                                         {
-                                            <li><a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a></li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                <a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a>
+                                                @if (item.isNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                
+                                            </li>
                                         }
                                     }
                                 }
@@ -445,6 +500,16 @@
             });
         })(jQuery);
     </script>
+    <script>
+        function openInNewTab(url) {
+            if (url) {
+                // The '_blank' parameter tells the browser to open a new tab
+                window.open(url, '_blank');
+            } else {
+                console.error("No URL provided for the marquee link.");
+            }
+        }
+    </script>
 }
 
 @section styles {
@@ -571,6 +636,48 @@
             padding-right: 7px;
             height : 200px;
         }
+        .marquee-container {
+            position: relative;
+            width: 100%;
+            height: 45px; /* Ensures the box stays open */
+            overflow: hidden;
+            background-color: red;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* The text uses absolute positioning to glide over the container */
+        .marquee-content {
+            position: absolute;
+            top: 50%;
+            white-space: nowrap;
+            cursor: pointer;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size : 20px;
+            /* The Animation */
+            animation: scroll-left 15s linear infinite;
+        }
+
+        /* Pause animation and add underline on hover */
+        .marquee-container:hover .marquee-content {
+            color : white;
+            animation-play-state: paused;
+            text-decoration: underline;
+        }
+        @@keyframes scroll-left {
+                0% {
+                    left: 100%;
+                    transform: translate(0, -50%);
+                }
+
+                100% {
+                    left: 0;
+                    transform: translate(-100%, -50%);
+                }
+            }
         
     </style>
 
