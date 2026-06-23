@@ -18,7 +18,6 @@ namespace GECP_Front_End_Static.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         public List<MarqueeModelVM> MarqueeData = new List<MarqueeModelVM>();
         public List<CommitteeActivity> ActivityMarqueeData = new List<CommitteeActivity>();
-        public List<TopMarqueeModelVM> TopMarqueeData = new List<TopMarqueeModelVM>();
         public List<TestimonialModelVM> TestimonialData = new List<TestimonialModelVM>();
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
@@ -30,7 +29,6 @@ namespace GECP_Front_End_Static.Controllers
             string webRootPath = _hostingEnvironment.WebRootPath;
             string marqueejsonpath = webRootPath + @"\js\MarqueeContent.json";
             string actmarqueejsonpath = webRootPath + @"\Data\Activities\Activities.json";
-            string topmarqueejsonpath = webRootPath + @"\Data\Home\TopMarquee.json";
             string testimonialjsonpath = webRootPath + @"\js\TestimonialsData.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";
             string MSjsonpatah = webRootPath + @"\Data\MasterSlider.json";
@@ -40,10 +38,6 @@ namespace GECP_Front_End_Static.Controllers
             var webClient = new WebClient();
             string json = webClient.DownloadString(marqueejsonpath);
             MarqueeData = JsonConvert.DeserializeObject<List<MarqueeModelVM>>(json);
-
-            webClient = new WebClient();
-            json = webClient.DownloadString(topmarqueejsonpath);
-            TopMarqueeData = JsonConvert.DeserializeObject<List<TopMarqueeModelVM>>(json);
 
             webClient = new WebClient();
             json = webClient.DownloadString(actmarqueejsonpath);
@@ -75,7 +69,6 @@ namespace GECP_Front_End_Static.Controllers
 
             HomePageModelVM homePageModelVM = new HomePageModelVM();
             homePageModelVM.marqueeModelVM = MarqueeData;
-            homePageModelVM.topmarqueeModelVM = TopMarqueeData;
             homePageModelVM.activitymarqueeModelVM = ActivityMarqueeData;
             homePageModelVM.testimonialModelVM = TestimonialData;
             homePageModelVM.newsModelVM = NEWSModelData;

@@ -39,7 +39,8 @@
     "IsFile": 1,
     "FileLink": "~/ImpDocs/ActivityPoster.pdf",
     "ControllerName": "",
-    "ActionName": ""
+    "ActionName": "",
+    "isshow" : false
   },
   {
     "ID": 5,
@@ -47,7 +48,17 @@
     "IsFile": 1,
     "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
     "ControllerName": "",
-    "ActionName": ""
+    "ActionName": "",
+    "isshow": false
+  },
+  {
+    "ID": 6,
+    "Title": "વર્ષ 2026-27 માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
+    "IsFile": false,
+    "FileLink": "https://gecpatan.ac.in/CampusCommittee/CommitteePage/16",
+    "ControllerName": "",
+    "ActionName": "",
+    "isshow": true
   }
   //{
   //    "ID": 3,

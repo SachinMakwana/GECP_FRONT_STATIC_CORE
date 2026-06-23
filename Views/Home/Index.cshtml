@@ -8,10 +8,10 @@
 
 @Html.Partial("_slider",Model.masterSliderVM)
 <div class="featured_section13">
-    @if (Model.topmarqueeModelVM != null && Model.topmarqueeModelVM.Any(x => x.isshow))
+    @if (Model.marqueeModelVM != null && Model.marqueeModelVM.Any(x => x.isshow))
     {
         <div class="marquee-container">
-            @foreach (var item in Model.topmarqueeModelVM.Where(x => x.isshow))
+            @foreach (var item in Model.marqueeModelVM.Where(x => x.isshow))
             {
                 if (item.IsFile)
                 {
