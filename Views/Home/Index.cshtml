@@ -8,12 +8,40 @@
 
 @Html.Partial("_slider",Model.masterSliderVM)
 <div class="featured_section13">
-    <div class="marquee-container">
-        <span class="marquee-content" onclick="openInNewTab('https://gecpatan.ac.in/CampusCommittee/CommitteePage/16')">
-            📄 Admission Process for the Academic Year 2026-27 | Government Engineering College Patan    
+    @if (Model.topmarqueeModelVM != null && Model.topmarqueeModelVM.Any(x => x.isshow))
+    {
+        <div class="marquee-container">
+            @foreach (var item in Model.topmarqueeModelVM.Where(x => x.isshow))
+            {
+                if (item.IsFile)
+                {
+                    <a class="marquee-content" href="@Url.Content(item.FileLink)" target="_blank">
+                        📄 @item.Title
+                    </a>
+                }
+                else if (!string.IsNullOrWhiteSpace(item.FileLink))
+                {
+                    <a class="marquee-content" href="@item.FileLink" target="_blank">
+                        🔗 @item.Title
+                    </a>
+                }
+                else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                {
+                    <a class="marquee-content" href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">
+                        📄 @item.Title
+                    </a>
+                }
+                else
+                {
+                    <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName)">
+                        📄 @item.Title
+                    </a>
+                }
 
-            </span>
-    </div>
+                <span class="marquee-separator" style="margin: 0 15px;"> | </span>
+            }
+        </div>
+    }
     <div class="clearfix margin_top5"></div>
     <div class="full-container">
         

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace GECP_Front_End_Static.Models
@@ -12,7 +13,17 @@ namespace GECP_Front_End_Static.Models
         public string ControllerName { get; set; }
         public string ActionName { get; set; }
     }
-   
+
+    public class TopMarqueeModelVM
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public bool IsFile { get; set; }
+        public string FileLink { get; set; }
+        public string ControllerName { get; set; }
+        public string ActionName { get; set; }
+        public bool isshow { get; set; }
+    }
     public class ActivityMarqueeModelVM
     {
         public int ID { get; set; }
@@ -57,6 +68,7 @@ namespace GECP_Front_End_Static.Models
 
         public IList<MasterSliderVM> masterSliderVM { get; set; }
 
+        public IList<TopMarqueeModelVM> topmarqueeModelVM { get; set; }
         public HomePageModelVM()
         {
             marqueeModelVM = new List<MarqueeModelVM>();
@@ -64,6 +76,7 @@ namespace GECP_Front_End_Static.Models
             testimonialModelVM = new List<TestimonialModelVM>();
             newsModelVM = new List<NEWSModel>();
             masterSliderVM = new List<MasterSliderVM>();
+            topmarqueeModelVM = new List<TopMarqueeModelVM>();
         }
     }
 
