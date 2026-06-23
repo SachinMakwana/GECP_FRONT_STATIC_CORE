@@ -14,6 +14,7 @@ namespace GECP_Front_End_Static.Models
         public string ActionName { get; set; }
 
         public bool isshow { get; set; }
+        public bool isNew { get; set; }
     }
 
     public class TopMarqueeModelVM

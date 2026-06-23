@@ -979,10 +979,36 @@ table.dataTable thead .sorting_desc_disabled:before {
 .bg{
     background-color:#f3f3f3;
 }
-
-/*responsive goes here*/
-@media only screen and (max-width: 479px) {
-    .client_logos3 .minheight {
+/* Legacy Highlighter Blinking Badge */
+.badge-new {
+    /* Classic old-school vibrant neon yellow to bright lime-green gradient background */
+    background: linear-gradient(to bottom, #ffff00 0%, /* Neon Yellow top */
+    #e1ff00 40%, /* High-visibility center */
+    #ccff00 60%, /* Bright Chartreuse gradient line */
+    #b6ff00 100% /* Electric Lime base */
+    );
+    /* Pure dark red text to maximize screen contrast with the background */
+    color: #cc0000 !important;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    border-radius: 2px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    /* 3D beveled borders typical of early Web layouts */
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #88aa00;
+    border-bottom: 2px solid #556600;
+    /* Sharp red backing shadow to give text that authentic old-website "glowing outline" look */
+    /*responsive goes here*/
+    @media only screen and (max-width: 479px) {
+        .client_logos3 .minheight {
             width: 60%;
         }
     }
@@ -1016,82 +1042,87 @@ table.dataTable thead .sorting_desc_disabled:before {
             /*left: 3%;*/
             font-variant: small-caps;
         }
+
         .New_container {
             flex-direction: column;
             width: 100%;
             align-items: center;
         }
+
         .body {
             overflow-x: hidden;
         }
     }
 
-   
-@media (max-width: 1024px) {
-    .logo_section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
 
-    .gecp_logo {
-        flex-direction: column;
-        top:73px;
-    }
-
-    body, input, textarea {
-        /* font: 14px 'Open Sans', sans-serif; */
-        font-weight: normal;
-        font-style: normal;
-        line-height: 23px;
-        color: #727272;
-    }
-
-    .gecp_name {
-        font-size: 1.2rem;
-    }
-
-    .gecp_logo img,
-    .gecp_gov_emblame img {
-        max-width: 110px; /* Smaller images for mobile */
-    }
-
-    .gecp_logo h1 {
-        display: inline;
-        margin: auto;
-        font-size: 24px;
-        top: -19px;
-        position: relative;
-        /*left: 3%;*/
-        font-variant: small-caps;
-    }
-
-    .New_container {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-
-    .body {
-        overflow-x: hidden;
-    }
-    .tabcontent{
-        width:100%;
-    }
-    .top_section2 .right{
-        width:100%;
-    }
-
-    .featured_section13 .updates_section {
-        width: 96%;
+    @media (max-width: 1024px) {
+        .logo_section {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
-    .responsive-logo{
-        max-width: 100%;
-    }
-}
 
-@media (max-width: 1366px) {
-    .gecp_logo h1 {
-        font-size: 50px;
+        .gecp_logo {
+            flex-direction: column;
+            top: 73px;
+        }
+
+        body, input, textarea {
+            /* font: 14px 'Open Sans', sans-serif; */
+            font-weight: normal;
+            font-style: normal;
+            line-height: 23px;
+            color: #727272;
+        }
+
+        .gecp_name {
+            font-size: 1.2rem;
+        }
+
+        .gecp_logo img,
+        .gecp_gov_emblame img {
+            max-width: 110px; /* Smaller images for mobile */
+        }
+
+        .gecp_logo h1 {
+            display: inline;
+            margin: auto;
+            font-size: 24px;
+            top: -19px;
+            position: relative;
+            /*left: 3%;*/
+            font-variant: small-caps;
+        }
+
+        .New_container {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+
+        .body {
+            overflow-x: hidden;
+        }
+
+        .tabcontent {
+            width: 100%;
+        }
+
+        .top_section2 .right {
+            width: 100%;
+        }
+
+        .featured_section13 .updates_section {
+            width: 96%;
+        }
+
+        .responsive-logo {
+            max-width: 100%;
+        }
     }
-}
+
+    @media (max-width: 1366px) {
+        .gecp_logo h1 {
+            font-size: 50px;
+        }
+    }

@@ -37,8 +37,6 @@
                         📄 @item.Title
                     </a>
                 }
-
-                <span class="marquee-separator" style="margin: 0 15px;"> | </span>
             }
         </div>
     }
@@ -71,18 +69,42 @@
                                 else
                                 {
                                     foreach (var item in Model.marqueeModelVM)
-                                    {
+                                    {   
                                         if (item.IsFile)
                                         {
-                                            <li><a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a> </li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                <a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a>
+                                                @if (item.isNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                
+                                            </li>
                                         }
                                         else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                                         {
-                                            <li><a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a></li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                <a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a>
+                                                @if (item.isNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                
+                                            </li>
                                         }
                                         else
                                         {
-                                            <li><a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a></li>
+                                            <li>
+                                                <!-- Only shows badge if item.IsNew is true in JSON -->
+                                                <a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a>
+                                                @if (item.isNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                                
+                                            </li>
                                         }
                                     }
                                 }
@@ -641,6 +663,7 @@
 
         /* Pause animation and add underline on hover */
         .marquee-container:hover .marquee-content {
+            color : white;
             animation-play-state: paused;
             text-decoration: underline;
         }
