@@ -1503,6 +1503,32 @@
       "About": "About Admission Process",
       "Documents": "Cutoff Marks"
     }
+  },
+  {
+    "ID": 17,
+    "Title": "Recruitment",
+    "TitleImage": "",
+    "TitleImageCSSClass": "",
+    "About": "<b>Why Join Engineering Colleges?</b><br><i>Become part of a vibrant academic community committed to excellence</i><br><br><b>Excellence in Education</b><br>Join a prestigious institution known for academic excellence and innovation<br><br><b>Collaborative Environment</b><br>Work with talented faculty and motivated students in a supportive atmosphere<br><br><b>Flexible Work Engagement</b><br>Choose lecture sessions, lab work, or both based on your expertise and availability<br><br><b>Diverse Academic Subjects</b><br>Teach in various engineering disciplines and share your industry knowledge<br><br>",
+    "Measures": "",
+    "Measure_Image": "",
+    "Vision": [
+
+    ],
+    "Mission": [
+    ],
+    "SubObjectives": [
+
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "",
+    "Members": [
+    ],
+    "ShowDocument": true
   }
 ]
 // use below template to add a committee
