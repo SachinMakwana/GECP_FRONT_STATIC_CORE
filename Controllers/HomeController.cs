@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using Org.BouncyCastle.Crypto;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -16,7 +17,8 @@ namespace GECP_Front_End_Static.Controllers
     public class HomeController : Controller
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
-        public List<MarqueeModelVM> MarqueeData = new List<MarqueeModelVM>();
+        private List<MarqueeModelVM> _marqueeData = new List<MarqueeModelVM>();
+        private List<MarqueeModelVM> _updateData = new List<MarqueeModelVM>();
         public List<CommitteeActivity> ActivityMarqueeData = new List<CommitteeActivity>();
         public List<TestimonialModelVM> TestimonialData = new List<TestimonialModelVM>();
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
@@ -37,7 +39,9 @@ namespace GECP_Front_End_Static.Controllers
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(marqueejsonpath);
-            MarqueeData = JsonConvert.DeserializeObject<List<MarqueeModelVM>>(json);
+            var wrappers = JsonConvert.DeserializeObject<List<JsonDataWrapper>>(json);
+            _marqueeData = wrappers.FirstOrDefault(x => x.marqueeModelVM != null)?.marqueeModelVM ?? new List<MarqueeModelVM>();
+            _updateData = wrappers.FirstOrDefault(x => x.updateModelVM != null)?.updateModelVM ?? new List<MarqueeModelVM>();
 
             webClient = new WebClient();
             json = webClient.DownloadString(actmarqueejsonpath);
@@ -68,7 +72,8 @@ namespace GECP_Front_End_Static.Controllers
         {
 
             HomePageModelVM homePageModelVM = new HomePageModelVM();
-            homePageModelVM.marqueeModelVM = MarqueeData;
+            homePageModelVM.marqueeModelVM = _marqueeData;
+            homePageModelVM.updateModelVM = _updateData;
             homePageModelVM.activitymarqueeModelVM = ActivityMarqueeData;
             homePageModelVM.testimonialModelVM = TestimonialData;
             homePageModelVM.newsModelVM = NEWSModelData;

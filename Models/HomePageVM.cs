@@ -59,10 +59,17 @@ namespace GECP_Front_End_Static.Models
         public string Anchor2_Link { get; set; }
         public bool isShow {  get; set; }
     }
+    public class JsonDataWrapper
+    {
+        public List<MarqueeModelVM> marqueeModelVM { get; set; }
+        public List<MarqueeModelVM> updateModelVM { get; set; }
+    }
 
     public class HomePageModelVM
     {
         public IList<MarqueeModelVM> marqueeModelVM { get; set; }
+
+        public IList<MarqueeModelVM> updateModelVM { get; set; }
 
         public IList<CommitteeActivity> activitymarqueeModelVM { get; set; }
         public IList<TestimonialModelVM> testimonialModelVM { get; set; }
@@ -75,6 +82,7 @@ namespace GECP_Front_End_Static.Models
         public HomePageModelVM()
         {
             marqueeModelVM = new List<MarqueeModelVM>();
+            updateModelVM = new List<MarqueeModelVM>();
             activitymarqueeModelVM = new List<CommitteeActivity>();
             testimonialModelVM = new List<TestimonialModelVM>();
             newsModelVM = new List<NEWSModel>();
