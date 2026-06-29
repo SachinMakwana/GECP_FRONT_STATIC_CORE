@@ -37,6 +37,12 @@
                             📄 @item.Title
                         </a>
                     }
+                    else if (!string.IsNullOrWhiteSpace(item.dynamicID))
+                    {
+                        <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName, new { @id = item.dynamicID })">
+                            📄 @item.Title
+                        </a>
+                    }
                     else
                     {
                         <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName)">

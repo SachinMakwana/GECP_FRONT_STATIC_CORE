@@ -1,18 +1,29 @@
 ﻿[
-  {
-    "marqueeModelVM": [
-      {
-        "ID": 1,
-        "Title": "વર્ષ 2026-27 માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
-        "IsFile": true,
-        "FileLink": "~/ImpDocs/IMPORTANT_INSTRUCTIONS_2026_27.pdf",
-        "ControllerName": "",
-        "ActionName": "",
-        "isshow": true,
-        "isNew": true
-      }
-    ]
-  },
+    {
+      "marqueeModelVM": [
+            {
+                "ID": 1,
+                "Title": "વર્ષ 2026-27 માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
+                "IsFile": true,
+                "FileLink": "~/ImpDocs/IMPORTANT_INSTRUCTIONS_2026_27.pdf",
+                "ControllerName": "",
+                "ActionName": "",
+                "isshow": true,
+                "isNew": true
+            },
+            {
+                "ID": 1,
+                "Title": "GEC PATAN, VISITING FACULTY RECRUITMENT 2026-27",
+                "IsFile": false,
+                "FileLink": "",
+                "ControllerName": "CampusCommittee",
+                "ActionName": "CommitteePage",
+                "dynamicID": 17,
+                "isshow": true,
+                "isNew": true
+            }
+        ]
+    },
   {
     "updateModelVM": [
       {
