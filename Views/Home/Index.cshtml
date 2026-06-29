@@ -113,6 +113,17 @@
                                                 
                                             </li>
                                         }
+                                        else if (!string.IsNullOrWhiteSpace(item.dynamicID))
+                                        {   <li>
+                                            <a href="@Url.Action(item.ActionName, item.ControllerName, new { @id = item.dynamicID })">
+                                                @item.Title
+                                            </a>
+                                                @if (item.isNew)
+                                                {
+                                                    <span class="badge-new">New</span>
+                                                }
+                                            </li>
+                                        }
                                         else
                                         {
                                             <li>
