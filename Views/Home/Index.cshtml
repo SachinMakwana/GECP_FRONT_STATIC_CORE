@@ -10,34 +10,47 @@
 <div class="featured_section13">
     @if (Model.marqueeModelVM != null && Model.marqueeModelVM.Any(x => x.isshow))
     {
+        var activeItems = Model.marqueeModelVM.Where(x => x.isshow).ToList();
+
         <div class="marquee-container">
-            @foreach (var item in Model.marqueeModelVM.Where(x => x.isshow))
-            {
-                if (item.IsFile)
+            <div class="marquee-track">
+
+                @for (int i = 0; i < activeItems.Count; i++)
                 {
-                    <a class="marquee-content" href="@Url.Content(item.FileLink)" target="_blank">
-                        📄 @item.Title
-                    </a>
+                    var item = activeItems[i];
+
+                    if (item.IsFile)
+                    {
+                        <a class="marquee-content" href="@Url.Content(item.FileLink)" target="_blank">
+                            📄 @item.Title
+                        </a>
+                    }
+                    else if (!string.IsNullOrWhiteSpace(item.FileLink))
+                    {
+                        <a class="marquee-content" href="@item.FileLink" target="_blank">
+                            🔗 @item.Title
+                        </a>
+                    }
+                    else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
+                    {
+                        <a class="marquee-content" href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">
+                            📄 @item.Title
+                        </a>
+                    }
+                    else
+                    {
+                        <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName)">
+                            📄 @item.Title
+                        </a>
+                    }
+
+                    if (i < activeItems.Count - 1)
+                    {
+                        <span class="marquee-separator"> | </span>
+                    }
                 }
-                else if (!string.IsNullOrWhiteSpace(item.FileLink))
-                {
-                    <a class="marquee-content" href="@item.FileLink" target="_blank">
-                        🔗 @item.Title
-                    </a>
-                }
-                else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
-                {
-                    <a class="marquee-content" href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">
-                        📄 @item.Title
-                    </a>
-                }
-                else
-                {
-                    <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName)">
-                        📄 @item.Title
-                    </a>
-                }
-            }
+
+            </div>
         </div>
     }
     <div class="clearfix margin_top5"></div>
@@ -62,13 +75,13 @@
                     <div>
                         <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:225px;">
                             <ul class="newssection">
-                                @if (Model.marqueeModelVM == null || !Model.marqueeModelVM.Any())
+                                @if (Model.updateModelVM == null || !Model.updateModelVM.Any())
                                 {
                                     <li><strong>NO UPDATES FOUND</strong></li>
                                 }
                                 else
                                 {
-                                    foreach (var item in Model.marqueeModelVM)
+                                    foreach (var item in Model.updateModelVM)
                                     {   
                                         if (item.IsFile)
                                         {
@@ -630,54 +643,73 @@
         .principalmessage{
             padding-top: 4%;
         }
+
         marquee {
             min-height: 225px;
             padding-left: 7px;
             padding-right: 7px;
-            height : 200px;
+            height: 200px;
         }
+        /* 1. The Outer Container */
         .marquee-container {
             position: relative;
             width: 100%;
-            height: 45px; /* Ensures the box stays open */
+            height: 45px;
             overflow: hidden;
             background-color: red;
             border: 1px solid #dee2e6;
             border-radius: 4px;
             box-sizing: border-box;
+            display: flex; /* This perfectly vertically centers the moving track inside the 45px box */
+            align-items: center;
         }
 
-        /* The text uses absolute positioning to glide over the container */
+        /* 2. The Inner Track (The ONLY thing that moves) */
+        .marquee-track {
+            display: flex; /* Forces items into a strict row */
+            align-items: center;
+            width: max-content; /* Tells the track to stretch as long as all your links combined */
+            /* The Animation is ONLY applied here */
+            animation: scroll-left 20s linear infinite;
+        }
+
+        /* 3. The Individual Links */
         .marquee-content {
-            position: absolute;
-            top: 50%;
-            white-space: nowrap;
             cursor: pointer;
             color: white;
             font-family: Arial, sans-serif;
             font-weight: bold;
-            font-size : 20px;
-            /* The Animation */
-            animation: scroll-left 15s linear infinite;
+            font-size: 20px;
+            text-decoration: none;
+            white-space: nowrap;
+            margin: 0 10px; /* Spacing between links */
         }
 
-        /* Pause animation and add underline on hover */
-        .marquee-container:hover .marquee-content {
-            color : white;
+        /* 4. The Separator Pipe */
+        .marquee-separator {
+            color: white; /* Ensures the pipe is visible against the red background */
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0 5px;
+        }
+
+        /* 5. Hover Effects */
+        /* Pause the conveyor belt when hovering anywhere over the red container */
+        .marquee-container:hover .marquee-track {
             animation-play-state: paused;
-            text-decoration: underline;
         }
-        @@keyframes scroll-left {
-                0% {
-                    left: 100%;
-                    transform: translate(0, -50%);
-                }
 
-                100% {
-                    left: 0;
-                    transform: translate(-100%, -50%);
-                }
-            }
+        /* Underline only the specific link you are hovering over */
+        .marquee-content:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+        /* 6. The Animation Keyframes */
+        @@keyframes scroll-left {
+            0% {transform: translateX(100vw); /* Start off-screen right */}
+            100% {transform: translateX(-100%); /* End off-screen left */}
+        }
         
     </style>
 
