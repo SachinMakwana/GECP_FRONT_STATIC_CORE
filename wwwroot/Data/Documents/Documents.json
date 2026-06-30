@@ -1055,7 +1055,7 @@
                 "File": "~/DataFiles/Recruitment/Eligibility Criteria.pdf",
                 "FileType": "PDF",
                 "UploadDate": "29-06-2026",
-                "isShow": false
+                "isShow": true
             },
             {
                 "ID": 3, //Announcement for Visisting Faculties - GEC Patan
