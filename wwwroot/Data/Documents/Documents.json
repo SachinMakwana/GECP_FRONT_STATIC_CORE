@@ -1041,22 +1041,38 @@
       {
         "Year": "",
         "Documents": [
-          {
-            "ID": 1,
-            "Title": "Education Department GR on Remuneration Rates of Visiting Faculty in Regular Courses",
-            "File": "~/DataFiles/Recruitment/Education Department GR on Remuneration Rates of Visiting Faculty in Regular Courses.pdf",
-            "FileType": "PDF",
-            "UploadDate": "29-06-2026",
-            "isShow": true
-          },
-          {
-            "ID": 2,
-            "Title": "Eligibility Criteria",
-            "File": "~/DataFiles/Recruitment/Eligibility Criteria.pdf",
-            "FileType": "PDF",
-            "UploadDate": "29-06-2026",
-            "isShow": true
-          }
+            {
+                "ID": 1,
+                "Title": "Education Department GR on Remuneration Rates of Visiting Faculty in Regular Courses",
+                "File": "~/DataFiles/Recruitment/Education Department GR on Remuneration Rates of Visiting Faculty in Regular Courses.pdf",
+                "FileType": "PDF",
+                "UploadDate": "29-06-2026",
+                "isShow": true
+            },
+            {
+                "ID": 2,
+                "Title": "Eligibility Criteria",
+                "File": "~/DataFiles/Recruitment/Eligibility Criteria.pdf",
+                "FileType": "PDF",
+                "UploadDate": "29-06-2026",
+                "isShow": false
+            },
+            {
+                "ID": 3, //Announcement for Visisting Faculties - GEC Patan
+                "Title": "Announcement for Visisting Faculties - GEC Patan",
+                "File": "~/DataFiles/Recruitment/Announcement for Visisting Faculties - GEC Patan.pdf",
+                "FileType": "PDF",
+                "UploadDate": "30-06-2026",
+                "isShow": true
+            },
+            {
+                "ID": 4, //Announcement for Visisting Faculties - GEC Patan
+                "Title": "Advertisement",
+                "File": "~/DataFiles/Recruitment/Advertisement.pdf",
+                "FileType": "PDF",
+                "UploadDate": "30-06-2026",
+                "isShow": true
+            }
         ]
       }
     ]
