@@ -1504,36 +1504,37 @@
       "Documents": "Cutoff Marks"
     }
   },
-    {
-        "ID": 17,
-        "Title": "Recruitment",
-        "TitleImage": "",
-        "TitleImageCSSClass": "",
-        "About": "<div class='container-fluid' style='text-align: center; font-family: \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; color: #333;'>\n  <h2 style='font-size: 2.2rem; font-weight: 700; color: #1a202c; margin-bottom: 8px;'>Why to Join GEC Patan?</h2>\n  <p style='font-size: 1.1rem; color: #718096; max-width: 600px; margin: 0 auto 40px auto; line-height: 1.5;'>&nbsp;</p>\n</div>\n\n<div class='container-fluid' style='font-family: \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;'>\n  <div class='row' style='display: flex; flex-wrap: wrap;'>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Quality Education</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Build your future at an institution celebrated for its quality education, innovative culture, and dedication to student excellence.</p>\n      </div>\n    </div>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Inclusive Workplace</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Work with passionate educators and professionals in a supportive culture that nurtures growth, creativity, and lasting impact.</p>\n      </div>\n    </div>\n  </div>\n  <div class='row' style='display: flex; flex-wrap: wrap;'>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Faculty-Friendly Workplace</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Work in an academic environment that values autonomy, innovation, and a healthy balance between professional and personal commitments.</p>\n      </div>\n    </div>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Academic Diversity</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Shape future innovators by integrating practical industry insights with a strong foundation in engineering education.</p>\n      </div>\n    </div>\n  </div>\n</div>",
-        "Measures": "",
-        "Measure_Image": "",
-        "Vision": [
+  {
+    "ID": 17,
+    "Title": "Recruitment",
+    "TitleImage": "",
+    "TitleImageCSSClass": "",
+    "About": "<div class='container-fluid' style='text-align: center; font-family: \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; color: #333;'>\n  <h2 style='font-size: 2.2rem; font-weight: 700; color: #1a202c; margin-bottom: 8px;'>Why to Join GEC Patan?</h2>\n  <p style='font-size: 1.1rem; color: #718096; max-width: 600px; margin: 0 auto 40px auto; line-height: 1.5;'>&nbsp;</p>\n</div>\n\n<div class='container-fluid' style='font-family: \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;'>\n  <div class='row' style='display: flex; flex-wrap: wrap;'>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Quality Education</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Build your future at an institution celebrated for its quality education, innovative culture, and dedication to student excellence.</p>\n      </div>\n    </div>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Inclusive Workplace</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Work with passionate educators and professionals in a supportive culture that nurtures growth, creativity, and lasting impact.</p>\n      </div>\n    </div>\n  </div>\n  <div class='row' style='display: flex; flex-wrap: wrap;'>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Faculty-Friendly Workplace</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Work in an academic environment that values autonomy, innovation, and a healthy balance between professional and personal commitments.</p>\n      </div>\n    </div>\n    <div class='col-md-6' style='margin-bottom: 24px; display: flex;'>\n      <div style='background: #ffffff; border: 1px solid #e2e8f0; padding: 30px 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); text-align: center; width: 100%; display: flex; flex-direction: column; justify-content: center; min-height: 180px;'>\n        <h4 style='font-size: 1.25rem; font-weight: 600; color: #2d3748; margin-bottom: 12px;'>Academic Diversity</h4>\n        <p style='font-size: 0.95rem; color: #4a5568; line-height: 1.6; margin: 0;'>Shape future innovators by integrating practical industry insights with a strong foundation in engineering education.</p>\n      </div>\n    </div>\n  </div>\n</div>",
+    "Measures": "",
+    "Measure_Image": "",
+    "Vision": [
 
-        ],
-        "Mission": [
-        ],
-        "SubObjectives": [
+    ],
+    "Mission": [
+    ],
+    "SubObjectives": [
 
-        ],
-        "SubObjImg": "",
-        "BulletPoints": [],
-        "BulletPointsImg": "",
-        "PageFlyer": "",
-        "Tagline": "",
-        "BlogLink": "",
-        "Members": [
-        ],
-        "ShowDocument": true,
-        "TabTitles": {
-            "BulletPoints": "About",
-            "Documents": "Resources"
-        }
+    ],
+    "SubObjImg": "",
+    "BulletPoints": [],
+    "BulletPointsImg": "",
+    "PageFlyer": "",
+    "Tagline": "",
+    "BlogLink": "https://forms.gle/Vmc8YjiQzp9e2rbQ8",
+    "Members": [
+    ],
+    "ShowDocument": true,
+    "TabTitles": {
+      "BulletPoints": "About",
+      "Documents": "Resources",
+      "Blogspot": "Apply"
     }
+  }
 ]
 // use below template to add a committee
 
