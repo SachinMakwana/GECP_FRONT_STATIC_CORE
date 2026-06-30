@@ -22,25 +22,31 @@
                     if (item.IsFile)
                     {
                         <a class="marquee-content" href="@Url.Content(item.FileLink)" target="_blank">
-                            📄 @item.Title
+                            @item.Title
                         </a>
                     }
                     else if (!string.IsNullOrWhiteSpace(item.FileLink))
                     {
                         <a class="marquee-content" href="@item.FileLink" target="_blank">
-                            🔗 @item.Title
+                            @item.Title
                         </a>
                     }
                     else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                     {
                         <a class="marquee-content" href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">
-                            📄 @item.Title
+                            @item.Title
+                        </a>
+                    }
+                    else if (!string.IsNullOrWhiteSpace(item.dynamicID))
+                    {
+                        <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName, new { @id = item.dynamicID })">
+                            @item.Title
                         </a>
                     }
                     else
                     {
                         <a class="marquee-content" href="@Url.Action(item.ActionName, item.ControllerName)">
-                            📄 @item.Title
+                            @item.Title
                         </a>
                     }
 
