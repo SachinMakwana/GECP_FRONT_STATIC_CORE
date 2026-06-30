@@ -12,7 +12,7 @@
       "ControllerName": "",
       "ActionName": "",
       "Link": "https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm",
-      "position": 1,
+      "position": 2,
       "isVisible": true,
       "ChildMenuVMs": []
     },
@@ -23,7 +23,7 @@
       "dynamicID": 11,
       "ControllerName": "CampusCommittee",
       "ActionName": "CommitteePage",
-      "position": 2,
+      "position": 3,
       "isVisible": true,
       "ChildMenuVMs": []
     },
@@ -34,7 +34,18 @@
       "dynamicID": null,
       "ControllerName": "ContactUs",
       "ActionName": "Index",
-      "position": 3,
+      "position": 4,
+      "isVisible": true,
+      "ChildMenuVMs": []
+    },
+    {
+      "ID": 12,
+      "MenuText": "Recruitment",
+      "ParentID": null,
+      "dynamicID": 17,
+      "ControllerName": "CampusCommittee",
+      "ActionName": "CommitteePage",
+      "position": 1,
       "isVisible": true,
       "ChildMenuVMs": []
     }
