@@ -19,7 +19,7 @@
                 "ControllerName": "CampusCommittee",
                 "ActionName": "CommitteePage",
                 "dynamicID": 17,
-                "isshow": true,
+                "isshow": false,
                 "isNew": true
             }
         ]
@@ -45,18 +45,18 @@
         "ActionName": "",
         "isshow": true,
         "isNew": false
-      },
-      {
-        "ID": 3,
-        "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
-        "IsFile": false,
-        "FileLink": "",
-        "ControllerName": "CampusCommittee",
-        "ActionName": "CommitteePage",
-        "dynamicID": 17,
-        "isshow": true,
-        "isNew": true
       }
+      //,{
+      //  "ID": 3,
+      //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
+      //  "IsFile": false,
+      //  "FileLink": "",
+      //  "ControllerName": "CampusCommittee",
+      //  "ActionName": "CommitteePage",
+      //  "dynamicID": 17,
+      //  "isshow": false,
+      //  "isNew": true
+      //}
     ]
   }
 ]
