@@ -26,37 +26,46 @@
     },
   {
     "updateModelVM": [
-      {
-        "ID": 1,
-        "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-        "IsFile": true,
-        "FileLink": "~/ImpDocs/ActivityPoster.pdf",
-        "ControllerName": "",
-        "ActionName": "",
-        "isshow": false,
-        "isNew": false
-      },
-      {
-        "ID": 2,
-        "Title": "Information Booklet 2025-2026",
-        "IsFile": true,
-        "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
-        "ControllerName": "",
-        "ActionName": "",
-        "isshow": true,
-        "isNew": false
-      }
-      //,{
-      //  "ID": 3,
-      //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
-      //  "IsFile": false,
-      //  "FileLink": "",
-      //  "ControllerName": "CampusCommittee",
-      //  "ActionName": "CommitteePage",
-      //  "dynamicID": 17,
-      //  "isshow": false,
-      //  "isNew": true
-      //}
+        {
+            "ID": 1,
+            "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
+            "IsFile": true,
+            "FileLink": "~/ImpDocs/ActivityPoster.pdf",
+            "ControllerName": "",
+            "ActionName": "",
+            "isshow": false,
+            "isNew": false
+        },
+        {
+            "ID": 2,
+            "Title": "Information Booklet 2025-2026",
+            "IsFile": true,
+            "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
+            "ControllerName": "",
+            "ActionName": "",
+            "isshow": true,
+            "isNew": false
+        },
+        //,{
+        //  "ID": 3,
+        //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
+        //  "IsFile": false,
+        //  "FileLink": "",
+        //  "ControllerName": "CampusCommittee",
+        //  "ActionName": "CommitteePage",
+        //  "dynamicID": 17,
+        //  "isshow": false,
+        //  "isNew": true
+        //}
+        {
+            "ID": 3,
+            "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
+            "IsFile": 1,
+            "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
+            "ControllerName": "",
+            "ActionName": "",
+            "isNew": true
+        }
     ]
   }
 ]
