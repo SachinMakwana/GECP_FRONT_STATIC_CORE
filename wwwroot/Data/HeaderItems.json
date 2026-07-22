@@ -5,16 +5,17 @@
     "logo": "~/images/GECP_LOGO.png",
   "MenuVMs": [
     {
-      "ID": 9,
-      "MenuText": "Fees Portal",
-      "ParentID": null,
-      "dynamicID": null,
-      "ControllerName": "",
-      "ActionName": "",
-      "Link": "https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm",
-      "position": 2,
-      "isVisible": true,
-      "ChildMenuVMs": []
+        "ID": 9,
+        "MenuText": "Fees Portal",
+        "ParentID": null,
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
+        //"Link": "https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm",
+        "Link": "https://www.eduqfix.com/PayDirect/#/student",
+        "position": 2,
+        "isVisible": true,
+        "ChildMenuVMs": []
     },
     {
       "ID": 10,
