@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 
 namespace GECP_Front_End_Static.Models
@@ -53,6 +54,7 @@ namespace GECP_Front_End_Static.Models
     {
         public int SrNo { get; set; }
         public string Name { get; set; }
+        public string Concern_Branch { get; set; }
         public string LogoPath { get; set; }
     }
 
