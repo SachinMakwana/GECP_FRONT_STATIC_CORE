@@ -47,11 +47,11 @@
         }
         @if (Model.StudentPolicy != null)
         {
-            <button class="tablinks" onclick="openTab(event, 'StudentPlacementPolicy')">Policy For Student</button>
+            <button class="tablinks" onclick="openTab(event, 'StudentPlacementPolicy')">Student Support</button>
         }
         @if (Model.RecruiterDetails != null)
         {
-            <button class="tablinks" onclick="openTab(event, 'RecruiterInfo')">Policy For Recruiters</button>
+            <button class="tablinks" onclick="openTab(event, 'RecruiterInfo')">Recruiters/Industry Corner</button>
         }
         @if (Model.SuccessStoriesNote != null)
         {
@@ -95,11 +95,11 @@
         }
         @if (Model.StudentPolicy != null)
         {
-            <button class="tablinks" onclick="openTab(event, 'StudentPlacementPolicy')">For Student</button>
+            <button class="tablinks" onclick="openTab(event, 'StudentPlacementPolicy')">Student Support</button>
         }
         @if (Model.RecruiterDetails != null)
         {
-            <button class="tablinks" onclick="openTab(event, 'RecruiterInfo')">For Recruiters</button>
+            <button class="tablinks" onclick="openTab(event, 'RecruiterInfo')">Recruiters/Industry Corner</button>
         }
         @if (Model.SuccessStoriesNote != null)
         {
@@ -316,6 +316,7 @@
                                 <th style="width: 80px;">Sr. No</th>
                                 <th style="width: 250px;">Company Name</th>
                                 <th>Company Logo</th>
+                                <th>Concern Branch</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -329,6 +330,7 @@
                                              alt="@recruiter.Name Logo"
                                              style="max-height: 60px; object-fit: contain;" />
                                     </td>
+                                    <td  class="text-center">@recruiter.Concern_Branch</td>
                                 </tr>
                             }
                         </tbody>

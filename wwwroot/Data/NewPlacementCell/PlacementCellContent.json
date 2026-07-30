@@ -28,7 +28,7 @@
   "Functions": {
     "Title": "Functions of TNP Cell",
     "Description": "The TNP Cell of GEC Patan works strategically in three main directions for comprehensive placement support of students.",
-    "Image": "~/images/Placement/Function.png",
+    "Image": "~/images/Placement/Functions_1.png",
     "FunctionsInform": [
       "About jobs, higher studies, and business opportunities after B.E by Career Guidance Seminar.",
       "About Civil Services Exam (UPSC, GPSC) Career Scope and Guidance.",
@@ -58,6 +58,10 @@
       "Department": "Electronics And Communication",
       "Graphs": [
         {
+          "Year": "2025-26",
+          "Image": "~/NewPlacementCell/Statistics/EC_2025-2026.png"
+        },
+        {
           "Year": "2024-25",
           "Image": "~/NewPlacementCell/Statistics/EC_2024-2025.png"
         },
@@ -74,6 +78,10 @@
     {
       "Department": "Computer Science",
       "Graphs": [
+        {
+          "Year": "2025-26",
+          "Image": "~/NewPlacementCell/Statistics/CSE_2025-2026.png"
+        },
         {
           "Year": "2024-25",
           "Image": "~/NewPlacementCell/Statistics/CSE_2024-2025.png"
@@ -92,6 +100,10 @@
       "Department": "Electrical",
       "Graphs": [
         {
+          "Year": "2025-26",
+          "Image": "~/NewPlacementCell/Statistics/EE_2025-2026.png"
+        },
+        {
           "Year": "2024-25",
           "Image": "~/NewPlacementCell/Statistics/EE_2024-2025.png"
         },
@@ -109,6 +121,10 @@
       "Department": "Mechanical",
       "Graphs": [
         {
+          "Year": "2025-26",
+          "Image": "~/NewPlacementCell/Statistics/ME_2025-2026.png"
+        },
+        {
           "Year": "2024-25",
           "Image": "~/NewPlacementCell/Statistics/ME_2024-2025.png"
         },
@@ -125,6 +141,10 @@
     {
       "Department": "Civil",
       "Graphs": [
+        {
+          "Year": "2025-26",
+          "Image": "~/NewPlacementCell/Statistics/CE_2025-2026.png"
+        },
         {
           "Year": "2024-25",
           "Image": "~/NewPlacementCell/Statistics/CE_2024-2025.png"
@@ -145,182 +165,218 @@
     {
       "SrNo": 1,
       "Name": "Adani",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/1.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/1.png",
+      "Concern_Branch": "Electrical, Mechanical, Civil"
     },
     {
       "SrNo": 2,
       "Name": "AIS",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/2.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/2.png",
+      "Concern_Branch": "Electrical, Mechanical"
     },
     {
       "SrNo": 3,
       "Name": "Torrent Power",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/3.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/3.png",
+      "Concern_Branch": "Electrical, Mechanical"
     },
     {
       "SrNo": 4,
       "Name": "TDSG",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/4.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/4.png",
+      "Concern_Branch": "Electrical"
     },
     {
       "SrNo": 5,
       "Name": "Casepoint",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/5.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/5.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 6,
       "Name": "CMR",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/6.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/6.png",
+      "Concern_Branch": "Electrical, Mechanical"
     },
     {
       "SrNo": 7,
       "Name": "Dutt Engicon",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/7.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/7.png",
+      "Concern_Branch": "Mechanical"
     },
     {
       "SrNo": 8,
       "Name": "eSparkBiz",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/8.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/8.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 9,
       "Name": "Fujitec Express",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/9.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/9.png",
+      "Concern_Branch": "Electrical, Mechanical, EC"
     },
     {
       "SrNo": 10,
       "Name": "Balief Corporation",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/10.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/10.png",
+      "Concern_Branch": "Mechanical"
     },
     {
       "SrNo": 11,
       "Name": "Hharvi Engineering",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/11.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/11.png",
+      "Concern_Branch": "Mechanical"
     },
     {
       "SrNo": 12,
       "Name": "WebCodeGenie",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/12.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/12.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 13,
       "Name": "Wappnet Systems",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/13.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/13.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 14,
       "Name": "Volansys",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/14.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/14.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 15,
       "Name": "Valens Databases",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/15.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/15.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 16,
       "Name": "Kachhua",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/16.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/16.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 17,
       "Name": "Milestone Engineering Services",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/17.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/17.png",
+      "Concern_Branch": "Civil"
     },
     {
       "SrNo": 18,
       "Name": "NXON",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/18.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/18.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 19,
       "Name": "Shaligram Infotech",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/19.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/19.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 20,
       "Name": "Ordex Technology Solutions",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/20.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/20.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 21,
       "Name": "Silver Touch Technologies",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/21.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/21.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 22,
       "Name": "Torrent Pharma",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/22.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/22.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 23,
       "Name": "Innovonix Tech Solutions",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/23.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/23.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 24,
       "Name": "The One Technologies",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/24.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/24.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 25,
       "Name": "La Net Team Software Solutions",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/25.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/25.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 26,
       "Name": "Munjal Kiriu",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/26.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/26.png",
+      "Concern_Branch": "Electrical, Mechanical"
     },
     {
       "SrNo": 27,
       "Name": "Jay Corporation",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/27.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/27.png",
+      "Concern_Branch": "Civil"
     },
     {
       "SrNo": 28,
       "Name": "Baumuller",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/28.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/28.png",
+      "Concern_Branch": "Electrical, Mechanical"
     },
     {
       "SrNo": 29,
       "Name": "Brevitas",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/29.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/29.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 30,
       "Name": "TatvaSoft",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/30.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/30.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 31,
       "Name": "Yazaki",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/31.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/31.png",
+      "Concern_Branch": "Electrical, Mechanical"
     },
     {
       "SrNo": 32,
       "Name": "Sarjen Systems",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/32.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/32.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 33,
       "Name": "Orbit",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/33.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/33.png",
+      "Concern_Branch": "Mechanical"
     },
     {
       "SrNo": 34,
       "Name": "Optimum Financial Solutions",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/34.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/34.png",
+      "Concern_Branch": "Computer Science & Engg."
     },
     {
       "SrNo": 35,
       "Name": "Euro Premium Solar",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/35.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/35.png",
+      "Concern_Branch": "Electrical"
     },
     {
       "SrNo": 36,
       "Name": "Australian Premium Solar",
-      "LogoPath": "~/NewPlacementCell/TopRecruiters/36.png"
+      "LogoPath": "~/NewPlacementCell/TopRecruiters/36.png",
+      "Concern_Branch": "Electrical"
     }
   ],
   //"ActivitiesCalendar": [
