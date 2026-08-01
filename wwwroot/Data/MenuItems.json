@@ -41,12 +41,12 @@
       {
         "ID": 28,
         "MenuText": "Information Booklet",
+        "dynamicID": 70,
         "ParentID": 2,
-        "ControllerName": "",
-        "ActionName": "",
+        "ControllerName": "Documents",
+        "ActionName": "Index",
         "position": 9,
         "isVisible": true,
-        "Link": "/ImpDocs/Brochure_GECP.pdf",
         "ChildMenuVMs": []
       },
       {
