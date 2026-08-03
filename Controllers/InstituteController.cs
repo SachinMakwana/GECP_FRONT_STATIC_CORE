@@ -119,13 +119,6 @@ namespace GECP_Front_End_Static.Controllers
             return View(data);
         }
 
-        public IActionResult Brochure() //document id 50
-        {
-            DocumentsVm data = new DocumentsVm();
-
-            data = DocumentsVms.Where(m => m.Id == 70).FirstOrDefault();
-            return View(data);
-        }
         public IActionResult RTI()
         {
             return View();

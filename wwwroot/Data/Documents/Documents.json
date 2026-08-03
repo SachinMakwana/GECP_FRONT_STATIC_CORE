@@ -1077,34 +1077,36 @@
       }
     ]
   },
-  {
-    "Id": 70,
-    "Title": "Information Booklet",
-    "YearSection": [
-      {
-        "Year": "",
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Information Booklet 2026-27",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/Infobook/2627.pdf",
-            "isShow": true,
-            "UploadDate": "01-08-2026"
-          },
-          {
-            "ID": 2,
-            "Title": "Information Booklet 2025-26",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/Infobook/2526.pdf",
-            "isShow": true,
-            "UploadDate": "25-08-2025"
-          }
-          
+    {
+        "Id": 70,
+        "Title": "Information Booklet",
+        "YearSection": [
+            {
+                "Year": "",
+                "Documents": [
+                    {
+                        "ID": 1,
+                        "Title": "Information Booklet 2026-27",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/Infobook/2627.pdf",
+                        "isShow": true,
+                        "UploadDate": "01-08-2026",
+                        "MonthYear": "2026-2027"
+                    },
+                    {
+                        "ID": 2,
+                        "Title": "Information Booklet 2025-26",
+                        "FileType": "PDF",
+                        "File": "~/DataFiles/Documents/Infobook/2526.pdf",
+                        "isShow": true,
+                        "UploadDate": "25-08-2025",
+                        "MonthYear": "2025-2026"
+                    }
+
+                ]
+            }
         ]
-      }
-    ]
-  }
+    }
 
 
 ]
