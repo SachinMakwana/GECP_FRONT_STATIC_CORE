@@ -38,13 +38,13 @@
         },
         {
             "ID": 2,
-            "Title": "Information Booklet 2025-2026",
+            "Title": "Information Booklet 2026-2027",
             "IsFile": true,
-            "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
+            "FileLink": "~/DataFiles/Documents/Infobook/2627.pdf",
             "ControllerName": "",
             "ActionName": "",
             "isshow": true,
-            "isNew": false
+            "isNew": true
         },
         //,{
         //  "ID": 3,
@@ -57,15 +57,15 @@
         //  "isshow": false,
         //  "isNew": true
         //}
-        {
-            "ID": 3,
-            "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
-            "IsFile": 1,
-            "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
-            "ControllerName": "",
-            "ActionName": "",
-            "isNew": true
-        }
+        //{
+        //    "ID": 3,
+        //    "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
+        //    "IsFile": 1,
+        //    "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
+        //    "ControllerName": "",
+        //    "ActionName": "",
+        //    "isNew": true
+        //}
     ]
   }
 ]
