@@ -24,6 +24,7 @@ namespace GECP_Front_End_Static.Models
         public List<PlacementStatistics> Statistics { get; set; }
         public List<Recruiter> TopRecruiters { get; set; }
         public List<CommitteeActivity> ActivitiesCalendar { get; set; }
+        public PlacementTabTitles PlacementTabTitles { get; set; }= new PlacementTabTitles();
 
         public StudentPolicy StudentPolicy { get; set; }
 
@@ -104,5 +105,19 @@ namespace GECP_Front_End_Static.Models
     {
         public string Name { get; set; }
         public string Link { get; set; }
+    }
+    public class PlacementTabTitles
+    {
+        public string About { get; set; } = "About";
+        public string VisionMission { get; set; } = "Vision & Mission";
+        public string Objectives { get; set; } = "Objectives";
+        public string Functions { get; set; } = "Workflow";
+        public string PlacementStatistics { get; set; } = "Placement Statistics";
+        public string TopRecruiters { get; set; } = "Top Recruiters";
+        public string ActivitiesReports { get; set; } = "Activities Calendar & Reports";
+        public string StudentSupport { get; set; } = "Student Support";
+        public string RecruitersIndustryCorner { get; set; } = "Recruiters / Industry Corner";
+        public string SuccessStories { get; set; } = "Success Stories";
+        public string ContactUs { get; set; } = "Contact Us";
     }
 }

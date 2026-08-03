@@ -584,5 +584,18 @@
       "Email": "jayesh.prajapati@gecpatan.ac.in",
       "Contact": "9824549615"
     }
-  ]
+  ],
+  "PlacementTabTitles": {
+    "About": "About",
+    "VisionMission": "Vision & Mission",
+    "Objectives": "Objectives",
+    "Functions": "Workflow",
+    "PlacementStatistics": "Placement Statistics",
+    "TopRecruiters": "Top Recruiters",
+    "ActivitiesReports": "Activities Calendar & Reports",
+    "StudentSupport": "Student Support",
+    "RecruitersIndustryCorner": "Recruiters / Industry Corner",
+    "SuccessStories": "Success Stories",
+    "ContactUs": "Contact Us"
+  }
 }
