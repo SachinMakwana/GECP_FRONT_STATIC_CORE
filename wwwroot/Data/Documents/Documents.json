@@ -302,204 +302,303 @@
     "Id": 60,
     "Title": "Time Table",
     "YearSection": [
-      {
-        "Year": "2025-2026",
-        "IsShow": true,
-        "Order": 1,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil ODD 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2025_2026.pdf",
-            "isShow": true,
-            "UploadDate": "04-09-2025"
-          },
-          {
-            "ID": 2,
-            "Title": "Computer ODD 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2025_2026.pdf",
-            "isShow": true,
-            "UploadDate": "04-09-2025"
-          },
-          {
-            "ID": 3,
-            "Title": "EC ODD 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2025_2026.pdf",
-            "isShow": true,
+        {
+            "Year": "2026-2027",
+            "IsShow": true,
+            "Order": 1,
+            "Documents": [
+                {
+                    "ID": 1,
+                    "Title": "Civil ODD 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2026_2027.pdf",
+                    "isShow": false,
+                    "UploadDate": "05-08-2026"
+                },
+                {
+                    "ID": 2,
+                    "Title": "Computer ODD 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2026_2027.pdf",
+                    "isShow": true,
+                    "UploadDate": "04-09-2025"
+                },
+                {
+                    "ID": 3,
+                    "Title": "EC ODD 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2026_2027.pdf",
+                    "isShow": false,
 
-            "UploadDate": "04-09-2025"
+                    "UploadDate": "04-09-2025"
 
-          },
-          {
-            "ID": 4,
-            "Title": "MECHANICAL ODD 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2025_2026.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 4,
+                    "Title": "MECHANICAL ODD 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2026_2027.pdf",
+                    "isShow": false,
 
-            "UploadDate": "04-09-2025"
+                    "UploadDate": "04-09-2025"
 
-          },
-          {
-            "ID": 5,
-            "Title": "ELECTRICAL ODD 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2025_2026.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 5,
+                    "Title": "ELECTRICAL ODD 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2026_2027.pdf",
+                    "isShow": false,
 
-            "UploadDate": "04-09-2025"
+                    "UploadDate": "04-09-2025"
 
-          },
-          {
-            "ID": 6,
-            "Title": "Civil EVEN 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2025_2026.pdf",
-            "isShow": true,
-            "UploadDate": "30-01-2026"
-          },
-          {
-            "ID": 7,
-            "Title": "Computer EVEN 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2025_2026.pdf",
-            "isShow": true,
-            "UploadDate": "30-01-2026"
-          },
-          {
-            "ID": 8,
-            "Title": "EC EVEN 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2025_2026.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 6,
+                    "Title": "Civil EVEN 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2026_2027.pdf",
+                    "isShow": false,
+                    "UploadDate": "30-01-2026"
+                },
+                {
+                    "ID": 7,
+                    "Title": "Computer EVEN 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2026_2027.pdf",
+                    "isShow": false,
+                    "UploadDate": "30-01-2026"
+                },
+                {
+                    "ID": 8,
+                    "Title": "EC EVEN 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2026_2027.pdf",
+                    "isShow": false,
 
-            "UploadDate": "03-02-2026"
+                    "UploadDate": "03-02-2026"
 
-          },
-          {
-            "ID": 9,
-            "Title": "MECHANICAL EVEN 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2025_2026.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 9,
+                    "Title": "MECHANICAL EVEN 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2026_2027.pdf",
+                    "isShow": false,
 
-            "UploadDate": "03-02-2026"
+                    "UploadDate": "03-02-2026"
 
-          },
-          {
-            "ID": 10,
-            "Title": "ELECTRICAL EVEN 2025-2026",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2025_2026.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 10,
+                    "Title": "ELECTRICAL EVEN 2026-2027",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2026_2027.pdf",
+                    "isShow": false,
 
-            "UploadDate": "03-02-2026"
+                    "UploadDate": "03-02-2026"
 
-          }
-        ]
-      },
-      {
-        "Year": "2024-2025",
-        "Order": 2,
-        "IsShow": true,
-        "Documents": [
-          {
-            "ID": 1,
-            "Title": "Civil ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 2,
-            "Title": "Civil EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 3,
-            "Title": "Computer ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 4,
-            "Title": "Computer EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2024_2025.pdf",
-            "isShow": true,
-            "UploadDate": "01-03-2025"
-          },
-          {
-            "ID": 5,
-            "Title": "EC ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
-            "isShow": true,
+                }
+            ]
+        },
+        {
+            "Year": "2025-2026",
+            "IsShow": true,
+            "Order": 1,
+            "Documents": [
+                {
+                    "ID": 1,
+                    "Title": "Civil ODD 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2025_2026.pdf",
+                    "isShow": true,
+                    "UploadDate": "04-09-2025"
+                },
+                {
+                    "ID": 2,
+                    "Title": "Computer ODD 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2025_2026.pdf",
+                    "isShow": true,
+                    "UploadDate": "04-09-2025"
+                },
+                {
+                    "ID": 3,
+                    "Title": "EC ODD 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2025_2026.pdf",
+                    "isShow": true,
 
-            "UploadDate": "04-03-2025"
+                    "UploadDate": "04-09-2025"
 
-          },
-          {
-            "ID": 6,
-            "Title": "EC EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 4,
+                    "Title": "MECHANICAL ODD 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2025_2026.pdf",
+                    "isShow": true,
 
-            "UploadDate": "04-03-2025"
+                    "UploadDate": "04-09-2025"
 
-          },
-          {
-            "ID": 7,
-            "Title": "MECHANICAL ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2024_2025.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 5,
+                    "Title": "ELECTRICAL ODD 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2025_2026.pdf",
+                    "isShow": true,
 
-            "UploadDate": "07-03-2025"
+                    "UploadDate": "04-09-2025"
 
-          },
-          {
-            "ID": 8,
-            "Title": "MECHANICAL EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2024_2025.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 6,
+                    "Title": "Civil EVEN 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2025_2026.pdf",
+                    "isShow": true,
+                    "UploadDate": "30-01-2026"
+                },
+                {
+                    "ID": 7,
+                    "Title": "Computer EVEN 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2025_2026.pdf",
+                    "isShow": true,
+                    "UploadDate": "30-01-2026"
+                },
+                {
+                    "ID": 8,
+                    "Title": "EC EVEN 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2025_2026.pdf",
+                    "isShow": true,
 
-            "UploadDate": "07-03-2025"
+                    "UploadDate": "03-02-2026"
 
-          },
-          {
-            "ID": 9,
-            "Title": "ELECTRICAL ODD 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2024_2025.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 9,
+                    "Title": "MECHANICAL EVEN 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2025_2026.pdf",
+                    "isShow": true,
 
-            "UploadDate": "10-03-2025"
+                    "UploadDate": "03-02-2026"
 
-          },
-          {
-            "ID": 10,
-            "Title": "ELECTRICAL EVEN 2024-2025",
-            "FileType": "PDF",
-            "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2024_2025.pdf",
-            "isShow": true,
+                },
+                {
+                    "ID": 10,
+                    "Title": "ELECTRICAL EVEN 2025-2026",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2025_2026.pdf",
+                    "isShow": true,
 
-            "UploadDate": "10-03-2025"
+                    "UploadDate": "03-02-2026"
 
-          }
-        ]
-      }
+                }
+            ]
+        },
+        {
+            "Year": "2024-2025",
+            "Order": 2,
+            "IsShow": true,
+            "Documents": [
+                {
+                    "ID": 1,
+                    "Title": "Civil ODD 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/CIVIL/ODD_2024_2025.pdf",
+                    "isShow": true,
+                    "UploadDate": "01-03-2025"
+                },
+                {
+                    "ID": 2,
+                    "Title": "Civil EVEN 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/CIVIL/EVEN_2024_2025.pdf",
+                    "isShow": true,
+                    "UploadDate": "01-03-2025"
+                },
+                {
+                    "ID": 3,
+                    "Title": "Computer ODD 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/COMP/ODD_2024_2025.pdf",
+                    "isShow": true,
+                    "UploadDate": "01-03-2025"
+                },
+                {
+                    "ID": 4,
+                    "Title": "Computer EVEN 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/COMP/EVEN_2024_2025.pdf",
+                    "isShow": true,
+                    "UploadDate": "01-03-2025"
+                },
+                {
+                    "ID": 5,
+                    "Title": "EC ODD 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2024_2025.pdf",
+                    "isShow": true,
+
+                    "UploadDate": "04-03-2025"
+
+                },
+                {
+                    "ID": 6,
+                    "Title": "EC EVEN 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EC/EVEN_2024_2025.pdf",
+                    "isShow": true,
+
+                    "UploadDate": "04-03-2025"
+
+                },
+                {
+                    "ID": 7,
+                    "Title": "MECHANICAL ODD 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2024_2025.pdf",
+                    "isShow": true,
+
+                    "UploadDate": "07-03-2025"
+
+                },
+                {
+                    "ID": 8,
+                    "Title": "MECHANICAL EVEN 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/MECH/EVEN_2024_2025.pdf",
+                    "isShow": true,
+
+                    "UploadDate": "07-03-2025"
+
+                },
+                {
+                    "ID": 9,
+                    "Title": "ELECTRICAL ODD 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2024_2025.pdf",
+                    "isShow": true,
+
+                    "UploadDate": "10-03-2025"
+
+                },
+                {
+                    "ID": 10,
+                    "Title": "ELECTRICAL EVEN 2024-2025",
+                    "FileType": "PDF",
+                    "File": "~/DataFiles/Documents/TimeTable/EE/EVEN_2024_2025.pdf",
+                    "isShow": true,
+
+                    "UploadDate": "10-03-2025"
+
+                }
+            ]
+        }
     ]
   },
 
