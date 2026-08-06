@@ -11,17 +11,17 @@
                 "isshow": true,
                 "isNew": true
             },
-            {
-                "ID": 1,
-                "Title": "GEC PATAN, VISITING FACULTY RECRUITMENT 2026-27",
-                "IsFile": false,
-                "FileLink": "",
-                "ControllerName": "CampusCommittee",
-                "ActionName": "CommitteePage",
-                "dynamicID": 17,
-                "isshow": false,
-                "isNew": true
-            }
+        {
+            "ID": 1,
+            "Title": "GUJCOST Sponsored State-Level Workshop on Deepfake Detection and Cyber Forensics on 13th and 14th August 2026",
+            "IsFile": true,
+            "FileLink": "~/DataFiles/Documents/Updates/Deepfake Detection Brochure.pdf",
+            "ControllerName": "",
+            "ActionName": "",
+            "dynamicID": null,
+            "isshow": true,
+            "isNew": true
+        }
         ]
     },
   {
@@ -45,27 +45,36 @@
             "ActionName": "",
             "isshow": true,
             "isNew": true
-        },
-        //,{
-        //  "ID": 3,
-        //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
-        //  "IsFile": false,
-        //  "FileLink": "",
-        //  "ControllerName": "CampusCommittee",
-        //  "ActionName": "CommitteePage",
-        //  "dynamicID": 17,
-        //  "isshow": false,
-        //  "isNew": true
-        //}
-        //{
-        //    "ID": 3,
-        //    "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
-        //    "IsFile": 1,
-        //    "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
-        //    "ControllerName": "",
-        //    "ActionName": "",
-        //    "isNew": true
-        //}
+        }, //GUJCOST Sponsored State-Level Workshop on Deepfake Detection and Cyber Forensics
+        {
+            "ID": 3,
+            "Title": "GUJCOST Sponsored State-Level Workshop on Deepfake Detection and Cyber Forensics on 13th and 14th August 2026",
+            "IsFile": true,
+            "FileLink": "~/DataFiles/Documents/Updates/Deepfake Detection Brochure.pdf",
+            "ControllerName": "",
+            "ActionName": "",
+            "isNew": true
+        }
+            //,{
+            //  "ID": 3,
+            //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
+            //  "IsFile": false,
+            //  "FileLink": "",
+            //  "ControllerName": "CampusCommittee",
+            //  "ActionName": "CommitteePage",
+            //  "dynamicID": 17,
+            //  "isshow": false,
+            //  "isNew": true
+            //}
+            //{
+            //    "ID": 3,
+            //    "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
+            //    "IsFile": 1,
+            //    "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
+            //    "ControllerName": "",
+            //    "ActionName": "",
+            //    "isNew": true
+            //}
     ]
   }
 ]
