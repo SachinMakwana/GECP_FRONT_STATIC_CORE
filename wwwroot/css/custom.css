@@ -1006,6 +1006,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     border-right: 1px solid #88aa00;
     border-bottom: 2px solid #556600;
     /* Sharp red backing shadow to give text that authentic old-website "glowing outline" look */
+}
     /*responsive goes here*/
     @media only screen and (max-width: 479px) {
         .client_logos3 .minheight {
