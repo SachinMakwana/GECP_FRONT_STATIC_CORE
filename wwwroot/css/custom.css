@@ -655,7 +655,7 @@ table.dataTable thead .sorting_desc_disabled:before {
         padding: 20px 0 0 0;
         background-color: #25252575;
     }
-.me_title h1 {
+.me_title h1, .cs_title h1 {
     background-color: transparent;
 }
 

@@ -179,6 +179,15 @@
             }
         ],
         "DeptAcademicCalender": [ //tender vm object
+
+            {
+                "ID": 3,
+                "Title": "CSE Academic Calender for ODD Semester 2026-27",
+                "FileType": "PDF",
+                "File": "~/DataFiles/Departments/CSE/CSE Academic Calendar ODD Sem 2026-27.pdf",
+                "isShow": true,
+                "UploadDate": "19-08-2026"
+            },
             {
                 "ID": 1,
                 "Title": "CSE Academic Calender for ODD Semester 2025-26",
