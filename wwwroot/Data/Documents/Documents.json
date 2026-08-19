@@ -328,7 +328,7 @@
                     "Title": "EC ODD 2026-2027",
                     "FileType": "PDF",
                     "File": "~/DataFiles/Documents/TimeTable/EC/ODD_2026_2027.pdf",
-                    "isShow": false,
+                    "isShow": true,
 
                     "UploadDate": "04-09-2025"
 
@@ -338,7 +338,7 @@
                     "Title": "MECHANICAL ODD 2026-2027",
                     "FileType": "PDF",
                     "File": "~/DataFiles/Documents/TimeTable/MECH/ODD_2026_2027.pdf",
-                    "isShow": false,
+                    "isShow": true,
 
                     "UploadDate": "04-09-2025"
 
@@ -348,9 +348,9 @@
                     "Title": "ELECTRICAL ODD 2026-2027",
                     "FileType": "PDF",
                     "File": "~/DataFiles/Documents/TimeTable/EE/ODD_2026_2027.pdf",
-                    "isShow": false,
+                    "isShow": true,
 
-                    "UploadDate": "04-09-2025"
+                    "UploadDate": "19-08-2026"
 
                 },
                 {
