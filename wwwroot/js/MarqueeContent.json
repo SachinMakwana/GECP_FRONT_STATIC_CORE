@@ -21,17 +21,6 @@
                 "dynamicID": null,
                 "isshow": false,
                 "isNew": true
-            },
-            {
-                "ID": 1,
-                "Title": "3-Days Workshop on Smart Manufacturing: Advanced CAD Design and Rapid Prototyping from 18th to 20th August 2026",
-                "IsFile": true,
-                "FileLink": "~/DataFiles/Documents/Updates/Three Day Workshop.pdf",
-                "ControllerName": "",
-                "ActionName": "",
-                "dynamicID": null,
-                "isshow": true,
-                "isNew": true
             }
         ]
     },
@@ -56,18 +45,19 @@
             "ActionName": "",
             "isshow": true,
             "isNew": true
-        },
-        {
-            "ID": 3,
-            "Title": "3-Days Workshop on Smart Manufacturing: Advanced CAD Design and Rapid Prototyping from 18th to 20th August 2026",
-            "IsFile": true,
-            "FileLink": "~/DataFiles/Documents/Updates/Three Day Workshop.pdf",
-            "ControllerName": "",
-            "ActionName": "",
-            "dynamicID": null,
-            "isshow": true,
-            "isNew": true
         }
+        //,
+        //{
+        //    "ID": 3,
+        //    "Title": "3-Days Workshop on Smart Manufacturing: Advanced CAD Design and Rapid Prototyping from 18th to 20th August 2026",
+        //    "IsFile": true,
+        //    "FileLink": "~/DataFiles/Documents/Updates/Three Day Workshop.pdf",
+        //    "ControllerName": "",
+        //    "ActionName": "",
+        //    "dynamicID": null,
+        //    "isshow": false,
+        //    "isNew": true
+        //}
         //,{
         //  "ID": 3,
         //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
