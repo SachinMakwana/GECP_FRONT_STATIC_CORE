@@ -1894,7 +1894,7 @@
         "FilePath": "~/DataFiles/Departments/Science&Humanity/OPEN HOUSE-08-12-2015.pdf"
       }
     ]
-  }
+  },
 
   //{
   //  "ID": 90,
@@ -1917,4 +1917,146 @@
   //    }
   //  ]
   //}
+  
+    {
+      "ID": 107,
+      "Title": "Open House - Project Presentation (Subject: Linear Integrated Circuits)",
+      "Description": "The Electronics & Communication Engineering Department organized an Open House - Project Presentation for Linear Integrated Circuits (LIC) on 07 May 2026. A total of 19 student teams comprising 38 students presented working models based on operational amplifiers, IC 555 timers, filters, and other LIC applications . Faculty evaluated the projects on technical understanding, circuit implementation, innovation, documentation, and presentation skills . The event successfully bridged the gap between theoretical learning and real-world engineering applications, enhancing students' practical skills and confidence .",
+      "Year": 2026,
+      "EventDate": "07-05-2026",
+      "EventTime": "11:00 AM To 03:00 PM",
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 1,
+          "Title": "Open House - Project Presentation (Subject: Linear Integrated Circuits)",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/10_Project_Open House_07_05_26 (1).pdf"
+        }
+      ]
+    },
+    {
+      "ID": 108,
+      "Title": "Expert Lecture on Guru Purnima 2025",
+      "Description": "The Electronics & Communication Engineering Department organized an Expert Lecture on Guru Purnima on 10 July 2025, delivered by Dr. M. B. Patel . The lecture highlighted the historical and cultural importance of Guru Purnima and the invaluable role of teachers in shaping students' lives . It aimed to motivate students towards discipline, ethics, and lifelong learning for becoming successful engineers . The event received an enthusiastic response, strengthening the teacher-student relationship and reinforcing professional values .",
+      "Year": 2025,
+      "EventDate": "10-07-2025",
+      "EventTime": "",
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 2,
+          "Title": "Expert Lecture on Guru Purnima 2025",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/Guru_Purnima_Expert_Lecture_Report_10_07_2025.pdf"
+        }
+      ]
+    },
+    {
+      "ID": 109,
+      "Title": "VLSI Industry Expert Session",
+      "Description": "The VLSI Club of the Electronics and Communication Engineering Department organized an online VLSI Industry Expert Session via Google Meet on 09 May 2026 . Mr. Aman, Module Leader at Eximietas Design Pvt. Ltd., delivered the session, covering emerging trends in VLSI, career opportunities, industry challenges, and the future of semiconductor technology . The session successfully bridged the gap between academic learning and industry expectations, motivating 20 participating students to enhance their technical knowledge and pursue careers in semiconductor chip design .",
+      "Year": 2026,
+      "EventDate": "09-05-2026",
+      "EventTime": "11:00 AM – 12:00 PM",
+      "ClubId": 4,
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 3,
+          "Title": "VLSI Industry Expert Session",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/Report_4.pdf"
+        }
+      ]
+    },
+    {
+      "ID": 110,
+      "Title": "1st Year Orientation Program 2026",
+      "Description": "The Electronics & Communication Engineering Department organized the First Year Orientation Program on 01 July 2026 for newly admitted students and their parents . The session aimed to familiarize them with the institute's facilities, first-semester curriculum, GTU regulations, attendance requirements, scholarship schemes, and student support services . Faculty members interacted with participants, answered queries, and motivated students to engage actively in academic and co-curricular activities, successfully introducing them to the academic environment .",
+      "Year": 2026,
+      "EventDate": "01-07-2026",
+      "EventTime": "10:30 AM to 12:30 PM",
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 4,
+          "Title": "1st Year Orientation Program 2026",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/1st Year Orientation Program 2026.pdf"
+        }
+      ]
+    },
+    {
+      "ID": 111,
+      "Title": "Inaugural Function of VLSI Club",
+      "Description": "The Electronics and Communication Engineering Department organized the Inaugural Function of the VLSI Club on 15 October 2025 . The club was formally inaugurated by Principal Dr. B. J. Shah, Dr. A. B. Dhruv, and HOD Dr. D. H. Patel to enhance students' awareness of VLSI design and semiconductor technologies . The session outlined the club's vision, emphasizing the importance of VLSI in modern electronics, and proposed activities such as technical workshops, expert lectures, hands-on training, and mini projects .",
+      "Year": 2025,
+      "EventDate": "15-10-2025",
+      "EventTime": "03:30 pm onwards",
+      "ClubId": 4,
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 5,
+          "Title": "Inaugural Function of VLSI Club",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/Report_1.pdf"
+        }
+      ]
+    },
+    {
+      "ID": 112,
+      "Title": "VLSI Expert Lecture",
+      "Description": "The VLSI Club of the Electronics and Communication Engineering Department organized a VLSI Expert Lecture on 02 May 2026, delivered by Prof. M. L. Patel[cite: 6]. The lecture introduced 30 undergraduate students to the fundamentals of VLSI technology, semiconductor basics, and chip design concepts[cite: 6]. The interactive session created awareness about career opportunities in the semiconductor industry and successfully motivated students to explore chip design and advanced learning in related domains[cite: 6].",
+      "Year": 2026,
+      "EventDate": "02-05-2026",
+      "EventTime": "11:00 AM To 12:00 PM",
+      "ClubId": 4,
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 6,
+          "Title": "VLSI Expert Lecture",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/Report_3.pdf"
+        }
+      ]
+    },
+    {
+      "ID": 113,
+      "Title": "Introduction of VLSI Club Activities.",
+      "Description": "The VLSI Club organized an Introduction of VLSI Club Activities session on 17 February 2026, delivered by Prof. M. L. Patel[cite: 7]. The session aimed to familiarize students with the club's vision, mission, and planned technical activities like workshops, industrial visits, and hands-on EDA training[cite: 7]. It effectively highlighted the importance of VLSI and semiconductor technologies, motivating 44 participating students to actively engage in club initiatives and build a strong foundation for future career opportunities[cite: 7].",
+      "Year": 2026,
+      "EventDate": "17-02-2026",
+      "EventTime": "01:00 PM To 02:00 PM",
+      "ClubId": 4,
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 7,
+          "Title": "Introduction of VLSI Club Activities.",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/Report_2.pdf"
+        }
+      ]
+    },
+    {
+      "ID": 114,
+      "Title": "Industry Expert Session by United Instruments.",
+      "Description": "The Electronics & Communication Engineering Department organized an Industry Expert Session on 08 May 2026 featuring Mr. Mitesh Patel, Director of United Instruments Services[cite: 8]. The session exposed students to emerging trends in industrial equipment, instrumentation, IoT, and embedded systems, discussing the importance of automation and practical skills for career growth[cite: 8]. Furthermore, the department proposed an Industry-Institute Collaboration with United Instruments to offer internships, training, and placement support, strengthening academia-industry connections[cite: 8].",
+      "Year": 2026,
+      "EventDate": "08-05-2026",
+      "EventTime": "11:00 AM – 12:30 PM",
+      "DeptID": 1,
+      "Files": [
+        {
+          "ID": 8,
+          "Title": "Industry Expert Session by United Instruments.",
+          "FileType": "PDF",
+          "FilePath": "~/DataFiles/Departments/EC/2026/11_United Instruments_Talk_08_05_26.pdf"
+        }
+      ]
+    }
+  
 ]
