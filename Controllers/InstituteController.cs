@@ -118,7 +118,6 @@ namespace GECP_Front_End_Static.Controllers
             data.YearSection = data.YearSection.OrderByDescending(m => m.Order).ToList();
             return View(data);
         }
-
         public IActionResult RTI()
         {
             return View();
