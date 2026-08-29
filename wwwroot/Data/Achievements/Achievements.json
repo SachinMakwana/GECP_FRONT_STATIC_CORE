@@ -7,7 +7,8 @@
     "Mechanical",
     "Civil",
 //    "Yoddhha",
-    "Gymkhana"
+    "Gymkhana",
+    "Student-Section"
     
 
   ],
@@ -41,6 +42,19 @@
       "Year": 2023
     }
     */
+    {
+      "ID": 2602,
+      "Title": "NPTEL Belivers of GEC Patan",
+      "Image": "/images/Achievements/2602.png",
+      "Date": "2026/08/29",
+      "Description": "Our 5th Sem Computer Science Engineering Students, Bumtariya Chaitany and Thakor Falguni Manojkumar, have successfully received the Certificate of Appreciation from NPTEL for being recognized as NPTEL BELIEVER for Jan-Apr 2026 term.",
+      "type": 0,
+      "Dept": "",
+      "DeptID": 1,
+      "CommitteId": 8,
+      "Keywords": "CSE, Student-Section",
+      "Year": 2026
+    },
     {
       "ID": 2601,
       "Title": "Civil Engineering Students Secure 1st Runner-Up at Concrete Catalyst 2026",
