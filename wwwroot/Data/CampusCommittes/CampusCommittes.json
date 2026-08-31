@@ -1472,7 +1472,8 @@
         "Department": "Electronics & Communication Engineering Department"
       }
     ],
-    "TableView": true
+    "TableView": true,
+    "ShowDocument": true
   },
   {
     "ID": 16,
