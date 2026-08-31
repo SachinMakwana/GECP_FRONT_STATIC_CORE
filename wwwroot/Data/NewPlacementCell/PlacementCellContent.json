@@ -26,7 +26,7 @@
     "To help students get internships and industry exposure."
   ],
   "Functions": {
-    "Title": "Functions of TNP Cell",
+    "Title": "Workflow of TNP Cell",
     "Description": "The TNP Cell of GEC Patan works strategically in three main directions for comprehensive placement support of students.",
     "Image": "~/images/Placement/Functions_1.png",
     "FunctionsInform": [
@@ -584,5 +584,18 @@
       "Email": "jayesh.prajapati@gecpatan.ac.in",
       "Contact": "9824549615"
     }
-  ]
+  ],
+  "PlacementTabTitles": {
+    "About": "About",
+    "VisionMission": "Vision & Mission",
+    "Objectives": "Objectives",
+    "Functions": "Workflow",
+    "PlacementStatistics": "Placement Statistics",
+    "TopRecruiters": "Top Recruiters",
+    "ActivitiesReports": "Activities Calendar & Reports",
+    "StudentSupport": "Student Support",
+    "RecruitersIndustryCorner": "Recruiters / Industry Corner",
+    "SuccessStories": "Success Stories",
+    "ContactUs": "Contact Us"
+  }
 }

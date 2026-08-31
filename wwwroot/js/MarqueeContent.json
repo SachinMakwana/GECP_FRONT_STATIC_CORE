@@ -1,6 +1,6 @@
 ﻿[
     {
-      "marqueeModelVM": [
+        "marqueeModelVM": [
             {
                 "ID": 1,
                 "Title": "વર્ષ 2026-27 માં સંસ્થામાં એડમીશન લેનાર વિદ્યાર્થીઓ માટે અગત્યની સુચનાઓ",
@@ -8,17 +8,17 @@
                 "FileLink": "~/ImpDocs/IMPORTANT_INSTRUCTIONS_2026_27.pdf",
                 "ControllerName": "",
                 "ActionName": "",
-                "isshow": true,
+                "isshow": false,
                 "isNew": true
             },
             {
                 "ID": 1,
-                "Title": "GEC PATAN, VISITING FACULTY RECRUITMENT 2026-27",
-                "IsFile": false,
-                "FileLink": "",
-                "ControllerName": "CampusCommittee",
-                "ActionName": "CommitteePage",
-                "dynamicID": 17,
+                "Title": "GUJCOST Sponsored State-Level Workshop on Deepfake Detection and Cyber Forensics on 13th and 14th August 2026",
+                "IsFile": true,
+                "FileLink": "~/DataFiles/Documents/Updates/Deepfake Detection Brochure.pdf",
+                "ControllerName": "",
+                "ActionName": "",
+                "dynamicID": null,
                 "isshow": false,
                 "isNew": true
             }
@@ -38,14 +38,26 @@
         },
         {
             "ID": 2,
-            "Title": "Information Booklet 2025-2026",
+            "Title": "Information Booklet 2026-2027",
             "IsFile": true,
-            "FileLink": "~/ImpDocs/Brochure_GECP.pdf",
+            "FileLink": "~/DataFiles/Documents/Infobook/2627.pdf",
             "ControllerName": "",
             "ActionName": "",
             "isshow": true,
-            "isNew": false
-        },
+            "isNew": true
+        }
+        //,
+        //{
+        //    "ID": 3,
+        //    "Title": "3-Days Workshop on Smart Manufacturing: Advanced CAD Design and Rapid Prototyping from 18th to 20th August 2026",
+        //    "IsFile": true,
+        //    "FileLink": "~/DataFiles/Documents/Updates/Three Day Workshop.pdf",
+        //    "ControllerName": "",
+        //    "ActionName": "",
+        //    "dynamicID": null,
+        //    "isshow": false,
+        //    "isNew": true
+        //}
         //,{
         //  "ID": 3,
         //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
@@ -57,15 +69,15 @@
         //  "isshow": false,
         //  "isNew": true
         //}
-        {
-            "ID": 3,
-            "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
-            "IsFile": 1,
-            "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
-            "ControllerName": "",
-            "ActionName": "",
-            "isNew": true
-        }
+        //{
+        //    "ID": 3,
+        //    "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
+        //    "IsFile": 1,
+        //    "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
+        //    "ControllerName": "",
+        //    "ActionName": "",
+        //    "isNew": true
+        //}
     ]
   }
 ]

@@ -616,7 +616,24 @@ table.dataTable thead .sorting_desc_disabled:before {
 
 .me_title {
     background: #999 url(../images/Title/me_banner.jpg) no-repeat center top;
+    /*background: #999 url(../images/Title/me_banner_new.png) no-repeat center top;*/
 }
+
+    .me_title h1::after {
+        content: "NBA Accredited";
+        display: inline-block;
+        margin-top: 12px;
+        padding: 6px 16px;
+        background: linear-gradient(135deg, #ffb300, #ff8f00);
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(255, 143, 0, 0.35);
+        vertical-align: middle;
+    }
 
 .lib_title {
     background: #999 url(../images/Title/lib_banner.jpg) no-repeat center top;
@@ -638,6 +655,10 @@ table.dataTable thead .sorting_desc_disabled:before {
         padding: 20px 0 0 0;
         background-color: #25252575;
     }
+.me_title h1, .cs_title h1 {
+    background-color: transparent;
+}
+
 
 .engg_title {
     background: #999 url(../images/Title/title_banner.jpg) no-repeat center top;
@@ -1012,6 +1033,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     border-right: 1px solid #88aa00;
     border-bottom: 2px solid #556600;
     /* Sharp red backing shadow to give text that authentic old-website "glowing outline" look */
+}
     /*responsive goes here*/
     @media only screen and (max-width: 479px) {
         .client_logos3 .minheight {
