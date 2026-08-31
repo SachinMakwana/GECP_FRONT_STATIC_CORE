@@ -1,96 +1,152 @@
 [
-    {
+  {
+    "ID": 1,
+    "Title": "Electronics And Communication",
+    "TitleImage": "../../images/Title/ec_banner.jpg",
+    "TitleImageCSSClass": "ec_title",
+    "About": "The Electronics and Communication Department at GEC, Patan provides a technology-rich academic environment that enables students to achieve the highest levels of excellence as professionals in the field. The department offers a four-year undergraduate program in Electronics and Communication Engineering. With excellent infrastructure, experienced faculty, and advanced facilities for research, the department ensures that students can hone their skills and stand out among their peers. Established in 2004, the Electronics and Communication Department has been a cornerstone of the institute. It is one of the most sought-after branches, offering the highest number of seats in the state and generating numerous job opportunities. The curriculum covers a wide range of subjects, including AC and Analog Electronics, Digital Electronics, Electrical Machines, Analog and Digital Communication, Fiber Optic Communication, Microwave and Antenna Engineering, Computer Hardware and Networking, Microprocessors and Microcontrollers, Advanced and Wireless Communication, and VLSI. The program also includes elective subjects to provide students with flexibility and depth in specialized areas.",
+    "About_Images": [ "~/images/Department/EC/EC.jpg" ],
+    "showIntake": true,
+    "Intake": 30,
+    "FacultyCount": 9,
+    "AnnualPlacementCount": 15,
+    "LabWorkshop": 7,
+    "Vision": [
+      "To prepare engineers with essential technical knowledge, value-based professional skills for technical upgradation and societal growth."
+    ],
+    "Mission": [
+      "To prepare competent engineers with the ability to solve industrial problems who can raise the living standards of the society.",
+      "To prepare engineers with effective communication skills, professional ethics and leadership qualities."
+    ],
+    "HODMessage": "It is my pleasure and honor to welcome you to the Department of Electronics and Communication Engineering at Government Engineering College, Patan. Electronics and Communication Engineering is a dynamic and ever-evolving branch of engineering, with applications spanning across various disciplines of the profession. Our department is dedicated to equipping students with fundamental concepts as well as the latest advancements through a modern and effective educational process. We take pride in our state-of-the-art laboratory facilities, which are continually upgraded to provide students with ample opportunities to learn, experiment, and innovate. Beyond classroom instruction, we focus on nurturing critical thinking and problem-solving skills, enabling students to confidently adapt to future challenges. We also encourage students to practice the principles they learn in the classroom by engaging in hands-on experiments and real-world applications. I extend my heartfelt congratulations to our dedicated faculty members and talented students for their brilliant and original efforts. I wish all our students and faculty members a fulfilling and successful academic journey.",
+    "HODName": "Prof. Sanjaykumar Joshi",
+    "HOD_Pic": "~/images/Department/EC/HoD.png",
+    "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“It is not enough to wire the world if you ...<b>short-circuit the soul. .” ...</b></h1>",
+    "PEOs": [
+      "Accumulate sound technical knowledge that enables to pursue higher education and research.",
+      "Work in multidisciplinary areas with a strong focus on innovation and entrepreneurship. ",
+      "To inculcate effective communication skills, managerial skills, as well as professional ethics for successful professional career."
+    ],
+    "PSOs": [
+      "An ability to apply the conceptual knowledge of Microelectronics, Signal Processing, Microprocessors/Microcontrollers and Communication Systems to solve industrial problems.",
+      "An ability to solve Electronics and communication Engineering problems using the latest hardware and software."
+    ],
+    "Labs": [
+      {
+        "LabID": 11,
+        "Lab_Image": "~/images/Department/EC/L_201.jpg",
+        "Lab_Name": "L201 ANALOG & DIGITAL ELECTRONICS LABORATORY",
+        "Lab_Details": "This laboratory is equipped with Analog and Digital Electronics trainers, viz.,amplifier, common emitter configuration, common collector configuration,oscillators, multivibrators, power supply, trainers using 555 IC, digital gates,flip flops, counters, and registers kits, etc. Following are few kits: <ul>  <li>• Active band pass filter</li>  <li>• Automatic gain control kit</li>  <li>• Butterworth filter trainer</li><li>• CE configuration of transistor</li>  <li>• DC motor speed control using SCR</li></ul>"
+      },
+      {
+        "LabID": 12,
+        "Lab_Image": "~/images/Department/EC/L_202.png",
+        "Lab_Name": "L202 SIMULATION LABORATORY",
+        "Lab_Details": "This laboratory is equipped with the latest computers with advanced simulation software, viz., MATLAB, Multisim, Visual Studio Code, Keil uVision, Atmel Studio, and Xilinx etc. Laboratory is equipped with:<ul><li>• DIGITAL OSCILLOSCOPE DSOX 2024A</li><li>• Workbench Electronics</li></ul>"
+      },
+      {
+        "LabID": 13,
+        "Lab_Image": "~/images/Department/EC/L_203.png",
+        "Lab_Name": "L203 ELECTRONIC SYSTEM DESIGN LABORATORY",
+        "Lab_Details": "This laboratory consists of multiple electronics workbenches, having a digital storage oscilloscope, multi meter, function generator, and power supply, which can be helpful in testing and measurements of various electronics circuits or systems."
+
+
+      },
+      {
+        "LabID": 14,
+        "Lab_Image": "~/images/Department/EC/L_211.jpg",
+        "Lab_Name": "L211 COMMUNICATION LABORATORY",
+        "Lab_Details": "This laboratory is equipped with Analog and Digital communication trainers, viz., AM, FM, and PM modulation demodulation, superheterodyne receiver, PWM, PPM, PAM, ASK, FSK, PSK kits, Spectrum Analyzer as well as RF and Microwave trainers for microwave communication along with active and passive components. Few trainers are as:<ul><li>• Amplitude Modulation/Demodulation Trainer</li><li>• DSB/SSB AM Receiver</li><li>• Fiber Optics Demonstrator</li><li>• FM Transmitter Receiver Trainer</li><li>• Microwave Bench</li></ul>"
+      },
+      {
+        "LabID": 15,
+        "Lab_Image": "~/images/Department/EC/L_212.jpg",
+        "Lab_Name": "L212 PROJECT LABORATORY",
+        "Lab_Details": "This laboratory is designed to provide students with hands-on experience in research and practical applications across various fields of Electronics and Communication Engineering."
+      },
+      {
+        "LabID": 16,
+        "Lab_Image": "~/images/Department/EC/L_213.jpg",
+        "Lab_Name": "L213 SIGNAL PROCESSING & VLSI LABORATORY",
+        "Lab_Details": "This laboratory consists of various trainers, viz., DSP, FPGA kits, and software required to perform operations on the trainers for Digital Signal Processing, Image Processing, Speech Signal Processing, and VLSI experiments.<ul><li>• DSP Trainer Kit</li><li>• Desktop Computer (ACER- AMD processor 12th generation)</li><li>• Programmable Function Generator, 1 Channel, 50Mhz (AFG3051C)</li></ul>"
+      },
+      {
+        "LabID": 17,
+        "Lab_Image": "~/images/Department/EC/L_214.jpg",
+        "Lab_Name": "L214 EMBEDDED & IoT LABORATORY",
+        "Lab_Details": "This laboratory consists of various trainers of microprocessors, microcontrollers, embedded and IoT boards, viz., 8085, 8086, 8051, AVR, and daughter boards like 8255 I/O interfacing, ADC, DAC, stepper motor controller, Arduino boards, and ESP8266 Node MCU boards. This laboratory provides extensive hands-on experience to design various embedded systems and exposes students to the tools required to turn them into IoTs.<ul><li>• 8051 Microcontroller Trainer Kit</li><li>• 8086 Microprocessor Trainer Kit</li><li>• Interfacing card for ADC, DAC, LCD, seven segment display, stepper motor interfacing card</li></ul>"
+      }
+    ],
+    "DeptAcademicCalender": [
+
+    ],
+    "TimeTable": [ //tender vm object
+
+    ],
+    "Activities": [
+
+    ],
+    "NoticeBoard": [
+    ],
+    "NewsLetter": [
+      {
         "ID": 1,
-        "Title": "Electronics And Communication",
-        "TitleImage": "../../images/Title/ec_banner.jpg",
-        "TitleImageCSSClass": "ec_title",
-        "About": "The Electronics and Communication Department at GEC, Patan provides a technology-rich academic environment that enables students to achieve the highest levels of excellence as professionals in the field. The department offers a four-year undergraduate program in Electronics and Communication Engineering. With excellent infrastructure, experienced faculty, and advanced facilities for research, the department ensures that students can hone their skills and stand out among their peers. Established in 2004, the Electronics and Communication Department has been a cornerstone of the institute. It is one of the most sought-after branches, offering the highest number of seats in the state and generating numerous job opportunities. The curriculum covers a wide range of subjects, including AC and Analog Electronics, Digital Electronics, Electrical Machines, Analog and Digital Communication, Fiber Optic Communication, Microwave and Antenna Engineering, Computer Hardware and Networking, Microprocessors and Microcontrollers, Advanced and Wireless Communication, and VLSI. The program also includes elective subjects to provide students with flexibility and depth in specialized areas.",
-        "About_Images": [ "~/images/Department/EC/EC.jpg" ],
-        "showIntake": true,
-        "Intake": 30,
-        "FacultyCount": 9,
-        "AnnualPlacementCount": 15,
-        "LabWorkshop": 7,
-        "Vision": [
-            "To prepare engineers with essential technical knowledge, value-based professional skills for technical upgradation and societal growth."
-        ],
-        "Mission": [
-            "To prepare competent engineers with the ability to solve industrial problems who can raise the living standards of the society.",
-            "To prepare engineers with effective communication skills, professional ethics and leadership qualities."
-        ],
-        "HODMessage": "It is my pleasure and honor to welcome you to the Department of Electronics and Communication Engineering at Government Engineering College, Patan. Electronics and Communication Engineering is a dynamic and ever-evolving branch of engineering, with applications spanning across various disciplines of the profession. Our department is dedicated to equipping students with fundamental concepts as well as the latest advancements through a modern and effective educational process. We take pride in our state-of-the-art laboratory facilities, which are continually upgraded to provide students with ample opportunities to learn, experiment, and innovate. Beyond classroom instruction, we focus on nurturing critical thinking and problem-solving skills, enabling students to confidently adapt to future challenges. We also encourage students to practice the principles they learn in the classroom by engaging in hands-on experiments and real-world applications. I extend my heartfelt congratulations to our dedicated faculty members and talented students for their brilliant and original efforts. I wish all our students and faculty members a fulfilling and successful academic journey.",
-        "HODName": "Prof. Sanjaykumar Joshi",
-        "HOD_Pic": "~/images/Department/EC/HoD.png",
-        "Tagline": "<h1 class=\"animate fadeIn\" data-anim-type=\"fadeIn\" data-anim-delay=\"200\">“It is not enough to wire the world if you ...<b>short-circuit the soul. .” ...</b></h1>",
-        "PEOs": [
-            "Accumulate sound technical knowledge that enables to pursue higher education and research.",
-            "Work in multidisciplinary areas with a strong focus on innovation and entrepreneurship. ",
-            "To inculcate effective communication skills, managerial skills, as well as professional ethics for successful professional career."
-        ],
-        "PSOs": [
-            "An ability to apply the conceptual knowledge of Microelectronics, Signal Processing, Microprocessors/Microcontrollers and Communication Systems to solve industrial problems.",
-            "An ability to solve Electronics and communication Engineering problems using the latest hardware and software."
-        ],
-        "Labs": [
-            {
-                "LabID": 11,
-                "Lab_Image": "~/images/Department/EC/L_201.jpg",
-                "Lab_Name": "L201 ANALOG & DIGITAL ELECTRONICS LABORATORY",
-                "Lab_Details": "This laboratory is equipped with Analog and Digital Electronics trainers, viz.,amplifier, common emitter configuration, common collector configuration,oscillators, multivibrators, power supply, trainers using 555 IC, digital gates,flip flops, counters, and registers kits, etc. Following are few kits: <ul>  <li>• Active band pass filter</li>  <li>• Automatic gain control kit</li>  <li>• Butterworth filter trainer</li><li>• CE configuration of transistor</li>  <li>• DC motor speed control using SCR</li></ul>"
-            },
-            {
-                "LabID": 12,
-                "Lab_Image": "~/images/Department/EC/L_202.png",
-                "Lab_Name": "L202 SIMULATION LABORATORY",
-                "Lab_Details": "This laboratory is equipped with the latest computers with advanced simulation software, viz., MATLAB, Multisim, Visual Studio Code, Keil uVision, Atmel Studio, and Xilinx etc. Laboratory is equipped with:<ul><li>• DIGITAL OSCILLOSCOPE DSOX 2024A</li><li>• Workbench Electronics</li></ul>"
-            },
-            {
-                "LabID": 13,
-                "Lab_Image": "~/images/Department/EC/L_203.png",
-                "Lab_Name": "L203 ELECTRONIC SYSTEM DESIGN LABORATORY",
-                "Lab_Details": "This laboratory consists of multiple electronics workbenches, having a digital storage oscilloscope, multi meter, function generator, and power supply, which can be helpful in testing and measurements of various electronics circuits or systems."
-
-
-            },
-            {
-                "LabID": 14,
-                "Lab_Image": "~/images/Department/EC/L_211.jpg",
-                "Lab_Name": "L211 COMMUNICATION LABORATORY",
-                "Lab_Details": "This laboratory is equipped with Analog and Digital communication trainers, viz., AM, FM, and PM modulation demodulation, superheterodyne receiver, PWM, PPM, PAM, ASK, FSK, PSK kits, Spectrum Analyzer as well as RF and Microwave trainers for microwave communication along with active and passive components. Few trainers are as:<ul><li>• Amplitude Modulation/Demodulation Trainer</li><li>• DSB/SSB AM Receiver</li><li>• Fiber Optics Demonstrator</li><li>• FM Transmitter Receiver Trainer</li><li>• Microwave Bench</li></ul>"
-            },
-            {
-                "LabID": 15,
-                "Lab_Image": "~/images/Department/EC/L_212.jpg",
-                "Lab_Name": "L212 PROJECT LABORATORY",
-                "Lab_Details": "This laboratory is designed to provide students with hands-on experience in research and practical applications across various fields of Electronics and Communication Engineering."
-            },
-            {
-                "LabID": 16,
-                "Lab_Image": "~/images/Department/EC/L_213.jpg",
-                "Lab_Name": "L213 SIGNAL PROCESSING & VLSI LABORATORY",
-                "Lab_Details": "This laboratory consists of various trainers, viz., DSP, FPGA kits, and software required to perform operations on the trainers for Digital Signal Processing, Image Processing, Speech Signal Processing, and VLSI experiments.<ul><li>• DSP Trainer Kit</li><li>• Desktop Computer (ACER- AMD processor 12th generation)</li><li>• Programmable Function Generator, 1 Channel, 50Mhz (AFG3051C)</li></ul>"
-            },
-            {
-                "LabID": 17,
-                "Lab_Image": "~/images/Department/EC/L_214.jpg",
-                "Lab_Name": "L214 EMBEDDED & IoT LABORATORY",
-                "Lab_Details": "This laboratory consists of various trainers of microprocessors, microcontrollers, embedded and IoT boards, viz., 8085, 8086, 8051, AVR, and daughter boards like 8255 I/O interfacing, ADC, DAC, stepper motor controller, Arduino boards, and ESP8266 Node MCU boards. This laboratory provides extensive hands-on experience to design various embedded systems and exposes students to the tools required to turn them into IoTs.<ul><li>• 8051 Microcontroller Trainer Kit</li><li>• 8086 Microprocessor Trainer Kit</li><li>• Interfacing card for ADC, DAC, LCD, seven segment display, stepper motor interfacing card</li></ul>"
-            }
-        ],
-        "DeptAcademicCalender": [
-
-        ],
-        "TimeTable": [ //tender vm object
-
-        ],
-        "Activities": [
-
-        ],
-        "NoticeBoard": [
-        ],
-        "NewsLetter": [
-        ]
-    },
+        "Title": "EC Newsletter 2022 (July -Dec)",
+        "FileType": "PDF",
+        "File": "~/Data/Newsletter/EC Newsletter 2022 (July -Dec).pdf",
+        "isShow": true,
+        "UploadDate": "31-08-2026"
+      },
+      {
+        "ID": 2,
+        "Title": "EC Newsletter 2023 (Jan-June)",
+        "FileType": "PDF",
+        "File": "~/Data/Newsletter/EC Newsletter 2023 (Jan-June).pdf",
+        "isShow": true,
+        "UploadDate": "31-08-2026"
+      },
+      {
+        "ID": 3,
+        "Title": "EC Newsletter 2023 (July -Dec)",
+        "FileType": "PDF",
+        "File": "~/Data/Newsletter/EC Newsletter 2023 (July -Dec).pdf",
+        "isShow": true,
+        "UploadDate": "31-08-2026"
+      },
+      {
+        "ID": 4,
+        "Title": "EC Newsletter 2024 (Jan-June)",
+        "FileType": "PDF",
+        "File": "~/Data/Newsletter/EC Newsletter 2024 (Jan-June).pdf",
+        "isShow": true,
+        "UploadDate": "31-08-2026"
+      },
+      {
+        "ID": 5,
+        "Title": "EC Newsletter 2024 (July -Dec)",
+        "FileType": "PDF",
+        "File": "~/Data/Newsletter/EC Newsletter 2024 (July -Dec).pdf",
+        "isShow": true,
+        "UploadDate": "31-08-2026"
+      },
+      {
+        "ID": 6,
+        "Title": "EC Newsletter 2025 (Jan-June)",
+        "FileType": "PDF",
+        "File": "~/Data/Newsletter/EC Newsletter 2025 (Jan-June).pdf",
+        "isShow": true,
+        "UploadDate": "31-08-2026"
+      },
+      {
+        "ID": 7,
+        "Title": "EC Newsletter 2025 (July -Dec)",
+        "FileType": "PDF",
+        "File": "~/Data/Newsletter/EC Newsletter 2025 (July -Dec).pdf",
+        "isShow": true,
+        "UploadDate": "31-08-2026"
+      }
+    ]
+  },
     {
         "ID": 2,
         "Title": "Computer Science & Engineering",
