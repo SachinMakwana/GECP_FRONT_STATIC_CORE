@@ -89,62 +89,62 @@
     "NoticeBoard": [
     ],
     "NewsLetter": [
-      {
-        "ID": 1,
-        "Title": "EC Newsletter 2022 (July -Dec)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/EC Newsletter 2022 (July -Dec).pdf",
-        "isShow": true,
-        "UploadDate": "31-08-2026"
-      },
-      {
-        "ID": 2,
-        "Title": "EC Newsletter 2023 (Jan-June)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/EC Newsletter 2023 (Jan-June).pdf",
-        "isShow": true,
-        "UploadDate": "31-08-2026"
-      },
-      {
-        "ID": 3,
-        "Title": "EC Newsletter 2023 (July -Dec)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/EC Newsletter 2023 (July -Dec).pdf",
-        "isShow": true,
-        "UploadDate": "31-08-2026"
-      },
-      {
-        "ID": 4,
-        "Title": "EC Newsletter 2024 (Jan-June)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/EC Newsletter 2024 (Jan-June).pdf",
-        "isShow": true,
-        "UploadDate": "31-08-2026"
-      },
-      {
-        "ID": 5,
-        "Title": "EC Newsletter 2024 (July -Dec)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/EC Newsletter 2024 (July -Dec).pdf",
-        "isShow": true,
-        "UploadDate": "31-08-2026"
-      },
-      {
-        "ID": 6,
-        "Title": "EC Newsletter 2025 (Jan-June)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/EC Newsletter 2025 (Jan-June).pdf",
-        "isShow": true,
-        "UploadDate": "31-08-2026"
-      },
-      {
-        "ID": 7,
-        "Title": "EC Newsletter 2025 (July -Dec)",
-        "FileType": "PDF",
-        "File": "~/Data/Newsletter/EC Newsletter 2025 (July -Dec).pdf",
-        "isShow": true,
-        "UploadDate": "31-08-2026"
-      }
+        {
+            "ID": 1,
+            "Title": "EC Newsletter 2022 (July -Dec)",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/Newsletter/EC/EC Newsletter 2022 (July -Dec).pdf",
+            "isShow": true,
+            "UploadDate": "31-08-2026"
+        },
+        {
+            "ID": 2,
+            "Title": "EC Newsletter 2023 (Jan-June)",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/Newsletter/EC/EC Newsletter 2023 (Jan-June).pdf",
+            "isShow": true,
+            "UploadDate": "31-08-2026"
+        },
+        {
+            "ID": 3,
+            "Title": "EC Newsletter 2023 (July -Dec)",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/Newsletter/EC/EC Newsletter 2023 (July -Dec).pdf",
+            "isShow": true,
+            "UploadDate": "31-08-2026"
+        },
+        {
+            "ID": 4,
+            "Title": "EC Newsletter 2024 (Jan-June)",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/Newsletter/EC/EC Newsletter 2024 (Jan-June).pdf",
+            "isShow": true,
+            "UploadDate": "31-08-2026"
+        },
+        {
+            "ID": 5,
+            "Title": "EC Newsletter 2024 (July -Dec)",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/Newsletter/EC/EC Newsletter 2024 (July -Dec).pdf",
+            "isShow": true,
+            "UploadDate": "31-08-2026"
+        },
+        {
+            "ID": 6,
+            "Title": "EC Newsletter 2025 (Jan-June)",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/Newsletter/EC/EC Newsletter 2025 (Jan-June).pdf",
+            "isShow": true,
+            "UploadDate": "31-08-2026"
+        },
+        {
+            "ID": 7,
+            "Title": "EC Newsletter 2025 (July -Dec)",
+            "FileType": "PDF",
+            "File": "~/DataFiles/Documents/Newsletter/EC/EC Newsletter 2025 (July -Dec).pdf",
+            "isShow": true,
+            "UploadDate": "31-08-2026"
+        }
     ]
   },
     {
@@ -554,7 +554,7 @@
                 "ID": 1,
                 "Title": "Torque Talk (2021-22)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (2021-22).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (2021-22).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
@@ -562,7 +562,7 @@
                 "ID": 2,
                 "Title": "Torque Talk (July- Dec 2022)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2022).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (July- Dec 2022).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
@@ -570,7 +570,7 @@
                 "ID": 3,
                 "Title": "Torque Talk (Jan- June 2023)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2023).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (Jan- June 2023).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
@@ -578,7 +578,7 @@
                 "ID": 4,
                 "Title": "Torque Talk (July- Dec 2023)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2023).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (July- Dec 2023).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
@@ -586,7 +586,7 @@
                 "ID": 5,
                 "Title": "Torque Talk (Jan- June 2024)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2024).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (Jan- June 2024).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
@@ -595,7 +595,7 @@
                 "ID": 6,
                 "Title": "Torque Talk (July- Dec 2024)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (July- Dec 2024).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (July- Dec 2024).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
@@ -603,7 +603,7 @@
                 "ID": 7,
                 "Title": "Torque Talk (Jan- June 2025)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (Jan- June 2025).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (Jan- June 2025).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             },
@@ -612,7 +612,7 @@
                 "ID": 8,
                 "Title": "Torque Talk (July-Dec 2025)",
                 "FileType": "PDF",
-                "File": "~/Data/Newsletter/Torque Talk (July-Dec 2025).pdf",
+                "File": "~/DataFiles/Documents/Newsletter/Mech/Torque Talk (July-Dec 2025).pdf",
                 "isShow": true,
                 "UploadDate": "12-08-2025"
             }
