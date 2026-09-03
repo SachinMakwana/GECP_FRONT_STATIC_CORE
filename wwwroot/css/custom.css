@@ -270,7 +270,8 @@ a {
 }
 
 .slidermar {
-    margin-top: 60px !important;
+    /*margin-top: 60px !important;*/
+    margin-top: 0px !important;
 }
 
 .top_section2 {
@@ -619,11 +620,11 @@ table.dataTable thead .sorting_desc_disabled:before {
     /*background: #999 url(../images/Title/me_banner_new.png) no-repeat center top;*/
 }
 
-    /*.me_title h1::after {
-        content: "NBA Accredited";
+    .me_title h1::after {
+        content: "NBA Accredited\A 01/01/2026 to 31/12/2028";
         display: inline-block;
         margin-top: 12px;
-        padding: 6px 16px;
+        padding: 8px 20px;
         background: linear-gradient(135deg, #ffb300, #ff8f00);
         color: #fff;
         font-size: 30px;
@@ -633,25 +634,8 @@ table.dataTable thead .sorting_desc_disabled:before {
         border-radius: 20px;
         box-shadow: 0 4px 10px rgba(255, 143, 0, 0.35);
         vertical-align: middle;
-    }*/
-    .me_title h1::after {
-        /* 1. Change to block to force it to drop to a new line */
-        display: block;
-        /* 2. Add your text directly inside the string */
-        content: "NBA Accredited (2024 - 2027)";
-        margin-top: 12px;
-        padding: 6px 16px;
-        background: linear-gradient(135deg, #ffb300, #ff8f00);
-        color: #fff;
-        font-size: 30px;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        border-radius: 20px;
-        box-shadow: 0 4px 10px rgba(255, 143, 0, 0.35);
-        vertical-align: middle;
-        /* Optional: Keeps a long block string centered or tight to text content */
-        width: max-content;
+        white-space: pre-line;
+        text-align: center;
     }
 .lib_title {
     background: #999 url(../images/Title/lib_banner.jpg) no-repeat center top;
