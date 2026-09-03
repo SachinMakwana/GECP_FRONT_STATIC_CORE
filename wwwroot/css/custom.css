@@ -619,7 +619,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     /*background: #999 url(../images/Title/me_banner_new.png) no-repeat center top;*/
 }
 
-    .me_title h1::after {
+    /*.me_title h1::after {
         content: "NBA Accredited";
         display: inline-block;
         margin-top: 12px;
@@ -633,8 +633,26 @@ table.dataTable thead .sorting_desc_disabled:before {
         border-radius: 20px;
         box-shadow: 0 4px 10px rgba(255, 143, 0, 0.35);
         vertical-align: middle;
+    }*/
+    .me_title h1::after {
+        /* 1. Change to block to force it to drop to a new line */
+        display: block;
+        /* 2. Add your text directly inside the string */
+        content: "NBA Accredited (2024 - 2027)";
+        margin-top: 12px;
+        padding: 6px 16px;
+        background: linear-gradient(135deg, #ffb300, #ff8f00);
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(255, 143, 0, 0.35);
+        vertical-align: middle;
+        /* Optional: Keeps a long block string centered or tight to text content */
+        width: max-content;
     }
-
 .lib_title {
     background: #999 url(../images/Title/lib_banner.jpg) no-repeat center top;
 }
@@ -1034,6 +1052,145 @@ table.dataTable thead .sorting_desc_disabled:before {
     border-bottom: 2px solid #556600;
     /* Sharp red backing shadow to give text that authentic old-website "glowing outline" look */
 }
+
+/* ==========================================================================
+                   CSS Grid Slider Override Rules (Bypasses Broken Library Sizing)
+                   ========================================================================== */
+
+/* 1. Force the parent module box to strictly lock its 25% boundary */
+#VideoCarousel, #AlumniCarousel {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    position: relative !important;
+    overflow: hidden !important; /* Clips runway horizontal elements */
+}
+
+    /* 2. Turn the inner outer wrapper block into a rigid viewing box container */
+    #VideoCarousel .owl-wrapper-outer, #AlumniCarousel .owl-wrapper-outer {
+        display: block !important;
+        width: 100% !important;
+        overflow: hidden !important;
+    }
+
+    /* 3. THE FIX: Force the track line into a standard row lane with CSS Grid */
+    #VideoCarousel .owl-wrapper, #AlumniCarousel .owl-wrapper {
+        display: grid !important;
+        grid-auto-flow: column !important; /* Forces all child items to sit on a horizontal line */
+        grid-auto-columns: 100% !important; /* Forces every slide item to be exactly 100% of your 25% box */
+        width: auto !important; /* Erases library calculated track sizes */
+        /* Re-enables the slide translation animations */
+        transition: transform 1500ms ease !important;
+    }
+
+    /* 4. Individual Slide Card Flow Mechanics */
+    #VideoCarousel .owl-item, #AlumniCarousel .owl-item {
+        float: none !important; /* Removes broken dynamic layout parameters */
+        width: 100% !important; /* Syncs width to the Grid Column container specifications */
+        max-width: 100% !important;
+    }
+
+/* 5. Individual Content Fit Dimensions & Centering */
+.carousel-slide-item {
+    width: 100% !important;
+    height: 290px !important; /* Your rigid required design height */
+    background: #000000; /* Dark background padding fill */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden;
+    margin: 0 auto !important;
+}
+
+.carousel-video-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+
+    /* Force the iframe/images to scale natively to the parent space */
+    .carousel-video-wrapper iframe,
+    .carousel-slide-item img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important; /* Prevents stretching and centers gracefully */
+        border: none !important;
+        display: block !important;
+    }
+
+/* 6. Navigation Control Circles Layout Overrides */
+#VideoCarousel .owl-controls, #AlumniCarousel .owl-controls {
+    position: absolute !important;
+    top: 50% !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: translateY(-50%) !important;
+    pointer-events: none !important; /* Keeps the transparent wrapper bar clickable */
+    z-index: 9999 !important;
+    width: 100% !important;
+    margin-top: 0px !important;
+}
+
+#VideoCarousel .owl-buttons div, #AlumniCarousel .owl-buttons div {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #ffffff !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 32px !important;
+    text-align: center !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    pointer-events: auto !important; /* Restores button clickability */
+    border-radius: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+    #VideoCarousel .owl-buttons div:hover, #AlumniCarousel .owl-buttons div:hover {
+        background: #5076bb !important;
+    }
+
+#VideoCarousel .owl-prev, #AlumniCarousel .owl-prev {
+    left: 8px !important;
+    right: auto !important;
+}
+
+#VideoCarousel .owl-next, #AlumniCarousel .owl-next {
+    right: 8px !important;
+    left: auto !important;
+}
+/* 1. Make sure your parent slide boxes know how to manage absolute tracking positioning layers */
+.carousel-slide-item {
+    position: relative !important; /* Critical to lock the caption block to the bottom of this box */
+}
+
+    /* 2. Transparent caption overlay rules */
+    .carousel-slide-item .carousel-caption {
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        /* Transparent layout formatting styling values */
+        background: rgba(0, 0, 0, 0.6) !important; /* Adjust the 0.6 value up or down to tweak visibility transparency */
+        color: #ffffff !important; /* Solid crisp white typography */
+        /* Layout text flow spacing rules */
+        padding: 10px 14px !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        z-index: 10 !important; /* Forces it to overlay on top of images/video backdrops */
+        /* Prevents messy multi-line breakage inside small column spaces */
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important; /* Automatically cuts off long strings with clean trailing dots '...' */
+
+        pointer-events: none !important; /* Stops the caption bar from blocking interaction tracker hits on video buttons */
+    }
+
     /*responsive goes here*/
     @media only screen and (max-width: 479px) {
         .client_logos3 .minheight {

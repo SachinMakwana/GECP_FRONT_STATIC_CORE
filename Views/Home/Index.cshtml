@@ -6,8 +6,9 @@
     int currentYear = DateTime.Now.Year;
 }
 
-@Html.Partial("_slider",Model.masterSliderVM)
+@* @Html.Partial("_slider",Model.masterSliderVM) *@
 <div class="featured_section13">
+    <div class="clearfix margin_top11"></div>
     @if (Model.marqueeModelVM != null && Model.marqueeModelVM.Any(x => x.isshow))
     {
         var activeItems = Model.marqueeModelVM.Where(x => x.isshow).ToList();
@@ -65,152 +66,31 @@
             </div>
         </div>
     }
-    <div class="clearfix margin_top5"></div>
+
+    <div class="clearfix"></div>
+
     <div class="full-container">
-        
-            <h1 class=" animate" data-anim-type="fadeIn" data-anim-delay="100">
-                Welcome to Government Engineering College,Patan
-                <div class="clearfix margin_top5"></div>
-                @* <div class="divider_line11belownews"></div> *@
-            </h1>
 
-        <div class="New_container">
+        <!-- 💡 CO-JOINED SPLIT GRID CONTAINER FOR SCREENSHOT LAYOUT -->
+        <div class="bg-light">
+        <div class="hero-split-showcase">
 
-            <div class="updates_section">
-           
-
-                <ul>
-                    <li class="tab-heading">UPDATES</li>
-                </ul><!-- /# end tab links -->
-
-                <div style="min-height:270px;">
-                    <div>
-                        <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:225px;">
-                            <ul class="newssection">
-                                @if (Model.updateModelVM == null || !Model.updateModelVM.Any())
-                                {
-                                    <li><strong>NO UPDATES FOUND</strong></li>
-                                }
-                                else
-                                {
-                                    foreach (var item in Model.updateModelVM)
-                                    {   
-                                        if (item.IsFile)
-                                        {
-                                            <li>
-                                                <!-- Only shows badge if item.IsNew is true in JSON -->
-                                                <a href="@Url.Content(item.FileLink)" target="_blank">@item.Title</a>
-                                                @if (item.isNew)
-                                                {
-                                                    <span class="badge-new">New</span>
-                                                }
-                                                
-                                            </li>
-                                        }
-                                        else if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
-                                        {
-                                            <li>
-                                                <!-- Only shows badge if item.IsNew is true in JSON -->
-                                                <a href="@Url.Action("NEWSDetail", "Institute", new { @id = item.ID })">@item.Title</a>
-                                                @if (item.isNew)
-                                                {
-                                                    <span class="badge-new">New</span>
-                                                }
-                                                
-                                            </li>
-                                        }
-                                        else if (!string.IsNullOrWhiteSpace(item.dynamicID))
-                                        {   <li>
-                                            <a href="@Url.Action(item.ActionName, item.ControllerName, new { @id = item.dynamicID })">
-                                                @item.Title
-                                            </a>
-                                                @if (item.isNew)
-                                                {
-                                                    <span class="badge-new">New</span>
-                                                }
-                                            </li>
-                                        }
-                                        else
-                                        {
-                                            <li>
-                                                <!-- Only shows badge if item.IsNew is true in JSON -->
-                                                <a href="@Url.Action(item.ActionName, item.ControllerName)"> @item.Title </a>
-                                                @if (item.isNew)
-                                                {
-                                                    <span class="badge-new">New</span>
-                                                }
-                                                
-                                            </li>
-                                        }
-                                    }
-                                }
-                            </ul>
-                        </marquee>
-                    </div>
-                </div>
-            </div>
-            
-
-            <div class="one_halfs">
-                <div class="one_fourth">
-
-                    <img src="@Url.Content("~/images/Home/icon1.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="100" />
-
-                    <h4 class="color2">Five UG Engineering Programs</h4>
-
-                    <br /><br />
-                    @*<a href="#" class="but_calendar">Read More</a>*@
-
-                </div>
-                <!-- end section -->
-
-                <div class="one_fourth">
-
-                    <img src="@Url.Content("~/images/Home/icon2.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="200" />
-
-                    <h4 class="color2">Well Qualified Faculties</h4>
-
-                    <br /><br />
-                    @*<a href="#" class="but_calendar">Read More</a>*@
-
-                </div>
-                <!-- end section -->
-
-                <div class="one_fourth">
-
-                    <img src="@Url.Content("~/images/Home/icon3.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="300" />
-
-                    <h4 class="color2">Center of Excellence</h4>
-
-                    <br /><br />
-                    @*<a href="#" class="but_calendar">Read More</a>*@
-
-                </div>
-                <!-- end section -->
-
-                <div class="one_fourth last">
-
-                    <img src="@Url.Content("~/images/Home/icon4.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="400" />
-
-                    <h4 class="color2">Holistic Development of Students</h4>
-
-                    <br /><br />
-                    @*<a href="#" class="but_calendar">Read More</a>*@
-
-                </div>
-            <!-- end section -->
+            <!-- Left Grid Pane: Injects Main Banner Slider component -->
+            <div class="hero-main-slider-pane">
+                @Html.Partial("_slider", Model.masterSliderVM)
             </div>
 
-            <div class="updates_section">
+            <!-- Right Grid Pane: Notice Board Panel Box container -->
+            <div class="updates_section hero-notice-board-pane margin_top6">
 
 
                 <ul>
                     <li class="tab-heading">ACTIVITIES</li>
                 </ul>
 
-                <div style="min-height:270px;">
+                <div style="min-height:530px;">
                     <div>
-                        <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:225px;">
+                        <marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:490px;">
                             <ul class="newssection">
                                 @if (Model.activitymarqueeModelVM == null || !Model.activitymarqueeModelVM.Any())
                                 {
@@ -219,12 +99,12 @@
                                 else
                                 {
                                     foreach (var item in Model.activitymarqueeModelVM.Where(m => m.Year == currentYear).OrderByDescending(m => DateTime.ParseExact(
-							m.EventDate,
-							"dd-MM-yyyy",
-							CultureInfo.InvariantCulture
-							)).ToList())
+                                    m.EventDate,
+                                    "dd-MM-yyyy",
+                                    CultureInfo.InvariantCulture
+                                    )).ToList())
                                     {
-                                        
+
                                         if (string.IsNullOrWhiteSpace(item.ActionName) && string.IsNullOrWhiteSpace(item.ControllerName))
                                         {
                                             <li><a href="@Url.Action("Activities", "CampusCommittee", new { @id = item.ID })" target="_blank">@item.Title</a></li>
@@ -238,14 +118,96 @@
                             </ul>
                         </marquee>
                     </div>
-                                            <div class="clearfix"></div>
+                    <div class="clearfix"></div>
                     <a href="@Url.Action("AllActivities", "CampusCommittee")" class="btn btn-success">View All</a>
+            </div>
+
+        </div> <!-- End Hero Split Showcase Grid Container -->
+
+       
+    </div>
+        </div>
+        <div class="clearfix margin_bottom5"></div>
+        <div class="New_container">
+
+            <!-- 1. Left Hand Side Component: Updates / Notice Board -->
+            <div class="updates_section">
+                <ul style="margin-bottom:0px;">
+                    <li class="tab-heading">Notable Alumni</li>
+                </ul>
+                <div id="AlumniCarousel" class="owl-carousel">
+                    @foreach (var item in Model.videoCarouselVMs)
+                    {
+                        if (item.isIframe)
+                        {
+                            <div class="carousel-slide-item type-video">
+                                <div class="carousel-video-wrapper">@Html.Raw(item.iFrame)</div>
+                                <div class="carousel-caption">@item.Title</div>
+                            </div>
+                        }
+                        else if (!string.IsNullOrWhiteSpace(item.Image))
+                        {
+                            <div class="carousel-slide-item type-image">
+                                <img src="@Url.Content(item.Image)" alt="" class="rimg">
+                                <div class="carousel-caption">@item.Title</div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+
+            <!-- 2. 💡 THE FIX: Changed class from "one_half" to "center_icons_section" -->
+            <div class="center_icons_section">
+                <div class="icon_grid_box">
+                    <img src="@Url.Content("~/images/Home/icon1.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="100" />
+                    <h4 class="color2">Five UG Engineering Programs</h4>
                 </div>
 
+                <div class="icon_grid_box">
+                    <img src="@Url.Content("~/images/Home/icon2.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="200" />
+                    <h4 class="color2">Well Qualified Faculties</h4>
+                </div>
 
-            </div><!-- end section -->
+                <div class="icon_grid_box">
+                    <img src="@Url.Content("~/images/Home/icon3.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="300" />
+                    <h4 class="color2">Center of Excellence</h4>
+                </div>
+
+                <div class="icon_grid_box">
+                    <img src="@Url.Content("~/images/Home/icon4.jpg")" alt="" class="cirimg animate" data-anim-type="zoomIn" data-anim-delay="400" />
+                    <h4 class="color2">Holistic Development of Students</h4>
+                </div>
+            </div>
+
+            <!-- 3. Right Hand Side Component: Latest Shots Panel -->
+            <div class="updates_section">
+                <ul style="margin-bottom:0px;">
+                    <li class="tab-heading">Latest Shots</li>
+                </ul>
+                <div id="VideoCarousel" class="owl-carousel">
+                    @foreach (var item in Model.videoCarouselVMs)
+                    {
+                        if (item.isIframe)
+                        {
+                            <div class="carousel-slide-item type-video">
+                                <div class="carousel-video-wrapper">@Html.Raw(item.iFrame)</div>
+                                <div class="carousel-caption">@item.Title</div>
+                            </div>
+                        }
+                        else if (!string.IsNullOrWhiteSpace(item.Image))
+                        {
+                            <div class="carousel-slide-item type-image">
+                                <img src="@Url.Content(item.Image)" alt="" class="rimg">
+                                <div class="carousel-caption">@item.Title</div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+
         </div>
-    </div>
+        
+</div>
 </div>
 <!-- end featured section 13 -->
 <div class="clearfix margin_top5"></div>
@@ -493,30 +455,32 @@
 
             $('.show1');
             $('#pop1').simplePopup();
+
+			
            
         });
     </script>
     <script src="@Url.Content("~/js/masterslider/masterslider.min.js")"></script>
     <script type="text/javascript">
-        (function ($) {
-            "use strict";
-            var slider = new MasterSlider();
-            // adds Arrows navigation control to the slider.
-            slider.control('arrows');
-            slider.control('bullets');
+		(function ($) {
+			"use strict";
+			var slider = new MasterSlider();
+			// adds Arrows navigation control to the slider.
+			slider.control('arrows');
+			//slider.control('bullets');
 
-            slider.setup('masterslider', {
-                width: 1400, // slider standard width
-                height: 680, // slider standard height
-                space: 0,
-                speed: 45,
-                layout: 'fullwidth',
-                loop: true,
-                preload: 0,
-                autoplay: true,
-                view: "parallaxMask"
-            });
-        })(jQuery);
+			slider.setup('masterslider', {
+				width: 1400, // This remains the standard base aspect ratio width
+				height: 680, // This remains the standard base aspect ratio height
+				space: 0,
+				speed: 45,
+				layout: 'fillwidth', // 💡 CHANGED from 'fullwidth' to fit perfectly inside the 71% column
+				loop: true,
+				preload: 0,
+				autoplay: true,
+				view: "parallaxMask"
+			});
+		})(jQuery);
     </script>
     <script type="text/javascript">
         (function ($) {
@@ -556,188 +520,9 @@
     <!-- modal window -->
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/modalwindow/style.css")" />
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/assets/css/responsive-tabs3.css")">
-    <style>
-        .text-center {
-            text-align: center !important;
-        }
     
-        .large-text {
-            font-size: 20px;
-            width:98%;
-        }
-
-        .one_half ul {
-            list-style: none; /* Removes default bullets */
-            padding-left: 0;
-        }
-
-        .one_half ul li {
-            display: flex;
-            align-items: center; /* Aligns text with the icon */
-            gap: 10px; /* Adds space between the icon and text */
-            margin-bottom: 8px; /* Adds spacing between list items */
-        }
-
-        .one_half ul li i {
-            color: #007bff; /* Change color as needed */
-            font-size: 18px; /* Adjust icon size */
-        }
-
-        .vision-container {
-            text-align: center; /* Centers inline elements like <i> */
-            margin-top: 10px;
-        }
-
-        .vision-container i {
-            font-size: 60px; /* Adjust the size as needed */
-            color: #007bff; /* Blue color */
-        }
-
-        .large-text {
-            font-size: 25px;
-            text-align: center; /* Centers the paragraph text */
-        }
-
-        .text-justify{
-            font-size : 18px;
-        }
-        .one_half {
-            margin-right : 2%;
-        }
-
-
-       
-
-        .tab-heading {
-            background-color: #4f75ba;
-            font-display: block;
-            color: white;
-            padding: 10px;
-        }
-        .New_container {
-            display: inline-flex;
-            gap: 1%;
-            flex-wrap: wrap; /* Optional: Helps for responsiveness */
-        }
-        .updates_section {
-            width : 25%;
-            padding : 0%;
-            border-left: 1px solid #000;
-            border-bottom: 1px solid #000;
-            border-top: 1px solid #000;
-            border-right: 1px solid #000;
-        }
-
-        .one_halfs {
-            width: 48%;
-            position: relative;
-            float: left;
-            margin-top: 20px;
-        }
-        .principalimage img{
-            max-height: 375px;
-            border-radius: 50px;
-            border: 3px solid #5076bb;
-            box-shadow: 10px 10px 5px grey;
-        }
-        .principalimage{
-            padding-top: 5%;
-        }
-        .principalname{
-            font-size: 30px;
-            line-height: 25px;
-            margin-bottom: 20px;
-            font-style: italic;
-            font-family: emoji;
-            font-weight: bold;
-            padding-top: 10px;
-        }
-        .principaldesignation{
-            font: 16px 'Open Sans', sans-serif;
-            font-weight: bold;
-            line-height: 23px;
-        }
-
-        .principaldesignations {
-            font: 16px 'Open Sans', sans-serif;
-            line-height: 23px;
-            margin-bottom: 10px;
-        }
-        .principalmessage{
-            padding-top: 4%;
-        }
-
-        marquee {
-            min-height: 225px;
-            padding-left: 7px;
-            padding-right: 7px;
-            height: 200px;
-        }
-        /* 1. The Outer Container */
-        .marquee-container {
-            position: relative;
-            width: 100%;
-            height: 45px;
-            overflow: hidden;
-            background-color: red;
-            border: 1px solid #dee2e6;
-            border-radius: 4px;
-            box-sizing: border-box;
-            display: flex; /* This perfectly vertically centers the moving track inside the 45px box */
-            align-items: center;
-        }
-
-        /* 2. The Inner Track (The ONLY thing that moves) */
-        .marquee-track {
-            display: flex; /* Forces items into a strict row */
-            align-items: center;
-            width: max-content; /* Tells the track to stretch as long as all your links combined */
-            /* The Animation is ONLY applied here */
-            animation: scroll-left 20s linear infinite;
-        }
-
-        /* 3. The Individual Links */
-        .marquee-content {
-            cursor: pointer;
-            color: white;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            font-size: 20px;
-            text-decoration: none;
-            white-space: nowrap;
-            margin: 0 10px; /* Spacing between links */
-        }
-
-        /* 4. The Separator Pipe */
-        .marquee-separator {
-            color: white; /* Ensures the pipe is visible against the red background */
-            font-weight: bold;
-            font-size: 20px;
-            margin: 0 5px;
-        }
-
-        /* 5. Hover Effects */
-        /* Pause the conveyor belt when hovering anywhere over the red container */
-        .marquee-container:hover .marquee-track {
-            animation-play-state: paused;
-        }
-
-        /* Underline only the specific link you are hovering over */
-        .marquee-content:hover {
-            text-decoration: underline;
-            color: white;
-        }
-
-        /* 6. The Animation Keyframes */
-        @@keyframes scroll-left {
-            0% {transform: translateX(100vw); /* Start off-screen right */}
-            100% {transform: translateX(-100%); /* End off-screen left */}
-        }
-        
-    </style>
-
-
     @* <link rel="stylesheet" type="text/css" href="@Url.Content("~/js/tabs/tabwidget/tabwidget.css")"> *@
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/custom.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/custom_home.css")">
 }
 

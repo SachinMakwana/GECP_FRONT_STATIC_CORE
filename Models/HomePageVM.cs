@@ -58,11 +58,27 @@ namespace GECP_Front_End_Static.Models
         public string Anchor2_text { get; set; }
         public string Anchor2_Link { get; set; }
         public bool isShow {  get; set; }
+        public string BottomDescription { get;set; }
+        public string CaptionBgColor {  get; set; }
+        public string CaptionTextColor { get; set; }
     }
     public class JsonDataWrapper
     {
         public List<MarqueeModelVM> marqueeModelVM { get; set; }
         public List<MarqueeModelVM> updateModelVM { get; set; }
+    }
+
+    public class VideoCarouselVM
+    {
+        public int ID { get; set; }
+        public int OrderNo { get; set; }
+        public bool isShow { get; set; }
+        public bool isIframe { get; set; }
+        public string iFrame { get; set; }
+        public string Title { get; set; }
+        public string Image { get; set; }
+        public string Caption { get; set; }
+        public string UploadDate { get; set; }
     }
 
     public class HomePageModelVM
@@ -79,6 +95,8 @@ namespace GECP_Front_End_Static.Models
         public IList<MasterSliderVM> masterSliderVM { get; set; }
 
         public IList<TopMarqueeModelVM> topmarqueeModelVM { get; set; }
+
+        public IList<VideoCarouselVM> videoCarouselVMs { get; set; }
         public HomePageModelVM()
         {
             marqueeModelVM = new List<MarqueeModelVM>();
@@ -88,6 +106,7 @@ namespace GECP_Front_End_Static.Models
             newsModelVM = new List<NEWSModel>();
             masterSliderVM = new List<MasterSliderVM>();
             topmarqueeModelVM = new List<TopMarqueeModelVM>();
+            videoCarouselVMs= new List<VideoCarouselVM>();
         }
     }
 

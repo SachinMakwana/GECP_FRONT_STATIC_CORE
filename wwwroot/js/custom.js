@@ -14,3 +14,27 @@ function openTab(evt, tabId) {
 
 // Get the element with id="defaultOpen" and click on it
 if (document.getElementById("defaultOpen") != null) { document.getElementById("defaultOpen").click(); }
+
+$(function () {
+
+    $("#VideoCarousel").owlCarousel({
+        singleItem: true,
+        responsive: true,
+        navigation: true,
+        navigationText: ["<", ">"],
+        pagination: false,
+        slideSpeed: 1500,
+        paginationSpeed: 2000,
+        rewindSpeed: 2500
+    });
+    $("#AlumniCarousel").owlCarousel({
+        singleItem: true,
+        responsive: true,
+        navigation: true,
+        navigationText: ["<", ">"],
+        pagination: false,
+        slideSpeed: 1500,
+        paginationSpeed: 2000,
+        rewindSpeed: 2500
+    });
+});
