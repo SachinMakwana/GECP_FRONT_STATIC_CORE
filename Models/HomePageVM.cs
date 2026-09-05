@@ -81,6 +81,7 @@ namespace GECP_Front_End_Static.Models
         public string UploadDate { get; set; }
     }
 
+
     public class HomePageModelVM
     {
         public IList<MarqueeModelVM> marqueeModelVM { get; set; }
@@ -98,6 +99,7 @@ namespace GECP_Front_End_Static.Models
 
         public IList<VideoCarouselVM> videoCarouselVMs { get; set; }
         public IList<Recruiter> TopRecruiters { get; set; }
+        public AboutUsVM aboutUsVM { get; set; }
         public HomePageModelVM()
         {
             marqueeModelVM = new List<MarqueeModelVM>();

@@ -286,66 +286,64 @@
 <!-- NEW MERGED ROW CONTAINER: Principal Message (Left) + Vision/Mission (Right) -->
 <div class="full-container info-showcase-split-row">
 
-    <!-- ==================== LEFT HAND SIDE: PRINCIPAL CARD ==================== -->
-    <div class="principal-message-card-pane">
-        <div class="principal-card-flex-wrapper">
-            
-            <!-- Left Sub-Column: Image & Credentials -->
-            <div class="principal-meta-col">
-                <div class="principalimage">
-                    <img src="/images/Faculty/701.jpg" alt="Principal Photo"/>
-                </div>
-                <h4 class="principalname">Dr. Bharat J. Shah</h4>
-                <p class="principaldesignation">PRINCIPAL</p>
-                <p class="principaldesignations">Government Engineering College, Patan</p>
-            </div>
+	<!-- ==================== LEFT HAND SIDE: PRINCIPAL CARD ==================== -->
+	<div class="principal-message-card-pane">
+		<div class="principal-card-flex-wrapper">
 
-            <!-- Right Sub-Column: Message Content Paragraph -->
-            <div class="principal-text-col">
-                <div class="principalmessage">
-                    <h2 class="mb-3">Message from the Principal</h2>
-                    <div class="border-left pl-3" style="border-color: #4f75ba;">
-                        <p style="text-align: justify; font-size: 14px; line-height: 22px;">
-                            "I am delighted to welcome you to Government Engineering College. I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn. In order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state-of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience. I wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities."
-                        </p>
-                    </div>
-                </div>
-            </div>
+			<!-- Left Sub-Column: Image & Credentials -->
+			<div class="principal-meta-col">
+				<div class="principalimage">
+					<img src="@Url.Content(Model.aboutUsVM.PrincipalPhoto)" alt="Principal Photo" />
+				</div>
+				<h4 class="principalname">@Model.aboutUsVM.PrincipalName</h4>
+				<p class="principaldesignation">@Model.aboutUsVM.PrincipalDesignation</p>
+				<p class="principaldesignations">Government Engineering College, Patan</p>
+			</div>
 
-        </div>
-    </div>
+			<!-- Right Sub-Column: Message Content Paragraph -->
+			<div class="principal-text-col">
+				<div class="principalmessage">
+					<h2 class="mb-3">Message from the Principal</h2>
+					<div class="border-left pl-3" style="border-color: #4f75ba;">
+						<p style="text-align: justify; font-size: 14px; line-height: 22px;">
+							@Model.aboutUsVM.PrincipalMessage
+						</p>
+					</div>
+				</div>
+			</div>
 
-    <!-- ==================== RIGHT HAND SIDE: VISION & MISSION ==================== -->
-    <div class="vision-mission-card-pane">
-        
-        <!-- Top Block: Vision Block -->
-        <div class="vision-segment-box stcode_title4">
-            <h3><span class="text"><i class="fa fa-institution" aria-hidden="true"></i><strong> VISION</strong></span></h3>
-            <p class="text-justify" style="font-size: 15px; margin-top: 8px;">
-                To prepare human resources with value-based competency for technical advancements and growth of society.
-            </p>
-        </div>
+		</div>
+	</div>
 
-        <!-- Bottom Block: Mission Block -->
-        <div class="mission-segment-box stcode_title4" style="margin-top: 20px;">
-            <h3><span class="text"><i class="fa fa-mortar-board" aria-hidden="true"></i><strong> MISSION</strong></span></h3>
-            <ul class="text-justify" style="list-style: none; padding-left: 0; margin-top: 8px;">
-                <li style="margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 20px;">
-                    <i class="fa fa-toggle-on" aria-hidden="true" style="color: #4f75ba; margin-top: 3px;"></i> 
-                    <span>To Deliver technical programs and services to cater the current needs of society and industry.</span>
-                </li>
-                <li style="margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 20px;">
-                    <i class="fa fa-toggle-on" aria-hidden="true" style="color: #4f75ba; margin-top: 3px;"></i> 
-                    <span>Helping industries in solving challenges by means of providing best technical human resources.</span>
-                </li>
-                <li style="margin-bottom: 0px; display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 20px;">
-                    <i class="fa fa-toggle-on" aria-hidden="true" style="color: #4f75ba; margin-top: 3px;"></i> 
-                    <span>To contribute in sustainable growth of society.</span>
-                </li>
-            </ul>
-        </div>
+	<!-- ==================== RIGHT HAND SIDE: VISION & MISSION ==================== -->
+	<div class="vision-mission-card-pane">
 
-    </div>
+		<!-- Top Block: Vision Block -->
+		<div class="vision-segment-box stcode_title4">
+			<h3><span class="text"><i class="fa fa-institution" aria-hidden="true"></i><strong> VISION</strong></span></h3>
+			@foreach (var item in @Model.aboutUsVM.Vision)
+			{
+				<p class="text-justify" style="font-size: 15px; margin-top: 8px;">
+					@item
+				</p>
+			}
+		</div>
+
+		<!-- Bottom Block: Mission Block -->
+		<div class="mission-segment-box stcode_title4" style="margin-top: 20px;">
+			<h3><span class="text"><i class="fa fa-mortar-board" aria-hidden="true"></i><strong> MISSION</strong></span></h3>
+			<ul class="text-justify" style="list-style: none; padding-left: 0; margin-top: 8px;">
+				@foreach (var item in @Model.aboutUsVM.Mission)
+				{
+					<li style="margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 20px;">
+						<i class="fa fa-toggle-on" aria-hidden="true" style="color: #4f75ba; margin-top: 3px;"></i>
+						<span>@item</span>
+					</li>
+				}
+			</ul>
+		</div>
+
+	</div>
 
 </div> <!-- End Info Showcase Split Row -->
 
@@ -355,69 +353,35 @@
 <!-- end featured section 14 -->
 <div class="clearfix"></div>
 <!-- 6. Academic Departments Layout Block Links -->
-<div class="featured_section16">
-	<div class="full-container">
+@if (Model.aboutUsVM.Departments.Count() > 0)
+{
+	<div class="featured_section16">
+		<div class="full-container">
 
-		<h1 class="caps text-center">Departments</h1>
+			<h1 class="caps text-center">Departments</h1>
 
-		<!-- 💡 Added structural class 'departments-flex-row' to handle alignment -->
-		<div class="box departments-flex-row">
-			<a href="@Url.Action("DepartmentDetails", "Department", new { @id = 8 })">
-				<div class="hexagon one animate" data-anim-type="spinLeft" data-anim-delay="300">
-					<i class="fa fa-graduation-cap"></i>
-					<h6>Applied Mechanics</h6>
-				</div>
-			</a>
-			<a href="@Url.Action("DepartmentDetails", "Department", new { @id = 1 })">
-				<div class="hexagon six animate" data-anim-type="spinLeft" data-anim-delay="300">
-					<i class="fas fa-microchip"></i>
-					<h6>EC</h6>
-				</div>
-			</a>
-			<a href="@Url.Action("DepartmentDetails", "Department", new { @id = 2 })">
-				<div class="hexagon seven animate" data-anim-type="spinLeft" data-anim-delay="300">
-					<i class="fa fa-desktop"></i>
-					<h6>Computer</h6>
-				</div>
-			</a>
+			<!-- 💡 Added structural class 'departments-flex-row' to handle alignment -->
+			<div class="box departments-flex-row">
+				@foreach (var item in Model.aboutUsVM.Departments.OrderBy(m => m.DepartmentID).ToList())
+				{
+					<a href="@Url.Action("DepartmentDetails", "Department", new { @id = item.DepartmentID })">
+						<div class="hexagon one animate" data-anim-type="spinLeft" data-anim-delay="300">
+							<i class="@item.Icon"></i>
+							<h6>@item.ProgramName</h6>
+						</div>
+					</a>
+				}
+			</div>
 
-			<!-- 💡 REMOVED: Delete the '<div class="clearfix haxmargin"></div>' line that was here -->
-
-			<a href="@Url.Action("DepartmentDetails", "Department", new { @id = 3 })">
-				<div class="hexagon two animate" data-anim-type="spinRight" data-anim-delay="300">
-					<i class="fa fa-bolt"></i>
-					<h6>Electrical</h6>
-				</div>
-			</a>
-			<a href="@Url.Action("DepartmentDetails", "Department", new { @id = 4 })">
-				<div class="hexagon three animate" data-anim-type="spinRight" data-anim-delay="300">
-					<i class="fas fa-hard-hat"></i>
-					<h6>Civil</h6>
-				</div>
-			</a>
-			<a href="@Url.Action("DepartmentDetails", "Department", new { @id = 5 })">
-				<div class="hexagon four animate" data-anim-type="spinRight" data-anim-delay="300">
-					<i class="fa fa-wrench"></i>
-					<h6>Mechanical</h6>
-				</div>
-			</a>
-			<a href="@Url.Action("DepartmentDetails", "Department", new { @id = 6 })">
-				<div class="hexagon five animate" data-anim-type="spinRight" data-anim-delay="300">
-					<i class="fa fa-cogs"></i>
-					<h6>Science & Humanities</h6>
-				</div>
-			</a>
 		</div>
-
 	</div>
-</div>
-
+}
 
 @if (Model.TopRecruiters.Count() > 0)
 {
 	<div class="clearfix "></div>
 	<div class="full-container top-recruiter-section">
-		
+
 		<h1 class="caps text-center">
 			TOP RECRUITERS
 		</h1>

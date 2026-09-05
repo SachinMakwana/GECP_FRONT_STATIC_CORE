@@ -25,6 +25,8 @@ namespace GECP_Front_End_Static.Controllers
         public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
         public List<VideoCarouselVM> VideoCarouselVMData = new List<VideoCarouselVM>();
         public PlacementCellContent PlacementCellContent = new PlacementCellContent();
+        public AboutUsVM AboutUsVMs = new AboutUsVM();
+        public List<ProgramInfo> ProgramIntake = new List<ProgramInfo>();
         public List<MenuVM> MenuVMs = new List<MenuVM>();
         private HeaderVM headerVM = new HeaderVM();
         
@@ -79,6 +81,16 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(placementpath);
             PlacementCellContent = JsonConvert.DeserializeObject<PlacementCellContent>(json);
+
+            var jsonpath = webRootPath + @"\Data\Institute\AboutUs.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            AboutUsVMs = JsonConvert.DeserializeObject<AboutUsVM>(json);
+
+            jsonpath = webRootPath + @"\Data\Institute\ProgramIntake.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            ProgramIntake = JsonConvert.DeserializeObject<List<ProgramInfo>>(json);
         }
 
         public IActionResult Index()
@@ -93,6 +105,8 @@ namespace GECP_Front_End_Static.Controllers
             homePageModelVM.masterSliderVM = MasterSliderVMData;
             homePageModelVM.videoCarouselVMs = VideoCarouselVMData;
             homePageModelVM.TopRecruiters = PlacementCellContent.TopRecruiters;
+            AboutUsVMs.Departments = ProgramIntake;
+            homePageModelVM.aboutUsVM = AboutUsVMs;
             return View(homePageModelVM);
         }
 

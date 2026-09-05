@@ -69,7 +69,7 @@ namespace GECP_Front_End_Static.Controllers
 		}
         public IActionResult AboutUs()
         {
-            AboutUsVM.Programs = ProgramIntake;
+            AboutUsVM.Departments = ProgramIntake;
 
 			return View(AboutUsVM);
         }
