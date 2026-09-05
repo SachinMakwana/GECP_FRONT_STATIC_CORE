@@ -272,6 +272,7 @@ a {
 .slidermar {
     /*margin-top: 60px !important;*/
     margin-top: 0px !important;
+    border: 2px solid #5076bb;
 }
 
 .top_section2 {
@@ -1129,7 +1130,8 @@ table.dataTable thead .sorting_desc_disabled:before {
     font-weight: bold !important;
     cursor: pointer !important;
     pointer-events: auto !important; /* Restores button clickability */
-    border-radius: 50% !important;
+    /*border-radius: 50% !important;*/
+    border-radius: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -1139,12 +1141,14 @@ table.dataTable thead .sorting_desc_disabled:before {
     }
 
 #VideoCarousel .owl-prev, #AlumniCarousel .owl-prev {
-    left: 8px !important;
+    left: 0px !important;
+    /*left: 8px !important;*/
     right: auto !important;
 }
 
 #VideoCarousel .owl-next, #AlumniCarousel .owl-next {
-    right: 8px !important;
+    right: 0px !important;
+    /*right: 8px !important;*/
     left: auto !important;
 }
 /* 1. Make sure your parent slide boxes know how to manage absolute tracking positioning layers */

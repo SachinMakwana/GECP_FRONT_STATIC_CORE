@@ -172,7 +172,7 @@ marquee {
 /* Underline only the specific link you are hovering over */
 .marquee-content:hover {
     text-decoration: underline;
-    color: white;
+    color: red;
 }
 
 /* ==========================================================================
@@ -263,7 +263,7 @@ marquee {
     flex-wrap: nowrap !important; /* 💡 Crucial: Stops the row from breaking down into a 2x2 grid block */
     gap: 10px !important; /* Controls spacing between the icon columns */
     justify-content: space-between !important;
-    margin-top: 10px !important;
+    margin-top: 60px !important ;/*10px !important*/
     box-sizing: border-box !important;
 }
 
@@ -330,6 +330,131 @@ marquee {
 .hero-main-slider-pane #masterslider {
     overflow: hidden !important;
 }
+
+/* ==========================================================================
+   Horizontal Tab Navigation Layout for Sidebar Panel Box
+   ========================================================================== */
+
+/* The header bar row container */
+.notice-tab-header-row {
+    display: flex !important;
+    width: 100% !important;
+    background-color: #f4f6f9;
+    border-bottom: 1px solid #dee2e6;
+    box-sizing: border-box;
+}
+
+/* Individual tab navigation button links styles */
+.notice-tab-btn {
+    flex: 1 !important; /* Forces buttons to split the row width exactly 50/50 */
+    background: none;
+    border: none;
+    outline: none;
+    padding: 12px 10px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #6c757d;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+    /* Mouse hover style adjustments */
+    .notice-tab-btn:hover {
+        color: #4f75ba;
+        background-color: rgba(79, 117, 186, 0.05);
+    }
+
+    /* Active Highlight state matching your theme blue color block headers */
+    .notice-tab-btn.active {
+        color: #ffffff !important;
+        background-color: #4f75ba !important; /* Theme blue header */
+    }
+
+/* Tab Panel Display Visibility Logic Controllers */
+.notice-tab-pane {
+    display: none !important; /* Hides the pane contents by default */
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+    .notice-tab-pane.active {
+        display: block !important; /* Renders content only when active token applied */
+    }
+
+/* ==========================================================================
+   MasterSlider Bottom Horizontal Loading Track Line Overrides
+   ========================================================================== */
+
+/* The background track bar layout constraints */
+#progressBar {
+    position: absolute !important;
+    bottom: 0 !important; /* Locks it flat to the absolute bottom margin */
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 4px !important; /* Set thickness of the line here */
+    background: rgba(255, 255, 255, 0.25) !important; /* Light transparent backdrop */
+    z-index: 9999 !important; /* Keeps it on top of slide canvas layers */
+    overflow: hidden;
+}
+
+    /* The dynamic animated strip line filling from left to right */
+    #bar,
+    #progressBar .ms-time-bar {
+        height: 100% !important;
+        background: linear-gradient(90deg, #ffb300, #ff8f00) !important; /* Golden orange glow theme */
+        box-shadow: 0 0 8px rgba(255, 179, 0, 0.8);
+        transition: width 0.1s linear !important; /* Enforces completely fluid motion mechanics */
+    }
+
+
+/* ==========================================================================
+   Recruiter Carousel Logo Uniform Sizing System Overrides
+   ========================================================================== */
+
+/* 1. Standardize the outer layout frame size bounds for each slide carousel cell */
+#owl-demo .item {
+    padding: 10px 15px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+}
+
+/* 2. Create a clean, centered rigid boundary card frame block */
+.recruiter-logo-card {
+    width: 100% !important;
+    height: 150px !important; /* Establishes a uniform height baseline across all items */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #ffffff !important;
+    border: 1px solid #f1f3f5 !important;
+    border-radius: 4px !important;
+    padding: 8px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease;
+}
+
+    /* Subtle hover pop effect matching your professional layout styles */
+    .recruiter-logo-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        border-color: #dee2e6 !important;
+    }
+
+    /* 3. 💡 THE ULTIMATE IMAGE ALIGNMENT FIX: Prevent logo stretching mechanics */
+    .recruiter-logo-card img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        width: auto !important; /* Breaks the dynamic force-width calculations of the carousel */
+        height: auto !important; /* Breaks the dynamic force-height calculations of the carousel */
+        object-fit: contain !important; /* Forces logos to preserve original proportions inside the uniform card space */
+        display: block !important;
+    }
 
 /* 5. Mobile Responsive Viewports Layout Checklist */
 @media only screen and (max-width: 991px) {

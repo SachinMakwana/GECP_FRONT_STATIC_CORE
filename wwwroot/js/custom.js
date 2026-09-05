@@ -1,4 +1,4 @@
-function openTab(evt, tabId) {
+﻿function openTab(evt, tabId) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -38,3 +38,27 @@ $(function () {
         rewindSpeed: 2500
     });
 });
+
+// Horizontal Tab Switcher for Notice Board
+function switchNoticeTab(event, tabId) {
+    // 1. Hide all tab panes inside the component container boundary
+    $('.notice-tab-pane').removeClass('active');
+
+    // 2. Remove active highlight state from all navigation link button items
+    $('.notice-tab-btn').removeClass('active');
+
+    // 3. Show the targeted tab window element panel lane block
+    $('#' + tabId).addClass('active');
+
+    // 4. Highlight the currently clicked button element target node
+    $(event.currentTarget).addClass('active');
+
+    // 💡 CRUCIAL OWL RE-INITIALIZER HOOK:
+    // When switching back to updates, Owl Carousel needs an offset refresh event to fix its grid sizing cache
+    if (tabId === 'tab-updates') {
+        var owl = $("#VideoCarousel").data('owlCarousel');
+        if (owl) {
+            owl.updateVars();
+        }
+    }
+}

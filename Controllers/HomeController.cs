@@ -24,6 +24,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
         public List<VideoCarouselVM> VideoCarouselVMData = new List<VideoCarouselVM>();
+        public PlacementCellContent PlacementCellContent = new PlacementCellContent();
         public List<MenuVM> MenuVMs = new List<MenuVM>();
         private HeaderVM headerVM = new HeaderVM();
         
@@ -73,6 +74,11 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(MenuJsonpatah);
             MenuVMs = JsonConvert.DeserializeObject<List<MenuVM>>(json);
+
+            var placementpath = webRootPath + @"\Data\NewPlacementCell\PlacementCellContent.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(placementpath);
+            PlacementCellContent = JsonConvert.DeserializeObject<PlacementCellContent>(json);
         }
 
         public IActionResult Index()
@@ -86,6 +92,7 @@ namespace GECP_Front_End_Static.Controllers
             homePageModelVM.newsModelVM = NEWSModelData;
             homePageModelVM.masterSliderVM = MasterSliderVMData;
             homePageModelVM.videoCarouselVMs = VideoCarouselVMData;
+            homePageModelVM.TopRecruiters = PlacementCellContent.TopRecruiters;
             return View(homePageModelVM);
         }
 
