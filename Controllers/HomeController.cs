@@ -32,7 +32,7 @@ namespace GECP_Front_End_Static.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string marqueejsonpath = webRootPath + @"\js\MarqueeContent.json";
+            string marqueejsonpath = webRootPath + @"\Data\Home\MarqueeContent.json";
             string actmarqueejsonpath = webRootPath + @"\Data\Activities\Activities.json";
             string testimonialjsonpath = webRootPath + @"\js\TestimonialsData.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";

@@ -146,7 +146,7 @@ marquee {
 .marquee-content {
     cursor: pointer;
     /*color: white;*/
-    color:red;
+    color: red;
     font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -263,7 +263,7 @@ marquee {
     flex-wrap: nowrap !important; /* 💡 Crucial: Stops the row from breaking down into a 2x2 grid block */
     gap: 10px !important; /* Controls spacing between the icon columns */
     justify-content: space-between !important;
-    margin-top: 60px !important ;/*10px !important*/
+    margin-top: 60px !important; /*10px !important*/
     box-sizing: border-box !important;
 }
 
@@ -456,6 +456,106 @@ marquee {
         display: block !important;
     }
 
+/* ==========================================================================
+   Modern Attractive Square Department Card Row Structure
+   ========================================================================== */
+
+/* 1. Horizontal flexible row setup container track */
+.featured_section16 .departments-flex-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important; /* Forces all cards to stay strictly in a single line */
+    justify-content: center !important; /* Centers the entire module card track block */
+    align-items: stretch !important; /* Forces all cards to have the exact same height */
+    width: 100% !important;
+    gap: 16px !important; /* Clean, modern breathing room between cards */
+    margin: 40px auto !important;
+    box-sizing: border-box !important;
+}
+
+    /* 2. Anchor click parameters wrapper */
+    .featured_section16 .departments-flex-row a {
+        display: block !important;
+        float: none !important; /* Eliminates broken floating properties */
+        margin: 0 !important;
+        text-decoration: none !important;
+        flex: 1 !important; /* Shares workspace row limits completely evenly */
+        min-width: 0 !important;
+    }
+
+    /* 3. THE SQUARE CARD TRANSFORM: Erase old hexagon geometric styles completely */
+    .featured_section16 .departments-flex-row .hexagon {
+        float: none !important;
+        margin: 0 auto !important;
+        /* Shape Setup */
+        width: 100% !important;
+        aspect-ratio: 1 / 1 !important; /* 👑 FORCES A PERFECT SQUARE: Aspect-ratio locked */
+        height: auto !important;
+        /* Attractive Clean Background & Card Details */
+        background: #fdfdfd !important; /* Soft off-white clean backdrop card fill */
+        border: 1px solid #eaeaea !important;
+        border-radius: 8px !important; /* Smooth rounded card corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important; /* Soft depth shadow layer */
+        border-bottom: 4px solid #4f75ba !important; /* 🌟 ATTRACTIVE ACCENT: Theme blue accent stripe border */
+        /* Layout Centering */
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        box-sizing: border-box !important;
+        position: relative !important;
+        padding: 12px !important;
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important; /* Smooth animation speed tracking */
+    }
+
+        /* 4. KILL EXTRA POLYS: Completely hide old background pointy triangle layers from theme */
+        .featured_section16 .departments-flex-row .hexagon::before,
+        .featured_section16 .departments-flex-row .hexagon::after {
+            display: none !important; /* 👑 REMOVES POINTY CAPS: Erases the old hexagon points */
+            content: none !important;
+        }
+
+    /* 5. 🌟 INTERACTIVE POP EFFECT: Elegantly lifts card up and shifts border color on hover */
+    .featured_section16 .departments-flex-row a:hover .hexagon {
+        transform: translateY(-8px) !important; /* Elegant vertical lift */
+        background: #ffffff !important;
+        border-color: #4f75ba !important;
+        border-bottom-color: #ffb300 !important; /* Changes base accent color to gold on hover */
+        box-shadow: 0 12px 24px rgba(79, 117, 186, 0.15) !important; /* Deep glowing focal shadow */
+    }
+
+    /* 6. Card Interior Content Typography & Icon Layout Specs */
+    .featured_section16 .departments-flex-row .hexagon i {
+        font-size: clamp(20px, 2.2vw, 32px) !important; /* Fluidly handles icon dimensions scale */
+        color: #4f75ba !important; /* Theme blue icon accents */
+        margin-bottom: 12px !important;
+        margin-top: 0 !important;
+        transition: color 0.3s ease;
+    }
+
+    .featured_section16 .departments-flex-row a:hover .hexagon i {
+        color: #ffb300 !important; /* Changes icon color match on active card focus */
+    }
+
+    .featured_section16 .departments-flex-row .hexagon h6 {
+        font-size: clamp(10px, 1.1vw, 13px) !important; /* Fluid text adjustments */
+        line-height: 1.4 !important;
+        margin: 0 !important;
+        padding: 0 4px !important;
+        text-align: center !important;
+        color: #333333 !important; /* Charcoal body typeface visibility color */
+        font-weight: 700 !important;
+        text-transform: none !important;
+    }
+
+
+@media only screen and (max-width: 575px) {
+    .featured_section16 .departments-flex-row a {
+        flex: 0 0 45% !important; /* Balances down to 2-column square block arrangements on cells phone windows */
+    }
+}
+
+
 /* 5. Mobile Responsive Viewports Layout Checklist */
 @media only screen and (max-width: 991px) {
     .New_container {
@@ -492,6 +592,15 @@ marquee {
             flex: 0 0 100% !important;
             width: 100% !important;
             max-width: 100% !important;
+        }
+
+    .featured_section16 .departments-flex-row {
+        flex-wrap: wrap !important; /* Allows responsive wrapping below desktops view */
+        gap: 16px !important;
+    }
+
+        .featured_section16 .departments-flex-row a {
+            flex: 0 0 30% !important; /* Smooth fluid 3-column rows distribution blocks on mobile screens */
         }
 }
 
