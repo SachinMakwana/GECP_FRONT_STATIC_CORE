@@ -84,13 +84,13 @@
 				<!-- Right Side: Notice Board Panel Box container with Horizontal Tabs -->
 				<div class="updates_section hero-notice-board-pane">
 
-					<!-- 💡 NEW: Horizontal Tab Navigation Bar Links -->
+					<!-- NEW: Horizontal Tab Navigation Bar Links -->
 					<div class="notice-tab-header-row">
 						<button class="notice-tab-btn active" onclick="switchNoticeTab(event, 'tab-updates')">Notice Board</button>
 						<button class="notice-tab-btn" onclick="switchNoticeTab(event, 'tab-activities')">Activities</button>
 					</div>
 
-					<!-- 💡 TAB 1: Updates / Latest Shots Slider Frame Track -->
+					<!-- TAB 1: Updates / Latest Shots Slider Frame Track -->
 					<div id="tab-updates" class="notice-tab-pane active">
 						<div style="min-height:530px;padding: 10px;">
 							<div>
@@ -160,7 +160,7 @@
 						</div>
 					</div>
 
-					<!-- 💡 TAB 2: Dynamic Activities Running Marquee Container Track -->
+					<!-- TAB 2: Dynamic Activities Running Marquee Container Track -->
 					<div id="tab-activities" class="notice-tab-pane">
 						<div style="min-height:530px; padding: 10px;">
 							<marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:495px; height: 495px;">
@@ -198,8 +198,8 @@
 
 		</div>
 	</div>
-	<div class="clearfix margin_bottom5"></div>
-	<div class="full-container">
+	<div class="clearfix "></div>
+	<div class="full-container notable-alumni-section">
 		<div class="New_container">
 
 			<!-- 1. Left Hand Side Component: Updates / Notice Board -->
@@ -282,69 +282,78 @@
 	</div>
 </div>
 <!-- end featured section 13 -->
-<div class="clearfix margin_top5"></div>
-
-<div class="vision_section">
-	<div class="clearfix margin_top5"></div>
-
-	<div class="one_half stcode_title4">
-
-		<h3 class="text-center"><span class="text"><i class="fa fa fa-institution" aria-hidden="true"></i><strong>  VISION</strong></span></h3>
-
-
-		@*   <div class="vision-container">
-            <i class="fa fa-university" aria-hidden="true"></i><i class="fa fa-bullseye" aria-hidden="true"></i><i class="fa fa-university" aria-hidden="true"></i>
-            </div> *@
-
-		<p class="large-text text-justify">
-			To prepare human resources with value-based competency for technical advancements and growth of society.
-		</p>
-	</div>
-
-	<div class="one_half last stcode_title4">
-
-		<h3 class="text-center"><span class="text"><i class="fa fa fa-mortar-board (alias)" aria-hidden="true"></i><strong>  MISSION</strong></span></h3>
-		<ul class="text-justify">
-			<li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> To Deliver technical programs and services to cater the current needs of society and industry.</li>
-			<li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> Helping industries in solving challenges by means of providing best technical human resources.</li>
-			<li><i class="fa fa fa-toggle-on" aria-hidden="true"></i> To contribute in sustainable growth of society.</li>
-		</ul>
-	</div>
-	<div class="clearfix margin_top5"></div>
-
-</div>
 <div class="clearfix"></div>
-<div class="full-container pri_message">
-	<div class="clearfix margin_top5"></div>
-	<div class="row align-items-center">
-		<!-- Principal Image -->
-		<div class="col-md-4 text-center">
-			<div class="principalimage">
-				<img src="/images/Faculty/701.jpg" alt="Principal Photo" />
-			</div>
-			<h4 class="principalname">Dr. Bharat J. Shah</h4>
-			<p class="principaldesignation">PRINCIPAL</p>
-			<p class="principaldesignations">Government Engineering College, Patan</p>
-		</div>
+<!-- NEW MERGED ROW CONTAINER: Principal Message (Left) + Vision/Mission (Right) -->
+<div class="full-container info-showcase-split-row">
 
-		<!-- Principal Message -->
-		<div class="col-md-8">
-			<div class="principalmessage">
-				<h2 class="mb-3">Message from the Principal</h2>
-				<div class="border-left pl-3" style="border-color: #007bff;">
-					<p style="text-align: justify; font-size: 1.1rem;">
-						"I am delighted to welcome you to Government Engineering College. I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn. In order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state-of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience. I wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities.",
-				</div>
-				</p>
-			</div>
-		</div>
-		<div class="clearfix margin_top5"></div>
-	</div>
+    <!-- ==================== LEFT HAND SIDE: PRINCIPAL CARD ==================== -->
+    <div class="principal-message-card-pane">
+        <div class="principal-card-flex-wrapper">
+            
+            <!-- Left Sub-Column: Image & Credentials -->
+            <div class="principal-meta-col">
+                <div class="principalimage">
+                    <img src="/images/Faculty/701.jpg" alt="Principal Photo"/>
+                </div>
+                <h4 class="principalname">Dr. Bharat J. Shah</h4>
+                <p class="principaldesignation">PRINCIPAL</p>
+                <p class="principaldesignations">Government Engineering College, Patan</p>
+            </div>
 
-</div>
+            <!-- Right Sub-Column: Message Content Paragraph -->
+            <div class="principal-text-col">
+                <div class="principalmessage">
+                    <h2 class="mb-3">Message from the Principal</h2>
+                    <div class="border-left pl-3" style="border-color: #4f75ba;">
+                        <p style="text-align: justify; font-size: 14px; line-height: 22px;">
+                            "I am delighted to welcome you to Government Engineering College. I hope to convey the passion and enthusiasm that both staff and students bring to you, and all that they do here, making Government Engineering College a wonderful place to learn. In order to accomplish our vision and mission, we are prepared to take as much effort as possible for the betterment of academic scenario in India. The purpose of education is to teach our students to think and develop a capacity to reason out facts and this is achieved by providing them excellent academic environment, state-of-the-art infrastructure, state-of-the-art laboratories and dedicated and highly qualified faculty members with decades of teaching and industrial experience. I wish the best of fortune, peace and prosperity to all those who contribute to the noble task of spreading education and its manifest qualities."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ==================== RIGHT HAND SIDE: VISION & MISSION ==================== -->
+    <div class="vision-mission-card-pane">
+        
+        <!-- Top Block: Vision Block -->
+        <div class="vision-segment-box stcode_title4">
+            <h3><span class="text"><i class="fa fa-institution" aria-hidden="true"></i><strong> VISION</strong></span></h3>
+            <p class="text-justify" style="font-size: 15px; margin-top: 8px;">
+                To prepare human resources with value-based competency for technical advancements and growth of society.
+            </p>
+        </div>
+
+        <!-- Bottom Block: Mission Block -->
+        <div class="mission-segment-box stcode_title4" style="margin-top: 20px;">
+            <h3><span class="text"><i class="fa fa-mortar-board" aria-hidden="true"></i><strong> MISSION</strong></span></h3>
+            <ul class="text-justify" style="list-style: none; padding-left: 0; margin-top: 8px;">
+                <li style="margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 20px;">
+                    <i class="fa fa-toggle-on" aria-hidden="true" style="color: #4f75ba; margin-top: 3px;"></i> 
+                    <span>To Deliver technical programs and services to cater the current needs of society and industry.</span>
+                </li>
+                <li style="margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 20px;">
+                    <i class="fa fa-toggle-on" aria-hidden="true" style="color: #4f75ba; margin-top: 3px;"></i> 
+                    <span>Helping industries in solving challenges by means of providing best technical human resources.</span>
+                </li>
+                <li style="margin-bottom: 0px; display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 20px;">
+                    <i class="fa fa-toggle-on" aria-hidden="true" style="color: #4f75ba; margin-top: 3px;"></i> 
+                    <span>To contribute in sustainable growth of society.</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div> <!-- End Info Showcase Split Row -->
+
+<div class="clearfix"></div>
+
 
 <!-- end featured section 14 -->
-<div class="clearfix margin_top5"></div>
+<div class="clearfix"></div>
 <!-- 6. Academic Departments Layout Block Links -->
 <div class="featured_section16">
 	<div class="full-container">
@@ -406,8 +415,9 @@
 
 @if (Model.TopRecruiters.Count() > 0)
 {
-	<div class="clearfix margin_bottom6"></div>
-	<div class="full-container">
+	<div class="clearfix "></div>
+	<div class="full-container top-recruiter-section">
+		
 		<h1 class="caps text-center">
 			TOP RECRUITERS
 		</h1>
@@ -477,7 +487,7 @@
         </div>
 
     </div>*@
-<div class="clearfix margin_bottom6"></div>
+<div class="clearfix"></div>
 <!-- end parallax section 1 -->
 @*<div id="pop1" class="simplePopup col-md-10">
     <img src="@Url.Content("~/images/Dynamic/logo.png")" alt="" class="rimg" />

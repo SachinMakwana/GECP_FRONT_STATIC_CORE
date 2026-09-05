@@ -395,9 +395,10 @@ marquee {
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-    height: 4px !important; /* Set thickness of the line here */
-    background: rgba(255, 255, 255, 0.25) !important; /* Light transparent backdrop */
-    z-index: 9999 !important; /* Keeps it on top of slide canvas layers */
+    height: 4px !important;
+    background: rgba(255, 255, 255, 0.25) !important;
+    /* THE FIX: Lowered from 9999 to 9 so it slides underneath your website header menu */
+    z-index: 9 !important;
     overflow: hidden;
 }
 
@@ -526,7 +527,7 @@ marquee {
 
     /* 6. Card Interior Content Typography & Icon Layout Specs */
     .featured_section16 .departments-flex-row .hexagon i {
-        font-size: clamp(20px, 2.2vw, 32px) !important; /* Fluidly handles icon dimensions scale */
+        font-size: 50px !important; /* Fluidly handles icon dimensions scale */
         color: #4f75ba !important; /* Theme blue icon accents */
         margin-bottom: 12px !important;
         margin-top: 0 !important;
@@ -538,7 +539,7 @@ marquee {
     }
 
     .featured_section16 .departments-flex-row .hexagon h6 {
-        font-size: clamp(10px, 1.1vw, 13px) !important; /* Fluid text adjustments */
+        font-size: 20px !important; /* Fluid text adjustments */
         line-height: 1.4 !important;
         margin: 0 !important;
         padding: 0 4px !important;
@@ -548,10 +549,161 @@ marquee {
         text-transform: none !important;
     }
 
+/* ==========================================================================
+   Co-Joined Info Layout Row (Principal Message Left - Vision/Mission Right)
+   ========================================================================== */
 
+/* 1. Main outer row setting up side-by-side alignment */
+.info-showcase-split-row {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    gap: 50px !important; /* Uniform spacing gap between left and right column panes */
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    align-items: stretch !important; /* Forces both blocks to match height exactly */
+    box-sizing: border-box !important;
+    background-color: #f8f9fa !important; /* Elegant modern light gray section backdrop fill */
+    border-top: 1px solid #e9ecef !important; /* Subtle top separation grid line border */
+    border-bottom: 1px solid #e9ecef !important; /* Subtle bottom separation grid line border */
+    /* Generates internal container breathing room around the interior white cards */
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin: 40px auto !important; /* Extra spacing margins to offset it from upper sections */
+    border-radius: 8px !important; /* Smooth outer section frame corner borders curves */
+    margin-top:0px !important;
+}
+
+/* 2. LEFT SIDE: Principal Section Allocation Width (58%) */
+.principal-message-card-pane {
+    flex: 0 0 58% !important;
+    width: 58% !important;
+    max-width: 58% !important;
+    background: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+    box-sizing: border-box !important;
+}
+
+/* Inner flex to lay out the principal image box alongside the paragraph content */
+.principal-card-flex-wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px !important;
+    height: 100%;
+}
+
+.principal-meta-col {
+    flex: 0 0 40% !important;
+    width: 40% !important;
+    text-align: center !important;
+}
+
+.principal-text-col {
+    flex: 0 0 57% !important;
+    width: 57% !important;
+}
+
+/* Reset image framing inside the card section */
+.principal-meta-col .principalimage img {
+    max-width: 100% !important;
+    max-height: 200px !important;
+    height: auto !important;
+    border-radius: 12px !important; /* Elegant modern profile curves */
+    border: 3px solid #4f75ba !important;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+.principal-meta-col .principalname {
+    font-size: 20px !important;
+    line-height: 24px !important;
+    margin: 12px 0 6px 0 !important;
+    font-weight: 700 !important;
+}
+
+.principal-meta-col .principaldesignation {
+    font-size: 13px !important;
+    color: #4f75ba !important;
+    font-weight: 700 !important;
+    margin-bottom: 2px !important;
+}
+
+.principal-meta-col .principaldesignations {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: #6c757d !important;
+}
+
+/* 3. RIGHT SIDE: Vision and Mission Section Allocation Width (39%) */
+.vision-mission-card-pane {
+    flex: 0 0 39% !important;
+    width: 39% !important;
+    max-width: 39% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Distributes top/bottom items completely evenly */
+    box-sizing: border-box !important;
+}
+
+/* Make both inner cards clean standalone segments */
+.vision-segment-box,
+.mission-segment-box {
+    background: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+    flex: 1 !important;
+}
+
+    .vision-segment-box h3,
+    .mission-segment-box h3 {
+        margin: 0 0 10px 0 !important;
+        font-size: 18px !important;
+        color: #333333 !important;
+        border-bottom: 2px solid #f1f3f5;
+        padding-bottom: 6px;
+    }
+
+        .vision-segment-box h3 i,
+        .mission-segment-box h3 i {
+            color: #4f75ba !important;
+            margin-right: 6px;
+        }
+
+.top-recruiter-section {
+    background: #f8f9fa;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    border-top: 1px solid #e8e9eb;
+    border-bottom: 1px solid #e8e9eb;
+}
+
+.notable-alumni-section {
+    border-top: 1px solid #e8e9eb;
+    border-bottom: 1px solid #e8e9eb;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
 @media only screen and (max-width: 575px) {
+    .principal-card-flex-wrapper {
+        flex-direction: column !important;
+    }
+
+    .principal-meta-col,
+    .principal-text-col {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+    }
+
     .featured_section16 .departments-flex-row a {
         flex: 0 0 45% !important; /* Balances down to 2-column square block arrangements on cells phone windows */
+    }
+
+    .featured_section16 .departments-flex-row .hexagon i {
+        font-size: 36px !important; /* Dynamically shrinks icons slightly on mobile screens */
     }
 }
 
@@ -602,6 +754,20 @@ marquee {
         .featured_section16 .departments-flex-row a {
             flex: 0 0 30% !important; /* Smooth fluid 3-column rows distribution blocks on mobile screens */
         }
+
+
+
+    .info-showcase-split-row {
+        flex-direction: column !important;
+        gap: 25px !important;
+    }
+
+    .principal-message-card-pane,
+    .vision-mission-card-pane {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 }
 
 
