@@ -117,18 +117,17 @@
 <div class="clearfix"></div>
 
 @section scripts {
-	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
 	<script>
 		function loadPdf(obj) {
 			console.log(obj)
 			if (obj !== null) {
-					$("#newsname").text(obj.Title);
-					$('#clubIcon').attr('src',obj.Icon);
-					$("#clubAbout").text(obj.About);
-					$("#lnkPopup").click();
-					$.each(obj.Images, function(index, src) {
+				$("#newsname").text(obj.Title);
+				$('#clubIcon').attr('src',obj.Icon);
+				$("#clubAbout").text(obj.About);
+				$("#lnkPopup").click();
+				$.each(obj.Images, function(index, src) {
 					$("#imagegallery").append('<img src="'+src+'" alt = "" class= "hieght-150" >')
-					});
+				});
 			}
 		}
 	</script>

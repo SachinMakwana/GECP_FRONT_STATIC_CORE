@@ -119,19 +119,9 @@
 <div class="clearfix"></div>
 
 @section scripts {
-    <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
     <script>
         function loadPdf(path, name) {
-            if (path !== '') {
-                path = path.replace("~", "");
-                if (PDFObject.supportsPDFs) {
-                    PDFObject.embed(path, "#pdfreader");
-                    $("#newsname").text(name);
-                    $("#lnkPopup").click();
-                } else {
-                    window.location.href = path;
-                }
-            }
+            loadPdfAndEmbed(path, "#pdfreader", name);
         }
     </script>
 

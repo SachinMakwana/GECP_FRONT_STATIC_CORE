@@ -440,27 +440,18 @@
 </div>
 
 @section scripts {
-	<script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
 	<script>
 		function loadFacultyinfo(url) {
-				if (url !== '') {
-						$("#pdfreader").load(url);
-						$("#lnkPopup").click();
-				}
+			if (url !== '') {
+				$("#pdfreader").load(url);
+				$("#lnkPopup").click();
 			}
+		}
 
-				function loadPdf(path, name) {
-				if (path !== '') {
-					path = path.replace("~", "");
-					if (PDFObject.supportsPDFs) {
-						PDFObject.embed(path, "#pdfreader");
-						$("#newsname").text(name);
-						$("#lnkPopup").click();
-					} else {
-						window.location.href = path;
-					}
-				}
-			}
+		function loadPdf(path, name) {
+			loadPdfAndEmbed(path, "#pdfreader", name);
+		}
+	</script>
 			function popupOpenClose(popup) {
 
 			/* Add div inside popup for layout if one doesn't exist */

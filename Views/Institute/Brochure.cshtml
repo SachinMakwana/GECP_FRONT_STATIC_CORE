@@ -82,8 +82,6 @@
 </style>
 
 @section scripts {
-    <script src="@Url.Content("~/js/pdfobject/pdfobject.min.js")"></script>
-
     <script>
         // Define the function globally so it can be called from anywhere
         window.openPdfPopup = function (path) {
@@ -97,15 +95,8 @@
             jQuery('#popupOverlay').fadeIn();
             jQuery('#popup').fadeIn();
 
-            // Embed PDF
-            if (typeof PDFObject !== 'undefined') {
-                // PDFObject handles browser compatibility
-                PDFObject.embed(path, "#pdfreader");
-            } else {
-                // Fallback: simple iframe if PDFObject library is missing
-                console.warn("PDFObject library not loaded. Using fallback iframe.");
-                jQuery("#pdfreader").html('<iframe src="' + path + '" style="width:100%; height:100%; border:none;"></iframe>');
-            }
+            // Use lazy loader to embed or fallback
+            loadPdfAndEmbed(path, "#pdfreader", null);
         };
 
         jQuery(document).ready(function ($) {
