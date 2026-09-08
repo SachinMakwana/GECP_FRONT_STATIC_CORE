@@ -46,7 +46,7 @@
     },
     {
         "ProgramName": "Applied Mechanics",
-        "Intake": 60,
+        "Intake": 0,
         "CourseCode": "",
         "Accreditation": "",
         "DepartmentID": 8,
@@ -55,7 +55,7 @@
     },
     {
         "ProgramName": "Science & Humanities",
-        "Intake": 60,
+        "Intake": 0,
         "CourseCode": "",
         "Accreditation": "",
         "DepartmentID": 6,
