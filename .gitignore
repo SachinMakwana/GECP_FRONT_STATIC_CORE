@@ -1058,3 +1058,4 @@ GECP_Front_End_Static.csproj
 /.vs
 /obj
 *.dll
+/wwwroot/cache

@@ -14,7 +14,12 @@
 
                 <div class="slide-pattern"></div>
 
-                <img src="@Url.Content("~/js/masterslider/blank.gif")" data-src="@Url.Content(item.Image)" alt="">
+                @{
+                    // Build dynamic resize URL for slider image. Width and quality chosen to balance clarity and size.
+                    var originalPath = Url.Content(item.Image);
+                    var resizedUrl = Url.Action("Resize", "Images", new { path = originalPath, w = 1200, q = 75 });
+                }
+                <img src="@resizedUrl" data-src="@resizedUrl" alt="">
 
                 <!-- 💡 CURRENT CAPTION BLOCKS (KEPT EXACTLY AS THEY ARE) -->
                 @if (!string.IsNullOrWhiteSpace(item.H3_text))

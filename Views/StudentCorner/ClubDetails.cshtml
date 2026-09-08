@@ -164,7 +164,8 @@
 
 					<div class="one_half animate @(count%2==0?"last":"")" data-anim-type="fadeIn" data-anim-delay="400">
 
-						<img src="@Url.Content(item.Image)" alt="">
+						@{ var imgPath = Url.Content(item.Image); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 600, q = 80 }); }
+						<img src="@resized" alt="">
 						<h5>@item.Name <em>@item.Position</em></h5>
 						<text>@item.Department</text>
 						<text>@item.Email</text>

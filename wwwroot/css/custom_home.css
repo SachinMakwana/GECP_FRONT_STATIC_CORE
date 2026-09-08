@@ -527,7 +527,7 @@ marquee {
 
     /* 6. Card Interior Content Typography & Icon Layout Specs */
     .featured_section16 .departments-flex-row .hexagon i {
-        font-size: 50px !important; /* Fluidly handles icon dimensions scale */
+        font-size: clamp(25px, 2.2vw, 40px) !important; /* Fluidly handles icon dimensions scale */
         color: #4f75ba !important; /* Theme blue icon accents */
         margin-bottom: 12px !important;
         margin-top: 0 !important;
@@ -539,7 +539,7 @@ marquee {
     }
 
     .featured_section16 .departments-flex-row .hexagon h6 {
-        font-size: 20px !important; /* Fluid text adjustments */
+        font-size: clamp(12px, 1vw, 20px) !important; /* Fluid text adjustments */
         line-height: 1.4 !important;
         margin: 0 !important;
         padding: 0 4px !important;
@@ -687,6 +687,7 @@ marquee {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
 }
+
 @media only screen and (max-width: 575px) {
     .principal-card-flex-wrapper {
         flex-direction: column !important;
@@ -770,6 +771,95 @@ marquee {
     }
 }
 
+
+
+
+@media (max-width: 1920px) {
+    .notice-board-height {
+        min-height: 530px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 530px;
+    }
+
+    .activity-height {
+        min-height: 530px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 495px;
+    }
+}
+
+/* Large desktop */
+@media (max-width: 1536px) {
+    .notice-board-height {
+        min-height: 410px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 410px;
+    }
+
+    .activity-height {
+        min-height: 410px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 380px;
+    }
+}
+
+/* Desktop */
+@media (max-width: 1280px) {
+    .notice-board-height {
+        min-height: 330px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 330px;
+    }
+
+    .activity-height {
+        min-height: 300px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 300px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+    .notice-board-height {
+        min-height: 240px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 240px;
+    }
+
+    .activity-height {
+        min-height: 240px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 200px;
+    }
+
+    .New_container {
+        gap: 15px !important;
+    }
+}
 
 /* 6. The Animation Keyframes */
 @keyframes scroll-left {

@@ -634,7 +634,8 @@
 
 
                                             <div class="col-sm-2 ">
-                                                <img src="@Url.Content(item.Image)" alt="" class="height180">
+                                                @{ var imgPath = Url.Content(item.Image); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 360, q = 75 }); }
+                                                <img src="@resized" alt="" class="height180">
                                             </div>
 
                                         </div>
@@ -664,7 +665,8 @@
 
 
                                             <div class="col-sm-2 ">
-                                                <img src="@Url.Content(item.Image)" alt="" class="height180">
+                                                @{ var imgPath2 = Url.Content(item.Image); var resized2 = Url.Action("Resize","Images", new { path = imgPath2, w = 360, q = 75 }); }
+                                                <img src="@resized2" alt="" class="height180">
                                             </div>
 
                                         </div>

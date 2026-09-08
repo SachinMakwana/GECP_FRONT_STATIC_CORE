@@ -58,7 +58,8 @@
 				        @foreach (var item in Model.PrincipalMessages)
                         {
                             <div style="flex: 1 1 300px; max-width: 300px;">
-                                <img src="@Url.Content(item.ImagePath)" alt="Principal Photo" style="width: 100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+                                @{ var imgPath = Url.Content(item.ImagePath); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 400, q = 80 }); }
+                                <img src="@resized" alt="Principal Photo" style="width: 100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
                             </div>
                             <div style="flex: 2 1 500px;">
                                 <h3 style="margin-bottom: 15px;">Message from the Principal</h3>

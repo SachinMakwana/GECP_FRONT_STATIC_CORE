@@ -92,9 +92,9 @@
 
 					<!-- TAB 1: Updates / Latest Shots Slider Frame Track -->
 					<div id="tab-updates" class="notice-tab-pane active">
-						<div style="min-height:530px;padding: 10px;">
+						<div  class="notice-board-height">
 							<div>
-								<marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:520px;">
+								<marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" class="notice-board-marquee-height">
 									<ul class="newssection">
 										@if (Model.updateModelVM == null || !Model.updateModelVM.Any())
 										{
@@ -162,8 +162,8 @@
 
 					<!-- TAB 2: Dynamic Activities Running Marquee Container Track -->
 					<div id="tab-activities" class="notice-tab-pane">
-						<div style="min-height:530px; padding: 10px;">
-							<marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" style="min-height:495px; height: 495px;">
+						<div class="activity-height">
+							<marquee scrollamount="3" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()"  class="activity-marquee-height">
 								<ul class="newssection" style="list-style: none; padding-left: 0;">
 									@if (Model.activitymarqueeModelVM == null || !Model.activitymarqueeModelVM.Any())
 									{
@@ -220,7 +220,8 @@
 						else if (!string.IsNullOrWhiteSpace(item.Image))
 						{
 							<div class="carousel-slide-item type-image">
-								<img src="@Url.Content(item.Image)" alt="" class="rimg">
+								@{ var imgPath = Url.Content(item.Image); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 400, q = 75 }); }
+								<img src="@resized" alt="" class="rimg">
 								<div class="carousel-caption">@item.Title</div>
 							</div>
 						}
@@ -269,7 +270,8 @@
 						else if (!string.IsNullOrWhiteSpace(item.Image))
 						{
 							<div class="carousel-slide-item type-image">
-								<img src="@Url.Content(item.Image)" alt="" class="rimg">
+								@{ var imgPath2 = Url.Content(item.Image); var resized2 = Url.Action("Resize","Images", new { path = imgPath2, w = 400, q = 75 }); }
+								<img src="@resized2" alt="" class="rimg">
 								<div class="carousel-caption">@item.Title</div>
 							</div>
 						}
