@@ -24,6 +24,7 @@ namespace GECP_Front_End_Static.Controllers
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
         public List<VideoCarouselVM> VideoCarouselVMData = new List<VideoCarouselVM>();
+        public List<VideoCarouselVM> NotableAlumniVMData = new List<VideoCarouselVM>();
         public PlacementCellContent PlacementCellContent = new PlacementCellContent();
         public AboutUsVM AboutUsVMs = new AboutUsVM();
         public List<ProgramInfo> ProgramIntake = new List<ProgramInfo>();
@@ -42,6 +43,7 @@ namespace GECP_Front_End_Static.Controllers
             string HeaderJsonpatah = webRootPath + @"\Data\HeaderItems.json";
             string MenuJsonpatah = webRootPath + @"\Data\MenuItems.json";
             string VideoCarouselpath = webRootPath + @"\Data\Home\VideoCarousel.json";
+            string NotableAlumnipath = webRootPath + @"\Data\Home\NotableAlumni.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(marqueejsonpath);
@@ -68,6 +70,10 @@ namespace GECP_Front_End_Static.Controllers
             webClient = new WebClient();
             json = webClient.DownloadString(VideoCarouselpath);
             VideoCarouselVMData = JsonConvert.DeserializeObject<List<VideoCarouselVM>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(NotableAlumnipath);
+            NotableAlumniVMData = JsonConvert.DeserializeObject<List<VideoCarouselVM>>(json);
 
             webClient = new WebClient();
             json = webClient.DownloadString(HeaderJsonpatah);
@@ -107,6 +113,7 @@ namespace GECP_Front_End_Static.Controllers
             homePageModelVM.TopRecruiters = PlacementCellContent.TopRecruiters;
             AboutUsVMs.Departments = ProgramIntake;
             homePageModelVM.aboutUsVM = AboutUsVMs;
+            homePageModelVM.notableAlumniVMs = NotableAlumniVMData;
             return View(homePageModelVM);
         }
 

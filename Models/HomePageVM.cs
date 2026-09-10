@@ -98,6 +98,9 @@ namespace GECP_Front_End_Static.Models
         public IList<TopMarqueeModelVM> topmarqueeModelVM { get; set; }
 
         public IList<VideoCarouselVM> videoCarouselVMs { get; set; }
+
+        public IList<VideoCarouselVM> notableAlumniVMs { get; set; }
+
         public IList<Recruiter> TopRecruiters { get; set; }
         public AboutUsVM aboutUsVM { get; set; }
         public HomePageModelVM()
@@ -111,7 +114,8 @@ namespace GECP_Front_End_Static.Models
             topmarqueeModelVM = new List<TopMarqueeModelVM>();
             videoCarouselVMs= new List<VideoCarouselVM>();
             TopRecruiters = new List<Recruiter>();
-    }
+            notableAlumniVMs = new List<VideoCarouselVM>();
+        }
     }
 
     public class MenuVM

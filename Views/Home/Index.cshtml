@@ -208,13 +208,16 @@
 					<li class="tab-heading">Notable Alumni</li>
 				</ul>
 				<div id="AlumniCarousel" class="owl-carousel">
-					@foreach (var item in Model.videoCarouselVMs)
+					@foreach (var item in Model.notableAlumniVMs.Where(m => m.isShow == true).OrderBy(m => m.OrderNo).ToList())
 					{
 						if (item.isIframe)
 						{
 							<div class="carousel-slide-item type-video">
 								<div class="carousel-video-wrapper">@Html.Raw(item.iFrame)</div>
-								<div class="carousel-caption">@item.Title</div>
+								@if(!string.IsNullOrWhiteSpace(item.Title))
+								{
+									<div class="carousel-caption">@item.Title</div>
+								}
 							</div>
 						}
 						else if (!string.IsNullOrWhiteSpace(item.Image))
@@ -222,7 +225,10 @@
 							<div class="carousel-slide-item type-image">
 								@{ var imgPath = Url.Content(item.Image); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 400, q = 75 }); }
 								<img src="@resized" alt="" class="rimg">
-								<div class="carousel-caption">@item.Title</div>
+								@if(!string.IsNullOrWhiteSpace(item.Title))
+								{
+									<div class="carousel-caption">@item.Title</div>
+								}
 							</div>
 						}
 					}
@@ -264,7 +270,10 @@
 						{
 							<div class="carousel-slide-item type-video">
 								<div class="carousel-video-wrapper">@Html.Raw(item.iFrame)</div>
-								<div class="carousel-caption">@item.Title</div>
+								@if(!string.IsNullOrWhiteSpace(item.Title))
+								{
+									<div class="carousel-caption">@item.Title</div>
+								}
 							</div>
 						}
 						else if (!string.IsNullOrWhiteSpace(item.Image))
@@ -272,7 +281,10 @@
 							<div class="carousel-slide-item type-image">
 								@{ var imgPath2 = Url.Content(item.Image); var resized2 = Url.Action("Resize","Images", new { path = imgPath2, w = 400, q = 75 }); }
 								<img src="@resized2" alt="" class="rimg">
-								<div class="carousel-caption">@item.Title</div>
+								@if(!string.IsNullOrWhiteSpace(item.Title))
+								{
+									<div class="carousel-caption">@item.Title</div>
+								}
 							</div>
 						}
 					}
