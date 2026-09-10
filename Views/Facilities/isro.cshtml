@@ -248,7 +248,8 @@
 
 					<div class="one_half animate @(count % 2 == 0 ? "last" : "")" data-anim-type="fadeIn" data-anim-delay="400">
 
-						<img src="@Url.Content(item.Image)" alt="">
+						@{ var imgPath = Url.Content(item.Image); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 600, q = 80 }); }
+						<img src="@resized" alt="">
 						<h5>@item.Name <em>@item.Position</em></h5>
 
 						<text>@item.Department</text><br />
@@ -274,7 +275,8 @@
 						{
 							<div class="one_half @(count % 2 == 0 ? "last" : "") animate" data-anim-type="fadeIn" data-anim-delay="300">
 								<div class="faculties_img_div">
-									<img src="@Url.Content("~/" + item.Image)" alt="@item.Name" />
+									@{ var imgPath2 = Url.Content("~/" + item.Image); var resized2 = Url.Action("Resize","Images", new { path = imgPath2, w = 800, q = 80 }); }
+									<img src="@resized2" alt="@item.Name" />
 									<h5>@item.Name <em>@item.Position</em></h5>
 									<text>@item.Department</text>
 									<br />
@@ -381,7 +383,8 @@
 							<div class="cbp-caption-defaultWrap">
 								<div class="blog_post">
 									<div class="blog_postcontent">
-										<div class="image_frame"><a href="#"><img src="@Url.Content(item.Image)" alt="" class="height180"></a></div>
+										@{ var imgPathSmall = Url.Content(item.Image); var resizedSmall = Url.Action("Resize","Images", new { path = imgPathSmall, w = 360, q = 75 }); }
+										<div class="image_frame"><a href="#"><img src="@resizedSmall" alt="" class="height180"></a></div>
 										<h3>@Html.Raw(item.Title)</h3>
 										<ul class="post_meta_links">
 											<li><a href="#" class="date">@item.Date</a></li>
@@ -668,7 +671,8 @@
                     {
                         <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300" style="border-left:1px solid rgba(255, 255, 255, 0.1)">
 
-                            <img src="@Url.Content(item.Image)" alt="">
+							@{ var imgPath = Url.Content(item.Image); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 600, q = 80 }); }
+							<img src="@resized" alt="">
                             <h5>@item.Name <em>@item.Position</em></h5>
                             <p>@item.Department</p>
                             <p>@item.Email</p>
@@ -682,7 +686,8 @@
                     {
                         <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
 
-                            <img src="@Url.Content(item.Image)" alt="">
+							@{ var imgPath = Url.Content(item.Image); var resized = Url.Action("Resize","Images", new { path = imgPath, w = 600, q = 80 }); }
+							<img src="@resized" alt="">
                             <h5>@item.Name <em>@item.Position</em></h5>
                             <p>@item.Department</p>
                             <p>@item.Email</p>

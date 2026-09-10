@@ -21,7 +21,7 @@ namespace GECP_Front_End_Static.helpers
         // Plug in your email service here to send an email.
         var msg = new MimeMessage();
             msg.From.Add(new MailboxAddress(EmailName, EmailFrom));
-            msg.To.Add(new MailboxAddress(EmailTo));
+            msg.To.Add(MailboxAddress.Parse(EmailTo));
             //msg.Bcc.Add(new MailboxAddress(template.EmailBcc));
             msg.Subject = subject;
             var bodyBuilder = new BodyBuilder();

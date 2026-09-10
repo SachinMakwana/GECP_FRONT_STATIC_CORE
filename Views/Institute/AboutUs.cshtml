@@ -57,7 +57,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var program in Model.Programs)
+                    @foreach (var program in Model.Departments.Where(m=>m.showIntake==true).ToList())
                     {
                         <tr>
                             <td align="left">@program.ProgramName</td>

@@ -1,0 +1,873 @@
+﻿.text-center {
+    text-align: center !important;
+}
+
+.large-text {
+    font-size: 20px;
+    width: 98%;
+}
+
+.one_half ul {
+    list-style: none; /* Removes default bullets */
+    padding-left: 0;
+}
+
+    .one_half ul li {
+        display: flex;
+        align-items: center; /* Aligns text with the icon */
+        gap: 10px; /* Adds space between the icon and text */
+        margin-bottom: 8px; /* Adds spacing between list items */
+    }
+
+        .one_half ul li i {
+            color: #007bff; /* Change color as needed */
+            font-size: 18px; /* Adjust icon size */
+        }
+
+.vision-container {
+    text-align: center; /* Centers inline elements like <i> */
+    margin-top: 10px;
+}
+
+    .vision-container i {
+        font-size: 60px; /* Adjust the size as needed */
+        color: #007bff; /* Blue color */
+    }
+
+.large-text {
+    font-size: 25px;
+    text-align: center; /* Centers the paragraph text */
+}
+
+.text-justify {
+    font-size: 18px;
+}
+
+.one_half {
+    margin-right: 2%;
+}
+
+.tab-heading {
+    background-color: #4f75ba;
+    font-display: block;
+    color: white;
+    padding: 10px;
+}
+
+.New_container {
+    display: inline-flex;
+    gap: 1%;
+    flex-wrap: wrap; /* Optional: Helps for responsiveness */
+}
+
+.updates_section {
+    width: 25%;
+    padding: 0%;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.one_halfs {
+    width: 48%;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+
+.principalimage img {
+    max-height: 375px;
+    border-radius: 50px;
+    border: 3px solid #5076bb;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.principalimage {
+    padding-top: 5%;
+}
+
+.principalname {
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: emoji;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.principaldesignation {
+    font: 16px 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.principaldesignations {
+    font: 16px 'Open Sans', sans-serif;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.principalmessage {
+    padding-top: 4%;
+}
+
+marquee {
+    min-height: 225px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 200px;
+}
+/* 1. The Outer Container */
+.marquee-container {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    /*background-color: red;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;*/
+    box-sizing: border-box;
+    display: flex; /* This perfectly vertically centers the moving track inside the 45px box */
+    align-items: center;
+}
+
+/* 2. The Inner Track (The ONLY thing that moves) */
+.marquee-track {
+    display: flex; /* Forces items into a strict row */
+    align-items: center;
+    width: max-content; /* Tells the track to stretch as long as all your links combined */
+    /* The Animation is ONLY applied here */
+    animation: scroll-left 20s linear infinite;
+}
+
+/* 3. The Individual Links */
+.marquee-content {
+    cursor: pointer;
+    /*color: white;*/
+    color: red;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0 10px; /* Spacing between links */
+}
+
+/* 4. The Separator Pipe */
+.marquee-separator {
+    color: white; /* Ensures the pipe is visible against the red background */
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+/* 5. Hover Effects */
+/* Pause the conveyor belt when hovering anywhere over the red container */
+.marquee-container:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+/* Underline only the specific link you are hovering over */
+.marquee-content:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/* ==========================================================================
+           Co-Joined Hero Showcase Row Configuration Styles
+           ========================================================================== */
+
+.hero-split-showcase {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    gap: 24px !important;
+    /*margin-top: 15px !important;*/
+    margin-bottom: 25px !important;
+    align-items: flex-start !important;
+}
+
+/* Master banner slider frame gets 70% width assignment */
+.hero-main-slider-pane {
+    flex: 0 0 70% !important;
+    width: 70% !important;
+    max-width: 70% !important;
+    overflow: hidden;
+}
+
+/* Notice Board component fills out the remaining 28% width block space */
+.hero-split-showcase .hero-notice-board-pane {
+    flex: 0 0 28% !important;
+    width: 28% !important;
+    max-width: 28% !important;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+/* Enforce fluid sizing rule adjustments to clean up template defaults */
+.New_container {
+    display: block !important;
+    width: 100% !important;
+}
+
+.one_halfs {
+    width: 100% !important; /* Forces the cards area to snap wide below your new layout banner row */
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+}
+
+
+/* ==========================================================================
+   Three Column Content Row Structure Overrides (Updates - Icons - Shots)
+   ========================================================================== */
+
+/* 1. Force the container into a full row containing all three elements side-by-side */
+.New_container {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    gap: 20px !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    box-sizing: border-box !important;
+}
+
+    /* 2. Style both side panels (Updates and Latest Shots) evenly to roughly 25% */
+    .New_container .updates_section {
+        flex: 0 0 25% !important;
+        width: 25% !important;
+        max-width: 25% !important;
+        background: #ffffff;
+        border: 1px solid #dee2e6 !important;
+        border-radius: 4px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+        box-sizing: border-box !important;
+    }
+
+/* 3. Style the center icons grid block to allocate 46-48% width workspace */
+/* ==========================================================================
+   Horizontal Row Adjustments for the Center Icons Segment
+   ========================================================================== */
+
+/* 1. Sets the outer container to stack all 4 items horizontally on a single line */
+.center_icons_section {
+    flex: 0 0 46% !important;
+    width: 46% !important;
+    max-width: 46% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important; /* 💡 Crucial: Stops the row from breaking down into a 2x2 grid block */
+    gap: 10px !important; /* Controls spacing between the icon columns */
+    justify-content: space-between !important;
+    margin-top: 60px !important; /*10px !important*/
+    box-sizing: border-box !important;
+}
+
+    /* 2. Scale each individual column box to roughly 23-24% space allotment */
+    .center_icons_section .icon_grid_box {
+        flex: 1 1 23% !important; /* 💡 Evenly distributes the 4 items across the single horizontal row space */
+        width: 23% !important;
+        max-width: 25% !important;
+        text-align: center !important;
+        margin-bottom: 0px !important; /* Erases old bottom stacking padding */
+    }
+
+        /* 3. Smooth down circular images to fit smaller columns securely without clipping */
+        .center_icons_section .icon_grid_box img {
+            display: block !important;
+            margin: 0 auto 30px auto !important;
+            max-width: 100% !important;
+            height: auto !important;
+        }
+
+        /* 4. Fine-tune typography layout so longer text handles spacing elegantly */
+        .center_icons_section .icon_grid_box h4 {
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 10px;
+            font-style: normal;
+        }
+
+
+
+/* ==========================================================================
+   MasterSlider Extra Dynamic Bottom Description Bar Layer
+   ========================================================================== */
+
+/* Forces the bar container to stretch flat along the bottom boundary frame */
+#masterslider .ms-layer.ms-custom-description-bar {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important; /* Overrides default template positioning calculations */
+    width: 100% !important;
+    max-width: 100% !important;
+    /* Layout text padding constraints */
+    padding: 12px 25px !important;
+    z-index: 90 !important; /* Locks below floating text links but stays on top of banner background frames */
+    box-sizing: border-box !important;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.15);
+}
+
+/* Internal text styling defaults */
+.ms-custom-description-bar .ms-custom-desc-text {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    line-height: 25px !important;
+    text-align: center !important; /* Centers the extra description text cleanly */
+    letter-spacing: 0.3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Makes sure the standard slider canvas gives extra elements visibility breathing room */
+.hero-main-slider-pane #masterslider {
+    overflow: hidden !important;
+}
+
+/* ==========================================================================
+   Horizontal Tab Navigation Layout for Sidebar Panel Box
+   ========================================================================== */
+
+/* The header bar row container */
+.notice-tab-header-row {
+    display: flex !important;
+    width: 100% !important;
+    background-color: #f4f6f9;
+    border-bottom: 1px solid #dee2e6;
+    box-sizing: border-box;
+}
+
+/* Individual tab navigation button links styles */
+.notice-tab-btn {
+    flex: 1 !important; /* Forces buttons to split the row width exactly 50/50 */
+    background: none;
+    border: none;
+    outline: none;
+    padding: 12px 10px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #6c757d;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+    /* Mouse hover style adjustments */
+    .notice-tab-btn:hover {
+        color: #4f75ba;
+        background-color: rgba(79, 117, 186, 0.05);
+    }
+
+    /* Active Highlight state matching your theme blue color block headers */
+    .notice-tab-btn.active {
+        color: #ffffff !important;
+        background-color: #4f75ba !important; /* Theme blue header */
+    }
+
+/* Tab Panel Display Visibility Logic Controllers */
+.notice-tab-pane {
+    display: none !important; /* Hides the pane contents by default */
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+    .notice-tab-pane.active {
+        display: block !important; /* Renders content only when active token applied */
+    }
+
+/* ==========================================================================
+   MasterSlider Bottom Horizontal Loading Track Line Overrides
+   ========================================================================== */
+
+/* The background track bar layout constraints */
+#progressBar {
+    position: absolute !important;
+    bottom: 0 !important; /* Locks it flat to the absolute bottom margin */
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 4px !important;
+    background: rgba(255, 255, 255, 0.25) !important;
+    /* THE FIX: Lowered from 9999 to 9 so it slides underneath your website header menu */
+    z-index: 9 !important;
+    overflow: hidden;
+}
+
+    /* The dynamic animated strip line filling from left to right */
+    #bar,
+    #progressBar .ms-time-bar {
+        height: 100% !important;
+        background: linear-gradient(90deg, #ffb300, #ff8f00) !important; /* Golden orange glow theme */
+        box-shadow: 0 0 8px rgba(255, 179, 0, 0.8);
+        transition: width 0.1s linear !important; /* Enforces completely fluid motion mechanics */
+    }
+
+
+/* ==========================================================================
+   Recruiter Carousel Logo Uniform Sizing System Overrides
+   ========================================================================== */
+
+/* 1. Standardize the outer layout frame size bounds for each slide carousel cell */
+#owl-demo .item {
+    padding: 10px 15px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+}
+
+/* 2. Create a clean, centered rigid boundary card frame block */
+.recruiter-logo-card {
+    width: 100% !important;
+    height: 150px !important; /* Establishes a uniform height baseline across all items */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #ffffff !important;
+    border: 1px solid #f1f3f5 !important;
+    border-radius: 4px !important;
+    padding: 8px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease;
+}
+
+    /* Subtle hover pop effect matching your professional layout styles */
+    .recruiter-logo-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        border-color: #dee2e6 !important;
+    }
+
+    /* 3. 💡 THE ULTIMATE IMAGE ALIGNMENT FIX: Prevent logo stretching mechanics */
+    .recruiter-logo-card img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        width: auto !important; /* Breaks the dynamic force-width calculations of the carousel */
+        height: auto !important; /* Breaks the dynamic force-height calculations of the carousel */
+        object-fit: contain !important; /* Forces logos to preserve original proportions inside the uniform card space */
+        display: block !important;
+    }
+
+/* ==========================================================================
+   Modern Attractive Square Department Card Row Structure
+   ========================================================================== */
+
+/* 1. Horizontal flexible row setup container track */
+.featured_section16 .departments-flex-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important; /* Forces all cards to stay strictly in a single line */
+    justify-content: center !important; /* Centers the entire module card track block */
+    align-items: stretch !important; /* Forces all cards to have the exact same height */
+    width: 100% !important;
+    gap: 16px !important; /* Clean, modern breathing room between cards */
+    margin: 40px auto !important;
+    box-sizing: border-box !important;
+}
+
+    /* 2. Anchor click parameters wrapper */
+    .featured_section16 .departments-flex-row a {
+        display: block !important;
+        float: none !important; /* Eliminates broken floating properties */
+        margin: 0 !important;
+        text-decoration: none !important;
+        flex: 1 !important; /* Shares workspace row limits completely evenly */
+        min-width: 0 !important;
+    }
+
+    /* 3. THE SQUARE CARD TRANSFORM: Erase old hexagon geometric styles completely */
+    .featured_section16 .departments-flex-row .hexagon {
+        float: none !important;
+        margin: 0 auto !important;
+        /* Shape Setup */
+        width: 100% !important;
+        aspect-ratio: 1 / 1 !important; /* 👑 FORCES A PERFECT SQUARE: Aspect-ratio locked */
+        height: auto !important;
+        /* Attractive Clean Background & Card Details */
+        background: #fdfdfd !important; /* Soft off-white clean backdrop card fill */
+        border: 1px solid #eaeaea !important;
+        border-radius: 8px !important; /* Smooth rounded card corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important; /* Soft depth shadow layer */
+        border-bottom: 4px solid #4f75ba !important; /* 🌟 ATTRACTIVE ACCENT: Theme blue accent stripe border */
+        /* Layout Centering */
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        box-sizing: border-box !important;
+        position: relative !important;
+        padding: 12px !important;
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important; /* Smooth animation speed tracking */
+    }
+
+        /* 4. KILL EXTRA POLYS: Completely hide old background pointy triangle layers from theme */
+        .featured_section16 .departments-flex-row .hexagon::before,
+        .featured_section16 .departments-flex-row .hexagon::after {
+            display: none !important; /* 👑 REMOVES POINTY CAPS: Erases the old hexagon points */
+            content: none !important;
+        }
+
+    /* 5. 🌟 INTERACTIVE POP EFFECT: Elegantly lifts card up and shifts border color on hover */
+    .featured_section16 .departments-flex-row a:hover .hexagon {
+        transform: translateY(-8px) !important; /* Elegant vertical lift */
+        background: #ffffff !important;
+        border-color: #4f75ba !important;
+        border-bottom-color: #ffb300 !important; /* Changes base accent color to gold on hover */
+        box-shadow: 0 12px 24px rgba(79, 117, 186, 0.15) !important; /* Deep glowing focal shadow */
+    }
+
+    /* 6. Card Interior Content Typography & Icon Layout Specs */
+    .featured_section16 .departments-flex-row .hexagon i {
+        font-size: clamp(25px, 2.2vw, 40px) !important; /* Fluidly handles icon dimensions scale */
+        color: #4f75ba !important; /* Theme blue icon accents */
+        margin-bottom: 12px !important;
+        margin-top: 0 !important;
+        transition: color 0.3s ease;
+    }
+
+    .featured_section16 .departments-flex-row a:hover .hexagon i {
+        color: #ffb300 !important; /* Changes icon color match on active card focus */
+    }
+
+    .featured_section16 .departments-flex-row .hexagon h6 {
+        font-size: clamp(12px, 1vw, 20px) !important; /* Fluid text adjustments */
+        line-height: 1.4 !important;
+        margin: 0 !important;
+        padding: 0 4px !important;
+        text-align: center !important;
+        color: #333333 !important; /* Charcoal body typeface visibility color */
+        font-weight: 700 !important;
+        text-transform: none !important;
+    }
+
+/* ==========================================================================
+   Co-Joined Info Layout Row (Principal Message Left - Vision/Mission Right)
+   ========================================================================== */
+
+/* 1. Main outer row setting up side-by-side alignment */
+.info-showcase-split-row {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    gap: 50px !important; /* Uniform spacing gap between left and right column panes */
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    align-items: stretch !important; /* Forces both blocks to match height exactly */
+    box-sizing: border-box !important;
+    background-color: #f8f9fa !important; /* Elegant modern light gray section backdrop fill */
+    border-top: 1px solid #e9ecef !important; /* Subtle top separation grid line border */
+    border-bottom: 1px solid #e9ecef !important; /* Subtle bottom separation grid line border */
+    /* Generates internal container breathing room around the interior white cards */
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin: 40px auto !important; /* Extra spacing margins to offset it from upper sections */
+    border-radius: 8px !important; /* Smooth outer section frame corner borders curves */
+    margin-top:0px !important;
+}
+
+/* 2. LEFT SIDE: Principal Section Allocation Width (58%) */
+.principal-message-card-pane {
+    flex: 0 0 58% !important;
+    width: 58% !important;
+    max-width: 58% !important;
+    background: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+    box-sizing: border-box !important;
+}
+
+/* Inner flex to lay out the principal image box alongside the paragraph content */
+.principal-card-flex-wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px !important;
+    height: 100%;
+}
+
+.principal-meta-col {
+    flex: 0 0 40% !important;
+    width: 40% !important;
+    text-align: center !important;
+}
+
+.principal-text-col {
+    flex: 0 0 57% !important;
+    width: 57% !important;
+}
+
+/* Reset image framing inside the card section */
+.principal-meta-col .principalimage img {
+    max-width: 100% !important;
+    max-height: 200px !important;
+    height: auto !important;
+    border-radius: 12px !important; /* Elegant modern profile curves */
+    border: 3px solid #4f75ba !important;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+.principal-meta-col .principalname {
+    font-size: 20px !important;
+    line-height: 24px !important;
+    margin: 12px 0 6px 0 !important;
+    font-weight: 700 !important;
+}
+
+.principal-meta-col .principaldesignation {
+    font-size: 13px !important;
+    color: #4f75ba !important;
+    font-weight: 700 !important;
+    margin-bottom: 2px !important;
+}
+
+.principal-meta-col .principaldesignations {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: #6c757d !important;
+}
+
+/* 3. RIGHT SIDE: Vision and Mission Section Allocation Width (39%) */
+.vision-mission-card-pane {
+    flex: 0 0 39% !important;
+    width: 39% !important;
+    max-width: 39% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Distributes top/bottom items completely evenly */
+    box-sizing: border-box !important;
+}
+
+/* Make both inner cards clean standalone segments */
+.vision-segment-box,
+.mission-segment-box {
+    background: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+    flex: 1 !important;
+}
+
+    .vision-segment-box h3,
+    .mission-segment-box h3 {
+        margin: 0 0 10px 0 !important;
+        font-size: 18px !important;
+        color: #333333 !important;
+        border-bottom: 2px solid #f1f3f5;
+        padding-bottom: 6px;
+    }
+
+        .vision-segment-box h3 i,
+        .mission-segment-box h3 i {
+            color: #4f75ba !important;
+            margin-right: 6px;
+        }
+
+.top-recruiter-section {
+    background: #f8f9fa;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    border-top: 1px solid #e8e9eb;
+    border-bottom: 1px solid #e8e9eb;
+}
+
+.notable-alumni-section {
+    border-top: 1px solid #e8e9eb;
+    border-bottom: 1px solid #e8e9eb;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .principal-card-flex-wrapper {
+        flex-direction: column !important;
+    }
+
+    .principal-meta-col,
+    .principal-text-col {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+    }
+
+    .featured_section16 .departments-flex-row a {
+        flex: 0 0 45% !important; /* Balances down to 2-column square block arrangements on cells phone windows */
+    }
+
+    .featured_section16 .departments-flex-row .hexagon i {
+        font-size: 36px !important; /* Dynamically shrinks icons slightly on mobile screens */
+    }
+}
+
+
+/* 5. Mobile Responsive Viewports Layout Checklist */
+@media only screen and (max-width: 991px) {
+    .New_container {
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+
+        .New_container .updates_section,
+        .center_icons_section {
+            flex: 0 0 100% !important;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+    .center_icons_section {
+        flex-direction: row !important;
+        flex-wrap: wrap !important; /* Restores responsive vertical wrapping for phones */
+        gap: 20px !important;
+    }
+
+        .center_icons_section .icon_grid_box {
+            flex: 0 0 46% !important;
+            width: 46% !important;
+            max-width: 46% !important;
+        }
+
+    .hero-split-showcase {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+        .hero-main-slider-pane,
+        .hero-split-showcase .hero-notice-board-pane {
+            flex: 0 0 100% !important;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+    .featured_section16 .departments-flex-row {
+        flex-wrap: wrap !important; /* Allows responsive wrapping below desktops view */
+        gap: 16px !important;
+    }
+
+        .featured_section16 .departments-flex-row a {
+            flex: 0 0 30% !important; /* Smooth fluid 3-column rows distribution blocks on mobile screens */
+        }
+
+
+
+    .info-showcase-split-row {
+        flex-direction: column !important;
+        gap: 25px !important;
+    }
+
+    .principal-message-card-pane,
+    .vision-mission-card-pane {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+
+
+
+@media (max-width: 1920px) {
+    .notice-board-height {
+        min-height: 530px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 530px;
+    }
+
+    .activity-height {
+        min-height: 530px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 495px;
+    }
+}
+
+/* Large desktop */
+@media (max-width: 1536px) {
+    .notice-board-height {
+        min-height: 410px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 410px;
+    }
+
+    .activity-height {
+        min-height: 410px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 380px;
+    }
+}
+
+/* Desktop */
+@media (max-width: 1280px) {
+    .notice-board-height {
+        min-height: 330px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 330px;
+    }
+
+    .activity-height {
+        min-height: 300px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 300px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+    .notice-board-height {
+        min-height: 240px;
+        padding: 10px;
+    }
+
+    .notice-board-marquee-height {
+        min-height: 240px;
+    }
+
+    .activity-height {
+        min-height: 240px;
+        padding: 10px;
+    }
+
+    .activity-marquee-height {
+        min-height: 200px;
+    }
+
+    .New_container {
+        gap: 15px !important;
+    }
+}
+
+/* 6. The Animation Keyframes */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100vw); /* Start off-screen right */
+    }
+
+    100% {
+        transform: translateX(-100%); /* End off-screen left */
+    }
+}

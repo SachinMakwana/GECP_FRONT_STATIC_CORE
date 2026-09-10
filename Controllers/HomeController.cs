@@ -23,19 +23,27 @@ namespace GECP_Front_End_Static.Controllers
         public List<TestimonialModelVM> TestimonialData = new List<TestimonialModelVM>();
         public List<NEWSModel> NEWSModelData = new List<NEWSModel>();
         public List<MasterSliderVM> MasterSliderVMData = new List<MasterSliderVM>();
+        public List<VideoCarouselVM> VideoCarouselVMData = new List<VideoCarouselVM>();
+        public List<VideoCarouselVM> NotableAlumniVMData = new List<VideoCarouselVM>();
+        public PlacementCellContent PlacementCellContent = new PlacementCellContent();
+        public AboutUsVM AboutUsVMs = new AboutUsVM();
+        public List<ProgramInfo> ProgramIntake = new List<ProgramInfo>();
         public List<MenuVM> MenuVMs = new List<MenuVM>();
         private HeaderVM headerVM = new HeaderVM();
+        
         public HomeController(IWebHostEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
             string webRootPath = _hostingEnvironment.WebRootPath;
-            string marqueejsonpath = webRootPath + @"\js\MarqueeContent.json";
+            string marqueejsonpath = webRootPath + @"\Data\Home\MarqueeContent.json";
             string actmarqueejsonpath = webRootPath + @"\Data\Activities\Activities.json";
             string testimonialjsonpath = webRootPath + @"\js\TestimonialsData.json";
             string newsjsonpatah = webRootPath + @"\NEWS.json";
             string MSjsonpatah = webRootPath + @"\Data\MasterSlider.json";
             string HeaderJsonpatah = webRootPath + @"\Data\HeaderItems.json";
             string MenuJsonpatah = webRootPath + @"\Data\MenuItems.json";
+            string VideoCarouselpath = webRootPath + @"\Data\Home\VideoCarousel.json";
+            string NotableAlumnipath = webRootPath + @"\Data\Home\NotableAlumni.json";
 
             var webClient = new WebClient();
             string json = webClient.DownloadString(marqueejsonpath);
@@ -60,12 +68,35 @@ namespace GECP_Front_End_Static.Controllers
             MasterSliderVMData = JsonConvert.DeserializeObject<List<MasterSliderVM>>(json);
 
             webClient = new WebClient();
+            json = webClient.DownloadString(VideoCarouselpath);
+            VideoCarouselVMData = JsonConvert.DeserializeObject<List<VideoCarouselVM>>(json);
+
+            webClient = new WebClient();
+            json = webClient.DownloadString(NotableAlumnipath);
+            NotableAlumniVMData = JsonConvert.DeserializeObject<List<VideoCarouselVM>>(json);
+
+            webClient = new WebClient();
             json = webClient.DownloadString(HeaderJsonpatah);
             headerVM = JsonConvert.DeserializeObject<HeaderVM>(json);
 
             webClient = new WebClient();
             json = webClient.DownloadString(MenuJsonpatah);
             MenuVMs = JsonConvert.DeserializeObject<List<MenuVM>>(json);
+
+            var placementpath = webRootPath + @"\Data\NewPlacementCell\PlacementCellContent.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(placementpath);
+            PlacementCellContent = JsonConvert.DeserializeObject<PlacementCellContent>(json);
+
+            var jsonpath = webRootPath + @"\Data\Institute\AboutUs.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            AboutUsVMs = JsonConvert.DeserializeObject<AboutUsVM>(json);
+
+            jsonpath = webRootPath + @"\Data\Institute\ProgramIntake.json";
+            webClient = new WebClient();
+            json = webClient.DownloadString(jsonpath);
+            ProgramIntake = JsonConvert.DeserializeObject<List<ProgramInfo>>(json);
         }
 
         public IActionResult Index()
@@ -78,6 +109,11 @@ namespace GECP_Front_End_Static.Controllers
             homePageModelVM.testimonialModelVM = TestimonialData;
             homePageModelVM.newsModelVM = NEWSModelData;
             homePageModelVM.masterSliderVM = MasterSliderVMData;
+            homePageModelVM.videoCarouselVMs = VideoCarouselVMData;
+            homePageModelVM.TopRecruiters = PlacementCellContent.TopRecruiters;
+            AboutUsVMs.Departments = ProgramIntake;
+            homePageModelVM.aboutUsVM = AboutUsVMs;
+            homePageModelVM.notableAlumniVMs = NotableAlumniVMData;
             return View(homePageModelVM);
         }
 
