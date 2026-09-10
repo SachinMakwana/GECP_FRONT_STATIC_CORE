@@ -1162,22 +1162,21 @@ table.dataTable thead .sorting_desc_disabled:before {
         bottom: 0 !important;
         left: 0 !important;
         right: 0 !important;
-        /* Transparent layout formatting styling values */
-        background: rgba(0, 0, 0, 0.6) !important; /* Adjust the 0.6 value up or down to tweak visibility transparency */
-        color: #ffffff !important; /* Solid crisp white typography */
-        /* Layout text flow spacing rules */
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #ffffff !important;
         padding: 10px 14px !important;
         font-size: 14px !important;
         font-weight: 500 !important;
         text-align: center !important;
-        z-index: 10 !important; /* Forces it to overlay on top of images/video backdrops */
-        /* Prevents messy multi-line breakage inside small column spaces */
-        white-space: nowrap !important;
-        overflow: hidden !important;
-        text-overflow: ellipsis !important; /* Automatically cuts off long strings with clean trailing dots '...' */
-
-        pointer-events: none !important; /* Stops the caption bar from blocking interaction tracker hits on video buttons */
+        z-index: 10 !important;
+        /* Allow text wrapping */
+        white-space: normal !important;
+        overflow: visible !important;
+        overflow-wrap: break-word !important;
+        word-break: normal !important;
+        pointer-events: none !important;
     }
+
 
     /*responsive goes here*/
     @media only screen and (max-width: 479px) {

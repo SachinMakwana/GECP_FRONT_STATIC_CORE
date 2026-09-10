@@ -19,7 +19,7 @@
                 "ControllerName": "",
                 "ActionName": "",
                 "dynamicID": null,
-                "isshow": true,
+                "isshow": false,
                 "isNew": true
             }
         ]

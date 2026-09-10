@@ -39,6 +39,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\DataFiles\Departments\MECH\" />
+    <Folder Include="wwwroot\images\Home\Alumni\" />
     <Folder Include="wwwroot\js\pdfobject\" />
   </ItemGroup>
 
