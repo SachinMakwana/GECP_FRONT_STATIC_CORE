@@ -26,58 +26,68 @@
     },
   {
     "updateModelVM": [
-        {
-            "ID": 1,
-            "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
-            "IsFile": true,
-            "FileLink": "~/ImpDocs/ActivityPoster.pdf",
-            "ControllerName": "",
-            "ActionName": "",
-            "isshow": true,
-            "isNew": false
-        },
-        {
-            "ID": 2,
-            "Title": "Information Booklet 2026-2027",
-            "IsFile": true,
-            "FileLink": "~/DataFiles/Documents/Infobook/2627.pdf",
-            "ControllerName": "",
-            "ActionName": "",
-            "isshow": true,
-            "isNew": true
-        }
-        //,
-        //{
-        //    "ID": 3,
-        //    "Title": "3-Days Workshop on Smart Manufacturing: Advanced CAD Design and Rapid Prototyping from 18th to 20th August 2026",
-        //    "IsFile": true,
-        //    "FileLink": "~/DataFiles/Documents/Updates/Three Day Workshop.pdf",
-        //    "ControllerName": "",
-        //    "ActionName": "",
-        //    "dynamicID": null,
-        //    "isshow": false,
-        //    "isNew": true
-        //}
-        //,{
-        //  "ID": 3,
-        //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
-        //  "IsFile": false,
-        //  "FileLink": "",
-        //  "ControllerName": "CampusCommittee",
-        //  "ActionName": "CommitteePage",
-        //  "dynamicID": 17,
-        //  "isshow": false,
-        //  "isNew": true
-        //}
-        //{
-        //    "ID": 3,
-        //    "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
-        //    "IsFile": 1,
-        //    "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
-        //    "ControllerName": "",
-        //    "ActionName": "",
-        //    "isNew": true
-        //}
+      {
+        "ID": 1,
+        "Title": "પ્લેસમેન્ટ કાર્યક્રમોની રૂપરેખા",
+        "IsFile": true,
+        "FileLink": "~/ImpDocs/ActivityPoster.pdf",
+        "ControllerName": "",
+        "ActionName": "",
+        "isshow": true,
+        "isNew": false
+      },
+      {
+        "ID": 3,
+        "Title": "Scholarship Related Information",
+        "IsFile": true,
+        "FileLink": "https://ssgecpatan.blogspot.com/",
+        "ControllerName": "",
+        "ActionName": "",
+        "isshow": true,
+        "isNew": false
+      },
+      {
+        "ID": 2,
+        "Title": "Information Booklet 2026-2027",
+        "IsFile": true,
+        "FileLink": "~/DataFiles/Documents/Infobook/2627.pdf",
+        "ControllerName": "",
+        "ActionName": "",
+        "isshow": true,
+        "isNew": true
+      }
+      //,
+      //{
+      //    "ID": 3,
+      //    "Title": "3-Days Workshop on Smart Manufacturing: Advanced CAD Design and Rapid Prototyping from 18th to 20th August 2026",
+      //    "IsFile": true,
+      //    "FileLink": "~/DataFiles/Documents/Updates/Three Day Workshop.pdf",
+      //    "ControllerName": "",
+      //    "ActionName": "",
+      //    "dynamicID": null,
+      //    "isshow": false,
+      //    "isNew": true
+      //}
+      //,{
+      //  "ID": 3,
+      //  "Title": "GEC PATAN,VISITING FACULTY RECRUITMENT 2026-27",
+      //  "IsFile": false,
+      //  "FileLink": "",
+      //  "ControllerName": "CampusCommittee",
+      //  "ActionName": "CommitteePage",
+      //  "dynamicID": 17,
+      //  "isshow": false,
+      //  "isNew": true
+      //}
+      //{
+      //    "ID": 3,
+      //    "Title": "જાહેરાત: એપ્રેન્ટિસ ભરતી",
+      //    "IsFile": 1,
+      //    "FileLink": "~/ImpDocs/GECP_apprenticeship_2026_2027.pdf",
+      //    "ControllerName": "",
+      //    "ActionName": "",
+      //    "isNew": true
+      //}
     ]
   }
 ]
