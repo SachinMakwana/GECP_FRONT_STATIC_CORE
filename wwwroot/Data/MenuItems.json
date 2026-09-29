@@ -715,13 +715,14 @@
       },
       {
         "ID": 61,
-        "MenuText": "Student Section",
+        "MenuText": "Student Section Blog",
         "ParentID": 6,
-        "dynamicID": 8,
-        "ControllerName": "CampusCommittee",
-        "ActionName": "CommitteePage",
+        "dynamicID": null,
+        "ControllerName": "",
+        "ActionName": "",
         "position": 2,
         "isVisible": true,
+        "Link": "https://ssgecpatan.blogspot.com/",
         "ChildMenuVMs": []
       },
       {
